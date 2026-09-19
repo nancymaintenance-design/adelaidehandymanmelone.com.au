@@ -1,0 +1,17 @@
+{
+  "name": "mel-one-local-website",
+  "version": "1.0.0",
+  "description": "MEL ONE — Adelaide household-maintenance website candidate",
+  "private": true,
+  "scripts": {
+    "build":      "node build.mjs",
+    "build:docs": "node build.mjs --docs",
+    "serve":      "node serve.cjs",
+    "start":      "node serve.cjs",
+    "check":      "node check.cjs",
+    "test":       "node --test test/*.test.cjs tests/*.test.cjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
