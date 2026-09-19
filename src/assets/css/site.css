@@ -291,3 +291,6 @@ a, button, input, textarea, summary { scroll-margin-block: 24px 112px; }
   .service-visual-gallery:has(> :nth-child(2)) { grid-template-columns: 1fr; }
   .workflow-visual { float: none; width: 100%; margin: 0 0 24px; }
 }
+
+/* Honeypot input: available to bots, unobtrusive for people and assistive tech. */
+.honeypot { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }

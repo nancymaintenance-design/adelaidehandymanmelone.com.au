@@ -21,16 +21,11 @@
     narrow.addEventListener('change', sync);
     sync();
   }
-  const form = document.querySelector('[data-local-enquiry]');
+  const form = document.querySelector('[data-enquiry-form]');
   if (!form) return;
-  // No submit, fetch, telemetry, photo reads or browser persistence in the local demo.
-  form.addEventListener('submit', event => event.preventDefault());
-  const button = form.querySelector('[data-preview-enquiry]');
+  const button = form.querySelector('[data-enquiry-submit]');
   const status = form.querySelector('[data-enquiry-status]');
-  const preview = form.querySelector('[data-enquiry-preview]');
-  button.disabled = false;
-  button.addEventListener('click', () => {
-    const values = new FormData(form);
+  const validate = values => {
     const errors = {};
     if (!String(values.get('message')).trim()) errors.message = 'Describe what needs attention.';
     if (!String(values.get('suburb')).trim()) errors.suburb = 'Add your suburb or postcode.';
@@ -41,28 +36,37 @@
       document.getElementById(`${name}-error`).textContent = errors[name] || '';
     }
     if (Object.keys(errors).length) {
-      preview.hidden = true;
-      status.textContent = 'Check the highlighted details. Nothing has been sent.';
+      status.textContent = 'Check the highlighted details before sending.';
       form.elements[Object.keys(errors)[0]].focus();
-      return;
+      return false;
     }
-    preview.replaceChildren();
-    const heading = document.createElement('h3');
-    heading.textContent = 'Your enquiry preview';
-    preview.append(heading);
-    const details = document.createElement('dl');
-    for (const [name, label] of [['message', 'What needs attention'], ['suburb', 'Suburb or postcode'], ['timing', 'Preferred timing'], ['contactPreference', 'Preferred reply'], ['phone', 'Phone'], ['email', 'Email']]) {
-      const value = String(values.get(name) || '').trim();
-      if (!value) continue;
-      const term = document.createElement('dt');
-      term.textContent = label;
-      const detail = document.createElement('dd');
-      detail.textContent = value;
-      details.append(term, detail);
+    return true;
+  };
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    const values = new FormData(form);
+    if (!validate(values)) return;
+    button.disabled = true;
+    status.textContent = 'Sending your enquiry…';
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(values.entries())),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(result.error || 'We could not send your enquiry.');
+      form.reset();
+      for (const name of ['message', 'suburb', 'phone', 'email']) {
+        form.elements[name].setAttribute('aria-invalid', 'false');
+        document.getElementById(`${name}-error`).textContent = '';
+      }
+      status.textContent = 'Thank you — your enquiry has been sent to MEL ONE. We will be in touch.';
+    } catch (error) {
+      status.textContent = `${error.message} Please call 0416 614 281 or email admin@melonemaintenance.com.au.`;
+    } finally {
+      button.disabled = false;
     }
-    preview.append(details);
-    preview.hidden = false;
-    status.textContent = 'Preview ready. Nothing has been sent or saved. Call or email MEL ONE to make your enquiry.';
   });
   form.querySelector('textarea').addEventListener('input', event => {
     event.target.style.height = 'auto';

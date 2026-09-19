@@ -1,4 +1,4 @@
-const RECIPIENT = 'handymanfelix.au2026@outlook.com';
+const RECIPIENT = 'admin@melonemaintenance.com.au';
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_FIELD_LENGTH = 4000;
 
@@ -15,28 +15,36 @@ function validateContact(input = {}) {
   const phone = text(input.phone);
   const email = text(input.email);
   const message = text(input.message);
+  const suburb = text(input.suburb);
+  const timing = text(input.timing);
+  const contactPreference = text(input.contactPreference);
 
   if (text(input.website)) return { error: 'Please submit a valid enquiry.' };
-  if (!name) return { error: 'Please enter your name.' };
-  if (!phone) return { error: 'Please add a phone number.' };
-  if (!email || !EMAIL_PATTERN.test(email)) return { error: 'Please enter a valid email address.' };
   if (!message) return { error: 'Please add your project details or question.' };
-  if ([name, phone, email, message].some((value) => value.length > MAX_FIELD_LENGTH)) {
+  if (!suburb) return { error: 'Please add your suburb or postcode.' };
+  if (!['phone', 'email'].includes(contactPreference)) return { error: 'Please choose how you would like us to reply.' };
+  if (contactPreference === 'phone' && !phone) return { error: 'Please add a phone number for your preferred reply.' };
+  if (contactPreference === 'email' && (!email || !EMAIL_PATTERN.test(email))) return { error: 'Please enter a valid email address for your preferred reply.' };
+  if (email && !EMAIL_PATTERN.test(email)) return { error: 'Please enter a valid email address.' };
+  if ([name, phone, email, message, suburb, timing, contactPreference].some((value) => value.length > MAX_FIELD_LENGTH)) {
     return { error: 'One or more fields are too long.' };
   }
 
-  return { value: { name, phone, email, message } };
+  return { value: { name, phone, email, message, suburb, timing, contactPreference } };
 }
 
 function createEmailPayload(enquiry, from) {
   const safe = Object.fromEntries(Object.entries(enquiry).map(([key, value]) => [key, escapeHtml(value)]));
+  const customerName = enquiry.name || 'Website enquiry';
+  const replyTo = EMAIL_PATTERN.test(enquiry.email) ? enquiry.email : undefined;
+  const contactLine = enquiry.contactPreference === 'phone' ? enquiry.phone : enquiry.email;
   return {
     from,
     to: [RECIPIENT],
-    reply_to: enquiry.email,
-    subject: `New MEL ONE website enquiry — ${enquiry.name}`,
-    html: `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#17372f;line-height:1.5"><h1>New MEL ONE website enquiry</h1><p><strong>Name:</strong> ${safe.name}</p><p><strong>Phone:</strong> ${safe.phone}</p><p><strong>Email:</strong> ${safe.email}</p><hr><p><strong>Project or question:</strong></p><p>${safe.message.replaceAll('\n', '<br>')}</p></body></html>`,
-    text: `New MEL ONE website enquiry\n\nName: ${enquiry.name}\nPhone: ${enquiry.phone}\nEmail: ${enquiry.email}\n\nProject or question:\n${enquiry.message}`,
+    ...(replyTo ? { reply_to: replyTo } : {}),
+    subject: `New MEL ONE website enquiry — ${customerName}`,
+    html: `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#17372f;line-height:1.5"><h1>New MEL ONE website enquiry</h1><p><strong>Name:</strong> ${safe.name || 'Not provided'}</p><p><strong>Preferred reply:</strong> ${safe.contactPreference}</p><p><strong>Preferred contact:</strong> ${escapeHtml(contactLine)}</p><p><strong>Phone:</strong> ${safe.phone || 'Not provided'}</p><p><strong>Email:</strong> ${safe.email || 'Not provided'}</p><p><strong>Suburb or postcode:</strong> ${safe.suburb}</p><p><strong>Preferred timing:</strong> ${safe.timing || 'Not provided'}</p><hr><p><strong>What needs attention:</strong></p><p>${safe.message.replaceAll('\n', '<br>')}</p></body></html>`,
+    text: `New MEL ONE website enquiry\n\nName: ${enquiry.name || 'Not provided'}\nPreferred reply: ${enquiry.contactPreference}\nPreferred contact: ${contactLine}\nPhone: ${enquiry.phone || 'Not provided'}\nEmail: ${enquiry.email || 'Not provided'}\nSuburb or postcode: ${enquiry.suburb}\nPreferred timing: ${enquiry.timing || 'Not provided'}\n\nWhat needs attention:\n${enquiry.message}`,
   };
 }
 
@@ -48,6 +56,7 @@ async function readBody(req) {
 }
 
 async function handler(req, res) {
+  res.setHeader('Cache-Control', 'no-store');
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed.' });
 
   try {
