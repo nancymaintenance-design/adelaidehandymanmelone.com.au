@@ -89,7 +89,7 @@ test('all required routes offer confirmed contacts and the authorized identity',
     assert.match(html, /src="\/assets\/mel-one-logo-authorized\.png"/, `${route}: logo`);
     assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${route}: one main heading`);
   }
-  assert.match(read('/'), /src="\/assets\/images\/mel-one-adelaide-home-hero\.png"/);
+  assert.match(read('/'), /src="\/assets\/images\/mel-one-adelaide-home-hero\.jpg"/);
   assert.match(read('/404.html'), /name="robots" content="noindex,\s*follow"/);
 });
 

@@ -6,24 +6,24 @@ const buildFixture = require('./build-fixture.cjs');
 
 const preview = buildFixture(test);
 const approved = {
-  hero: 'images/mel-one-adelaide-home-hero.png',
-  taskWall: 'images/mel-one-maintenance-task-wall.png',
-  roof: 'images/mel-one-roof-gutter-exterior.png',
-  outdoor: 'images/mel-one-outdoor-structures-fences.png',
-  repairs: 'images/mel-one-home-repairs-renovation.png',
-  electrical: 'images/mel-one-household-electrical-work.png',
-  interior: 'images/mel-one-interior-repair-assembly.png',
-  doors: 'images/mel-one-door-window-maintenance.png',
-  garden: 'images/mel-one-garden-landscape-care.png',
-  roofWork: 'images/mel-one-gutter-care.png',
-  cleaning: 'images/mel-one-household-removals-cleaning.png',
+  hero: 'images/mel-one-adelaide-home-hero.jpg',
+  taskWall: 'images/mel-one-maintenance-task-wall.jpg',
+  roof: 'images/mel-one-roof-gutter-exterior.jpg',
+  outdoor: 'images/mel-one-outdoor-structures-fences.jpg',
+  repairs: 'images/mel-one-home-repairs-renovation.jpg',
+  electrical: 'images/mel-one-household-electrical-work.jpg',
+  interior: 'images/mel-one-interior-repair-assembly.jpg',
+  doors: 'images/mel-one-door-window-maintenance.jpg',
+  garden: 'images/mel-one-garden-landscape-care.jpg',
+  roofWork: 'images/mel-one-gutter-care.jpg',
+  cleaning: 'images/mel-one-household-removals-cleaning.jpg',
   workflow: [
-    'images/mel-one-workflow-request-details.png',
-    'images/mel-one-workflow-scope-discussion.png',
-    'images/mel-one-workflow-contact-next-step.png',
+    'images/mel-one-workflow-request-details.jpg',
+    'images/mel-one-workflow-scope-discussion.jpg',
+    'images/mel-one-workflow-contact-next-step.jpg',
   ],
-  about: 'images/mel-one-about-home-maintenance.png',
-  areas: 'images/mel-one-adelaide-service-area.png',
+  about: 'images/mel-one-about-home-maintenance.jpg',
+  areas: 'images/mel-one-adelaide-service-area.jpg',
 };
 
 function html(file) {

@@ -39,24 +39,24 @@ const origin = originUrl.origin;
 const canonical = route => `${origin}${route}`;
 const logo = '/assets/mel-one-logo-authorized.png';
 const intakeAssets = {
-  hero: '/assets/images/mel-one-adelaide-home-hero.png',
-  taskWall: '/assets/images/mel-one-maintenance-task-wall.png',
-  roof: '/assets/images/mel-one-roof-gutter-exterior.png',
-  outdoor: '/assets/images/mel-one-outdoor-structures-fences.png',
-  repairs: '/assets/images/mel-one-home-repairs-renovation.png',
-  electrical: '/assets/images/mel-one-household-electrical-work.png',
-  interior: '/assets/images/mel-one-interior-repair-assembly.png',
-  doors: '/assets/images/mel-one-door-window-maintenance.png',
-  garden: '/assets/images/mel-one-garden-landscape-care.png',
-  gutterCare: '/assets/images/mel-one-gutter-care.png',
-  cleaning: '/assets/images/mel-one-household-removals-cleaning.png',
+  hero: '/assets/images/mel-one-adelaide-home-hero.jpg',
+  taskWall: '/assets/images/mel-one-maintenance-task-wall.jpg',
+  roof: '/assets/images/mel-one-roof-gutter-exterior.jpg',
+  outdoor: '/assets/images/mel-one-outdoor-structures-fences.jpg',
+  repairs: '/assets/images/mel-one-home-repairs-renovation.jpg',
+  electrical: '/assets/images/mel-one-household-electrical-work.jpg',
+  interior: '/assets/images/mel-one-interior-repair-assembly.jpg',
+  doors: '/assets/images/mel-one-door-window-maintenance.jpg',
+  garden: '/assets/images/mel-one-garden-landscape-care.jpg',
+  gutterCare: '/assets/images/mel-one-gutter-care.jpg',
+  cleaning: '/assets/images/mel-one-household-removals-cleaning.jpg',
   workflow: [
-    '/assets/images/mel-one-workflow-request-details.png',
-    '/assets/images/mel-one-workflow-scope-discussion.png',
-    '/assets/images/mel-one-workflow-contact-next-step.png',
+    '/assets/images/mel-one-workflow-request-details.jpg',
+    '/assets/images/mel-one-workflow-scope-discussion.jpg',
+    '/assets/images/mel-one-workflow-contact-next-step.jpg',
   ],
-  about: '/assets/images/mel-one-about-home-maintenance.png',
-  areas: '/assets/images/mel-one-adelaide-service-area.png',
+  about: '/assets/images/mel-one-about-home-maintenance.jpg',
+  areas: '/assets/images/mel-one-adelaide-service-area.jpg',
 };
 const hero = intakeAssets.hero;
 const navigation = [['Home', '/'], ['Services', '/services/'], ['How it works', '/how-it-works/'], ['Field notes', '/guides/'], ['About', '/about/']];
