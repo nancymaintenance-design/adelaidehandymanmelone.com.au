@@ -1,5 +1,5 @@
 {
-  "buildCommand": "",
+  "buildCommand": "node build.mjs --docs",
   "outputDirectory": "docs",
   "functions": {
     "api/contact.js": {
