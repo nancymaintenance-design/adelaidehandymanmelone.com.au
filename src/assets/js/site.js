@@ -1,4 +1,10 @@
 (() => {
+  const track = (eventName, parameters = {}) => {
+    if (typeof window.gtag === 'function') window.gtag('event', eventName, parameters);
+  };
+  document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+    link.addEventListener('click', () => track('click_to_call', { link_url: link.href }));
+  });
   const menu = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#primary-nav');
   const narrow = window.matchMedia('(max-width: 850px)');
@@ -56,6 +62,7 @@
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(result.error || 'We could not send your enquiry.');
+      track('generate_lead', { form_name: 'contact_enquiry', preferred_contact: values.get('contactPreference') || 'not_provided' });
       form.reset();
       for (const name of ['message', 'suburb', 'phone', 'email']) {
         form.elements[name].setAttribute('aria-invalid', 'false');
