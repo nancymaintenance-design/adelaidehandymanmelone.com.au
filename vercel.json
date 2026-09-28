@@ -1,6 +1,6 @@
 {
-  "buildCommand": "unzip -q mel-one-site-core.zip -d dist && unzip -q mel-one-site-media-a.zip -d dist && unzip -q mel-one-site-media-b.zip -d dist",
-  "outputDirectory": "dist",
+  "buildCommand": "node build.mjs",
+  "outputDirectory": "public",
   "headers": [
     {
       "source": "/(.*)\\.(png|jpg|jpeg|webp|gif|svg|ico|woff|woff2)",
