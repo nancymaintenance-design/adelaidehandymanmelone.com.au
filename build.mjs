@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.join(projectDir, process.argv.includes('--docs') ? 'docs' : 'public');
 const content = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/mel-one-site-content.json'), 'utf8'));
+const serviceAreas = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/service-areas.json'), 'utf8'));
 const collections = ['services', 'news', 'guides', 'faqs'];
 const escapeHtml = (value = '') => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 const json = value => JSON.stringify(value).replaceAll('<', '\\u003c');
@@ -27,7 +28,23 @@ function validateContent(candidate) {
   const expected = { phone: '0416 614 281', email: 'admin@melonemaintenance.com.au', address: '63 Pirie St Adelaide SA 5000' };
   for (const [key, value] of Object.entries(expected)) if (candidate.site.contact?.[key] !== value) throw new Error(`Unconfirmed ${key}.`);
 }
+function validateServiceAreas(areas) {
+  if (!Array.isArray(areas) || areas.length !== 8) throw new Error('Eight Greater Adelaide service areas are required.');
+  const names = JSON.stringify(areas);
+  if (/\b(?:Aranda|Canberra)\b/i.test(names)) throw new Error('Canberra and Aranda are outside the Greater Adelaide service-area scope.');
+  const regionSlugs = areas.map(area => area.slug);
+  if (new Set(regionSlugs).size !== regionSlugs.length) throw new Error('Duplicate service-area slug.');
+  const suburbSlugs = areas.flatMap(area => {
+    if (!area.slug || !area.name || !area.description || !area.context || !Array.isArray(area.suburbs) || !area.suburbs.length) throw new Error('Incomplete service-area record.');
+    return area.suburbs.map(suburb => {
+      if (!suburb.slug || !suburb.name || !suburb.primaryService || !suburb.title || !suburb.description || !suburb.lead || !suburb.localContext || !Array.isArray(suburb.services) || suburb.services.length !== 6 || !Array.isArray(suburb.faqs) || suburb.faqs.length < 3 || suburb.faqs.length > 5 || !suburb.faqs.every(faq => faq.question && faq.answer)) throw new Error(`Incomplete suburb record: ${suburb.slug || 'unknown'}`);
+      return suburb.slug;
+    });
+  });
+  if (new Set(suburbSlugs).size !== suburbSlugs.length) throw new Error('Duplicate suburb slug.');
+}
 validateContent(content);
+validateServiceAreas(serviceAreas);
 const published = Object.fromEntries(collections.map(key => [key, content[key].filter(item => item.status === 'approved' && item.noindex !== true)]));
 const { site } = content;
 const contact = site.contact;
