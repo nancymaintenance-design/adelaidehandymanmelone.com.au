@@ -53,4 +53,10 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.match(suburb, /<h1>Shower Screen Repairs in Norwood, Adelaide<\/h1>/);
   assert.match(suburb, /Shower screen repairs and adjustments/);
   assert.match(suburb, /href="\/contact\/\?region=eastern-suburbs&amp;suburb=norwood"/);
+  const graph = JSON.parse(suburb.match(/application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
+  assert.ok(graph.some(item => item['@type'] === 'Service'));
+  assert.ok(graph.some(item => item['@type'] === 'FAQPage'));
+  const feed = JSON.parse(preview.read('service-areas/feed.json'));
+  assert.equal(feed.regions.length, 8);
+  assert.equal(feed.regions.find(area => area.slug === 'eastern-suburbs').suburbs[0].url, 'https://www.adelaidehandymanmelone.com.au/service-areas/eastern-suburbs/norwood/');
 });
