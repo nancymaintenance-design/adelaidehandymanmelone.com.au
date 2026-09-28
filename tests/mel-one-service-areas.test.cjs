@@ -49,6 +49,9 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.match(index, /area-atlas-search/);
   assert.match(index, /class="area-atlas-hero"/);
   assert.match(index, /Adelaide home maintenance service area/);
+  const atlas = index.match(/<section class="area-atlas">([\s\S]*?)<section class="contact-band">/)[1];
+  assert.doesNotMatch(atlas, /<br>/);
+  assert.doesNotMatch(atlas, /&lt;br&gt;/);
   assert.match(index, /Adelaide CBD &amp; North Adelaide/);
   assert.match(index, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
   assert.match(index, /Popular suburbs/);
