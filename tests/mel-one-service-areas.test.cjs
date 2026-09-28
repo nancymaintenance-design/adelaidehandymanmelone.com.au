@@ -59,6 +59,10 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.match(suburb, /Shower screen repairs and adjustments/);
   assert.match(suburb, /href="\/contact\/\?region=eastern-suburbs&amp;suburb=norwood"/);
   assert.doesNotMatch(suburb, /href="\/service-areas\/eastern-suburbs\/"/);
+  assert.match(suburb, /href="\/services\/doors-windows-screens\/"/);
+  assert.match(suburb, /href="\/services\/roof-gutter-exterior-care\/"/);
+  assert.match(suburb, /Related popular suburbs/);
+  assert.match(suburb, /href="\/service-areas\/eastern-suburbs\/burnside\/"/);
   const graph = JSON.parse(suburb.match(/application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   assert.ok(graph.some(item => item['@type'] === 'Service'));
   assert.ok(graph.some(item => item['@type'] === 'FAQPage'));
