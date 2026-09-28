@@ -48,12 +48,12 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.match(index, /Adelaide CBD &amp; North Adelaide/);
   assert.match(index, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
   assert.doesNotMatch(index, /href="\/service-areas\/eastern-suburbs\/"(?!>)/);
-  const region = preview.read('service-areas/eastern-suburbs/index.html');
-  assert.match(region, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
+  assert.ok(!fs.existsSync(path.join(preview.output, 'service-areas/eastern-suburbs/index.html')));
   const suburb = preview.read('service-areas/eastern-suburbs/norwood/index.html');
   assert.match(suburb, /<h1>Shower Screen Repairs in Norwood, Adelaide<\/h1>/);
   assert.match(suburb, /Shower screen repairs and adjustments/);
   assert.match(suburb, /href="\/contact\/\?region=eastern-suburbs&amp;suburb=norwood"/);
+  assert.doesNotMatch(suburb, /href="\/service-areas\/eastern-suburbs\/"/);
   const graph = JSON.parse(suburb.match(/application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   assert.ok(graph.some(item => item['@type'] === 'Service'));
   assert.ok(graph.some(item => item['@type'] === 'FAQPage'));
