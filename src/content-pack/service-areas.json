@@ -1,10 +1,362 @@
 [
-  {"slug":"cbd-north-adelaide","name":"Adelaide CBD & North Adelaide","description":"Maintenance enquiries for city homes, apartments and small premises.","context":"Central Adelaide households and property managers often need clear scheduling and practical maintenance coordination.","suburbs":[{"slug":"north-adelaide","name":"North Adelaide","primaryService":"door and window repairs","title":"Door and Window Repairs in North Adelaide, Adelaide","description":"Local handyman support for practical North Adelaide home maintenance.","lead":"MEL ONE helps North Adelaide customers organise door, window, flyscreen, exterior and general maintenance enquiries.","localContext":"Older homes and apartment properties can benefit from a careful check of everyday fittings before minor faults become larger disruptions.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Do you provide handyman services in North Adelaide?","answer":"Yes. Tell us the maintenance issue, property address and preferred timing so availability can be discussed."},{"question":"Can you help with doors and windows?","answer":"Describe the fault, such as sticking, loose hardware or damaged screens, so practical next steps can be considered."},{"question":"How quickly can you respond?","answer":"Eligible enquiries may receive a response in as little as 30 minutes, subject to location, enquiry volume and availability."}]}]},
-  {"slug":"eastern-suburbs","name":"Eastern Suburbs","description":"Home maintenance support across Adelaide's eastern suburbs.","context":"Eastern suburbs homes often need practical upkeep for fittings, exterior areas and gardens.","suburbs":[{"slug":"norwood","name":"Norwood","primaryService":"shower screen repairs","title":"Shower Screen Repairs in Norwood, Adelaide","description":"Shower screen and home maintenance enquiries for Norwood properties.","lead":"MEL ONE supports Norwood households with shower screens, doors, flyscreens, fences, gardens and general maintenance.","localContext":"A clear inspection of alignment, seals, tracks and visible fittings helps identify the right maintenance path.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Can you inspect a Norwood shower screen?","answer":"Yes. Include a safe photo and explain whether it leaks, drags or no longer closes properly."},{"question":"Do you repair flyscreens?","answer":"Tell us whether the mesh, frame or door operation needs attention so the enquiry can be assessed."},{"question":"Can several household jobs be included?","answer":"Yes. Group tasks by room or outdoor area and explain the priority for each item."}]}]},
-  {"slug":"inner-south","name":"Inner South","description":"Handyman enquiries for Adelaide inner-south homes and rentals.","context":"Inner-south customers can combine practical interior and outdoor maintenance requests.","suburbs":[{"slug":"unley","name":"Unley","primaryService":"home repairs","title":"Home Repairs in Unley, Adelaide","description":"Practical Unley home repair and maintenance support.","lead":"MEL ONE helps Unley homeowners, landlords and property managers describe and organise everyday repair needs.","localContext":"A methodical assessment helps separate straightforward maintenance from work needing a qualified specialist.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Do you work with Unley rental properties?","answer":"Yes. Provide the property address, issue description and the person authorised to discuss the work."},{"question":"Can you diagnose a repair issue?","answer":"Our experienced maintenance professionals inspect visible conditions and explain practical next steps."},{"question":"Is a web enquiry a booking?","answer":"No. Availability, scope and any appointment are confirmed directly."}]}]},
-  {"slug":"inner-west","name":"Inner West","description":"Maintenance enquiries for inner-west Adelaide properties.","context":"Inner-west homes benefit from clear, practical repair and upkeep planning.","suburbs":[{"slug":"mile-end","name":"Mile End","primaryService":"fence repairs","title":"Fence Repairs in Mile End, Adelaide","description":"Fence, gate and general handyman enquiries for Mile End.","lead":"MEL ONE helps Mile End customers organise fence, gate, door, exterior and general household maintenance.","localContext":"Visible movement, worn hardware and weather exposure can be assessed before a maintenance approach is agreed.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Can you inspect a Mile End fence or gate?","answer":"Yes. Describe the affected section and include safe photos where helpful."},{"question":"Do you also help with exterior upkeep?","answer":"We consider agreed general maintenance tasks and identify when a specialist is required."},{"question":"How do I request a time?","answer":"Use the form with your address, contact details and preferred timing."}]}]},
-  {"slug":"western-suburbs","name":"Western Suburbs","description":"Property maintenance enquiries across Adelaide's western suburbs.","context":"Western suburbs properties may need routine care for exterior fittings and household use.","suburbs":[{"slug":"henley-beach","name":"Henley Beach","primaryService":"gutter maintenance","title":"Gutter Maintenance in Henley Beach, Adelaide","description":"Exterior and household maintenance support for Henley Beach.","lead":"MEL ONE helps Henley Beach customers describe accessible gutter, door, screen, fence and garden maintenance needs.","localContext":"Weather exposure and routine property care can affect outdoor fittings, screens and exterior areas.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Can you help with Henley Beach exterior maintenance?","answer":"Describe the accessible area and concern so an appropriate next step can be discussed."},{"question":"Do you repair screen doors?","answer":"Yes. Include the door type and whether the mesh, frame or operation is affected."},{"question":"What response time should I expect?","answer":"Suitable enquiries may receive a response in as little as 30 minutes, subject to availability."}]}]},
-  {"slug":"north-north-east","name":"North & North-East","description":"Household maintenance enquiries for northern and north-eastern Adelaide.","context":"North and north-east homes often have combined indoor and outdoor maintenance lists.","suburbs":[{"slug":"modbury","name":"Modbury","primaryService":"handyman services","title":"Handyman Services in Modbury, Adelaide","description":"General handyman and property maintenance enquiries for Modbury.","lead":"MEL ONE assists Modbury customers with practical home maintenance, repairs, screens, gardens, fences and cleaning tasks.","localContext":"A grouped list of indoor and outdoor issues helps make the first discussion more efficient.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"What handyman services are available in Modbury?","answer":"Tell us what needs attention and we can discuss the relevant maintenance scope and availability."},{"question":"Can I include garden and fence work?","answer":"Yes. List each outdoor task and explain any access or timing details."},{"question":"Do you serve homeowners and landlords?","answer":"Yes. Include the appropriate contact and authority details with the enquiry."}]}]},
-  {"slug":"adelaide-hills-foothills","name":"Adelaide Hills & Foothills","description":"Maintenance enquiries for Adelaide Hills and foothills properties.","context":"Hills and foothills properties may need careful discussion of access, exterior areas and maintenance priorities.","suburbs":[{"slug":"stirling","name":"Stirling","primaryService":"roof maintenance","title":"Roof Maintenance in Stirling, Adelaide Hills","description":"Roof, exterior and household maintenance enquiries for Stirling.","lead":"MEL ONE helps Stirling customers describe roof, gutter, screen, fence, garden and general maintenance requirements.","localContext":"Property access, slope, trees and exterior exposure should be discussed before work is arranged.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Can you discuss Stirling roof maintenance?","answer":"Yes. Share safe photos, access details and a description of the visible issue."},{"question":"Do hills properties need special information?","answer":"Please include driveway, parking, slope and access information when it affects the request."},{"question":"Can you identify specialist boundaries?","answer":"Yes. Work needing trade authorisation is referred to an appropriately qualified specialist."}]}]},
-  {"slug":"southern-suburbs","name":"Southern Suburbs","description":"Home maintenance enquiries across southern Adelaide.","context":"Southern suburbs customers can use one enquiry to start a clear discussion about household and outdoor maintenance.","suburbs":[{"slug":"marion","name":"Marion","primaryService":"flyscreen repairs","title":"Flyscreen Repairs in Marion, Adelaide","description":"Flyscreen and household maintenance enquiries for Marion properties.","lead":"MEL ONE assists Marion customers with flyscreen, door, shower screen, exterior, fence and general home maintenance requests.","localContext":"Everyday screens and doors can need practical adjustment, mesh repair or assessment of visible fittings.","services":["Shower screen repairs and adjustments","Door, window and flyscreen repairs","Roof, gutter and exterior maintenance","Garden and property care","Fence and gate repairs","Cleaning and general handyman support"],"faqs":[{"question":"Can you help with flyscreens in Marion?","answer":"Yes. Explain whether the mesh, frame, track or screen-door operation needs attention."},{"question":"Do you offer general home maintenance?","answer":"Yes. Describe the jobs and we will discuss appropriate scope and availability."},{"question":"How do I book?","answer":"Submit the local enquiry form or call with your address and preferred timing."}]}]}
+  {
+    "slug": "cbd-north-adelaide",
+    "name": "Adelaide CBD & North Adelaide",
+    "description": "Maintenance enquiries for city homes, apartments and small premises.",
+    "context": "Central Adelaide households and property managers often need clear scheduling and practical maintenance coordination.",
+    "suburbs": [
+      {
+        "slug": "north-adelaide",
+        "name": "North Adelaide",
+        "primaryService": "door and window repairs",
+        "title": "Door and Window Repairs in North Adelaide, Adelaide",
+        "description": "Local handyman support for practical North Adelaide home maintenance.",
+        "lead": "MEL ONE helps North Adelaide customers organise door, window, flyscreen, exterior and general maintenance enquiries.",
+        "localContext": "Older homes and apartment properties can benefit from a careful check of everyday fittings before minor faults become larger disruptions.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Do you provide handyman services in North Adelaide?",
+            "answer": "Yes. Tell us the maintenance issue, property address and preferred timing so availability can be discussed."
+          },
+          {
+            "question": "Can you help with doors and windows?",
+            "answer": "Describe the fault, such as sticking, loose hardware or damaged screens, so practical next steps can be considered."
+          },
+          {
+            "question": "How quickly can you respond?",
+            "answer": "Eligible enquiries may receive a response in as little as 30 minutes, subject to location, enquiry volume and availability."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Adelaide CBD",
+      "North Adelaide",
+      "Kent Town",
+      "Bowden"
+    ]
+  },
+  {
+    "slug": "eastern-suburbs",
+    "name": "Eastern Suburbs",
+    "description": "Home maintenance support across Adelaide's eastern suburbs.",
+    "context": "Eastern suburbs homes often need practical upkeep for fittings, exterior areas and gardens.",
+    "suburbs": [
+      {
+        "slug": "norwood",
+        "name": "Norwood",
+        "primaryService": "shower screen repairs",
+        "title": "Shower Screen Repairs in Norwood, Adelaide",
+        "description": "Shower screen and home maintenance enquiries for Norwood properties.",
+        "lead": "MEL ONE supports Norwood households with shower screens, doors, flyscreens, fences, gardens and general maintenance.",
+        "localContext": "A clear inspection of alignment, seals, tracks and visible fittings helps identify the right maintenance path.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Can you inspect a Norwood shower screen?",
+            "answer": "Yes. Include a safe photo and explain whether it leaks, drags or no longer closes properly."
+          },
+          {
+            "question": "Do you repair flyscreens?",
+            "answer": "Tell us whether the mesh, frame or door operation needs attention so the enquiry can be assessed."
+          },
+          {
+            "question": "Can several household jobs be included?",
+            "answer": "Yes. Group tasks by room or outdoor area and explain the priority for each item."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Norwood",
+      "Burnside",
+      "Kensington",
+      "Magill"
+    ]
+  },
+  {
+    "slug": "inner-south",
+    "name": "Inner South",
+    "description": "Handyman enquiries for Adelaide inner-south homes and rentals.",
+    "context": "Inner-south customers can combine practical interior and outdoor maintenance requests.",
+    "suburbs": [
+      {
+        "slug": "unley",
+        "name": "Unley",
+        "primaryService": "home repairs",
+        "title": "Home Repairs in Unley, Adelaide",
+        "description": "Practical Unley home repair and maintenance support.",
+        "lead": "MEL ONE helps Unley homeowners, landlords and property managers describe and organise everyday repair needs.",
+        "localContext": "A methodical assessment helps separate straightforward maintenance from work needing a qualified specialist.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Do you work with Unley rental properties?",
+            "answer": "Yes. Provide the property address, issue description and the person authorised to discuss the work."
+          },
+          {
+            "question": "Can you diagnose a repair issue?",
+            "answer": "Our experienced maintenance professionals inspect visible conditions and explain practical next steps."
+          },
+          {
+            "question": "Is a web enquiry a booking?",
+            "answer": "No. Availability, scope and any appointment are confirmed directly."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Unley",
+      "Goodwood",
+      "Parkside",
+      "Millswood"
+    ]
+  },
+  {
+    "slug": "inner-west",
+    "name": "Inner West",
+    "description": "Maintenance enquiries for inner-west Adelaide properties.",
+    "context": "Inner-west homes benefit from clear, practical repair and upkeep planning.",
+    "suburbs": [
+      {
+        "slug": "mile-end",
+        "name": "Mile End",
+        "primaryService": "fence repairs",
+        "title": "Fence Repairs in Mile End, Adelaide",
+        "description": "Fence, gate and general handyman enquiries for Mile End.",
+        "lead": "MEL ONE helps Mile End customers organise fence, gate, door, exterior and general household maintenance.",
+        "localContext": "Visible movement, worn hardware and weather exposure can be assessed before a maintenance approach is agreed.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Can you inspect a Mile End fence or gate?",
+            "answer": "Yes. Describe the affected section and include safe photos where helpful."
+          },
+          {
+            "question": "Do you also help with exterior upkeep?",
+            "answer": "We consider agreed general maintenance tasks and identify when a specialist is required."
+          },
+          {
+            "question": "How do I request a time?",
+            "answer": "Use the form with your address, contact details and preferred timing."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Mile End",
+      "Thebarton",
+      "Torrensville",
+      "Brompton"
+    ]
+  },
+  {
+    "slug": "western-suburbs",
+    "name": "Western Suburbs",
+    "description": "Property maintenance enquiries across Adelaide's western suburbs.",
+    "context": "Western suburbs properties may need routine care for exterior fittings and household use.",
+    "suburbs": [
+      {
+        "slug": "henley-beach",
+        "name": "Henley Beach",
+        "primaryService": "gutter maintenance",
+        "title": "Gutter Maintenance in Henley Beach, Adelaide",
+        "description": "Exterior and household maintenance support for Henley Beach.",
+        "lead": "MEL ONE helps Henley Beach customers describe accessible gutter, door, screen, fence and garden maintenance needs.",
+        "localContext": "Weather exposure and routine property care can affect outdoor fittings, screens and exterior areas.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Can you help with Henley Beach exterior maintenance?",
+            "answer": "Describe the accessible area and concern so an appropriate next step can be discussed."
+          },
+          {
+            "question": "Do you repair screen doors?",
+            "answer": "Yes. Include the door type and whether the mesh, frame or operation is affected."
+          },
+          {
+            "question": "What response time should I expect?",
+            "answer": "Suitable enquiries may receive a response in as little as 30 minutes, subject to availability."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Henley Beach",
+      "West Beach",
+      "Glenelg",
+      "Semaphore"
+    ]
+  },
+  {
+    "slug": "north-north-east",
+    "name": "North & North-East",
+    "description": "Household maintenance enquiries for northern and north-eastern Adelaide.",
+    "context": "North and north-east homes often have combined indoor and outdoor maintenance lists.",
+    "suburbs": [
+      {
+        "slug": "modbury",
+        "name": "Modbury",
+        "primaryService": "handyman services",
+        "title": "Handyman Services in Modbury, Adelaide",
+        "description": "General handyman and property maintenance enquiries for Modbury.",
+        "lead": "MEL ONE assists Modbury customers with practical home maintenance, repairs, screens, gardens, fences and cleaning tasks.",
+        "localContext": "A grouped list of indoor and outdoor issues helps make the first discussion more efficient.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "What handyman services are available in Modbury?",
+            "answer": "Tell us what needs attention and we can discuss the relevant maintenance scope and availability."
+          },
+          {
+            "question": "Can I include garden and fence work?",
+            "answer": "Yes. List each outdoor task and explain any access or timing details."
+          },
+          {
+            "question": "Do you serve homeowners and landlords?",
+            "answer": "Yes. Include the appropriate contact and authority details with the enquiry."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Modbury",
+      "Prospect",
+      "Campbelltown",
+      "Golden Grove"
+    ]
+  },
+  {
+    "slug": "adelaide-hills-foothills",
+    "name": "Adelaide Hills & Foothills",
+    "description": "Maintenance enquiries for Adelaide Hills and foothills properties.",
+    "context": "Hills and foothills properties may need careful discussion of access, exterior areas and maintenance priorities.",
+    "suburbs": [
+      {
+        "slug": "stirling",
+        "name": "Stirling",
+        "primaryService": "roof maintenance",
+        "title": "Roof Maintenance in Stirling, Adelaide Hills",
+        "description": "Roof, exterior and household maintenance enquiries for Stirling.",
+        "lead": "MEL ONE helps Stirling customers describe roof, gutter, screen, fence, garden and general maintenance requirements.",
+        "localContext": "Property access, slope, trees and exterior exposure should be discussed before work is arranged.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Can you discuss Stirling roof maintenance?",
+            "answer": "Yes. Share safe photos, access details and a description of the visible issue."
+          },
+          {
+            "question": "Do hills properties need special information?",
+            "answer": "Please include driveway, parking, slope and access information when it affects the request."
+          },
+          {
+            "question": "Can you identify specialist boundaries?",
+            "answer": "Yes. Work needing trade authorisation is referred to an appropriately qualified specialist."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Stirling",
+      "Crafers",
+      "Aldgate",
+      "Blackwood"
+    ]
+  },
+  {
+    "slug": "southern-suburbs",
+    "name": "Southern Suburbs",
+    "description": "Home maintenance enquiries across southern Adelaide.",
+    "context": "Southern suburbs customers can use one enquiry to start a clear discussion about household and outdoor maintenance.",
+    "suburbs": [
+      {
+        "slug": "marion",
+        "name": "Marion",
+        "primaryService": "flyscreen repairs",
+        "title": "Flyscreen Repairs in Marion, Adelaide",
+        "description": "Flyscreen and household maintenance enquiries for Marion properties.",
+        "lead": "MEL ONE assists Marion customers with flyscreen, door, shower screen, exterior, fence and general home maintenance requests.",
+        "localContext": "Everyday screens and doors can need practical adjustment, mesh repair or assessment of visible fittings.",
+        "services": [
+          "Shower screen repairs and adjustments",
+          "Door, window and flyscreen repairs",
+          "Roof, gutter and exterior maintenance",
+          "Garden and property care",
+          "Fence and gate repairs",
+          "Cleaning and general handyman support"
+        ],
+        "faqs": [
+          {
+            "question": "Can you help with flyscreens in Marion?",
+            "answer": "Yes. Explain whether the mesh, frame, track or screen-door operation needs attention."
+          },
+          {
+            "question": "Do you offer general home maintenance?",
+            "answer": "Yes. Describe the jobs and we will discuss appropriate scope and availability."
+          },
+          {
+            "question": "How do I book?",
+            "answer": "Submit the local enquiry form or call with your address and preferred timing."
+          }
+        ]
+      }
+    ],
+    "popularSuburbs": [
+      "Marion",
+      "Brighton",
+      "Hallett Cove",
+      "Morphett Vale"
+    ]
+  }
 ]
