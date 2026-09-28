@@ -47,6 +47,8 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   const index = preview.read('service-areas/index.html');
   assert.match(index, /Adelaide CBD &amp; North Adelaide/);
   assert.match(index, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
+  assert.match(index, /Popular suburbs/);
+  assert.match(index, /Norwood — shower screen repairs/);
   assert.doesNotMatch(index, /href="\/service-areas\/eastern-suburbs\/"(?!>)/);
   assert.ok(!fs.existsSync(path.join(preview.output, 'service-areas/eastern-suburbs/index.html')));
   const suburb = preview.read('service-areas/eastern-suburbs/norwood/index.html');
