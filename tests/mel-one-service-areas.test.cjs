@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
+const buildFixture = require('./build-fixture.cjs');
 
 const areasPath = path.join(__dirname, '../src/content-pack/service-areas.json');
 const areas = JSON.parse(fs.readFileSync(areasPath, 'utf8'));
@@ -39,4 +40,17 @@ test('the build rejects an out-of-scope or duplicate service-area record', () =>
     fs.writeFileSync(fixturePath, JSON.stringify(invalid));
     assert.throws(() => execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, stdio: 'pipe' }), /duplicate|Aranda|Canberra/i);
   } finally { fs.rmSync(fixture, { recursive: true, force: true }); }
+});
+
+test('the build publishes linked Greater Adelaide region and suburb pages', t => {
+  const preview = buildFixture(t);
+  const index = preview.read('service-areas/index.html');
+  assert.match(index, /Adelaide CBD &amp; North Adelaide/);
+  assert.match(index, /href="\/service-areas\/eastern-suburbs\/"/);
+  const region = preview.read('service-areas/eastern-suburbs/index.html');
+  assert.match(region, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
+  const suburb = preview.read('service-areas/eastern-suburbs/norwood/index.html');
+  assert.match(suburb, /<h1>Shower Screen Repairs in Norwood, Adelaide<\/h1>/);
+  assert.match(suburb, /Shower screen repairs and adjustments/);
+  assert.match(suburb, /href="\/contact\/\?region=eastern-suburbs&amp;suburb=norwood"/);
 });
