@@ -101,6 +101,23 @@ const breadcrumbSchema = crumbs => ({ '@type': 'BreadcrumbList', itemListElement
 const breadcrumbHtml = crumbs => `<nav class="breadcrumbs" aria-label="Breadcrumb">${crumbs.map(([name, route], index) => index === crumbs.length - 1 ? `<span aria-current="page">${escapeHtml(name)}</span>` : `<a href="${route}">${escapeHtml(name)}</a><span aria-hidden="true">/</span>`).join('')}</nav>`;
 const intro = (eyebrow, title, description) => `<header class="page-intro wrap"><p class="eyebrow">${escapeHtml(eyebrow)}</p><h1>${escapeHtml(title)}</h1><p class="lede">${escapeHtml(description)}</p></header>`;
 const cta = () => `<section class="contact-band"><div class="wrap contact-band-inner"><div><p class="eyebrow">Your next step</p><h2>Start with what<br>needs attention.</h2></div><div><p>A short description and your suburb are a useful place to begin.</p>${actions()}</div></div></section>`;
+const imageDimensions = {
+  '/assets/mel-one-logo-authorized.png': [1402, 1122],
+  '/assets/images/mel-one-adelaide-home-hero.png': [1536, 1024],
+  '/assets/images/mel-one-maintenance-task-wall.png': [1619, 971],
+  '/assets/images/mel-one-adelaide-service-area.png': [1691, 930],
+  '/assets/images/mel-one-about-home-maintenance.png': [1499, 1049],
+  '/assets/images/mel-one-workflow-request-details.png': [1254, 1254],
+  '/assets/images/mel-one-workflow-scope-discussion.png': [1254, 1254],
+  '/assets/images/mel-one-workflow-contact-next-step.png': [1254, 1254],
+};
+for (const name of ['roof-gutter-exterior', 'outdoor-structures-fences', 'home-repairs-renovation', 'household-electrical-work', 'interior-repair-assembly', 'door-window-maintenance', 'garden-landscape-care', 'gutter-care', 'household-removals-cleaning']) imageDimensions[`/assets/images/mel-one-${name}.png`] = [1448, 1086];
+const reserveImageSpace = html => html.replace(/<img\b[^>]*>/gi, tag => {
+  if (/\bwidth="\d+"/i.test(tag) && /\bheight="\d+"/i.test(tag)) return tag;
+  const src = tag.match(/\bsrc="([^"]+)"/i)?.[1];
+  const dimensions = imageDimensions[src];
+  return dimensions ? tag.replace('>', ` width="${dimensions[0]}" height="${dimensions[1]}">`) : tag;
+});
 
 function page({ route, title, description, body, schema = [], crumbs = [], noindex = false }) {
   const fullTitle = `${title} | ${site.title}`;
@@ -111,7 +128,7 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
   const destination = path.join(siteDir, route === '/404.html' ? '404.html' : `${route}/index.html`);
   fs.mkdirSync(path.dirname(destination), { recursive: true });
   const mobileActions = `<nav class="mobile-actions" aria-label="Quick contact"><a href="tel:${phoneLink}">Call ${escapeHtml(contact.phone)}</a><a href="/contact/">Start an enquiry <span aria-hidden="true">↗</span></a></nav>`;
-  fs.writeFileSync(destination, html.replace('</body>', `${mobileActions}</body>`));
+  fs.writeFileSync(destination, reserveImageSpace(html.replace('</body>', `${mobileActions}</body>`)));
   if (!noindex) routes.push({ route, title, description });
 }
 
