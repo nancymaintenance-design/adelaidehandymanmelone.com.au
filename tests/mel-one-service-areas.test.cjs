@@ -45,6 +45,8 @@ test('the build rejects an out-of-scope or duplicate service-area record', () =>
 test('the build publishes linked Greater Adelaide region and suburb pages', t => {
   const preview = buildFixture(t);
   const index = preview.read('service-areas/index.html');
+  assert.match(index, /class="area-atlas"/);
+  assert.match(index, /area-atlas-search/);
   assert.match(index, /Adelaide CBD &amp; North Adelaide/);
   assert.match(index, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
   assert.match(index, /Popular suburbs/);
