@@ -57,6 +57,9 @@ const caseStudyLocalRoutes = {
   'Mile End': '/service-areas/inner-west/mile-end/',
   Prospect: '/service-areas/north-north-east/prospect/',
   'Adelaide CBD': '/service-areas/cbd-north-adelaide/adelaide-cbd/',
+  Modbury: '/service-areas/north-north-east/modbury/',
+  Marion: '/service-areas/southern-suburbs/marion/',
+  'Henley Beach': '/service-areas/western-suburbs/henley-beach/',
 };
 const { site } = content;
 const contact = site.contact;
