@@ -51,6 +51,9 @@ const caseStudyLocalRoutes = {
   Norwood: '/service-areas/eastern-suburbs/norwood/',
   'North Adelaide': '/service-areas/cbd-north-adelaide/north-adelaide/',
   Burnside: '/service-areas/eastern-suburbs/burnside/',
+  Kensington: '/service-areas/eastern-suburbs/kensington/',
+  Unley: '/service-areas/inner-south/unley/',
+  Goodwood: '/service-areas/inner-south/goodwood/',
 };
 const { site } = content;
 const contact = site.contact;

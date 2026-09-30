@@ -992,17 +992,57 @@
       "description": "A photographed Norwood flyscreen repair case involving torn mesh in a residential window screen.",
       "suburb": "Norwood",
       "service": "doors-windows-screens",
-      "keywords": ["flyscreen repairs Adelaide", "fly screen replacement Adelaide", "handyman Norwood", "window screen repair"],
+      "keywords": [
+        "flyscreen repairs Adelaide",
+        "fly screen replacement Adelaide",
+        "handyman Norwood",
+        "window screen repair"
+      ],
       "images": [
-        { "src": "/assets/images/cases/norwood-flyscreen-repair-01.png", "alt": "Torn flyscreen mesh in a Norwood residential window before repair", "caption": "The supplied before image records the torn mesh and the window-screen location." },
-        { "src": "/assets/images/cases/norwood-flyscreen-repair-02.png", "alt": "Close view of torn flyscreen mesh at a Norwood home", "caption": "A close view shows the damaged mesh that prompted the flyscreen repair enquiry." },
-        { "src": "/assets/images/cases/norwood-flyscreen-repair-03.png", "alt": "Handyman fitting replacement flyscreen mesh in Norwood", "caption": "The photographed work stage shows new mesh being fitted to the screen frame." },
-        { "src": "/assets/images/cases/norwood-flyscreen-repair-04.png", "alt": "Completed flyscreen repair at a Norwood Adelaide home", "caption": "The completed screen is shown in place at the Norwood home." }
+        {
+          "src": "/assets/images/cases/norwood-flyscreen-repair-01.png",
+          "alt": "Torn flyscreen mesh in a Norwood residential window before repair",
+          "caption": "The supplied before image records the torn mesh and the window-screen location."
+        },
+        {
+          "src": "/assets/images/cases/norwood-flyscreen-repair-02.png",
+          "alt": "Close view of torn flyscreen mesh at a Norwood home",
+          "caption": "A close view shows the damaged mesh that prompted the flyscreen repair enquiry."
+        },
+        {
+          "src": "/assets/images/cases/norwood-flyscreen-repair-03.png",
+          "alt": "Handyman fitting replacement flyscreen mesh in Norwood",
+          "caption": "The photographed work stage shows new mesh being fitted to the screen frame."
+        },
+        {
+          "src": "/assets/images/cases/norwood-flyscreen-repair-04.png",
+          "alt": "Completed flyscreen repair at a Norwood Adelaide home",
+          "caption": "The completed screen is shown in place at the Norwood home."
+        }
       ],
       "sections": [
-        { "heading": "What the Norwood homeowner could see", "paragraphs": ["This Norwood flyscreen repair started with a visible tear in the mesh of a residential window screen. The supplied photographs show that the mesh had separated across a large section, leaving the screen unable to provide its usual insect barrier. The frame, window opening and nearby brickwork are visible in the images, which gives useful context for a local handyman enquiry without publishing the customer’s address.", "For flyscreen repairs in Adelaide, a clear photograph is often the best first step. It helps identify whether the concern appears to be limited to the mesh, the spline, the frame, the sliding track or the way the screen sits within the window. This case was recorded as a practical window-screen repair enquiry in Norwood, in Adelaide’s eastern suburbs."] },
-        { "heading": "Recorded repair approach", "paragraphs": ["The work photographs document replacement mesh being fitted into the screen frame. The page records what is visible in the supplied images: the damaged screen was prepared, fresh mesh was positioned, and the completed screen was photographed back in place. The final image shows an even screen surface across the window opening.", "Every fly screen replacement Adelaide enquiry is discussed against the particular frame, mesh type, access and screen condition. A short description, suburb and close photo help MEL ONE discuss the suitable next step. If a screen has a damaged frame, unusual hardware, security function or glazing concern, that detail can be assessed before a scope is confirmed."] },
-        { "heading": "Useful details for a flyscreen repair enquiry", "paragraphs": ["For a similar Norwood or Adelaide flyscreen repair, include whether the screen is fixed, sliding or removable; where it sits; what has torn or loosened; and whether the frame still moves as expected. A wide photo provides context, while a close image of the mesh, edge or track helps make the conversation more precise. Customers can also mention preferred timing and whether access needs to be coordinated with an owner, tenant or property manager.", "This image sequence also shows why a repair page benefits from more than a finished photograph. The before image establishes the visible problem, the detailed view identifies the affected component, the work image provides practical context, and the final view lets a customer understand the outcome that was recorded. It is useful evidence for homeowners comparing flyscreen repair options, while keeping the information honest and easy to read.", "MEL ONE provides household-maintenance enquiries across Greater Adelaide. This photographed case connects flyscreen repairs Adelaide with the local Norwood service area and the broader doors, windows and screens service page. Contact MEL ONE to discuss the visible issue, available details and the next step for your home."] }
+        {
+          "heading": "What the Norwood homeowner could see",
+          "paragraphs": [
+            "This Norwood flyscreen repair started with a visible tear in the mesh of a residential window screen. The supplied photographs show that the mesh had separated across a large section, leaving the screen unable to provide its usual insect barrier. The frame, window opening and nearby brickwork are visible in the images, which gives useful context for a local handyman enquiry without publishing the customer’s address.",
+            "For flyscreen repairs in Adelaide, a clear photograph is often the best first step. It helps identify whether the concern appears to be limited to the mesh, the spline, the frame, the sliding track or the way the screen sits within the window. This case was recorded as a practical window-screen repair enquiry in Norwood, in Adelaide’s eastern suburbs."
+          ]
+        },
+        {
+          "heading": "Recorded repair approach",
+          "paragraphs": [
+            "The work photographs document replacement mesh being fitted into the screen frame. The page records what is visible in the supplied images: the damaged screen was prepared, fresh mesh was positioned, and the completed screen was photographed back in place. The final image shows an even screen surface across the window opening.",
+            "Every fly screen replacement Adelaide enquiry is discussed against the particular frame, mesh type, access and screen condition. A short description, suburb and close photo help MEL ONE discuss the suitable next step. If a screen has a damaged frame, unusual hardware, security function or glazing concern, that detail can be assessed before a scope is confirmed."
+          ]
+        },
+        {
+          "heading": "Useful details for a flyscreen repair enquiry",
+          "paragraphs": [
+            "For a similar Norwood or Adelaide flyscreen repair, include whether the screen is fixed, sliding or removable; where it sits; what has torn or loosened; and whether the frame still moves as expected. A wide photo provides context, while a close image of the mesh, edge or track helps make the conversation more precise. Customers can also mention preferred timing and whether access needs to be coordinated with an owner, tenant or property manager.",
+            "This image sequence also shows why a repair page benefits from more than a finished photograph. The before image establishes the visible problem, the detailed view identifies the affected component, the work image provides practical context, and the final view lets a customer understand the outcome that was recorded. It is useful evidence for homeowners comparing flyscreen repair options, while keeping the information honest and easy to read.",
+            "MEL ONE provides household-maintenance enquiries across Greater Adelaide. This photographed case connects flyscreen repairs Adelaide with the local Norwood service area and the broader doors, windows and screens service page. Contact MEL ONE to discuss the visible issue, available details and the next step for your home."
+          ]
+        }
       ]
     },
     {
@@ -1011,17 +1051,57 @@
       "description": "A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.",
       "suburb": "North Adelaide",
       "service": "doors-windows-screens",
-      "keywords": ["door repairs Adelaide", "door hinge repair Adelaide", "door handle repair Adelaide", "handyman North Adelaide"],
+      "keywords": [
+        "door repairs Adelaide",
+        "door hinge repair Adelaide",
+        "door handle repair Adelaide",
+        "handyman North Adelaide"
+      ],
       "images": [
-        { "src": "/assets/images/cases/north-adelaide-door-repair-01.png", "alt": "North Adelaide front door before latch and closing repair", "caption": "The before image shows the front door and its closing position." },
-        { "src": "/assets/images/cases/north-adelaide-door-repair-02.png", "alt": "Close view of front door latch and strike plate in North Adelaide", "caption": "A detailed image records the latch and strike area before the repair work." },
-        { "src": "/assets/images/cases/north-adelaide-door-repair-03.png", "alt": "Handyman adjusting a front door latch in North Adelaide", "caption": "The work-stage photograph shows adjustment work at the latch and door-jamb area." },
-        { "src": "/assets/images/cases/north-adelaide-door-repair-04.png", "alt": "Completed front door repair at a North Adelaide home", "caption": "The completed front door is shown seated in its frame." }
+        {
+          "src": "/assets/images/cases/north-adelaide-door-repair-01.png",
+          "alt": "North Adelaide front door before latch and closing repair",
+          "caption": "The before image shows the front door and its closing position."
+        },
+        {
+          "src": "/assets/images/cases/north-adelaide-door-repair-02.png",
+          "alt": "Close view of front door latch and strike plate in North Adelaide",
+          "caption": "A detailed image records the latch and strike area before the repair work."
+        },
+        {
+          "src": "/assets/images/cases/north-adelaide-door-repair-03.png",
+          "alt": "Handyman adjusting a front door latch in North Adelaide",
+          "caption": "The work-stage photograph shows adjustment work at the latch and door-jamb area."
+        },
+        {
+          "src": "/assets/images/cases/north-adelaide-door-repair-04.png",
+          "alt": "Completed front door repair at a North Adelaide home",
+          "caption": "The completed front door is shown seated in its frame."
+        }
       ],
       "sections": [
-        { "heading": "Visible front-door issue in North Adelaide", "paragraphs": ["This photographed North Adelaide door repair concerns a front door with a visible latch and closing-alignment issue. The before photographs show the door, latch edge and strike area, including the gap visible when the door was not fully seated. The close image provides a useful record of the relevant hardware and painted timber around the latch, while avoiding any customer address or private interior details.", "Door repairs Adelaide often begin with the everyday symptom: a door that catches, does not sit comfortably in the frame, needs extra force to close, or leaves a visible gap at the latch side. A good enquiry describes what happens during normal use and includes clear images of the door edge, hinges, handle and strike where safe to photograph."] },
-        { "heading": "What the supplied work photographs show", "paragraphs": ["The work-stage photograph records a technician adjusting the latch and door-jamb area with hand tools. The final photograph shows the front door returned to a closed position within its frame. These images provide a clear visual sequence from observed condition, to practical adjustment work, to the completed appearance.", "The exact scope of a door hinge repair Adelaide or door handle repair Adelaide request depends on the door material, hinges, latch, frame movement and any hardware condition found at the property. MEL ONE discusses the visible concern and appropriate next step for each request. Security hardware, fire-door requirements, glazing and structural movement can require their own specialist assessment and should be identified early in the conversation."] },
-        { "heading": "How to prepare a door repair request", "paragraphs": ["For homes in North Adelaide and across Greater Adelaide, describe whether the issue occurs when opening, closing, latching or locking. Include a photo of the full door and a close image of the relevant hardware. If the door has changed after seasonal movement, painting, new flooring or another alteration, that background can also help frame the initial discussion.", "The four supplied images make the case easy to understand. They show the door before adjustment, the relevant latch detail, the recorded work stage and the closed door afterwards. This is more useful than a generic service image because it connects a real North Adelaide location with a specific household issue. It also gives property managers and homeowners a simple model for preparing a well-documented door repair enquiry.", "This case connects a real North Adelaide front-door repair with MEL ONE’s doors, windows and screens service. The page is designed to help homeowners, tenants and property managers understand what useful evidence looks like before they contact a handyman. Share your suburb, the visible issue and preferred timing, and MEL ONE can discuss scope, access and the appropriate next step."] }
+        {
+          "heading": "Visible front-door issue in North Adelaide",
+          "paragraphs": [
+            "This photographed North Adelaide door repair concerns a front door with a visible latch and closing-alignment issue. The before photographs show the door, latch edge and strike area, including the gap visible when the door was not fully seated. The close image provides a useful record of the relevant hardware and painted timber around the latch, while avoiding any customer address or private interior details.",
+            "Door repairs Adelaide often begin with the everyday symptom: a door that catches, does not sit comfortably in the frame, needs extra force to close, or leaves a visible gap at the latch side. A good enquiry describes what happens during normal use and includes clear images of the door edge, hinges, handle and strike where safe to photograph."
+          ]
+        },
+        {
+          "heading": "What the supplied work photographs show",
+          "paragraphs": [
+            "The work-stage photograph records a technician adjusting the latch and door-jamb area with hand tools. The final photograph shows the front door returned to a closed position within its frame. These images provide a clear visual sequence from observed condition, to practical adjustment work, to the completed appearance.",
+            "The exact scope of a door hinge repair Adelaide or door handle repair Adelaide request depends on the door material, hinges, latch, frame movement and any hardware condition found at the property. MEL ONE discusses the visible concern and appropriate next step for each request. Security hardware, fire-door requirements, glazing and structural movement can require their own specialist assessment and should be identified early in the conversation."
+          ]
+        },
+        {
+          "heading": "How to prepare a door repair request",
+          "paragraphs": [
+            "For homes in North Adelaide and across Greater Adelaide, describe whether the issue occurs when opening, closing, latching or locking. Include a photo of the full door and a close image of the relevant hardware. If the door has changed after seasonal movement, painting, new flooring or another alteration, that background can also help frame the initial discussion.",
+            "The four supplied images make the case easy to understand. They show the door before adjustment, the relevant latch detail, the recorded work stage and the closed door afterwards. This is more useful than a generic service image because it connects a real North Adelaide location with a specific household issue. It also gives property managers and homeowners a simple model for preparing a well-documented door repair enquiry.",
+            "This case connects a real North Adelaide front-door repair with MEL ONE’s doors, windows and screens service. The page is designed to help homeowners, tenants and property managers understand what useful evidence looks like before they contact a handyman. Share your suburb, the visible issue and preferred timing, and MEL ONE can discuss scope, access and the appropriate next step."
+          ]
+        }
       ]
     },
     {
@@ -1030,17 +1110,234 @@
       "description": "A photographed Burnside sliding-window repair case showing track and lower-roller access work.",
       "suburb": "Burnside",
       "service": "doors-windows-screens",
-      "keywords": ["window hardware repairs Adelaide", "window frame repairs Adelaide", "sliding window repair", "handyman Burnside"],
+      "keywords": [
+        "window hardware repairs Adelaide",
+        "window frame repairs Adelaide",
+        "sliding window repair",
+        "handyman Burnside"
+      ],
       "images": [
-        { "src": "/assets/images/cases/burnside-window-repair-01.png", "alt": "Burnside sliding window before repair work", "caption": "The before image shows the sliding window and its visible lower track condition." },
-        { "src": "/assets/images/cases/burnside-window-repair-02.png", "alt": "Close view of sliding window lower roller and track in Burnside", "caption": "The detailed image records the lower roller and track area for the window repair case." },
-        { "src": "/assets/images/cases/burnside-window-repair-03.png", "alt": "Handyman accessing sliding window roller hardware in Burnside", "caption": "The work-stage photograph shows access to the lower roller and track hardware." },
-        { "src": "/assets/images/cases/burnside-window-repair-04.png", "alt": "Completed sliding window repair at a Burnside Adelaide home", "caption": "The completed window is shown in its operating position after the recorded work." }
+        {
+          "src": "/assets/images/cases/burnside-window-repair-01.png",
+          "alt": "Burnside sliding window before repair work",
+          "caption": "The before image shows the sliding window and its visible lower track condition."
+        },
+        {
+          "src": "/assets/images/cases/burnside-window-repair-02.png",
+          "alt": "Close view of sliding window lower roller and track in Burnside",
+          "caption": "The detailed image records the lower roller and track area for the window repair case."
+        },
+        {
+          "src": "/assets/images/cases/burnside-window-repair-03.png",
+          "alt": "Handyman accessing sliding window roller hardware in Burnside",
+          "caption": "The work-stage photograph shows access to the lower roller and track hardware."
+        },
+        {
+          "src": "/assets/images/cases/burnside-window-repair-04.png",
+          "alt": "Completed sliding window repair at a Burnside Adelaide home",
+          "caption": "The completed window is shown in its operating position after the recorded work."
+        }
       ],
       "sections": [
-        { "heading": "Burnside sliding-window repair case", "paragraphs": ["This Burnside window repair case documents a residential sliding window with visible wear and debris around the lower track and roller area. The supplied images show the window from a wider external view, a close view of the lower hardware, a photographed work stage, and the completed window. Together, they provide a straightforward record of the observed condition and the maintenance work that followed.", "For window hardware repairs Adelaide, the useful details are usually practical rather than technical: whether the panel slides smoothly, where it catches, whether the screen is involved, and whether the concern is visible at the track, frame, latch or roller. A photo of the full opening and a close image of the lower track help describe the request clearly."] },
-        { "heading": "Visible work and local maintenance context", "paragraphs": ["The work photograph shows access to the lower roller and track hardware. The final image records the window returned to its opening after the photographed work. This case page deliberately describes only what the photographs support. It does not make unsupported claims about parts, guarantees, performance measurements or work outside the visible window-maintenance scope.", "Window frame repairs Adelaide can involve several different conditions, including routine adjustment, track cleaning, worn hardware, frame movement, damaged screens or issues that call for another specialist. MEL ONE uses the customer’s photos, visible description, access details and local suburb to discuss a suitable next step. Where glazing, security hardware or structural movement needs specialist assessment, that is identified before the work scope is arranged."] },
-        { "heading": "Requesting window repair in Burnside", "paragraphs": ["If you need sliding window repair in Burnside, include the type of window, the room or exterior location, what happens in everyday use, and any visible debris or damage around the track. Let MEL ONE know whether the property is owner-occupied, tenanted or managed, and mention access or timing preferences that may affect a visit.", "The photographed sequence is also useful for search and decision-making because it documents the same window at several stages. The wide image gives the property context, the close view identifies the lower track and roller area, the work image shows practical access, and the last image records the completed presentation. Each caption explains the image directly so customers and search systems can understand what the page is about without relying on unverified claims.", "This real case connects Burnside handyman enquiries with MEL ONE’s local service area and doors, windows and screens service. It gives Google, AI systems and customers clear, first-hand visual context: a local location, a defined household-maintenance concern, the photographed work stage, and an accurate completion image. Contact MEL ONE to discuss your own window repair request in Adelaide."] }
+        {
+          "heading": "Burnside sliding-window repair case",
+          "paragraphs": [
+            "This Burnside window repair case documents a residential sliding window with visible wear and debris around the lower track and roller area. The supplied images show the window from a wider external view, a close view of the lower hardware, a photographed work stage, and the completed window. Together, they provide a straightforward record of the observed condition and the maintenance work that followed.",
+            "For window hardware repairs Adelaide, the useful details are usually practical rather than technical: whether the panel slides smoothly, where it catches, whether the screen is involved, and whether the concern is visible at the track, frame, latch or roller. A photo of the full opening and a close image of the lower track help describe the request clearly."
+          ]
+        },
+        {
+          "heading": "Visible work and local maintenance context",
+          "paragraphs": [
+            "The work photograph shows access to the lower roller and track hardware. The final image records the window returned to its opening after the photographed work. This case page deliberately describes only what the photographs support. It does not make unsupported claims about parts, guarantees, performance measurements or work outside the visible window-maintenance scope.",
+            "Window frame repairs Adelaide can involve several different conditions, including routine adjustment, track cleaning, worn hardware, frame movement, damaged screens or issues that call for another specialist. MEL ONE uses the customer’s photos, visible description, access details and local suburb to discuss a suitable next step. Where glazing, security hardware or structural movement needs specialist assessment, that is identified before the work scope is arranged."
+          ]
+        },
+        {
+          "heading": "Requesting window repair in Burnside",
+          "paragraphs": [
+            "If you need sliding window repair in Burnside, include the type of window, the room or exterior location, what happens in everyday use, and any visible debris or damage around the track. Let MEL ONE know whether the property is owner-occupied, tenanted or managed, and mention access or timing preferences that may affect a visit.",
+            "The photographed sequence is also useful for search and decision-making because it documents the same window at several stages. The wide image gives the property context, the close view identifies the lower track and roller area, the work image shows practical access, and the last image records the completed presentation. Each caption explains the image directly so customers and search systems can understand what the page is about without relying on unverified claims.",
+            "This real case connects Burnside handyman enquiries with MEL ONE’s local service area and doors, windows and screens service. It gives Google, AI systems and customers clear, first-hand visual context: a local location, a defined household-maintenance concern, the photographed work stage, and an accurate completion image. Contact MEL ONE to discuss your own window repair request in Adelaide."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kensington-furniture-assembly",
+      "title": "IKEA KALLAX Furniture Assembly in Kensington, Adelaide",
+      "description": "A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.",
+      "suburb": "Kensington",
+      "service": "interior-repairs-assembly",
+      "keywords": [
+        "furniture assembly Adelaide",
+        "flat pack assembly Adelaide",
+        "IKEA furniture assembly",
+        "handyman Kensington"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/cases/kensington-furniture-assembly-01.png",
+          "alt": "IKEA KALLAX flat-pack components and instructions ready for assembly in Kensington",
+          "caption": "The supplied before image shows the KALLAX cartons, parts, instructions and work area."
+        },
+        {
+          "src": "/assets/images/cases/kensington-furniture-assembly-02.png",
+          "alt": "Handyman assembling IKEA KALLAX shelving unit in Kensington",
+          "caption": "The work-stage photograph shows the shelving components being assembled."
+        },
+        {
+          "src": "/assets/images/cases/kensington-furniture-assembly-03.png",
+          "alt": "Close view of furniture hardware being fitted during Kensington flat-pack assembly",
+          "caption": "A detailed image records the cam-lock hardware and assembly instructions."
+        },
+        {
+          "src": "/assets/images/cases/kensington-furniture-assembly-04.png",
+          "alt": "Completed IKEA KALLAX shelving unit in a Kensington home",
+          "caption": "The completed shelving unit is shown in its living-room setting."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Kensington furniture assembly case",
+          "paragraphs": [
+            "This photographed Kensington furniture assembly case records the set-up and completion of an IKEA KALLAX shelving unit in a residential living room. The supplied before image shows the cartons, panels, loose hardware, instructions and prepared work area. It provides clear context for a flat-pack assembly enquiry without publishing the home address or customer details.",
+            "Furniture assembly Adelaide enquiries are easier to discuss when the product name, instructions, cartons and intended room are known. The KALLAX packaging and manual visible in this case help identify the assembly sequence and the type of components involved. A local handyman can then discuss access, available space, product information and the appropriate next step."
+          ]
+        },
+        {
+          "heading": "What the photographs record",
+          "paragraphs": [
+            "The work-stage images show the shelving sections being joined and the cam-lock hardware being fitted. The close view documents the assembly hardware beside the product instructions, while the completed image shows the unit positioned in the living room. The page only describes work visible in the supplied photographs and does not make unsupported claims about mounting, load ratings or installation outside the photographed scope.",
+            "Flat pack assembly Adelaide can range from a small bedside unit to a larger storage system. Customers can help the discussion by sharing a photo of the boxes, the instruction booklet, the product name and the final location. If wall fixing, unusual access, damaged components or additional furniture are involved, those details can be assessed before a scope is confirmed."
+          ]
+        },
+        {
+          "heading": "Requesting furniture assembly in Kensington",
+          "paragraphs": [
+            "For a similar Kensington furniture assembly request, include the brand and model, the number of cartons, the room where it will be assembled and any parking or access considerations. Clear photos make it easier to see whether the item is still boxed, partly assembled or ready for the final stages. Customers can also list other small jobs in the same home so MEL ONE can discuss each item clearly.",
+            "The image record is useful because it shows the same project from preparation to completion. The boxes and manual establish the product context, the assembly photos show the practical stage, and the finished shelving unit shows the documented end point in the room. That makes this a helpful real example for people considering furniture assembly in Kensington or elsewhere in Adelaide.",
+            "This real case connects furniture assembly Adelaide and flat pack assembly Adelaide with MEL ONE’s Kensington service area and Interior Repairs & Assembly page. The photos provide a useful local record for homeowners, tenants and property managers looking for practical help with a defined household task. Contact MEL ONE with your suburb, product details and preferred timing to discuss your enquiry."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "unley-kitchen-cabinet-repair",
+      "title": "Kitchen Cabinet Hinge Repair in Unley, Adelaide",
+      "description": "A photographed Unley kitchen cabinet repair case showing a misaligned cupboard door, hinge work and the completed cabinet front.",
+      "suburb": "Unley",
+      "service": "interior-repairs-assembly",
+      "keywords": [
+        "kitchen cabinet repairs Adelaide",
+        "cupboard door repairs Adelaide",
+        "cabinet hinge replacement Adelaide",
+        "handyman Unley"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/cases/unley-kitchen-cabinet-repair-01.png",
+          "alt": "Kitchen cabinet fronts before repair at an Unley home",
+          "caption": "The supplied before image shows the kitchen cabinetry and the affected cupboard area."
+        },
+        {
+          "src": "/assets/images/cases/unley-kitchen-cabinet-repair-02.png",
+          "alt": "Close view of kitchen cupboard hinge and cabinet door in Unley",
+          "caption": "A close view records the visible hinge and cabinet-door alignment."
+        },
+        {
+          "src": "/assets/images/cases/unley-kitchen-cabinet-repair-03.png",
+          "alt": "Handyman working on kitchen cabinet hinge in Unley",
+          "caption": "The work-stage image shows practical adjustment work on the open cupboard door."
+        },
+        {
+          "src": "/assets/images/cases/unley-kitchen-cabinet-repair-04.png",
+          "alt": "Completed kitchen cabinet door repair at an Unley home",
+          "caption": "The final image shows the cabinet front after the recorded work."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Visible kitchen cabinet issue in Unley",
+          "paragraphs": [
+            "This Unley kitchen cabinet repair case documents a cupboard door that was visibly sitting out of alignment with the adjoining cabinet front. The supplied images show the broader kitchen layout, a close view of the hinge area, the work stage and the completed cabinet. These photographs create a useful record of the household concern while keeping the customer address and private information off the page.",
+            "Kitchen cabinet repairs Adelaide often begin with a simple everyday issue: a door that drops, catches, sits proud of the cabinet line, has a loose handle or no longer closes comfortably. A full kitchen photo gives context, while a close view of the hinge, door edge or handle helps a handyman understand the visible concern before discussing a visit."
+          ]
+        },
+        {
+          "heading": "Recorded cupboard-door repair work",
+          "paragraphs": [
+            "The supplied work image shows a technician working with the open cabinet door and hinge area. The completed image shows the cabinet front returned to a more even closed position. This case page describes the visual sequence accurately: observed alignment, accessible hinge hardware, practical work at the cabinet and the completion image. It does not claim a particular replacement part, brand of hardware or fixed repair outcome beyond what the photos show.",
+            "Cupboard door repairs Adelaide can depend on hinge condition, door weight, cabinet material, previous alterations and the alignment of nearby doors or drawers. Where a customer has a kitchen cabinet repair request, it helps to say which door is affected, how it behaves in normal use and whether there are related drawers or handles needing attention."
+          ]
+        },
+        {
+          "heading": "Preparing a cabinet hinge repair request",
+          "paragraphs": [
+            "For a cabinet hinge replacement Adelaide or adjustment enquiry, take one wider photo of the kitchen and one close image of the relevant hinge or door edge. Include the suburb, preferred contact method and any access details that need to be considered. If the property is managed or tenanted, identify the person who can approve the work so the next conversation is clear.",
+            "The four images also give this case a clear evidence trail. The kitchen-wide view shows the surrounding cabinetry, the close photo identifies the hinge context, the work image shows access to the door, and the final photograph records the cabinet front after the visible adjustment. This keeps the article useful, specific and grounded in the supplied local images.",
+            "This photographed Unley case links kitchen cabinet repairs Adelaide to MEL ONE’s Interior Repairs & Assembly service and the local Unley area page. It gives customers and search systems a specific local example of a common home-maintenance issue, the visible hardware context and the completion record. Contact MEL ONE to discuss your own cupboard-door or cabinet-hinge enquiry."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "goodwood-wall-repair",
+      "title": "Plasterboard Wall Repair in Goodwood, Adelaide",
+      "description": "A photographed Goodwood wall repair case showing a damaged internal wall, preparation work and the completed wall surface.",
+      "suburb": "Goodwood",
+      "service": "home-repairs-renovation-support",
+      "keywords": [
+        "plasterboard repairs Adelaide",
+        "gyprock repairs Adelaide",
+        "hole in wall repair Adelaide",
+        "handyman Goodwood"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/cases/goodwood-wall-repair-01.png",
+          "alt": "Damaged internal wall before repair in a Goodwood home",
+          "caption": "The supplied before image shows the wall damage within the room context."
+        },
+        {
+          "src": "/assets/images/cases/goodwood-wall-repair-02.png",
+          "alt": "Close view of damaged plasterboard wall surface in Goodwood",
+          "caption": "A detailed image records the broken wall surface and surrounding cracks."
+        },
+        {
+          "src": "/assets/images/cases/goodwood-wall-repair-03.png",
+          "alt": "Handyman preparing a damaged wall surface for repair in Goodwood",
+          "caption": "The work-stage photo shows surface preparation with hand tools and repair compound."
+        },
+        {
+          "src": "/assets/images/cases/goodwood-wall-repair-04.png",
+          "alt": "Completed internal wall repair at a Goodwood Adelaide home",
+          "caption": "The final image shows the wall returned to a clean finished surface."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Goodwood internal wall repair case",
+          "paragraphs": [
+            "This photographed Goodwood wall repair case records visible damage to an internal wall, including a broken central area and cracks extending across the painted surface. The wide image gives room context, while the close view shows the damaged section more clearly. These supplied photographs help document the customer’s household-maintenance concern without adding unsupported detail about the cause of the damage.",
+            "For plasterboard repairs Adelaide, a clear photo is useful because a small scuff, a hole, a loose surface or a wider crack can call for different discussions. Customers should describe where the wall is located, what they can see and whether the area has changed over time. If a concern appears connected to moisture, significant movement or another underlying issue, that information can be considered before a repair scope is arranged."
+          ]
+        },
+        {
+          "heading": "Photographed wall repair work",
+          "paragraphs": [
+            "The work-stage image shows practical surface preparation using repair compound and hand tools. The final photograph records the wall after the visible repair and finishing work. This page focuses on the image-supported sequence: damaged surface, close detail, preparation stage and completion view. It does not offer a structural diagnosis, make a compliance claim or promise that every wall condition can be handled as a standard minor repair.",
+            "Gyprock repairs Adelaide and hole in wall repair Adelaide requests can differ according to wall construction, size of the affected area, paint matching, previous repair work and the condition around the damage. A local handyman enquiry is clearer when it includes a wide photo, a close photo and any practical access considerations for the room."
+          ]
+        },
+        {
+          "heading": "Requesting wall repair in Goodwood",
+          "paragraphs": [
+            "For a similar Goodwood wall repair, share the room location, a description of the visible damage, safe photos and your preferred timing. Keep furniture or valuables clear of the affected area where practical, and let MEL ONE know if the property is leased or needs owner approval. These details help frame the conversation without asking a customer to investigate inside the wall.",
+            "The four-image sequence makes the page easy to assess: it shows the room context, the close detail of the damaged surface, the preparation stage and the completed wall. It is stronger than a generic repair description because customers can see a real local example while the wording stays within what the supplied photographs can support.",
+            "This real Goodwood case connects plasterboard repairs Adelaide, gyprock repairs Adelaide and hole in wall repair Adelaide with MEL ONE’s Home Repairs & Renovation Support service. The documented photos give customers, Google and AI systems direct local context: the observed wall condition, the recorded work stage and the finished image. Contact MEL ONE to discuss your household wall repair enquiry."
+          ]
+        }
       ]
     }
   ]
