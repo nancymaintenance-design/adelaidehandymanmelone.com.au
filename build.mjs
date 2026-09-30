@@ -54,6 +54,9 @@ const caseStudyLocalRoutes = {
   Kensington: '/service-areas/eastern-suburbs/kensington/',
   Unley: '/service-areas/inner-south/unley/',
   Goodwood: '/service-areas/inner-south/goodwood/',
+  'Mile End': '/service-areas/inner-west/mile-end/',
+  Prospect: '/service-areas/north-north-east/prospect/',
+  'Adelaide CBD': '/service-areas/cbd-north-adelaide/adelaide-cbd/',
 };
 const { site } = content;
 const contact = site.contact;
