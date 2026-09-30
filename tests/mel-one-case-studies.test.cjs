@@ -21,6 +21,9 @@ test('photographed local case studies publish connected pages, images and a mach
   const feed = JSON.parse(fixture.read('case-studies/feed.json'));
   assert.equal(feed.items.length, 12);
   assert.ok(feed.items.every(item => item.images.length >= 3 && item.url.startsWith('https://example.test/case-studies/')));
+  for (const slug of ['modbury-timber-fence-repair-assessment', 'marion-shower-screen-repair', 'henley-beach-sliding-screen-door-repair']) {
+    assert.equal(feed.items.find(item => item.id.endsWith(`/${slug}/`)).images.length, 4);
+  }
   assert.match(fixture.read('services/doors-windows-screens/index.html'), /norwood-flyscreen-repair/);
   assert.match(fixture.read('services/outdoor-structures-fences-pools/index.html'), /mile-end-fence-repair/);
   assert.match(fixture.read('services/roof-gutter-exterior-care/index.html'), /prospect-gutter-cleaning/);
