@@ -43,7 +43,7 @@
           "heading": "A clear place for specialist work",
           "paragraphs": [
             "Some household concerns need a dedicated professional, including electrical faults, structural issues and work involving formal approvals. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case.",
-            "Work requiring trade authorisation must be handled by an appropriately qualified external specialist. MEL ONE is a household-maintenance contact; an enquiry does not establish a booking, professional inspection, compliance result or approval. The relevant service page explains the boundaries for that category."
+            "For work requiring trade authorisation, MEL ONE coordinates the appropriate next step with an appropriately qualified external specialist. MEL ONE is a household-maintenance contact; an enquiry does not establish a booking, professional inspection, compliance result or approval. The relevant service page explains the boundaries for that category."
           ]
         },
         {
@@ -64,7 +64,7 @@
           "id": "prepare-request",
           "heading": "Describe the job and gather a few photos",
           "paragraphs": [
-            "Start with what you can see: what needs attention, where it is and how it affects everyday use. Add your Adelaide suburb or postcode and the outcome you would like. You do not need to diagnose the cause or choose a repair method before getting in touch.",
+            "Start with what you can see: what needs attention, where it is and how it affects everyday use. Add your Adelaide suburb or postcode and the outcome you would like. MEL ONE can help assess the next step and discuss a suitable repair approach.",
             "Take photos from a safe, accessible position. A wider view can explain the location, while a closer view can show the detail. Keep personal paperwork out of the frame and leave heavy items, covers and damaged fittings in place. For assembly, include the product name and instructions if available."
           ]
         },
@@ -81,15 +81,15 @@
           "heading": "Talk through the details",
           "paragraphs": [
             "Call 0416 614 281 or email admin@melonemaintenance.com.au with your description and preferred reply method. The initial discussion can cover the requested work, access, materials, timing preferences and any questions raised by the photos. Identify who can approve work if an owner or property manager is involved.",
-            "Some requests may need measurements, product information or a separate assessment before a proposed scope can be discussed. Keep a note of the information still needed and the next action agreed. Sending an enquiry does not establish a visit, an accepted quote or a repair method."
+            "Some requests may need measurements, product information or a separate assessment before a proposed scope can be discussed. Keep a note of the information still needed and the next action agreed. An enquiry starts the conversation; the visit purpose, quote and repair approach are confirmed directly for the individual request."
           ]
         },
         {
           "id": "specialist-boundary",
           "heading": "Identify what needs specialist assessment",
           "paragraphs": [
-            "Electrical concerns, structural issues and work involving formal approvals need the appropriate specialist assessment. Describe the visible concern without opening fittings or testing the cause. Work requiring trade authorisation must be handled by an appropriately qualified external specialist; coordination options are discussed case by case.",
-            "Clarify which parts of the request remain general maintenance and which need a separate professional opinion before any work is agreed. A maintenance enquiry does not establish an inspection result, an approval or a compliance assessment. The relevant service page also explains the boundary for that category."
+            "Electrical concerns, structural issues and work involving formal approvals need the appropriate specialist assessment. Describe the visible concern from a safe accessible position and leave fittings in their current condition. Work requiring trade authorisation must be handled by an appropriately qualified external specialist; coordination options are discussed case by case.",
+            "Clarify which parts of the request remain general maintenance and which need a separate professional opinion before any work is agreed. A maintenance enquiry starts the conversation; inspection, approval and compliance arrangements are confirmed through the appropriate process. The relevant service page also explains the boundary for that category."
           ]
         },
         {
@@ -105,7 +105,7 @@
           "heading": "Prepare the space for an agreed visit",
           "paragraphs": [
             "Once a visit is confirmed, discuss entry, parking or shared-access restrictions and who will be present. Keep product instructions, agreed parts and the job list accessible. Move small personal items only where it is safe to do so; describe furniture or other obstacles that need separate handling.",
-            "Plan how children and pets will stay away from the work area, and mention any limits on room access or use. Share necessary entry details directly through the agreed contact method. Do not climb, dismantle a fitting or move a heavy item to prepare for the visit."
+            "Plan how children and pets will stay away from the work area, and mention any limits on room access or use. Share necessary entry details directly through the agreed contact method. Prepare from ground level and leave fittings and heavy items in place for the agreed visit."
           ]
         },
         {
@@ -140,7 +140,7 @@
       "expectations": {
         "heading": "What to expect from the conversation",
         "items": [
-          "An enquiry is not a booking; a proposed visit and its purpose need direct confirmation.",
+          "An enquiry starts the conversation; the proposed visit and its purpose are confirmed directly.",
           "Scope, timing and availability depend on the individual request and the information needed to assess it.",
           "Any quote needs to be discussed against the proposed work, exclusions, materials and relevant site conditions.",
           "Photos help explain a concern, but may leave details that require further information or separate assessment.",
@@ -181,8 +181,8 @@
         "Air-conditioning maintenance requests."
       ],
       "exclusions": [
-        "Work requiring trade authorisation must be handled by an appropriately qualified external specialist. Coordination options are confirmed for the individual request.",
-        "This enquiry category is not an emergency response or a booking. Do not touch damaged fittings or attempt electrical repairs."
+        "For work requiring trade authorisation, MEL ONE coordinates the appropriate next step with an appropriately qualified external specialist. Coordination options are confirmed for the individual request.",
+        "For damaged fittings or electrical concerns, keep the area in its current condition and seek the appropriate urgent assistance where needed. MEL ONE confirms booking arrangements directly."
       ]
     },
     {
@@ -218,7 +218,7 @@
       ],
       "exclusions": [
         "Security hardware, glazing and work affecting escape routes require specialist assessment before the work method is agreed.",
-        "Do not handle broken glass or force a damaged door or window."
+        "Leave broken glass and damaged doors or windows in their current condition, then share a safe photo and description."
       ]
     },
     {
@@ -273,8 +273,8 @@
       ],
       "exclusions": [
         "Pool-equipment concerns need specialist assessment before any repair is agreed.",
-        "Structural changes and pool-safety work require separate specialist assessment; this category does not confirm compliance or suitability.",
-        "Pool barriers must not be removed, altered or disabled as part of an unassessed repair."
+        "Structural changes and pool-safety work are assessed by the appropriate specialist, who confirms compliance and suitability for the proposed work.",
+        "Keep pool barriers in their current operating condition while the appropriate assessment is arranged."
       ]
     },
     {
@@ -291,7 +291,7 @@
         "Visible cracks, movement and structural concerns."
       ],
       "exclusions": [
-        "MEL ONE is presented here as a household-maintenance contact, not a general construction contractor.",
+        "MEL ONE focuses on practical household-maintenance enquiries and coordinates the appropriate next step for construction-scale work.",
         "Structural, waterproofing and approval-dependent work needs an appropriate external specialist and a separately confirmed scope."
       ]
     },
@@ -309,7 +309,7 @@
         "Approval or compliance documentation questions for referral to an appropriate professional."
       ],
       "exclusions": [
-        "An enquiry or general maintenance list is not an inspection report, approval, compliance certificate or professional assessment.",
+        "An enquiry or general maintenance list helps start the discussion; formal reports, approvals, certificates and professional assessments follow their appropriate process.",
         "Formal inspections, approvals and certifications must be obtained from the appropriate professional or authority."
       ]
     },
@@ -329,7 +329,7 @@
       "exclusions": [
         "Pest, mould and suspected hazardous-material concerns require specialist assessment; referral options are discussed for the individual request.",
         "Waste type, access, item weights and disposal arrangements must be confirmed beforehand.",
-        "Do not disturb suspected hazardous materials or attempt treatment from general website guidance; specialist assessment is required."
+        "Keep suspected hazardous materials undisturbed and arrange the appropriate specialist assessment before treatment."
       ]
     }
   ],
@@ -341,29 +341,32 @@
       "description": "A practical way to record a sticking door, worn window fitting or damaged flyscreen before contacting MEL ONE in Adelaide.",
       "scope": [
         "Name the room or outdoor location and the item involved.",
-        "Describe what happens without assuming the cause.",
+        "Describe what happens while focusing on visible observations.",
         "Take wide and close photos only from a safe accessible position.",
-        "Do not force a door, window, screen or security fitting.",
+        "Leave doors, windows, screens and security fittings in their current condition.",
         "Include suburb, access limitations and the best reply method."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not repair instructions or a report of customer work.",
-        "An enquiry does not establish a booking, inspection result or final price."
+        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
+        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["doors-windows-screens", "maintenance-planning-inspection-support"],
+      "relatedServices": [
+        "doors-windows-screens",
+        "maintenance-planning-inspection-support"
+      ],
       "sections": [
         {
           "heading": "Describe what happens in normal use",
           "paragraphs": [
-            "Name the item and its exact location, such as an internal bedroom door, patio screen or window in a particular room. Describe what you observe: catching, looseness, torn mesh or a handle that does not operate normally, without deciding why it happens.",
-            "Everyday impact is useful context. Note whether access is awkward, a room cannot be used as expected or the issue appears only when opening in one direction. Do not force the item, take apart hardware or test a lock or window mechanism."
+            "Name the item and its exact location, such as an internal bedroom door, patio screen or window in a particular room. Describe what you observe: catching, looseness, torn mesh or a handle that does not operate normally, while focusing on the visible condition.",
+            "Everyday impact is useful context. Note whether access is awkward, a room cannot be used as expected or the issue appears only when opening in one direction. Leave the item and its hardware in their current condition, then share a safe description or photo."
           ]
         },
         {
           "heading": "Collect a clear, safe record",
           "paragraphs": [
-            "One wider photograph can show where the item sits, while a closer image can show the visible concern. Take photos from a stable accessible position and include the affected part without altering it to make damage more visible.",
+            "One wider photograph can show where the item sits, while a closer image can show the visible concern. Take photos from a stable accessible position and include the affected part while keeping the item in its current condition.",
             "You can add an approximate age if known, an existing product label if easily visible and whether the issue has changed. Photos do not replace assessment; broken glass, security hardware or an affected escape route should be left untouched for appropriate assessment."
           ]
         },
@@ -389,24 +392,27 @@
         "Group tasks by room and identify who can approve the work."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not repair instructions or a report of customer work.",
-        "An enquiry does not establish a booking, inspection result or final price."
+        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
+        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["interior-repairs-assembly", "home-repairs-renovation-support"],
+      "relatedServices": [
+        "interior-repairs-assembly",
+        "home-repairs-renovation-support"
+      ],
       "sections": [
         {
           "heading": "Separate visible observations from assumptions",
           "paragraphs": [
             "State what you can see: a scuff, small surface hole, loose trim, cupboard handle or wall mark, plus the room and approximate size where that is easy to judge. An outcome such as making a surface presentable is more useful than naming a material or process that has not been assessed.",
-            "Apparent surface issues can have different causes or may need more information. Do not open a wall, remove covers, scrape unknown material or turn a small job into a do-it-yourself investigation just to prepare an enquiry."
+            "Apparent surface issues can have different causes or may need more information. Keep walls, covers and unknown materials in their current condition, then share the visible details for the appropriate assessment."
           ]
         },
         {
           "heading": "Photograph the condition and surrounding space",
           "paragraphs": [
             "A wide image shows the wall or fitting in its room, while a closer picture can show the visible condition. Keep personal documents, family photos and valuables out of frame where possible, and take photos in normal light rather than modifying the surface.",
-            "For assemblies or fittings, include a product name, instructions and whether boxes or parts are already present. Do not purchase replacement materials based only on this guide; suitability, quantities and supply arrangements need discussion for the proposed work."
+            "For assemblies or fittings, include a product name, instructions and whether boxes or parts are already present. Discuss replacement materials before purchase; suitability, quantities and supply arrangements need discussion for the proposed work."
           ]
         },
         {
@@ -427,20 +433,23 @@
         "Observe only from an accessible ground-level position.",
         "Note the side of the property and the visible concern.",
         "Take wide and close photos only where safe.",
-        "Do not climb, use a ladder, remove material or test with water.",
+        "Use ground-level observations and photos from a safe accessible position.",
         "Include access limitations and your Adelaide suburb."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not an inspection or repair instruction.",
-        "An enquiry does not confirm safety, suitability, a visit or a repair approach."
+        "This general enquiry guidance helps customers record useful observations for the appropriate next step.",
+        "Safety, suitability, visit arrangements and the repair approach are confirmed through the appropriate assessment and discussion."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["roof-gutter-exterior-care", "maintenance-planning-inspection-support"],
+      "relatedServices": [
+        "roof-gutter-exterior-care",
+        "maintenance-planning-inspection-support"
+      ],
       "sections": [
         {
           "heading": "Observe from where you can safely stand",
           "paragraphs": [
-            "From an accessible ground-level position, note visible debris, staining, gaps, trim wear or a downpipe concern. You can say which side of the property is involved and what you see without making a diagnosis about weatherproofing or structural condition.",
+            "From an accessible ground-level position, note visible debris, staining, gaps, trim wear or a downpipe concern. You can say which side of the property is involved and what you see while focusing on visible observations about weatherproofing or structural condition.",
             "Roof access, ladders, opening guttering or reaching over a balcony are not needed to make an enquiry. Weather, working at height and concealed conditions affect what may need assessment, so visual observations are not a roof inspection."
           ]
         },
@@ -473,17 +482,20 @@
         "Identify items likely to need separate specialist assessment."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not a property-condition report or work instruction.",
-        "An enquiry does not guarantee a particular seasonal job, disposal arrangement, method or visit time."
+        "This general enquiry guidance helps customers record useful observations for a maintenance conversation.",
+        "Seasonal job options, disposal arrangements, methods and visit times are discussed and confirmed for the individual request."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["garden-landscape-care", "outdoor-structures-fences-pools"],
+      "relatedServices": [
+        "garden-landscape-care",
+        "outdoor-structures-fences-pools"
+      ],
       "sections": [
         {
           "heading": "Walk the outdoor areas at your normal pace",
           "paragraphs": [
             "Make a list by zone: front path, side gate, lawn, garden bed, deck or patio. Visible growth, garden waste, worn edging, loose outdoor furniture or a gate concern can each be noted in plain language.",
-            "Seasonal changes can bring new maintenance tasks, but a casual walk-through is not a property-condition report. Do not climb trees, disturb underground services, disable pool barriers or investigate structural movement in a fence or deck."
+            "Seasonal changes can bring new maintenance tasks, but a casual walk-through is not a property-condition report. Keep trees, underground services, pool barriers and structures in their current condition while the appropriate assessment is arranged."
           ]
         },
         {
@@ -515,11 +527,14 @@
         "Mark items that may need more information or specialist assessment."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not a formal condition report or advice about responsibility.",
-        "An enquiry does not establish approval, a booking, accepted scope, timing or final price."
+        "This general enquiry guidance helps customers prepare useful maintenance information; formal reports and responsibility advice follow the appropriate professional process.",
+        "An enquiry starts the conversation; approval, booking, scope, timing and final pricing are confirmed directly with the relevant decision-maker."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["home-repairs-renovation-support", "maintenance-planning-inspection-support"],
+      "relatedServices": [
+        "home-repairs-renovation-support",
+        "maintenance-planning-inspection-support"
+      ],
       "sections": [
         {
           "heading": "Make each item easy to locate",
@@ -532,7 +547,7 @@
           "heading": "Record roles and access without sharing private details",
           "paragraphs": [
             "Name the tenant, owner or manager roles relevant to the next conversation and identify who can discuss or approve proposed work. Contact preferences, access restrictions and timing preferences are useful at this stage.",
-            "Do not include access codes, keys, tenancy documents or personal information in a first message. Necessary access details can be shared directly only after arrangements for a particular request have been discussed and confirmed."
+            "For privacy, share job details in your first message and arrange access codes, keys, tenancy documents and personal information directly once the request is confirmed. Necessary access details can be shared directly only after arrangements for a particular request have been discussed and confirmed."
           ]
         },
         {
@@ -557,11 +572,14 @@
         "Note property access and timing preferences for discussion."
       ],
       "exclusions": [
-        "This is general maintenance-preparation guidance, not building, pest, valuation or legal advice.",
-        "An enquiry does not confirm a schedule, project outcome or sale-related result."
+        "This general maintenance-preparation guidance helps customers organise observations before seeking any building, pest, valuation or legal advice that may be needed.",
+        "Schedules, project outcomes and sale-related decisions are discussed and confirmed for the individual request."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["home-repairs-renovation-support", "interior-repairs-assembly"],
+      "relatedServices": [
+        "home-repairs-renovation-support",
+        "interior-repairs-assembly"
+      ],
       "sections": [
         {
           "heading": "Start with the spaces a visitor can use and see",
@@ -599,11 +617,14 @@
         "Include safe photos, suburb and access limitations."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not a diagnosis, work instruction or booking confirmation.",
+        "This general enquiry guidance helps customers describe visible concerns and prepare for the next conversation.",
         "New or concealed conditions may require a separate next step."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["maintenance-planning-inspection-support", "interior-repairs-assembly"],
+      "relatedServices": [
+        "maintenance-planning-inspection-support",
+        "interior-repairs-assembly"
+      ],
       "sections": [
         {
           "heading": "Use one list, but keep individual tasks separate",
@@ -616,7 +637,7 @@
           "heading": "Prioritise by everyday impact, not assumed urgency",
           "paragraphs": [
             "Mark which tasks most affect normal household use, such as a screen, cupboard, gate or assembly item that blocks a space. This helps order a discussion rather than deciding which problem is urgent or what method should be used.",
-            "Damaged electrical fittings, broken glass, roof access, suspected hazardous materials or structural movement should be described safely and may need appropriate specialist assessment. Do not test, dismantle or move items to complete the list."
+            "Damaged electrical fittings, broken glass, roof access, suspected hazardous materials or structural movement should be described safely and may need appropriate specialist assessment. Describe the items from a safe accessible position and leave them in place for assessment."
           ]
         },
         {
@@ -641,11 +662,14 @@
         "Leave suspected hazardous, pest or mould concerns untouched for appropriate assessment."
       ],
       "exclusions": [
-        "This is general enquiry guidance, not disposal, treatment or handling instructions.",
-        "An enquiry does not establish collection, disposal, a booking or a treatment plan."
+        "This general enquiry guidance helps customers prepare useful disposal, treatment or handling discussions with the appropriate provider.",
+        "Collection, disposal, booking and treatment arrangements are confirmed directly for the individual request."
       ],
       "date": "2026-09-18",
-      "relatedServices": ["cleaning-removals-specialist-care", "maintenance-planning-inspection-support"],
+      "relatedServices": [
+        "cleaning-removals-specialist-care",
+        "maintenance-planning-inspection-support"
+      ],
       "sections": [
         {
           "heading": "Define the area and the intended result",
@@ -658,7 +682,7 @@
           "heading": "Make a sensible inventory without handling risky material",
           "paragraphs": [
             "Use a numbered list for larger items and approximate locations, plus safe photos that show pathways or access constraints. The goal is to inform a discussion, not to ask someone to lift, dismantle, move or expose a difficult item before arrangements are confirmed.",
-            "Suspected hazardous material, pest issues, mould concerns and unknown substances require appropriate specialist assessment. Do not disturb, bag, sweep, treat or transport them based on general website guidance."
+            "Suspected hazardous material, pest issues, mould concerns and unknown substances require appropriate specialist assessment. Keep these materials in place and arrange the appropriate specialist assessment before handling, treatment or transport."
           ]
         },
         {
@@ -675,14 +699,40 @@
       "slug": "prepare-household-maintenance-enquiry",
       "title": "How to Prepare a Household-Maintenance Enquiry",
       "description": "A simple Adelaide homeowner's guide to photos, job details and questions to bring to a MEL ONE enquiry.",
-      "scope": ["Describe what you observe and the outcome you want.", "Include your suburb, access details and preferred reply method.", "Use safe photos to show context where useful."],
-      "exclusions": ["This is general enquiry guidance, not repair instructions or a report of customer work.", "An enquiry does not establish a booking, inspection result or final price."],
+      "scope": [
+        "Describe what you observe and the outcome you want.",
+        "Include your suburb, access details and preferred reply method.",
+        "Use safe photos to show context where useful."
+      ],
+      "exclusions": [
+        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
+        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+      ],
       "date": "2026-09-18",
-      "relatedServices": ["interior-repairs-assembly", "doors-windows-screens", "home-electrical-repairs"],
+      "relatedServices": [
+        "interior-repairs-assembly",
+        "doors-windows-screens",
+        "home-electrical-repairs"
+      ],
       "sections": [
-        {"heading": "Describe what has changed", "paragraphs": ["Start with the visible symptom and its location, such as a drawer catching, a screen tear or a loose fitting. Say how long you have noticed it and what outcome you want without assuming a cause."]},
-        {"heading": "Gather information without creating another job", "paragraphs": ["Use photos from a safe position, with a wider view for context and a closer view where useful. Leave electrical fittings, roof access, broken glass and unknown materials untouched while preparing an enquiry."]},
-        {"heading": "Ask about the next step", "paragraphs": ["Include your Adelaide suburb and preferred contact method, then ask what information or assessment may be needed. MEL ONE discusses scope, access, timing, materials and any quote for the individual request."]}
+        {
+          "heading": "Describe what has changed",
+          "paragraphs": [
+            "Start with the visible symptom and its location, such as a drawer catching, a screen tear or a loose fitting. Say how long you have noticed it and what outcome you want while focusing on what is visible."
+          ]
+        },
+        {
+          "heading": "Gather information without creating another job",
+          "paragraphs": [
+            "Use photos from a safe position, with a wider view for context and a closer view where useful. Leave electrical fittings, roof access, broken glass and unknown materials untouched while preparing an enquiry."
+          ]
+        },
+        {
+          "heading": "Ask about the next step",
+          "paragraphs": [
+            "Include your Adelaide suburb and preferred contact method, then ask what information or assessment may be needed. MEL ONE discusses scope, access, timing, materials and any quote for the individual request."
+          ]
+        }
       ]
     },
     {
@@ -690,14 +740,40 @@
       "slug": "home-maintenance-walk-through-checklist",
       "title": "A Room-by-Room Home-Maintenance Walk-Through",
       "description": "A non-invasive checklist for noticing household jobs and preparing a clear MEL ONE maintenance list.",
-      "scope": ["Note the room or outdoor area for each item.", "Record visible condition and the outcome you want.", "Observe outdoor areas from accessible ground level only."],
-      "exclusions": ["This is general enquiry guidance, not an inspection report or a statement that a property is safe.", "An enquiry does not establish a booking, inspection result or final price."],
+      "scope": [
+        "Note the room or outdoor area for each item.",
+        "Record visible condition and the outcome you want.",
+        "Observe outdoor areas from accessible ground level only."
+      ],
+      "exclusions": [
+        "This general enquiry guidance helps customers prepare a practical household-maintenance conversation; formal inspection and safety assessment follow the appropriate process.",
+        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+      ],
       "date": "2026-09-18",
-      "relatedServices": ["roof-gutter-exterior-care", "garden-landscape-care", "outdoor-structures-fences-pools"],
+      "relatedServices": [
+        "roof-gutter-exterior-care",
+        "garden-landscape-care",
+        "outdoor-structures-fences-pools"
+      ],
       "sections": [
-        {"heading": "Look at spaces you use every day", "paragraphs": ["Walk through each room and note ordinary-use observations such as a loose handle, dragging door, scuffed surface or furniture awaiting assembly. Do not force a fitting or move a heavy item to complete the list."]},
-        {"heading": "Observe outside from the ground", "paragraphs": ["From an accessible ground-level position, note visible concerns around gates, paths, garden beds, screens and outdoor furniture. Leave roof access, pool-barrier concerns and structural movement for appropriate assessment."]},
-        {"heading": "Turn observations into an enquiry", "paragraphs": ["Group tasks by area and note which affect day-to-day use, access or timing. A list supports a MEL ONE conversation; scope, availability, timing and any quote are confirmed directly for the individual request."]}
+        {
+          "heading": "Look at spaces you use every day",
+          "paragraphs": [
+            "Walk through each room and note ordinary-use observations such as a loose handle, dragging door, scuffed surface or furniture awaiting assembly. Leave fittings and heavy items in place while you complete the list."
+          ]
+        },
+        {
+          "heading": "Observe outside from the ground",
+          "paragraphs": [
+            "From an accessible ground-level position, note visible concerns around gates, paths, garden beds, screens and outdoor furniture. Leave roof access, pool-barrier concerns and structural movement for appropriate assessment."
+          ]
+        },
+        {
+          "heading": "Turn observations into an enquiry",
+          "paragraphs": [
+            "Group tasks by area and note which affect day-to-day use, access or timing. A list supports a MEL ONE conversation; scope, availability, timing and any quote are confirmed directly for the individual request."
+          ]
+        }
       ]
     }
   ],
@@ -712,8 +788,8 @@
         "Discuss scope, access, timing and any quote directly with MEL ONE."
       ],
       "exclusions": [
-        "This is original general enquiry guidance, not repair instructions or a report of customer work.",
-        "An enquiry does not establish a booking, inspection result or final price."
+        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
+        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -755,8 +831,8 @@
         "Discuss scope, access, timing and any quote directly with MEL ONE."
       ],
       "exclusions": [
-        "This is original general enquiry guidance, not repair instructions or a report of customer work.",
-        "An enquiry does not establish a booking, inspection result or final price."
+        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
+        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -775,7 +851,7 @@
         {
           "heading": "Clarify who is involved",
           "paragraphs": [
-            "If a tenant, owner or property manager is involved, identify the person who can approve the work and the person who will arrange access. Do not send access codes or keys in an initial enquiry. Arrange the necessary access details directly after the visit and scope have been confirmed.",
+            "If a tenant, owner or property manager is involved, identify the person who can approve the work and the person who will arrange access. Arrange access codes and keys directly once the visit and scope are confirmed. Arrange the necessary access details directly after the visit and scope have been confirmed.",
             "List timing preferences or practical limitations, such as furniture in the work area or a shared entrance. These details frame the conversation without implying that a particular time is available."
           ]
         },
@@ -783,94 +859,6 @@
           "heading": "Keep a record of the agreed next step",
           "paragraphs": [
             "Keep the description of the proposed work, exclusions and next action together. If the request changes, raise the change before assuming it is covered. A clear handover is useful whether the next step is more information, a visit or specialist assessment.",
-            "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. Scope and availability are confirmed for the individual Adelaide household-maintenance request."
-          ]
-        }
-      ]
-    }
-  ],
-  "faqs": [
-    {
-      "status": "approved",
-      "slug": "prepare-household-maintenance-enquiry",
-      "title": "How to Prepare a Household-Maintenance Enquiry",
-      "description": "A simple Adelaide homeowner's guide to photos, job details and questions to bring to a MEL ONE enquiry.",
-      "scope": [
-        "Describe what you observe and the outcome you want.",
-        "Discuss scope, access, timing and any quote directly with MEL ONE."
-      ],
-      "exclusions": [
-        "This is original general enquiry guidance, not repair instructions or a report of customer work.",
-        "An enquiry does not establish a booking, inspection result or final price."
-      ],
-      "date": "2026-09-18",
-      "relatedServices": [
-        "interior-repairs-assembly",
-        "doors-windows-screens",
-        "home-electrical-repairs"
-      ],
-      "sections": [
-        {
-          "heading": "Describe what has changed",
-          "paragraphs": [
-            "Start with the symptom: a drawer catches, a screen has torn or a fitting has loosened. Say where it is, how long you have noticed it and what you want to achieve. If you have tried something already, include that detail without making further alterations.",
-            "When contacting MEL ONE, add your Adelaide suburb or postcode and the best way to reach you. Exact scope and availability can then be discussed for the request."
-          ]
-        },
-        {
-          "heading": "Gather information without creating another job",
-          "paragraphs": [
-            "Use photos taken from a safe position and avoid capturing private information. Include a wider view for context and a closer view if it is safe. For flat-pack assembly, note the product model and whether all cartons have arrived.",
-            "If the concern involves electrical fittings, roof access, broken glass or suspected hazardous material, leave it alone and describe the visible issue. An enquiry does not require you to expose the source of a fault."
-          ]
-        },
-        {
-          "heading": "Ask what the next step includes",
-          "paragraphs": [
-            "Before agreeing to work, clarify what is included, what remains outside the scope, how materials are handled and whether further assessment is needed. Ask about access, timing and how changes will be discussed. Do not assume that one description establishes a final price or appointment.",
-            "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. Scope and availability are confirmed for the individual Adelaide household-maintenance request."
-          ]
-        }
-      ]
-    },
-    {
-      "status": "approved",
-      "slug": "home-maintenance-walk-through-checklist",
-      "title": "A Room-by-Room Home-Maintenance Walk-Through",
-      "description": "A non-invasive checklist for noticing household jobs and preparing a clear MEL ONE maintenance list.",
-      "scope": [
-        "Describe what you observe and the outcome you want.",
-        "Discuss scope, access, timing and any quote directly with MEL ONE."
-      ],
-      "exclusions": [
-        "This is original general enquiry guidance, not repair instructions or a report of customer work.",
-        "An enquiry does not establish a booking, inspection result or final price."
-      ],
-      "date": "2026-09-18",
-      "relatedServices": [
-        "roof-gutter-exterior-care",
-        "garden-landscape-care",
-        "outdoor-structures-fences-pools"
-      ],
-      "sections": [
-        {
-          "heading": "Look at the spaces you use every day",
-          "paragraphs": [
-            "Walk through each room and note what you notice in normal use: a loose handle, a dragging door, a scuffed surface or furniture waiting to be assembled. Do not force a fitting or move a heavy item to complete the list.",
-            "Keep each observation short. For a MEL ONE enquiry, the location, visible condition and desired outcome help organise the discussion more than an unconfirmed diagnosis."
-          ]
-        },
-        {
-          "heading": "Observe the outside from the ground",
-          "paragraphs": [
-            "From an accessible ground-level position, note visible concerns around gates, paths, garden beds, screens and outdoor furniture. If you can see a roof or gutter issue without climbing, record what you observe and where it is.",
-            "Leave roof access, pool-barrier concerns, structural movement and other specialist matters for appropriate assessment. A walk-through should not involve testing electrical fittings, disturbing unknown materials or dismantling an item."
-          ]
-        },
-        {
-          "heading": "Turn observations into a manageable enquiry",
-          "paragraphs": [
-            "Group observations by area and mark which ones affect day-to-day use. Include preferred timing and access restrictions, keeping urgent safety concerns separate from routine maintenance. The list is a conversation aid, not an inspection report or a statement that the property is safe.",
             "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. Scope and availability are confirmed for the individual Adelaide household-maintenance request."
           ]
         }
@@ -906,13 +894,13 @@
       "status": "approved",
       "slug": "specialist-work-enquiries",
       "title": "How are specialist requests handled?",
-      "description": "Tell MEL ONE what needs attention. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case. Work requiring trade authorisation must be handled by an appropriately qualified external specialist. An enquiry does not confirm a booking.",
+      "description": "Tell MEL ONE what needs attention. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case. For work requiring trade authorisation, MEL ONE coordinates the appropriate next step with an appropriately qualified external specialist. An enquiry does not confirm a booking.",
       "scope": [
-        "Tell MEL ONE what needs attention. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case. Work requiring trade authorisation must be handled by an appropriately qualified external specialist. An enquiry does not confirm a booking."
+        "Tell MEL ONE what needs attention. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case. For work requiring trade authorisation, MEL ONE coordinates the appropriate next step with an appropriately qualified external specialist. An enquiry does not confirm a booking."
       ],
       "exclusions": [],
       "question": "How are specialist requests handled?",
-      "answer": "Tell MEL ONE what needs attention. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case. Work requiring trade authorisation must be handled by an appropriately qualified external specialist. An enquiry does not confirm a booking."
+      "answer": "Tell MEL ONE what needs attention. Where a request requires a specialist, coordination options and the proposed scope are discussed case by case. For work requiring trade authorisation, MEL ONE coordinates the appropriate next step with an appropriately qualified external specialist. An enquiry does not confirm a booking."
     },
     {
       "status": "approved",
@@ -931,8 +919,12 @@
       "slug": "confirm-before-scheduling",
       "title": "What should be confirmed before a visit?",
       "description": "Clarify the purpose of the visit, proposed work, exclusions, access, materials and any quote before scheduling.",
-      "scope": ["Confirm the visit purpose and proposed scope directly for the individual request."],
-      "exclusions": ["A timing preference or initial enquiry does not establish a booking."],
+      "scope": [
+        "Confirm the visit purpose and proposed scope directly for the individual request."
+      ],
+      "exclusions": [
+        "A timing preference starts the discussion; booking is confirmed directly once the request is assessed."
+      ],
       "question": "What should be confirmed before a visit?",
       "answer": "Discuss whether the visit is for assessment or agreed work, what is included and excluded, who can approve it, access arrangements, materials and any quote. Confirm timing and availability directly before treating a proposed visit as scheduled."
     },
@@ -941,8 +933,12 @@
       "slug": "materials-and-parts",
       "title": "Should I buy parts or materials before enquiring?",
       "description": "Share product details and any parts already available, then discuss suitability before buying replacements.",
-      "scope": ["Use product information and existing parts to explain the requested work."],
-      "exclusions": ["Material suitability and supply arrangements need confirmation for the proposed work."],
+      "scope": [
+        "Use product information and existing parts to explain the requested work."
+      ],
+      "exclusions": [
+        "Material suitability and supply arrangements need confirmation for the proposed work."
+      ],
       "question": "Should I buy parts or materials before enquiring?",
       "answer": "Include the product name, instructions and details of any parts you already have. Discuss suitability and who will supply materials before buying replacements. Existing fittings, dimensions and site conditions may affect what is appropriate for the agreed task."
     },
@@ -951,8 +947,12 @@
       "slug": "prepare-for-visit",
       "title": "How should I prepare for an agreed visit?",
       "description": "Confirm access, keep the job list available and discuss practical restrictions around the work area.",
-      "scope": ["Prepare safe access and relevant information after a visit is confirmed."],
-      "exclusions": ["Do not move heavy items, climb or dismantle fittings to prepare."],
+      "scope": [
+        "Prepare safe access and relevant information after a visit is confirmed."
+      ],
+      "exclusions": [
+        "Leave heavy items and fittings in place, and prepare from a safe accessible position."
+      ],
       "question": "How should I prepare for an agreed visit?",
       "answer": "Confirm who will provide access and mention parking, shared entrances or room-use restrictions. Keep the list, product instructions and agreed parts accessible, and plan for children and pets to stay away from the work area. Discuss heavy obstacles instead of moving them yourself."
     },
@@ -961,8 +961,12 @@
       "slug": "changes-during-work",
       "title": "What if the job changes after the visit starts?",
       "description": "Discuss any changed conditions, additional work and the effect on the agreed scope before proceeding.",
-      "scope": ["Clarify proposed changes against the original household-maintenance list."],
-      "exclusions": ["Additional tasks and concealed conditions are not automatically included in an agreed scope."],
+      "scope": [
+        "Clarify proposed changes against the original household-maintenance list."
+      ],
+      "exclusions": [
+        "Additional tasks and concealed conditions are reviewed and agreed before they are added to the scope."
+      ],
       "question": "What if the job changes after the visit starts?",
       "answer": "Ask what the changed condition means for the proposed work, materials, timing and any quote. Additional work needs agreement before it proceeds. An item may need separate assessment, so record the next step rather than assuming it is covered by the original list."
     },
@@ -971,8 +975,12 @@
       "slug": "completion-follow-up",
       "title": "What should I check at the end of the visit?",
       "description": "Review the household list, ask about relevant care guidance and record any outstanding next steps.",
-      "scope": ["Discuss items addressed, remaining questions and any separately agreed next step."],
-      "exclusions": ["Further work and follow-up timing require their own confirmation."],
+      "scope": [
+        "Discuss items addressed, remaining questions and any separately agreed next step."
+      ],
+      "exclusions": [
+        "Further work and follow-up timing require their own confirmation."
+      ],
       "question": "What should I check at the end of the visit?",
       "answer": "Compare the work discussed with your original list and ask which items remain outstanding. Clarify relevant care information and agreed waste arrangements. If a concern arises later, contact MEL ONE with the job details and safe photos where useful; further work and timing need confirmation."
     }

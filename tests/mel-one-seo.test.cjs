@@ -15,6 +15,13 @@ test('default canonicals and crawler indexes address the actual local preview', 
   }
 });
 
+test('LLM discovery text describes the live MEL ONE website in positive, accurate language', () => {
+  const text = preview.read('llms.txt');
+  assert.match(text, /This is MEL ONE’s Adelaide website\./);
+  assert.match(text, /Availability, timing and specialist coordination are confirmed for each request\./);
+  assert.doesNotMatch(text, /local website candidate|does not promise search or AI ranking/i);
+});
+
 test('About metadata, schema and crawler summary follow its dedicated content contract', () => {
   const fixture = buildFixture(test, {}, content => {
     content.site.about.title = 'A changed About title';
