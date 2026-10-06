@@ -78,6 +78,14 @@ test('approved content contains no Review or AggregateRating data or historical 
   );
 });
 
+test('photographed cases use targeted-solution language rather than no-promise wording', () => {
+  const content = loadContent();
+  const caseText = JSON.stringify(content.caseStudies);
+
+  assert.match(caseText, /MEL ONE follows up on each reported .{0,48}? with a targeted solution/i);
+  assert.doesNotMatch(caseText, /not a promise|not (?:a )?guarantee|not identical|not always a like-for-like|universal repair method|does not make (?:a )?claim|does not claim/i);
+});
+
 test('nine household categories publish detailed enquiry scopes without excluded trades', () => {
   const content = loadContent();
   const services = content.services.filter(record => record.status === 'approved');
