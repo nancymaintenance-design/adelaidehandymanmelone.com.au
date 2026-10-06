@@ -11,6 +11,7 @@ test('photographed local case studies publish connected pages, images and a mach
     'kensington-furniture-assembly', 'unley-kitchen-cabinet-repair', 'goodwood-wall-repair',
     'mile-end-fence-repair', 'prospect-gutter-cleaning', 'adelaide-cbd-wall-repair',
     'modbury-timber-fence-repair-assessment', 'marion-shower-screen-repair', 'henley-beach-sliding-screen-door-repair',
+    'stirling-deck-pergola-timber-repair', 'modbury-garden-pruning-tidy-up', 'north-adelaide-timber-gate-repair',
   ];
   for (const slug of slugs) {
     const html = fixture.read(`case-studies/${slug}/index.html`);
@@ -19,9 +20,12 @@ test('photographed local case studies publish connected pages, images and a mach
     assert.match(html, /<figure/);
   }
   const feed = JSON.parse(fixture.read('case-studies/feed.json'));
-  assert.equal(feed.items.length, 12);
+  assert.equal(feed.items.length, 15);
   assert.ok(feed.items.every(item => item.images.length >= 3 && item.url.startsWith('https://example.test/case-studies/')));
   for (const slug of ['modbury-timber-fence-repair-assessment', 'marion-shower-screen-repair', 'henley-beach-sliding-screen-door-repair']) {
+    assert.equal(feed.items.find(item => item.id.endsWith(`/${slug}/`)).images.length, 4);
+  }
+  for (const slug of ['stirling-deck-pergola-timber-repair', 'modbury-garden-pruning-tidy-up', 'north-adelaide-timber-gate-repair']) {
     assert.equal(feed.items.find(item => item.id.endsWith(`/${slug}/`)).images.length, 4);
   }
   assert.match(fixture.read('services/doors-windows-screens/index.html'), /norwood-flyscreen-repair/);
@@ -31,6 +35,9 @@ test('photographed local case studies publish connected pages, images and a mach
   assert.match(fixture.read('services/outdoor-structures-fences-pools/index.html'), /modbury-timber-fence-repair-assessment/);
   assert.match(fixture.read('services/doors-windows-screens/index.html'), /marion-shower-screen-repair/);
   assert.match(fixture.read('services/doors-windows-screens/index.html'), /henley-beach-sliding-screen-door-repair/);
+  assert.match(fixture.read('services/outdoor-structures-fences-pools/index.html'), /stirling-deck-pergola-timber-repair/);
+  assert.match(fixture.read('services/garden-landscape-care/index.html'), /modbury-garden-pruning-tidy-up/);
+  assert.match(fixture.read('services/outdoor-structures-fences-pools/index.html'), /north-adelaide-timber-gate-repair/);
   assert.ok(fs.existsSync(path.join(fixture.output, 'assets/images/cases/norwood-flyscreen-repair-01.png')));
   assert.ok(fs.existsSync(path.join(fixture.output, 'assets/images/cases/kensington-furniture-assembly-01.png')));
   assert.ok(fs.existsSync(path.join(fixture.output, 'assets/images/cases/mile-end-fence-repair-01.png')));

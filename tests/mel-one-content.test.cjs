@@ -35,7 +35,7 @@ test('content contract publishes only the confirmed MEL ONE identity and contact
   const content = loadContent();
 
   assert.deepEqual(Object.keys(content).sort(), ['caseStudies', 'faqs', 'guides', 'news', 'services', 'site']);
-  assert.equal(content.caseStudies.length, 12);
+  assert.equal(content.caseStudies.length, 15);
   assert.equal(content.site.title, 'MEL ONE');
   assert.deepEqual(content.site.contact, {
     phone: '0416 614 281',

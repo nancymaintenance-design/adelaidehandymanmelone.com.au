@@ -60,6 +60,7 @@ const caseStudyLocalRoutes = {
   Modbury: '/service-areas/north-north-east/modbury/',
   Marion: '/service-areas/southern-suburbs/marion/',
   'Henley Beach': '/service-areas/western-suburbs/henley-beach/',
+  Stirling: '/service-areas/adelaide-hills-foothills/stirling/',
 };
 const { site } = content;
 const contact = site.contact;
