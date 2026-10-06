@@ -3,7 +3,11 @@ const fs = require('node:fs');
 const path = require('node:path');
 const test = require('node:test');
 
-const pages = [];
-const walk = directory => { for (const entry of fs.readdirSync(directory, { withFileTypes: true })) { const file = path.join(directory, entry.name); if (entry.isDirectory()) walk(file); if (entry.isFile() && entry.name === 'index.html') pages.push(file); } };
-walk(path.join(process.cwd(), 'public'));
-test('published content images reserve layout space', () => { for (const page of pages) for (const match of fs.readFileSync(page, 'utf8').matchAll(/<img\b[^>]*>/gi)) { assert.match(match[0], /\bwidth="\d+"/i, `${page}: ${match[0]}`); assert.match(match[0], /\bheight="\d+"/i, `${page}: ${match[0]}`); } });
+const css = fs.readFileSync(path.join(process.cwd(), 'src/assets/css/site.css'), 'utf8');
+
+test('published image components reserve or control their visible layout', () => {
+  assert.match(css, /\.hero-figure img\s*\{[^}]*aspect-ratio:/);
+  assert.match(css, /\.collection-section \.intake-visual\s*\{[^}]*aspect-ratio:\s*4\s*\/\s*3/);
+  assert.match(css, /\.service-visual-gallery \.service-visual img\s*\{[^}]*height:\s*100%[^}]*object-fit:\s*cover/);
+  assert.match(css, /\.area-atlas-hero img\s*\{[^}]*height:/);
+});

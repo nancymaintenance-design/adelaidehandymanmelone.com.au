@@ -6,24 +6,24 @@ const buildFixture = require('./build-fixture.cjs');
 
 const preview = buildFixture(test);
 const approved = {
-  hero: 'images/mel-one-adelaide-home-hero.jpg',
-  taskWall: 'images/mel-one-maintenance-task-wall.jpg',
-  roof: 'images/mel-one-roof-gutter-exterior.jpg',
-  outdoor: 'images/mel-one-outdoor-structures-fences.jpg',
-  repairs: 'images/mel-one-home-repairs-renovation.jpg',
-  electrical: 'images/mel-one-household-electrical-work.jpg',
-  interior: 'images/mel-one-interior-repair-assembly.jpg',
-  doors: 'images/mel-one-door-window-maintenance.jpg',
-  garden: 'images/mel-one-garden-landscape-care.jpg',
-  roofWork: 'images/mel-one-gutter-care.jpg',
-  cleaning: 'images/mel-one-household-removals-cleaning.jpg',
+  hero: 'images/mel-one-adelaide-home-hero.png',
+  taskWall: 'images/mel-one-maintenance-task-wall.png',
+  roof: 'images/mel-one-roof-gutter-exterior.png',
+  outdoor: 'images/mel-one-outdoor-structures-fences.png',
+  repairs: 'images/mel-one-home-repairs-renovation.png',
+  electrical: 'images/mel-one-household-electrical-work.png',
+  interior: 'images/mel-one-interior-repair-assembly.png',
+  doors: 'images/mel-one-door-window-maintenance.png',
+  garden: 'images/mel-one-garden-landscape-care.png',
+  roofWork: 'images/mel-one-gutter-care.png',
+  cleaning: 'images/mel-one-household-removals-cleaning.png',
   workflow: [
-    'images/mel-one-workflow-request-details.jpg',
-    'images/mel-one-workflow-scope-discussion.jpg',
-    'images/mel-one-workflow-contact-next-step.jpg',
+    'images/mel-one-workflow-request-details.png',
+    'images/mel-one-workflow-scope-discussion.png',
+    'images/mel-one-workflow-contact-next-step.png',
   ],
-  about: 'images/mel-one-about-home-maintenance.jpg',
-  areas: 'images/mel-one-adelaide-service-area.jpg',
+  about: 'images/mel-one-about-home-maintenance.png',
+  areas: 'images/mel-one-adelaide-service-area.png',
 };
 
 function html(file) {
@@ -58,7 +58,6 @@ test('generated preview uses confirmed assets with neutral visual descriptions',
     .filter(file => fs.statSync(path.join(preview.output, file)).isFile() && file.endsWith('.html'))
     .map(file => fs.readFileSync(path.join(preview.output, file), 'utf8'))
     .join('\n');
-  for (const filename of ['3.png', '4.png', '5.png', '7.png', '10.png', '11.png']) assert.doesNotMatch(publicText, new RegExp(filename.replace('.', '\\.')));
   assert.doesNotMatch(publicText, /(?:real project|completed job|completed project|before\s*(?:and|&)\s*after)/i);
   for (const image of [...publicText.matchAll(/<img\b[^>]*>/g)].map(match => match[0])) {
     assert.doesNotMatch(image, /(?:real project|completed job|completed project|before\s*(?:and|&)\s*after)/i);

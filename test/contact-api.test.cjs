@@ -10,6 +10,9 @@ test('validateContact accepts a complete enquiry', () => {
     phone: '0400 000 000',
     email: 'alex@example.com',
     message: 'I need a quote for custom storage.',
+    suburb: 'Norwood',
+    timing: 'Weekdays',
+    contactPreference: 'email',
     website: '',
   });
 
@@ -19,12 +22,16 @@ test('validateContact accepts a complete enquiry', () => {
       phone: '0400 000 000',
       email: 'alex@example.com',
       message: 'I need a quote for custom storage.',
+      suburb: 'Norwood',
+      timing: 'Weekdays',
+      contactPreference: 'email',
     },
   });
 });
 
-test('validateContact rejects incomplete and bot submissions', () => {
-  assert.match(validateContact({ name: '', phone: '', email: '', message: '', website: '' }).error, /name/i);
+test('validateContact rejects incomplete, mismatched preference and bot submissions', () => {
+  assert.match(validateContact({ name: '', phone: '', email: '', message: '', suburb: '', contactPreference: '', website: '' }).error, /project details|question/i);
+  assert.match(validateContact({ name: 'Alex', phone: '', email: 'alex@example.com', message: 'Hello', suburb: 'Norwood', contactPreference: 'phone', website: '' }).error, /phone/i);
   assert.match(validateContact({ name: 'Alex', phone: '0400', email: 'alex@example.com', message: 'Hello', website: 'bot' }).error, /valid/i);
 });
 
@@ -34,20 +41,24 @@ test('createEmailPayload routes a MEL ONE enquiry to the owner with reply-to set
     phone: '0400 000 000',
     email: 'alex@example.com',
     message: 'I need a quote for custom storage.',
+    suburb: 'Norwood',
+    timing: 'Weekdays',
+    contactPreference: 'email',
   }, 'MEL ONE <enquiries@adelaidecarpentryhub.com.au>');
 
-  assert.deepEqual(payload.to, ['handymanfelix.au2026@outlook.com']);
+  assert.deepEqual(payload.to, ['admin@melonemaintenance.com.au']);
   assert.equal(payload.reply_to, 'alex@example.com');
   assert.match(payload.subject, /Alex Builder/);
   assert.match(payload.html, /custom storage/);
 });
 
-test('local candidate remains free from analytics and external form submission', () => {
+test('published site uses its declared analytics and first-party enquiry endpoint', () => {
   const fixture = buildFixture(test, {
     GA4_MEASUREMENT_ID: 'G-TEST123456',
     GSC_VERIFICATION_TOKEN: 'token-123',
   });
-  assert.doesNotMatch(fixture.read('index.html'), /googletagmanager\.com|google-site-verification/);
+  assert.match(fixture.read('index.html'), /googletagmanager\.com/);
+  assert.match(fixture.read('index.html'), /G-9KMWMVLZ3/);
   assert.doesNotMatch(fixture.read('contact/index.html'), /action="(?:https?:|\/api\/)/);
-  assert.doesNotMatch(fixture.read('assets/js/site.js'), /fetch\s*\(|XMLHttpRequest|sendBeacon|\/api\/contact/);
+  assert.match(fixture.read('assets/js/site.js'), /fetch\('\/api\/contact'/);
 });

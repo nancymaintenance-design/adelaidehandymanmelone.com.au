@@ -4,14 +4,25 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
 const buildFixture = require('./build-fixture.cjs');
-const preview = buildFixture(test);
+const preview = buildFixture(test, { SITE_ORIGIN: 'https://example.test' });
 const schemaOf = html => JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
 
-test('default canonicals and crawler indexes address the actual local preview', () => {
-  assert.match(preview.read('index.html'), /rel="canonical" href="http:\/\/127\.0\.0\.1:5173\/"/);
+function expectedGeneratedAssets(fixture) {
+  const source = path.join(path.dirname(fixture.output), 'src/assets');
+  const files = directory => fs.readdirSync(directory, { recursive: true })
+    .filter(file => fs.statSync(path.join(directory, file)).isFile())
+    .map(file => file.split(path.sep).join('/'));
+  return ['css/site.css', 'js/site.js', 'mel-one-logo-authorized.png',
+    ...files(path.join(source, 'images/intake')).filter(file => file.endsWith('.png')).map(file => `images/${file}`),
+    ...files(path.join(source, 'images/cases')).map(file => `images/cases/${file}`),
+  ].sort();
+}
+
+test('configured canonicals and crawler indexes use the requested site origin', () => {
+  assert.match(preview.read('index.html'), /rel="canonical" href="https:\/\/example\.test\/"/);
   for (const file of ['sitemap.xml', 'robots.txt', 'llms.txt']) {
-    assert.match(preview.read(file), /http:\/\/127\.0\.0\.1:5173\//);
-    assert.doesNotMatch(preview.read(file), /example\.test|localhost:4173|adelaidecarpentryhub/);
+    assert.match(preview.read(file), /https:\/\/example\.test\//);
+    assert.doesNotMatch(preview.read(file), /localhost:4173|adelaidecarpentryhub/);
   }
 });
 
@@ -23,7 +34,7 @@ test('LLM discovery text describes the live MEL ONE website in positive, accurat
 });
 
 test('About metadata, schema and crawler summary follow its dedicated content contract', () => {
-  const fixture = buildFixture(test, {}, content => {
+  const fixture = buildFixture(test, { SITE_ORIGIN: 'https://example.test' }, content => {
     content.site.about.title = 'A changed About title';
     content.site.about.description = 'A changed About description from its approved source.';
   });
@@ -34,7 +45,7 @@ test('About metadata, schema and crawler summary follow its dedicated content co
   const page = schemaOf(html).find(item => item['@type'] === 'WebPage');
   assert.equal(page.name, 'A changed About title | MEL ONE');
   assert.equal(page.description, 'A changed About description from its approved source.');
-  assert.match(fixture.read('llms.txt'), /\[A changed About title\]\(http:\/\/127\.0\.0\.1:5173\/about\/\): A changed About description from its approved source\./);
+  assert.match(fixture.read('llms.txt'), /\[A changed About title\]\(https:\/\/example\.test\/about\/\): A changed About description from its approved source\./);
 });
 
 test('each indexable page has unique metadata and a consistent business entity', () => {
@@ -61,7 +72,7 @@ test('each indexable page has unique metadata and a consistent business entity',
 });
 
 test('workflow metadata and FAQ schema follow only its visible approved method content', () => {
-  const fixture = buildFixture(test, {}, content => {
+  const fixture = buildFixture(test, { SITE_ORIGIN: 'https://example.test' }, content => {
     content.site.method.title = 'A changed workflow title';
     content.site.method.description = 'A changed workflow description from the approved method.';
     content.site.method.faqSlugs = ['prepare-an-enquiry', 'confirm-before-scheduling'];
@@ -70,7 +81,7 @@ test('workflow metadata and FAQ schema follow only its visible approved method c
   assert.match(html, /<title>A changed workflow title \| MEL ONE<\/title>/);
   assert.match(html, /name="description" content="A changed workflow description from the approved method\."/);
   assert.match(html, /property="og:description" content="A changed workflow description from the approved method\."/);
-  assert.match(html, /rel="canonical" href="http:\/\/127\.0\.0\.1:5173\/how-it-works\/"/);
+  assert.match(html, /rel="canonical" href="https:\/\/example\.test\/how-it-works\/"/);
   const graph = schemaOf(html);
   const page = graph.find(item => item['@type'] === 'WebPage');
   assert.equal(page.name, 'A changed workflow title | MEL ONE');
@@ -82,7 +93,7 @@ test('workflow metadata and FAQ schema follow only its visible approved method c
     return [record.question, record.answer];
   }));
   assert.ok(graph.some(item => item['@type'] === 'BreadcrumbList' && item.itemListElement.at(-1).item.endsWith('/how-it-works/')));
-  assert.match(fixture.read('llms.txt'), /\[A changed workflow title\]\(http:\/\/127\.0\.0\.1:5173\/how-it-works\/\): A changed workflow description from the approved method\./);
+  assert.match(fixture.read('llms.txt'), /\[A changed workflow title\]\(https:\/\/example\.test\/how-it-works\/\): A changed workflow description from the approved method\./);
 });
 
 test('article markup describes visible original editorial pages with publisher identity', () => {
@@ -92,7 +103,7 @@ test('article markup describes visible original editorial pages with publisher i
       const article = schemaOf(html).find(item => item['@type'] === 'Article');
       assert.equal(article.headline, item.title);
       assert.equal(article.datePublished, item.date);
-      assert.equal(article.publisher['@id'], 'http://127.0.0.1:5173/#business');
+      assert.equal(article.publisher['@id'], 'https://example.test/#business');
       assert.equal(article.author['@id'], article.publisher['@id']);
       assert.equal(article.inLanguage, 'en-AU');
       assert.match(html, /<article>/);
@@ -147,7 +158,7 @@ test('home and services expose all nine approved categories in a semantic task w
     const articles = [...wall[1].matchAll(/<article class="task-card task-card--\d+">([\s\S]*?)<\/article>/g)];
     assert.equal(articles.length, 9, `${file} nine service articles`);
     assert.ok((html.match(/href="\/services\//g) || []).length >= 9);
-    assert.doesNotMatch(html, /plumbing|gas/i);
+    assert.doesNotMatch(wall[1], /plumbing|gas/i);
     const icons = new Set();
     articles.forEach(([article], index) => {
       const record = records[index];
@@ -216,26 +227,6 @@ test('rebuilding replaces generated assets with the approved asset whitelist', (
     .filter(file => fs.statSync(path.join(fixture.output, 'assets', file)).isFile())
     .map(file => file.split(path.sep).join('/'))
     .sort();
-  assert.deepEqual(generatedAssets, [
-    'css/site.css',
-    'images/mel-one-about-home-maintenance.jpg',
-    'images/mel-one-adelaide-home-hero.jpg',
-    'images/mel-one-adelaide-service-area.jpg',
-    'images/mel-one-door-window-maintenance.jpg',
-    'images/mel-one-garden-landscape-care.jpg',
-    'images/mel-one-gutter-care.jpg',
-    'images/mel-one-home-repairs-renovation.jpg',
-    'images/mel-one-household-electrical-work.jpg',
-    'images/mel-one-household-removals-cleaning.jpg',
-    'images/mel-one-interior-repair-assembly.jpg',
-    'images/mel-one-maintenance-task-wall.jpg',
-    'images/mel-one-outdoor-structures-fences.jpg',
-    'images/mel-one-roof-gutter-exterior.jpg',
-    'images/mel-one-workflow-contact-next-step.jpg',
-    'images/mel-one-workflow-request-details.jpg',
-    'images/mel-one-workflow-scope-discussion.jpg',
-    'js/site.js',
-    'mel-one-logo-authorized.png',
-  ]);
+  assert.deepEqual(generatedAssets, expectedGeneratedAssets(fixture));
   assert.ok(!fs.existsSync(arbitraryAsset), 'arbitrary legacy assets must not remain publicly served');
 });

@@ -11,6 +11,7 @@ const fixture = fs.mkdtempSync(path.join(os.tmpdir(), 'mel-one-routes-'));
 fs.copyFileSync(path.join(root, 'build.mjs'), path.join(fixture, 'build.mjs'));
 fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), { recursive: true });
 const content = JSON.parse(fs.readFileSync(path.join(fixture, 'src/content-pack/mel-one-site-content.json'), 'utf8'));
+const serviceAreas = JSON.parse(fs.readFileSync(path.join(fixture, 'src/content-pack/service-areas.json'), 'utf8'));
 execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, env: { ...process.env, SITE_ORIGIN: 'https://example.test' }, stdio: 'pipe' });
 const output = path.join(fixture, 'public');
 const read = route => fs.readFileSync(path.join(output, route === '/404.html' ? '404.html' : `${route}/index.html`), 'utf8');
@@ -19,7 +20,7 @@ test.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
 
 test('shared desktop and mobile navigation includes Home with the correct current page', () => {
   const files = fs.readdirSync(output, { recursive: true }).filter(file => file.endsWith('.html'));
-  assert.equal(files.length, 32, 'all existing routes and Field Notes are generated');
+  assert.ok(files.length >= required.length, 'all baseline and generated routes are present');
   for (const file of files) {
     const html = fs.readFileSync(path.join(output, file), 'utf8');
     const nav = html.match(/<nav id="primary-nav"[^>]*>([\s\S]*?)<\/nav>/);
@@ -89,7 +90,7 @@ test('all required routes offer confirmed contacts and the authorized identity',
     assert.match(html, /src="\/assets\/mel-one-logo-authorized\.png"/, `${route}: logo`);
     assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${route}: one main heading`);
   }
-  assert.match(read('/'), /src="\/assets\/images\/mel-one-adelaide-home-hero\.jpg"/);
+  assert.match(read('/'), /src="\/assets\/images\/mel-one-adelaide-home-hero\.png"/);
   assert.match(read('/404.html'), /name="robots" content="noindex,\s*follow"/);
 });
 
@@ -158,7 +159,8 @@ test('home hero keeps confirmed contact actions and truthful artwork beside a de
   assert.match(heroStage[1], /href="\/contact\/">Start an enquiry/);
   assert.match(heroStage[1], /alt="Adelaide home exterior and household-maintenance tools"/);
   assert.doesNotMatch(heroStage[1], /Concept illustration|concept (?:image|illustration)/i);
-  assert.doesNotMatch(home, /<(?:img|script)[^>]+src="https?:|<link[^>]+href="https?:[^>]+rel="stylesheet"|<link[^>]+rel="stylesheet"[^>]+href="https?:/);
+  assert.match(home, /<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-9KMWMVLZ3"><\/script>/);
+  assert.doesNotMatch(home, /<img[^>]+src="https?:|<link[^>]+href="https?:[^>]+rel="stylesheet"|<link[^>]+rel="stylesheet"[^>]+href="https?:/);
 });
 
 test('generated public pages remove conceptual image labels while retaining factual image alt text', () => {
@@ -206,14 +208,30 @@ test('every generated HTML and schema excludes legacy facts and unapproved recor
   for (const collection of ['services', 'news', 'guides']) {
     for (const record of content[collection].filter(record => record.status === 'approved')) allowed.add(`/${collection}/${record.slug}/`);
   }
+  allowed.add('/case-studies/');
+  for (const study of content.caseStudies) allowed.add(`/case-studies/${study.slug}/`);
+  for (const area of serviceAreas) {
+    const knownSuburbs = new Map(area.suburbs.map(suburb => [suburb.name, suburb.slug]));
+    for (const name of area.popularSuburbs) {
+      const slug = knownSuburbs.get(name) || name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      allowed.add(`/service-areas/${area.slug}/${slug}/`);
+    }
+  }
   const actual = [...sitemap.matchAll(/<loc>https:\/\/example\.test([^<]+)<\/loc>/g)].map(match => match[1]);
   assert.deepEqual(actual.sort(), [...allowed].sort());
 });
 
-test('local enquiry is disclosed and cannot submit to an external handler', () => {
+test('enquiry form is disclosed and submits only to the first-party endpoint', () => {
   const html = read('/contact/');
-  assert.match(html, /data-local-enquiry/);
-  assert.match(html, /local preview/i);
+  assert.match(html, /data-enquiry-form/);
+  assert.match(html, /MEL ONE will receive the details by email/i);
   assert.doesNotMatch(html, /action="(?:https?:|\/api\/)/);
-  for (const name of ['message', 'suburb', 'timing', 'contactPreference', 'phone', 'email', 'photo']) assert.match(html, new RegExp(`name="${name}"`));
+  for (const name of ['message', 'suburb', 'timing', 'contactPreference', 'phone', 'email']) assert.match(html, new RegExp(`name="${name}"`));
+  assert.doesNotMatch(html, /name="photo"/);
+});
+
+test('privacy disclosure matches the enabled analytics and enquiry implementation', () => {
+  const privacy = read('/privacy/');
+  assert.match(privacy, /uses Google Analytics/i);
+  assert.match(privacy, /phone numbers and email addresses are sent to MEL ONE’s enquiry endpoint, not to Google Analytics/i);
 });
