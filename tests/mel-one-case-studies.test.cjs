@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const buildFixture = require('./build-fixture.cjs');
+const root = path.resolve(__dirname, '..');
 
 test('photographed local case studies publish connected pages, images and a machine-readable feed', t => {
   const fixture = buildFixture(t, { SITE_ORIGIN: 'https://example.test' });
@@ -49,4 +50,11 @@ test('photographed local case studies publish connected pages, images and a mach
   assert.ok(fs.existsSync(path.join(fixture.output, 'assets/images/cases/kensington-furniture-assembly-01.png')));
   assert.ok(fs.existsSync(path.join(fixture.output, 'assets/images/cases/mile-end-fence-repair-01.png')));
   assert.ok(fs.existsSync(path.join(fixture.output, 'assets/images/cases/marion-shower-screen-repair-01.png')));
+});
+
+test('case-study listing cards crop portrait and landscape covers into one landscape frame', () => {
+  const css = fs.readFileSync(path.join(root, 'src', 'assets', 'css', 'site.css'), 'utf8');
+
+  assert.match(css, /\.collection-section\s+\.intake-visual\s*\{[^}]*aspect-ratio:\s*4\s*\/\s*3/i);
+  assert.match(css, /\.collection-section\s+\.intake-visual\s+img\s*\{[^}]*height:\s*100%[^}]*object-fit:\s*cover/i);
 });
