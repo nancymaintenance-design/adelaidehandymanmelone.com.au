@@ -127,7 +127,7 @@ test('How it works renders the method contract as eight ordered articles and pra
   }
   assert.match(main, /href="\/faq\/"/);
   assert.match(main, /href="tel:\+61416614281"/);
-  assert.match(main, /href="\/contact\/">Start an enquiry/);
+  assert.match(main, /href="\/contact\/">Request an assessment and quote/);
   assert.doesNotMatch(main, /\b(?:our licensed (?:team|staff|technicians)|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|always available|all suburbs|all jobs)\b/i);
 });
 
@@ -156,7 +156,7 @@ test('home hero keeps confirmed contact actions and truthful artwork beside a de
   assert.ok(heroStage, 'home exposes a semantic hero-stage section');
   assert.match(heroStage[1], /<svg class="gold-route" aria-hidden="true" focusable="false"[^>]*>[\s\S]*?<path\b/);
   assert.match(heroStage[1], /href="tel:\+61416614281">Call 0416 614 281<\/a>/);
-  assert.match(heroStage[1], /href="\/contact\/">Start an enquiry/);
+  assert.match(heroStage[1], /href="\/contact\/">Request an assessment and quote/);
   assert.match(heroStage[1], /alt="Adelaide home exterior and household-maintenance tools"/);
   assert.doesNotMatch(heroStage[1], /Concept illustration|concept (?:image|illustration)/i);
   assert.match(home, /<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-9KMWMVLZ3"><\/script>/);

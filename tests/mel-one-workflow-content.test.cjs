@@ -36,8 +36,8 @@ test('workflow contract gives customers eight substantial steps from request to 
 test('workflow copy frames the enquiry as a clear next step instead of a refusal', () => {
   const method = methodContent();
   const text = method.steps.flatMap(step => step.paragraphs).join(' ');
-  assert.match(text, /MEL ONE can help assess the next step/i);
-  assert.match(text, /An enquiry starts the conversation/i);
+  assert.match(text, /MEL ONE arranges the assessment/i);
+  assert.match(text, /confirm the assessment appointment.*inspect the affected area.*written quote/i);
   assert.doesNotMatch(text, /You do not need to diagnose|Sending an enquiry does not establish|A maintenance enquiry does not establish/i);
 });
 
@@ -53,7 +53,7 @@ test('workflow includes practical preparation and conditional expectations', () 
   assert.match(checklist, /parts|instructions/i);
   assert.match(checklist, /approve|permission/i);
   assert.match(checklist, /access/i);
-  assert.match(method.expectations.items.join(' '), /enquiry starts the conversation.*visit.*confirmed/i);
+  assert.match(method.expectations.items.join(' '), /confirms the assessment appointment.*checks the work on site.*quote/i);
   assert.match(method.expectations.items.join(' '), /availability/i);
   assert.match(method.expectations.items.join(' '), /quote/i);
 });

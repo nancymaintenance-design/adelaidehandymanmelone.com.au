@@ -8,7 +8,7 @@ test('published door guide explains component-specific screen repair choices and
   const built = fixture(t);
   const html = built.read('guides/field-notes-doors-windows-screens-enquiry/index.html');
   const main = html.match(/<main[\s\S]*?<\/main>/)[0];
-  for (const heading of ['Describe what happens in normal use', 'Collect a clear, safe record', 'Make the next conversation specific']) assert.ok(main.includes(`<h2>${heading}</h2>`), `retain original topic: ${heading}`);
+  for (const heading of ['Describe what happens in normal use', 'Collect a clear, safe record', 'Arrange assessment and agree the repair']) assert.ok(main.includes(`<h2>${heading}</h2>`), `retain customer preparation and repair topic: ${heading}`);
   for (const pattern of [/sliding screen door/i, /rollers? and guides?/i, /track/i, /frame/i, /mesh/i, /security screen/i, /replacement parts/i, /repair.*replacement/i]) assert.match(main, pattern);
   assert.match(main, /glass is broken/);
   assert.match(main, /frame is unstable/);

@@ -24,11 +24,11 @@
         "faqs": [
           {
             "question": "Do you provide handyman services in North Adelaide?",
-            "answer": "Yes. Tell us the maintenance issue, property address and preferred timing so availability can be discussed."
+            "answer": "Yes. Tell us the maintenance issue, property address and preferred timing so we can arrange the assessment appointment and confirm the repair scope and quote."
           },
           {
             "question": "Can you help with doors and windows?",
-            "answer": "Describe the fault, such as sticking, loose hardware or damaged screens, so practical next steps can be considered."
+            "answer": "Yes. We inspect sticking doors, loose hardware, window operation and damaged screens on site, identify the repair needed and confirm compatible parts, the work scope and quote."
           },
           {
             "question": "How quickly can you respond?",
@@ -69,11 +69,11 @@
         "faqs": [
           {
             "question": "Can you inspect a Norwood shower screen?",
-            "answer": "Yes. Include a safe photo and explain whether it leaks, drags or no longer closes properly."
+            "answer": "Yes. We check the shower screen’s alignment, seals, tracks, rollers and accessible fittings on site and confirm the repair plan and quote. Safe existing photos are optional; a description is enough to request assessment."
           },
           {
             "question": "Do you repair flyscreens?",
-            "answer": "Tell us whether the mesh, frame or door operation needs attention so the enquiry can be assessed."
+            "answer": "Yes. We check the mesh, frame, track and screen-door hardware on site and confirm whether mesh replacement, adjustment or component repair is needed, with a written quote."
           },
           {
             "question": "Can several household jobs be included?",
@@ -118,7 +118,7 @@
           },
           {
             "question": "Can you diagnose a repair issue?",
-            "answer": "Our experienced maintenance professionals inspect visible conditions and explain practical next steps."
+            "answer": "Yes. Our maintenance team checks the affected item on site, investigates the reported fault and explains the repair plan and written quote. We confirm qualified service arrangements where regulated work is needed."
           },
           {
             "question": "Is a web enquiry a booking?",
@@ -163,7 +163,7 @@
           },
           {
             "question": "Do you also help with exterior upkeep?",
-            "answer": "We consider agreed general maintenance tasks and identify when a specialist is required."
+            "answer": "Yes. We assess exterior fittings and the maintenance tasks on site, confirm access and any qualified work requirements, and provide the agreed scope and quote."
           },
           {
             "question": "How do I request a time?",
@@ -204,7 +204,7 @@
         "faqs": [
           {
             "question": "Can you help with Henley Beach exterior maintenance?",
-            "answer": "Describe the accessible area and concern so an appropriate next step can be discussed."
+            "answer": "Yes. MEL ONE checks exterior fittings, gutters, screens, fences and garden tasks on site, arranges safe access and confirms the maintenance scope and written quote."
           },
           {
             "question": "Do you repair screen doors?",
@@ -249,7 +249,7 @@
         "faqs": [
           {
             "question": "What handyman services are available in Modbury?",
-            "answer": "Tell us what needs attention and we can discuss the relevant maintenance scope and availability."
+            "answer": "MEL ONE provides shower screen repairs and adjustments; door, window and flyscreen repairs; roof, gutter and exterior maintenance; garden and property care; fence and gate repairs; and cleaning and general handyman support in Modbury. We assess the tasks on site and confirm the agreed work and written quote."
           },
           {
             "question": "Can I include garden and fence work?",
@@ -293,8 +293,8 @@
         ],
         "faqs": [
           {
-            "question": "Can you discuss Stirling roof maintenance?",
-            "answer": "Yes. Share safe photos, access details and a description of the visible issue."
+            "question": "Do you provide Stirling roof maintenance?",
+            "answer": "Yes. We arrange safe access and check the roof, gutters and exterior maintenance concern on site, then confirm the work, qualified arrangements and written quote. Photos are optional; do not climb onto a roof to take them."
           },
           {
             "question": "Do hills properties need special information?",
@@ -302,7 +302,7 @@
           },
           {
             "question": "Can you identify specialist boundaries?",
-            "answer": "Yes. Work needing trade authorisation is referred to an appropriately qualified specialist."
+            "answer": "MEL ONE arranges the appropriate assessment. Where licensed or specialist work is required, we confirm the qualified service arrangements, repair scope and quote before work begins. Leave hazardous materials undisturbed and contact our team."
           }
         ]
       }
@@ -343,7 +343,7 @@
           },
           {
             "question": "Do you offer general home maintenance?",
-            "answer": "Yes. Describe the jobs and we will discuss appropriate scope and availability."
+            "answer": "Yes. Describe the jobs and priorities. We assess the tasks on site and confirm the agreed work scope, access, timing and quote."
           },
           {
             "question": "How do I book?",

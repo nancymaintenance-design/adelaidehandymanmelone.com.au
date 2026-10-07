@@ -128,7 +128,7 @@ test('About source provides purpose, practical process, grouped requests, bounda
   assert.match(sections.get('purpose').paragraphs.join(' '), /Adelaide.*household|household.*Adelaide/i);
   assert.match(sections.get('approach').paragraphs.join(' '), /photos/i);
   assert.match(sections.get('multiple-jobs').paragraphs.join(' '), /room|outdoor area/i);
-  assert.match(sections.get('specialist-work').paragraphs.join(' '), /on-site assessment.*repair scope.*quote/i);
+  assert.match(sections.get('specialist-work').paragraphs.join(' '), /on-site assessment.*(?:reported concern|new-work requirements).*scope.*quote/i);
   assert.match(sections.get('specialist-work').paragraphs.join(' '), /qualified service arrangements/i);
   for (const value of Object.values(site.contact)) {
     assert.ok(sections.get('contact').paragraphs.join(' ').includes(value), `About must include ${value}`);

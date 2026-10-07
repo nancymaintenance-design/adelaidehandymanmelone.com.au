@@ -3,9 +3,9 @@
     "status": "approved",
     "slug": "home",
     "title": "MEL ONE",
-    "description": "Handyman and household-maintenance enquiries in Adelaide. From everyday repairs to a list of jobs around the home, start with MEL ONE.",
+    "description": "MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.",
     "scope": [
-      "One contact point for Adelaide household-maintenance enquiries."
+      "Handyman repairs and household maintenance in Adelaide, with on-site assessment and an agreed work scope."
     ],
     "exclusions": [
       "Scope, timing, availability and any quote are confirmed for each request."
@@ -18,16 +18,16 @@
           "id": "purpose",
           "heading": "For the home you live in",
           "paragraphs": [
-            "MEL ONE is a contact point for household-maintenance enquiries in Adelaide. The starting point is everyday life at home: a cupboard that no longer closes neatly, furniture waiting to be assembled, a worn screen or a garden that needs attention.",
-            "A single repair and a longer list both begin with the same conversation. Tell MEL ONE what needs attention and the outcome you would like, using the words that make sense to you."
+            "MEL ONE provides handyman repairs and household maintenance in Adelaide. Our team arranges an on-site assessment, identifies the work required and confirms the repair plan and written quote. The starting point is everyday life at home: a cupboard that no longer closes neatly, furniture waiting to be assembled, a worn screen or a garden that needs attention.",
+            "Single repairs and longer lists both start with your description and Adelaide suburb. Tell MEL ONE what needs attention and the outcome you would like; our team checks the work on site."
           ]
         },
         {
           "id": "approach",
           "heading": "Start with what you can see",
           "paragraphs": [
-            "Describe the job, where it is and how it affects the use of your home. Add your suburb, preferred timing and photos taken from a safe position. For assembly, a product name and the instructions help explain the task.",
-            "The next conversation covers access, materials, the proposed work and any further assessment needed. Scope, timing, availability and any quote are confirmed for each request before work is agreed. You do not need to diagnose a fault to make an enquiry."
+            "Describe the job, where it is and how it affects the use of your home. Add your suburb and preferred timing. Photos are optional; email safe existing images to admin@melonemaintenance.com.au. For assembly, a product name and available instructions help us prepare.",
+            "We confirm access and the assessment appointment, check the affected item or measure for new work, and explain the materials, proposed work and written quote. Any further assessment or additional work is agreed with you before proceeding. You do not need to diagnose a fault to make contact."
           ]
         },
         {
@@ -35,14 +35,14 @@
           "heading": "Bring the whole household list",
           "paragraphs": [
             "Several small jobs can be easier to describe together. Group your list by room or outdoor area, add a short note beside each item and point out anything that affects daily use. A loose handle, a wall patch and a flat-pack shelf can all go in the same enquiry.",
-            "A grouped list helps MEL ONE understand the request. Whether jobs can be combined is discussed after the individual tasks, access and timing are understood. If someone else approves the work, include that detail in the conversation."
+            "MEL ONE checks each listed task on site and confirms which work can be combined, the materials, access, timing and quote. Identify the owner or manager who can approve the work."
           ]
         },
         {
           "id": "specialist-work",
           "heading": "A clear place for specialist work",
           "paragraphs": [
-            "Contact MEL ONE with your Adelaide suburb, job details and safe photos. Our team arranges an on-site assessment, identifies the cause and confirms the repair scope, quote and appointment.",
+            "Contact MEL ONE with your Adelaide suburb and job details. Our team arranges an on-site assessment, checks the reported concern or new-work requirements and confirms the scope, quote and appointment. Safe existing photos are optional; email them to admin@melonemaintenance.com.au.",
             "Where licensed work or formal project approvals are part of the job, MEL ONE confirms the qualified service arrangements, work scope and required documents before work begins."
           ]
         },
@@ -50,7 +50,7 @@
           "id": "contact",
           "heading": "Talk to MEL ONE in Adelaide",
           "paragraphs": [
-            "Call 0416 614 281 or email admin@melonemaintenance.com.au with a short description of your household-maintenance request and your Adelaide suburb. Include your preferred reply method so the conversation can continue with the useful details.",
+            "Call 0416 614 281 or email admin@melonemaintenance.com.au with a short description of your household-maintenance request and your Adelaide suburb. Include your preferred reply method so we can arrange the assessment appointment, check the work on site and confirm the scope and quote.",
             "The contact address is 63 Pirie St Adelaide SA 5000. Contact MEL ONE to arrange your site visit or discuss visiting the office."
           ]
         }
@@ -58,14 +58,14 @@
     },
     "method": {
       "title": "How it works",
-      "description": "From the first photos to the final questions, use these eight steps to prepare a household-maintenance enquiry and understand what needs to be agreed along the way.",
+      "description": "Tell MEL ONE what needs attention and your Adelaide suburb. We confirm the appointment, assess the job on site and explain the work plan and written quote. These eight steps cover preparation, qualified service arrangements, your approval and the completion record.",
       "steps": [
         {
           "id": "prepare-request",
-          "heading": "Describe the job and gather a few photos",
+          "heading": "Describe the job; photos are optional",
           "paragraphs": [
-            "Start with what you can see: what needs attention, where it is and how it affects everyday use. Add your Adelaide suburb or postcode and the outcome you would like. MEL ONE can help assess the next step and discuss a suitable repair approach.",
-            "Take photos from a safe, accessible position. A wider view can explain the location, while a closer view can show the detail. Keep personal paperwork out of the frame and leave heavy items, covers and damaged fittings in place. For assembly, include the product name and instructions if available."
+            "Start with what you can see: what needs attention, where it is and how it affects everyday use. Add your Adelaide suburb or postcode and the outcome you would like. MEL ONE arranges the assessment, checks the affected area and confirms the repair approach and written quote.",
+            "Photos are optional: email safe existing images to admin@melonemaintenance.com.au. A wider view can show the location and a close view the detail, but a description is enough to request assessment. Keep personal paperwork out of frame and leave heavy items, covers and damaged fittings in place. For assembly, include the product name and instructions if available."
           ]
         },
         {
@@ -80,8 +80,8 @@
           "id": "initial-discussion",
           "heading": "Talk through the details",
           "paragraphs": [
-            "Call 0416 614 281 or email admin@melonemaintenance.com.au with your description and preferred reply method. The initial discussion can cover the requested work, access, materials, timing preferences and any questions raised by the photos. Identify who can approve work if an owner or property manager is involved.",
-            "Some requests may need measurements, product information or a separate assessment before a proposed scope can be discussed. Keep a note of the information still needed and the next action agreed. An enquiry starts the conversation; the visit purpose, quote and repair approach are confirmed directly for the individual request."
+            "Call 0416 614 281 or email admin@melonemaintenance.com.au with your description and preferred reply method. We confirm the assessment appointment and access, then check the reported work on site. We explain the materials, work plan, written quote and timing before you approve the work. Photos are optional; email safe existing images to admin@melonemaintenance.com.au. Identify who can approve work if an owner or property manager is involved.",
+            "For installation or assembly, MEL ONE checks measurements, existing fittings and any product information during the assessment. For repairs, we inspect the concern and investigate the cause before proposing the scope. Keep a note of the information still needed and the next action agreed. We confirm the assessment appointment, inspect the affected area or measure for new work, and explain the proposed scope and written quote. You approve the agreed work before it begins."
           ]
         },
         {
@@ -130,7 +130,7 @@
         "items": [
           "Note your Adelaide suburb or postcode, preferred reply method and the person who can discuss the request.",
           "List each job by room or outdoor area, with the visible issue and desired outcome beside it.",
-          "Include clear photos taken safely, with a wider view for context and private information kept out of frame.",
+          "Photos are optional; email safely taken existing images to admin@melonemaintenance.com.au if available. Keep private information out of frame; do not delay contact to collect photos.",
           "Gather product names, assembly instructions and details of any parts already on hand without buying replacements before discussion.",
           "Explain who can approve the work and whether an owner, tenant or property manager needs to be involved.",
           "Note access restrictions, heavy obstacles, timing preferences and any delivery that affects when the space can be used.",
@@ -138,12 +138,12 @@
         ]
       },
       "expectations": {
-        "heading": "What to expect from the conversation",
+        "heading": "What to expect from assessment and agreed work",
         "items": [
-          "An enquiry starts the conversation; the proposed visit and its purpose are confirmed directly.",
+          "MEL ONE confirms the assessment appointment and access, checks the work on site and provides the work plan and quote.",
           "Scope, timing and availability depend on the individual request and the information needed to assess it.",
-          "Any quote needs to be discussed against the proposed work, exclusions, materials and relevant site conditions.",
-          "Photos help explain a concern, but may leave details that require further information or separate assessment.",
+          "We provide a written quote covering the proposed work, exclusions, materials and relevant site conditions, and agree it with you before work begins.",
+          "Photos are optional and help us prepare the visit. We check the affected area and any concealed-condition concerns during the assessment; email existing safe images to admin@melonemaintenance.com.au.",
           "Several jobs can share one enquiry, while the decision to combine work depends on the confirmed details.",
           "MEL ONE checks the work on site and confirms the qualified service arrangements, required project documents and agreed scope before work begins.",
           "Changes and outstanding items need an agreed next step; keep them recorded alongside the original household list."
@@ -262,7 +262,7 @@
       "status": "approved",
       "slug": "outdoor-structures-fences-pools",
       "title": "Outdoor Structures, Fences & Pools",
-      "description": "Start a conversation about outdoor timber, fencing, gates and pool-area maintenance.",
+      "description": "Outdoor timber, fence, gate and pool-area maintenance in Adelaide. MEL ONE checks existing fittings or measures for new work before confirming the work and written quote.",
       "scope": [
         "Fence panels, posts and gate hardware concerns.",
         "Deck boards, surface wear and maintenance enquiries.",
@@ -299,7 +299,7 @@
       "status": "approved",
       "slug": "maintenance-planning-inspection-support",
       "title": "Maintenance Planning & Inspection Support",
-      "description": "Turn a maintenance list into clear questions, supporting photos and a discussion of next steps.",
+      "description": "Turn a maintenance list into an on-site assessment, an agreed work plan and written quote.",
       "scope": [
         "Room-by-room maintenance-list preparation.",
         "Pre-sale and end-of-lease work-list organisation.",
@@ -310,7 +310,7 @@
       ],
       "exclusions": [
         "An enquiry or general maintenance list helps start the discussion; formal reports, approvals, certificates and professional assessments follow their appropriate process.",
-        "Formal inspections, approvals and certifications must be obtained from the appropriate professional or authority."
+        "Contact MEL ONE with the property and maintenance concern. We arrange the appropriate assessment, explain required reports or approvals and confirm the qualified professional and authority responsibilities within the agreed scope. Formal approvals and certifications remain with the authorised professional or authority."
       ]
     },
     {
@@ -342,13 +342,13 @@
       "scope": [
         "Name the room or outdoor location and the item involved.",
         "Describe what happens while focusing on visible observations.",
-        "Take wide and close photos only from a safe accessible position.",
+        "Optional wide and close photos can be taken from a safe accessible position; a description is enough to request assessment.",
         "Leave doors, windows, screens and security fittings in their current condition.",
         "Include suburb, access limitations and the best reply method."
       ],
       "exclusions": [
-        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
-        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+        "MEL ONE checks the door, window or screen assembly on site and confirms the damaged components and compatible repair parts. Leave unstable fittings and broken glass undisturbed.",
+        "MEL ONE arranges the on-site assessment, checks the reported concern and confirms the work scope and written quote before agreed work begins."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -366,12 +366,12 @@
         {
           "heading": "Collect a clear, safe record",
           "paragraphs": [
-            "One wider photograph can show where the item sits, while a closer image can show the visible concern. Take photos from a stable accessible position and include the affected part while keeping the item in its current condition.",
+            "Optional photos can show the item’s location and visible concern. Email safely taken existing images to admin@melonemaintenance.com.au if available; a description is enough. Leave the item and hardware in their current condition.",
             "Include an approximate age if known and an existing product label only when it is easily visible. If glass is broken, a door is coming away from its track or a frame is unstable, stop using it and keep people clear. Leave the assembly in place and contact MEL ONE with the visible condition."
           ]
         },
         {
-          "heading": "Make the next conversation specific",
+          "heading": "Arrange assessment and agree the repair",
           "paragraphs": [
             "Send the location, observed issue, desired outcome, Adelaide suburb and preferred reply method in one message. If a tenant, owner or property manager is involved, identify who can discuss access and who can approve proposed work.",
             "MEL ONE reviews the information, confirms assessment and access arrangements, and explains the proposed repair scope and price basis before work is booked. Identify who can approve the work so the next step is clear."
@@ -400,7 +400,7 @@
           "heading": "Keep insect screens and security screens distinct",
           "paragraphs": [
             "An ordinary insect screen is intended to keep insects out; it is not evidence of a security screen rating. Tell MEL ONE whether the item is an insect screen or a security screen and share visible product markings if available. Security fittings and any claimed certification are checked as part of the scope; replacing mesh or rollers does not establish a security rating.",
-            "Do not remove the door, test an unstable frame or handle broken glass to obtain better photos. A ground-level or otherwise safely accessible wider photo and detail view are enough to start the enquiry."
+            "Do not remove the door, test an unstable frame or handle broken glass to obtain photos. A written description is enough to request assessment. Safe existing photos are optional; email them to admin@melonemaintenance.com.au."
           ]
         }
       ],
@@ -445,13 +445,13 @@
       "scope": [
         "Record the room, visible condition and desired outcome.",
         "Add an approximate size only if it can be observed safely.",
-        "Take context and detail photos without moving fittings or private items.",
+        "Context and detail photos are optional; do not move fittings or private items to take them.",
         "Include product instructions and available parts for assembly tasks.",
         "Group tasks by room and identify who can approve the work."
       ],
       "exclusions": [
-        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
-        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+        "MEL ONE checks wall surfaces, trim and fittings on site before choosing a repair method. We confirm the preparation, materials and any further investigation required.",
+        "MEL ONE arranges the on-site assessment, checks the reported concern and confirms the work scope and written quote before agreed work begins."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -490,13 +490,13 @@
       "scope": [
         "Observe only from an accessible ground-level position.",
         "Note the side of the property and the visible concern.",
-        "Take wide and close photos only where safe.",
-        "Use ground-level observations and photos from a safe accessible position.",
+        "Wide and close photos are optional and must not require unsafe access.",
+        "Describe your ground-level observations. Photos are optional and must be taken from a safe accessible position.",
         "Include access limitations and your Adelaide suburb."
       ],
       "exclusions": [
-        "This general enquiry guidance helps customers record useful observations for the appropriate next step.",
-        "Safety, suitability, visit arrangements and the repair approach are confirmed through the appropriate assessment and discussion."
+        "MEL ONE checks the roof, gutters and exterior area after arranging safe access. Work at height or regulated weatherproofing is confirmed through the appropriate qualified service arrangements.",
+        "We confirm the visit purpose, safe access, required qualified arrangements and work scope with you before attendance or agreed repairs."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -514,7 +514,7 @@
         {
           "heading": "Capture useful context without creating risk",
           "paragraphs": [
-            "Take one broad photo showing the relevant elevation and another photo of a visible gutter, downpipe or exterior element if it is safely in view. You may note when you first observed the issue or whether it followed known weather, without asserting a cause.",
+            "If available, optional photos taken from the ground can show the elevation and visible gutter or downpipe detail; email them to admin@melonemaintenance.com.au. A short description is enough to request assessment. Note when the issue began or whether it followed weather, without assuming a cause.",
             "Downpipe outlets, exterior paint and seals may be partly concealed by landscaping or access conditions. There is no need to remove leaves, climb, shift heavy planters or use water to test a suspected concern for the sake of photographs."
           ]
         },
@@ -522,7 +522,7 @@
           "heading": "Use the observation to guide the enquiry",
           "paragraphs": [
             "Share your suburb, access considerations, visible observation and preferred reply method. Mention areas that cannot be reached from the ground or ordinary access points so the discussion starts with realistic site context.",
-            "MEL ONE can discuss household-maintenance enquiry options. Work at height, weatherproofing or other specialist requirements may need appropriate assessment and a separately confirmed scope."
+            "MEL ONE arranges safe access and checks the roof, gutters and exterior maintenance concern on site. We confirm qualified arrangements for work at height, weatherproofing or regulated tasks and provide the agreed scope and written quote."
           ]
         }
       ]
@@ -536,11 +536,11 @@
         "List tasks by front, side and rear outdoor areas.",
         "Describe visible conditions and the desired outcome.",
         "Note gates, shared access, pets, furniture and waste considerations.",
-        "Take photos from the ground; do not climb, excavate or alter barriers.",
+        "Photos are optional; stay on the ground and do not climb, excavate or alter barriers to take them.",
         "Identify items likely to need separate specialist assessment."
       ],
       "exclusions": [
-        "This general enquiry guidance helps customers record useful observations for a maintenance conversation.",
+        "MEL ONE checks garden access, the tasks and green-waste handling on site. Tree work, excavation, irrigation and pool-related requirements are confirmed separately before those tasks proceed.",
         "Seasonal job options, disposal arrangements, methods and visit times are discussed and confirmed for the individual request."
       ],
       "date": "2026-09-18",
@@ -560,14 +560,14 @@
           "heading": "Define the desired outcome and constraints",
           "paragraphs": [
             "Describe the preferred result, such as clear access, a tidier garden bed, a maintained outdoor area or a list for further discussion. Add practical constraints including shared access, pets, green-waste volume, gates or furniture that may affect access.",
-            "Send safe garden photos and your Adelaide suburb to MEL ONE. We assess the work on site, confirm waste handling and identify tasks that can be combined. We confirm the service arrangements for tree work, excavation, irrigation or pool-related requirements before work begins."
+            "Tell MEL ONE your Adelaide suburb and the garden tasks you need. Safe existing photos are optional. We assess the area on site, confirm waste handling and identify tasks that can be combined. We confirm qualified arrangements for tree work, excavation, irrigation or pool-related requirements before work begins."
           ]
         },
         {
           "heading": "Send a list that can be discussed clearly",
           "paragraphs": [
             "Put tasks affecting everyday access first, then upkeep and cosmetic items. Include your Adelaide suburb, preferred contact method and whether another person must approve access or proposed work.",
-            "An enquiry opens a discussion about scope and next steps. MEL ONE follows up on the reported issue with a targeted solution after confirming the job details, materials and available timing."
+            "MEL ONE checks the outdoor tasks on site, confirms access and waste handling and explains the work, materials and written quote. We agree timing with you before the work is scheduled."
           ]
         }
       ]
@@ -585,8 +585,8 @@
         "Mark items that may need more information or specialist assessment."
       ],
       "exclusions": [
-        "This general enquiry guidance helps customers prepare useful maintenance information; formal reports and responsibility advice follow the appropriate professional process.",
-        "An enquiry starts the conversation; approval, booking, scope, timing and final pricing are confirmed directly with the relevant decision-maker."
+        "MEL ONE assesses maintenance work and confirms repairs with the authorised owner or manager. Formal condition reports and decisions about legal responsibility remain with the appropriate authorised professional.",
+        "MEL ONE arranges the assessment and confirms the work scope, written quote, access and timing with the authorised decision-maker before repairs begin."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -604,7 +604,7 @@
         {
           "heading": "Record roles and access without sharing private details",
           "paragraphs": [
-            "Name the tenant, owner or manager roles relevant to the next conversation and identify who can discuss or approve proposed work. Contact preferences, access restrictions and timing preferences are useful at this stage.",
+            "Identify the tenant, owner or manager who can arrange access and approve proposed work. Contact preferences, access restrictions and timing preferences help us arrange the assessment.",
             "For privacy, share job details in your first message and arrange access codes, keys, tenancy documents and personal information directly once the request is confirmed. Necessary access details can be shared directly only after arrangements for a particular request have been discussed and confirmed."
           ]
         },
@@ -626,11 +626,11 @@
         "List visible tasks by room and outdoor area.",
         "Distinguish presentation items from concerns needing assessment.",
         "Record the desired outcome, not an assumed repair method.",
-        "Take safe photos without covering or altering a concern.",
+        "Safe photos are optional; leave the concern visible and unaltered for assessment.",
         "Note property access and timing preferences for discussion."
       ],
       "exclusions": [
-        "This general maintenance-preparation guidance helps customers organise observations before seeking any building, pest, valuation or legal advice that may be needed.",
+        "MEL ONE assesses the household repairs and presentation work on site. We identify qualified inspection requirements where needed; building, pest, valuation and legal decisions remain with the appropriate authorised professionals.",
         "Schedules, project outcomes and sale-related decisions are discussed and confirmed for the individual request."
       ],
       "date": "2026-09-18",
@@ -672,11 +672,11 @@
         "Group tasks by indoor and outdoor location.",
         "Mark dependencies, product instructions and approval roles.",
         "Flag tasks affecting everyday use without labelling a diagnosis.",
-        "Include safe photos, suburb and access limitations."
+        "Include your suburb and access limitations. Safe existing photos are optional."
       ],
       "exclusions": [
-        "This general enquiry guidance helps customers describe visible concerns and prepare for the next conversation.",
-        "New or concealed conditions may require a separate next step."
+        "MEL ONE assesses each listed task and confirms which jobs can share a visit, their sequence and the written quote. Further access or concealed-condition work is explained and agreed before expanding the scope.",
+        "If assessment reveals concealed conditions or another task, MEL ONE explains the additional access and work, then obtains agreement before expanding the scope."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -699,10 +699,10 @@
           ]
         },
         {
-          "heading": "Prepare the information that changes the conversation",
+          "heading": "Details that help us plan the assessment",
           "paragraphs": [
-            "Include safe photographs, applicable product names, existing parts, Adelaide suburb, contact preference and access limitations. Note whether pets, children, shared entrances, parking or a tenant-manager relationship affect a possible visit.",
-            "MEL ONE can review the list as an enquiry, while scope, sequencing, timing, availability, materials and any quote are confirmed for the individual request."
+            "Include your Adelaide suburb, the tasks, applicable product names, existing parts and access limitations. Safe existing photographs are optional; email them to admin@melonemaintenance.com.au. Note pets, shared entrances, parking or tenant-manager arrangements that affect a visit.",
+            "MEL ONE assesses the tasks on site, identifies the work required and confirms the sequence, materials, timing and written quote for the agreed scope."
           ]
         }
       ]
@@ -716,11 +716,11 @@
         "List the rooms or outdoor areas involved.",
         "Separate items to keep from items to discuss for removal.",
         "Note pathways, stairs, parking and shared-access limitations.",
-        "Photograph safely without moving heavy items or unknown material.",
+        "Photos are optional; do not move heavy items or unknown material to take them.",
         "Leave suspected hazardous, pest or mould concerns untouched for appropriate assessment."
       ],
       "exclusions": [
-        "This general enquiry guidance helps customers prepare useful disposal, treatment or handling discussions with the appropriate provider.",
+        "MEL ONE checks the items, waste types, access and disposal requirements on site. Hazardous, pest or mould concerns are left undisturbed while we confirm the qualified assessment and handling arrangements.",
         "Collection, disposal, booking and treatment arrangements are confirmed directly for the individual request."
       ],
       "date": "2026-09-18",
@@ -733,14 +733,14 @@
           "heading": "Define the area and the intended result",
           "paragraphs": [
             "Name the rooms, patio, garage or accessible exterior space involved and describe the desired outcome: a cleaner area, removal discussion, moving preparation or a clear list of items to address. Separate general cleaning from household items you want to keep, donate or discuss removing.",
-            "MEL ONE assesses the items and access on site, checks waste types and disposal requirements, and confirms the collection or cleaning scope and quote. Send photos from a safe position and leave heavy or hazardous items in place."
+            "MEL ONE assesses the items and access on site, checks waste types and disposal requirements and confirms the collection or cleaning scope and quote. Photos are optional; leave heavy or hazardous items in place."
           ]
         },
         {
           "heading": "Make a sensible inventory without handling risky material",
           "paragraphs": [
             "Use a numbered list for larger items and approximate locations, plus safe photos that show pathways or access constraints. The goal is to inform a discussion, not to ask someone to lift, dismantle, move or expose a difficult item before arrangements are confirmed.",
-            "Suspected hazardous material, pest issues, mould concerns and unknown substances require appropriate specialist assessment. Keep these materials in place and arrange the appropriate specialist assessment before handling, treatment or transport."
+            "Leave suspected hazardous material, pests, mould and unknown substances undisturbed. Tell MEL ONE the location and visible concern. We confirm the appropriately qualified assessment and handling arrangements before treatment or transport is agreed."
           ]
         },
         {
@@ -763,8 +763,8 @@
         "Use safe photos to show context where useful."
       ],
       "exclusions": [
-        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
-        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+        "A brief description and your Adelaide suburb are enough to request assessment. MEL ONE checks the affected item, access and required work on site and explains the scope and written quote.",
+        "MEL ONE arranges the on-site assessment, checks the reported concern and confirms the work scope and written quote before agreed work begins."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -788,7 +788,7 @@
         {
           "heading": "Ask about the next step",
           "paragraphs": [
-            "Include your Adelaide suburb and preferred contact method, then ask what information or assessment may be needed. MEL ONE discusses scope, access, timing, materials and any quote for the individual request."
+            "Include your Adelaide suburb and preferred contact method, then ask what information or assessment may be needed. MEL ONE arranges the assessment, checks the work and access on site and confirms the materials, timing and written quote for the agreed scope."
           ]
         }
       ]
@@ -804,8 +804,8 @@
         "Observe outdoor areas from accessible ground level only."
       ],
       "exclusions": [
-        "This general enquiry guidance helps customers prepare a practical household-maintenance conversation; formal inspection and safety assessment follow the appropriate process.",
-        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+        "MEL ONE assesses the maintenance items recorded during your walk-through and confirms the repairs needed. Formal building or safety certification is arranged through the appropriate qualified professional.",
+        "MEL ONE arranges the on-site assessment, checks the reported concern and confirms the work scope and written quote before agreed work begins."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -829,7 +829,7 @@
         {
           "heading": "Turn observations into an enquiry",
           "paragraphs": [
-            "Group tasks by area and note which affect day-to-day use, access or timing. A list supports a MEL ONE conversation; scope, availability, timing and any quote are confirmed directly for the individual request."
+            "Group tasks by area and note which affect daily use, access or timing. MEL ONE checks the list on site, identifies work that can be combined and confirms the scope, appointment, timing and written quote."
           ]
         }
       ]
@@ -846,8 +846,8 @@
         "Discuss scope, access, timing and any quote directly with MEL ONE."
       ],
       "exclusions": [
-        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
-        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+        "MEL ONE checks the jobs on site, identifies tasks that can share a visit and confirms materials, sequence and the written quote.",
+        "MEL ONE arranges the on-site assessment, checks the reported concern and confirms the work scope and written quote before agreed work begins."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -871,10 +871,10 @@
           ]
         },
         {
-          "heading": "Use the list to start a conversation",
+          "heading": "Use the list to arrange assessment",
           "paragraphs": [
             "Group tasks by room or outdoor area and note anything affecting access or everyday use. Let MEL ONE know if an owner or property manager must approve the work. Our team assesses the list on site, identifies tasks to combine and confirms the work scope and quote.",
-            "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. Scope and availability are confirmed for the individual Adelaide household-maintenance request."
+            "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. We arrange the site assessment, check the reported work and confirm the scope, qualified service arrangements and written quote."
           ]
         }
       ]
@@ -889,8 +889,8 @@
         "Discuss scope, access, timing and any quote directly with MEL ONE."
       ],
       "exclusions": [
-        "This original general enquiry guidance helps customers prepare a useful household-maintenance conversation.",
-        "An enquiry starts the conversation; booking, inspection arrangements and final pricing are confirmed directly for the individual request."
+        "MEL ONE confirms the authorised contact and access arrangements, checks the reported work on site and records the agreed repairs, quote and any outstanding assessment.",
+        "MEL ONE arranges the on-site assessment, checks the reported concern and confirms the work scope and written quote before agreed work begins."
       ],
       "date": "2026-09-18",
       "relatedServices": [
@@ -910,14 +910,14 @@
           "heading": "Clarify who is involved",
           "paragraphs": [
             "If a tenant, owner or property manager is involved, identify the person who can approve the work and the person who will arrange access. Arrange access codes and keys directly once the visit and scope are confirmed. Arrange the necessary access details directly after the visit and scope have been confirmed.",
-            "List timing preferences or practical limitations, such as furniture in the work area or a shared entrance. These details frame the conversation without implying that a particular time is available."
+            "List timing preferences or practical limitations, such as furniture in the work area or a shared entrance. We confirm the assessment appointment and access with you rather than assuming that a particular time is available."
           ]
         },
         {
           "heading": "Keep a record of the agreed next step",
           "paragraphs": [
             "Keep the description of the proposed work, exclusions and next action together. If the request changes, raise the change before assuming it is covered. A clear handover is useful whether the next step is more information, a visit or specialist assessment.",
-            "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. Scope and availability are confirmed for the individual Adelaide household-maintenance request."
+            "Call MEL ONE on 0416 614 281 or email admin@melonemaintenance.com.au. The contact address is 63 Pirie St Adelaide SA 5000. We arrange the site assessment, check the reported work and confirm the scope, qualified service arrangements and written quote."
           ]
         }
       ]
@@ -940,25 +940,25 @@
       "status": "approved",
       "slug": "prepare-an-enquiry",
       "title": "What details should I include?",
-      "description": "Describe the job, your suburb or postcode, preferred timing and the best way to contact you. If safe, include a wider photo and a closer view of the issue. Scope, availability and any quote are confirmed directly.",
+      "description": "Describe the job, your suburb or postcode, preferred timing and the best way to contact you. Photos are optional; email safe existing images to admin@melonemaintenance.com.au. We assess the job on site and confirm the work plan and written quote.",
       "scope": [
-        "Describe the job, your suburb or postcode, preferred timing and the best way to contact you. If safe, include a wider photo and a closer view of the issue. Scope, availability and any quote are confirmed directly."
+        "Describe the job, your suburb or postcode, preferred timing and the best way to contact you. Photos are optional; email safe existing images to admin@melonemaintenance.com.au. We assess the job on site and confirm the work plan and written quote."
       ],
       "exclusions": [],
       "question": "What details should I include?",
-      "answer": "Describe the job, your suburb or postcode, preferred timing and the best way to contact you. If safe, include a wider photo and a closer view of the issue. Scope, availability and any quote are confirmed directly."
+      "answer": "Describe the job, your suburb or postcode, preferred timing and the best way to contact you. Photos are optional; email safe existing images to admin@melonemaintenance.com.au. We assess the job on site and confirm the work plan and written quote."
     },
     {
       "status": "approved",
       "slug": "specialist-work-enquiries",
       "title": "How are specialist requests handled?",
-      "description": "Contact MEL ONE with your Adelaide suburb, job details and photos. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins.",
+      "description": "Contact MEL ONE with your Adelaide suburb and job details. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins.",
       "scope": [
-        "Contact MEL ONE with your Adelaide suburb, job details and photos. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins."
+        "Contact MEL ONE with your Adelaide suburb and job details. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins."
       ],
       "exclusions": [],
       "question": "How are specialist requests handled?",
-      "answer": "Contact MEL ONE with your Adelaide suburb, job details and photos. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins."
+      "answer": "Contact MEL ONE with your Adelaide suburb and job details. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins."
     },
     {
       "status": "approved",
@@ -1090,15 +1090,15 @@
           "heading": "Recorded repair approach",
           "paragraphs": [
             "The work photographs document replacement mesh being fitted into the screen frame. The page records what is visible in the supplied images: the damaged screen was prepared, fresh mesh was positioned, and the completed screen was photographed back in place. The final image shows an even screen surface across the window opening.",
-            "Every fly screen replacement Adelaide enquiry is discussed against the particular frame, mesh type, access and screen condition. A short description, suburb and close photo help MEL ONE discuss the suitable next step. If a screen has a damaged frame, unusual hardware, security function or glazing concern, that detail can be assessed before a scope is confirmed."
+            "Every fly screen replacement Adelaide enquiry is discussed against the particular frame, mesh type, access and screen condition. Tell MEL ONE your suburb and the visible screen concern to arrange an assessment. We check the frame, mesh, fittings and access and confirm the repair scope and quote. If a screen has a damaged frame, unusual hardware, security function or glazing concern, that detail can be assessed before a scope is confirmed."
           ]
         },
         {
           "heading": "Useful details for a flyscreen repair enquiry",
           "paragraphs": [
-            "For a similar Norwood or Adelaide flyscreen repair, include whether the screen is fixed, sliding or removable; where it sits; what has torn or loosened; and whether the frame still moves as expected. A wide photo provides context, while a close image of the mesh, edge or track helps make the conversation more precise. Customers can also mention preferred timing and whether access needs to be coordinated with an owner, tenant or property manager.",
-            "This image sequence also shows why a repair page benefits from more than a finished photograph. The before image establishes the visible problem, the detailed view identifies the affected component, the work image provides practical context, and the final view lets a customer understand the outcome that was recorded. It is useful evidence for homeowners comparing flyscreen repair options, while keeping the information honest and easy to read.",
-            "MEL ONE provides household-maintenance enquiries across Greater Adelaide. This photographed case connects flyscreen repairs Adelaide with the local Norwood service area and the broader doors, windows and screens service page. Contact MEL ONE to discuss the visible issue, available details and the next step for your home."
+            "For a similar Norwood or Adelaide flyscreen repair, include whether the screen is fixed, sliding or removable; where it sits; what has torn or loosened; and whether the frame still moves as expected. A wide photo provides context, while a close image of the mesh, edge or track helps make the conversation more precise. Customers can also mention preferred timing and whether access needs to be coordinated with an owner, tenant or property manager. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "The supplied sequence records the torn screen in its window, the affected mesh edge, replacement mesh being fitted and the screen back in place. These visible stages document this Norwood repair; they do not show every concealed frame or hardware condition.",
+            "For a torn or dragging flyscreen in Greater Adelaide, contact MEL ONE with your suburb and what you have noticed. We inspect the mesh, frame and operating hardware on site and confirm compatible parts, the repair scope and written quote. Safe existing photos are optional; email them to admin@melonemaintenance.com.au."
           ]
         }
       ]
@@ -1155,9 +1155,9 @@
         {
           "heading": "How to prepare a door repair request",
           "paragraphs": [
-            "For homes in North Adelaide and across Greater Adelaide, describe whether the issue occurs when opening, closing, latching or locking. Include a photo of the full door and a close image of the relevant hardware. If the door has changed after seasonal movement, painting, new flooring or another alteration, that background can also help frame the initial discussion.",
-            "The four supplied images make the case easy to understand. They show the door before adjustment, the relevant latch detail, the recorded work stage and the closed door afterwards. This is more useful than a generic service image because it connects a real North Adelaide location with a specific household issue. It also gives property managers and homeowners a simple model for preparing a well-documented door repair enquiry.",
-            "This case connects a real North Adelaide front-door repair with MEL ONE’s doors, windows and screens service. The page is designed to help homeowners, tenants and property managers understand what useful evidence looks like before they contact a handyman. Share your suburb, the visible issue and preferred timing, and MEL ONE can discuss scope, access and the appropriate next step."
+            "For homes in North Adelaide and across Greater Adelaide, describe whether the issue occurs when opening, closing, latching or locking. Safe existing door and hardware photos are optional. If the door has changed after seasonal movement, painting, new flooring or another alteration, that background can also help frame the initial discussion.",
+            "The four supplied images show the North Adelaide door before adjustment, the latch detail, the work stage and the closed door afterwards. The record shows the visible alignment and hardware work without publishing the customer’s address.",
+            "The supplied North Adelaide photos record the front-door repair stages. For a door that catches, drags or no longer closes properly, contact MEL ONE with your suburb and what you have noticed. We inspect the door, frame and hardware on site and confirm the repair plan and quote."
           ]
         }
       ]
@@ -1208,15 +1208,15 @@
           "heading": "Visible work and local maintenance context",
           "paragraphs": [
             "The work photograph shows access to the lower roller and track hardware. The final image records the window returned to its opening after the photographed work. This case page describes the visible parts and work sequence accurately. MEL ONE follows up on each reported window issue with a targeted solution after confirming the accessible hardware, property details and practical scope.",
-            "Window frame repairs Adelaide can involve several different conditions, including routine adjustment, track cleaning, worn hardware, frame movement, damaged screens or issues that call for another specialist. MEL ONE uses the customer’s photos, visible description, access details and local suburb to discuss a suitable next step. Where glazing, security hardware or structural movement needs specialist assessment, that is identified before the work scope is arranged."
+            "Window frame repairs Adelaide can involve several different conditions, including routine adjustment, track cleaning, worn hardware, frame movement, damaged screens or issues needing qualified specialist assessment. MEL ONE checks the window and access on site and confirms the repair scope and quote. Where glazing, security hardware or structural movement needs specialist work, we confirm the qualified service arrangements before work begins."
           ]
         },
         {
           "heading": "Requesting window repair in Burnside",
           "paragraphs": [
             "If you need sliding window repair in Burnside, include the type of window, the room or exterior location, what happens in everyday use, and any visible debris or damage around the track. Let MEL ONE know whether the property is owner-occupied, tenanted or managed, and mention access or timing preferences that may affect a visit.",
-            "The photographed sequence is also useful for search and decision-making because it documents the same window at several stages. The wide image gives the property context, the close view identifies the lower track and roller area, the work image shows practical access, and the last image records the completed presentation. Each caption explains the image directly so customers and search systems can understand what the page is about without relying on unverified claims.",
-            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
+            "The supplied photographs document the same window at several stages. The wide image shows the property context, the close view shows the lower track and roller area, the work image records access, and the last image shows the completed presentation. For your window concern, MEL ONE checks the frame, moving parts and hardware on site and confirms the repair scope and quote.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
           ]
         }
       ]
@@ -1274,8 +1274,8 @@
           "heading": "Requesting furniture assembly in Kensington",
           "paragraphs": [
             "For a similar Kensington furniture assembly request, include the brand and model, the number of cartons, the room where it will be assembled and any parking or access considerations. Clear photos make it easier to see whether the item is still boxed, partly assembled or ready for the final stages. Customers can also list other small jobs in the same home so MEL ONE can discuss each item clearly.",
-            "The image record is useful because it shows the same project from preparation to completion. The boxes and manual establish the product context, the assembly photos show the practical stage, and the finished shelving unit shows the documented end point in the room. That makes this a helpful real example for people considering furniture assembly in Kensington or elsewhere in Adelaide.",
-            "This real case connects furniture assembly Adelaide and flat pack assembly Adelaide with MEL ONE’s Kensington service area and Interior Repairs & Assembly page. The photos provide a useful local record for homeowners, tenants and property managers looking for practical help with a defined household task. Contact MEL ONE with your suburb, product details and preferred timing to discuss your enquiry."
+            "The supplied Kensington images show the cartons and manual, assembly in progress and the shelving unit in the room. They record this product’s visible assembly stages; they do not establish requirements for a different item or an unshown wall fixing.",
+            "Contact MEL ONE for furniture assembly in Kensington or Greater Adelaide with the product name, room and suburb. We check the components, instructions, work area and access and confirm assembly requirements and the written quote."
           ]
         }
       ]
@@ -1332,9 +1332,9 @@
         {
           "heading": "Preparing a cabinet hinge repair request",
           "paragraphs": [
-            "For a cabinet hinge replacement Adelaide or adjustment enquiry, take one wider photo of the kitchen and one close image of the relevant hinge or door edge. Include the suburb, preferred contact method and any access details that need to be considered. If the property is managed or tenanted, identify the person who can approve the work so the next conversation is clear.",
-            "The four images also give this case a clear evidence trail. The kitchen-wide view shows the surrounding cabinetry, the close photo identifies the hinge context, the work image shows access to the door, and the final photograph records the cabinet front after the visible adjustment. This keeps the article useful, specific and grounded in the supplied local images.",
-            "This photographed Unley case links kitchen cabinet repairs Adelaide to MEL ONE’s Interior Repairs & Assembly service and the local Unley area page. It gives customers and search systems a specific local example of a common home-maintenance issue, the visible hardware context and the completion record. Contact MEL ONE to discuss your own cupboard-door or cabinet-hinge enquiry."
+            "For a cabinet hinge replacement Adelaide or adjustment enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Include the suburb, preferred contact method and any access details that need to be considered. If the property is managed or tenanted, identify the person who can approve the work so we can confirm access and approval. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "The four supplied images record the surrounding kitchen, hinge detail, access to the door during work and the cabinet front afterwards. They show the visible adjustment stage, not the condition of every concealed fixing.",
+            "The supplied Unley photographs show the cupboard-door concern, hinge hardware and completion record. Contact MEL ONE about a loose hinge or misaligned cupboard door. We check the fittings and cabinet material on site and confirm the adjustment or repair scope and quote."
           ]
         }
       ]
@@ -1391,9 +1391,9 @@
         {
           "heading": "Requesting wall repair in Goodwood",
           "paragraphs": [
-            "For a similar Goodwood wall repair, share the room location, a description of the visible damage, safe photos and your preferred timing. Keep furniture or valuables clear of the affected area where practical, and let MEL ONE know if the property is leased or needs owner approval. These details help frame the conversation without asking a customer to investigate inside the wall.",
-            "The four-image sequence makes the page easy to assess: it shows the room context, the close detail of the damaged surface, the preparation stage and the completed wall. It is stronger than a generic repair description because customers can see a real local example while the wording stays within what the supplied photographs can support.",
-            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected wall, timber and adjoining finishes, identify the repair required and confirm the scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
+            "For a similar Goodwood wall repair, contact MEL ONE with your suburb and a short description of the item and work you need. Keep furniture or valuables clear of the affected area where practical, and let MEL ONE know if the property is leased or needs owner approval. These details help frame the conversation without asking a customer to investigate inside the wall. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "The supplied Goodwood sequence shows the wall in its room, the damaged surface, repair preparation and the visible completed finish. The photos record those stages but do not establish a hidden moisture source or structural cause.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected wall, timber and adjoining finishes, identify the repair required and confirm the scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
           ]
         }
       ]
@@ -1450,8 +1450,8 @@
         {
           "heading": "How to request fence repairs in Mile End",
           "paragraphs": [
-            "For a similar Mile End fence repair, include one broad photo from a safe accessible position and a close image of the broken, loose or weathered component. Say whether the concern is a fence panel, palings, rail, post, gate or latch, and mention any side access, pets, shared boundary or tenant and owner coordination that may affect the conversation. These details let a handyman understand the basic situation before timing and scope are discussed.",
-            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
+            "For a similar Mile End fence repair, contact MEL ONE with your suburb and a short description of the item and work you need. Say whether the concern is a fence panel, palings, rail, post, gate or latch, and mention any side access, pets, shared boundary or tenant and owner coordination that may affect the conversation. These details let a handyman understand the basic situation before timing and scope are discussed. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
           ]
         }
       ]
@@ -1508,8 +1508,8 @@
         {
           "heading": "Preparing a Prospect gutter cleaning enquiry",
           "paragraphs": [
-            "For a Prospect or Greater Adelaide gutter-cleaning enquiry, provide the suburb, the side of the house involved, any visible debris or overflow concern, access notes and a ground-level photograph where it can be taken safely. Mention trees, gates, pets or property-manager access arrangements that may affect the visit. Avoid attempting roof access solely to provide a photo. A short accurate description is more useful than a guess about hidden conditions.",
-            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We arrange safe access, check the gutter or exterior maintenance concern and confirm the cleaning or repair scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
+            "For a Prospect or Greater Adelaide gutter-cleaning enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Mention trees, gates, pets or property-manager access arrangements that may affect the visit. Avoid attempting roof access solely to provide a photo. A short accurate description is more useful than a guess about hidden conditions. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We arrange safe access, check the gutter or exterior maintenance concern and confirm the cleaning or repair scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
           ]
         }
       ]
@@ -1566,8 +1566,8 @@
         {
           "heading": "Requesting wall repairs in Adelaide CBD",
           "paragraphs": [
-            "For a similar Adelaide CBD wall or skirting-board repair, take one wide photo and one close image from a safe position, then describe the room, the visible condition and whether the property is owner-occupied, rented or managed. Let MEL ONE know about access, furniture near the work area and your preferred timing. This helps keep the initial enquiry practical while allowing any relevant condition or scope question to be discussed before work is arranged.",
-            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected wall, timber and adjoining finishes, identify the repair required and confirm the scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
+            "For a similar Adelaide CBD wall or skirting-board repair, contact MEL ONE with your suburb and a short description of the item and work you need. Let MEL ONE know about access, furniture near the work area and your preferred timing. This helps keep the initial enquiry practical while allowing any relevant condition or scope question to be discussed before work is arranged. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected wall, timber and adjoining finishes, identify the repair required and confirm the scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
           ]
         }
       ]
@@ -1578,26 +1578,56 @@
       "description": "A photographed Modbury timber fence assessment documenting broken palings, visible lean and the sections raised for repair discussion.",
       "suburb": "Modbury",
       "service": "outdoor-structures-fences-pools",
-      "keywords": ["fence repairs Adelaide", "timber fence repair Adelaide", "leaning fence repair", "handyman Modbury"],
+      "keywords": [
+        "fence repairs Adelaide",
+        "timber fence repair Adelaide",
+        "leaning fence repair",
+        "handyman Modbury"
+      ],
       "images": [
-        {"src": "/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg", "alt": "Broken timber fence palings at a Modbury property", "caption": "The close view records a missing and broken section of timber palings."},
-        {"src": "/assets/images/cases/modbury-timber-fence-repair-assessment-02.jpg", "alt": "Weathered timber fence palings with visible gaps in Modbury", "caption": "A second elevation shows aged palings and visible openings in the fence line."},
-        {"src": "/assets/images/cases/modbury-timber-fence-repair-assessment-03.jpg", "alt": "Leaning timber boundary fence beside a Modbury home", "caption": "The side passage view records the fence line and its visible lean."},
-        {"src": "/assets/images/cases/modbury-timber-fence-repair-assessment-04.jpg", "alt": "Long timber fence line requiring repair assessment in Modbury", "caption": "The wider image provides context for the affected boundary fence section."}
+        {
+          "src": "/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg",
+          "alt": "Broken timber fence palings at a Modbury property",
+          "caption": "The close view records a missing and broken section of timber palings."
+        },
+        {
+          "src": "/assets/images/cases/modbury-timber-fence-repair-assessment-02.jpg",
+          "alt": "Weathered timber fence palings with visible gaps in Modbury",
+          "caption": "A second elevation shows aged palings and visible openings in the fence line."
+        },
+        {
+          "src": "/assets/images/cases/modbury-timber-fence-repair-assessment-03.jpg",
+          "alt": "Leaning timber boundary fence beside a Modbury home",
+          "caption": "The side passage view records the fence line and its visible lean."
+        },
+        {
+          "src": "/assets/images/cases/modbury-timber-fence-repair-assessment-04.jpg",
+          "alt": "Long timber fence line requiring repair assessment in Modbury",
+          "caption": "The wider image provides context for the affected boundary fence section."
+        }
       ],
       "sections": [
-        {"heading": "Visible timber fence concerns in Modbury", "paragraphs": [
-          "This Modbury timber fence repair assessment records a boundary fence with visibly broken palings, open gaps, weathered timber and sections that appear to be leaning. The supplied images include a close view of the damaged opening, a front elevation, a side-passage view and a wider look along the fence line. Together they give a clear visual starting point for a fence repairs Adelaide enquiry while keeping the property address and customer details private.",
-          "The photographs show what can be observed from accessible positions. They do not identify the cause of the damage, confirm ownership of the boundary, assess posts below ground or establish whether every part of the fence needs replacement. That distinction matters. A timber fence repair Adelaide request should separate visible concerns from assumptions, then allow the practical scope, shared-boundary arrangements and access conditions to be discussed directly."
-        ]},
-        {"heading": "What this photographed assessment records", "paragraphs": [
-          "Unlike a completion gallery, this page is an honest assessment record. The four supplied images show the existing condition only; they do not show repair work or a finished fence. Publishing that distinction is useful for customers because it demonstrates the kind of detail that helps start a clear discussion: damaged palings, a gap, a fence line that is not sitting evenly and the surrounding access area.",
-          "A leaning fence repair or fence-paling repair can involve more than the boards visible from one side. Timber age, support condition, neighbouring access, retaining elements, trees, services and boundary approvals may affect the next step. MEL ONE can discuss the reported condition and a suitable maintenance enquiry. Structural concerns, formal boundary decisions and work requiring separate approval must be considered through the appropriate process."
-        ]},
-        {"heading": "How to prepare a Modbury fence repair enquiry", "paragraphs": [
-          "For a similar Modbury fence concern, provide one broad image, one close picture of the affected component, the approximate part of the boundary involved and any information about access, pets, tenants or neighbours. Do not pull on a loose section or enter another property to take photographs. Mention whether the concern is broken palings, rails, posts, a gate or a visible lean so the initial conversation is specific.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Visible timber fence concerns in Modbury",
+          "paragraphs": [
+            "This Modbury timber fence repair assessment records a boundary fence with visibly broken palings, open gaps, weathered timber and sections that appear to be leaning. The supplied images include a close view of the damaged opening, a front elevation, a side-passage view and a wider look along the fence line. Together they give a clear visual starting point for a fence repairs Adelaide enquiry while keeping the property address and customer details private.",
+            "The photographs show what can be observed from accessible positions. They do not identify the cause of the damage, confirm ownership of the boundary, assess posts below ground or establish whether every part of the fence needs replacement. That distinction matters. A timber fence repair Adelaide request should separate visible concerns from assumptions, then allow the practical scope, shared-boundary arrangements and access conditions to be discussed directly."
+          ]
+        },
+        {
+          "heading": "What this photographed assessment records",
+          "paragraphs": [
+            "Unlike a completion gallery, this page is an honest assessment record. The four supplied images show the existing condition only; they do not show repair work or a finished fence. Publishing that distinction is useful for customers because it demonstrates the kind of detail that helps start a clear discussion: damaged palings, a gap, a fence line that is not sitting evenly and the surrounding access area.",
+            "A leaning fence repair or fence-paling repair can involve more than the boards visible from one side. Timber age, support condition, neighbouring access, retaining elements, trees, services and boundary approvals may affect the next step. MEL ONE can discuss the reported condition and a suitable maintenance enquiry. Structural concerns, formal boundary decisions and work requiring separate approval must be considered through the appropriate process."
+          ]
+        },
+        {
+          "heading": "How to prepare a Modbury fence repair enquiry",
+          "paragraphs": [
+            "For a similar Modbury fence concern, contact MEL ONE with your suburb and a short description of the item and work you need. Do not pull on a loose section or enter another property to take photographs. Mention whether the concern is broken palings, rails, posts, a gate or a visible lean so the initial conversation is specific. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1606,26 +1636,56 @@
       "description": "A photographed Marion shower screen door repair case showing the visible screen, roller-area work and the completed shower enclosure.",
       "suburb": "Marion",
       "service": "doors-windows-screens",
-      "keywords": ["shower screen repairs Adelaide", "shower screen door repair", "shower door roller repair", "handyman Marion"],
+      "keywords": [
+        "shower screen repairs Adelaide",
+        "shower screen door repair",
+        "shower door roller repair",
+        "handyman Marion"
+      ],
       "images": [
-        {"src": "/assets/images/cases/marion-shower-screen-repair-01.png", "alt": "Shower screen door before repair at a Marion Adelaide home", "caption": "The supplied before image records the shower enclosure and sliding door in the bathroom."},
-        {"src": "/assets/images/cases/marion-shower-screen-repair-04.png", "alt": "Close view of lower shower screen roller and frame in Marion", "caption": "A close supplied image records the accessible lower roller and frame detail associated with the repair."},
-        {"src": "/assets/images/cases/marion-shower-screen-repair-02.png", "alt": "Handyman working on a shower screen door in Marion", "caption": "The work-stage photograph shows adjustment work at the shower screen door frame."},
-        {"src": "/assets/images/cases/marion-shower-screen-repair-03.png", "alt": "Completed shower screen door repair in a Marion bathroom", "caption": "The final image shows the shower enclosure after the photographed work stage."}
+        {
+          "src": "/assets/images/cases/marion-shower-screen-repair-01.png",
+          "alt": "Shower screen door before repair at a Marion Adelaide home",
+          "caption": "The supplied before image records the shower enclosure and sliding door in the bathroom."
+        },
+        {
+          "src": "/assets/images/cases/marion-shower-screen-repair-04.png",
+          "alt": "Close view of lower shower screen roller and frame in Marion",
+          "caption": "A close supplied image records the accessible lower roller and frame detail associated with the repair."
+        },
+        {
+          "src": "/assets/images/cases/marion-shower-screen-repair-02.png",
+          "alt": "Handyman working on a shower screen door in Marion",
+          "caption": "The work-stage photograph shows adjustment work at the shower screen door frame."
+        },
+        {
+          "src": "/assets/images/cases/marion-shower-screen-repair-03.png",
+          "alt": "Completed shower screen door repair in a Marion bathroom",
+          "caption": "The final image shows the shower enclosure after the photographed work stage."
+        }
       ],
       "sections": [
-        {"heading": "Marion shower screen door repair case", "paragraphs": [
-          "This photographed Marion shower screen repair case concerns a framed sliding shower enclosure in a residential bathroom. The supplied images show the enclosure in its room context, practical adjustment work at the screen-door frame and the finished visible setup. A bathroom-wide photograph is helpful in this type of enquiry because it shows the screen arrangement, nearby fittings and access around the enclosure without needing to disclose a customer address.",
-          "Shower screen repairs Adelaide commonly begin with an everyday problem: a door that does not move smoothly, a roller that has worn, a panel that needs adjustment, a seal concern or hardware that no longer sits comfortably. The right repair approach considers the screen design, glass condition, track, rollers, frame, seals and accessible hardware. MEL ONE follows up on each reported shower-screen issue with a targeted solution after reviewing those visible details and the requested outcome."
-        ]},
-        {"heading": "What the work photographs show", "paragraphs": [
-          "The work-stage image shows a technician working at the vertical frame and door area with hand tools. The final image records the shower enclosure after that visible work. The sequence provides a clear local evidence trail: the screen in context, adjustment work, then the completed bathroom presentation. It is more useful than a generic bathroom image because it connects a specific household-maintenance task with real photographs and a named Greater Adelaide service area.",
-          "A shower screen door repair may need separate consideration when glass is cracked or chipped, a panel is loose, a frame is corroded, waterproofing appears affected or a proprietary replacement part is required. Customers should identify those details early so MEL ONE can follow up with a targeted solution for the particular screen, hardware and property conditions. Specialist assessment may be appropriate for conditions outside routine accessible hardware work."
-        ]},
-        {"heading": "Preparing a shower screen repair enquiry in Marion", "paragraphs": [
-          "For a similar Marion or Adelaide shower screen enquiry, include a wide bathroom photo, a close image of the relevant roller, track, handle, seal or frame and a description of what happens when the door is used. Mention whether the screen catches, drags, sits unevenly or cannot be closed as expected. Keep the area dry and accessible where practical, and let MEL ONE know about tenant, owner or property-manager approval requirements.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Marion shower screen door repair case",
+          "paragraphs": [
+            "This photographed Marion shower screen repair case concerns a framed sliding shower enclosure in a residential bathroom. The supplied images show the enclosure in its room context, practical adjustment work at the screen-door frame and the finished visible setup. A bathroom-wide photograph is helpful in this type of enquiry because it shows the screen arrangement, nearby fittings and access around the enclosure without needing to disclose a customer address.",
+            "Shower screen repairs Adelaide commonly begin with an everyday problem: a door that does not move smoothly, a roller that has worn, a panel that needs adjustment, a seal concern or hardware that no longer sits comfortably. The right repair approach considers the screen design, glass condition, track, rollers, frame, seals and accessible hardware. MEL ONE follows up on each reported shower-screen issue with a targeted solution after reviewing those visible details and the requested outcome."
+          ]
+        },
+        {
+          "heading": "What the work photographs show",
+          "paragraphs": [
+            "The work-stage image shows a technician at the vertical frame and door area with hand tools. The final image records the shower enclosure after that visible work. This Marion record shows the screen arrangement, adjustment stage and finished presentation; it does not establish concealed waterproofing or glass certification.",
+            "A shower screen door repair may need separate consideration when glass is cracked or chipped, a panel is loose, a frame is corroded, waterproofing appears affected or a proprietary replacement part is required. Customers should identify those details early so MEL ONE can follow up with a targeted solution for the particular screen, hardware and property conditions. Specialist assessment may be appropriate for conditions outside routine accessible hardware work."
+          ]
+        },
+        {
+          "heading": "Preparing a shower screen repair enquiry in Marion",
+          "paragraphs": [
+            "For a similar Marion or Adelaide shower screen enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Mention whether the screen catches, drags, sits unevenly or cannot be closed as expected. Keep the area dry and accessible where practical, and let MEL ONE know about tenant, owner or property-manager approval requirements. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1634,26 +1694,56 @@
       "description": "A photographed Henley Beach sliding screen door repair case showing worn lower rollers, repair work and the completed door position.",
       "suburb": "Henley Beach",
       "service": "doors-windows-screens",
-      "keywords": ["sliding door repair Adelaide", "sliding screen door repair", "door roller repair Adelaide", "handyman Henley Beach"],
+      "keywords": [
+        "sliding door repair Adelaide",
+        "sliding screen door repair",
+        "door roller repair Adelaide",
+        "handyman Henley Beach"
+      ],
       "images": [
-        {"src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-01.png", "alt": "Sliding screen door before roller repair in Henley Beach", "caption": "The wide image shows the sliding screen door and patio opening before the recorded work."},
-        {"src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-03.png", "alt": "Worn lower roller and track on a Henley Beach sliding screen door", "caption": "A second close view shows the roller, track and accumulated debris around the lower door edge."},
-        {"src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-04.png", "alt": "Handyman replacing sliding screen door rollers in Henley Beach", "caption": "The work-stage photograph shows a technician working at the accessible lower screen-door track."},
-        {"src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-05.png", "alt": "Completed sliding screen door roller repair in Henley Beach", "caption": "The final image records the sliding screen door returned to its completed visible position."}
+        {
+          "src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-01.png",
+          "alt": "Sliding screen door before roller repair in Henley Beach",
+          "caption": "The wide image shows the sliding screen door and patio opening before the recorded work."
+        },
+        {
+          "src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-03.png",
+          "alt": "Worn lower roller and track on a Henley Beach sliding screen door",
+          "caption": "A second close view shows the roller, track and accumulated debris around the lower door edge."
+        },
+        {
+          "src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-04.png",
+          "alt": "Handyman replacing sliding screen door rollers in Henley Beach",
+          "caption": "The work-stage photograph shows a technician working at the accessible lower screen-door track."
+        },
+        {
+          "src": "/assets/images/cases/henley-beach-sliding-screen-door-repair-05.png",
+          "alt": "Completed sliding screen door roller repair in Henley Beach",
+          "caption": "The final image records the sliding screen door returned to its completed visible position."
+        }
       ],
       "sections": [
-        {"heading": "Visible sliding screen door issue in Henley Beach", "paragraphs": [
-          "This Henley Beach sliding screen door repair case documents a patio screen door with visible lower roller and track concerns. The supplied photos show the full opening, close views of the lower roller area, a work stage at the track and the screen door after the recorded work. These images create a practical local record of a common household issue without publishing the resident’s address or making assumptions about the condition of components not visible in the sequence.",
-          "Sliding door repair Adelaide enquiries often start when a screen door drags, catches, becomes difficult to move, sits unevenly or no longer meets the frame as expected. A close image of the roller and track can help distinguish a visible dirt build-up, worn roller, damaged guide, loose frame edge or alignment question. The final scope still depends on the particular screen system, the condition of the track, replacement-part availability and access at the property."
-        ]},
-        {"heading": "Recorded roller repair work", "paragraphs": [
-          "The close photographs show lower roller hardware and debris around the track area. The supplied work image records a technician working from inside the home with tools and replacement rollers visible nearby. The completion image shows the screen door reassembled in the opening. This sequence supports a factual description of visible sliding screen door roller work: observed lower hardware, practical adjustment or replacement activity, and a completed door position.",
-          "Door roller repair Adelaide is tailored to each aluminium screen, patio door or security door. Roller size, wheel type, track wear, door weight, mesh condition, lock hardware and frame alignment can all affect the right approach. MEL ONE follows up on each reported door issue with a targeted solution after reviewing those details; broken glass, security functions, damaged frames and complex track conditions are identified early in that process."
-        ]},
-        {"heading": "Requesting sliding screen door repair in Henley Beach", "paragraphs": [
-          "For a Henley Beach sliding screen door enquiry, send one photo of the full opening and a safe close image of the affected lower track, roller, handle or frame. Describe when the door catches and whether it can still be opened, closed or locked. Note pets, access arrangements and whether the property is rented or managed. Do not force a jammed door, remove panels without suitable support or attempt to work around glass or security hardware yourself.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Visible sliding screen door issue in Henley Beach",
+          "paragraphs": [
+            "This Henley Beach sliding screen door repair case documents a patio screen door with visible lower roller and track concerns. The supplied photos show the full opening, close views of the lower roller area, a work stage at the track and the screen door after the recorded work. These images create a practical local record of a common household issue without publishing the resident’s address or making assumptions about the condition of components not visible in the sequence.",
+            "Sliding door repair Adelaide enquiries often start when a screen door drags, catches, becomes difficult to move, sits unevenly or no longer meets the frame as expected. A close image of the roller and track can help distinguish a visible dirt build-up, worn roller, damaged guide, loose frame edge or alignment question. The final scope still depends on the particular screen system, the condition of the track, replacement-part availability and access at the property."
+          ]
+        },
+        {
+          "heading": "Recorded roller repair work",
+          "paragraphs": [
+            "The close photographs show lower roller hardware and debris around the track area. The supplied work image records a technician working from inside the home with tools and replacement rollers visible nearby. The completion image shows the screen door reassembled in the opening. This sequence supports a factual description of visible sliding screen door roller work: observed lower hardware, practical adjustment or replacement activity, and a completed door position.",
+            "Door roller repair Adelaide is tailored to each aluminium screen, patio door or security door. Roller size, wheel type, track wear, door weight, mesh condition, lock hardware and frame alignment can all affect the right approach. MEL ONE follows up on each reported door issue with a targeted solution after reviewing those details; broken glass, security functions, damaged frames and complex track conditions are identified early in that process."
+          ]
+        },
+        {
+          "heading": "Requesting sliding screen door repair in Henley Beach",
+          "paragraphs": [
+            "For a Henley Beach sliding screen door enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Describe when the door catches and whether it can still be opened, closed or locked. Note pets, access arrangements and whether the property is rented or managed. Do not force a jammed door, remove panels without suitable support or attempt to work around glass or security hardware yourself. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1662,26 +1752,56 @@
       "description": "A photographed Stirling deck and pergola timber repair showing deteriorated boards and beam ends, on-site removal work and the finished outdoor deck area.",
       "suburb": "Stirling",
       "service": "outdoor-structures-fences-pools",
-      "keywords": ["deck repair Adelaide", "pergola repair Adelaide", "timber deck repair", "handyman Stirling"],
+      "keywords": [
+        "deck repair Adelaide",
+        "pergola repair Adelaide",
+        "timber deck repair",
+        "handyman Stirling"
+      ],
       "images": [
-        {"src": "/assets/images/cases/stirling-deck-pergola-timber-repair-01.png", "alt": "Deteriorated deck boards and pergola beam at a Stirling Adelaide home", "caption": "The supplied wide image shows visible timber deterioration at the deck surface and pergola beam end."},
-        {"src": "/assets/images/cases/stirling-deck-pergola-timber-repair-02.png", "alt": "Close view of damaged timber deck board near a pergola post in Stirling", "caption": "The close photograph records the visible board damage beside the pergola post."},
-        {"src": "/assets/images/cases/stirling-deck-pergola-timber-repair-03.png", "alt": "Handyman removing damaged deck boards in Stirling", "caption": "The work-stage image shows accessible deck-board removal with hand tools and replacement materials nearby."},
-        {"src": "/assets/images/cases/stirling-deck-pergola-timber-repair-04.png", "alt": "Finished timber deck and pergola area in Stirling", "caption": "The final supplied image shows the outdoor deck area after the photographed repair work."}
+        {
+          "src": "/assets/images/cases/stirling-deck-pergola-timber-repair-01.png",
+          "alt": "Deteriorated deck boards and pergola beam at a Stirling Adelaide home",
+          "caption": "The supplied wide image shows visible timber deterioration at the deck surface and pergola beam end."
+        },
+        {
+          "src": "/assets/images/cases/stirling-deck-pergola-timber-repair-02.png",
+          "alt": "Close view of damaged timber deck board near a pergola post in Stirling",
+          "caption": "The close photograph records the visible board damage beside the pergola post."
+        },
+        {
+          "src": "/assets/images/cases/stirling-deck-pergola-timber-repair-03.png",
+          "alt": "Handyman removing damaged deck boards in Stirling",
+          "caption": "The work-stage image shows accessible deck-board removal with hand tools and replacement materials nearby."
+        },
+        {
+          "src": "/assets/images/cases/stirling-deck-pergola-timber-repair-04.png",
+          "alt": "Finished timber deck and pergola area in Stirling",
+          "caption": "The final supplied image shows the outdoor deck area after the photographed repair work."
+        }
       ],
       "sections": [
-        {"heading": "Visible deck and pergola timber concerns in Stirling", "paragraphs": [
-          "This photographed Stirling deck and pergola timber repair records visible deterioration around an outdoor deck surface and the end of a pergola beam. The supplied sequence includes a wide view of the entertaining area, a close photo of damaged boards near a post, a practical work stage and a final view of the same outdoor setting. It gives a useful starting point for a deck repair Adelaide enquiry while keeping the property address and household details private.",
-          "Outdoor timber changes over time through weather exposure, foot traffic, moisture, movement and ordinary use. A split board, soft-looking edge or weathered beam end provides a clear starting point for checking the surrounding accessible timber. MEL ONE follows up on each reported deck or pergola issue with a targeted solution based on the visible boards, posts, fixings, access and confirmed scope."
-        ]},
-        {"heading": "What the repair photographs show", "paragraphs": [
-          "The close image focuses on a visibly deteriorated deck-board area beside a pergola post. The work-stage photograph then shows accessible board removal with tools, a pry bar and replacement fixings present. The final supplied view records the deck and pergola area after that photographed stage. Together, the sequence makes the page more useful than a generic outdoor image because it links a local household-maintenance concern with a specific visible repair process.",
-          "Deck repair Adelaide and pergola repair Adelaide requests vary with timber condition, the size and location of the affected area, fasteners, drainage, access and whether there are signs of movement beyond the visible boards. Customers should raise concerns such as loose railings, unstable posts, widespread rot, electrical fittings or a change in level early. Those details can affect whether a routine accessible timber repair is suitable or whether another assessment is needed before any scope is agreed."
-        ]},
-        {"heading": "Preparing a Stirling deck repair enquiry", "paragraphs": [
-          "For a similar Stirling deck or pergola enquiry, send one wide image of the outdoor area and one close image of the affected board, beam, post or fixing. Explain whether the concern is a soft board, a visible split, a loose component, surface weathering or an access issue. Let MEL ONE know about stairs, pets, furniture and the preferred entry route. Avoid walking on an area that appears unsafe or attempting to remove boards without suitable support.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Visible deck and pergola timber concerns in Stirling",
+          "paragraphs": [
+            "This photographed Stirling deck and pergola timber repair records visible deterioration around an outdoor deck surface and the end of a pergola beam. The supplied sequence includes a wide view of the entertaining area, a close photo of damaged boards near a post, a practical work stage and a final view of the same outdoor setting. It gives a useful starting point for a deck repair Adelaide enquiry while keeping the property address and household details private.",
+            "Outdoor timber changes over time through weather exposure, foot traffic, moisture, movement and ordinary use. A split board, soft-looking edge or weathered beam end provides a clear starting point for checking the surrounding accessible timber. MEL ONE follows up on each reported deck or pergola issue with a targeted solution based on the visible boards, posts, fixings, access and confirmed scope."
+          ]
+        },
+        {
+          "heading": "What the repair photographs show",
+          "paragraphs": [
+            "The close image shows deteriorated decking beside a pergola post. The work-stage photograph records accessible board removal with tools, a pry bar and replacement fixings present. The final view records the deck and pergola area after that stage; the photos do not establish the condition of every support or connection.",
+            "Deck repair Adelaide and pergola repair Adelaide requests vary with timber condition, the size and location of the affected area, fasteners, drainage, access and whether there are signs of movement beyond the visible boards. Customers should raise concerns such as loose railings, unstable posts, widespread rot, electrical fittings or a change in level early. Those details can affect whether a routine accessible timber repair is suitable or whether another assessment is needed before any scope is agreed."
+          ]
+        },
+        {
+          "heading": "Preparing a Stirling deck repair enquiry",
+          "paragraphs": [
+            "For a similar Stirling deck or pergola enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Explain whether the concern is a soft board, a visible split, a loose component, surface weathering or an access issue. Let MEL ONE know about stairs, pets, furniture and the preferred entry route. Avoid walking on an area that appears unsafe or attempting to remove boards without suitable support. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1690,26 +1810,56 @@
       "description": "A photographed Modbury garden pruning and tidy-up showing overgrown shrubs, green-waste collection, careful pruning work and the finished garden-bed presentation.",
       "suburb": "Modbury",
       "service": "garden-landscape-care",
-      "keywords": ["garden maintenance Adelaide", "garden tidy up Adelaide", "hedge pruning Adelaide", "handyman Modbury"],
+      "keywords": [
+        "garden maintenance Adelaide",
+        "garden tidy up Adelaide",
+        "hedge pruning Adelaide",
+        "handyman Modbury"
+      ],
       "images": [
-        {"src": "/assets/images/cases/modbury-garden-pruning-tidy-up-01.png", "alt": "Overgrown Modbury garden bed before pruning and tidy-up", "caption": "The supplied wide image records overgrown shrubs and garden debris before the photographed work."},
-        {"src": "/assets/images/cases/modbury-garden-pruning-tidy-up-02.png", "alt": "Close view of garden branches requiring pruning in Modbury", "caption": "The close image shows cut branches and overgrowth at the garden-bed edge."},
-        {"src": "/assets/images/cases/modbury-garden-pruning-tidy-up-03.png", "alt": "Handyman pruning garden shrubs and collecting green waste in Modbury", "caption": "The work-stage photograph shows pruning activity with green-waste collection and hand tools."},
-        {"src": "/assets/images/cases/modbury-garden-pruning-tidy-up-04.png", "alt": "Finished pruned garden bed and lawn edge in Modbury", "caption": "The final supplied image records the tidier garden-bed line after the visible pruning work."}
+        {
+          "src": "/assets/images/cases/modbury-garden-pruning-tidy-up-01.png",
+          "alt": "Overgrown Modbury garden bed before pruning and tidy-up",
+          "caption": "The supplied wide image records overgrown shrubs and garden debris before the photographed work."
+        },
+        {
+          "src": "/assets/images/cases/modbury-garden-pruning-tidy-up-02.png",
+          "alt": "Close view of garden branches requiring pruning in Modbury",
+          "caption": "The close image shows cut branches and overgrowth at the garden-bed edge."
+        },
+        {
+          "src": "/assets/images/cases/modbury-garden-pruning-tidy-up-03.png",
+          "alt": "Handyman pruning garden shrubs and collecting green waste in Modbury",
+          "caption": "The work-stage photograph shows pruning activity with green-waste collection and hand tools."
+        },
+        {
+          "src": "/assets/images/cases/modbury-garden-pruning-tidy-up-04.png",
+          "alt": "Finished pruned garden bed and lawn edge in Modbury",
+          "caption": "The final supplied image records the tidier garden-bed line after the visible pruning work."
+        }
       ],
       "sections": [
-        {"heading": "Garden pruning and tidy-up in Modbury", "paragraphs": [
-          "This photographed Modbury garden tidy-up records a residential garden bed with visible overgrowth, branches across the lawn edge and accumulated green waste. The supplied images show the condition before work, a closer view of the affected planting, practical pruning with collection equipment and the garden after the recorded tidy-up. The sequence is a useful visual reference for a garden maintenance Adelaide enquiry because it shows both the work area and the result without identifying the household.",
-          "Garden maintenance is best described by what is accessible and observable. In this example, the visible task is light pruning and removal of cut material around established shrubs and a lawn edge. The photos do not identify every plant species, confirm a horticultural diagnosis or show tree work at height. Keeping that boundary clear helps customers explain the work they need without turning an ordinary garden tidy-up into a claim about specialist arborist, chemical or landscaping services."
-        ]},
-        {"heading": "Visible pruning work and green-waste handling", "paragraphs": [
-          "The work-stage photograph shows a worker pruning shrubs from ground level, with cut branches gathered in a bin and flexible green-waste bag. The before images show branches extending into the usable lawn and paving area; the final view shows the same bed looking tidier and more defined. This is an evidence-led sequence: visible overgrowth, practical pruning and collection, then a clearer garden presentation.",
-          "A garden tidy up Adelaide request can include different combinations of accessible pruning, leaf collection, weeding, edging, small green-waste clearing and general outdoor presentation. The appropriate scope depends on plant height, volume, access, bins, garden features and whether a concern is simply untidy growth or something more complex. Large limbs, work near powerlines, climbing, removal of protected vegetation or any condition that appears unsafe should be identified before an arrangement is made."
-        ]},
-        {"heading": "Preparing a Modbury garden maintenance enquiry", "paragraphs": [
-          "For similar pruning or garden tidy-up work in Modbury, send a wide photo of the area plus a close view of the plants or branches you want addressed. Include an approximate height, whether cut material can use an on-site green bin, and access information such as side paths, pets or locked gates. Point out irrigation, ornaments, outdoor lighting or fragile plants that need to remain undisturbed. Clear photos and a short task list help make the first discussion specific.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the garden and access, discuss pruning, tidy-up and waste handling, and confirm the work scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Garden pruning and tidy-up in Modbury",
+          "paragraphs": [
+            "This photographed Modbury garden tidy-up records a residential garden bed with visible overgrowth, branches across the lawn edge and accumulated green waste. The supplied images show the condition before work, a closer view of the affected planting, practical pruning with collection equipment and the garden after the recorded tidy-up. The sequence is a useful visual reference for a garden maintenance Adelaide enquiry because it shows both the work area and the result without identifying the household.",
+            "Garden maintenance is best described by what is accessible and observable. In this example, the visible task is light pruning and removal of cut material around established shrubs and a lawn edge. The photos do not identify every plant species, confirm a horticultural diagnosis or show tree work at height. Keeping that boundary clear helps customers explain the work they need without turning an ordinary garden tidy-up into a claim about specialist arborist, chemical or landscaping services."
+          ]
+        },
+        {
+          "heading": "Visible pruning work and green-waste handling",
+          "paragraphs": [
+            "The work-stage photograph shows a worker pruning shrubs from ground level, with cut branches gathered in a bin and flexible green-waste bag. The before images show branches extending into the usable lawn and paving area; the final view shows the same bed looking tidier and more defined. This is an evidence-led sequence: visible overgrowth, practical pruning and collection, then a clearer garden presentation.",
+            "A garden tidy up Adelaide request can include different combinations of accessible pruning, leaf collection, weeding, edging, small green-waste clearing and general outdoor presentation. The appropriate scope depends on plant height, volume, access, bins, garden features and whether a concern is simply untidy growth or something more complex. Large limbs, work near powerlines, climbing, removal of protected vegetation or any condition that appears unsafe should be identified before an arrangement is made."
+          ]
+        },
+        {
+          "heading": "Preparing a Modbury garden maintenance enquiry",
+          "paragraphs": [
+            "For similar pruning or garden tidy-up work in Modbury, contact MEL ONE with your suburb and a short description of the item and work you need. Include an approximate height, whether cut material can use an on-site green bin, and access information such as side paths, pets or locked gates. Point out irrigation, ornaments, outdoor lighting or fragile plants that need to remain undisturbed. Clear photos and a short task list help make the first discussion specific. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the garden and access, discuss pruning, tidy-up and waste handling, and confirm the work scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1718,26 +1868,56 @@
       "description": "A photographed North Adelaide timber side-gate repair showing weathered hinge hardware, on-site adjustment work and the gate returned to a closed position.",
       "suburb": "North Adelaide",
       "service": "outdoor-structures-fences-pools",
-      "keywords": ["gate repair Adelaide", "timber gate repair", "gate hinge repair", "handyman North Adelaide"],
+      "keywords": [
+        "gate repair Adelaide",
+        "timber gate repair",
+        "gate hinge repair",
+        "handyman North Adelaide"
+      ],
       "images": [
-        {"src": "/assets/images/cases/north-adelaide-timber-gate-repair-01.png", "alt": "Weathered timber side-gate hinge before repair in North Adelaide", "caption": "The close image records the visible hinge and weathered timber at the side gate."},
-        {"src": "/assets/images/cases/north-adelaide-timber-gate-repair-02.png", "alt": "Handyman adjusting a timber side gate in North Adelaide", "caption": "The work-stage photo shows accessible hinge and gate-frame adjustment with hand tools."},
-        {"src": "/assets/images/cases/north-adelaide-timber-gate-repair-03.png", "alt": "Timber side gate closed after repair in North Adelaide", "caption": "The supplied completion image shows the side gate returned to a closed position."},
-        {"src": "/assets/images/cases/north-adelaide-timber-gate-repair-04.png", "alt": "Finished timber side gate and latch area in North Adelaide", "caption": "The final wide view records the visible gate, hinge side and latch area after the work stage."}
+        {
+          "src": "/assets/images/cases/north-adelaide-timber-gate-repair-01.png",
+          "alt": "Weathered timber side-gate hinge before repair in North Adelaide",
+          "caption": "The close image records the visible hinge and weathered timber at the side gate."
+        },
+        {
+          "src": "/assets/images/cases/north-adelaide-timber-gate-repair-02.png",
+          "alt": "Handyman adjusting a timber side gate in North Adelaide",
+          "caption": "The work-stage photo shows accessible hinge and gate-frame adjustment with hand tools."
+        },
+        {
+          "src": "/assets/images/cases/north-adelaide-timber-gate-repair-03.png",
+          "alt": "Timber side gate closed after repair in North Adelaide",
+          "caption": "The supplied completion image shows the side gate returned to a closed position."
+        },
+        {
+          "src": "/assets/images/cases/north-adelaide-timber-gate-repair-04.png",
+          "alt": "Finished timber side gate and latch area in North Adelaide",
+          "caption": "The final wide view records the visible gate, hinge side and latch area after the work stage."
+        }
       ],
       "sections": [
-        {"heading": "Visible side-gate concern in North Adelaide", "paragraphs": [
-          "This photographed North Adelaide timber gate repair records a weathered side gate with visible hinge hardware and an accessible gate-frame connection. The image sequence includes a close pre-work detail, a technician adjusting the gate with tools, then two views of the gate in its closed position. It creates a useful local reference for a gate repair Adelaide enquiry while keeping the address and customer information out of the page.",
-          "Timber gates can become difficult to use when hinges, fasteners, framing, latches, ground clearance or adjacent fence sections no longer sit as expected. The photographs show a visible hinge-area concern and practical adjustment work. MEL ONE follows up on each reported gate issue with a targeted solution after reviewing the accessible hinge, gate frame, latch, posts and surrounding fence connection."
-        ]},
-        {"heading": "What the gate repair photographs record", "paragraphs": [
-          "The close image makes the weathered timber and existing hinge hardware easy to identify. The work-stage photo shows a technician at the hinge side with tools, while the two final images record the gate aligned in a closed position. This before, work and completion sequence offers practical context for a timber gate repair enquiry. It also helps distinguish a gate issue from a broader fence replacement project when the visible concern is limited to accessible gate hardware and alignment.",
-          "Gate hinge repair can depend on gate weight, timber condition, latch operation, clearance from paving, post movement and the location of adjacent fencing. If a gate is unstable, heavily decayed, connected to a pool barrier, part of a security system or difficult to open safely, those facts should be raised at the start. A property may need a different solution where the observed issue extends beyond routine accessible adjustment or replacement of visible components."
-        ]},
-        {"heading": "Requesting timber gate repair in North Adelaide", "paragraphs": [
-          "For a similar North Adelaide gate enquiry, provide a photo from the hinge side, a full-gate image and a short explanation of what happens when it is opened or closed. Note whether it drags, catches, fails to latch, has loose timber or affects access for bins, pets or occupants. Let MEL ONE know about tenancy, strata or owner approval where relevant. Do not force a jammed gate or remove hinges from a heavy gate without safe support.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Visible side-gate concern in North Adelaide",
+          "paragraphs": [
+            "This photographed North Adelaide timber gate repair records a weathered side gate with visible hinge hardware and an accessible gate-frame connection. The image sequence includes a close pre-work detail, a technician adjusting the gate with tools, then two views of the gate in its closed position. It creates a useful local reference for a gate repair Adelaide enquiry while keeping the address and customer information out of the page.",
+            "Timber gates can become difficult to use when hinges, fasteners, framing, latches, ground clearance or adjacent fence sections no longer sit as expected. The photographs show a visible hinge-area concern and practical adjustment work. MEL ONE follows up on each reported gate issue with a targeted solution after reviewing the accessible hinge, gate frame, latch, posts and surrounding fence connection."
+          ]
+        },
+        {
+          "heading": "What the gate repair photographs record",
+          "paragraphs": [
+            "The close image makes the weathered timber and existing hinge hardware easy to identify. The work-stage photo shows a technician at the hinge side with tools, while the two final images record the gate aligned in a closed position. This before, work and completion sequence offers practical context for a timber gate repair enquiry. It also helps distinguish a gate issue from a broader fence replacement project when the visible concern is limited to accessible gate hardware and alignment.",
+            "Gate hinge repair can depend on gate weight, timber condition, latch operation, clearance from paving, post movement and the location of adjacent fencing. If a gate is unstable, heavily decayed, connected to a pool barrier, part of a security system or difficult to open safely, those facts should be raised at the start. A property may need a different solution where the observed issue extends beyond routine accessible adjustment or replacement of visible components."
+          ]
+        },
+        {
+          "heading": "Requesting timber gate repair in North Adelaide",
+          "paragraphs": [
+            "For a similar North Adelaide gate enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Note whether it drags, catches, fails to latch, has loose timber or affects access for bins, pets or occupants. Let MEL ONE know about tenancy, strata or owner approval where relevant. Do not force a jammed gate or remove hinges from a heavy gate without safe support. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the affected timber, supports, joints and hardware, identify the repair required and confirm the scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1746,26 +1926,56 @@
       "description": "A photographed Burnside driveway pressure-cleaning case showing mossy pavers, the cleaning work and the visibly refreshed paved surface.",
       "suburb": "Burnside",
       "service": "cleaning-removals-specialist-care",
-      "keywords": ["pressure cleaning Adelaide", "driveway cleaning Adelaide", "paver cleaning Adelaide", "handyman Burnside"],
+      "keywords": [
+        "pressure cleaning Adelaide",
+        "driveway cleaning Adelaide",
+        "paver cleaning Adelaide",
+        "handyman Burnside"
+      ],
       "images": [
-        {"src": "/assets/images/cases/burnside-driveway-pressure-cleaning-01.png", "alt": "Mossy paved driveway before pressure cleaning in Burnside Adelaide", "caption": "The wide before view records dark surface build-up and growth across the residential driveway pavers."},
-        {"src": "/assets/images/cases/burnside-driveway-pressure-cleaning-02.png", "alt": "Close view of moss and small weeds between driveway pavers in Burnside", "caption": "The detail photo shows visible growth and weathered surface residue in the paver joints."},
-        {"src": "/assets/images/cases/burnside-driveway-pressure-cleaning-03.png", "alt": "Handyman pressure cleaning a paved driveway in Burnside", "caption": "The work-stage image records controlled pressure-cleaning across the accessible paved surface."},
-        {"src": "/assets/images/cases/burnside-driveway-pressure-cleaning-04.png", "alt": "Cleaned paved driveway after pressure cleaning in Burnside Adelaide", "caption": "The final supplied view shows the same driveway with a visibly cleaner paved presentation."}
+        {
+          "src": "/assets/images/cases/burnside-driveway-pressure-cleaning-01.png",
+          "alt": "Mossy paved driveway before pressure cleaning in Burnside Adelaide",
+          "caption": "The wide before view records dark surface build-up and growth across the residential driveway pavers."
+        },
+        {
+          "src": "/assets/images/cases/burnside-driveway-pressure-cleaning-02.png",
+          "alt": "Close view of moss and small weeds between driveway pavers in Burnside",
+          "caption": "The detail photo shows visible growth and weathered surface residue in the paver joints."
+        },
+        {
+          "src": "/assets/images/cases/burnside-driveway-pressure-cleaning-03.png",
+          "alt": "Handyman pressure cleaning a paved driveway in Burnside",
+          "caption": "The work-stage image records controlled pressure-cleaning across the accessible paved surface."
+        },
+        {
+          "src": "/assets/images/cases/burnside-driveway-pressure-cleaning-04.png",
+          "alt": "Cleaned paved driveway after pressure cleaning in Burnside Adelaide",
+          "caption": "The final supplied view shows the same driveway with a visibly cleaner paved presentation."
+        }
       ],
       "sections": [
-        {"heading": "Visible driveway condition in Burnside", "paragraphs": [
-          "This photographed Burnside driveway pressure-cleaning case begins with an accessible paved driveway showing dark surface residue, mossy growth and small weeds between some pavers. The wide image establishes the driveway and garage setting, while the close image records the paver texture and joint condition more clearly. Together they provide a practical starting point for a driveway cleaning Adelaide enquiry without identifying the household or making assumptions about surface conditions that are not visible in the photographs.",
-          "Paver cleaning Adelaide requests can involve loose debris, weather staining, organic growth, tyre marks or weeds along joints and edges. A broad photo and a close detail make it easier to describe what the customer wants addressed. They also allow MEL ONE to discuss safe access, nearby garden beds, drainage points, loose pavers and vehicles before an on-site scope is agreed. MEL ONE follows up on each reported paved-surface issue with a targeted solution based on the observed condition, access and agreed household-maintenance goal."
-        ]},
-        {"heading": "Recorded pressure-cleaning work", "paragraphs": [
-          "The work-stage photograph shows a technician using a pressure-cleaning wand over the accessible driveway paving. The image records a defined cleaned path beside areas that still show surface build-up, so the visual difference is clear without overstating the work. The final photograph then shows the paved driveway after the supplied cleaning stage, with the garage, side fence and paved approach visible in the same setting. It is an evidence-led sequence: visible condition, close paver detail, active cleaning and a completed presentation.",
-          "Pressure cleaning Adelaide is planned around the particular surface and surroundings. Paver age, joint material, drainage, existing cracks, nearby doors, garden edges and runoff direction can all affect the practical conversation. The images do not establish a sealing treatment, a permanent outcome or the condition beneath each paver. If there are damaged, moving or sunken pavers, persistent drainage concerns or a wider restoration request, those details can be reviewed separately so the next step remains appropriate to the property."
-        ]},
-        {"heading": "Requesting driveway cleaning in Burnside", "paragraphs": [
-          "For a Burnside driveway cleaning enquiry, send one wide photo from a safe position and a close image of the main area of concern. Mention the surface type if known, whether cars or bins can be moved, the entry route, water access and any nearby planting, drains or fragile finishes that need consideration. Clear access notes and a short description of moss, stains, weeds or general grime make the first discussion more useful than a generic request for cleaning.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We check the surface, drainage and safe access on site, then confirm the cleaning method, scope and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Visible driveway condition in Burnside",
+          "paragraphs": [
+            "This photographed Burnside driveway pressure-cleaning case begins with an accessible paved driveway showing dark surface residue, mossy growth and small weeds between some pavers. The wide image establishes the driveway and garage setting, while the close image records the paver texture and joint condition more clearly. Together they provide a practical starting point for a driveway cleaning Adelaide enquiry without identifying the household or making assumptions about surface conditions that are not visible in the photographs.",
+            "Paver cleaning Adelaide requests can involve loose debris, weather staining, organic growth, tyre marks or weeds along joints and edges. A broad photo and a close detail make it easier to describe what the customer wants addressed. They also allow MEL ONE to discuss safe access, nearby garden beds, drainage points, loose pavers and vehicles before an on-site scope is agreed. MEL ONE follows up on each reported paved-surface issue with a targeted solution based on the observed condition, access and agreed household-maintenance goal."
+          ]
+        },
+        {
+          "heading": "Recorded pressure-cleaning work",
+          "paragraphs": [
+            "The work-stage photograph shows a technician using a pressure-cleaning wand over the accessible driveway paving. The image records a defined cleaned path beside areas that still show surface build-up, so the visual difference is clear without overstating the work. The final photograph then shows the paved driveway after the supplied cleaning stage, with the garage, side fence and paved approach visible in the same setting. It is an evidence-led sequence: visible condition, close paver detail, active cleaning and a completed presentation.",
+            "Pressure cleaning Adelaide is planned around the particular surface and surroundings. Paver age, joint material, drainage, existing cracks, nearby doors, garden edges and runoff direction can all affect the practical conversation. The images do not establish a sealing treatment, a permanent outcome or the condition beneath each paver. If there are damaged, moving or sunken pavers, persistent drainage concerns or a wider restoration request, those details can be reviewed separately so the next step remains appropriate to the property."
+          ]
+        },
+        {
+          "heading": "Requesting driveway cleaning in Burnside",
+          "paragraphs": [
+            "For a Burnside driveway cleaning enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Mention the surface type if known, whether cars or bins can be moved, the entry route, water access and any nearby planting, drains or fragile finishes that need consideration. Clear access notes and a short description of moss, stains, weeds or general grime make the first discussion more useful than a generic request for cleaning. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We check the surface, drainage and safe access on site, then confirm the cleaning method, scope and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1774,26 +1984,56 @@
       "description": "A photographed Stirling flat-pack wardrobe assembly showing packaged components, cabinet hardware, on-site assembly and the completed storage unit.",
       "suburb": "Stirling",
       "service": "interior-repairs-assembly",
-      "keywords": ["flat pack assembly Adelaide", "wardrobe assembly Adelaide", "furniture assembly Adelaide", "handyman Stirling"],
+      "keywords": [
+        "flat pack assembly Adelaide",
+        "wardrobe assembly Adelaide",
+        "furniture assembly Adelaide",
+        "handyman Stirling"
+      ],
       "images": [
-        {"src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-01.png", "alt": "Flat-pack wardrobe panels hardware and instructions ready for assembly in Stirling", "caption": "The supplied before image records packaged wardrobe components, rails, fixings and assembly instructions."},
-        {"src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-02.png", "alt": "Wardrobe drawer runner and hinge hardware during a Stirling assembly", "caption": "The close view shows cabinet hardware positioned for the internal storage and door assembly."},
-        {"src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-03.png", "alt": "Handyman assembling a flat-pack wardrobe cabinet in Stirling Adelaide", "caption": "The work-stage photo records cabinet panels being assembled with tools in the installation room."},
-        {"src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-04.png", "alt": "Completed white flat-pack wardrobe with drawers in Stirling", "caption": "The final image shows the assembled freestanding wardrobe with doors, shelving and drawers."}
+        {
+          "src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-01.png",
+          "alt": "Flat-pack wardrobe panels hardware and instructions ready for assembly in Stirling",
+          "caption": "The supplied before image records packaged wardrobe components, rails, fixings and assembly instructions."
+        },
+        {
+          "src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-02.png",
+          "alt": "Wardrobe drawer runner and hinge hardware during a Stirling assembly",
+          "caption": "The close view shows cabinet hardware positioned for the internal storage and door assembly."
+        },
+        {
+          "src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-03.png",
+          "alt": "Handyman assembling a flat-pack wardrobe cabinet in Stirling Adelaide",
+          "caption": "The work-stage photo records cabinet panels being assembled with tools in the installation room."
+        },
+        {
+          "src": "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-04.png",
+          "alt": "Completed white flat-pack wardrobe with drawers in Stirling",
+          "caption": "The final image shows the assembled freestanding wardrobe with doors, shelving and drawers."
+        }
       ],
       "sections": [
-        {"heading": "Flat-pack wardrobe components prepared in Stirling", "paragraphs": [
-          "This photographed Stirling flat-pack wardrobe assembly case starts with the delivered panels, boxed components, hardware packs, drawer runners and printed instructions arranged in the room. That first image provides useful context for furniture assembly Adelaide because it shows the amount of material involved before construction begins. A close hardware image then records the cabinet runner and hinge area that forms part of the internal storage layout. The page describes only the supplied assembly sequence, rather than assuming a brand, model or unshown installation requirement.",
-          "Flat pack assembly Adelaide enquiries are clearer when customers can share the product information, the room where it will be assembled and any access restrictions. The size of the panels, existing floor finish, available working space, number of drawers, doors and shelves, plus the manufacturer instructions all affect the practical sequence. MEL ONE follows up on each reported furniture-assembly requirement with a targeted solution based on the product layout, supplied instructions, accessible installation area and the customer’s intended storage use."
-        ]},
-        {"heading": "Photographed wardrobe assembly work", "paragraphs": [
-          "The work-stage photograph shows cabinet sections being joined with a cordless tool, with panels and drawer components placed nearby. It records the practical assembly step rather than a generic furniture image. The final photograph shows a completed white wardrobe in a room, including tall doors, open shelving, a hanging rail and lower drawers. Across the four images, customers can see the documented progression from unpacked components to hardware detail, construction and the completed visible unit.",
-          "Wardrobe assembly Adelaide can vary with the product design and the room available around it. The images do not establish fixing to a wall, load capacity, structural support or a manufacturer warranty position. If a customer wants an additional fixing, has uneven floors, needs the item moved through a narrow route or has a different furniture configuration, those details should be raised before work is arranged. This lets MEL ONE frame the task around the actual unit and home environment rather than a one-size-fits-all assembly description."
-        ]},
-        {"heading": "Preparing a Stirling furniture-assembly enquiry", "paragraphs": [
-          "For a similar Stirling flat-pack wardrobe enquiry, send the product link or instruction pages where available, photos of the unopened packs or components, and a wide room photo showing the intended location. Let MEL ONE know about stairs, parking, floor protection, the preferred access route and whether existing furniture needs to stay in place. Keeping pets, loose items and valuables clear of the assembly area where practical helps make the visit safer and more organised.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We check the furniture, fittings or cabinet components and confirm the assembly or repair scope, materials and quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Flat-pack wardrobe components prepared in Stirling",
+          "paragraphs": [
+            "This photographed Stirling flat-pack wardrobe assembly case starts with the delivered panels, boxed components, hardware packs, drawer runners and printed instructions arranged in the room. That first image provides useful context for furniture assembly Adelaide because it shows the amount of material involved before construction begins. A close hardware image then records the cabinet runner and hinge area that forms part of the internal storage layout. The page describes only the supplied assembly sequence, rather than assuming a brand, model or unshown installation requirement.",
+            "Flat pack assembly Adelaide enquiries are clearer when customers can share the product information, the room where it will be assembled and any access restrictions. The size of the panels, existing floor finish, available working space, number of drawers, doors and shelves, plus the manufacturer instructions all affect the practical sequence. MEL ONE follows up on each reported furniture-assembly requirement with a targeted solution based on the product layout, supplied instructions, accessible installation area and the customer’s intended storage use."
+          ]
+        },
+        {
+          "heading": "Photographed wardrobe assembly work",
+          "paragraphs": [
+            "The work-stage photograph shows cabinet sections being joined with a cordless tool, with panels and drawer components nearby. The final photograph records a white wardrobe in the room with tall doors, open shelving, a hanging rail and lower drawers. The supplied images document unpacked components, hardware detail, assembly and the visible completed unit.",
+            "Wardrobe assembly Adelaide can vary with the product design and the room available around it. The images do not establish fixing to a wall, load capacity, structural support or a manufacturer warranty position. If a customer wants an additional fixing, has uneven floors, needs the item moved through a narrow route or has a different furniture configuration, those details should be raised before work is arranged. This lets MEL ONE frame the task around the actual unit and home environment rather than a one-size-fits-all assembly description."
+          ]
+        },
+        {
+          "heading": "Preparing a Stirling furniture-assembly enquiry",
+          "paragraphs": [
+            "For a similar Stirling flat-pack wardrobe enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Let MEL ONE know about stairs, parking, floor protection, the preferred access route and whether existing furniture needs to stay in place. Keeping pets, loose items and valuables clear of the assembly area where practical helps make the visit safer and more organised. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We check the furniture, fittings or cabinet components and confirm the assembly or repair scope, materials and quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     },
     {
@@ -1802,26 +2042,56 @@
       "description": "A photographed Marion wardrobe sliding-door repair showing worn lower roller hardware, accessible repair work and the door returned to a usable position.",
       "suburb": "Marion",
       "service": "doors-windows-screens",
-      "keywords": ["wardrobe door repair Adelaide", "sliding door roller repair", "door track repair Adelaide", "handyman Marion"],
+      "keywords": [
+        "wardrobe door repair Adelaide",
+        "sliding door roller repair",
+        "door track repair Adelaide",
+        "handyman Marion"
+      ],
       "images": [
-        {"src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-01.png", "alt": "Bedroom wardrobe sliding doors before roller repair in Marion", "caption": "The wide before image shows the wardrobe doors, frame and lower track in the bedroom setting."},
-        {"src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-02.png", "alt": "Worn lower roller and track on a Marion wardrobe sliding door", "caption": "The close image records visible roller wear, dust and debris around the lower door track."},
-        {"src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-03.png", "alt": "Handyman working on a wardrobe sliding door roller in Marion Adelaide", "caption": "The work-stage photograph shows accessible roller work at the base of the wardrobe door."},
-        {"src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-04.png", "alt": "Wardrobe sliding door after roller repair in Marion", "caption": "The final supplied view shows the wardrobe door returned to an open visible position after the recorded work."}
+        {
+          "src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-01.png",
+          "alt": "Bedroom wardrobe sliding doors before roller repair in Marion",
+          "caption": "The wide before image shows the wardrobe doors, frame and lower track in the bedroom setting."
+        },
+        {
+          "src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-02.png",
+          "alt": "Worn lower roller and track on a Marion wardrobe sliding door",
+          "caption": "The close image records visible roller wear, dust and debris around the lower door track."
+        },
+        {
+          "src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-03.png",
+          "alt": "Handyman working on a wardrobe sliding door roller in Marion Adelaide",
+          "caption": "The work-stage photograph shows accessible roller work at the base of the wardrobe door."
+        },
+        {
+          "src": "/assets/images/cases/marion-wardrobe-sliding-door-repair-04.png",
+          "alt": "Wardrobe sliding door after roller repair in Marion",
+          "caption": "The final supplied view shows the wardrobe door returned to an open visible position after the recorded work."
+        }
       ],
       "sections": [
-        {"heading": "Visible wardrobe sliding-door concern in Marion", "paragraphs": [
-          "This photographed Marion wardrobe sliding-door repair records a bedroom wardrobe with white sliding panels and a visible lower track. The wide image provides room context, while the close photograph focuses on the lower roller, door edge and accumulated debris around the track. These supplied photos help explain a wardrobe door repair Adelaide enquiry without claiming to diagnose every hidden component. They show the observable door system and the accessible part of the issue that was documented on site.",
-          "Sliding wardrobe doors can catch, drag, sit unevenly or become difficult to move for different reasons. The roller condition, guide, track cleanliness, door weight, frame alignment and condition of the surrounding hardware may all be relevant. A full-door photo and a safe close image at the lower track help start a useful conversation. MEL ONE follows up on each reported sliding-door issue with a targeted solution after reviewing the visible hardware, door movement, frame, access and replacement-part requirements."
-        ]},
-        {"heading": "Recorded roller and track repair work", "paragraphs": [
-          "The close-up image shows the lower roller assembly against the wardrobe track, with visible dust and wear at the base of the door. The work-stage photograph records a technician working at the accessible roller position with tools and replacement parts nearby. The final image then shows the wardrobe door after the recorded stage, partially open to reveal the internal storage area. It is a clear visual sequence of door context, lower-hardware detail, practical repair work and completed door position.",
-          "Sliding wardrobe-door repair depends on the roller size, housing, track wear, lower guide, panel weight and compatible parts. MEL ONE checks the door system on site, identifies damaged components and confirms the repair scope and quote. Tell our team about an unstable panel or heavily deformed track, and leave the door in place for safe assessment."
-        ]},
-        {"heading": "Requesting wardrobe door repair in Marion", "paragraphs": [
-          "For a Marion wardrobe sliding-door enquiry, send a full image of the doors plus a safe close photo of the lower roller, guide or track where possible. Describe whether the door drags, catches, rubs, comes off the track or cannot be opened and closed as expected. Mention the room location, furniture around the wardrobe, parking or access constraints, tenancy or property-manager arrangements and your preferred timing. Avoid forcing a jammed door or removing a large panel without suitable support.",
-          "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb, safe photos and preferred contact details to arrange the next step."
-        ]}
+        {
+          "heading": "Visible wardrobe sliding-door concern in Marion",
+          "paragraphs": [
+            "This photographed Marion wardrobe sliding-door repair records a bedroom wardrobe with white sliding panels and a visible lower track. The wide image provides room context, while the close photograph focuses on the lower roller, door edge and accumulated debris around the track. These supplied photos help explain a wardrobe door repair Adelaide enquiry without claiming to diagnose every hidden component. They show the observable door system and the accessible part of the issue that was documented on site.",
+            "Sliding wardrobe doors can catch, drag, sit unevenly or become difficult to move for different reasons. The roller condition, guide, track cleanliness, door weight, frame alignment and condition of the surrounding hardware may all be relevant. A full-door photo and a safe close image at the lower track help start a useful conversation. MEL ONE follows up on each reported sliding-door issue with a targeted solution after reviewing the visible hardware, door movement, frame, access and replacement-part requirements."
+          ]
+        },
+        {
+          "heading": "Recorded roller and track repair work",
+          "paragraphs": [
+            "The close-up image shows the lower roller assembly against the wardrobe track, with visible dust and wear at the base of the door. The work-stage photograph records a technician working at the accessible roller position with tools and replacement parts nearby. The final image then shows the wardrobe door after the recorded stage, partially open to reveal the internal storage area. It is a clear visual sequence of door context, lower-hardware detail, practical repair work and completed door position.",
+            "Sliding wardrobe-door repair depends on the roller size, housing, track wear, lower guide, panel weight and compatible parts. MEL ONE checks the door system on site, identifies damaged components and confirms the repair scope and quote. Tell our team about an unstable panel or heavily deformed track, and leave the door in place for safe assessment."
+          ]
+        },
+        {
+          "heading": "Requesting wardrobe door repair in Marion",
+          "paragraphs": [
+            "For a Marion wardrobe sliding-door enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Describe whether the door drags, catches, rubs, comes off the track or cannot be opened and closed as expected. Mention the room location, furniture around the wardrobe, parking or access constraints, tenancy or property-manager arrangements and your preferred timing. Avoid forcing a jammed door or removing a large panel without suitable support. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment.",
+            "Contact MEL ONE to arrange an on-site assessment for a similar job in Adelaide. We inspect the frame, moving parts, tracks, rollers and fittings on site, identify the repair required and provide a clear quote. Share your suburb and preferred contact details to arrange the assessment. Safe photos are optional; email existing images to admin@melonemaintenance.com.au."
+          ]
+        }
       ]
     }
   ]
