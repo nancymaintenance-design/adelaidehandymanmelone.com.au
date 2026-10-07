@@ -338,7 +338,7 @@
       "status": "approved",
       "slug": "field-notes-doors-windows-screens-enquiry",
       "title": "Door, Window and Flyscreen Issues: What to Note Before Making an Enquiry",
-      "description": "A practical way to record a sticking door, worn window fitting or damaged flyscreen before contacting MEL ONE in Adelaide.",
+      "description": "MEL ONE checks door, window and flyscreen problems in Adelaide, including sliding screen mesh, rollers, tracks and frames, then explains the repair options.",
       "scope": [
         "Name the room or outdoor location and the item involved.",
         "Describe what happens while focusing on visible observations.",
@@ -367,15 +367,73 @@
           "heading": "Collect a clear, safe record",
           "paragraphs": [
             "One wider photograph can show where the item sits, while a closer image can show the visible concern. Take photos from a stable accessible position and include the affected part while keeping the item in its current condition.",
-            "You can add an approximate age if known, an existing product label if easily visible and whether the issue has changed. Photos do not replace assessment; broken glass, security hardware or an affected escape route should be left untouched for appropriate assessment."
+            "Include an approximate age if known and an existing product label only when it is easily visible. If glass is broken, a door is coming away from its track or a frame is unstable, stop using it and keep people clear. Leave the assembly in place and contact MEL ONE with the visible condition."
           ]
         },
         {
           "heading": "Make the next conversation specific",
           "paragraphs": [
             "Send the location, observed issue, desired outcome, Adelaide suburb and preferred reply method in one message. If a tenant, owner or property manager is involved, identify who can discuss access and who can approve proposed work.",
-            "An initial enquiry begins a scope discussion rather than confirming a method, booking or final cost. Ask what information, assessment or specialist involvement may be needed before a proposed scope is agreed."
+            "MEL ONE reviews the information, confirms assessment and access arrangements, and explains the proposed repair scope and price basis before work is booked. Identify who can approve the work so the next step is clear."
           ]
+        },
+        {
+          "heading": "Sliding screen door: find the part that needs attention",
+          "paragraphs": [
+            "MEL ONE checks the mesh, rollers and guides, track and frame together before recommending a repair. A torn screen and a door that drags are different problems; replacing one part without checking the assembly can leave the original fault unresolved."
+          ],
+          "items": [
+            "Mesh: a tear or loose edge with an otherwise sound frame points to a mesh repair discussion. We check the frame, fixing detail and required mesh before agreeing the work.",
+            "Rollers and guides: dragging, uneven movement or a door sitting out of alignment prompts a check of rollers, guides and their adjustment, alongside track and frame condition.",
+            "Track: accumulated debris, a damaged running surface or distortion requires a track check. We confirm whether cleaning, adjustment, local repair or a broader replacement scope addresses the problem.",
+            "Frame: bent, loose or damaged sections affect how the mesh and hardware work together. We compare a defined frame repair with replacement when a reliable repair needs more than a new roller or fresh mesh."
+          ]
+        },
+        {
+          "heading": "Match replacement parts before agreeing the scope",
+          "paragraphs": [
+            "Rollers, guides, mesh and frame fittings are not interchangeable across every door. MEL ONE checks the existing assembly, accessible product markings and component fit before confirming replacement parts. Photos help us prepare, while the assessment confirms the details needed for the work.",
+            "The quote should identify which components are included, the number of screens or doors, inspection and access arrangements, parts sourcing and any frame or track work. We explain any additional findings before expanding the agreed scope."
+          ]
+        },
+        {
+          "heading": "Keep insect screens and security screens distinct",
+          "paragraphs": [
+            "An ordinary insect screen is intended to keep insects out; it is not evidence of a security screen rating. Tell MEL ONE whether the item is an insect screen or a security screen and share visible product markings if available. Security fittings and any claimed certification are checked as part of the scope; replacing mesh or rollers does not establish a security rating.",
+            "Do not remove the door, test an unstable frame or handle broken glass to obtain better photos. A ground-level or otherwise safely accessible wider photo and detail view are enough to start the enquiry."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can torn mesh be repaired without replacing the whole screen door?",
+          "answer": "Yes, a mesh-only scope is useful when the existing frame and fittings are sound. MEL ONE checks those parts first, then confirms the mesh and work included."
+        },
+        {
+          "question": "Will new rollers always fix a dragging door?",
+          "answer": "No. We check rollers and guides together with the track, alignment and frame. The repair scope addresses the parts causing the poor movement."
+        },
+        {
+          "question": "Can photos confirm the replacement parts and final price?",
+          "answer": "Photos help identify the assembly and prepare the assessment. MEL ONE confirms component matching, site condition and the agreed pricing basis before work is booked."
+        },
+        {
+          "question": "When should I compare repair with replacement?",
+          "answer": "Compare the options when the frame or track is damaged, matching parts are unavailable or several components require work. MEL ONE explains the repair scope and replacement option against the condition of your assembly."
+        }
+      ],
+      "relatedReading": [
+        {
+          "url": "/guides/prepare-household-maintenance-enquiry/",
+          "label": "Prepare a household maintenance enquiry"
+        },
+        {
+          "url": "/case-studies/henley-beach-sliding-screen-door-repair/",
+          "label": "View the Henley Beach sliding screen door repair record"
+        },
+        {
+          "url": "/how-it-works/",
+          "label": "How MEL ONE confirms and arranges the work"
         }
       ]
     },

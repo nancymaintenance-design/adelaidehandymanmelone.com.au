@@ -160,7 +160,7 @@ test('editorial records offer substantive company-context reading and valid serv
     const note = content.guides.find(record => record.slug === slug && record.status === 'approved');
     assert.ok(note, `${slug} needs an approved Field Note`);
     assert.equal(note.date, '2026-09-18');
-    assert.equal(note.sections.length, 3, `${slug} needs three useful sections`);
+    assert.ok(note.sections.length >= 3, `${slug} needs at least three useful sections`);
     assert.ok(note.scope.length >= 3, `${slug} needs a practical preparation checklist`);
     assert.ok(note.relatedServices.length >= 1, `${slug} needs an internal service connection`);
   }
