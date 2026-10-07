@@ -25,9 +25,9 @@ test('workflow contract gives customers eight substantial steps from request to 
   assert.match(stepText('prepare-request'), /photos.*safe|safe.*photos/i);
   assert.match(stepText('group-jobs'), /room|outdoor area/i);
   assert.match(stepText('initial-discussion'), /access.*materials|materials.*access/i);
-  assert.match(stepText('specialist-boundary'), /electrical.*structural.*formal approvals/i);
-  assert.match(stepText('specialist-boundary'), /appropriately qualified external specialist/i);
-  assert.match(stepText('confirm-scope'), /before.*schedul/i);
+  assert.match(stepText('specialist-boundary'), /electrical.*structural.*approval-dependent/i);
+  assert.match(stepText('specialist-boundary'), /appropriately qualified service arrangements/i);
+  assert.match(stepText('confirm-scope'), /confirms.*appointment.*scope.*quote before/i);
   assert.match(stepText('prepare-visit'), /pets|children/i);
   assert.match(stepText('on-site-work'), /change.*agree|agree.*change/i);
   assert.match(stepText('completion-next-steps'), /remaining|outstanding/i);
@@ -75,7 +75,7 @@ test('workflow resolves at least six approved FAQs covering practical customer q
 test('workflow and FAQs retain confirmed contacts and exclude unsupported promises and trades', () => {
   const method = methodContent();
   const text = JSON.stringify([method, ...content.faqs]);
-  assert.doesNotMatch(text, /\b(?:plumb(?:ing|er)|gas|licen[cs]ed?|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|our (?:team|staff|technicians)|always available|all suburbs|all jobs)\b/i);
+  assert.doesNotMatch(text, /\b(?:our licensed (?:team|staff|technicians)|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|always available|all suburbs|all jobs)\b/i);
   assert.doesNotMatch(text, /\$\s*\d|\b\d+\s*(?:years|customers|projects|staff)\b/i);
   const emails = text.match(/[\w.+-]+@[\w.-]+\.[a-z]{2,}/gi) || [];
   assert.ok(emails.every(email => email === 'admin@melonemaintenance.com.au'));

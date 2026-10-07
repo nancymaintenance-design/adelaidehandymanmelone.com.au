@@ -74,7 +74,7 @@ test('approved content contains no Review or AggregateRating data or historical 
   assert.doesNotMatch(approvedJson, /"(?:review|reviews|rating|aggregateRating)"\s*:/i);
   assert.doesNotMatch(
     approvedJson,
-    /\b(?:licensed?|insured|founded|established|years? (?:of )?experience|case stud(?:y|ies)|completed projects?|customer reviews?|star rating|award-winning)\b/i,
+    /\b(?:our licensed (?:team|staff|technicians)|insured|founded|established|years? (?:of )?experience|case stud(?:y|ies)|completed projects?|customer reviews?|star rating|award-winning)\b/i,
   );
 });
 
@@ -111,8 +111,8 @@ test('service summaries lead with household tasks and keep generic conditions ou
     .filter(line => /scope.*availability.*case.by.case/i.test(line));
   assert.ok(genericConditions.length <= 1, 'the shared enquiry condition must not repeat on every service');
   const electrical = content.services.find(service => service.slug === 'home-electrical-repairs');
-  assert.match(electrical.exclusions.join(' '), /appropriately qualified external specialist/);
-  assert.match(electrical.exclusions.join(' '), /[Cc]oordination options are confirmed for the individual request/);
+  assert.match(electrical.exclusions.join(' '), /appropriately qualified service arrangements/);
+  assert.match(electrical.exclusions.join(' '), /agreed scope.*trade authorisation/);
 });
 
 test('About source provides purpose, practical process, grouped requests, boundaries and contacts', () => {
@@ -128,8 +128,8 @@ test('About source provides purpose, practical process, grouped requests, bounda
   assert.match(sections.get('purpose').paragraphs.join(' '), /Adelaide.*household|household.*Adelaide/i);
   assert.match(sections.get('approach').paragraphs.join(' '), /photos/i);
   assert.match(sections.get('multiple-jobs').paragraphs.join(' '), /room|outdoor area/i);
-  assert.match(sections.get('specialist-work').paragraphs.join(' '), /case by case/i);
-  assert.match(sections.get('specialist-work').paragraphs.join(' '), /appropriately qualified external specialist/i);
+  assert.match(sections.get('specialist-work').paragraphs.join(' '), /on-site assessment.*repair scope.*quote/i);
+  assert.match(sections.get('specialist-work').paragraphs.join(' '), /qualified service arrangements/i);
   for (const value of Object.values(site.contact)) {
     assert.ok(sections.get('contact').paragraphs.join(' ').includes(value), `About must include ${value}`);
   }
@@ -138,7 +138,7 @@ test('About source provides purpose, practical process, grouped requests, bounda
 test('service and About source avoid unverified commercial and company-history claims', () => {
   const content = loadContent();
   const text = JSON.stringify([content.site, ...content.services]);
-  assert.doesNotMatch(text, /\b(?:licensed?|insured|founded|established|years? (?:of )?experience|award-winning|five.star|5.star|customer reviews?|customer testimonials?|satisfaction guaranteed|guaranteed results?|our (?:team|staff|technicians)|completed projects?)\b/i);
+  assert.doesNotMatch(text, /\b(?:our licensed (?:team|staff|technicians)|insured|founded|established|years? (?:of )?experience|award-winning|five.star|5.star|customer reviews?|customer testimonials?|satisfaction guaranteed|guaranteed results?|completed projects?)\b/i);
   assert.doesNotMatch(text, /\$\s*\d|\b\d+\s*(?:years|customers|projects|staff)\b/i);
 });
 

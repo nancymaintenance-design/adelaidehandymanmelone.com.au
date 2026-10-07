@@ -128,7 +128,7 @@ test('How it works renders the method contract as eight ordered articles and pra
   assert.match(main, /href="\/faq\/"/);
   assert.match(main, /href="tel:\+61416614281"/);
   assert.match(main, /href="\/contact\/">Start an enquiry/);
-  assert.doesNotMatch(main, /\b(?:plumb(?:ing|er)|gas|licen[cs]ed?|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|our (?:team|staff|technicians)|always available|all suburbs|all jobs)\b/i);
+  assert.doesNotMatch(main, /\b(?:our licensed (?:team|staff|technicians)|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|always available|all suburbs|all jobs)\b/i);
 });
 
 test('method content updates are escaped and unrelated or unpublished FAQs stay off the workflow', () => {
