@@ -15,6 +15,7 @@ function expectedGeneratedAssets(fixture) {
   return ['css/site.css', 'js/site.js', 'mel-one-logo-authorized.png',
     ...files(path.join(source, 'images/intake')).filter(file => file.endsWith('.png')).map(file => `images/${file}`),
     ...files(path.join(source, 'images/cases')).map(file => `images/cases/${file}`),
+    ...Object.values(JSON.parse(fs.readFileSync(path.join(source, 'images/responsive-manifest.json'), 'utf8'))).flatMap(image => [...image.variants, ...image.avifVariants, ...(image.detailVariants || [])].map(variant => variant.src.replace('/assets/', ''))),
   ].sort();
 }
 

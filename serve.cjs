@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 5173;
+const PORT = Number(process.env.PORT || 5173);
 const ROOT = path.join(__dirname, 'public');
 
 const mimeTypes = {
@@ -13,12 +13,28 @@ const mimeTypes = {
   '.svg':  'image/svg+xml',
   '.xml':  'application/xml',
   '.txt':  'text/plain',
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.webp': 'image/webp',
+  '.avif': 'image/avif',
+  '.webmanifest': 'application/manifest+json',
 };
 
 const server = http.createServer((req, res) => {
-  let url = req.url.split('?')[0];
+  if (req.url.split('?')[0] === '/api/contact') {
+    res.writeHead(503, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ error: 'Local preview: enquiries are not sent. Your details remain in the form.' }));
+    return;
+  }
+  let url;
+  try { url = decodeURIComponent(req.url.split('?')[0]); }
+  catch { res.writeHead(400); res.end('Invalid URL'); return; }
   if (url.endsWith('/')) url += 'index.html';
   const filePath = path.join(ROOT, url);
+  if (!filePath.startsWith(ROOT + path.sep)) {
+    res.writeHead(403); res.end('Forbidden'); return;
+  }
 
   try {
     if (!fs.existsSync(filePath)) {
@@ -38,7 +54,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, '127.0.0.1', () => {
-  console.log(`\n🏗️  Ellis Services Group Website`);
+  console.log(`\nMEL ONE — local review preview (not deployed)`);
   console.log(`   Local:   http://127.0.0.1:${PORT}`);
   console.log(`   Network: http://localhost:${PORT}`);
   console.log(`   Ctrl+C to stop\n`);

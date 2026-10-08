@@ -1,4 +1,36 @@
 (() => {
+  const openLinkedStep = () => {
+    const target = document.getElementById(window.location.hash.slice(1));
+    const disclosure = target?.querySelector('.method-disclosure');
+    if (disclosure) disclosure.open = true;
+  };
+  window.addEventListener('hashchange', openLinkedStep);
+  openLinkedStep();
+  const areaSearch = document.querySelector('#area-search');
+  if (areaSearch) {
+    const cards = [...document.querySelectorAll('.area-atlas .note-card')];
+    const clear = document.querySelector('[data-area-search-clear]');
+    const status = document.querySelector('[data-area-search-status]');
+    const filter = () => {
+      const query = areaSearch.value.trim().toLocaleLowerCase('en-AU');
+      let matches = 0;
+      cards.forEach(card => {
+        let visible = 0;
+        card.querySelectorAll('li').forEach(item => {
+          item.hidden = !item.textContent.toLocaleLowerCase('en-AU').includes(query);
+          if (!item.hidden) visible++;
+        });
+        card.hidden = visible === 0;
+        matches += visible;
+      });
+      clear.hidden = !areaSearch.value;
+      status.textContent = query ? (matches ? `${matches} matching suburb${matches === 1 ? '' : 's'}.` : 'No matching suburbs. Clear the search to browse all regions, or contact MEL ONE with your location.') : '';
+    };
+    areaSearch.addEventListener('input', event => { if (!event.isComposing) filter(); });
+    areaSearch.addEventListener('compositionend', filter);
+    clear.addEventListener('click', () => { areaSearch.value = ''; filter(); areaSearch.focus(); });
+    filter();
+  }
   const track = (eventName, parameters = {}) => {
     if (typeof window.gtag === 'function') window.gtag('event', eventName, parameters);
   };

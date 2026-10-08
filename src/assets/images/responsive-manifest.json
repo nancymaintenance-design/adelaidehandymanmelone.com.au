@@ -1,0 +1,3634 @@
+{
+  "/assets/images/mel-one-about-home-maintenance.png": {
+    "width": 1499,
+    "height": 1049,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-about-home-maintenance-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-about-home-maintenance-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-about-home-maintenance-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-about-home-maintenance-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-about-home-maintenance-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-about-home-maintenance-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-adelaide-home-hero.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-home-hero-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-home-hero-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-home-hero-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-home-hero-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-home-hero-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-home-hero-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-adelaide-service-area.png": {
+    "width": 1691,
+    "height": 930,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-service-area-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-service-area-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-service-area-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-service-area-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-service-area-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-adelaide-service-area-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-door-window-maintenance.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-door-window-maintenance-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-door-window-maintenance-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-door-window-maintenance-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-door-window-maintenance-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-door-window-maintenance-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-door-window-maintenance-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-garden-landscape-care.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-garden-landscape-care-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-garden-landscape-care-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-garden-landscape-care-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-garden-landscape-care-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-garden-landscape-care-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-garden-landscape-care-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-gutter-care.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-gutter-care-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-gutter-care-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-gutter-care-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-gutter-care-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-gutter-care-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-gutter-care-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-home-repairs-renovation.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-home-repairs-renovation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-home-repairs-renovation-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-home-repairs-renovation-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-home-repairs-renovation-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-home-repairs-renovation-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-home-repairs-renovation-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-household-electrical-work.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-household-electrical-work-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-electrical-work-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-electrical-work-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-household-electrical-work-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-electrical-work-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-electrical-work-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-household-removals-cleaning.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-household-removals-cleaning-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-removals-cleaning-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-removals-cleaning-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-household-removals-cleaning-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-removals-cleaning-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-household-removals-cleaning-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-interior-repair-assembly.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-interior-repair-assembly-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-interior-repair-assembly-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-interior-repair-assembly-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-interior-repair-assembly-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-interior-repair-assembly-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-interior-repair-assembly-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-maintenance-task-wall.png": {
+    "width": 1619,
+    "height": 971,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-maintenance-task-wall-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-maintenance-task-wall-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-maintenance-task-wall-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-maintenance-task-wall-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-maintenance-task-wall-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-maintenance-task-wall-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-outdoor-structures-fences.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-outdoor-structures-fences-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-outdoor-structures-fences-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-outdoor-structures-fences-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-outdoor-structures-fences-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-outdoor-structures-fences-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-outdoor-structures-fences-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-roof-gutter-exterior.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-roof-gutter-exterior-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-roof-gutter-exterior-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-roof-gutter-exterior-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-roof-gutter-exterior-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-roof-gutter-exterior-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-roof-gutter-exterior-1440.avif",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/mel-one-workflow-contact-next-step.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-contact-next-step-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-contact-next-step-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-contact-next-step-1254.webp",
+        "width": 1254
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-contact-next-step-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-contact-next-step-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-contact-next-step-1254.avif",
+        "width": 1254
+      }
+    ]
+  },
+  "/assets/images/mel-one-workflow-request-details.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-request-details-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-request-details-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-request-details-1254.webp",
+        "width": 1254
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-request-details-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-request-details-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-request-details-1254.avif",
+        "width": 1254
+      }
+    ]
+  },
+  "/assets/images/mel-one-workflow-scope-discussion.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-scope-discussion-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-scope-discussion-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-scope-discussion-1254.webp",
+        "width": 1254
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-scope-discussion-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-scope-discussion-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mel-one-workflow-scope-discussion-1254.avif",
+        "width": 1254
+      }
+    ]
+  },
+  "/assets/images/cases/adelaide-cbd-wall-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/adelaide-cbd-wall-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/adelaide-cbd-wall-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/adelaide-cbd-wall-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/adelaide-cbd-wall-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-driveway-pressure-cleaning-01.png": {
+    "width": 357,
+    "height": 537,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-01-357.webp",
+        "width": 357
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-01-357.avif",
+        "width": 357
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-01-357-detail.webp",
+        "width": 357
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-driveway-pressure-cleaning-02.png": {
+    "width": 353,
+    "height": 537,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-02-353.webp",
+        "width": 353
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-02-353.avif",
+        "width": 353
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-02-353-detail.webp",
+        "width": 353
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-driveway-pressure-cleaning-03.png": {
+    "width": 353,
+    "height": 537,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-03-353.webp",
+        "width": 353
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-03-353.avif",
+        "width": 353
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-03-353-detail.webp",
+        "width": 353
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-driveway-pressure-cleaning-04.png": {
+    "width": 358,
+    "height": 537,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-04-358.webp",
+        "width": 358
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-04-358.avif",
+        "width": 358
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-driveway-pressure-cleaning-04-358-detail.webp",
+        "width": 358
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-window-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-window-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-window-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/burnside-window-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/burnside-window-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/goodwood-wall-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/goodwood-wall-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/goodwood-wall-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/goodwood-wall-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/goodwood-wall-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/henley-beach-sliding-screen-door-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/henley-beach-sliding-screen-door-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/henley-beach-sliding-screen-door-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/henley-beach-sliding-screen-door-repair-05.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/henley-beach-sliding-screen-door-repair-05-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/kensington-furniture-assembly-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/kensington-furniture-assembly-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/kensington-furniture-assembly-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/kensington-furniture-assembly-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/kensington-furniture-assembly-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-shower-screen-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-shower-screen-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-shower-screen-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-shower-screen-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-shower-screen-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-wardrobe-sliding-door-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-wardrobe-sliding-door-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-wardrobe-sliding-door-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/marion-wardrobe-sliding-door-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/marion-wardrobe-sliding-door-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/mile-end-fence-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/mile-end-fence-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/mile-end-fence-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/mile-end-fence-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/mile-end-fence-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-garden-pruning-tidy-up-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-garden-pruning-tidy-up-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-garden-pruning-tidy-up-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-garden-pruning-tidy-up-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-garden-pruning-tidy-up-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-timber-fence-repair-assessment-02.jpg": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-timber-fence-repair-assessment-03.jpg": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-1280.webp",
+        "width": 1280
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-1280.avif",
+        "width": 1280
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-03-1280-detail.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/assets/images/cases/modbury-timber-fence-repair-assessment-04.jpg": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-1280.webp",
+        "width": 1280
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-1280.avif",
+        "width": 1280
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/modbury-timber-fence-repair-assessment-04-1280-detail.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-door-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-door-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-door-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-door-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-door-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-timber-gate-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-timber-gate-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-timber-gate-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/north-adelaide-timber-gate-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/north-adelaide-timber-gate-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/norwood-flyscreen-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/norwood-flyscreen-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/norwood-flyscreen-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/norwood-flyscreen-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/norwood-flyscreen-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/prospect-gutter-cleaning-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/prospect-gutter-cleaning-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/prospect-gutter-cleaning-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/prospect-gutter-cleaning-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/prospect-gutter-cleaning-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-deck-pergola-timber-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-deck-pergola-timber-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-deck-pergola-timber-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-deck-pergola-timber-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-01.png": {
+    "width": 357,
+    "height": 538,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-01-357.webp",
+        "width": 357
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-01-357.avif",
+        "width": 357
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-01-357-detail.webp",
+        "width": 357
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-02.png": {
+    "width": 353,
+    "height": 538,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-02-353.webp",
+        "width": 353
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-02-353.avif",
+        "width": 353
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-02-353-detail.webp",
+        "width": 353
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-03.png": {
+    "width": 353,
+    "height": 538,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-03-353.webp",
+        "width": 353
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-03-353.avif",
+        "width": 353
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-03-353-detail.webp",
+        "width": 353
+      }
+    ]
+  },
+  "/assets/images/cases/stirling-flat-pack-wardrobe-assembly-04.png": {
+    "width": 358,
+    "height": 538,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-04-358.webp",
+        "width": 358
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-04-358.avif",
+        "width": 358
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/stirling-flat-pack-wardrobe-assembly-04-358-detail.webp",
+        "width": 358
+      }
+    ]
+  },
+  "/assets/images/cases/unley-kitchen-cabinet-repair-01.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-01-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/unley-kitchen-cabinet-repair-02.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-02-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/unley-kitchen-cabinet-repair-03.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-03-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/unley-kitchen-cabinet-repair-04.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/unley-kitchen-cabinet-repair-04-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  }
+}

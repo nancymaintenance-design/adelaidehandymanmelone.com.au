@@ -90,7 +90,8 @@ test('all required routes offer confirmed contacts and the authorized identity',
     assert.match(html, /src="\/assets\/mel-one-logo-authorized\.png"/, `${route}: logo`);
     assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${route}: one main heading`);
   }
-  assert.match(read('/'), /src="\/assets\/images\/mel-one-adelaide-home-hero\.png"/);
+  assert.match(read('/'), /src="\/assets\/images\/cases\/burnside-driveway-pressure-cleaning-01\.png"/);
+  assert.match(read('/'), /src="\/assets\/images\/cases\/burnside-driveway-pressure-cleaning-04\.png"/);
   assert.match(read('/404.html'), /name="robots" content="noindex,\s*follow"/);
 });
 
@@ -109,7 +110,8 @@ test('How it works renders the method contract as eight ordered articles and pra
     const [, attributes, body] = articles[index];
     assert.match(attributes, new RegExp(`aria-labelledby="${step.id}-heading"`));
     assert.ok(body.includes(`<span class="step-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>`));
-    assert.ok(body.includes(`<h2 id="${step.id}-heading">${escape(step.heading)}</h2>`));
+    assert.ok(body.includes(`<span class="method-step-label">${escape(step.heading)}</span></h2>`));
+    assert.ok(body.includes(`<summary><h2 id="${step.id}-heading">`), 'summary contains one native heading');
     for (const paragraph of step.paragraphs) assert.ok(body.includes(`<p>${escape(paragraph)}</p>`), `${step.id}: complete paragraph`);
     assert.doesNotMatch(attributes, /hidden|aria-hidden/);
     for (const boundary of content.site.exclusions) assert.equal(body.includes(escape(boundary)), step.id === 'confirm-scope', `${step.id}: shared conditions appear only at confirmation`);
@@ -146,18 +148,21 @@ test('method content updates are escaped and unrelated or unpublished FAQs stay 
   });
   const main = fixture.read('how-it-works/index.html').match(/<main id="main">([\s\S]*?)<\/main>/)[1];
   for (const escaped of ['Method &lt;title&gt; &amp; &quot;source&quot;', 'Method &lt;lead&gt; &amp; detail.', 'Step &lt;heading&gt; &amp; detail', 'Method &lt;script&gt;example&lt;/script&gt; &amp; detail.', 'Prepare &lt;heading&gt;', 'Preparation &lt;item&gt; &amp; detail.', 'Expect &lt;heading&gt;', 'Expectation &lt;item&gt; &amp; detail.']) assert.ok(main.includes(escaped), escaped);
-  assert.equal((main.match(/<details\b/g) || []).length, 1, 'only requested approved FAQs render');
+  const faqRegion = main.match(/<div class="faq-list">([\s\S]*?)<\/div>/)[1];
+  assert.equal((faqRegion.match(/<details\b/g) || []).length, 1, 'only requested approved FAQs render');
+  assert.equal((main.match(/class="method-disclosure"/g) || []).length, 8, 'workflow disclosures are separate from FAQs');
   assert.doesNotMatch(main, /Private question|Private answer|<script>/);
 });
 
-test('home hero keeps confirmed contact actions and truthful artwork beside a decorative gold route', () => {
+test('home hero keeps confirmed contact actions and real repair photos beside a decorative gold route', () => {
   const home = read('/');
   const heroStage = home.match(/<section class="hero-stage">([\s\S]*?)<\/section>/);
   assert.ok(heroStage, 'home exposes a semantic hero-stage section');
   assert.match(heroStage[1], /<svg class="gold-route" aria-hidden="true" focusable="false"[^>]*>[\s\S]*?<path\b/);
   assert.match(heroStage[1], /href="tel:\+61416614281">Call 0416 614 281<\/a>/);
   assert.match(heroStage[1], /href="\/contact\/">Request an assessment and quote/);
-  assert.match(heroStage[1], /alt="Adelaide home exterior and household-maintenance tools"/);
+  assert.match(heroStage[1], /alt="Mossy paved driveway before pressure cleaning in Burnside Adelaide"/);
+  assert.match(heroStage[1], /alt="Cleaned paved driveway after pressure cleaning in Burnside Adelaide"/);
   assert.doesNotMatch(heroStage[1], /Concept illustration|concept (?:image|illustration)/i);
   assert.match(home, /<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-9KMWMVLZ3"><\/script>/);
   assert.doesNotMatch(home, /<img[^>]+src="https?:|<link[^>]+href="https?:[^>]+rel="stylesheet"|<link[^>]+rel="stylesheet"[^>]+href="https?:/);
@@ -211,6 +216,7 @@ test('every generated HTML and schema excludes legacy facts and unapproved recor
   allowed.add('/case-studies/');
   for (const study of content.caseStudies) allowed.add(`/case-studies/${study.slug}/`);
   for (const area of serviceAreas) {
+    allowed.add(`/service-areas/${area.slug}/`);
     const knownSuburbs = new Map(area.suburbs.map(suburb => [suburb.name, suburb.slug]));
     for (const name of area.popularSuburbs) {
       const slug = knownSuburbs.get(name) || name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

@@ -4,11 +4,11 @@
   "description": "MEL ONE — Adelaide household-maintenance website candidate",
   "private": true,
   "scripts": {
-    "build": "rm -rf public && mkdir public && unzip -q mel-one-site-core.zip -d public && unzip -q mel-one-site-media-a.zip -d public && unzip -q mel-one-site-media-b.zip -d public",
+    "build": "node build.mjs",
     "build:docs": "node build.mjs --docs",
     "serve": "node serve.cjs",
     "start": "node serve.cjs",
-    "check": "node check.cjs",
+    "check": "node tests/stage3-current-check.cjs",
     "test": "node --test test/*.test.cjs tests/*.test.cjs"
   },
   "engines": {

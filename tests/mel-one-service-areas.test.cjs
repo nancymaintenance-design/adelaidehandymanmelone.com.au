@@ -59,13 +59,13 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   for (const suburb of ['Mile End', 'Thebarton', 'Torrensville', 'Brompton']) assert.match(index, new RegExp(`>${suburb} —`));
   assert.match(index, /href="\/service-areas\/inner-west\/thebarton\/"/);
   assert.ok(fs.existsSync(path.join(preview.output, 'service-areas/inner-west/thebarton/index.html')));
-  assert.doesNotMatch(index, /href="\/service-areas\/eastern-suburbs\/"(?!>)/);
-  assert.ok(!fs.existsSync(path.join(preview.output, 'service-areas/eastern-suburbs/index.html')));
+  assert.match(index, /href="\/service-areas\/eastern-suburbs\/"/);
+  assert.ok(fs.existsSync(path.join(preview.output, 'service-areas/eastern-suburbs/index.html')));
   const suburb = preview.read('service-areas/eastern-suburbs/norwood/index.html');
   assert.match(suburb, /<h1>Shower Screen Repairs in Norwood, Adelaide<\/h1>/);
   assert.match(suburb, /Shower screen repairs and adjustments/);
   assert.match(suburb, /href="\/contact\/\?region=eastern-suburbs&amp;suburb=norwood"/);
-  assert.doesNotMatch(suburb, /href="\/service-areas\/eastern-suburbs\/"/);
+  assert.match(suburb, /href="\/service-areas\/eastern-suburbs\/"/);
   assert.match(suburb, /href="\/services\/doors-windows-screens\/"/);
   assert.match(suburb, /href="\/services\/roof-gutter-exterior-care\/"/);
   assert.match(suburb, /Related popular suburbs/);

@@ -8,6 +8,8 @@ const projectDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.join(projectDir, process.argv.includes('--docs') ? 'docs' : 'public');
 const content = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/mel-one-site-content.json'), 'utf8'));
 const serviceAreas = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/service-areas.json'), 'utf8'));
+const suburbGuidance = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/suburb-guidance.json'), 'utf8'));
+const repairFacts = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/repair-record-facts.json'), 'utf8'));
 const collections = ['services', 'news', 'guides', 'faqs'];
 const escapeHtml = (value = '') => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 const json = value => JSON.stringify(value).replaceAll('<', '\\u003c');
@@ -93,8 +95,9 @@ const intakeAssets = {
   areas: '/assets/images/mel-one-adelaide-service-area.png',
 };
 const hero = intakeAssets.hero;
-const navigation = [['Home', '/'], ['Services', '/services/'], ['How it works', '/how-it-works/'], ['Service areas', '/service-areas/'], ['Field notes', '/guides/'], ['About', '/about/']];
+const navigation = [['Home', '/'], ['Services', '/services/'], ['Our work', '/case-studies/'], ['How it works', '/how-it-works/'], ['Service areas', '/service-areas/'], ['Field notes', '/guides/'], ['About', '/about/']];
 const routes = [];
+const imageManifest = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/assets/images/responsive-manifest.json'), 'utf8'));
 
 // Remove stale generated HTML, including routes that have returned to draft.
 // Keep authored docs, source files and other workspace material intact.
@@ -128,6 +131,69 @@ for (const study of caseStudies) {
   }
 }
 
+for (const metadata of Object.values(imageManifest)) {
+  for (const variant of [...metadata.variants, ...(metadata.avifVariants || []), ...(metadata.detailVariants || [])]) {
+    const target = path.join(siteDir, variant.src);
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.copyFileSync(path.join(projectDir, 'src/assets/images/responsive', path.basename(variant.src)), target);
+  }
+}
+
+// One media boundary reserves real geometry and chooses an appropriate download.
+function responsiveImages(html) {
+  return html.replace(/<img\b[^>]*>/g, tag => {
+    const source = tag.match(/src="([^"]+)"/)?.[1];
+    const metadata = imageManifest[source];
+    if (!metadata) return tag;
+    const attributes = tag.slice(0, -1).replace(/\s(?:width|height)="[^"]*"/g, '');
+    const detail = tag.includes('data-detail-photo');
+    const sizes = detail ? '(max-width: 650px) 42vw, 460px' : '(max-width: 650px) calc(100vw - 36px), (max-width: 850px) 46vw, 640px';
+    const variants = detail ? metadata.detailVariants : metadata.variants;
+    if (!variants?.length) throw new Error(`Missing photo derivatives: ${source}`);
+    const image = `${attributes} width="${metadata.width}" height="${metadata.height}" srcset="${variants.map(v => `${v.src} ${v.width}w`).join(', ')}" sizes="${sizes}">`;
+    // Positioned decoration must not acquire an in-flow picture grid item.
+    if (detail || tag.includes('task-wall-texture')) return image;
+    return metadata.avifVariants?.length ? `<picture><source type="image/avif" srcset="${metadata.avifVariants.map(v => `${v.src} ${v.width}w`).join(', ')}" sizes="${sizes}">${image}</picture>` : image;
+  });
+}
+
+function repairJourney() {
+  const steps = [
+    ['Contact', 'Tell us the problem and your suburb.', 'prepare-request'],
+    ['Assessment & quote', 'We inspect on site and confirm the written quote.', 'confirm-scope'],
+    ['Approved work', 'We complete the agreed work and discuss any changes.', 'on-site-work'],
+    ['Completion & follow-up', 'We review the result and follow up on remaining questions.', 'completion-next-steps'],
+  ];
+  return `<ol class="repair-journey" aria-label="Repair journey">${steps.map(([label, copy, anchor], i) => `<li><span class="journey-number" aria-hidden="true">0${i + 1}</span><h3><a href="/how-it-works/#${anchor}">${escapeHtml(label)}</a></h3><p>${escapeHtml(copy)}</p></li>`).join('')}</ol>`;
+}
+
+function workCard(study) {
+  const image = study.images.find(image => /after|finished|completed/i.test(image.alt)) || study.images[0];
+  const facts = repairFacts[study.slug];
+  if (!facts) throw new Error(`Missing repair record facts: ${study.slug}`);
+  return `<article class="note-card work-card"><a class="work-image-link" href="/case-studies/${study.slug}/" aria-label="View ${escapeHtml(study.title)}"><figure class="intake-visual"><img src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async"></figure></a><p class="eyebrow">${escapeHtml(study.suburb)} · repair record</p><h3><a href="/case-studies/${study.slug}/">${escapeHtml(study.title)}</a></h3><dl class="work-facts"><div><dt>Problem</dt><dd>${escapeHtml(facts[0])}</dd></div><div><dt>${study.slug.endsWith('-assessment') ? 'Record' : 'Result'}</dt><dd>${escapeHtml(facts[1])}</dd></div></dl><a class="text-link" href="/case-studies/${study.slug}/">See the work <span aria-hidden="true">↗</span></a></article>`;
+}
+
+function markedPhoto(image, label, x = 50, y = 65, priority = false, detail = false) {
+  return `<div class="annotated-photo"><img ${detail ? 'data-detail-photo ' : ''}src="${image.src}" alt="${escapeHtml(image.alt)}" ${priority ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span class="photo-annotation" style="--pin-x:${x}%;--pin-y:${y}%"><span class="annotation-point" aria-hidden="true"></span><span class="annotation-label">${escapeHtml(label)}</span></span></div>`;
+}
+
+function homeWork() {
+  const slugs = ['burnside-driveway-pressure-cleaning', 'north-adelaide-timber-gate-repair', 'marion-wardrobe-sliding-door-repair'];
+  return `<section class="section wrap collection-section" id="featured-work"><div class="section-heading"><div><p class="eyebrow">The MEL ONE repair record</p><h2>Real homes.<br>Visible progress.</h2></div><a class="text-link" href="/case-studies/">Explore our work <span aria-hidden="true">↗</span></a></div><div class="card-grid">${slugs.map(slug => caseStudies.find(study => study.slug === slug)).filter(Boolean).map(workCard).join('')}</div></section>`;
+}
+
+function homeRepairRecord() {
+  const study = caseStudies.find(study => study.slug === 'burnside-driveway-pressure-cleaning');
+  if (!study) return '';
+  const after = study.images.find(image => /after|refreshed|cleaned/i.test(image.alt)) || study.images.at(-1);
+  return `<div class="repair-record"><div class="record-title"><span>Repair record / 01</span><span>Burnside, SA</span></div><a href="/case-studies/${study.slug}/" class="record-pair" aria-label="View the Burnside driveway cleaning case"><figure>${markedPhoto(study.images[0], 'Moss on pavers', 48, 67, true)}<figcaption><span>Before</span></figcaption></figure><figure>${markedPhoto(after, 'Cleaned surface', 48, 67)}<figcaption><span>After</span></figcaption></figure></a><p class="record-caption">Mossy pavers → visibly refreshed driveway</p><a class="text-link" href="/case-studies/${study.slug}/">Follow the repair <span aria-hidden="true">↗</span></a></div>`;
+}
+
+function homeRegions() {
+  return `<section class="section wrap region-overview"><div class="section-heading"><div><p class="eyebrow">Across Greater Adelaide</p><h2>A local place to start.</h2></div><a class="text-link" href="/service-areas/">Find your suburb <span aria-hidden="true">↗</span></a></div><div class="region-links">${serviceAreas.map(area => `<a href="/service-areas/${area.slug}/">${escapeHtml(area.name)}<span aria-hidden="true">↗</span></a>`).join('')}</div></section>`;
+}
+
 const call = (className = 'button secondary') => `<a class="${className}" href="tel:${phoneLink}">Call ${escapeHtml(contact.phone)}</a>`;
 const enquire = (label = 'Request an assessment and quote') => `<a class="button primary" href="/contact/">${label}<span aria-hidden="true"> ↗</span></a>`;
 const actions = () => `<div class="actions">${enquire()}${call()}</div>`;
@@ -143,6 +209,15 @@ const intro = (eyebrow, title, description) => `<header class="page-intro wrap">
 const cta = () => `<section class="contact-band"><div class="wrap contact-band-inner"><div><p class="eyebrow">Your next step</p><h2>Start with what<br>needs attention.</h2></div><div><p>Tell us what needs attention and your suburb. We arrange an on-site assessment, check the work required and confirm the work plan and written quote.</p>${actions()}</div></div></section>`;
 
 function page({ route, title, description, body, schema = [], crumbs = [], noindex = false }) {
+  if (route === '/') {
+    body = body.replace(/<figure class="hero-figure">[\s\S]*?<\/figure>/, homeRepairRecord());
+    body = body.replace('<section class="process-section">', `${homeWork()}<section class="process-section">`);
+    body = body.replace(/<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">The notebook<\/p>[\s\S]*?<\/section>/, homeRegions());
+    body = body.replace(/<p class="lede">[\s\S]*?<\/p>/, '<p class="lede">Tell us the problem. We’ll assess it and explain the solution.</p>');
+    body = body.replace(/<p class="hero-footnote">[\s\S]*?<\/p>/, '<p class="hero-footnote">On-site assessment. Agreed scope and written quote. Qualified service arrangements confirmed before work begins.</p>');
+  }
+  if (route === '/how-it-works/') body = body.replace('<div class="wrap method-start">', `<section class="wrap journey-overview">${repairJourney()}</section><div class="wrap method-start">`);
+  if (route === '/service-areas/') body = body.replace('</label>', '</label><button type="button" class="text-link area-search-clear" data-area-search-clear hidden>Clear search</button><p role="status" data-area-search-status class="area-search-status"></p>');
   const fullTitle = `${title} | ${site.title}`;
   const webpage = { '@type': 'WebPage', '@id': canonical(`${route}#webpage`), url: canonical(route), name: fullTitle, description, inLanguage: 'en-AU', isPartOf: { '@id': website['@id'] }, about: { '@id': business['@id'] } };
   const graph = [business, website, webpage, ...schema.filter(item => item['@type'] !== 'WebSite'), ...(crumbs.length ? [breadcrumbSchema(crumbs)] : [])];
@@ -151,7 +226,10 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
   const destination = path.join(siteDir, route === '/404.html' ? '404.html' : `${route}/index.html`);
   fs.mkdirSync(path.dirname(destination), { recursive: true });
   const mobileActions = `<nav class="mobile-actions" aria-label="Quick contact"><a href="tel:${phoneLink}">Call ${escapeHtml(contact.phone)}</a><a href="/contact/">Start an enquiry <span aria-hidden="true">↗</span></a></nav>`;
-  fs.writeFileSync(destination, html.replace('</body>', `${mobileActions}</body>`));
+  const feeds = `<link rel="alternate" type="application/json" title="MEL ONE photographed case data" href="${canonical('/case-studies/feed.json')}"><link rel="alternate" type="application/json" title="MEL ONE service area data" href="${canonical('/service-areas/feed.json')}">`;
+  const withDiscovery = html.replace('</head>', `${feeds}</head>`).replace('<a href="/services/">Services</a><a href="/how-it-works/">', '<a href="/services/">Services</a><a href="/case-studies/">Our work</a><a href="/how-it-works/">');
+  const withFeedLinks = withDiscovery.replace('<div class="wrap footer-bottom">', '<div class="wrap footer-bottom"><span class="feed-links"><a href="/case-studies/feed.json">Case data (JSON)</a> · <a href="/service-areas/feed.json">Area data (JSON)</a></span>');
+  fs.writeFileSync(destination, responsiveImages(withFeedLinks.replace('</body>', `${mobileActions}</body>`)));
   if (!noindex) routes.push({ route, title, description });
 }
 
@@ -177,7 +255,7 @@ function cards(collection, records, empty) {
   if (collection === 'services') return serviceTaskWall(records);
   return `<div class="card-grid">${records.map(record => `<article class="note-card"><p class="eyebrow">${collection === 'services' ? 'Maintenance enquiry' : collection === 'news' ? 'News' : 'Field guide'}${record.date ? ` · <time datetime="${escapeHtml(record.date)}">${escapeHtml(record.date)}</time>` : ''}</p><h3><a href="/${collection}/${record.slug}/">${escapeHtml(record.title)}</a></h3><p>${escapeHtml(record.description)}</p><a class="text-link" href="/${collection}/${record.slug}/" aria-label="Read ${escapeHtml(record.title)}">Read more <span aria-hidden="true">↗</span></a></article>`).join('')}</div>`;
 }
-const processSteps = `<ol class="process-steps"><li><span class="step-number">01</span><h3>Describe the need</h3><p>Note what needs attention and where it is in your home.</p></li><li><span class="step-number">02</span><h3>Add the useful details</h3><p>Include your suburb, preferred timing and any questions about scope.</p></li><li><span class="step-number">03</span><h3>Get in touch</h3><p>Call or email MEL ONE to arrange a site assessment. We check the problem and confirm the work plan and quote.</p></li></ol>`;
+const processSteps = repairJourney();
 const serviceImages = {
   'home-electrical-repairs': [[intakeAssets.electrical, 'Household electrical work']],
   'interior-repairs-assembly': [[intakeAssets.interior, 'Home repair work']],
@@ -192,7 +270,7 @@ const serviceVisual = slug => serviceImages[slug] ? `<div class="service-visual-
 const caseStudyTeaser = service => {
   const studies = caseStudies.filter(study => study.service === service);
   if (!studies.length) return '';
-  return `<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">Photographed local work</p><h2>Real case studies.</h2></div><p>See supplied before, work-stage and completion photos from local household-maintenance cases.</p></div><div class="card-grid">${studies.map(study => `<article class="note-card"><figure class="intake-visual"><img src="${study.images[0].src}" alt="${escapeHtml(study.images[0].alt)}" loading="lazy" decoding="async"></figure><h3><a href="/case-studies/${study.slug}/">${escapeHtml(study.title)}</a></h3><p>${escapeHtml(study.description)}</p><a class="text-link" href="/case-studies/${study.slug}/">View photographed case <span aria-hidden="true">↗</span></a></article>`).join('')}</div></section>`;
+  return `<section class="section wrap collection-section"><div class="section-heading"><div><p class="eyebrow">Photographed local work</p><h2>Real case studies.</h2></div><p>See the supplied photos and documented stage of each local maintenance case.</p></div><div class="card-grid">${studies.map(workCard).join('')}</div></section>`;
 };
 
 const homeDescription = 'Adelaide handyman services for everyday home repairs and maintenance. Tell MEL ONE what needs attention and your suburb. We arrange an on-site assessment and confirm the repair plan and written quote.';
@@ -217,11 +295,13 @@ for (const [collection, [eyebrow, title, description, empty]] of Object.entries(
   }
 }
 
-const caseStudyCard = study => `<article class="note-card"><figure class="intake-visual"><img src="${study.images[0].src}" alt="${escapeHtml(study.images[0].alt)}" loading="lazy" decoding="async"></figure><p class="eyebrow">${escapeHtml(study.suburb)} · photographed case</p><h3><a href="/case-studies/${study.slug}/">${escapeHtml(study.title)}</a></h3><p>${escapeHtml(study.description)}</p><a class="text-link" href="/case-studies/${study.slug}/">Read case study <span aria-hidden="true">↗</span></a></article>`;
+const caseStudyCard = workCard;
 page({ route: '/case-studies/', title: 'Photographed Adelaide maintenance case studies', description: 'Real MEL ONE household-maintenance case studies with supplied before, work-stage and completion photographs from Adelaide.', crumbs: [['Home', '/'], ['Case studies', '/case-studies/']], body: `${intro('Real local work', 'Photographed case studies.', 'Before, work-stage and completion images from supplied MEL ONE household-maintenance cases in Adelaide.')}<section class="section wrap collection-section"><div class="card-grid">${caseStudies.map(caseStudyCard).join('')}</div></section>${cta()}` });
 for (const study of caseStudies) {
   const route = `/case-studies/${study.slug}/`;
-  const gallery = `<section class="service-visual-gallery" aria-label="Photographs from this case">${study.images.map(image => `<figure class="intake-visual service-visual"><img src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async"><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`).join('')}</section>`;
+  const photoMarks = { 'burnside-driveway-pressure-cleaning': [0, 'Moss on pavers', 48, 67], 'marion-wardrobe-sliding-door-repair': [1, 'Lower roller', 64, 65], 'north-adelaide-timber-gate-repair': [0, 'Hinge connection', 39, 55] };
+  const mark = photoMarks[study.slug];
+  const gallery = `<section class="service-visual-gallery case-photo-grid" aria-label="Photographs from this case">${study.images.map((image, index) => `<figure class="intake-visual service-visual"><div class="case-photo-frame">${mark && mark[0] === index ? markedPhoto(image, mark[1], mark[2], mark[3], false, true) : `<img data-detail-photo src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async">`}</div><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`).join('')}</section>`;
   const sections = study.sections.map(section => `<section><h2>${escapeHtml(section.heading)}</h2>${section.paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('')}</section>`).join('');
   const service = published.services.find(item => item.slug === study.service);
   const relatedLocalRoute = caseStudyLocalRoutes[study.suburb] || '/service-areas/';
@@ -236,7 +316,7 @@ for (const study of caseStudies) {
 const method = site.method;
 const methodFaqs = method.faqSlugs.map(slug => published.faqs.find(record => record.slug === slug)).filter(Boolean);
 const workflowAlts = ['Home-maintenance request details', 'Home-maintenance scope discussion notes', 'Home-maintenance contact details'];
-const methodSteps = `<ol class="method-steps">${method.steps.map((step, index) => `<li><article id="${escapeHtml(step.id)}" aria-labelledby="${escapeHtml(step.id)}-heading"><header><span class="step-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><h2 id="${escapeHtml(step.id)}-heading">${escapeHtml(step.heading)}</h2></header><div class="method-step-copy">${index < intakeAssets.workflow.length ? `<figure class="intake-visual workflow-visual"><img src="${intakeAssets.workflow[index]}" alt="${workflowAlts[index]}" loading="lazy" decoding="async"></figure>` : ''}${step.paragraphs.map(text => `<p>${escapeHtml(text)}</p>`).join('')}${step.id === 'confirm-scope' ? site.exclusions.map(text => `<p class="scope-note">${escapeHtml(text)}</p>`).join('') : ''}</div></article></li>`).join('')}</ol>`;
+const methodSteps = `<ol class="method-steps">${method.steps.map((step, index) => `<li><article id="${escapeHtml(step.id)}" aria-labelledby="${escapeHtml(step.id)}-heading"><details class="method-disclosure"><summary><h2 id="${escapeHtml(step.id)}-heading"><span class="step-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><span class="method-step-label">${escapeHtml(step.heading)}</span></h2></summary><div class="method-step-copy">${index < intakeAssets.workflow.length ? `<figure class="intake-visual workflow-visual"><img src="${intakeAssets.workflow[index]}" alt="${workflowAlts[index]}" loading="lazy" decoding="async"></figure>` : ''}${step.paragraphs.map(text => `<p>${escapeHtml(text)}</p>`).join('')}${step.id === 'confirm-scope' ? site.exclusions.map(text => `<p class="scope-note">${escapeHtml(text)}</p>`).join('') : ''}</div></details></article></li>`).join('')}</ol>`;
 page({
   route: '/how-it-works/', title: method.title, description: method.description,
   crumbs: [['Home', '/'], [method.title, '/how-it-works/']],
@@ -248,22 +328,41 @@ const suburbRoute = (area, suburb) => `${areaRoute(area)}${suburb.slug}/`;
 const slugify = value => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const areaSuburbs = area => {
   const known = new Map(area.suburbs.map(suburb => [suburb.name, suburb]));
-  return area.popularSuburbs.map(name => known.get(name) || { slug: slugify(name), name, primaryService: 'handyman services', title: `Handyman Services in ${name}, Adelaide`, description: `Local handyman and home maintenance enquiries for ${name}, Adelaide.`, lead: `MEL ONE provides ${name} household maintenance and repairs, with on-site assessment and a written quote for the agreed work.`, localContext: area.context, services: ['Shower screen repairs and adjustments', 'Door, window and flyscreen repairs', 'Roof, gutter and exterior maintenance', 'Garden and property care', 'Fence and gate repairs', 'Cleaning and general handyman support'], faqs: [{ question: `Do you provide handyman services in ${name}?`, answer: `Yes. Tell us what needs attention, your address and preferred timing so we can arrange the assessment appointment and confirm the repair scope and quote.` }, { question: `Can I include several ${name} maintenance jobs?`, answer: `Yes. Group indoor and outdoor tasks by area and explain which items are most important.` }, { question: 'How quickly can MEL ONE respond?', answer: 'Eligible enquiries may receive a response in as little as 30 minutes, subject to location, enquiry volume and availability.' }] });
+  return area.popularSuburbs.map(name => {
+    const guidance = suburbGuidance[name];
+    if (!guidance || !['focus', 'problem', 'solution', 'preparation', 'question', 'answer'].every(key => guidance[key])) throw new Error(`Missing authored suburb guidance: ${name}`);
+    const base = known.get(name) || { slug: slugify(name), name, primaryService: 'handyman services', title: `Handyman Services in ${name}, Adelaide`, lead: `MEL ONE arranges ${name} household maintenance assessments, with a written quote for agreed repairs.`, localContext: area.context, services: ['Shower screen repairs and adjustments', 'Door, window and flyscreen repairs', 'Roof, gutter and exterior maintenance', 'Garden and property care', 'Fence and gate repairs', 'Cleaning and general handyman support'] };
+    return { ...base, guidance, description: `${guidance.focus} and home maintenance enquiries in ${name}, Adelaide. MEL ONE assesses the issue and provides a targeted solution and written quote.`, faqs: [
+      { question: guidance.question, answer: guidance.answer },
+      { question: `How should I prepare my ${name} repair request?`, answer: guidance.preparation },
+      { question: `What happens after I report a maintenance problem in ${name}?`, answer: guidance.solution + ' We follow up to confirm access, assessment timing and the written quote for the agreed work.' },
+      { question: `What handyman services are available in ${name}?`, answer: `MEL ONE provides ${base.services.map(service => service.toLowerCase()).join('; ')} in ${name}. We assess the tasks on site and confirm the agreed work and written quote.` },
+    ] };
+  });
 };
-const areaCards = areas => `<div class="card-grid">${areas.map(area => `<article class="note-card"><p class="eyebrow">Greater Adelaide</p><h2>${escapeHtml(area.name)}</h2><p>${escapeHtml(area.description)}</p><p class="eyebrow">Popular suburbs</p><ul class="plain-list">${areaSuburbs(area).map(suburb => `<li><a class="text-link" href="${suburbRoute(area, suburb)}">${escapeHtml(suburb.name)} — ${escapeHtml(suburb.primaryService)} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul></article>`).join('')}</div>`;
-const claimBlock = `<section><h2>Experienced local maintenance support</h2><p>MEL ONE has worked in the maintenance industry for more than ten years, with a standardised team process and experienced maintenance professionals. We assess visible issues carefully and explain practical next steps.</p><p>Eligible enquiries may receive a response in as little as 30 minutes, subject to location, enquiry volume and availability. More than 10,000 customers have trusted MEL ONE for practical maintenance support.</p></section>`;
+const areaCards = areas => `<div class="card-grid">${areas.map(area => `<article class="note-card"><p class="eyebrow">Greater Adelaide</p><h2><a href="${areaRoute(area)}">${escapeHtml(area.name)}</a></h2><p>${escapeHtml(area.description)}</p><p class="eyebrow">Popular suburbs</p><ul class="plain-list">${areaSuburbs(area).map(suburb => `<li><a class="text-link" href="${suburbRoute(area, suburb)}">${escapeHtml(suburb.name)} — ${escapeHtml(suburb.primaryService)} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul></article>`).join('')}</div>`;
+const claimBlock = `<section><h2>A solution for your reported problem</h2><p>Share the issue and your preferred contact details. MEL ONE follows up, assesses the affected area on site and provides a targeted solution with an agreed work plan and written quote. We confirm access, appointment timing and any qualified service arrangements before work begins.</p></section>`;
 const relatedServiceLinks = `<section><h2>Related maintenance services</h2><p><a class="text-link" href="/services/doors-windows-screens/">Doors, windows &amp; screens <span aria-hidden="true">↗</span></a></p><p><a class="text-link" href="/services/roof-gutter-exterior-care/">Roof, gutter &amp; exterior care <span aria-hidden="true">↗</span></a></p><p><a class="text-link" href="/services/home-repairs-renovation-support/">Home repairs &amp; renovation support <span aria-hidden="true">↗</span></a></p></section>`;
 page({ route: '/service-areas/', title: 'Greater Adelaide handyman service areas', description: 'Find a Greater Adelaide area and suburb for handyman, home repair and maintenance enquiries.', body: `<section class="area-atlas"><div class="wrap"><figure class="area-atlas-hero"><img src="${intakeAssets.areas}" alt="Adelaide home maintenance service area" loading="eager" decoding="async"><figcaption>Greater Adelaide · local maintenance support</figcaption></figure>${intro('Greater Adelaide service atlas', 'Find your local maintenance area.', 'Choose a region, then go straight to a popular local suburb for practical handyman support.')}<label class="area-atlas-search" for="area-search"><span>Find a suburb</span><input id="area-search" type="search" placeholder="Try Norwood, Thebarton or Brighton" autocomplete="off"></label>${areaCards(serviceAreas)}</div></section>${cta()}` });
 for (const area of serviceAreas) {
+  const regionRoute = areaRoute(area);
+  const localStudies = caseStudies.filter(study => areaSuburbs(area).some(suburb => suburb.name === study.suburb));
+  page({ route: regionRoute, title: `Handyman services in ${area.name}`, description: area.description,
+    crumbs: [['Home', '/'], ['Service areas', '/service-areas/'], [area.name, regionRoute]],
+    body: `${intro('Greater Adelaide · region guide', `Home maintenance in ${area.name}.`, area.description)}<section class="section wrap split-section"><div><p class="eyebrow">Your region</p><h2>Choose your suburb.</h2><p>${escapeHtml(area.context)}</p></div><div class="region-links">${areaSuburbs(area).map(suburb => `<a href="${suburbRoute(area, suburb)}">${escapeHtml(suburb.name)}<span aria-hidden="true">↗</span></a>`).join('')}</div></section>${localStudies.length ? `<section class="section wrap collection-section"><div class="section-heading"><div><p class="eyebrow">Photographed in this region</p><h2>Local repair records.</h2></div><a class="text-link" href="/case-studies/">All our work ↗</a></div><div class="card-grid">${localStudies.map(workCard).join('')}</div></section>` : ''}${cta()}` });
   for (const suburb of areaSuburbs(area)) {
     const route = suburbRoute(area, suburb);
-    const modules = suburb.services.map(service => `<section><h2>${escapeHtml(service)} in ${escapeHtml(suburb.name)}</h2><p>${escapeHtml(suburb.localContext)} MEL ONE arranges the on-site assessment, checks the work required and confirms the repair scope and quote. We agree access and any qualified service arrangements before work begins.</p></section>`).join('');
+    const guidance = suburb.guidance;
+    const guidanceHtml = `<section id="local-repair-guidance"><p class="eyebrow">Preparing your enquiry</p><h2>${escapeHtml(guidance.focus)}</h2><p>${escapeHtml(guidance.problem)}</p><p>${escapeHtml(guidance.solution)}</p><h3>Useful details before the visit</h3><p>Photos are optional. If you have safe existing images, email them to <a href="mailto:admin@melonemaintenance.com.au">admin@melonemaintenance.com.au</a>. The notes below help you describe the issue; MEL ONE confirms the cause during the on-site assessment.</p><p>${escapeHtml(guidance.preparation)}</p></section>`;
+    const modules = `<section><h2>Maintenance requests in ${escapeHtml(suburb.name)}</h2>${list(suburb.services)}<p>We assess the reported issue, explain a targeted solution and confirm the scope and quote. Include access, tenancy or owner-approval details when arranging your visit.</p></section>`;
+    const suburbStudies = localStudies.filter(study => study.suburb === suburb.name);
+    const localWork = suburbStudies.length ? `<section class="local-work"><h2>Photographed work in ${escapeHtml(suburb.name)}</h2><ul class="plain-list">${suburbStudies.map(study => `<li><a href="/case-studies/${study.slug}/">${escapeHtml(study.title)}</a><p>${escapeHtml(study.description)}</p></li>`).join('')}</ul></section>` : `<section><h2>Plan your ${escapeHtml(suburb.name)} assessment</h2><p>Describe the affected fitting or area, when the issue occurs and any access requirements. We follow up with a solution tailored to the reported problem. You can also <a href="/case-studies/">view photographed work across Adelaide</a> to see how we document maintenance requests.</p></section>`;
     const faqs = `<section class="section wrap faq-section"><div><p class="eyebrow">Local questions</p><h2>Helpful answers</h2></div>${faqList(suburb.faqs)}</section>`;
     const nearby = areaSuburbs(area).filter(item => item.slug !== suburb.slug).map(item => `<li><a class="text-link" href="${suburbRoute(area, item)}">${escapeHtml(item.name)} handyman services <span aria-hidden="true">↗</span></a></li>`).join('');
     const relatedSuburbs = nearby ? `<section><h2>Related popular suburbs</h2><ul class="plain-list">${nearby}</ul></section>` : '';
     const contactUrl = `/contact/?region=${encodeURIComponent(area.slug)}&suburb=${encodeURIComponent(suburb.slug)}`;
     const serviceSchema = { '@type': 'Service', '@id': canonical(`${route}#service`), name: suburb.title, description: suburb.description, provider: { '@id': business['@id'] }, areaServed: { '@type': 'City', name: `${suburb.name}, Adelaide` }, url: canonical(route) };
-    page({ route, title: suburb.title, description: suburb.description, schema: [serviceSchema, faqSchema(suburb.faqs)], crumbs: [['Home', '/'], ['Service areas', '/service-areas/'], [area.name, '/service-areas/'], [suburb.name, route]], body: `${intro('Greater Adelaide handyman services', suburb.title, suburb.description)}<article class="section wrap reading"><p>${escapeHtml(suburb.lead)}</p><p>${escapeHtml(suburb.localContext)}</p>${claimBlock}${modules}${relatedServiceLinks}${relatedSuburbs}</article>${faqs}<section class="contact-band"><div class="wrap contact-band-inner"><div><p class="eyebrow">Book local maintenance</p><h2>Tell us about<br>your ${escapeHtml(suburb.name)} job.</h2></div><div><p>Share the work details and your preferred timing. We arrange an on-site assessment and confirm the agreed scope and written quote.</p><a class="button primary" href="${escapeHtml(contactUrl)}">Start an enquiry <span aria-hidden="true">↗</span></a></div></div></section>` });
+    page({ route, title: suburb.title, description: suburb.description, schema: [serviceSchema, faqSchema(suburb.faqs)], crumbs: [['Home', '/'], ['Service areas', '/service-areas/'], [area.name, areaRoute(area)], [suburb.name, route]], body: `${intro('Greater Adelaide handyman services', suburb.title, suburb.description)}<article class="section wrap reading"><p>${escapeHtml(suburb.lead)}</p><p>${escapeHtml(suburb.localContext)}</p>${guidanceHtml}${localWork}${claimBlock}${modules}${relatedServiceLinks}${relatedSuburbs}</article>${faqs}<section class="contact-band"><div class="wrap contact-band-inner"><div><p class="eyebrow">Book local maintenance</p><h2>Tell us about<br>your ${escapeHtml(suburb.name)} job.</h2></div><div><p>Share the work details and your preferred timing. We arrange an on-site assessment and confirm the agreed scope and written quote.</p><a class="button primary" href="${escapeHtml(contactUrl)}">Start an enquiry <span aria-hidden="true">↗</span></a></div></div></section>` });
   }
 }
 page({ route: '/faq/', title: 'Household-maintenance enquiry FAQ', description: 'Contact details and useful information for preparing a MEL ONE enquiry.', schema: published.faqs.length ? [faqSchema()] : [], body: `${intro('A few helpful answers', 'Before you get in touch.', 'Start with the details below, or contact MEL ONE with your question.')}<section class="section wrap reading">${faqList()}</section>${cta()}` });
@@ -277,9 +376,10 @@ page({ route: '/404.html', title: 'Page not found', description: 'Return to the 
 
 fs.writeFileSync(path.join(siteDir, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(({ route }) => `<url><loc>${escapeHtml(canonical(route))}</loc></url>`).join('')}</urlset>`);
 fs.mkdirSync(path.join(siteDir, 'service-areas'), { recursive: true });
-fs.writeFileSync(path.join(siteDir, 'service-areas', 'feed.json'), JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), regions: serviceAreas.map(area => ({ slug: area.slug, name: area.name, url: canonical(areaRoute(area)), suburbs: areaSuburbs(area).map(suburb => ({ slug: suburb.slug, name: suburb.name, primaryService: suburb.primaryService, url: canonical(suburbRoute(area, suburb)) })) })) }, null, 2));
+fs.writeFileSync(path.join(siteDir, 'service-areas', 'feed.json'), JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), regions: serviceAreas.map(area => ({ slug: area.slug, name: area.name, url: canonical(areaRoute(area)), suburbs: areaSuburbs(area).map(suburb => ({ slug: suburb.slug, name: suburb.name, primaryService: suburb.primaryService, url: canonical(suburbRoute(area, suburb)), enquiryFocus: suburb.guidance.focus, preparation: suburb.guidance.preparation, faqs: suburb.faqs })) })) }, null, 2));
 fs.mkdirSync(path.join(siteDir, 'case-studies'), { recursive: true });
-fs.writeFileSync(path.join(siteDir, 'case-studies', 'feed.json'), JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), title: `${site.title} photographed Adelaide maintenance case studies`, homePageUrl: canonical('/case-studies/'), feedUrl: canonical('/case-studies/feed.json'), items: caseStudies.map(study => ({ id: canonical(`/case-studies/${study.slug}/`), url: canonical(`/case-studies/${study.slug}/`), title: study.title, summary: study.description, datePublished: '2026-09-30T00:00:00+09:30', suburb: study.suburb, serviceUrl: canonical(`/services/${study.service}/`), keywords: study.keywords, images: study.images.map(image => canonical(image.src)) })) }, null, 2));
+fs.writeFileSync(path.join(siteDir, 'case-studies', 'feed.json'), JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), title: `${site.title} photographed Adelaide maintenance case studies`, homePageUrl: canonical('/case-studies/'), feedUrl: canonical('/case-studies/feed.json'), items: caseStudies.map(study => ({ id: canonical(`/case-studies/${study.slug}/`), url: canonical(`/case-studies/${study.slug}/`), title: study.title, summary: study.description, datePublished: '2026-09-30T00:00:00+09:30', suburb: study.suburb, serviceUrl: canonical(`/services/${study.service}/`), keywords: study.keywords, problem: repairFacts[study.slug][0], result: repairFacts[study.slug][1], stage: study.slug.endsWith('-assessment') ? 'assessment' : 'completed-work', images: study.images.map(image => canonical(image.src)) })) }, null, 2));
 fs.writeFileSync(path.join(siteDir, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: ${canonical('/sitemap.xml')}\n`);
 fs.writeFileSync(path.join(siteDir, 'llms.txt'), `# ${site.title}\n\n> ${site.description}\n\n## Company contact\n\n- Phone: ${contact.phone}\n- Email: ${contact.email}\n- Contact address: ${contact.address}\n\n## Content context\n\nThis is MEL ONE’s Adelaide website. Service pages describe practical household-maintenance support. Availability, timing and specialist coordination are confirmed for each request. Field notes are original general guidance that helps customers prepare useful household-maintenance enquiries. Photographed case studies identify the local suburb, visible maintenance concern, supplied image sequence and connected service page.\n\n## Pages\n\n${routes.map(({ route, title, description }) => `- [${title}](${canonical(route)}): ${description}`).join('\n')}\n`);
 console.log(`MEL ONE website: ${routes.length + 1} pages generated in ${siteDir}`);
+fs.appendFileSync(path.join(siteDir, 'llms.txt'), `\n## Machine-readable data\n\n- [Photographed case study data](${canonical('/case-studies/feed.json')}): Custom JSON catalogue of the same cases shown in HTML, with service, suburb and original image references.\n- [Service area data](${canonical('/service-areas/feed.json')}): Region hubs and suburb page URLs matching the live hierarchy.\n`);
