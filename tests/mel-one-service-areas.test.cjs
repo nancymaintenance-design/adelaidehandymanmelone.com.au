@@ -62,12 +62,12 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.match(index, /href="\/service-areas\/eastern-suburbs\/"/);
   assert.ok(fs.existsSync(path.join(preview.output, 'service-areas/eastern-suburbs/index.html')));
   const suburb = preview.read('service-areas/eastern-suburbs/norwood/index.html');
-  assert.match(suburb, /<h1>Shower Screen Repairs in Norwood, Adelaide<\/h1>/);
+  assert.match(suburb, /<h1>Handyman Services in Norwood, Adelaide<\/h1>/);
   assert.match(suburb, /Shower screen repairs and adjustments/);
   assert.match(suburb, /href="\/contact\/\?region=eastern-suburbs&amp;suburb=norwood"/);
   assert.match(suburb, /href="\/service-areas\/eastern-suburbs\/"/);
   assert.match(suburb, /href="\/services\/doors-windows-screens\/"/);
-  assert.match(suburb, /href="\/services\/roof-gutter-exterior-care\/"/);
+  assert.doesNotMatch(suburb.match(/<section><h2>Related maintenance services<\/h2>([^]*?)<\/section>/)[1], /roof-gutter-exterior-care/);
   assert.match(suburb, /Related popular suburbs/);
   assert.match(suburb, /href="\/service-areas\/eastern-suburbs\/burnside\/"/);
   const graph = JSON.parse(suburb.match(/application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];

@@ -3,6 +3,8 @@ node_modules
 .git
 .vercel
 .superpowers
+review
+premium-audit.json
 docs
 .env
 .env.*

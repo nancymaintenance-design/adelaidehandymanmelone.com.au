@@ -58,7 +58,7 @@
     },
     "method": {
       "title": "How it works",
-      "description": "Tell MEL ONE what needs attention and your Adelaide suburb. We confirm the appointment, assess the job on site and explain the work plan and written quote. These eight steps cover preparation, qualified service arrangements, your approval and the completion record.",
+      "description": "See how MEL ONE arranges Adelaide home repairs: contact, assessment and quote, approved work, completion and follow-up.",
       "steps": [
         {
           "id": "prepare-request",
@@ -337,7 +337,7 @@
     {
       "status": "approved",
       "slug": "field-notes-doors-windows-screens-enquiry",
-      "title": "Door, Window and Flyscreen Issues: What to Note Before Making an Enquiry",
+      "title": "Door, Window & Flyscreen Repair Preparation",
       "description": "MEL ONE checks door, window and flyscreen problems in Adelaide, including sliding screen mesh, rollers, tracks and frames, then explains the repair options.",
       "scope": [
         "Name the room or outdoor location and the item involved.",
@@ -440,7 +440,7 @@
     {
       "status": "approved",
       "slug": "field-notes-wall-interior-repairs-job-list",
-      "title": "Wall Marks and Interior Repairs: A Clearer Way to Prepare Your Job List",
+      "title": "Wall Repairs & Interior Fittings: What to Prepare",
       "description": "How Adelaide households can describe small wall, fitting and interior-finishing concerns for a MEL ONE enquiry.",
       "scope": [
         "Record the room, visible condition and desired outcome.",
@@ -485,7 +485,7 @@
     {
       "status": "approved",
       "slug": "field-notes-roof-gutter-exterior-observations",
-      "title": "Roof, Gutter and Exterior Concerns: A Ground-Level Observation Checklist",
+      "title": "Gutter & Roof Concerns: Ground-Level Checklist",
       "description": "A non-invasive way to document visible exterior-maintenance concerns before speaking with MEL ONE in Adelaide.",
       "scope": [
         "Observe only from an accessible ground-level position.",
@@ -530,7 +530,7 @@
     {
       "status": "approved",
       "slug": "field-notes-garden-outdoor-seasonal-preparation",
-      "title": "Seasonal Garden and Outdoor Maintenance: Preparing a Practical Household List",
+      "title": "Garden Pruning & Outdoor Timber Assessment",
       "description": "A simple way to organise visible garden and outdoor-area maintenance questions for MEL ONE in Adelaide.",
       "scope": [
         "List tasks by front, side and rear outdoor areas.",
@@ -575,7 +575,7 @@
     {
       "status": "approved",
       "slug": "field-notes-rental-end-of-lease-maintenance-list",
-      "title": "Rental and End-of-Lease Maintenance Lists: Making a Clearer Handover",
+      "title": "Rental Repairs: Access, Approval & Handover",
       "description": "A practical guide to recording household-maintenance questions when a tenant, owner or property manager is involved.",
       "scope": [
         "Give every item a room or outdoor-area location.",
@@ -620,7 +620,7 @@
     {
       "status": "approved",
       "slug": "field-notes-pre-sale-home-maintenance-list",
-      "title": "Pre-Sale Home Maintenance: Sorting a Practical Preparation List",
+      "title": "Pre-Sale Home Repairs: Prioritise Your List",
       "description": "A homeowner-focused way to sort visible maintenance tasks before discussing pre-sale preparation with MEL ONE in Adelaide.",
       "scope": [
         "List visible tasks by room and outdoor area.",
@@ -665,7 +665,7 @@
     {
       "status": "approved",
       "slug": "field-notes-grouping-multiple-household-jobs",
-      "title": "How to Group Multiple Household Jobs Into One Clear Enquiry",
+      "title": "Group Household Repairs Into One Work List",
       "description": "A practical Adelaide household-maintenance template for making a multi-job MEL ONE enquiry easier to discuss.",
       "scope": [
         "Create one line per task with room, observation and desired outcome.",
@@ -710,7 +710,7 @@
     {
       "status": "approved",
       "slug": "field-notes-cleaning-removals-preparation",
-      "title": "Preparing for Cleaning, Removals and Household Clear-Out Enquiries",
+      "title": "Driveway Cleaning & Household Clear-Out Preparation",
       "description": "How to define household cleaning, item-removal and moving-preparation questions before contacting MEL ONE in Adelaide.",
       "scope": [
         "List the rooms or outdoor areas involved.",
@@ -839,7 +839,7 @@
     {
       "status": "approved",
       "slug": "field-notes-one-household-job-list",
-      "title": "MEL ONE Field Notes: One List for the Jobs Around Your Home",
+      "title": "MEL ONE Notes: One Household Work List",
       "description": "A practical way to group household repair requests before contacting MEL ONE in Adelaide.",
       "scope": [
         "Describe what you observe and the outcome you want.",
@@ -882,7 +882,7 @@
     {
       "status": "approved",
       "slug": "field-notes-clear-maintenance-handover",
-      "title": "MEL ONE Field Notes: A Clearer Maintenance Handover",
+      "title": "MEL ONE Notes: A Clear Maintenance Handover",
       "description": "What to include when a homeowner, tenant or property manager passes a maintenance request to MEL ONE.",
       "scope": [
         "Describe what you observe and the outcome you want.",
@@ -1690,7 +1690,7 @@
     },
     {
       "slug": "henley-beach-sliding-screen-door-repair",
-      "title": "Sliding Screen Door Roller Repair in Henley Beach, Adelaide",
+      "title": "Sliding Screen Door Repair in Henley Beach",
       "description": "A photographed Henley Beach sliding screen door repair case showing worn lower rollers, repair work and the completed door position.",
       "suburb": "Henley Beach",
       "service": "doors-windows-screens",
