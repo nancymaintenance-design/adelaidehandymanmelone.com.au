@@ -3,6 +3,20 @@ const assert = require('node:assert/strict');
 const fixture = require('./build-fixture.cjs')(test);
 const main = html => html.match(/<main\b[^>]*>([^]*?)<\/main>/)[1];
 
+test('article sidebars offer an accessible contact form using the existing intake contract', () => {
+  for (const route of ['services/roof-gutter-exterior-care/index.html', 'services/doors-windows-screens/index.html', 'guides/field-notes-roof-gutter-exterior-observations/index.html']) {
+    const html = fixture.read(route);
+    const aside = html.match(/<aside\b[^>]*>([^]*?)<\/aside>/)[1];
+    assert.match(aside, /<form[^>]*data-enquiry-form/);
+    for (const field of ['name', 'email', 'phone', 'suburb', 'message', 'contactPreference', 'website']) assert.match(aside, new RegExp(`name="${field}"`));
+    for (const field of ['email', 'phone', 'suburb', 'message']) assert.match(aside, new RegExp(`id="${field}-error"`));
+    assert.match(aside, /data-enquiry-submit/);
+    assert.match(aside, /data-enquiry-status[^>]*role="status"/);
+    assert.match(aside, /href="\/privacy\/"/);
+    assert.equal((html.match(/data-enquiry-form/g) || []).length, 1);
+  }
+});
+
 test('shared footer exposes four user-supplied social destinations with decorative icons', () => {
   for (const route of ['index.html', 'services/doors-windows-screens/index.html', 'case-studies/marion-wardrobe-sliding-door-repair/index.html']) {
     const footer = fixture.read(route).match(/<footer\b[^>]*>([^]*?)<\/footer>/)[1];

@@ -169,6 +169,11 @@ function repairJourney() {
   return `<ol class="repair-journey" aria-label="Repair journey">${steps.map(([label, copy, anchor], i) => `<li><span class="journey-number" aria-hidden="true">0${i + 1}</span><h3><a href="/how-it-works/#${anchor}">${escapeHtml(label)}</a></h3><p>${escapeHtml(copy)}</p></li>`).join('')}</ol>`;
 }
 
+function sidebarContactForm() {
+  const input = (name, label, type, extra = '') => `<label for="${name}">${label}<input id="${name}" name="${name}" type="${type}" ${extra}></label><p class="field-error" id="${name}-error"></p>`;
+  return `<aside class="article-aside contact-aside" aria-label="Contact MEL ONE"><form class="enquiry-form compact-enquiry" data-enquiry-form novalidate><p class="eyebrow">Contact MEL ONE</p><h2>Tell us the problem</h2><p>Request an assessment and quote.</p><label class="honeypot" aria-hidden="true" for="website">Leave this field empty<input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></label><input type="hidden" name="contactPreference" value="email">${input('name', 'Name (optional)', 'text', 'autocomplete="name" maxlength="200"')}${input('email', 'Email', 'email', 'autocomplete="email" required aria-describedby="email-error" maxlength="254"')}${input('phone', 'Phone (optional)', 'tel', 'autocomplete="tel" aria-describedby="phone-error" maxlength="60"')}${input('suburb', 'Suburb or postcode', 'text', 'autocomplete="address-level2" required aria-describedby="suburb-error" maxlength="200"')}<label for="message">What needs attention?<textarea id="message" name="message" rows="3" required aria-describedby="message-error" maxlength="4000"></textarea></label><p class="field-error" id="message-error"></p><button class="button primary" type="submit" data-enquiry-submit>Send enquiry <span aria-hidden="true">↗</span></button><p class="form-status" data-enquiry-status role="status" aria-live="polite"></p><p class="small">We’ll reply by email. <a href="/privacy/">Privacy</a> · <a href="tel:${phoneLink}">Call ${escapeHtml(contact.phone)}</a></p><noscript><p>Please call or <a href="mailto:${escapeHtml(contact.email)}">email MEL ONE</a>.</p></noscript></form></aside>`;
+}
+
 function workCard(study) {
   const image = study.images.find(image => /after|finished|completed/i.test(image.alt)) || study.images[0];
   const facts = repairFacts[study.slug];
@@ -220,6 +225,7 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
   }
   if (route === '/how-it-works/') body = body.replace('<div class="wrap method-start">', `<section class="wrap journey-overview">${repairJourney()}</section><div class="wrap method-start">`);
   if (route === '/service-areas/') body = body.replace('</label>', '</label><button type="button" class="text-link area-search-clear" data-area-search-clear hidden>Clear search</button><p role="status" data-area-search-status class="area-search-status"></p>');
+  body = body.replace(/<aside class="article-aside">[\s\S]*?<\/aside>/g, () => sidebarContactForm());
   const fullTitle = `${title} | ${site.title}`;
   const webpage = { '@type': 'WebPage', '@id': canonical(`${route}#webpage`), url: canonical(route), name: fullTitle, description, inLanguage: 'en-AU', isPartOf: { '@id': website['@id'] }, about: { '@id': business['@id'] } };
   const graph = [business, website, webpage, ...schema.filter(item => item['@type'] !== 'WebSite'), ...(crumbs.length ? [breadcrumbSchema(crumbs)] : [])];
