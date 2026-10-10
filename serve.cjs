@@ -4,6 +4,8 @@ const path = require('path');
 
 const PORT = Number(process.env.PORT || 5173);
 const ROOT = path.join(__dirname, 'public');
+const globalHeaders = JSON.parse(fs.readFileSync(path.join(__dirname, 'vercel.json'), 'utf8')).headers
+  .filter(rule => rule.source === '/(.*)').flatMap(rule => rule.headers);
 
 const mimeTypes = {
   '.html': 'text/html; charset=utf-8',
@@ -22,6 +24,7 @@ const mimeTypes = {
 };
 
 const server = http.createServer((req, res) => {
+  for (const header of globalHeaders) res.setHeader(header.key, header.value);
   if (req.url.split('?')[0] === '/api/contact') {
     res.writeHead(503, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ error: 'Local preview: enquiries are not sent. Your details remain in the form.' }));

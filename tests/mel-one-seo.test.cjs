@@ -12,7 +12,7 @@ function expectedGeneratedAssets(fixture) {
   const files = directory => fs.readdirSync(directory, { recursive: true })
     .filter(file => fs.statSync(path.join(directory, file)).isFile())
     .map(file => file.split(path.sep).join('/'));
-  return ['css/site.css', 'js/site.js', 'mel-one-logo-authorized.png',
+  return ['css/site.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
     ...files(path.join(source, 'images/intake')).filter(file => file.endsWith('.png')).map(file => `images/${file}`),
     ...files(path.join(source, 'images/cases')).map(file => `images/cases/${file}`),
     ...Object.values(JSON.parse(fs.readFileSync(path.join(source, 'images/responsive-manifest.json'), 'utf8'))).flatMap(image => [...image.variants, ...image.avifVariants, ...(image.detailVariants || [])].map(variant => variant.src.replace('/assets/', ''))),
@@ -68,7 +68,44 @@ test('each indexable page has unique metadata and a consistent business entity',
     assert.equal(business.email, 'admin@melonemaintenance.com.au');
     assert.deepEqual(business.address, { '@type': 'PostalAddress', streetAddress: '63 Pirie St', addressLocality: 'Adelaide', addressRegion: 'SA', postalCode: '5000', addressCountry: 'AU' });
     assert.ok(graph.some(item => item['@type'] === 'WebPage' && item.isPartOf['@id'].endsWith('/#website')));
-    assert.doesNotMatch(JSON.stringify(graph), /Review|AggregateRating|ratingValue|openingHours|foundingDate/);
+    assert.doesNotMatch(JSON.stringify(graph), /Review|AggregateRating|ratingValue|foundingDate/);
+    assert.equal(business.openingHoursSpecification[0].opens, '09:00');
+    assert.equal(business.openingHoursSpecification[0].closes, '21:00');
+    assert.equal(business.openingHoursSpecification[0].dayOfWeek.length, 7);
+  }
+});
+
+test('generated business and Article schema use only configured regions and visible images', () => {
+  const areas = JSON.parse(fs.readFileSync(path.join(__dirname, '../src/content-pack/service-areas.json'), 'utf8'));
+  const sampleGuide = preview.content.guides.find(item => item.status === 'approved');
+  const sampleCase = preview.content.caseStudies[0];
+  const pages = [
+    'index.html',
+    `service-areas/${areas[0].slug}/index.html`,
+    `guides/${sampleGuide.slug}/index.html`,
+    `case-studies/${sampleCase.slug}/index.html`,
+  ];
+
+  for (const file of pages) {
+    const html = preview.read(file);
+    const graph = schemaOf(html);
+    const business = graph.find(item => item['@type'] === 'LocalBusiness');
+    assert.equal(business.image, 'https://example.test/assets/images/mel-one-adelaide-service-area.png');
+    assert.deepEqual(business.areaServed, areas.map(area => ({ '@type': 'AdministrativeArea', name: area.name })));
+    assert.doesNotMatch(JSON.stringify(business), /aggregateRating|review|priceRange|geo|foundingDate/i);
+    assert.equal(business.openingHoursSpecification[0].opens, '09:00');
+    assert.equal(business.openingHoursSpecification[0].closes, '21:00');
+    for (const article of graph.filter(item => item['@type'] === 'Article')) {
+      const visibleImages = [...html.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/g)].map(match => new URL(match[1], 'https://example.test').href);
+      if (article.image) {
+        const articleImages = Array.isArray(article.image) ? article.image : [article.image];
+        assert.ok(articleImages.length > 0);
+        assert.ok(articleImages.every(image => visibleImages.includes(image)), `${file} Article image is visible`);
+      } else {
+        assert.equal(file, `guides/${sampleGuide.slug}/index.html`, `${file} omits Article image when no image is visible`);
+      }
+      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-10' : undefined);
+    }
   }
 });
 
@@ -97,11 +134,82 @@ test('workflow metadata and FAQ schema follow only its visible approved method c
   assert.match(fixture.read('llms.txt'), /\[A changed workflow title\]\(https:\/\/example\.test\/how-it-works\/\): A changed workflow description from the approved method\./);
 });
 
+test('social and WebPage image metadata follow actual content photos after homepage substitution', () => {
+  const examples = [
+    ['index.html', '/assets/images/cases/burnside-driveway-pressure-cleaning-01.png'],
+    ['services/home-electrical-repairs/index.html', '/assets/images/mel-one-household-electrical-work.png'],
+    ['case-studies/norwood-flyscreen-repair/index.html', '/assets/images/cases/norwood-flyscreen-repair-01.png'],
+    ['service-areas/index.html', '/assets/images/mel-one-adelaide-service-area.png'],
+    ['service-areas/cbd-north-adelaide/index.html', '/assets/images/cases/north-adelaide-door-repair-04.png'],
+  ];
+  for (const [file, image] of examples) {
+    const html = preview.read(file);
+    const expected = `https://example.test${image}`;
+    assert.equal(html.match(/property="og:image" content="([^"]+)"/)[1], expected, `${file} Open Graph photo`);
+    assert.equal(html.match(/name="twitter:image" content="([^"]+)"/)[1], expected, `${file} Twitter photo`);
+    assert.equal(schemaOf(html).find(item => item['@type'] === 'WebPage').primaryImageOfPage['@type'], 'ImageObject');
+    assert.equal(schemaOf(html).find(item => item['@type'] === 'WebPage').primaryImageOfPage.url, expected);
+    assert.ok(fs.existsSync(path.join(preview.output, image)), `${file} image asset exists`);
+    const main = html.match(/<main id="main">([\s\S]*?)<\/main>/)[1];
+    assert.ok(main.includes(`src="${image}"`), `${file} primary image is visible in main`);
+  }
+});
+
+test('pages without content photos use a social fallback without claiming a primary or Article image', () => {
+  const guide = preview.content.guides.find(item => item.status === 'approved' && item.noindex !== true);
+  for (const file of ['contact/index.html', 'service-areas/inner-west/thebarton/index.html', '404.html']) {
+    const html = preview.read(file);
+    const expected = 'https://example.test/assets/images/mel-one-adelaide-service-area.png';
+    assert.equal(html.match(/property="og:image" content="([^"]+)"/)[1], expected, `${file} fallback`);
+    assert.equal(html.match(/name="twitter:image" content="([^"]+)"/)[1], expected);
+    for (const entity of schemaOf(html).filter(item => ['WebPage', 'Article'].includes(item['@type']))) {
+      assert.equal(entity.primaryImageOfPage, undefined, `${file} no claimed primary image`);
+      assert.equal(entity.image, undefined, `${file} no claimed Article image`);
+    }
+    assert.ok(fs.existsSync(path.join(preview.output, new URL(expected).pathname)));
+  }
+  assert.match(preview.read('404.html'), /name="robots" content="noindex,follow"/);
+});
+
+test('a region without photographed cases has no primary image and keeps the shared social fallback', () => {
+  const fixture = buildFixture(test, { SITE_ORIGIN: 'https://example.test' }, content => {
+    for (const study of content.caseStudies.filter(item => ['North Adelaide', 'Adelaide CBD'].includes(item.suburb))) study.suburb = 'Norwood';
+  });
+  const html = fixture.read('service-areas/cbd-north-adelaide/index.html');
+  assert.equal(schemaOf(html).find(item => item['@type'] === 'WebPage').primaryImageOfPage, undefined);
+  assert.equal(html.match(/property="og:image" content="([^"]+)"/)[1], 'https://example.test/assets/images/mel-one-adelaide-service-area.png');
+  assert.equal(html.match(/name="twitter:image" content="([^"]+)"/)[1], 'https://example.test/assets/images/mel-one-adelaide-service-area.png');
+});
+
+test('service schema uses configured regions while preserving suburb-specific coverage', () => {
+  const areas = JSON.parse(fs.readFileSync(path.join(__dirname, '../src/content-pack/service-areas.json'), 'utf8'));
+  for (const record of preview.content.services.filter(item => item.status === 'approved' && item.noindex !== true)) {
+    const service = schemaOf(preview.read(`services/${record.slug}/index.html`)).find(item => item['@type'] === 'Service');
+    assert.deepEqual(service.areaServed, areas.map(area => ({ '@type': 'AdministrativeArea', name: area.name })), record.slug);
+  }
+  const local = schemaOf(preview.read('service-areas/eastern-suburbs/norwood/index.html')).find(item => item['@type'] === 'Service');
+  assert.deepEqual(local.areaServed, { '@type': 'City', name: 'Norwood, Adelaide' });
+});
+
 test('article markup describes visible original editorial pages with publisher identity', () => {
   for (const collection of ['news', 'guides']) {
-    for (const item of preview.content[collection].filter(item => item.status === 'approved')) {
+    for (const item of preview.content[collection].filter(item => item.status === 'approved' && item.noindex !== true)) {
       const html = preview.read(`${collection}/${item.slug}/index.html`);
-      const article = schemaOf(html).find(item => item['@type'] === 'Article');
+      const articles = schemaOf(html).filter(item => item['@type'] === 'Article');
+      assert.equal(articles.length, 1, `${collection}/${item.slug} exactly one Article`);
+      const [article] = articles;
+      const revisions = JSON.parse(fs.readFileSync(path.join(__dirname, '../src/content-pack/editorial-updates.json'), 'utf8'));
+      const revision = collection === 'guides' ? revisions[item.slug] : undefined;
+      if (revision) {
+        const study = preview.content.caseStudies.find(study => study.slug === revision.caseSlug);
+        assert.equal(article.image, `https://example.test${study.images[0].src}`);
+        assert.match(html, /Original case photograph/);
+        assert.equal(article.dateModified, revision.date);
+        assert.match(html, /Published by MEL ONE/);
+      } else {
+        assert.equal(article.image, undefined, `${collection}/${item.slug} no editorial photo is documented`);
+        assert.equal(article.dateModified, undefined);
+      }
       assert.equal(article.headline, item.title);
       assert.equal(article.datePublished, item.date);
       assert.equal(article.publisher['@id'], 'https://example.test/#business');
@@ -111,6 +219,13 @@ test('article markup describes visible original editorial pages with publisher i
       assert.match(html, /0416 614 281/);
       assert.match(html, /admin@melonemaintenance\.com\.au/);
     }
+  }
+  for (const study of preview.content.caseStudies) {
+    const html = preview.read(`case-studies/${study.slug}/index.html`);
+    const articles = schemaOf(html).filter(item => item['@type'] === 'Article');
+    assert.equal(articles.length, 1, `${study.slug} exactly one Article`);
+    assert.deepEqual(articles[0].image, study.images.map(image => `https://example.test${image.src}`), `${study.slug} all documented photos in order`);
+    assert.equal(articles[0].dateModified, undefined);
   }
   assert.ok(!schemaOf(preview.read('index.html')).some(item => item['@type'] === 'Article'));
 });

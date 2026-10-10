@@ -36,8 +36,9 @@ test('approved intake assets are copied and appear only in their assigned page c
     .map(file => file.split(path.sep).join('/'));
   for (const asset of Object.values(approved).flat()) assert.ok(servedAssets.includes(asset), `serves ${asset}`);
 
-  assert.match(html('index.html'), new RegExp(`/assets/${approved.hero}`));
-  assert.match(html('index.html'), new RegExp(`/assets/${approved.taskWall}`));
+  const homeMain = html('index.html').match(/<main id="main">([\s\S]*?)<\/main>/)[1];
+  assert.match(homeMain, /<img\b[^>]*src="\/assets\/images\/cases\/burnside-driveway-pressure-cleaning-01\.png"/);
+  assert.match(homeMain, new RegExp(`<img\\b[^>]*src="/assets/${approved.taskWall}"`));
   assert.match(html('services/roof-gutter-exterior-care/index.html'), new RegExp(`/assets/${approved.roof}`));
   assert.match(html('services/outdoor-structures-fences-pools/index.html'), new RegExp(`/assets/${approved.outdoor}`));
   assert.match(html('services/home-repairs-renovation-support/index.html'), new RegExp(`/assets/${approved.repairs}`));

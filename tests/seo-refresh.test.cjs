@@ -72,7 +72,7 @@ test('all guides connect their advice to real projects without adding new routes
   for (const guide of fixture.content.guides.filter(g => g.status === 'approved')) {
     assert.match(main(fixture.read(`guides/${guide.slug}/index.html`)), /href="\/case-studies\/[^"/]+\//, guide.slug);
   }
-  assert.equal((fixture.read('sitemap.xml').match(/<loc>/g) || []).length, 90);
+  assert.equal((fixture.read('sitemap.xml').match(/<loc>/g) || []).length, 96);
 });
 
 test('area feed exposes the same topic-specific services as the local HTML', () => {

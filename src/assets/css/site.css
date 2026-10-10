@@ -109,6 +109,8 @@ a, button, input, textarea, summary { scroll-margin-block: 24px 112px; }
   .hero-copy .button { font-size: 13px; padding-inline: 13px; gap: 8px; }
 }
 @media (max-width: 850px) {
+  /* The hashed head bootstrap establishes this state before the first body paint. */
+  .nav-enhanced .menu-toggle[aria-expanded="false"] ~ .primary-nav { display: none; }
   .header-inner { min-height: 86px; }
   .brand img { width: 68px; height: 62px; }
   .brand > span { font-size: 20px; }

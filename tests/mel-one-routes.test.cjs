@@ -15,7 +15,7 @@ const serviceAreas = JSON.parse(fs.readFileSync(path.join(fixture, 'src/content-
 execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, env: { ...process.env, SITE_ORIGIN: 'https://example.test' }, stdio: 'pipe' });
 const output = path.join(fixture, 'public');
 const read = route => fs.readFileSync(path.join(output, route === '/404.html' ? '404.html' : `${route}/index.html`), 'utf8');
-const required = ['/', '/services/', '/how-it-works/', '/service-areas/', '/news/', '/guides/', '/faq/', '/about/', '/contact/', '/privacy/', '/404.html'];
+const required = ['/', '/services/', '/how-it-works/', '/service-standards/', '/service-areas/', '/news/', '/guides/', '/faq/', '/about/', '/contact/', '/privacy/', '/404.html'];
 test.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
 
 test('shared desktop and mobile navigation includes Home with the correct current page', () => {
@@ -87,7 +87,7 @@ test('all required routes offer confirmed contacts and the authorized identity',
     assert.match(html, /href="tel:\+61416614281"/, `${route}: call action`);
     assert.match(html, /href="mailto:admin@melonemaintenance\.com\.au"/, `${route}: email action`);
     assert.match(html, /63 Pirie St Adelaide SA 5000/, `${route}: address`);
-    assert.match(html, /src="\/assets\/mel-one-logo-authorized\.png"/, `${route}: logo`);
+    assert.match(html, /src="\/assets\/mel-one-logo-authorized-224\.webp"/, `${route}: logo`);
     assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `${route}: one main heading`);
   }
   assert.match(read('/'), /src="\/assets\/images\/cases\/burnside-driveway-pressure-cleaning-01\.png"/);
@@ -214,6 +214,7 @@ test('every generated HTML and schema excludes legacy facts and unapproved recor
     for (const record of content[collection].filter(record => record.status === 'approved')) allowed.add(`/${collection}/${record.slug}/`);
   }
   allowed.add('/case-studies/');
+  for (const slug of ['flyscreen-repair', 'door-repair', 'gutter-cleaning', 'fence-gate-repair', 'flat-pack-assembly']) allowed.add(`/services/${slug}/`);
   for (const study of content.caseStudies) allowed.add(`/case-studies/${study.slug}/`);
   for (const area of serviceAreas) {
     allowed.add(`/service-areas/${area.slug}/`);

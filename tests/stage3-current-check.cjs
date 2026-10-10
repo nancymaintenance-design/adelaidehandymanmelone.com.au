@@ -9,7 +9,7 @@ const files = [];
 function walk(dir) { for (const e of fs.readdirSync(dir, { withFileTypes: true })) { const p = path.join(dir, e.name); if (e.isDirectory()) walk(p); else if (e.name.endsWith('.html')) files.push(p); } }
 walk(root);
 const pages = files.filter(p => path.basename(p) === 'index.html');
-assert.equal(pages.length, 90, 'inventory including eight region hubs');
+assert.equal(pages.length, 96, 'inventory including eight region hubs, five focused services and service standards');
 const titles = new Set();
 let references = 0;
 for (const file of files) {
@@ -42,7 +42,7 @@ for (const file of files) {
   }
 }
 const locs = [...fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
-assert.equal(locs.length, 90);
+assert.equal(locs.length, 96);
 for (const loc of locs) { assert.ok(loc.startsWith(origin + '/')); assert.ok(fs.existsSync(path.join(root, new URL(loc).pathname, 'index.html')), loc); }
 const privacy = fs.readFileSync(path.join(root, 'privacy/index.html'), 'utf8');
 assert.match(privacy, /not stored in browser storage/);
