@@ -5,7 +5,7 @@ const path = require('node:path');
 const { chromium } = require(process.env.SEO_PLAYWRIGHT_MODULE || 'C:/Users/UFTR/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const origin = process.env.SEO_PREVIEW_ORIGIN || 'http://127.0.0.1:5173';
 assert(['127.0.0.1', 'localhost'].includes(new URL(origin).hostname), 'Local preview only');
-const output = path.resolve(__dirname, '../.seo-cache/browser-final');
+const output = path.resolve(__dirname, '../.seo-cache/', process.env.SEO_BROWSER_EVIDENCE || 'browser-final');
 fs.mkdirSync(output, { recursive: true });
 
 (async () => {
@@ -29,24 +29,51 @@ fs.mkdirSync(output, { recursive: true });
     const page = await context.newPage();
     page.on('pageerror', error => results.errors.push(error.message));
     const routes = ['/', '/services/', '/services/flyscreen-repair/', '/services/door-repair/', '/services/gutter-cleaning/', '/services/fence-gate-repair/', '/services/flat-pack-assembly/', '/service-standards/', '/guides/field-notes-doors-windows-screens-enquiry/', '/service-areas/eastern-suburbs/norwood/', '/service-areas/north-north-east/modbury/', '/case-studies/modbury-timber-fence-repair-assessment/', '/about/', '/contact/'];
+    if (process.env.SEO_CONTENT_ALL === '1') {
+      const inventory = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../.seo-cache/content-candidate.json'), 'utf8'));
+      routes.splice(0, routes.length, ...inventory.pages.map(item => item.route));
+    }
     const inspect = async (route, viewport) => {
       const response = await page.goto(origin + route, { waitUntil: 'networkidle' });
       assert.equal(response.status(), 200, route);
       assert(response.headers()['content-security-policy'], 'CSP header missing');
       assert.equal(await page.locator('h1').count(), 1, route + ' H1');
       assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://www.adelaidehandymanmelone.com.au' + route);
+      const contentChecks = await page.evaluate(() => {
+        const main = document.querySelector('main');
+        const headings = [...main.querySelectorAll('h1,h2,h3,h4,h5,h6')];
+        let previous = 0;
+        const skips = headings.filter(el => { const level = Number(el.tagName[1]); const skip = level > previous + 1; previous = level; return skip; }).map(el => el.textContent);
+        const missingAnchors = [...main.querySelectorAll('a[href^="#"]')].filter(el => !document.getElementById(decodeURIComponent(el.hash.slice(1)))).map(el => el.hash);
+        return { skips, missingAnchors, faqCount: main.querySelectorAll('details summary').length };
+      });
+      assert.deepEqual(contentChecks.skips, [], route + ' heading hierarchy');
+      assert.deepEqual(contentChecks.missingAnchors, [], route + ' in-page links');
+      if (route.startsWith('/guides/') && route !== '/guides/') {
+        assert(contentChecks.faqCount >= 2, route + ' useful FAQs');
+        await page.locator('a[href="#guide-section-1"]').click();
+        assert.equal(new URL(page.url()).hash, '#guide-section-1');
+        const faq = page.locator('main details').first();
+        await faq.locator('summary').focus();
+        await page.keyboard.press('Enter');
+        assert(await faq.evaluate(el => el.open), route + ' keyboard FAQ');
+        await page.keyboard.press('Enter');
+      }
       const fold = await page.evaluate(() => ({ h1: document.querySelector('h1').getBoundingClientRect().top < innerHeight, cta: [...document.querySelectorAll('a.button')].some(el => { const r = el.getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight; }) }));
       const localNavigationOnly = await page.evaluate(() => ({ ...window.__performanceEvidence, note: 'Unthrottled localhost short navigation; not production CWV, no INP measurement' }));
       assert(localNavigationOnly.cls < 0.1, route + ' initial local layout-shift regression: ' + localNavigationOnly.cls);
       for (const img of await page.locator('img').all()) {
+        // Lazy images inside a closed disclosure cannot load until it is opened.
+        await img.evaluate(el => { for (let parent = el.parentElement; parent; parent = parent.parentElement) if (parent.tagName === 'DETAILS') parent.open = true; });
         await img.scrollIntoViewIfNeeded();
-        await img.evaluate(el => el.decode());
+        await img.evaluate(el => Promise.race([el.decode(), new Promise((_, reject) => setTimeout(() => reject(new Error('Image decode timeout: ' + el.currentSrc)), 15000))]));
       }
       const width = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, viewport: innerWidth }));
       assert(width.scroll <= width.viewport + 1, route + ' horizontal overflow');
       const violations = await page.evaluate(() => window.__cspViolations);
       results.violations.push(...violations.map(item => ({ route, viewport, ...item })));
-      results.pages.push({ route, viewport, status: response.status(), images: await page.locator('img').count(), width, above_fold: fold, local_navigation_only: localNavigationOnly });
+      results.pages.push({ route, viewport, status: response.status(), images: await page.locator('img').count(), width, content_checks: contentChecks, above_fold: fold, local_navigation_only: localNavigationOnly });
+      console.log(JSON.stringify({checked:results.pages.length,route,viewport}));
       await page.evaluate(() => scrollTo(0, 0));
       if (['/', '/services/flyscreen-repair/', '/service-standards/', '/contact/'].includes(route)) {
         await page.screenshot({ path: path.join(output, viewport + (route === '/' ? '-home' : route.replaceAll('/', '-')) + '.png'), fullPage: true });
