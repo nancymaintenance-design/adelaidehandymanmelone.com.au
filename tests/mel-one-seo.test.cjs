@@ -104,7 +104,7 @@ test('generated business and Article schema use only configured regions and visi
       } else {
         assert.equal(file, `guides/${sampleGuide.slug}/index.html`, `${file} omits Article image when no image is visible`);
       }
-      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-10' : undefined);
+      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-12' : undefined);
     }
   }
 });

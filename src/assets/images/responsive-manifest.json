@@ -3630,5 +3630,281 @@
         "width": 1440
       }
     ]
+  },
+  "/assets/images/cases/drawer-runner-repair-after.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-after-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/drawer-runner-repair-before.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-before-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/drawer-runner-repair-during.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/drawer-runner-repair-during-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/sliding-patio-door-roller-repair-after.png": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-after-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/sliding-patio-door-roller-repair-before.png": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-before-1440-detail.webp",
+        "width": 1440
+      }
+    ]
+  },
+  "/assets/images/cases/sliding-patio-door-roller-repair-during.png": {
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-1440.webp",
+        "width": 1440
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-480.avif",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-960.avif",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-1440.avif",
+        "width": 1440
+      }
+    ],
+    "detailVariants": [
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-480-detail.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-960-detail.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/images/responsive/sliding-patio-door-roller-repair-during-1440-detail.webp",
+        "width": 1440
+      }
+    ]
   }
 }

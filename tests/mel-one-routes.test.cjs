@@ -214,7 +214,8 @@ test('every generated HTML and schema excludes legacy facts and unapproved recor
     for (const record of content[collection].filter(record => record.status === 'approved')) allowed.add(`/${collection}/${record.slug}/`);
   }
   allowed.add('/case-studies/');
-  for (const slug of ['flyscreen-repair', 'door-repair', 'gutter-cleaning', 'fence-gate-repair', 'flat-pack-assembly']) allowed.add(`/services/${slug}/`);
+  for (const slug of ['flyscreen-repair', 'door-repair', 'gutter-cleaning', 'fence-gate-repair', 'flat-pack-assembly', 'cabinet-drawer-repair', 'sliding-door-repair', 'wall-patching-repair', 'pressure-cleaning']) allowed.add(`/services/${slug}/`);
+  for (const slug of ['kitchen-drawer-runner-repair','sliding-patio-door-roller-track-repair']) allowed.add(`/case-studies/${slug}/`);
   for (const study of content.caseStudies) allowed.add(`/case-studies/${study.slug}/`);
   for (const area of serviceAreas) {
     allowed.add(`/service-areas/${area.slug}/`);

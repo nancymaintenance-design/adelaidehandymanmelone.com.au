@@ -1,0 +1,147 @@
+/** Supplied repair evidence, 12 October 2026. No job suburb or work date was supplied. */
+const section=(heading,...paragraphs)=>{
+ const links=[];
+ const plain=paragraphs.map(text=>text.replace(/<a href="([^"]+)">([^<]+)<\/a>/g,(_,url,label)=>{
+  links.push({url,label});return label;
+ }));
+ return {heading,paragraphs:plain,links};
+};
+const enquiry='Contact MEL ONE with your suburb, a short description and preferred contact details to arrange assessment. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. The condition, compatible materials and written quote are confirmed before agreed work begins.';
+export const additionalFocusedServices=[
+ {
+  slug:'cabinet-drawer-repair',title:'Cabinet and drawer repair in Adelaide',
+  description:'Sagging drawer, damaged runners or uneven cabinet doors? MEL ONE assesses Adelaide cabinet and drawer repairs. View real repair photos and request a written quote.',
+  parent:'interior-repairs-assembly',caseSlugs:['kitchen-drawer-runner-repair','unley-kitchen-cabinet-repair'],
+  sections:[
+   section('Drawer runners or cabinet door hinges?', 'Cabinet and drawer repair starts with the part that is not working as it should. A kitchen drawer that drops, catches or will not close may have a runner or fixing problem. A cupboard door hanging unevenly raises different questions about hinges, attachment points and alignment. MEL ONE assesses the fitting and surrounding cabinet before recommending work.', 'Tell us whether the problem affects one drawer, several drawers or a cabinet door. Describe where movement catches and whether the front has dropped. Runner repair, hinge adjustment and repair of damaged cabinet material are different tasks; the quote should identify which are needed.'),
+   section('A sagging kitchen drawer: the photographed record', 'The kitchen drawer case below documents damaged runners and a drawer that had sagged, making opening and closing difficult. The three supplied views show the condition before work, runner work in progress and the drawer after repair. The Unley case is separate evidence of cabinet-door alignment work, not a drawer-runner job.', 'These records help you compare symptoms without assuming the same repair fits every cabinet. The drawer side, mounting points and runner arrangement need checking together. Photos cannot establish the load rating, the condition of hidden fixings or the availability of compatible parts.'),
+   section('Can the existing cabinet be retained?', 'A targeted hardware repair may be appropriate when the cabinet and fixing points remain suitable. Loose or damaged board, distorted drawer boxes and worn hardware can change the scope. A replacement runner must suit the dimensions and existing arrangement; a soft-close conversion is not automatically included.', 'Assessment separates adjustment from parts work or cabinet repair. Discuss any matching requirement and whether surrounding drawers need attention. We confirm the proposed work and written quote before proceeding, rather than treating a photo as a final parts specification.'),
+   section('Prepare your cabinet repair enquiry', 'Provide your suburb, the number of affected drawers or doors and whether they still operate. A safe photo of the full cabinet and a visible runner or hinge helps explain the problem. Empty loose contents if this can be done safely, but do not repeatedly force a sagging drawer or remove it solely for a photograph.', enquiry, 'For a new kit rather than an existing cabinet fault, see <a href="/services/flat-pack-assembly/">flat-pack furniture assembly</a>. Use the <a href="/guides/field-notes-wall-interior-repairs-job-list/">interior repair job-list guide</a> when grouping several small jobs. <a href="/contact/">Request a cabinet or drawer assessment</a>.'),
+  ],
+  faqs:[
+   {question:'Can a sagging drawer be repaired without replacing the kitchen?',answer:'A targeted repair may be possible. The runners, drawer box and cabinet fixing points need assessment before deciding whether hardware work or additional cabinet repair is appropriate.'},
+   {question:'Do all damaged drawer runners need replacing?',answer:'Not necessarily. Condition, fixings and compatible parts determine the proposed repair. The supplied case documents runner repair; it does not establish that replacement is required for every drawer.'},
+   {question:'Can you also assess uneven cupboard doors?',answer:'Yes. Describe the affected doors and visible hinge or alignment issue. The Unley case shows cabinet-door alignment work, which is a separate task from drawer-runner repair.'},
+  ],
+ },
+ {
+  slug:'sliding-door-repair',title:'Sliding door repair in Adelaide',
+  description:'Sliding glass door hard to move or noisy? MEL ONE assesses rollers, tracks and movement in Adelaide. See a real patio-door repair and prepare your enquiry.',
+  parent:'doors-windows-screens',caseSlugs:['sliding-patio-door-roller-track-repair','marion-wardrobe-sliding-door-repair'],
+  sections:[
+   section('A sliding glass door that drags or makes noise', 'Sliding door repair in Adelaide starts with the door type and the reported movement problem. Tell MEL ONE whether a glass patio panel drags along the track, catches at one point or makes noise when pushed. Lower rollers, accumulated debris, the track and alignment need checking before a repair is proposed.', 'Avoid forcing a heavy panel to keep it moving. Describe any instability, visible glass damage or inability to close the door when enquiring. A noisy or stiff door is a symptom, not enough information to specify a roller or conclude that cleaning alone will solve it.'),
+   section('Real evidence: lower rollers and a dusty track', 'The patio-door case below records damaged lower rollers and dust in the track channel. The reported result was difficult movement and noise when the door was pushed forcefully. The before, during and after photos document the affected lower track, work around the roller area and the visible finish after repair.', 'The Marion record concerns a sliding wardrobe door, not patio glazing. Keeping these examples separate matters: panel weight, roller housings, guides and track profiles vary between systems. An insect-screen enquiry belongs on our <a href="/services/flyscreen-repair/">flyscreen repair page</a>.'),
+   section('Roller repair, track clearing and wider issues', 'Assessment considers the lower running hardware, accessible track, alignment and the surrounding frame. Clearing loose debris and repairing a damaged roller are distinct parts of a potential work scope. A bent or heavily worn track may need a different approach from a dirty channel.', 'Compatible parts depend on the actual door system. Glass replacement, security hardware, fire-rated assemblies and substantial frame damage are not automatically included in roller or track work. Explain those concerns separately so suitable specialist arrangements can be discussed before approval. We do not promise a particular part or repair outcome from photos alone.'),
+   section('What to send before an assessment', 'Give your suburb, the door type, how many panels are affected and whether access or closing is restricted. Safe existing photos of the full door and lower track are useful. If a manufacturer label is already accessible, include it; do not lift out a glass panel or dismantle the door to find one.', enquiry, 'For hinged doors, see <a href="/services/door-repair/">door alignment and hinge repair</a>. The <a href="/guides/field-notes-doors-windows-screens-enquiry/">door and screen enquiry guide</a> helps organise the details. <a href="/contact/">Request a sliding-door assessment</a>.'),
+  ],
+  faqs:[
+   {question:'Will cleaning the track fix a hard-to-move sliding door?',answer:'It may help when debris is the issue, but damaged rollers or a worn track can require repair. The supplied patio-door record had both damaged lower rollers and dust in the channel.'},
+   {question:'Are patio doors and wardrobe doors repaired the same way?',answer:'Not necessarily. Panel weight, rollers, guides and track profiles differ. Identify the door type so the assessment and compatible parts relate to the actual system.'},
+   {question:'Should I remove the glass panel for photos?',answer:'No. Leave heavy panels in place. Safe existing photos and a description are enough to request assessment; do not force a stuck or unstable door.'},
+  ],
+ },
+ {
+  slug:'wall-patching-repair',title:'Wall patching and repair in Adelaide',
+  description:'Arrange wall patching and small internal wall repairs in Adelaide. Compare MEL ONE Goodwood and CBD cases, discuss the finish and request an assessment.',
+  parent:'home-repairs-renovation-support',caseSlugs:['goodwood-wall-repair','adelaide-cbd-wall-repair'],
+  sections:[
+   section('Small internal wall damage, assessed before patching', 'Wall patching and repair enquiries in Adelaide are clearer when the damaged area and desired finish are described together. MEL ONE assesses small internal wall damage and the surrounding surface before agreeing the work. Tell us whether there is a hole, impact damage, loose material or damage close to skirting.', 'If you are searching for plasterboard or gyprock repair, identify the wall material if known rather than assuming it from the paint finish. Approximate size and safe photos of the full wall and damaged area help frame the assessment; they do not confirm the cause or hidden condition.'),
+   section('Goodwood wall patch and Adelaide CBD repair records', 'The Goodwood record documents a completed internal wall patch. The Adelaide CBD record covers lower-wall and skirting repair. These are two different repair settings, with photographs showing their individual work stages.', 'Use the cases to discuss the area requiring attention and whether adjacent trim is part of your request. Neither record establishes that an active crack, damp area or recurring damage at another property needs only cosmetic patching. Report moisture, movement or repeated cracking before a finish is agreed.'),
+   section('Agree the patch and finishing scope', 'Discuss the wall surface, access, preparation, patching and finishing expected in the written quote. Painting, colour matching and repairs to adjoining trim should be identified separately rather than assumed to be included. Existing texture, paint age and lighting affect how a repaired area appears.', 'A patch does not address the source of a leak or structural movement. Suspected hazardous materials, electrical fittings or extensive damage need appropriate assessment before disturbance. Describe what is known without removing wall material to investigate.'),
+   section('Prepare the wall repair request', 'Provide your suburb, approximate affected area, room and any tenancy or owner approval needed. Mention furniture that limits access and whether spare matching paint is available. Safe existing photos are optional; keep personal documents and identifying details out of the frame.', enquiry, 'For several indoor jobs, use our <a href="/guides/field-notes-wall-interior-repairs-job-list/">wall and interior repair checklist</a>. Compare <a href="/service-standards/#quote-details">what a written quote should cover</a>, then <a href="/contact/">request a wall repair assessment</a>.'),
+  ],
+  faqs:[
+   {question:'Is painting included with wall patching?',answer:'Not automatically. Confirm preparation, patching, painting and any colour-matching requirement in the written quote so the agreed finish is clear.'},
+   {question:'Can a recurring crack simply be patched?',answer:'The cause needs consideration first. Mention repeated cracking, movement or moisture during the enquiry; cosmetic patching does not resolve an underlying leak or structural issue.'},
+   {question:'What photos help explain a small wall repair?',answer:'A safe photo of the full wall and a closer view of the affected area are useful. Include approximate size and nearby skirting or fittings without disturbing wall material.'},
+  ],
+ },
+ {
+  slug:'pressure-cleaning',title:'Pressure cleaning in Adelaide',
+  description:'Discuss driveway and paved-surface pressure cleaning in Adelaide. See the MEL ONE Burnside driveway case and confirm surface condition, access and cleaning scope.',
+  parent:'cleaning-removals-specialist-care',caseSlugs:['burnside-driveway-pressure-cleaning'],
+  sections:[
+   section('Driveway and paved-surface cleaning', 'Pressure cleaning in Adelaide needs a surface-specific plan. MEL ONE assesses driveway and paved-surface cleaning requests by looking at the material, condition, access and proposed result. Tell us whether the area is paved, concrete, coated or sealed and describe the dirt or growth you want addressed.', 'Stronger pressure is not automatically the right treatment. Loose pavers, damaged joints and an ageing coating can affect the method and scope. An assessment helps separate cleaning from repairs, sealing or stain treatment that may need their own agreement.'),
+   section('The Burnside driveway cleaning record', 'Our Burnside case documents pressure cleaning of a paved driveway. The supplied sequence shows the original condition, cleaning work and the visible result for that surface. It is evidence of a particular job, not a promise that every stain or coating will respond in the same way.', 'Use the photographs to explain the area you have in mind, then identify its material and current condition. Roof cleaning, delicate finishes and other specialist surfaces are not established by this driveway example. Discuss those requests separately rather than assuming a driveway method is suitable.'),
+   section('Confirm access, water and surrounding areas', 'Give the approximate area and explain vehicle access, water availability, drainage and nearby plants or belongings. Mention damaged joints, loose material and any known coating or previous treatment. These details help plan the visit without deciding the cleaning method from a photo.', 'The written quote should identify the included surfaces, agreed cleaning work and preparation responsibilities. Sealing, joint repairs, stain guarantees and cleaning additional areas are not automatic inclusions. Discuss any remaining concern after the agreed work rather than assuming cleaning has repaired the underlying surface.'),
+   section('Prepare a pressure cleaning enquiry', 'Provide your suburb, surface type if known and safe existing photos showing the area and visible condition. Describe access restrictions and items that need moving. Do not move heavy objects solely for an enquiry photograph; agree preparation arrangements before the visit.', enquiry, 'Read the <a href="/guides/field-notes-cleaning-removals-preparation/">cleaning preparation guide</a> and <a href="/service-standards/#quote-details">quote checklist</a>. <a href="/contact/">Request a driveway cleaning assessment</a>.'),
+  ],
+  faqs:[
+   {question:'Will pressure cleaning remove every driveway stain?',answer:'No universal result can be promised. Surface condition, stain type and previous coatings affect the proposed method and expected result, which should be discussed during assessment.'},
+   {question:'Does driveway cleaning include sealing or joint repairs?',answer:'Not automatically. Cleaning, sealing and repairs are separate work items that need to be identified in the written quote.'},
+   {question:'What access details should I send?',answer:'Include approximate area, vehicle access, water availability, drainage and nearby items or plants. Mention damaged joints, loose pavers and any known surface coating.'},
+  ],
+ },
+];
+
+const photos=(prefix,alts,captions)=>['before','during','after'].map((stage,i)=>({src:`/assets/images/cases/${prefix}-${stage}.png`,alt:alts[i],caption:`${['Before','During','After'][i]}: ${captions[i]}`}));
+const newCases=[
+ {
+  slug:'kitchen-drawer-runner-repair',title:'Kitchen Drawer Runner Repair: A Sagging Drawer',
+  description:'A MEL ONE kitchen drawer runner repair record: damaged runners caused the drawer to sag and made opening and closing difficult. See before, during and after photos.',
+  suburb:null,publishedDate:'2026-10-12',service:'interior-repairs-assembly',
+  keywords:['drawer runner repair','sagging kitchen drawer','drawer slide repair'],
+  problem:'Damaged drawer runners caused sagging and difficult opening and closing',
+  result:'Drawer runner repair documented in before, during and after photographs',
+  images:photos('drawer-runner-repair',[
+   'Sagging kitchen drawer with exposed side runner before repair',
+   'Technician working on the kitchen drawer side runner with a cordless tool',
+   'Kitchen drawer and side runner after the recorded repair',
+  ],[
+   'the kitchen drawer sits unevenly, with the side runner and drawer edge visible.',
+   'a technician supports the drawer while working on the runner fixings.',
+   'the final supplied view shows the drawer and runner after the repair stage.',
+  ]),
+  sections:[
+   section('The problem: a drawer that sagged and would not travel smoothly', 'The supplied job description identifies damaged drawer runners as the cause of sagging and difficulty opening and closing this kitchen drawer. The before photograph shows the drawer front, exposed side runner and surrounding cabinet, giving context to the reported fault.'),
+   section('The repair sequence', 'The work-stage photograph shows a technician supporting the drawer and working on the side runner with a cordless tool. The final supplied view records the drawer after runner repair. These three images document this repair without identifying a replacement-part brand or claiming a new load rating.', 'A still photograph cannot demonstrate travel effort or a long-term performance result. The case records the supplied problem and visible work stages; it is not a claim that runner replacement is always necessary.'),
+   section('Have a similar drawer problem?', 'Describe whether the drawer drops, catches or will not close. The runner, drawer box and cabinet attachment points need checking together before the scope is confirmed. Do not force a sagging drawer or remove it solely to take a photograph.', enquiry),
+  ],
+ },
+ {
+  slug:'sliding-patio-door-roller-track-repair',title:'Sliding Patio Door Repair: Lower Rollers and a Dusty Track',
+  description:'A MEL ONE sliding patio-door repair record: damaged lower rollers and dust in the track made movement difficult and noisy. View before, during and after photographs.',
+  suburb:null,publishedDate:'2026-10-12',service:'doors-windows-screens',
+  keywords:['sliding door roller repair','patio door track cleaning','sliding glass door hard to move','noisy sliding door'],
+  problem:'Damaged lower rollers and dust in the track caused difficult movement and noise when pushed forcefully',
+  result:'Lower roller repair and track clearing documented in the supplied photo sequence',
+  images:photos('sliding-patio-door-roller-repair',[
+   'Sliding glass patio door with dust and debris in the lower track before repair',
+   'Technician working on a removed glass patio-door panel supported on protective blankets',
+   'Sliding patio door and cleared lower track after the recorded repair',
+  ],[
+   'dust and debris are visible along the lower patio-door track.',
+   'a technician works on the removed patio-door panel, supported on protective blankets with tools nearby.',
+   'the final supplied view shows the door and a clearer lower track after work.',
+  ]),
+  sections:[
+   section('The problem: stiff movement and noise under force', 'The supplied job description identifies damaged lower rollers and dust in the track channel. Together these made the sliding patio door difficult to move, with noise when it was pushed forcefully. The before photograph shows debris around the lower running track.'),
+   section('Lower roller work and track clearing', 'The during photograph records a technician working on the removed glass patio-door panel, supported on protective blankets. Tools and hardware are visible beside the panel. The after photograph shows the door reinstalled and the lower track following the recorded repair and clearing work.', 'The supplied material does not identify a roller brand or establish whether all components were replaced. Still photos cannot measure noise reduction or opening force. We document the stated fault and the visible repair sequence without adding those claims.'),
+   section('Prepare a sliding-door repair request', 'Identify whether the door is a glass patio panel, wardrobe panel or insect screen. Describe where it catches, any noise and whether it closes. Leave heavy or unstable panels in place and avoid forcing a stuck door.', enquiry),
+  ],
+ },
+];
+
+export function applyAdditionalRepairContent(content,facts){
+ for(const study of newCases){
+  const record=structuredClone(study);
+  record.sections[1].paragraphs.unshift(`${study.result}.`);
+  record.relatedReading=[{url:'/service-standards/',label:'Assessment, written quote and scope boundaries'}];
+  content.caseStudies.push(record);
+  facts[study.slug]=[study.problem,study.result];
+ }
+ for(const service of additionalFocusedServices){
+  for(const slug of service.caseSlugs){
+   const study=content.caseStudies.find(item=>item.slug===slug);
+   study.relatedReading=[...(study.relatedReading||[]),{url:`/services/${service.slug}/`,label:service.title}];
+  }
+ }
+ for(const [guideSlug,caseSlug] of [
+  ['field-notes-wall-interior-repairs-job-list','kitchen-drawer-runner-repair'],
+  ['field-notes-doors-windows-screens-enquiry','sliding-patio-door-roller-track-repair']]){
+  const guide=content.guides.find(item=>item.slug===guideSlug);
+  const study=content.caseStudies.find(item=>item.slug===caseSlug);
+  guide.relatedReading.push({url:`/case-studies/${caseSlug}/`,label:study.title});
+  study.relatedReading.push({url:`/guides/${guideSlug}/`,label:guide.title});
+ }
+}

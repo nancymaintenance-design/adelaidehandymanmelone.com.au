@@ -37,6 +37,6 @@ test('five focused service routes preserve case evidence and reciprocal discover
     assert.ok(html.includes('href="/contact/"'));
     for (const file of ['sitemap.xml', 'llms.txt']) assert.equal(fixture.read(file).split(`https://example.test${route}`).length - 1, 1);
   }
-  assert.equal((fixture.read('sitemap.xml').match(/<loc>/g) || []).length, 96);
+  assert.equal((fixture.read('sitemap.xml').match(/<loc>/g) || []).length, 102);
   assert.match(fixture.read('services/fence-gate-repair/index.html'), /assessment.only|assessment record/i);
 });

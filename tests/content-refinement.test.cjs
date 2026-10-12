@@ -77,5 +77,5 @@ test('region hubs connect task guidance and quote planning without expanding geo
     assert.match(html,/href="\/guides\//,region.name);
     assert.match(html,/href="\/service-standards\/#quote-details"/,region.name);
   }
-  assert.equal((fixture.read('sitemap.xml').match(/<loc>/g)||[]).length,96);
+  assert.equal((fixture.read('sitemap.xml').match(/<loc>/g)||[]).length,102);
 });

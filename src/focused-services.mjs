@@ -1,5 +1,7 @@
+import { additionalFocusedServices } from './additional-repair-content.mjs';
 /** Focused enquiry pages supplement, and never replace, the nine approved categories. */
 export const focusedServices = [
+  ...additionalFocusedServices,
   {
     slug: 'flyscreen-repair', title: 'Flyscreen repair in Adelaide',
     description: 'Arrange an assessment of torn flyscreen mesh, loose frames or sliding screen doors in Adelaide. See MEL ONE repair records and prepare your enquiry.',
