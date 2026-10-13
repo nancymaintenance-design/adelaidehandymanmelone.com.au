@@ -1,6 +1,7 @@
 // Editorial provenance: task-2-report.md (2026-10-13); Oct12 release receipt.
 // These are content dates, never dates of construction or a build-clock refresh.
 export const pageRevisions = Object.fromEntries([
+  ['/contact/', '2026-10-13'], // Approved suburb-query form prefill, final-fix-report.md.
   ...['cabinet-drawer-repair','sliding-door-repair','wall-patching-repair','pressure-cleaning'].map(slug => [`/services/${slug}/`, '2026-10-13']),
   ...['cbd-north-adelaide/adelaide-cbd','cbd-north-adelaide/bowden','eastern-suburbs/burnside','inner-south/unley','inner-south/goodwood','inner-south/parkside','inner-west/brompton','western-suburbs/glenelg','southern-suburbs/marion'].map(slug => [`/service-areas/${slug}/`, '2026-10-13']),
   ...['kitchen-drawer-runner-repair','sliding-patio-door-roller-track-repair'].map(slug => [`/case-studies/${slug}/`, '2026-10-12'])

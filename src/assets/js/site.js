@@ -61,6 +61,12 @@
   }
   const form = document.querySelector('[data-enquiry-form]');
   if (!form) return;
+  if (form.dataset.suburbOptions && !form.elements.suburb.value) {
+    const query = new URLSearchParams(window.location.search);
+    const suburb = JSON.parse(form.dataset.suburbOptions).find(option =>
+      option.slug === query.get('suburb') && (!query.has('region') || option.region === query.get('region')));
+    if (suburb) form.elements.suburb.value = suburb.name;
+  }
   const button = form.querySelector('[data-enquiry-submit]');
   const status = form.querySelector('[data-enquiry-status]');
   const validate = values => {

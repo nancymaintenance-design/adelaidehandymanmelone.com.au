@@ -65,7 +65,7 @@ test('verified dates and llms locality are truthful', async () => {
     assert.match(html,/Published <time datetime="2026-10-12">2026-10-12<\/time>/);
     assert.match(html,/"datePublished":"2026-10-12"/);
   }
-  assert.ok(xml.includes('/contact/</loc></url>'));
+  assert.ok(xml.includes('/contact/</loc><lastmod>2026-10-13</lastmod></url>'));
   assert.match(fs.readFileSync('public/llms.txt','utf8'), /suburb only when supplied/);
 });
 test('Vercel exact-route candidate covers sitemap variants without broad file/API redirects', () => {

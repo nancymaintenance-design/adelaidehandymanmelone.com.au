@@ -302,6 +302,10 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
     if (!body.includes('<section class="contact-band"')) throw new Error(`Missing focused-service insertion point: ${route}`);
     body = body.replace(/(<section class="contact-band")/, `${focusedLinks(children)}$1`);
   }
+  if (route === '/contact/') {
+    const suburbOptions = serviceAreas.flatMap(area => areaSuburbs(area).map(suburb => ({ slug: suburb.slug, name: suburb.name, region: area.slug })));
+    body = body.replace('data-enquiry-form', `data-enquiry-form data-suburb-options="${escapeHtml(JSON.stringify(suburbOptions))}"`);
+  }
   if (['/', '/about/', '/contact/'].includes(route)) body += trustDecision();
   if (route === '/') {
     body = body.replace(/<figure class="hero-figure">[\s\S]*?<\/figure>/, homeRepairRecord());
