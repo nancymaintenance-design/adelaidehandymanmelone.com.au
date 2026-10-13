@@ -33,7 +33,9 @@ test('new case photos keep before, during and after order without inventing job 
   assert.ok(html.includes(`/services/${service}/`));
   assert.doesNotMatch(html,/null maintenance|null handyman|undefined|NaN/);
   assert.equal((html.match(/class="case-photo-frame"/g)||[]).length,3);
-  assert.match(html,/srcset="[^"]+-480-detail\.webp 480w/);
+  assert.match(html,/srcset="[^"]+-480\.webp 480w/);
+  assert.match(html,/<source type="image\/avif"/);
+  assert.doesNotMatch(html,/-detail\.webp/);
   assert.match(html,slug==='kitchen-drawer-runner-repair'?/width="1448" height="1086"/:/width="1600" height="1200"/);
  }
 });

@@ -165,18 +165,36 @@ for (const metadata of Object.values(imageManifest)) {
 
 // One media boundary reserves real geometry and chooses an appropriate download.
 function responsiveImages(html) {
+  // Tag layout at the authored boundary before wrapping images in picture.
+  html = html.replace(/(<article class="note-card work-card"[^]*?<img)\b/g, '$1 data-image-layout="card"');
+  html = html.replace(/(<figure class="area-atlas-hero"[^]*?<img)\b/g, '$1 data-image-layout="wide"');
   return html.replace(/<img\b[^>]*>/g, tag => {
     const source = tag.match(/src="([^"]+)"/)?.[1];
     const metadata = imageManifest[source];
     if (!metadata) return tag;
     const attributes = tag.slice(0, -1).replace(/\s(?:width|height)="[^"]*"/g, '');
     const detail = tag.includes('data-detail-photo');
-    const sizes = detail ? '(max-width: 650px) 42vw, 460px' : '(max-width: 650px) calc(100vw - 36px), (max-width: 850px) 46vw, 640px';
-    const variants = detail ? metadata.detailVariants : metadata.variants;
+    const layout = tag.match(/data-image-layout="([^"]+)"/)?.[1];
+    // Contained case photos are limited by both the two-column grid and frame height.
+    const ratio = metadata.width / metadata.height;
+    const mobileCap = Math.min(metadata.width, 140 * ratio).toFixed(2);
+    const desktopCap = Math.min(metadata.width, 240 * ratio).toFixed(2);
+    const sizes = detail
+      ? `(max-width: 520px) min(calc(50vw - 24px), ${mobileCap}px), (max-width: 650px) min(calc(50vw - 26px), ${mobileCap}px), (max-width: 850px) min(calc(50vw - 32px), ${desktopCap}px), (max-width: 1100px) min(calc(50vw - 40px), ${desktopCap}px), min(388px, ${desktopCap}px)`
+      : layout === 'comparison'
+        ? '(max-width: 520px) calc(50vw - 39px), (max-width: 850px) min(calc(50vw - 47px), 283px), (max-width: 1100px) calc(25.961538vw - 50.365px), (max-width: 1376px) calc(24.663462vw - 51.923px), (max-width: 1600px) calc(305.308px - 1.298077vw), 284.538px'
+        : layout === 'card'
+          ? '(max-width: 520px) calc(100vw - 36px), (max-width: 850px) calc(50vw - 32px), (max-width: 1100px) calc(33.333vw - 34.667px), (max-width: 1376px) calc(33.333vw - 48px), 410.667px'
+          : layout === 'wide'
+            ? '(max-width: 520px) calc(100vw - 38px), (max-width: 850px) calc(100vw - 42px), (max-width: 1100px) calc(100vw - 58px), (max-width: 1376px) calc(100vw - 98px), 1278px'
+            : tag.includes('task-wall-texture')
+              ? '(max-width: 520px) calc(100vw - 36px), (max-width: 850px) calc(100vw - 40px), (max-width: 1100px) calc(100vw - 56px), (max-width: 1376px) calc(100vw - 96px), 1280px'
+              : '(max-width: 520px) calc(100vw - 36px), (max-width: 850px) calc(100vw - 40px), 780px';
+    const variants = metadata.variants;
     if (!variants?.length) throw new Error(`Missing photo derivatives: ${source}`);
     const image = `${attributes} width="${metadata.width}" height="${metadata.height}" srcset="${variants.map(v => `${v.src} ${v.width}w`).join(', ')}" sizes="${sizes}">`;
     // Positioned decoration must not acquire an in-flow picture grid item.
-    if (detail || tag.includes('task-wall-texture')) return image;
+    if (tag.includes('task-wall-texture')) return image;
     return metadata.avifVariants?.length ? `<picture><source type="image/avif" srcset="${metadata.avifVariants.map(v => `${v.src} ${v.width}w`).join(', ')}" sizes="${sizes}">${image}</picture>` : image;
   });
 }
@@ -205,7 +223,7 @@ function workCard(study) {
 
 function markedPhoto(image, label, x = 50, y = 65, priority = false, detail = false, eager = false) {
   const loading = priority ? 'fetchpriority="high"' : eager ? 'loading="eager"' : 'loading="lazy"';
-  return `<div class="annotated-photo"><img ${detail ? 'data-detail-photo ' : ''}src="${image.src}" alt="${escapeHtml(image.alt)}" ${loading} decoding="async"><span class="photo-annotation" style="--pin-x:${x}%;--pin-y:${y}%"><span class="annotation-point" aria-hidden="true"></span><span class="annotation-label">${escapeHtml(label)}</span></span></div>`;
+  return `<div class="annotated-photo"><img ${detail ? 'data-detail-photo ' : 'data-image-layout="comparison" '}src="${image.src}" alt="${escapeHtml(image.alt)}" ${loading} decoding="async"><span class="photo-annotation" style="--pin-x:${x}%;--pin-y:${y}%"><span class="annotation-point" aria-hidden="true"></span><span class="annotation-label">${escapeHtml(label)}</span></span></div>`;
 }
 
 function homeWork() {

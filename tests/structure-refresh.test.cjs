@@ -41,14 +41,16 @@ test('decorative task texture stays out of the card grid flow', () => {
   }
 });
 
-test('case details use four compact frames and lossless photo candidates', () => {
+test('case details use four compact frames and efficient approved photo candidates', () => {
   const html = fixture.read('case-studies/burnside-driveway-pressure-cleaning/index.html');
   assert.match(html, /class="service-visual-gallery case-photo-grid"/);
   assert.equal((html.match(/class="case-photo-frame"/g) || []).length, 4);
   const gallery = html.match(/<section class="service-visual-gallery[^]*?<\/section>/)[0];
-  assert.doesNotMatch(gallery, /image\/avif/);
+  assert.match(gallery, /image\/avif/);
   for (const img of gallery.match(/<img\b[^>]*>/g)) {
-    assert.match(img, /srcset="[^"]+-detail\.webp \d+w/);
+    assert.doesNotMatch(img, /-detail\.webp/);
+    assert.match(img, /sizes="[^"]*min\(/);
+    assert.match(img, /loading="lazy" decoding="async"/);
   }
 });
 
@@ -61,14 +63,29 @@ test('all generated photos reserve geometry and serve responsive approved deriva
       assert.match(image, /height="\d+"/, file);
       if (/src="\/assets\/images\//.test(image)) {
         assert.match(image, /srcset="[^"]+\.webp \d+w/, file);
-        if (image.includes('data-detail-photo')) assert.match(image, /-detail\.webp/);
+        assert.ok(fs.existsSync(path.join(fixture.output, image.match(/src="([^"]+)"/)[1])), 'original retained');
         for (const candidate of image.match(/srcset="([^"]+)"/)[1].split(', ')) {
           const [source] = candidate.split(' ');
           assert.ok(fs.existsSync(path.join(fixture.output, source)), `${file}: ${source}`);
         }
       }
     }
+    for (const source of html.match(/<source\b[^>]*>/g) || []) {
+      for (const candidate of source.match(/srcset="([^"]+)"/)[1].split(', ')) {
+        assert.ok(fs.existsSync(path.join(fixture.output, candidate.split(' ')[0])), file);
+      }
+    }
   }
+});
+
+test('home comparison, work cards and full-width atlas declare their own layout sizes', () => {
+  const home = fixture.read('index.html');
+  const pair = home.match(/class="record-pair"[^]*?<\/a>/)[0];
+  assert.match(pair, /sizes="\(max-width: 520px\) calc\(50vw - 39px\)/);
+  const card = home.match(/class="note-card work-card"[^]*?<\/article>/)[0];
+  assert.match(card, /sizes="\(max-width: 520px\) calc\(100vw - 36px\)/);
+  const atlas = fixture.read('service-areas/index.html').match(/class="area-atlas-hero"[^]*?<\/figure>/)[0];
+  assert.match(atlas, /sizes="[^"]*1278px"/);
 });
 
 test('HTML and llms discovery expose feeds and local pages link only genuine local cases', () => {
