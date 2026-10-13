@@ -11,6 +11,7 @@ import { applyKeywordGapRefinement } from './src/keyword-gap-refinement.mjs';
 import { applyAdditionalRepairContent } from './src/additional-repair-content.mjs';
 import { applyTopicLinkRefinement } from './src/topic-link-refinement.mjs';
 import { siteBootstrap, securityPolicy, validateSecurityPolicy } from './src/security-policy.mjs';
+import { pageRevisions, validateEditorialDate } from './src/page-revisions.mjs';
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.join(projectDir, process.argv.includes('--docs') ? 'docs' : 'public');
@@ -34,6 +35,8 @@ for (const [name, preparation] of Object.entries(localPreparation)) {
   suburbGuidance[name].preparation = preparation;
 }
 const editorialUpdates = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/editorial-updates.json'), 'utf8'));
+for (const revision of Object.values(editorialUpdates)) validateEditorialDate(revision.date);
+for (const date of Object.values(pageRevisions)) validateEditorialDate(date);
 const businessFacts = JSON.parse(fs.readFileSync(path.join(projectDir, 'src/content-pack/business-facts.json'), 'utf8'));
 const hoursText = `${businessFacts.hours.days[0]}–${businessFacts.hours.days.at(-1)}, ${businessFacts.hours.opens}–${businessFacts.hours.closes} (${businessFacts.hours.timeZoneLabel})`;
 const collections = ['services', 'news', 'guides', 'faqs'];
@@ -274,6 +277,12 @@ function trustDecision() {
   return `<section class="section wrap reading" id="service-decision"><p class="eyebrow">Before approving work</p><h2>Know who is coming and what is agreed.</h2><p>${escapeHtml(businessFacts.adelaideIdentity)}</p><p>${escapeHtml(businessFacts.premisesVisits)}</p><p>We assess the reported issue, explain the scope and written quote, and confirm any specialist provider and required documents before approval. An assessment appointment does not commit you to repair work.</p><p><a class="text-link" href="/service-standards/">Service standards and follow-up ↗</a></p></section>`;
 }
 function page({ route, title, description, body, schema = [], crumbs = [], noindex = false, lastmod }) {
+  lastmod ||= pageRevisions[route];
+  if (lastmod) validateEditorialDate(lastmod);
+  for (const item of schema) {
+    if (item.datePublished) validateEditorialDate(item.datePublished);
+    if (item.dateModified) validateEditorialDate(item.dateModified, item.datePublished);
+  }
   const decisionCopy = {
     '/faq/': ['Adelaide handyman questions: costs, bookings and repairs', 'Adelaide handyman questions', 'Answers about handyman costs, call-out charges, weekend hours, parts, approval and repair follow-up with MEL ONE in Adelaide.'],
     '/contact/': ['Request an Adelaide handyman assessment and quote', 'Request an assessment and quote', 'Tell MEL ONE what needs repair and your Adelaide suburb. Call 0416 614 281 or send an enquiry; seven-day business hours are 09:00–21:00.'],
@@ -517,6 +526,6 @@ fs.writeFileSync(path.join(siteDir, 'service-areas', 'feed.json'), JSON.stringif
 fs.mkdirSync(path.join(siteDir, 'case-studies'), { recursive: true });
 fs.writeFileSync(path.join(siteDir, 'case-studies', 'feed.json'), JSON.stringify({ version: 1, generatedAt: new Date().toISOString(), title: `${site.title} photographed Adelaide maintenance case studies`, homePageUrl: canonical('/case-studies/'), feedUrl: canonical('/case-studies/feed.json'), items: caseStudies.map(study => ({ id: canonical(`/case-studies/${study.slug}/`), url: canonical(`/case-studies/${study.slug}/`), title: study.title, summary: study.description, datePublished: study.publishedDate ? `${study.publishedDate}T00:00:00+10:30` : '2026-09-30T00:00:00+09:30', suburb: study.suburb, serviceUrl: canonical(`/services/${study.service}/`), keywords: study.keywords, problem: repairFacts[study.slug][0], result: repairFacts[study.slug][1], stage: study.slug.endsWith('-assessment') ? 'assessment' : 'completed-work', images: study.images.map(image => canonical(image.src)) })) }, null, 2));
 fs.writeFileSync(path.join(siteDir, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: ${canonical('/sitemap.xml')}\n`);
-fs.writeFileSync(path.join(siteDir, 'llms.txt'), `# ${site.title}\n\n> ${site.description}\n\n## Company contact\n\n- Legal entity: ${businessFacts.legalName}\n- ABN: ${businessFacts.abn}\n- ACN: ${businessFacts.acn}\n- Official record: ${businessFacts.registryUrl}\n- Business hours: ${hoursText}\n- Phone: ${contact.phone}\n- Email: ${contact.email}\n- Contact address: ${contact.address}\n\n## Content context\n\nThis is MEL ONE’s Adelaide website. ${businessFacts.adelaideIdentity} ${businessFacts.premisesVisits} Service pages describe practical household-maintenance support. Availability, timing and specialist coordination are confirmed for each request. Field notes are original general guidance that helps customers prepare useful household-maintenance enquiries. Photographed case studies identify the local suburb, visible maintenance concern, supplied image sequence and connected service page.\n\n## Pages\n\n${routes.map(({ route, title, description }) => `- [${title}](${canonical(route)}): ${description}`).join('\n')}\n`);
+fs.writeFileSync(path.join(siteDir, 'llms.txt'), `# ${site.title}\n\n> ${site.description}\n\n## Company contact\n\n- Legal entity: ${businessFacts.legalName}\n- ABN: ${businessFacts.abn}\n- ACN: ${businessFacts.acn}\n- Official record: ${businessFacts.registryUrl}\n- Business hours: ${hoursText}\n- Phone: ${contact.phone}\n- Email: ${contact.email}\n- Contact address: ${contact.address}\n\n## Content context\n\nThis is MEL ONE’s Adelaide website. ${businessFacts.adelaideIdentity} ${businessFacts.premisesVisits} Service pages describe practical household-maintenance support. Availability, timing and specialist coordination are confirmed for each request. Field notes are original general guidance that helps customers prepare useful household-maintenance enquiries. Photographed case studies identify the suburb only when supplied, visible maintenance concern, supplied image sequence and connected service page.\n\n## Pages\n\n${routes.map(({ route, title, description }) => `- [${title}](${canonical(route)}): ${description}`).join('\n')}\n`);
 console.log(`MEL ONE website: ${routes.length + 1} pages generated in ${siteDir}`);
 fs.appendFileSync(path.join(siteDir, 'llms.txt'), `\n## Machine-readable data\n\n- [Photographed case study data](${canonical('/case-studies/feed.json')}): Custom JSON catalogue of the same cases shown in HTML, with service, suburb and original image references.\n- [Service area data](${canonical('/service-areas/feed.json')}): Region hubs and suburb page URLs matching the live hierarchy.\n`);

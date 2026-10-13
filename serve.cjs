@@ -33,6 +33,12 @@ const server = http.createServer((req, res) => {
   let url;
   try { url = decodeURIComponent(req.url.split('?')[0]); }
   catch { res.writeHead(400); res.end('Invalid URL'); return; }
+  const canonicalPath = url === '/index.html' ? '/' : url.endsWith('/index.html') ? url.slice(0, -10) : !path.extname(url) && !url.endsWith('/') ? url + '/' : null;
+  if (canonicalPath && fs.existsSync(path.join(ROOT, canonicalPath, 'index.html'))) {
+    const query = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+    res.writeHead(308, { Location: canonicalPath + query });
+    res.end(); return;
+  }
   if (url.endsWith('/')) url += 'index.html';
   const filePath = path.join(ROOT, url);
   if (!filePath.startsWith(ROOT + path.sep)) {
@@ -40,25 +46,23 @@ const server = http.createServer((req, res) => {
   }
 
   try {
-    if (!fs.existsSync(filePath)) {
+    if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
       const notFound = path.join(ROOT, '404.html');
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-      res.end(fs.readFileSync(notFound));
+      res.end(previewHtml(fs.readFileSync(notFound, 'utf8')));
       return;
     }
     const ext = path.extname(filePath);
     const mime = mimeTypes[ext] || 'application/octet-stream';
     res.writeHead(200, { 'Content-Type': mime, 'Cache-Control': 'no-cache' });
-    res.end(fs.readFileSync(filePath));
+    res.end(ext === '.html' ? previewHtml(fs.readFileSync(filePath, 'utf8')) : fs.readFileSync(filePath));
   } catch (e) {
     res.writeHead(500);
     res.end('Server error');
   }
 });
 
-server.listen(PORT, '127.0.0.1', () => {
-  console.log(`\nMEL ONE — local review preview (not deployed)`);
-  console.log(`   Local:   http://127.0.0.1:${PORT}`);
-  console.log(`   Network: http://localhost:${PORT}`);
-  console.log(`   Ctrl+C to stop\n`);
-});
+function previewHtml(html) {
+  return html.replace(/<script\b[^>]*\bsrc=["']https:\/\/www\.googletagmanager\.com\/[^"']*["'][^>]*>\s*<\/script>/gi, '');
+}
+server.listen(PORT, '127.0.0.1', () => console.log(`MEL ONE local review preview (not deployed): http://127.0.0.1:${server.address().port}`));
