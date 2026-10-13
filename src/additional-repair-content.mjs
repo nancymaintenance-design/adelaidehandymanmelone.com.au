@@ -1,10 +1,13 @@
 /** Supplied repair evidence, 12 October 2026. No job suburb or work date was supplied. */
 const section=(heading,...paragraphs)=>{
- const links=[];
- const plain=paragraphs.map(text=>text.replace(/<a href="([^"]+)">([^<]+)<\/a>/g,(_,url,label)=>{
-  links.push({url,label});return label;
- }));
- return {heading,paragraphs:plain,links};
+ const linked=paragraphs.map(text=>{
+  const matches=[...text.matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)];
+  if(!matches.length)return text;
+  const parts=[];let end=0;
+  for(const match of matches){parts.push(text.slice(end,match.index),{url:match[1],label:match[2]});end=match.index+match[0].length;}
+  parts.push(text.slice(end));return parts;
+ });
+ return {heading,paragraphs:linked};
 };
 const enquiry='Contact MEL ONE with your suburb, a short description and preferred contact details to arrange assessment. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. The condition, compatible materials and written quote are confirmed before agreed work begins.';
 export const additionalFocusedServices=[
@@ -123,6 +126,11 @@ const newCases=[
 ];
 
 export function applyAdditionalRepairContent(content,facts){
+ // Each service already explains assessment and approval in its specific scope.
+ // Keep the task preparation and direct contact link without repeating the shared enquiry paragraph.
+ for(const service of additionalFocusedServices){
+  for(const item of service.sections)item.paragraphs=item.paragraphs.filter(text=>text!==enquiry);
+ }
  for(const study of newCases){
   const record=structuredClone(study);
   record.sections[1].paragraphs.unshift(`${study.result}.`);

@@ -24,8 +24,8 @@ test('customers can find standards and confirmed Adelaide identity before making
 
 test('guide revisions show their original case photo source, publisher and matching metadata only', () => {
   for (const guide of fixture.content.guides.filter(x => x.status === 'approved')) {
-    const revisedOwners = ['field-notes-doors-windows-screens-enquiry', 'field-notes-wall-interior-repairs-job-list', 'field-notes-cleaning-removals-preparation', 'field-notes-rental-end-of-lease-maintenance-list', 'field-notes-pre-sale-home-maintenance-list'];
-    const expectedDate = revisedOwners.includes(guide.slug) ? '2026-10-12' : '2026-10-10';
+    const revisedOwners = ['field-notes-doors-windows-screens-enquiry', 'field-notes-wall-interior-repairs-job-list', 'field-notes-cleaning-removals-preparation', 'field-notes-pre-sale-home-maintenance-list'];
+    const expectedDate = revisedOwners.includes(guide.slug) ? '2026-10-13' : guide.slug === 'field-notes-rental-end-of-lease-maintenance-list' ? '2026-10-12' : '2026-10-10';
     const html = fixture.read(`guides/${guide.slug}/index.html`);
     const article = graph(html).find(x => x['@type'] === 'Article');
     assert.match(main(html), /Published by MEL ONE/);

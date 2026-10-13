@@ -9,6 +9,7 @@ import { focusedServices } from './src/focused-services.mjs';
 import { applyContentRefinement, regionNotes, localPreparation } from './src/content-refinement.mjs';
 import { applyKeywordGapRefinement } from './src/keyword-gap-refinement.mjs';
 import { applyAdditionalRepairContent } from './src/additional-repair-content.mjs';
+import { applyTopicLinkRefinement } from './src/topic-link-refinement.mjs';
 import { siteBootstrap, securityPolicy, validateSecurityPolicy } from './src/security-policy.mjs';
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -27,6 +28,7 @@ applySeoRefresh(content, repairFacts);
 applyContentRefinement(content, focusedServices);
 applyKeywordGapRefinement(content, focusedServices);
 applyAdditionalRepairContent(content, repairFacts);
+applyTopicLinkRefinement(content);
 for (const [name, preparation] of Object.entries(localPreparation)) {
   if (!suburbGuidance[name]) throw new Error(`Missing approved suburb guidance: ${name}`);
   suburbGuidance[name].preparation = preparation;
@@ -256,7 +258,8 @@ const actions = () => `<div class="actions">${enquire()}${call()}</div>`;
 const contactDetails = () => `<address><a href="tel:${phoneLink}">${escapeHtml(contact.phone)}</a><a href="mailto:${escapeHtml(contact.email)}">${escapeHtml(contact.email)}</a><span>${escapeHtml(contact.address)}</span></address><p>Business hours: ${escapeHtml(hoursText)}</p>`;
 const list = items => `<ul class="plain-list">${items.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
 const readingLinks = links => links?.length ? `<ul class="plain-list">${links.map(item => `<li><a href="${escapeHtml(item.url)}"${item.url.startsWith('https://') ? ' target="_blank" rel="noopener noreferrer"' : ''}>${escapeHtml(item.label)}</a></li>`).join('')}</ul>` : '';
-const sectionHtml = (section, index, anchors = false) => `<section${anchors ? ` id="guide-section-${index + 1}"` : section.id ? ` id="${escapeHtml(section.id)}"` : ''}><h2>${escapeHtml(section.heading || section.title)}</h2>${(section.paragraphs || (section.body ? [section.body] : [])).map(text => `<p>${escapeHtml(text)}</p>`).join('')}${section.items ? list(section.items) : ''}${readingLinks(section.links)}</section>`;
+const paragraphHtml = text => Array.isArray(text) ? text.map(part => typeof part === 'string' ? escapeHtml(part) : `<a href="${escapeHtml(part.url)}">${escapeHtml(part.label)}</a>`).join('') : escapeHtml(text);
+const sectionHtml = (section, index, anchors = false) => `<section${anchors ? ` id="guide-section-${index + 1}"` : section.id ? ` id="${escapeHtml(section.id)}"` : ''}><h2>${escapeHtml(section.heading || section.title)}</h2>${(section.paragraphs || (section.body ? [section.body] : [])).map(text => `<p>${paragraphHtml(text)}</p>`).join('')}${section.items ? list(section.items) : ''}${readingLinks(section.links)}</section>`;
 const guideContents = sections => `<nav class="guide-contents" aria-label="On this guide"><h2>In this guide</h2><ul class="plain-list">${sections.map((section, index) => `<li><a href="#guide-section-${index + 1}">${escapeHtml(section.heading || section.title)}</a></li>`).join('')}<li><a href="#guide-questions">Common questions</a></li></ul></nav>`;
 const faqList = (records = published.faqs) => `<div class="faq-list">${records.map(item => `<details><summary>${escapeHtml(item.question || item.title)}</summary><p>${escapeHtml(item.answer || item.description)}</p></details>`).join('')}</div>`;
 const faqSchema = (records = published.faqs) => ({ '@type': 'FAQPage', mainEntity: records.map(item => ({ '@type': 'Question', name: item.question || item.title, acceptedAnswer: { '@type': 'Answer', text: item.answer || item.description } })) });
