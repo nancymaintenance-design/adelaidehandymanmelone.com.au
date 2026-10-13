@@ -166,7 +166,11 @@ for (const metadata of Object.values(imageManifest)) {
 // One media boundary reserves real geometry and chooses an appropriate download.
 function responsiveImages(html) {
   // Tag layout at the authored boundary before wrapping images in picture.
-  html = html.replace(/(<article class="note-card work-card"[^]*?<img)\b/g, '$1 data-image-layout="card"');
+  html = html.replace(/(<div class="card-grid">)((?:<article\b[^]*?<\/article>)+)(<\/div>)/g, (_, open, cards, close) => {
+    const count = (cards.match(/<article\b/g) || []).length;
+    const layout = count === 1 ? 'card-single' : count === 2 ? 'card-pair' : 'card';
+    return open + cards.replace(/(<article class="note-card work-card"[^]*?<img)\b/g, `$1 data-image-layout="${layout}"`) + close;
+  });
   html = html.replace(/(<figure class="area-atlas-hero"[^]*?<img)\b/g, '$1 data-image-layout="wide"');
   return html.replace(/<img\b[^>]*>/g, tag => {
     const source = tag.match(/src="([^"]+)"/)?.[1];
@@ -183,6 +187,10 @@ function responsiveImages(html) {
       ? `(max-width: 520px) min(calc(50vw - 24px), ${mobileCap}px), (max-width: 650px) min(calc(50vw - 26px), ${mobileCap}px), (max-width: 850px) min(calc(50vw - 32px), ${desktopCap}px), (max-width: 1100px) min(calc(50vw - 40px), ${desktopCap}px), min(388px, ${desktopCap}px)`
       : layout === 'comparison'
         ? '(max-width: 520px) calc(50vw - 39px), (max-width: 850px) min(calc(50vw - 47px), 283px), (max-width: 1100px) calc(25.961538vw - 50.365px), (max-width: 1376px) calc(24.663462vw - 51.923px), (max-width: 1600px) calc(305.308px - 1.298077vw), 284.538px'
+        : layout === 'card-single'
+          ? '(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px'
+        : layout === 'card-pair'
+          ? '(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px'
         : layout === 'card'
           ? '(max-width: 520px) calc(100vw - 36px), (max-width: 850px) calc(50vw - 32px), (max-width: 1100px) calc(33.333vw - 34.667px), (max-width: 1376px) calc(33.333vw - 48px), 410.667px'
           : layout === 'wide'

@@ -88,6 +88,24 @@ test('home comparison, work cards and full-width atlas declare their own layout 
   assert.match(atlas, /sizes="[^"]*1278px"/);
 });
 
+test('one and two-card collections match compact cover layouts and their 720px switch', () => {
+  const counts = new Set();
+  for (const file of fs.readdirSync(fixture.output, { recursive: true }).filter(f => f.endsWith('.html'))) {
+    for (const [, cards] of fixture.read(file).matchAll(/<div class="card-grid">((?:<article\b[^]*?<\/article>)+)<\/div>/g)) {
+      const count = (cards.match(/<article\b/g) || []).length;
+      if (!cards.includes('class="note-card work-card"') || count > 2) continue;
+      counts.add(count);
+      for (const image of cards.match(/<img\b[^>]*>/g)) {
+        const sizes = image.match(/sizes="([^"]+)"/)[1];
+        assert.ok(sizes.startsWith('(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px)'), file);
+        if (count === 1) assert.ok(sizes.endsWith(', 410px'), file);
+        else assert.ok(sizes.includes('(max-width: 1100px) min(calc(50vw - 40px), 410px)'), file);
+      }
+    }
+  }
+  assert.deepEqual([...counts].sort(), [1, 2], 'cover real single and paired collections');
+});
+
 test('HTML and llms discovery expose feeds and local pages link only genuine local cases', () => {
   assert.match(fixture.read('case-studies/index.html'), /rel="alternate" type="application\/json"[^>]*case-studies\/feed.json/);
   assert.match(fixture.read('llms.txt'), /case-studies\/feed.json/);
