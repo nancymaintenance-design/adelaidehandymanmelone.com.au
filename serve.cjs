@@ -33,6 +33,11 @@ const server = http.createServer((req, res) => {
   let url;
   try { url = decodeURIComponent(req.url.split('?')[0]); }
   catch { res.writeHead(400); res.end('Invalid URL'); return; }
+  // Windows treats both separators as paths; browsers interpret // or /\ as an authority.
+  // Reject ambiguous decoded paths before filesystem checks or Location construction.
+  if (!url.startsWith('/') || url.includes('//') || /[\\\u0000-\u0020\u007f]/.test(url)) {
+    res.writeHead(400); res.end('Invalid URL'); return;
+  }
   const canonicalPath = url === '/index.html' ? '/' : url.endsWith('/index.html') ? url.slice(0, -10) : !path.extname(url) && !url.endsWith('/') ? url + '/' : null;
   if (canonicalPath && fs.existsSync(path.join(ROOT, canonicalPath, 'index.html'))) {
     const query = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
