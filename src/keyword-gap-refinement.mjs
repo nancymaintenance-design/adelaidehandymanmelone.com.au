@@ -27,7 +27,7 @@ export function applyKeywordGapRefinement(content,focused){
  const screen=get('flyscreen-repair');
  screen.title='Flyscreen repair & mesh replacement in Adelaide';
  screen.description='Torn flyscreen mesh or a sticking ordinary screen door in Adelaide? Compare MEL ONE repair records and arrange an assessment of mesh, frames and rollers.';
- replaceSection(screen,'Mesh, frames and sliding screens',section('ordinary-screen-repairs','Fly screen replacement or ordinary screen-door repair?',[
+ replaceSection(screen,'Mesh, frames and sliding screens',section('ordinary-screen-repairs','Flyscreen Mesh Replacement and Screen Door Hardware',[
   'Flyscreen repair starts with the part that is damaged. Torn mesh may need remeshing while retaining a usable frame. A screen that binds or leaves a gap when closed may need its frame, rollers or track assessed as well. Tell us whether it is a fixed window screen, hinged flyscreen door or sliding screen.',
   'The Norwood record shows window-screen mesh work. The Henley Beach record concerns lower rollers and alignment on an ordinary sliding screen door. These are different repairs: replacing the mesh does not by itself resolve a movement fault.',
   'An ordinary insect screen is not the same as a security screen door. Security-rated frames, locking hardware and proprietary systems need a separate specialist scope; the mesh and roller work described here does not establish a security rating.'
@@ -35,7 +35,7 @@ export function applyKeywordGapRefinement(content,focused){
  screen.faqs[2]=faq('Is ordinary flyscreen repair the same as security screen door repair?','No. This page concerns ordinary insect-screen mesh, frames and moving screens. Security-rated doors, locks and proprietary security components need a separate specialist scope. Describe the existing system so the appropriate arrangements can be confirmed.');
 
  const door=get('door-repair');
- replaceSection(door,'Describe how the door behaves',section('sliding-door-types','Hinged door, wardrobe sliding door or screen door?',[
+ replaceSection(door,'Describe how the door behaves',section('sliding-door-types','Hinged Doors, Wardrobe Panels and Screen Doors',[
   'A hinged door that rubs or will not latch is a different repair from a wardrobe panel that catches along its track. MEL ONE assesses the movement, fittings and supporting material before agreeing an adjustment or parts repair. Describe the door type and where normal movement stops being smooth.',
   'For a sliding wardrobe door, say whether the panel catches, sits unevenly or comes away from its normal guide during use. The Marion record documents lower-roller repair and panel alignment on one wardrobe system. It does not establish that every roller can be replaced or that the same work suits another system.',
   'For a sliding flyscreen, use the ordinary screen-repair information. For glass patio-door rollers and tracks, see the separate sliding-door repair page and its supplied patio-door case. Broken glazing, fire doors and security fittings still need separate assessment. Leave heavy panels in place rather than lifting them out for a photograph.'
@@ -75,7 +75,7 @@ export function applyKeywordGapRefinement(content,focused){
   'For driveway pressure cleaning in Adelaide, identify the surface before deciding on a method. Tell MEL ONE about paving or concrete, any known coating, stains, loose sections and damaged joints. Include the approximate area, water access and drainage; a photograph does not by itself establish which method suits the surface.',
   'The Burnside record shows pressure cleaning of a paved driveway. It is evidence for that surface and work, not for roof cleaning, every coated finish or a guarantee that all stains can be removed. The material, condition and agreed result are assessed for your property.',
   'Keep cleaning separate from repairs and waste collection. Ask which areas, preparation and waste handling are included, and which damaged joints or pavers need another scope. List any household clear-out or garden work as a separate line in the request.'
- ],[work('burnside-driveway-pressure-cleaning','Paved-driveway pressure cleaning record in Burnside'),guide('field-notes-cleaning-removals-preparation','Prepare driveway cleaning and separate removal details'),service('garden-landscape-care','Garden tidy-ups and green-waste arrangements'),ask('Request a driveway or paved-surface cleaning assessment')]));
+ ],[work('burnside-driveway-pressure-cleaning','Paved-driveway pressure cleaning record in Burnside'),guide('field-notes-cleaning-removals-preparation','Prepare driveway and paver cleaning details'),service('garden-landscape-care','Garden tidy-ups and green-waste arrangements'),ask('Request a driveway or paved-surface cleaning assessment')]));
 
  const flat=get('flat-pack-assembly');
  replaceSection(flat,'Identify the product and assembly stage',section('furniture-assembly','Flat-pack furniture assembly: product, parts and instructions',[
@@ -92,7 +92,7 @@ export function applyKeywordGapRefinement(content,focused){
  ],[work('prospect-gutter-cleaning','Photographed gutter cleaning in Prospect'),service('roof-gutter-exterior-care','Separate roof, fascia and exterior-maintenance concerns'),ask('Request a gutter-cleaning assessment')]));
 
  const fence=get('fence-gate-repair');
- replaceSection(fence,'Repair scope and evidence',section('timber-fence-gate-scope','Timber fence repair or gate-hardware repair?',[
+ replaceSection(fence,'Repair scope and evidence',section('timber-fence-gate-scope','Timber Fence Repairs and Gate Hardware',[
   'For a timber fence, distinguish damaged palings from loose rails or posts. For a timber garden gate, describe dragging, hinge movement and latch contact. Connected supports are assessed before a local repair is proposed; replacing the visible damaged piece alone may not address the cause.',
   'The Mile End fence and North Adelaide timber-gate records show repair work on different components. The Modbury fence record is assessment-only: it documents condition and planning, not completed repair. Ask the quote to identify boards, supports, hardware, finishing and waste handling where relevant.',
   'These timber examples do not establish a security-gate, automatic-gate or pool-barrier service. Identify those systems separately so the appropriate specialist scope can be confirmed.'

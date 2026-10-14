@@ -1,0 +1,7 @@
+{
+  "approved": "2026-10-14",
+  "baseline": "76ca1ee7828d1abf2a3ae49f64c9c728ec9cf46d",
+  "scope": "Guide articles and directory only. Historical stylesheet prefix and separately approved decision-hub block must retain their hashes.",
+  "scopedCssHash": "f6456fca35907a1e292349d3d0d54bbc8fc8b43996e2a28c47feadb69fa59b80",
+  "protectedFacts": "No change to routes, business identity, service areas, case facts, photo bytes, security or enquiry behavior. The existing pressure guide is refocused on driveway/paver cleaning; its URL is retained."
+}

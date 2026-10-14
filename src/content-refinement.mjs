@@ -12,7 +12,7 @@ const serviceEdits = {
       'A window that is hard to open can have worn moving parts, damaged timber or a problem at a fixing point. Tell us the opening type and whether the frame, handle or track is affected. The Burnside sliding-window record shows one hardware repair; a deteriorated timber frame needs its own assessment.',
       'For an older door or window, note any known heritage restrictions before changes are proposed. Broken glazing, fire doors and security-related hardware need the appropriate specialist scope rather than a routine adjustment.'
     ], [service('door-repair', 'Door hinges, latches and sliding-door assessment'), service('flyscreen-repair', 'Flyscreen mesh, frames and moving screens')]),
-    quote: section('What affects a door or window repair quote?', ['The number and type of openings, accessible hardware, compatible parts and condition of the frame affect the proposed work. Identify which items rub, fail to latch or need new mesh. Ask the quote to distinguish adjustment, parts replacement, glazing or specialist work and any finishing.'], [standards]),
+    quote: section('Door and Window Repair Quotes: Hardware and Finishing', ['The number and type of openings, accessible hardware, compatible parts and condition of the frame affect the proposed work. Identify which items rub, fail to latch or need new mesh. Ask the quote to distinguish adjustment, parts replacement, glazing or specialist work and any finishing.'], [standards]),
     question: faq('Can a timber window be repaired rather than replaced?', 'Sometimes, but the timber condition, joints, operating hardware and extent of damage must be assessed. Share any known heritage restrictions. The proposed repair and any specialist work are confirmed before you approve changes.'),
   },
   'interior-repairs-assembly': {
@@ -20,7 +20,7 @@ const serviceEdits = {
       'A sagging kitchen cupboard door may need hinge adjustment, a compatible hinge or repair to the material holding it. A drawer that jams may involve its runners or the cabinet itself. Share the cabinet type and visible part markings; do not buy a similar-looking replacement before the mounting pattern is checked.',
       'For picture hooks, a mirror, shelving or a blind bracket, include the product size, weight if known and intended position. Wall construction, existing fixing points and concealed services affect the method. Corded blinds also need the applicable cord-safety arrangements; fixing the bracket alone is not the whole installation.'
     ], [link('https://www.productsafety.gov.au/business/search-mandatory-standards/blinds-curtains-and-window-fittings-mandatory-standard', 'ACCC guidance on blinds, curtains and cord safety'), service('flat-pack-assembly', 'Flat-pack furniture and wardrobe assembly')]),
-    quote: section('What affects an interior repair quote?', ['Keep assembly, cabinet hardware, wall fixing and surface finishing as separate items. Quantity, parts availability, the supporting material and whether patching or painting is requested affect the scope. Confirm who supplies parts and whether packaging or waste handling is included.'], [standards]),
+    quote: section('Interior Repair Quotes: Parts, Mountings and Finishing', ['Keep assembly, cabinet hardware, wall fixing and surface finishing as separate items. Quantity, parts availability, the supporting material and whether patching or painting is requested affect the scope. Confirm who supplies parts and whether packaging or waste handling is included.'], [standards]),
     question: faq('Can a drawer runner be replaced without changing the whole cabinet?', 'It may be possible if the cabinet and mounting points remain suitable and compatible runners can be sourced. MEL ONE checks the drawer, runner dimensions and supporting material before agreeing adjustment or replacement.'),
   },
   'home-repairs-renovation-support': {
@@ -28,7 +28,7 @@ const serviceEdits = {
       'For a hole in a plasterboard wall, describe the approximate size, room and nearby corner, skirting or cornice. Note water marks, recurring cracks or movement. The repair plan should address the condition found before covering it with a cosmetic finish.',
       'A patch and a paint touch-up are separate parts of the finish. Existing colour, sheen, texture and light can make a local repair visible. Keep any paint tin details or spare trim available, but discuss the finish and material match before buying supplies. Unknown older wall or ceiling materials should not be drilled, sanded or removed for inspection photos.'
     ], [guide('field-notes-wall-interior-repairs-job-list', 'Prepare a wall, skirting or cabinet repair list'), link('https://www.safework.sa.gov.au/news-and-alerts/news/news/2025/deadly-asbestos-prompts-school-holiday-warning-for-diy-home-renovators', 'SafeWork SA advice on asbestos risks in home renovations')]),
-    quote: section('What affects a wall and finishing repair quote?', ['The size and number of patches, surface condition, preparation, drying stages and agreed finish affect the work. Clarify whether sanding, priming, local paint touch-ups or a larger repaint area are included. Skirting, cornice and other trim should be listed separately, including any profile-matching needs.'], [standards]),
+    quote: section('Wall Repair Quotes: Preparation, Drying and Painting', ['The size and number of patches, surface condition, preparation, drying stages and agreed finish affect the work. Clarify whether sanding, priming, local paint touch-ups or a larger repaint area are included. Skirting, cornice and other trim should be listed separately, including any profile-matching needs.'], [standards]),
     question: faq('Does a wall patch automatically include repainting?', 'No. Patching, preparation and painting should be identified in the agreed scope. Discuss the finish and existing paint before approval; an exact local colour or texture match cannot be assumed.'),
   },
   'maintenance-planning-inspection-support': {
@@ -44,15 +44,15 @@ const serviceEdits = {
       'Describe gutter debris separately from a leaking joint, damaged fascia or roof concern. Clearing leaves may improve a blocked gutter, but it does not repair damaged drainage or establish that the roof is weatherproof.',
       'For eaves or fascia timber, note visible peeling, damaged edges or loose pieces from ground level. The supporting material, possible water entry and safe access need assessment before preparation, repair or repainting is agreed.'
     ], [service('gutter-cleaning', 'Gutter cleaning scope and safe preparation'), guide('field-notes-roof-gutter-exterior-observations', 'Record gutter overflow and roof concerns from the ground')]),
-    quote: section('What affects an exterior maintenance quote?', ['Building height, access, the affected length or area, debris handling and the condition of the fitting influence the work plan. Ask whether cleaning, waste removal, drainage checks and repairs are separate items. Roof work and high-access equipment are confirmed for the site rather than assumed from a photograph.'], [standards]),
+    quote: section('Exterior Maintenance Quotes: Access, Cleaning and Repairs', ['Building height, access, the affected length or area, debris handling and the condition of the fitting influence the work plan. Ask whether cleaning, waste removal, drainage checks and repairs are separate items. Roof work and high-access equipment are confirmed for the site rather than assumed from a photograph.'], [standards]),
     question: faq('Will gutter cleaning fix every overflow or roof leak?', 'No. Debris, damaged fittings and roof defects can need different work. Describe where and when the water appears; MEL ONE assesses the concern and confirms cleaning, repair or specialist arrangements as appropriate.'),
   },
   'outdoor-structures-fences-pools': {
-    section: section('Local timber repair or a wider structural concern?', [
+    section: section('Local Timber Repairs and Wider Structural Concerns', [
       'A split paling, a worn gate hinge and decayed deck timber are different repair decisions. Include the affected component and adjoining connections in your description. A local replacement is considered against the condition of its supports, not just the visible board.',
       'Do not treat leaning supports, deteriorated load-bearing timber or a moving structure as a cosmetic job. Keep the area unused if it appears unstable and arrange the appropriate assessment. Pool barriers, automatic gates and structural changes need their own specialist scope.'
     ], [service('fence-gate-repair', 'Timber fence, hinge and gate-latch repairs'), guide('field-notes-garden-outdoor-seasonal-preparation', 'Separate outdoor timber concerns from garden upkeep')]),
-    quote: section('What affects an outdoor timber repair quote?', ['Identify the damaged length or components, material, access and any shared-boundary approval. The quote should separate removal, replacement timber, hardware, finishing and waste handling where relevant. Structural findings or larger replacement work are discussed before they are added.'], [standards]),
+    quote: section('Outdoor Timber Repair Quotes: Materials and Finish', ['Identify the damaged length or components, material, access and any shared-boundary approval. The quote should separate removal, replacement timber, hardware, finishing and waste handling where relevant. Structural findings or larger replacement work are discussed before they are added.'], [standards]),
     question: faq('Can a damaged deck board be replaced before cleaning or oiling?', 'The board and its accessible supports need assessment first. Repair, surface preparation and coating are separate work items. Wider decay or movement may require specialist assessment before a finishing plan is agreed.'),
   },
   'garden-landscape-care': {
@@ -60,15 +60,15 @@ const serviceEdits = {
       'For a garden tidy-up, mark the paths to clear and plants to retain. Pruning a shrub, mowing a lawn and removing green waste are distinct tasks. Note gates, parked vehicles and pets that affect entry rather than moving heavy objects to prepare photos.',
       'Describe tree, irrigation or excavation concerns separately. Large-tree work and work near services should not be assumed to form part of a routine tidy-up.'
     ], [guide('field-notes-garden-outdoor-seasonal-preparation', 'Prepare pruning boundaries and an outdoor work list'), service('cleaning-removals-specialist-care', 'Paved-surface cleaning and separate waste-handling enquiries')]),
-    quote: section('What affects a garden tidy-up quote?', ['Area, vegetation type, pruning boundaries, entry width and green-waste quantity affect the agreed work. Confirm whether mowing, edging, weeding, collection and disposal are included. Tell us about a gate or fence concern as a separate item if you want it assessed during the same request.'], [standards]),
+    quote: section('Garden Tidy-Up Quotes: Areas, Pruning and Green Waste', ['Area, vegetation type, pruning boundaries, entry width and green-waste quantity affect the agreed work. Confirm whether mowing, edging, weeding, collection and disposal are included. Tell us about a gate or fence concern as a separate item if you want it assessed during the same request.'], [standards]),
     question: faq('Can a garden tidy-up and gate repair go in the same enquiry?', 'Yes. List the garden tasks and gate symptoms separately. MEL ONE assesses both scopes and confirms whether they can be combined, which providers or parts are needed and the appointment arrangements.'),
   },
   'cleaning-removals-specialist-care': {
     section: section('Choose the surface before choosing the cleaning method', [
       'Paving, painted surfaces and coated concrete do not necessarily suit the same cleaning method. Describe the surface, stains and damaged joints, and note drainage and nearby planting. A pressure-cleaning enquiry is not a request to use maximum pressure on every finish.',
       'For a courtyard or driveway, identify the areas to keep dry or avoid and any shared drainage. For a household clear-out, list waste separately from items to retain. Suspected hazardous material is left untouched for specialist assessment.'
-    ], [guide('field-notes-cleaning-removals-preparation', 'Prepare driveway cleaning and household removal details'), service('garden-landscape-care', 'Garden tidy-ups and green-waste planning')]),
-    quote: section('What affects a cleaning or removal quote?', ['Surface area and condition, method, water access, parking and drainage affect cleaning. Item size, weight, stairs and waste type affect removal. Ask the quote to distinguish cleaning, handling, collection, disposal and any repairs rather than treating them as one unspecified service.'], [standards]),
+    ], [guide('field-notes-cleaning-removals-preparation', 'Prepare driveway and paver cleaning details'), service('garden-landscape-care', 'Garden tidy-ups and green-waste planning')]),
+    quote: section('Cleaning and Removal Quotes: Surfaces, Items and Access', ['Surface area and condition, method, water access, parking and drainage affect cleaning. Item size, weight, stairs and waste type affect removal. Ask the quote to distinguish cleaning, handling, collection, disposal and any repairs rather than treating them as one unspecified service.'], [standards]),
     question: faq('Can pressure cleaning damage paving or joints?', 'An unsuitable method can affect the surface or joints. MEL ONE assesses the material and condition before agreeing the cleaning approach. Point out loose pavers, coatings and damaged joints when making the request.'),
   },
   'home-electrical-repairs': {
@@ -76,38 +76,38 @@ const serviceEdits = {
       'MEL ONE can coordinate an electrical enquiry, but work requiring authorisation must be arranged through appropriately licensed people. Identify the fitting and symptom without opening covers or disconnecting equipment. A company ABN is not a substitute for the relevant trade authorisation.',
       'If your request also includes furniture, a loose cupboard door or wall finishing, list those separately. Agree who is responsible for each trade task and any completion documentation before approval.'
     ], [link('https://www.sa.gov.au/topics/business-and-trade/licensing/building-and-trades/licensing', 'South Australian electrical, plumbing and gas licensing information'), service('interior-repairs-assembly', 'Separate furniture and interior-fitting repairs')]),
-    quote: section('What should an electrical-work quote confirm?', ['Confirm the responsible qualified provider, assessment or call-out charges, product compatibility and the included work. Replacement fittings, access, any required testing and documentation should be clear. An enquiry to this website does not confirm an emergency attendance or a reserved appointment.'], [standards]),
+    quote: section('Electrical Work Quotes and Qualified Service Arrangements', ['Confirm the responsible qualified provider, assessment or call-out charges, product compatibility and the included work. Replacement fittings, access, any required testing and documentation should be clear. An enquiry to this website does not confirm an emergency attendance or a reserved appointment.'], [standards]),
     question: faq('Can electrical work be included with other household repairs?', 'You can list the concerns together, but the electrical scope and responsible qualified provider are confirmed separately. Do not assume one appointment, one provider or a combined price until the arrangements are agreed.'),
   },
 };
 
 const focusedEdits = {
   'flyscreen-repair': {
-    heading:'What affects the cost of flyscreen repairs?',
+    heading:'Flyscreen Repair Costs: Mesh, Frames and Hardware',
     text:'Screen count, mesh choice, frame condition and any roller or track work affect the quote. Describe each screen separately, including whether it is fixed, hinged or sliding. Ask which frames and fittings can be retained and whether remeshing, new hardware or frame work is included.',
     question:faq('Can I get a fixed flyscreen quote from photos?', 'Photos can help explain the screen type and damage, but dimensions, frame condition and compatible parts may need checking on site. MEL ONE confirms the assessed work and written quote before you approve repairs.'),
     links:[guide('field-notes-doors-windows-screens-enquiry','How to describe torn mesh and sticking screen rollers')],
   },
   'door-repair': {
-    heading:'What affects the cost of a door repair?',
+    heading:'Door Repair Costs: Alignment, Hardware and Access',
     text:'Door material, panel weight, the fault, compatible hardware and access affect the scope. A hinge adjustment, latch repair and sliding-roller replacement need different parts and time. Confirm any finishing separately, and identify glazing, security or fire-door features before changes are proposed.',
     question:faq('Can rollers be replaced instead of replacing a sliding door?', 'Sometimes. The panel, roller housing, track and available compatible parts must be assessed together. The Marion wardrobe case records a roller repair; a heavy glazed patio panel requires its own assessment and handling plan.'),
     links:[guide('field-notes-doors-windows-screens-enquiry','Door and sliding-panel repair preparation'),service('flyscreen-repair','Mesh and ordinary screen-door repair details')],
   },
   'gutter-cleaning': {
-    heading:'What affects a gutter cleaning quote?',
+    heading:'Gutter Cleaning Quotes: Access, Debris and Condition',
     text:'The gutter length, building height, safe access, debris and disposal requirements affect the work. Mention nearby structures and restricted entry from ground-level observations. Ask whether accessible outlets are included and how any damaged gutter or downpipe fitting will be handled separately.',
     question:faq('Does gutter cleaning include downpipe outlets and repairs?', 'Confirm the included cleaning and accessible outlet checks in the quote. A blocked or damaged downpipe, leaking joint or roof defect may need separate assessment and work; clearing debris is not a roof repair.'),
     links:[guide('field-notes-roof-gutter-exterior-observations','Ground-level gutter and overflow checklist')],
   },
   'fence-gate-repair': {
-    heading:'What affects a fence or gate repair quote?',
+    heading:'Fence and Gate Repair Quotes: Timber, Hardware and Access',
     text:'Affected boards, rails, posts, hinges and latches are assessed as connected parts. Material, access, waste handling and shared-boundary permissions can affect the plan. Ask which components will be repaired or replaced and whether finishing is included. Automatic gates and pool barriers require separate specialist arrangements.',
     question:faq('Can a leaning fence be repaired without replacing it all?', 'That depends on the posts, rails, connections and extent of deterioration. The Modbury record documents assessment only. MEL ONE checks the affected section and explains whether a local repair, wider replacement or specialist assessment is appropriate.'),
     links:[guide('field-notes-garden-outdoor-seasonal-preparation','Prepare outdoor timber and access details')],
   },
   'flat-pack-assembly': {
-    heading:'What affects a flat-pack assembly quote?',
+    heading:'Flat-Pack Assembly Quotes: Models, Parts and Access',
     text:'Product model, quantity, assembly stage, box delivery and working space affect the quote. List missing or damaged parts before booking. Ask whether wall anchoring, placement and packaging handling are included; a furniture assembly request does not automatically include every fixing or disposal task.',
     question:faq('Can you assemble IKEA furniture or several items together?', 'The Kensington record shows assembly of an IKEA KALLAX unit. Share the models and instructions for your furniture so MEL ONE can confirm the assessed scope and timing. This does not imply an official IKEA affiliation or cover every product automatically.'),
     links:[guide('field-notes-grouping-multiple-household-jobs','Group furniture assembly and other small jobs'),service('interior-repairs-assembly','Existing cabinet hinges and drawer repairs')],
@@ -153,9 +153,9 @@ const guideEdits = {
     faqs:[faq('Is it cheaper to book several small repairs together?', 'Some tasks may share access or preparation, but costs depend on the assessed work, parts and visit arrangements. Ask which items can be combined and how charges are set out; no automatic saving or half-day rate is assumed.'),faq('Can a family member approve the repair list remotely?', 'Identify the resident, access contact and authorised decision-maker in advance. Agree who receives the quote and approves changes before the work is scheduled.')],
   },
   'field-notes-cleaning-removals-preparation': {
-    answer:'For cleaning or a household clear-out, identify the surface or items, what should stay and the access route. Cleaning method, drainage, item handling and disposal are separate planning questions. Leave heavy items and suspected hazardous materials in place while MEL ONE assesses the request.',
-    section:section('State the result, not a pressure setting or disposal assumption', ['For paving, describe the marks, coatings and damaged joints, then let the condition guide the cleaning method. For removals, name the items and waste type without moving or dismantling them for a photograph. Confirm handling and disposal in the quote.'], [service('cleaning-removals-specialist-care','Surface cleaning and household removal scope'),service('garden-landscape-care','Separate pruning and green-waste requests')]),
-    faqs:[faq('Can a paved courtyard be cleaned without damaging the joints?', 'The material, joint condition, coatings and drainage need assessment before the method is agreed. Flag loose or damaged areas rather than assuming pressure cleaning is suitable everywhere.'),faq('Should I move large furniture before requesting a clear-out quote?', 'No. List the items and describe stairs, doorways and parking. Handling, any dismantling and disposal arrangements are confirmed before collection is agreed.')],
+    answer:'For driveway or paver cleaning, identify the surface and visible condition. Joints, coatings and drainage affect the method and the result that can reasonably be agreed.',
+    section:section('Paving Condition and the Agreed Cleaning Result', ['Describe existing marks and worn areas without disturbing the surface. Agree the cleaning area and method after assessment, and keep any additional surface repairs separate in the quote.'], [service('pressure-cleaning','Driveway and paved-surface cleaning scope')]),
+    faqs:[faq('Can a paved courtyard be cleaned without damaging the joints?', 'The material, joint condition, coatings and drainage need assessment before the method is agreed. Flag loose or damaged areas rather than assuming pressure cleaning is suitable everywhere.'),faq('Does a cleaning quote promise every stain will disappear?', 'No. Existing wear and the type of mark can limit the result. Agree the expected outcome after surface assessment rather than assuming a uniform finish.')],
   },
   'prepare-household-maintenance-enquiry': {
     answer:'To request an Adelaide handyman assessment, send the job description, suburb and preferred reply method. Include timing or approval constraints and available product details. Photos are optional; you do not need to identify the fault or choose replacement parts before contacting MEL ONE.',

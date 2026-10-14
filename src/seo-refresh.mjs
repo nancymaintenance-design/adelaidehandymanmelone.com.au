@@ -42,7 +42,7 @@ export const serviceDetails = {
     sections: [
       section('Driveway and paved surface cleaning', 'Mossy or stained paving needs the surface, joints and surrounding area assessed before a cleaning method is agreed. Tell us about loose pavers, damaged joints, coatings and the areas you want cleaned. The Burnside case below records pressure cleaning of a paved driveway.', 'Water supply, drainage, nearby plants and access affect preparation. Cleaning is planned for the condition found; worn joints and damaged paving may need separate attention. We explain the proposed method and included areas before work begins.'),
       section('Household and end-of-lease cleaning', 'Identify the rooms, accessible windows and outdoor areas involved. A room-by-room list makes it easier to agree what needs cleaning and what belongs to a separate repair request. Include access, occupancy and any property-manager instructions.', 'Explain whether furniture will remain in place. Discuss difficult marks and surface finishes during assessment so the agreed cleaning scope is clear.'),
-      section('Furniture removal and household clear-outs', 'List the items, approximate dimensions and access route rather than moving heavy furniture for a photograph. Stairs, narrow passages and parking restrictions affect handling. Waste type and disposal arrangements must be confirmed before collection is agreed.'),
+      section('Furniture removal and household clear-outs', 'List the items, approximate dimensions and access route rather than moving heavy furniture for a photograph. Mark items to keep clearly. Stairs, narrow passages, shared entrances, parking restrictions and any dismantling affect handling. Waste type and disposal arrangements must be confirmed before collection is agreed.'),
       section('Reviewing the result and separate concerns', 'At completion, review the agreed surfaces or removed items and ask about any remaining issue. The quote should distinguish cleaning, handling, disposal and repairs where these are separate tasks.', 'Pest, mould and suspected hazardous-material concerns require the appropriate specialist assessment. Leave suspect materials undisturbed and report the concern when arranging the visit.'),
     ],
     faqs: [
@@ -179,7 +179,7 @@ const guideTitles = {
   'field-notes-rental-end-of-lease-maintenance-list': 'Rental Repairs: Access, Approval & Handover',
   'field-notes-pre-sale-home-maintenance-list': 'Pre-Sale Home Repairs: Prioritise Your List',
   'field-notes-grouping-multiple-household-jobs': 'Group Household Repairs Into One Work List',
-  'field-notes-cleaning-removals-preparation': 'Driveway Cleaning & Household Clear-Out Preparation',
+  'field-notes-cleaning-removals-preparation': 'Driveway and Paver Cleaning Preparation',
 };
 const guideCases = {
   'field-notes-doors-windows-screens-enquiry': ['norwood-flyscreen-repair', 'marion-wardrobe-sliding-door-repair', 'henley-beach-sliding-screen-door-repair'],
@@ -196,7 +196,7 @@ const guideCases = {
 
 const guideAdditions = {
   'field-notes-doors-windows-screens-enquiry': [
-    section('Torn mesh or damaged screen frame?', 'Show the whole screen as well as the tear. A serviceable frame may suit remeshing; bent corners or loose frame sections also need assessment. The Norwood case records a remeshed screen, not a reason to assume every torn screen needs the same work.'),
+    section('Torn Flyscreen Mesh and Damaged Frames', 'Show the whole screen as well as the tear. A serviceable frame may suit remeshing; bent corners or loose frame sections also need assessment. The Norwood case records a remeshed screen, not a reason to assume every torn screen needs the same work.'),
     section('Wardrobe rollers and lower tracks', 'Note whether the panel drags throughout its travel or catches at one point. Roller housing, guides and track condition affect compatible parts. Leave a heavy or unstable panel in place for assessment rather than lifting it out. The Marion wardrobe record illustrates the lower hardware area.'),
   ],
   'field-notes-wall-interior-repairs-job-list': [

@@ -9,6 +9,7 @@
     "serve": "node serve.cjs",
     "start": "node serve.cjs",
     "check": "node tests/stage3-current-check.cjs",
+    "check:layout": "node build.mjs && node --test scripts/check-content-layout.cjs",
     "test": "node --test test/*.test.cjs tests/*.test.cjs"
   },
   "engines": {

@@ -35,7 +35,7 @@ for (const file of files) {
     const data = JSON.parse(m[1]);
     const graph = data['@graph'] || [data];
     for (const faq of graph.filter(s => s['@type'] === 'FAQPage')) for (const q of faq.mainEntity) {
-      const escaped = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;');
+      const escaped = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
       assert.ok(html.includes(escaped(q.name)), `${file}: visible FAQ question`);
       assert.ok(html.includes(escaped(q.acceptedAnswer.text)), `${file}: visible FAQ answer`);
     }

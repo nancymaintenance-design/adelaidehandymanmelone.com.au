@@ -49,7 +49,9 @@ test('approved intake assets are copied and appear only in their assigned page c
   assert.match(html('services/roof-gutter-exterior-care/index.html'), new RegExp(`/assets/${approved.roofWork}`));
   assert.match(html('services/cleaning-removals-specialist-care/index.html'), new RegExp(`/assets/${approved.cleaning}`));
   const workflow = html('how-it-works/index.html');
-  for (const asset of approved.workflow) assert.match(workflow, new RegExp(`/assets/${asset}`));
+  // The approved answer hub replaces the illustrated process stack; source assets remain protected above.
+  for (const asset of approved.workflow) assert.doesNotMatch(workflow, new RegExp(`/assets/${asset}`));
+  assert.equal((workflow.match(/class="answer-category"/g) || []).length, 5);
   assert.match(html('about/index.html'), new RegExp(`/assets/${approved.about}`));
   assert.match(html('service-areas/index.html'), new RegExp(`/assets/${approved.areas}`));
 });

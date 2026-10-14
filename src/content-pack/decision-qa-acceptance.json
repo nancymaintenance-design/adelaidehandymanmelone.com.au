@@ -1,0 +1,7 @@
+{
+  "approved": "2026-10-14",
+  "baseline": "bdb99fa0762af582c1193c1c233da632e7cd3e9a",
+  "scope": "How it works only. Original stylesheet prefix byte hash must match the unchanged 2026-10-13 protected baseline; new selectors must be under .decision-hub.",
+  "scopedCssHash": "63e43ecb901e122d5acaafda8af0b6bfb01bac44e194a8682552c22274f239ca",
+  "protectedFacts": "Business identity, eight regions, 32 suburbs, 20 case records, image bytes and 102 sitemap routes remain independently checked against the historical baseline."
+}

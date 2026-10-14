@@ -1,0 +1,10 @@
+{
+  "approved": "2026-10-14",
+  "baseline": "d551a35e194e5ccea2b303bd3d366f19001bacb3",
+  "scope": "Layout-only whole-site desktop composition; preserve historical, decision-hub and guide CSS hashes independently.",
+  "scopedCssHash": "b1cd766db77306401066e61fe8737fc5ec989baa18e290506dbfa0a45da16cfe",
+  "selectorPrefix": ".desktop-layout ",
+  "allowedTemplates": ["home", "services-hub", "services-detail", "guides-hub", "guides-detail", "news-hub", "news-detail", "case-studies-hub", "case-studies-detail", "area-hub", "region", "suburb", "decision-hub", "faq-hub", "about-hub", "contact-hub", "service-standards-hub", "privacy-hub", "404"],
+  "exceptions": ["Privacy keeps legal prose at 780px within the wide frame", "Decision hub retains its approved 1080px frame", "Existing original-ratio compact case galleries retain 2x2 thumbnails on mobile"],
+  "protectedFacts": "All exact text, metadata, JSON-LD, ordered links and aliases, form controls, image attributes/hashes and keyword dispositions are unchanged."
+}

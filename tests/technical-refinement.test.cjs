@@ -51,16 +51,16 @@ test('verified dates and llms locality are truthful', async () => {
     ...['field-notes-doors-windows-screens-enquiry','field-notes-wall-interior-repairs-job-list','field-notes-cleaning-removals-preparation','field-notes-pre-sale-home-maintenance-list'].map(s=>`/guides/${s}/`)
   ];
   for (const route of changedRoutes) {
-    assert.ok(xml.includes(route+'</loc><lastmod>2026-10-13</lastmod>'),route);
+    assert.ok(xml.includes(route+'</loc><lastmod>'+ (route.startsWith('/guides/') ? '2026-10-14' : '2026-10-13') +'</lastmod>'),route);
     if (route.startsWith('/guides/')) {
       const html=fs.readFileSync('public'+route+'index.html','utf8');
-      assert.match(html,/Updated <time datetime="2026-10-13">2026-10-13<\/time>/);
-      assert.match(html,/"dateModified":"2026-10-13"/);
+      assert.match(html,/Updated <time datetime="2026-10-14">2026-10-14<\/time>/);
+      assert.match(html,/"dateModified":"2026-10-14"/);
     }
   }
   for (const slug of ['kitchen-drawer-runner-repair','sliding-patio-door-roller-track-repair']) {
     const route=`/case-studies/${slug}/`;
-    assert.ok(xml.includes(route+'</loc><lastmod>2026-10-12</lastmod>'),route);
+    assert.ok(xml.includes(route+'</loc><lastmod>2026-10-13</lastmod>'),route);
     const html=fs.readFileSync('public'+route+'index.html','utf8');
     assert.match(html,/Published <time datetime="2026-10-12">2026-10-12<\/time>/);
     assert.match(html,/"datePublished":"2026-10-12"/);

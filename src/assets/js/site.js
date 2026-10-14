@@ -1,7 +1,7 @@
 (() => {
   const openLinkedStep = () => {
     const target = document.getElementById(window.location.hash.slice(1));
-    const disclosure = target?.querySelector('.method-disclosure');
+    const disclosure = target?.matches('.answer-list details') ? target : target?.querySelector('.method-disclosure');
     if (disclosure) disclosure.open = true;
   };
   window.addEventListener('hashchange', openLinkedStep);

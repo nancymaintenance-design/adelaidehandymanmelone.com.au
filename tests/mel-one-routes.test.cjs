@@ -95,63 +95,35 @@ test('all required routes offer confirmed contacts and the authorized identity',
   assert.match(read('/404.html'), /name="robots" content="noindex,\s*follow"/);
 });
 
-test('How it works renders the method contract as eight ordered articles and practical preparation', () => {
-  const html = read('/how-it-works/');
-  const main = html.match(/<main id="main">([\s\S]*?)<\/main>/)[1];
-  const method = content.site.method;
-  const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
-  assert.ok(main.includes(`<h1>${escape(method.title)}</h1>`));
-  assert.ok(main.includes(`<p class="lede">${escape(method.description)}</p>`));
-  const sequence = main.match(/<ol class="method-steps">([\s\S]*?)<\/ol>/);
-  assert.ok(sequence, 'eight-step process is an ordered list');
-  const articles = [...sequence[1].matchAll(/<li><article\b([^>]*)>([\s\S]*?)<\/article><\/li>/g)];
-  assert.equal(articles.length, 8);
-  method.steps.forEach((step, index) => {
-    const [, attributes, body] = articles[index];
-    assert.match(attributes, new RegExp(`aria-labelledby="${step.id}-heading"`));
-    assert.ok(body.includes(`<span class="step-number" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>`));
-    assert.ok(body.includes(`<span class="method-step-label">${escape(step.heading)}</span></h2>`));
-    assert.ok(body.includes(`<summary><h2 id="${step.id}-heading">`), 'summary contains one native heading');
-    for (const paragraph of step.paragraphs) assert.ok(body.includes(`<p>${escape(paragraph)}</p>`), `${step.id}: complete paragraph`);
-    assert.doesNotMatch(attributes, /hidden|aria-hidden/);
-    for (const boundary of content.site.exclusions) assert.equal(body.includes(escape(boundary)), step.id === 'confirm-scope', `${step.id}: shared conditions appear only at confirmation`);
-  });
-  for (const section of [method.preparation, method.expectations]) {
-    assert.ok(main.includes(escape(section.heading)));
-    for (const item of section.items) assert.ok(main.includes(`<li>${escape(item)}</li>`));
-  }
-  const faq = main.match(/<section[^>]*aria-labelledby="method-faq-heading"[^>]*>([\s\S]*?)<\/section>/);
-  assert.ok(faq, 'related FAQs have a labelled section');
-  for (const slug of method.faqSlugs) {
-    const record = content.faqs.find(item => item.slug === slug);
-    assert.ok(faq[1].includes(`<summary>${escape(record.question)}</summary>`));
-    assert.ok(faq[1].includes(`<p>${escape(record.answer)}</p>`));
-  }
-  assert.match(main, /href="\/faq\/"/);
+test('How it works renders useful answer categories, links and a single booking process', () => {
+  const main = read('/how-it-works/').match(/<main id="main">([\s\S]*?)<\/main>/)[1];
+  assert.equal((main.match(/class="answer-category"/g) || []).length, 5);
+  assert.equal((main.match(/data-source-ids=/g) || []).length, 22);
+  assert.equal((main.match(/class="booking-process"/g) || []).length, 1);
+  assert.match(main, /href="\/services\/sliding-door-repair\/"/);
+  assert.match(main, /href="\/case-studies\/kitchen-drawer-runner-repair\/"/);
   assert.match(main, /href="tel:\+61416614281"/);
-  assert.match(main, /href="\/contact\/">Request an assessment and quote/);
   assert.doesNotMatch(main, /\b(?:our licensed (?:team|staff|technicians)|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|always available|all suburbs|all jobs)\b/i);
 });
-
-test('method content updates are escaped and unrelated or unpublished FAQs stay off the workflow', () => {
+test('hub content is escaped and draft or noindex answers stay out of visible content and schema', () => {
   const fixture = buildFixture(test, {}, data => {
-    data.site.method.title = 'Method <title> & "source"';
-    data.site.method.description = 'Method <lead> & detail.';
-    data.site.method.steps[0].heading = 'Step <heading> & detail';
-    data.site.method.steps[0].paragraphs = ['Method <script>example</script> & detail.'];
-    data.site.method.preparation.heading = 'Prepare <heading>';
-    data.site.method.preparation.items = ['Preparation <item> & detail.'];
-    data.site.method.expectations.heading = 'Expect <heading>';
-    data.site.method.expectations.items = ['Expectation <item> & detail.'];
-    data.site.method.faqSlugs = ['prepare-an-enquiry', 'private-workflow-faq', 'missing-faq'];
-    data.faqs.push({ status: 'draft', noindex: true, slug: 'private-workflow-faq', title: 'Private question', question: 'Private question', answer: 'Private answer', description: 'Private question.', scope: [], exclusions: [] });
+    const method = data.site.method;
+    method.title = 'Method <title> & "source"';
+    method.description = 'Method <lead> & detail.';
+    method.steps[0].heading = 'Step <heading> & detail';
+    method.steps[0].paragraphs = ['Method <script>example</script> & detail.'];
+    method.categories[0].heading = 'Category <heading>';
+    method.categories[0].intro = 'Category <intro>';
+    method.categories[0].questions[0].question = 'Question <unsafe> & detail?';
+    method.categories[0].questions[0].answer = 'Answer <script>example</script> & detail.';
+    method.categories[0].questions.push({id:'draft',sourceIds:[],status:'draft',question:'Private question',answer:'Private answer'}, {id:'hidden',sourceIds:[],noindex:true,question:'Hidden question',answer:'Hidden answer'});
   });
-  const main = fixture.read('how-it-works/index.html').match(/<main id="main">([\s\S]*?)<\/main>/)[1];
-  for (const escaped of ['Method &lt;title&gt; &amp; &quot;source&quot;', 'Method &lt;lead&gt; &amp; detail.', 'Step &lt;heading&gt; &amp; detail', 'Method &lt;script&gt;example&lt;/script&gt; &amp; detail.', 'Prepare &lt;heading&gt;', 'Preparation &lt;item&gt; &amp; detail.', 'Expect &lt;heading&gt;', 'Expectation &lt;item&gt; &amp; detail.']) assert.ok(main.includes(escaped), escaped);
-  const faqRegion = main.match(/<div class="faq-list">([\s\S]*?)<\/div>/)[1];
-  assert.equal((faqRegion.match(/<details\b/g) || []).length, 1, 'only requested approved FAQs render');
-  assert.equal((main.match(/class="method-disclosure"/g) || []).length, 8, 'workflow disclosures are separate from FAQs');
-  assert.doesNotMatch(main, /Private question|Private answer|<script>/);
+  const html = fixture.read('how-it-works/index.html');
+  const main = html.match(/<main id="main">([\s\S]*?)<\/main>/)[1];
+  for (const escaped of ['Method &lt;title&gt; &amp; &quot;source&quot;', 'Method &lt;lead&gt; &amp; detail.', 'Step &lt;heading&gt; &amp; detail', 'Method &lt;script&gt;example&lt;/script&gt; &amp; detail.', 'Category &lt;heading&gt;', 'Category &lt;intro&gt;', 'Question &lt;unsafe&gt; &amp; detail?', 'Answer &lt;script&gt;example&lt;/script&gt; &amp; detail.']) assert.ok(main.includes(escaped), escaped);
+  assert.equal((main.match(/data-source-ids=/g) || []).length, 22);
+  assert.doesNotMatch(html, /Private question|Private answer|Hidden question|Hidden answer/);
+  assert.doesNotMatch(main, /<script>/);
 });
 
 test('home hero keeps confirmed contact actions and real repair photos beside a decorative gold route', () => {

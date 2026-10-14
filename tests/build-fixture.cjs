@@ -13,7 +13,7 @@ module.exports = function buildFixture(test, extraEnv = {}, changeContent) {
   const contentPath = path.join(fixture, 'src/content-pack/mel-one-site-content.json');
   const content = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
   if (changeContent) {
-    changeContent(content);
+    changeContent(content, fixture);
     fs.writeFileSync(contentPath, JSON.stringify(content));
   }
   execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, env: { ...process.env, SITE_ORIGIN: '', ...extraEnv }, stdio: 'pipe' });

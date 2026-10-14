@@ -20,7 +20,7 @@ test('five focused service routes preserve case evidence and reciprocal discover
     assert.equal(service.url, `https://example.test${route}`);
     assert.equal(service.provider['@id'], 'https://example.test/#business');
     const faqs = graph.find(item => item['@type'] === 'FAQPage').mainEntity;
-    assert.ok(faqs.length >= 3 && faqs.length <= 4);
+    assert.ok(faqs.length >= 4 && faqs.length <= 5);
     const escape = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
     for (const faq of faqs) {
       assert.ok(html.includes(`<summary>${escape(faq.name)}</summary>`));

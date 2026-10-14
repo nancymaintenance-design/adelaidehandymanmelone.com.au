@@ -14,7 +14,7 @@ test('task-specific guides offer focused services within explanatory paragraphs'
     const paragraphs = html.match(/<p\b[^>]*>[^]*?<\/p>/g) || [];
     for (const service of services) assert.ok(paragraphs.some(p => p.includes(`<a href="/services/${service}/">`)), `${slug}: ${service}`);
     const graph = JSON.parse(fixture.read(`guides/${slug}/index.html`).match(/<script type="application\/ld\+json">([^]*?)<\/script>/)[1])['@graph'];
-    assert.equal(graph.find(n => n['@type'] === 'Article').dateModified, '2026-10-13');
+    assert.equal(graph.find(n => n['@type'] === 'Article').dateModified, '2026-10-14');
     for (const q of graph.find(n => n['@type'] === 'FAQPage').mainEntity) {
       const escape = s => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
       assert.ok(html.includes(`<summary>${escape(q.name)}</summary>`));

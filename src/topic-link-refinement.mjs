@@ -12,7 +12,7 @@ const edits = {
   ],
   'field-notes-cleaning-removals-preparation': [
     'For paving, see ', service('pressure-cleaning', 'driveway and paved-surface pressure cleaning'),
-    ' and describe stains, coatings, loose pavers and damaged joints. The surface condition guides the method. List removal items separately, leaving heavy items and suspected hazardous material undisturbed; confirm handling and disposal in the quote.',
+    ' and describe stains, coatings, loose pavers and damaged joints. The surface condition guides the method. Confirm the included area and expected outcome after assessment; leave damaged or unknown material undisturbed.',
   ],
   'field-notes-pre-sale-home-maintenance-list': [
     'List access windows, agent visits, deliveries and other booked work. Include ', service('pressure-cleaning', 'driveway pressure cleaning'),

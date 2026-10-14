@@ -20,7 +20,7 @@ test('every generated main starts at H1 and never skips a heading level', () => 
 });
 
 test('navigation hubs expose descriptive search topics rather than generic slogans',()=>{
-  const pairs=[['guides',/home.*maintenance.*guides/i],['faq',/handyman.*questions/i],['services',/handyman.*services/i],['privacy',/privacy/i],['contact',/assessment.*quote/i]];
+  const pairs=[['guides',/handyman.*repair.*maintenance.*guides/i],['faq',/handyman.*questions/i],['services',/handyman.*services/i],['privacy',/privacy/i],['contact',/assessment.*quote/i]];
   for(const [route,topic] of pairs) {
     const html=fixture.read(`${route}/index.html`);
     assert.match(html.match(/<title>(.*?)<\/title>/)[1],topic,route);

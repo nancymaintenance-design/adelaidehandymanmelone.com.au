@@ -28,7 +28,7 @@ test('home exposes real before and after work and navigation exposes case studie
   assert.match(home, />After<\/span>/);
   assert.match(home, /href="\/case-studies\/">Our work/);
   assert.match(home, /id="featured-work"/);
-  assert.match(home, /Tell us the problem\. We’ll assess it and explain the solution\./);
+  assert.match(home, /On-site assessment\. Agreed scope and written quote\./);
   assert.doesNotMatch(home, /The notebook/);
   assert.match(home, /class="photo-annotation"/);
   assert.match(home, /class="work-facts"/);
@@ -113,9 +113,10 @@ test('HTML and llms discovery expose feeds and local pages link only genuine loc
   assert.match(local, /burnside-driveway-pressure-cleaning/);
   assert.doesNotMatch(local, /10,000|ten years|30 minutes/);
   const workflow = fixture.read('how-it-works/index.html');
-  assert.match(workflow, /aria-label="Repair journey"/);
-  assert.match(workflow, /Completion &amp; follow-up/);
-  assert.equal((workflow.match(/<details class="method-disclosure">/g) || []).length, 8);
+  assert.match(workflow, /aria-label="Repair questions by topic"/);
+  assert.match(workflow, /id="completion-next-steps"/);
+  assert.equal((workflow.match(/class="booking-process"/g) || []).length, 1);
+  assert.equal((workflow.match(/data-source-ids=/g) || []).length, 22);
 });
 
 test('all 32 suburbs have distinct enquiry guidance and matching FAQ facts', () => {

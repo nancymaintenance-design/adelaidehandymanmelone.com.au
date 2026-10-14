@@ -54,7 +54,7 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.doesNotMatch(atlas, /&lt;br&gt;/);
   assert.match(index, /Adelaide CBD &amp; North Adelaide/);
   assert.match(index, /href="\/service-areas\/eastern-suburbs\/norwood\/"/);
-  assert.match(index, /Popular suburbs/);
+  assert.match(index, /Listed suburbs/);
   assert.match(index, /Norwood — shower screen repairs/);
   for (const suburb of ['Mile End', 'Thebarton', 'Torrensville', 'Brompton']) assert.match(index, new RegExp(`>${suburb} —`));
   assert.match(index, /href="\/service-areas\/inner-west\/thebarton\/"/);
@@ -68,7 +68,7 @@ test('the build publishes linked Greater Adelaide region and suburb pages', t =>
   assert.match(suburb, /href="\/service-areas\/eastern-suburbs\/"/);
   assert.match(suburb, /href="\/services\/doors-windows-screens\/"/);
   assert.doesNotMatch(suburb.match(/<section><h2>Related maintenance services<\/h2>([^]*?)<\/section>/)[1], /roof-gutter-exterior-care/);
-  assert.match(suburb, /Related popular suburbs/);
+  assert.match(suburb, /Nearby listed suburbs/);
   assert.match(suburb, /href="\/service-areas\/eastern-suburbs\/burnside\/"/);
   const graph = JSON.parse(suburb.match(/application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   assert.ok(graph.some(item => item['@type'] === 'Service'));

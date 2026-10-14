@@ -10,66 +10,21 @@ function methodContent() {
   return content.site.method;
 }
 
-test('workflow contract gives customers eight substantial steps from request to completion', () => {
+test('answer hub has five focused categories and a short four-step booking process', () => {
   const method = methodContent();
-  assert.ok(method.title && method.description);
-  assert.deepEqual(method.steps.map(step => step.id), [
-    'prepare-request', 'group-jobs', 'initial-discussion', 'specialist-boundary',
-    'confirm-scope', 'prepare-visit', 'on-site-work', 'completion-next-steps',
-  ]);
-  for (const step of method.steps) {
-    assert.ok(step.heading && step.paragraphs.length >= 2, `${step.id} needs a clear heading and detailed guidance`);
-    assert.ok(step.paragraphs.join(' ').split(/\s+/).length >= 55, `${step.id} must explain the customer's next action`);
-  }
-  const stepText = id => method.steps.find(step => step.id === id).paragraphs.join(' ');
-  assert.match(stepText('prepare-request'), /photos.*safe|safe.*photos/i);
-  assert.match(stepText('group-jobs'), /room|outdoor area/i);
-  assert.match(stepText('initial-discussion'), /access.*materials|materials.*access/i);
-  assert.match(stepText('specialist-boundary'), /electrical.*structural.*approval-dependent/i);
-  assert.match(stepText('specialist-boundary'), /appropriately qualified service arrangements/i);
-  assert.match(stepText('confirm-scope'), /confirms.*appointment.*scope.*quote before/i);
-  assert.match(stepText('prepare-visit'), /pets|children/i);
-  assert.match(stepText('on-site-work'), /change.*agree|agree.*change/i);
-  assert.match(stepText('completion-next-steps'), /remaining|outstanding/i);
-});
-
-test('workflow copy frames the enquiry as a clear next step instead of a refusal', () => {
-  const method = methodContent();
-  const text = method.steps.flatMap(step => step.paragraphs).join(' ');
-  assert.match(text, /MEL ONE arranges the assessment/i);
-  assert.match(text, /confirm the assessment appointment.*inspect the affected area.*written quote/i);
-  assert.doesNotMatch(text, /You do not need to diagnose|Sending an enquiry does not establish|A maintenance enquiry does not establish/i);
-});
-
-test('workflow includes practical preparation and conditional expectations', () => {
-  const method = methodContent();
-  for (const section of [method.preparation, method.expectations]) {
-    assert.ok(section?.heading && section.items.length >= 6);
-    assert.ok(section.items.every(item => typeof item === 'string' && item.split(/\s+/).length >= 10));
-  }
-  const checklist = method.preparation.items.join(' ');
-  assert.match(checklist, /suburb|postcode/i);
-  assert.match(checklist, /photos/i);
-  assert.match(checklist, /parts|instructions/i);
-  assert.match(checklist, /approve|permission/i);
-  assert.match(checklist, /access/i);
-  assert.match(method.expectations.items.join(' '), /confirms the assessment appointment.*checks the work on site.*quote/i);
-  assert.match(method.expectations.items.join(' '), /availability/i);
-  assert.match(method.expectations.items.join(' '), /quote/i);
-});
-
-test('workflow resolves at least six approved FAQs covering practical customer questions', () => {
-  const method = methodContent();
-  assert.ok(method.faqSlugs.length >= 6);
-  assert.equal(new Set(method.faqSlugs).size, method.faqSlugs.length);
-  for (const slug of method.faqSlugs) {
-    const faq = content.faqs.find(record => record.slug === slug);
-    assert.ok(faq?.status === 'approved' && faq.question && faq.answer, `Missing approved FAQ ${slug}`);
-    assert.ok(faq.answer.split(/\s+/).length >= 25, `${slug} needs a useful answer`);
-  }
-  for (const slug of ['multiple-home-jobs', 'specialist-work-enquiries', 'confirm-before-scheduling', 'materials-and-parts', 'prepare-for-visit', 'changes-during-work', 'completion-follow-up']) {
-    assert.ok(method.faqSlugs.includes(slug), `Workflow needs guidance for ${slug}`);
-  }
+  assert.deepEqual(method.categories.map(c => c.id), ['fees-quotes','repair-replacement','parts-materials','booking-access','service-scope']);
+  const questions = method.categories.flatMap(c => c.questions);
+  assert.equal(questions.length, 22);
+  assert.equal(new Set(questions.map(q => q.id)).size, 22);
+  assert.ok(questions.every(q => q.answer.split(/\s+/).length >= 25 && q.sourceIds.length));
+  assert.deepEqual(method.steps.map(s => s.id), ['prepare-request','confirm-scope','on-site-work','completion-next-steps']);
+  const process = method.steps.flatMap(s => s.paragraphs).join(' ');
+  assert.match(process, /safe existing photos/);
+  assert.match(process, /assessment appointment.*checks the work on site.*written quote/);
+  assert.match(process, /children and pets/);
+  assert.match(process, /discuss and agree the change/);
+  assert.match(process, /remaining concern/);
+  assert.ok(process.split(/\s+/).length < 160);
 });
 
 test('workflow and FAQs retain confirmed contacts and exclude unsupported promises and trades', () => {

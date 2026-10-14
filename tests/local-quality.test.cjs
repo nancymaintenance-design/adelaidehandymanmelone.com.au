@@ -25,7 +25,7 @@ test('customers can find standards and confirmed Adelaide identity before making
 test('guide revisions show their original case photo source, publisher and matching metadata only', () => {
   for (const guide of fixture.content.guides.filter(x => x.status === 'approved')) {
     const revisedOwners = ['field-notes-doors-windows-screens-enquiry', 'field-notes-wall-interior-repairs-job-list', 'field-notes-cleaning-removals-preparation', 'field-notes-pre-sale-home-maintenance-list'];
-    const expectedDate = revisedOwners.includes(guide.slug) ? '2026-10-13' : guide.slug === 'field-notes-rental-end-of-lease-maintenance-list' ? '2026-10-12' : '2026-10-10';
+    const expectedDate = '2026-10-14';
     const html = fixture.read(`guides/${guide.slug}/index.html`);
     const article = graph(html).find(x => x['@type'] === 'Article');
     assert.match(main(html), /Published by MEL ONE/);
@@ -38,9 +38,9 @@ test('guide revisions show their original case photo source, publisher and match
   }
   for (const news of fixture.content.news.filter(x => x.status === 'approved')) {
     const article = graph(fixture.read(`news/${news.slug}/index.html`)).find(x => x['@type'] === 'Article');
-    assert.equal(article.dateModified, undefined);
+    assert.equal(article.dateModified, '2026-10-13');
     assert.equal(article.image, undefined);
-    assert.ok(fixture.read('sitemap.xml').includes(`<loc>https://www.adelaidehandymanmelone.com.au/news/${news.slug}/</loc></url>`));
+    assert.ok(fixture.read('sitemap.xml').includes(`<loc>https://www.adelaidehandymanmelone.com.au/news/${news.slug}/</loc><lastmod>2026-10-13</lastmod></url>`));
   }
 });
 

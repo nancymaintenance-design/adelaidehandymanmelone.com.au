@@ -11,12 +11,12 @@
       "Scope, timing, availability and any quote are confirmed for each request."
     ],
     "about": {
-      "title": "About MEL ONE’s Adelaide handyman team",
+      "title": "About MEL ONE: Adelaide Handyman & Property Maintenance",
       "description": "Meet MEL ONE’s independent Adelaide handyman team. Check the company ABN, real business premises, assessment process and written-quote arrangements.",
       "sections": [
         {
           "id": "purpose",
-          "heading": "For the home you live in",
+          "heading": "Adelaide Handyman Repairs and Household Maintenance",
           "paragraphs": [
             "MEL ONE provides handyman repairs and household maintenance in Adelaide. Our team arranges an on-site assessment, identifies the work required and confirms the repair plan and written quote. The starting point is everyday life at home: a cupboard that no longer closes neatly, furniture waiting to be assembled, a worn screen or a garden that needs attention.",
             "Single repairs and longer lists both start with your description and Adelaide suburb. Tell MEL ONE what needs attention and the outcome you would like; our team checks the work on site."
@@ -24,7 +24,7 @@
         },
         {
           "id": "approach",
-          "heading": "Start with what you can see",
+          "heading": "On-Site Repair Assessment and Written Quotes",
           "paragraphs": [
             "Describe the job, where it is and how it affects the use of your home. Add your suburb and preferred timing. Photos are optional; email safe existing images to admin@melonemaintenance.com.au. For assembly, a product name and available instructions help us prepare.",
             "We confirm access and the assessment appointment, check the affected item or measure for new work, and explain the materials, proposed work and written quote. Any further assessment or additional work is agreed with you before proceeding. You do not need to diagnose a fault to make contact."
@@ -32,7 +32,7 @@
         },
         {
           "id": "multiple-jobs",
-          "heading": "Bring the whole household list",
+          "heading": "Combine Cupboard, Wall and Furniture Jobs",
           "paragraphs": [
             "Several small jobs can be easier to describe together. Group your list by room or outdoor area, add a short note beside each item and point out anything that affects daily use. A loose handle, a wall patch and a flat-pack shelf can all go in the same enquiry.",
             "MEL ONE checks each listed task on site and confirms which work can be combined, the materials, access, timing and quote. Identify the owner or manager who can approve the work."
@@ -40,7 +40,7 @@
         },
         {
           "id": "specialist-work",
-          "heading": "A clear place for specialist work",
+          "heading": "Qualified Service Arrangements for Specialist Work",
           "paragraphs": [
             "Contact MEL ONE with your Adelaide suburb and job details. Our team arranges an on-site assessment, checks the reported concern or new-work requirements and confirms the scope, quote and appointment. Safe existing photos are optional; email them to admin@melonemaintenance.com.au.",
             "Where licensed work or formal project approvals are part of the job, MEL ONE confirms the qualified service arrangements, work scope and required documents before work begins."
@@ -48,7 +48,7 @@
         },
         {
           "id": "contact",
-          "heading": "Talk to MEL ONE in Adelaide",
+          "heading": "MEL ONE Adelaide Team, Premises and Contact Details",
           "paragraphs": [
             "Call 0416 614 281 or email admin@melonemaintenance.com.au with a short description of your household-maintenance request and your Adelaide suburb. Include your preferred reply method so we can arrange the assessment appointment, check the work on site and confirm the scope and quote.",
             "MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent Adelaide team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property."
@@ -57,107 +57,330 @@
       ]
     },
     "method": {
-      "title": "How handyman assessment and repairs work",
-      "description": "See how MEL ONE arranges Adelaide home repairs: contact, assessment and quote, approved work, completion and follow-up.",
+      "title": "Handyman Adelaide: Quotes & Booking",
+      "description": "Repair costs, parts and booking: clear answers before you approve the work.",
+      "categories": [
+        {
+          "id": "fees-quotes",
+          "heading": "Repair Quotes: Labour, Parts and Materials",
+          "intro": "",
+          "questions": [
+            {
+              "id": "ADH-0495",
+              "sourceIds": [
+                "ADH-0495"
+              ],
+              "question": "Is there a minimum charge for one small repair?",
+              "answer": "A single small repair may still involve an assessment or minimum call-out charge. MEL ONE does not publish a universal minimum here. Before agreeing a visit, ask for the total applicable charge, what time or work it includes and whether parts or a return visit would be extra.",
+              "link": {
+                "url": "/service-standards/#quote-details",
+                "label": "Charges to confirm before booking"
+              }
+            },
+            {
+              "id": "ADH-0512",
+              "sourceIds": [
+                "ADH-0512"
+              ],
+              "question": "Why can a small repair have a minimum call-out charge?",
+              "answer": "Travel, setup and time at the property can be needed even for one loose fitting. A minimum charge may cover those visit costs rather than just the minutes spent adjusting the part. Ask which charges apply to your request and compare the total for the same work; adding jobs does not establish a discount."
+            },
+            {
+              "id": "ADH-0511",
+              "sourceIds": [
+                "ADH-0511"
+              ],
+              "question": "What is the difference between an estimate and a fixed repair quote?",
+              "answer": "An estimate is an approximate cost; a fixed quote states a price for a defined scope. Check the tasks, exclusions, parts and validity before accepting either. MEL ONE checks the work on site and confirms a written quote; any changed work needs discussion and agreement before proceeding.",
+              "link": {
+                "url": "https://business.gov.au/people/contractors/prepare-quotes",
+                "label": "Written quote guidance from business.gov.au"
+              }
+            },
+            {
+              "id": "ADH-0496",
+              "sourceIds": [
+                "ADH-0496"
+              ],
+              "question": "Can photos give me a fixed quote before booking?",
+              "answer": "Photos help explain visible damage, but do not establish hidden condition, compatible parts or access. MEL ONE arranges an on-site assessment before confirming the work and written quote. Send safe existing photos if useful, along with the symptom and suburb; a description is enough to begin.",
+              "link": {
+                "url": "/guides/prepare-household-maintenance-enquiry/",
+                "label": "Repair details for an assessment"
+              }
+            },
+            {
+              "id": "ADH-0497",
+              "sourceIds": [
+                "ADH-0497"
+              ],
+              "question": "Does the quote include labour, materials, travel and GST?",
+              "answer": "Check each inclusion in the particular quote: labour, parts, materials, travel, waste handling and GST treatment. Also clarify assessment charges and any minimum call-out. A price for adjustment only differs from one including new hardware or final painting, so compare the same task list and finishing stages.",
+              "link": {
+                "url": "/service-standards/#quote-details",
+                "label": "Written scope and quote details"
+              }
+            },
+            {
+              "id": "ADH-0505",
+              "sourceIds": [
+                "ADH-0505"
+              ],
+              "question": "Can several small jobs share one visit?",
+              "answer": "Several jobs can start in one repair list. A hinge, torn screen and wall patch still need separate parts and finishing decisions. MEL ONE confirms which tasks can share an appointment; parts sourcing, drying stages or separate specialist arrangements may require further visits. Put the items affecting everyday use first.",
+              "link": {
+                "url": "/guides/field-notes-grouping-multiple-household-jobs/",
+                "label": "Planning a combined repair list"
+              }
+            }
+          ]
+        },
+        {
+          "id": "repair-replacement",
+          "heading": "Repair or Replacement: Doors, Drawers and Walls",
+          "intro": "Match the repair to the worn part and the condition of what supports it.",
+          "questions": [
+            {
+              "id": "ADH-0057",
+              "sourceIds": [
+                "ADH-0057"
+              ],
+              "question": "Is my sliding door problem in the rollers or the track?",
+              "answer": "Rollers carry the panel along the track, so either can cause dragging or uneven travel. Worn wheels, a damaged running surface and guide alignment need checking together. Describe where it catches; new rollers will not correct every damaged track. Leave heavy panels fitted for assessment.",
+              "link": {
+                "url": "/services/sliding-door-repair/",
+                "label": "Sliding door rollers and track repairs"
+              }
+            },
+            {
+              "id": "ADH-0052",
+              "sourceIds": [
+                "ADH-0052"
+              ],
+              "question": "Can rollers be replaced without replacing the sliding door?",
+              "answer": "Compatible roller replacement may be suitable when the panel, track and surrounding fittings remain serviceable. A damaged frame or running surface can change that choice. The recorded patio-door job shows lower-roller work and track clearing; it is a useful comparison, while your door needs its own parts and condition check.",
+              "link": {
+                "url": "/case-studies/sliding-patio-door-roller-track-repair/",
+                "label": "Recorded patio roller and track work"
+              }
+            },
+            {
+              "id": "ADH-0096",
+              "sourceIds": [
+                "ADH-0096"
+              ],
+              "question": "Can a broken drawer runner be replaced without changing the cabinet?",
+              "answer": "A compatible runner repair can retain a sound cabinet and drawer. The drawer box, mounting points and alignment must also support the replacement; new runners cannot correct damaged board or a distorted box on their own. Describe sagging, rubbing and the point where the drawer catches.",
+              "link": {
+                "url": "/case-studies/kitchen-drawer-runner-repair/",
+                "label": "Drawer runner repair sequence"
+              }
+            },
+            {
+              "id": "ADH-0091",
+              "sourceIds": [
+                "ADH-0091"
+              ],
+              "question": "Can damaged cabinet board hold a repaired hinge?",
+              "answer": "The board and fixing point determine whether a hinge can be secured. Loose screws in sound material differ from torn, swollen or crumbling board; adjustment alone cannot restore that support. MEL ONE checks the hinge plate and cabinet edge together before agreeing refixing, compatible hardware or a different repair.",
+              "link": {
+                "url": "/services/cabinet-drawer-repair/",
+                "label": "Cabinet hinges and damaged fixing points"
+              }
+            },
+            {
+              "id": "ADH-0118",
+              "sourceIds": [
+                "ADH-0118"
+              ],
+              "question": "Does wall patching include sanding and painting?",
+              "answer": "Only the finishing stages named in the quote are included. A patch may involve backing, filling, drying and sanding before primer or painting. Confirm whether the agreed finish is patch-only, a touch-up or a wider painted area, because materials and drying stages affect the visit plan.",
+              "link": {
+                "url": "/services/wall-patching-repair/",
+                "label": "Wall patching and paint scope"
+              }
+            },
+            {
+              "id": "ADH-0123",
+              "sourceIds": [
+                "ADH-0123"
+              ],
+              "question": "Can a patch disappear without repainting the whole wall?",
+              "answer": "An invisible match cannot be promised. Existing paint age, colour, sheen and texture can make a local touch-up visible even when the patch is sound. Share any paint details you have and compare a local finish with a wider painted area before approving the scope.",
+              "link": {
+                "url": "/guides/field-notes-wall-interior-repairs-job-list/",
+                "label": "Patch preparation and paint finishing"
+              }
+            }
+          ]
+        },
+        {
+          "id": "parts-materials",
+          "heading": "Replacement Parts and Supplied Materials",
+          "intro": "Check compatibility before buying hardware or arranging the work.",
+          "questions": [
+            {
+              "id": "ADH-0085",
+              "sourceIds": [
+                "ADH-0085"
+              ],
+              "question": "Can a replacement cabinet hinge match the existing one?",
+              "answer": "A similar-looking hinge may have a different mounting plate, fixing position or opening arrangement. The existing hinge and cabinet need checking together to identify compatible hardware. Safe photos of visible markings can help; keep the fitting in place and avoid buying a substitute on appearance alone.",
+              "link": {
+                "url": "/services/cabinet-drawer-repair/",
+                "label": "Cabinet hinge and runner repairs"
+              }
+            },
+            {
+              "id": "ADH-0102",
+              "sourceIds": [
+                "ADH-0102"
+              ],
+              "question": "Do drawer runners need the same length and load rating?",
+              "answer": "Length, load rating, mounting arrangement and clearance all matter when matching a drawer runner. A part that fits the space may still be unsuitable for the drawer system or intended use. Share visible model markings and instructions so a compatible replacement can be checked before purchase.",
+              "link": {
+                "url": "/services/cabinet-drawer-repair/",
+                "label": "Drawer runners and cabinet alignment"
+              }
+            },
+            {
+              "id": "ADH-0499",
+              "sourceIds": [
+                "ADH-0499"
+              ],
+              "question": "Should I buy the replacement parts myself?",
+              "answer": "Agree parts responsibility before buying anything. If you already have parts, share the model, dimensions and instructions so MEL ONE can check whether they are compatible with the assessed repair. Supplied parts do not remove the need to check the fitting; missing or unsuitable components can change the quote and visit plan."
+            },
+            {
+              "id": "ADH-0510",
+              "sourceIds": [
+                "ADH-0510"
+              ],
+              "question": "What information helps with furniture assembly or a repair quote?",
+              "answer": "Send the model and manufacturer instructions for a furniture kit, its current assembly stage and any missing or damaged parts. For an existing repair, name the fitting, symptom and desired result. Include the suburb and access contact; safe existing photos are optional and you do not need to dismantle anything.",
+              "link": {
+                "url": "/services/flat-pack-assembly/",
+                "label": "Flat-pack models, instructions and assembly"
+              }
+            }
+          ]
+        },
+        {
+          "id": "booking-access",
+          "heading": "Booking Times, Family Contacts and Property Access",
+          "intro": "Keep the appointment, approval and access arrangements clear.",
+          "questions": [
+            {
+              "id": "ADH-0501",
+              "sourceIds": [
+                "ADH-0501"
+              ],
+              "question": "Can I arrange an evening or weekend visit?",
+              "answer": "MEL ONE's confirmed business hours are Monday–Sunday, 09:00–21:00, Adelaide local time. Tell us your preferred evening or weekend timing and the repair list. An appointment depends on the work, access and availability; listed business hours do not reserve a visit or promise a particular slot.",
+              "link": {
+                "url": "/contact/",
+                "label": "Request an assessment and quote"
+              }
+            },
+            {
+              "id": "ADH-0463",
+              "sourceIds": [
+                "ADH-0463"
+              ],
+              "question": "Can I arrange repairs for a parent while I am interstate?",
+              "answer": "Yes, a family member can start the request. Identify the resident, the person arranging access and the person authorised to approve the quote. Agree how the scope and any changes will be explained before work starts, and share sensitive entry details directly once arrangements are confirmed.",
+              "link": {
+                "url": "/news/field-notes-clear-maintenance-handover/",
+                "label": "Repair approval and handover contacts"
+              }
+            },
+            {
+              "id": "ADH-0417",
+              "sourceIds": [
+                "ADH-0417"
+              ],
+              "question": "What should a rental repair list include?",
+              "answer": "List the room, fitting and symptom for each item, with the owner or property manager's instructions and approval contact. Separate repairs from cleaning and note any access restrictions. Confirm the assessed tasks and records required before approval; the work list does not decide tenancy responsibility or a bond outcome.",
+              "link": {
+                "url": "/guides/field-notes-rental-end-of-lease-maintenance-list/",
+                "label": "Rental repair checklist"
+              }
+            },
+            {
+              "id": "ADH-0509",
+              "sourceIds": [
+                "ADH-0509"
+              ],
+              "question": "Can I request an assessment without knowing the part names?",
+              "answer": "Yes. Describe what happens in ordinary use: a drawer drops, a door drags or a hinge plate pulls away. A wider photo and a close view of visible damage can help if you already have them safely. A description is enough to start; leave hidden fittings and heavy panels in place.",
+              "link": {
+                "url": "/contact/",
+                "label": "Send your repair description"
+              }
+            }
+          ]
+        },
+        {
+          "id": "service-scope",
+          "heading": "Local Coverage and Suitable Repair Scope",
+          "intro": "Choose a relevant repair service and confirm the arrangements for your property.",
+          "questions": [
+            {
+              "id": "ADH-0003",
+              "sourceIds": [
+                "ADH-0003"
+              ],
+              "question": "How do I choose a handyman near me?",
+              "answer": "Start with the task, confirmed coverage and relevant repair evidence. Norwood flyscreen work, Burnside driveway cleaning and Marion wardrobe rollers are different recorded jobs; a nearby address alone does not prove the same repair suits your property. Use the listed suburb pages, then confirm the exact location, access and travel arrangements.",
+              "link": {
+                "url": "/service-areas/",
+                "label": "Local service areas and repair examples"
+              }
+            },
+            {
+              "id": "ADH-0500",
+              "sourceIds": [
+                "ADH-0500"
+              ],
+              "question": "What licence and insurance details should I check?",
+              "answer": "Check the proposed work and the person who will carry it out. Ask which licence or qualification applies and request relevant insurance documents before approval. MEL ONE confirms specialist arrangements where needed; company registration alone does not establish trade authorisation or insurance cover.",
+              "link": {
+                "url": "/service-standards/",
+                "label": "Scope, licence checks and service standards"
+              }
+            }
+          ]
+        }
+      ],
       "steps": [
         {
           "id": "prepare-request",
-          "heading": "Describe the job; photos are optional",
+          "heading": "Describe the repair",
           "paragraphs": [
-            "Start with what you can see: what needs attention, where it is and how it affects everyday use. Add your Adelaide suburb or postcode and the outcome you would like. MEL ONE arranges the assessment: we confirm the assessment appointment, inspect the affected area and explain the repair approach and written quote.",
-            "Photos are optional: email safe existing images to admin@melonemaintenance.com.au. A wider view can show the location and a close view the detail, but a description is enough to request assessment. Keep personal paperwork out of frame and leave heavy items, covers and damaged fittings in place. For assembly, include the product name and instructions if available."
-          ]
-        },
-        {
-          "id": "group-jobs",
-          "heading": "Put the household list in one place",
-          "paragraphs": [
-            "If you have several jobs, group them by room or outdoor area. Give each item a short description and mark the ones that most affect daily use. A loose cupboard handle, an unfinished shelf and a worn screen can be described in the same enquiry.",
-            "Explain whether the jobs depend on one another or on a delivery, another person or access to the property. A grouped list helps frame the discussion; whether any tasks can be combined depends on their individual scope, site conditions and the availability confirmed for the request."
-          ]
-        },
-        {
-          "id": "initial-discussion",
-          "heading": "Talk through the details",
-          "paragraphs": [
-            "Call 0416 614 281 or email admin@melonemaintenance.com.au with the job list, suburb and preferred reply method. We confirm the assessment purpose, access and appointment. Identify who can approve work if an owner, property manager or family member is involved.",
-            "During assessment, MEL ONE checks the reported condition or measures for new work, reviews product information and explains the proposed materials, repair plan and written quote. Start with a description of the problem; leave diagnosis and replacement-part decisions for the assessment."
-          ]
-        },
-        {
-          "id": "specialist-boundary",
-          "heading": "Identify what needs specialist assessment",
-          "paragraphs": [
-            "Electrical, structural, wet-area and approval-dependent concerns need the appropriate qualified assessment. Describe the visible issue from a safe accessible position and leave fittings or unknown materials undisturbed.",
-            "MEL ONE confirms appropriately qualified service arrangements, the responsible provider, work scope and required documents before work begins. An ABN alone does not establish a trade licence or insurance cover. Formal approvals and certificates remain with the authorised professional or authority."
+            "Send the suburb, affected fitting and symptom, plus safe existing photos if useful. List combined jobs by room and identify the access and approval contacts."
           ]
         },
         {
           "id": "confirm-scope",
-          "heading": "Agree the details before scheduling",
+          "heading": "Review the assessment and quote",
           "paragraphs": [
-            "MEL ONE confirms the assessment or repair appointment with you, including the visit purpose, authorised contact and access arrangements. We explain the scope, materials and quote before agreed repair work begins.",
-            "Keep the agreed details together so everyone is referring to the same list. If the list changes, raise it before assuming the additional item is included. Confirm the purpose of any proposed visit, especially when it is to assess a concern rather than carry out an agreed repair."
-          ]
-        },
-        {
-          "id": "prepare-visit",
-          "heading": "Prepare the space for an agreed visit",
-          "paragraphs": [
-            "Once a visit is confirmed, discuss entry, parking or shared-access restrictions and who will be present. Keep product instructions, agreed parts and the job list accessible. Move small personal items only where it is safe to do so; describe furniture or other obstacles that need separate handling.",
-            "Plan how children and pets will stay away from the work area, and mention any limits on room access or use. Share necessary entry details directly through the agreed contact method. Prepare from ground level and leave fittings and heavy items in place for the agreed visit."
+            "MEL ONE arranges the assessment appointment, checks the work on site and confirms the scope, parts, timing and written quote before you approve the work."
           ]
         },
         {
           "id": "on-site-work",
-          "heading": "Keep the work tied to the agreed scope",
+          "heading": "Agree the work",
           "paragraphs": [
-            "For an agreed work visit, use the original list to identify the location and intended outcome of each task. Discuss any relevant site conditions before a work method is settled. Photos and descriptions may not reveal concealed conditions, the suitability of a surface or the condition of an existing fitting.",
-            "If conditions suggest a change, ask what needs to be agreed before additional work proceeds, including any effect on materials, timing or the quote. An item needing further assessment may remain outside the agreed work. Keep access questions and any changes connected to the same household list."
+            "Confirm access for the agreed appointment and keep children and pets away from the work area. If conditions change the proposed work, discuss and agree the change first."
           ]
         },
         {
           "id": "completion-next-steps",
-          "heading": "Review the result and the next steps",
+          "heading": "Review the result",
           "paragraphs": [
-            "At the end of an agreed work visit, refer back to the job list and discuss which items were addressed and which remain outstanding. Ask about any relevant care instructions, materials information and agreed handling of leftover items or waste. Raise questions about the work while the details are clear.",
-            "Keep a record of any remaining assessment, separate work or information needed and who is taking the next step. If you notice a concern afterwards, contact MEL ONE with the job details and safe photos where useful. Any further work, timing and scope need their own confirmation."
+            "Compare completed items with the approved scope, raise any remaining concern and keep the quote and agreed next steps together."
           ]
         }
-      ],
-      "preparation": {
-        "heading": "Your enquiry preparation checklist",
-        "items": [
-          "Note your Adelaide suburb or postcode, preferred reply method and the person who can discuss the request.",
-          "List each job by room or outdoor area, with the visible issue and desired outcome beside it.",
-          "Photos are optional; email safely taken existing images to admin@melonemaintenance.com.au if available. Keep private information out of frame; do not delay contact to collect photos.",
-          "Gather product names, assembly instructions and details of any parts already on hand without buying replacements before discussion.",
-          "Explain who can approve the work and whether an owner, tenant or property manager needs to be involved.",
-          "Note access restrictions, heavy obstacles, timing preferences and any delivery that affects when the space can be used.",
-          "Keep access codes and key arrangements out of the initial enquiry; share necessary details directly after arrangements are confirmed."
-        ]
-      },
-      "expectations": {
-        "heading": "What to expect from assessment and agreed work",
-        "items": [
-          "MEL ONE confirms the assessment appointment and access, checks the work on site and provides the work plan and quote.",
-          "Scope, timing and availability depend on the individual request and the information needed to assess it.",
-          "We provide a written quote covering the proposed work, exclusions, materials and relevant site conditions, and agree it with you before work begins.",
-          "Photos are optional and help us prepare the visit. We check the affected area and any concealed-condition concerns during the assessment; email existing safe images to admin@melonemaintenance.com.au.",
-          "Several jobs can share one enquiry, while the decision to combine work depends on the confirmed details.",
-          "MEL ONE checks the work on site and confirms the qualified service arrangements, required project documents and agreed scope before work begins.",
-          "Changes and outstanding items need an agreed next step; keep them recorded alongside the original household list."
-        ]
-      },
-      "faqSlugs": [
-        "prepare-an-enquiry",
-        "multiple-home-jobs",
-        "specialist-work-enquiries",
-        "confirm-before-scheduling",
-        "materials-and-parts",
-        "prepare-for-visit",
-        "changes-during-work",
-        "completion-follow-up"
       ]
     },
     "contact": {
@@ -337,8 +560,8 @@
     {
       "status": "approved",
       "slug": "field-notes-doors-windows-screens-enquiry",
-      "title": "Door, Window & Flyscreen Repair Preparation",
-      "description": "MEL ONE checks door, window and flyscreen problems in Adelaide, including sliding screen mesh, rollers, tracks and frames, then explains the repair options.",
+      "title": "Door & Flyscreen Repairs Adelaide: Rollers, Mesh & Hardware",
+      "description": "Door & Flyscreen Repairs Adelaide: Rollers, Mesh & Hardware. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Name the room or outdoor location and the item involved.",
         "Describe what happens while focusing on visible observations.",
@@ -440,8 +663,8 @@
     {
       "status": "approved",
       "slug": "field-notes-wall-interior-repairs-job-list",
-      "title": "Wall Repairs & Interior Fittings: What to Prepare",
-      "description": "How Adelaide households can describe small wall, fitting and interior-finishing concerns for a MEL ONE enquiry.",
+      "title": "Plasterboard Repairs Adelaide: Wall Holes, Patches & Paint",
+      "description": "Plasterboard Repairs Adelaide: Wall Holes, Patches & Paint. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Record the room, visible condition and desired outcome.",
         "Add an approximate size only if it can be observed safely.",
@@ -485,8 +708,8 @@
     {
       "status": "approved",
       "slug": "field-notes-roof-gutter-exterior-observations",
-      "title": "Gutter & Roof Concerns: Ground-Level Checklist",
-      "description": "A non-invasive way to document visible exterior-maintenance concerns before speaking with MEL ONE in Adelaide.",
+      "title": "Gutter Cleaning Adelaide: Overflow & Exterior Repair Checks",
+      "description": "Gutter Cleaning Adelaide: Overflow & Exterior Repair Checks. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Observe only from an accessible ground-level position.",
         "Note the side of the property and the visible concern.",
@@ -530,8 +753,8 @@
     {
       "status": "approved",
       "slug": "field-notes-garden-outdoor-seasonal-preparation",
-      "title": "Garden Pruning & Outdoor Timber Assessment",
-      "description": "A simple way to organise visible garden and outdoor-area maintenance questions for MEL ONE in Adelaide.",
+      "title": "Garden Maintenance Adelaide: Tidy Ups, Pruning & Timber Checks",
+      "description": "Garden Maintenance Adelaide: Tidy Ups, Pruning & Timber Checks. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "List tasks by front, side and rear outdoor areas.",
         "Describe visible conditions and the desired outcome.",
@@ -575,8 +798,8 @@
     {
       "status": "approved",
       "slug": "field-notes-rental-end-of-lease-maintenance-list",
-      "title": "Rental Repairs: Access, Approval & Handover",
-      "description": "A practical guide to recording household-maintenance questions when a tenant, owner or property manager is involved.",
+      "title": "End of Lease Repairs Adelaide: Rental Maintenance Checklist",
+      "description": "End of Lease Repairs Adelaide: Rental Maintenance Checklist. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Give every item a room or outdoor-area location.",
         "Describe only what is visible and how it affects normal use.",
@@ -620,8 +843,8 @@
     {
       "status": "approved",
       "slug": "field-notes-pre-sale-home-maintenance-list",
-      "title": "Pre-Sale Home Repairs: Prioritise Your List",
-      "description": "A homeowner-focused way to sort visible maintenance tasks before discussing pre-sale preparation with MEL ONE in Adelaide.",
+      "title": "Pre-Sale Home Repairs Adelaide: Repair Checklist",
+      "description": "Pre-Sale Home Repairs Adelaide: Repair Checklist. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "List visible tasks by room and outdoor area.",
         "Distinguish presentation items from concerns needing assessment.",
@@ -665,8 +888,8 @@
     {
       "status": "approved",
       "slug": "field-notes-grouping-multiple-household-jobs",
-      "title": "Group Household Repairs Into One Work List",
-      "description": "A practical Adelaide household-maintenance template for making a multi-job MEL ONE enquiry easier to discuss.",
+      "title": "Small Jobs Handyman Adelaide: Planning Multiple Repairs",
+      "description": "Small Jobs Handyman Adelaide: Planning Multiple Repairs. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Create one line per task with room, observation and desired outcome.",
         "Group tasks by indoor and outdoor location.",
@@ -710,44 +933,42 @@
     {
       "status": "approved",
       "slug": "field-notes-cleaning-removals-preparation",
-      "title": "Driveway Cleaning & Household Clear-Out Preparation",
-      "description": "How to define household cleaning, item-removal and moving-preparation questions before contacting MEL ONE in Adelaide.",
+      "title": "Pressure Cleaning Adelaide: Driveway & Paver Guide",
+      "description": "Prepare a driveway or paver cleaning assessment with surface condition, joints, coatings, drainage and access details.",
       "scope": [
-        "List the rooms or outdoor areas involved.",
-        "Separate items to keep from items to discuss for removal.",
-        "Note pathways, stairs, parking and shared-access limitations.",
-        "Photos are optional; do not move heavy items or unknown material to take them.",
-        "Leave suspected hazardous, pest or mould concerns untouched for appropriate assessment."
+        "Identify the driveway, path or courtyard and its paving material.",
+        "Describe visible staining, coatings and damaged joints.",
+        "Explain water supply, drainage, nearby planting and access restrictions.",
+        "Use safe existing photos if useful; leave damaged or unknown material undisturbed."
       ],
       "exclusions": [
-        "MEL ONE checks the items, waste types, access and disposal requirements on site. Hazardous, pest or mould concerns are left undisturbed while we confirm the qualified assessment and handling arrangements.",
-        "Collection, disposal, booking and treatment arrangements are confirmed directly for the individual request."
+        "Cleaning does not include joint repairs or resealing unless separately assessed and agreed.",
+        "MEL ONE confirms the surface condition, method, included area and expected result before work is booked."
       ],
       "date": "2026-09-18",
       "relatedServices": [
-        "cleaning-removals-specialist-care",
-        "maintenance-planning-inspection-support"
+        "cleaning-removals-specialist-care"
       ],
       "sections": [
         {
-          "heading": "Define the area and the intended result",
+          "heading": "Surface Condition Before Pressure Cleaning",
           "paragraphs": [
-            "Name the rooms, patio, garage or accessible exterior space involved and describe the desired outcome: a cleaner area, removal discussion, moving preparation or a clear list of items to address. Separate general cleaning from household items you want to keep, donate or discuss removing.",
-            "MEL ONE assesses the items and access on site, checks waste types and disposal requirements and confirms the collection or cleaning scope and quote. Photos are optional; leave heavy or hazardous items in place."
+            "Identify the paving material and approximate area. Describe moss, staining, loose pavers, damaged joints and any existing coating. Surface condition matters as well as size.",
+            "Explain water supply, drainage and nearby planting. Leave damaged or unknown material undisturbed; a safe existing overview can show the affected area without testing it."
           ]
         },
         {
-          "heading": "Make a sensible inventory without handling risky material",
+          "heading": "Paver Cleaning Pressure, Joints and Coatings",
           "paragraphs": [
-            "Use a numbered list for larger items and approximate locations, plus safe photos that show pathways or access constraints. The goal is to inform a discussion, not to ask someone to lift, dismantle, move or expose a difficult item before arrangements are confirmed.",
-            "Leave suspected hazardous material, pests, mould and unknown substances undisturbed. Tell MEL ONE the location and visible concern. We confirm the appropriately qualified assessment and handling arrangements before treatment or transport is agreed."
+            "Pavers, joints and coatings form one surface system. Higher pressure may disturb loose joint material or an ageing coating without addressing the cause of a stain. The proposed method should follow assessment, not a preferred pressure setting.",
+            "The most forceful treatment is not necessarily suitable. Existing wear can limit the cleaning outcome, so the method needs to account for the surface rather than promise a uniform appearance."
           ]
         },
         {
-          "heading": "Discuss access, timing and next steps directly",
+          "heading": "Pressure Cleaning Quote Scope",
           "paragraphs": [
-            "Mention stairs, parking, shared access, gates, children, pets and the person who can approve the request. Share your moving or end-of-lease date so MEL ONE can plan the work and confirm your appointment directly.",
-            "Contact MEL ONE to arrange an on-site assessment of your clean-up or removal job. We check access and waste handling, then confirm the work scope, collection arrangements, timing and quote."
+            "The driveway and paved-surface cleaning service explains the assessment scope. Confirm the included area and method before booking. Ask what result is reasonable for existing marks.",
+            "Cleaning, joint repairs and resealing are separate work items. The quote should state any additional treatment and exclusions; do not assume every finishing stage follows a clean."
           ]
         }
       ]
@@ -755,8 +976,8 @@
     {
       "status": "approved",
       "slug": "prepare-household-maintenance-enquiry",
-      "title": "How to Prepare a Household-Maintenance Enquiry",
-      "description": "A simple Adelaide homeowner's guide to photos, job details and questions to bring to a MEL ONE enquiry.",
+      "title": "Handyman Quotes Adelaide: Repair Details, Parts & Access",
+      "description": "Handyman Quotes Adelaide: Repair Details, Parts & Access. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Describe what you observe and the outcome you want.",
         "Include your suburb, access details and preferred reply method.",
@@ -796,8 +1017,8 @@
     {
       "status": "approved",
       "slug": "home-maintenance-walk-through-checklist",
-      "title": "A Room-by-Room Home-Maintenance Walk-Through",
-      "description": "A non-invasive checklist for noticing household jobs and preparing a clear MEL ONE maintenance list.",
+      "title": "Home Maintenance Adelaide: Room-by-Room Repair Checklist",
+      "description": "Home Maintenance Adelaide: Room-by-Room Repair Checklist. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Note the room or outdoor area for each item.",
         "Record visible condition and the outcome you want.",
@@ -839,8 +1060,8 @@
     {
       "status": "approved",
       "slug": "field-notes-one-household-job-list",
-      "title": "MEL ONE Notes: One Household Work List",
-      "description": "A practical way to group household repair requests before contacting MEL ONE in Adelaide.",
+      "title": "Adelaide Home Repairs: Grouping Small Handyman Jobs",
+      "description": "Adelaide Home Repairs: Grouping Small Handyman Jobs. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Describe what you observe and the outcome you want.",
         "Discuss scope, access, timing and any quote directly with MEL ONE."
@@ -882,8 +1103,8 @@
     {
       "status": "approved",
       "slug": "field-notes-clear-maintenance-handover",
-      "title": "MEL ONE Notes: A Clear Maintenance Handover",
-      "description": "What to include when a homeowner, tenant or property manager passes a maintenance request to MEL ONE.",
+      "title": "Rental Property Maintenance Adelaide: Repair Handover Records",
+      "description": "Rental Property Maintenance Adelaide: Repair Handover Records. Practical MEL ONE guidance on repair choices, the information to compare and an assessed work scope.",
       "scope": [
         "Describe what you observe and the outcome you want.",
         "Discuss scope, access, timing and any quote directly with MEL ONE."

@@ -104,7 +104,7 @@ test('generated business and Article schema use only configured regions and visi
       } else {
         assert.equal(file, `guides/${sampleGuide.slug}/index.html`, `${file} omits Article image when no image is visible`);
       }
-      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-13' : undefined);
+      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-14' : '2026-10-13');
     }
   }
 });
@@ -113,7 +113,7 @@ test('workflow metadata and FAQ schema follow only its visible approved method c
   const fixture = buildFixture(test, { SITE_ORIGIN: 'https://example.test' }, content => {
     content.site.method.title = 'A changed workflow title';
     content.site.method.description = 'A changed workflow description from the approved method.';
-    content.site.method.faqSlugs = ['prepare-an-enquiry', 'confirm-before-scheduling'];
+    content.site.method.categories = content.site.method.categories.slice(0, 1);
   });
   const html = fixture.read('how-it-works/index.html');
   assert.match(html, /<title>A changed workflow title \| MEL ONE<\/title>/);
@@ -126,10 +126,7 @@ test('workflow metadata and FAQ schema follow only its visible approved method c
   assert.equal(page.description, 'A changed workflow description from the approved method.');
   const faqs = graph.find(item => item['@type'] === 'FAQPage');
   assert.ok(faqs, 'visible related FAQs have matching schema');
-  assert.deepEqual(faqs.mainEntity.map(item => [item.name, item.acceptedAnswer.text]), fixture.content.site.method.faqSlugs.map(slug => {
-    const record = fixture.content.faqs.find(item => item.slug === slug);
-    return [record.question, record.answer];
-  }));
+  assert.deepEqual(faqs.mainEntity.map(item => [item.name, item.acceptedAnswer.text]), fixture.content.site.method.categories.flatMap(c => c.questions).map(q => [q.question, q.answer]));
   assert.ok(graph.some(item => item['@type'] === 'BreadcrumbList' && item.itemListElement.at(-1).item.endsWith('/how-it-works/')));
   assert.match(fixture.read('llms.txt'), /\[A changed workflow title\]\(https:\/\/example\.test\/how-it-works\/\): A changed workflow description from the approved method\./);
 });
@@ -208,14 +205,14 @@ test('article markup describes visible original editorial pages with publisher i
         assert.match(html, /Published by MEL ONE/);
       } else {
         assert.equal(article.image, undefined, `${collection}/${item.slug} no editorial photo is documented`);
-        assert.equal(article.dateModified, undefined);
+        assert.equal(article.dateModified, collection === 'news' ? '2026-10-13' : undefined);
       }
       assert.equal(article.headline, item.title);
       assert.equal(article.datePublished, item.date);
       assert.equal(article.publisher['@id'], 'https://example.test/#business');
       assert.equal(article.author['@id'], article.publisher['@id']);
       assert.equal(article.inLanguage, 'en-AU');
-      assert.match(html, /<article>/);
+      assert.match(html, /<article(?:\s[^>]*)?>/);
       assert.match(html, /0416 614 281/);
       assert.match(html, /admin@melonemaintenance\.com\.au/);
     }
@@ -225,7 +222,7 @@ test('article markup describes visible original editorial pages with publisher i
     const articles = schemaOf(html).filter(item => item['@type'] === 'Article');
     assert.equal(articles.length, 1, `${study.slug} exactly one Article`);
     assert.deepEqual(articles[0].image, study.images.map(image => `https://example.test${image.src}`), `${study.slug} all documented photos in order`);
-    assert.equal(articles[0].dateModified, undefined);
+    assert.equal(articles[0].dateModified, '2026-10-13');
   }
   assert.ok(!schemaOf(preview.read('index.html')).some(item => item['@type'] === 'Article'));
 });
@@ -266,6 +263,7 @@ test('home page exposes the Gold Standard visual system markers', () => {
 test('home and services expose all nine approved categories in a semantic task wall', () => {
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
   const records = preview.content.services.filter(item => item.status === 'approved' && item.noindex !== true);
+  const keywordCopy = require('../src/content-pack/keyword-content-contract.json').pages.filter(page => page.enforcement === 'core');
   assert.equal(records.length, 9);
   for (const file of ['index.html', 'services/index.html']) {
     const html = preview.read(file);
@@ -278,8 +276,10 @@ test('home and services expose all nine approved categories in a semantic task w
     const icons = new Set();
     articles.forEach(([article], index) => {
       const record = records[index];
-      assert.ok(article.includes(escape(record.title)));
-      assert.ok(article.includes(escape(record.description)));
+      assert.ok(keywordCopy.some(page => page.route === `/services/${record.slug}/` && article.includes(escape(page.primaryTopic))));
+      const detail = preview.read(`services/${record.slug}/index.html`);
+      const description = detail.match(/<meta name="description" content="([^"]+)"/)[1];
+      assert.ok(article.includes(`<p class="task-description">${description}</p>`));
       assert.ok(article.includes(`href="/services/${record.slug}/"`));
       const icon = article.match(/<svg class="task-icon" aria-hidden="true" focusable="false"[^>]*>([\s\S]*?)<\/svg>/);
       assert.ok(icon, `${record.slug} local decorative icon`);
@@ -291,22 +291,24 @@ test('home and services expose all nine approved categories in a semantic task w
   }
 });
 
-test('task wall escapes content and limits scope previews to three items', () => {
-  const fixture = buildFixture(test, {}, content => {
-    content.services[0].title = 'Fixture <title> & "text"';
-    content.services[0].description = 'Fixture <description> & "text"';
+test('task and guide cards escape user-facing fields and limit scope previews', () => {
+  const fixture = buildFixture(test, {}, (content, fixtureRoot) => {
     content.services[0].scope = ['<script>fixture</script>', 'A & B', '"Third"', 'Fourth must stay off the wall'];
+    const source = path.join(fixtureRoot, 'src/guide-editorial.mjs');
+    fs.writeFileSync(source, fs.readFileSync(source, 'utf8').replace("label: 'Doors, rollers and flyscreens'", "label: 'Fixture <title> & \"text\"'").replace("summary: 'Separate torn mesh from roller, track and frame faults, then compare a component repair with replacement.'", "summary: 'Fixture <description> & \"text\"'"));
   });
   for (const file of ['index.html', 'services/index.html']) {
     const wall = fixture.read(file).match(/<section class="task-wall"[^>]*>([\s\S]*?)<\/section>/);
     assert.ok(wall);
-    assert.match(wall[1], /Fixture &lt;title&gt; &amp; &quot;text&quot;/);
-    assert.match(wall[1], /Fixture &lt;description&gt; &amp; &quot;text&quot;/);
     assert.match(wall[1], /&lt;script&gt;fixture&lt;\/script&gt;/);
     assert.match(wall[1], /A &amp; B/);
     assert.match(wall[1], /&quot;Third&quot;/);
     assert.doesNotMatch(wall[1], /Fourth must stay off the wall|<script>/);
   }
+  const guideCard = fixture.read('guides/index.html').match(/<article class="note-card">[\s\S]*?<\/article>/)[0];
+  assert.match(guideCard, /Fixture &lt;title&gt; &amp; &quot;text&quot;/);
+  assert.match(guideCard, /Fixture &lt;description&gt; &amp; &quot;text&quot;/);
+  assert.doesNotMatch(guideCard, /Fixture <title>|Fixture <description>/);
 });
 
 test('rebuilding removes the retired generated form-submission script', () => {
