@@ -246,7 +246,7 @@ test('mobile quick actions provide both calling and enquiry navigation on every 
   for (const file of fs.readdirSync(preview.output, { recursive: true }).filter(file => file.endsWith('.html'))) {
     const actions = preview.read(file).match(/<nav class="mobile-actions"[^>]*>([\s\S]*?)<\/nav>/);
     assert.ok(actions, `${file} persistent actions`);
-    assert.match(actions[1], /href="tel:\+611300838722"/);
+    assert.match(actions[1], /href="tel:\+61416614281"/);
     assert.match(actions[1], /href="\/contact\/"/);
   }
   assert.match(preview.read('assets/css/site.css'), /\.mobile-actions\s*\{[^}]*position:\s*fixed/);

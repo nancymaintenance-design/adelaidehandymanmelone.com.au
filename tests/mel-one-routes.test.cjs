@@ -54,7 +54,7 @@ test('About renders all five contract sections, contact material and escaped sou
     assert.ok(main.includes(`<h2>${escape(section.heading)}</h2>`), `${section.id}: heading`);
     for (const paragraph of section.paragraphs) assert.ok(main.includes(`<p>${escape(paragraph)}</p>`), `${section.id}: paragraph`);
   }
-  assert.match(main, /href="tel:\+611300838722"/);
+  assert.match(main, /href="tel:\+61416614281"/);
   assert.match(main, /href="mailto:admin@melonemaintenance\.com\.au"/);
   assert.doesNotMatch(main, /<script>|A place to start with your home|Keep the conversation practical/);
 });
@@ -84,7 +84,7 @@ test('all required routes offer confirmed contacts and the authorized identity',
   for (const route of required) {
     assert.ok(fs.existsSync(path.join(output, route === '/404.html' ? '404.html' : `${route}/index.html`)), `${route} missing`);
     const html = read(route);
-    assert.match(html, /href="tel:\+611300838722"/, `${route}: call action`);
+    assert.match(html, /href="tel:\+61416614281"/, `${route}: call action`);
     assert.match(html, /href="mailto:admin@melonemaintenance\.com\.au"/, `${route}: email action`);
     assert.match(html, /63 Pirie St Adelaide SA 5000/, `${route}: address`);
     assert.match(html, /src="\/assets\/mel-one-logo-authorized-224\.webp"/, `${route}: logo`);
@@ -102,7 +102,7 @@ test('How it works renders useful answer categories, links and a single booking 
   assert.equal((main.match(/class="booking-process"/g) || []).length, 1);
   assert.match(main, /href="\/services\/sliding-door-repair\/"/);
   assert.match(main, /href="\/case-studies\/kitchen-drawer-runner-repair\/"/);
-  assert.match(main, /href="tel:\+611300838722"/);
+  assert.match(main, /href="tel:\+61416614281"/);
   assert.doesNotMatch(main, /\b(?:our licensed (?:team|staff|technicians)|insured|guaranteed?|same.day|next.day|24\/7|rapid|instant|fixed.price|free.quote|customer reviews?|testimonials?|always available|all suburbs|all jobs)\b/i);
 });
 test('hub content is escaped and draft or noindex answers stay out of visible content and schema', () => {
@@ -131,7 +131,7 @@ test('home hero keeps confirmed contact actions and real repair photos beside a 
   const heroStage = home.match(/<section class="hero-stage">([\s\S]*?)<\/section>/);
   assert.ok(heroStage, 'home exposes a semantic hero-stage section');
   assert.match(heroStage[1], /<svg class="gold-route" aria-hidden="true" focusable="false"[^>]*>[\s\S]*?<path\b/);
-  assert.match(heroStage[1], /href="tel:\+611300838722">Call 0416 614 281<\/a>/);
+  assert.match(heroStage[1], /href="tel:\+61416614281">Call 0416 614 281<\/a>/);
   assert.match(heroStage[1], /href="\/contact\/">Request an assessment and quote/);
   assert.match(heroStage[1], /alt="Mossy paved driveway before pressure cleaning in Burnside Adelaide"/);
   assert.match(heroStage[1], /alt="Cleaned paved driveway after pressure cleaning in Burnside Adelaide"/);

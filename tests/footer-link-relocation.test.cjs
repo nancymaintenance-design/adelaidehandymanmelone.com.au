@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
-const { digest, historicalPhoneLinks } = require('../scripts/local-audit-semantic-deltas.cjs');
+const { digest } = require('../scripts/local-audit-semantic-deltas.cjs');
 const { socialLinks, brandLink, caseDataLink, verifyFooterLinkRelocation } = require('./footer-link-relocation.cjs');
 const root = path.resolve(__dirname, '..');
 const previousSemanticsDigest = 'a26831db5ecd66251d993663c65033bc5b9c2eb81ab01b705884144327b4188d';
@@ -15,8 +15,8 @@ test('footer acceptance permits only the exact four unchanged links to move afte
   const end = [caseDataLink, ['/service-areas/feed.json', 'Area data (JSON)']];
   const before = [...start, ...middle, ...socialLinks, ...end];
   const current = [...start, ...socialLinks, ...middle, ...end];
-  assert.deepEqual(verifyFooterLinkRelocation(current, digest(historicalPhoneLinks(before))), before);
-  assert.throws(() => verifyFooterLinkRelocation(before, digest(historicalPhoneLinks(before))), /ordered block/);
+  assert.deepEqual(verifyFooterLinkRelocation(current, digest(before)), before);
+  assert.throws(() => verifyFooterLinkRelocation(before, digest(before)), /ordered block/);
   for (const [name, mutate] of [
     ['changed social URL', links => { links[2][0] += '/changed'; }],
     ['changed social label', links => { links[3][1] = 'New label'; }],
@@ -31,15 +31,8 @@ test('footer acceptance permits only the exact four unchanged links to move afte
   ]) {
     const changed = structuredClone(current);
     mutate(changed);
-    assert.throws(() => verifyFooterLinkRelocation(changed, digest(historicalPhoneLinks(before))), undefined, name);
+    assert.throws(() => verifyFooterLinkRelocation(changed, digest(before)), undefined, name);
   }
-});
-
-test('phone routing comparison rejects stale targets and preserves labels and mail links', () => {
-  const current = [['tel:+611300838722', 'Call 0416 614 281'], ['mailto:admin@melonemaintenance.com.au', 'admin@melonemaintenance.com.au'], ['tel:000', 'Emergency']];
-  assert.deepEqual(historicalPhoneLinks(current), [['tel:+61416614281', 'Call 0416 614 281'], ['mailto:admin@melonemaintenance.com.au', 'admin@melonemaintenance.com.au'], ['tel:000', 'Emergency']]);
-  assert.throws(() => historicalPhoneLinks([['tel:+61416614281', 'Contact']]), /approved routing target/);
-  assert.deepEqual(historicalPhoneLinks([['tel:+611300838723', 'Other']]), [['tel:+611300838723', 'Other']], 'An arbitrary destination cannot be hidden by normalization');
 });
 
 test('all 102 generated pages preserve their former link sequence after reversing the footer relocation', async t => {
@@ -71,6 +64,6 @@ test('all 102 generated pages preserve their former link sequence after reversin
     verifyFooterLinkRelocation(current, previousHash);
     const delta = manifest.deltas[route + ':links'];
     assert.ok(delta, route + ': exact link amendment is present');
-    assert.equal(delta.approved, digest(historicalPhoneLinks(current)), route + ': current link order matches approved relocation');
+    assert.equal(delta.approved, digest(current), route + ': current link order matches approved relocation');
   }
 });

@@ -103,8 +103,7 @@ const caseStudyLocalRoutes = {
 };
 const { site } = content;
 const contact = site.contact;
-// The authorized call destination is separate from the unchanged displayed number.
-const phoneLink = '+611300838722';
+const phoneLink = `+61${contact.phone.replace(/\D/g, '').slice(1)}`;
 const originUrl = new URL(process.env.SITE_ORIGIN || 'https://www.adelaidehandymanmelone.com.au');
 if (!['http:', 'https:'].includes(originUrl.protocol) || originUrl.username || originUrl.password) throw new Error('SITE_ORIGIN must be an HTTP(S) origin without credentials.');
 const origin = originUrl.origin;

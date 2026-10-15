@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const { digest, historicalPhoneLinks } = require('../scripts/local-audit-semantic-deltas.cjs');
+const { digest } = require('../scripts/local-audit-semantic-deltas.cjs');
 
 const socialLinks = [
   ['https://share.google/bnkU7OE83VYCSh44T', 'Google Reviews'],
@@ -36,7 +36,7 @@ function restoreFooterLinkOrder(current) {
 
 function verifyFooterLinkRelocation(current, previousHash) {
   const restored = restoreFooterLinkOrder(current);
-  assert.equal(digest(historicalPhoneLinks(restored)), previousHash, 'Only the exact footer relocation and approved phone routing may differ; all labels, other links and ordering must stay unchanged');
+  assert.equal(digest(restored), previousHash, 'Only the exact four-link footer relocation is approved; all other links and ordering must stay unchanged');
   return restored;
 }
 
