@@ -20,7 +20,8 @@ test('five focused service routes preserve case evidence and reciprocal discover
     assert.equal(service.url, `https://example.test${route}`);
     assert.equal(service.provider['@id'], 'https://example.test/#business');
     const faqs = graph.find(item => item['@type'] === 'FAQPage').mainEntity;
-    assert.ok(faqs.length >= 4 && faqs.length <= 5);
+    if (slug === 'gutter-cleaning') assert.deepEqual(faqs.map(q => q.name), ['Will gutter cleaning stop all overflow?', 'What access details should I provide?', 'Does gutter cleaning include downpipe outlets and repairs?']);
+    else assert.ok(faqs.length >= 4 && faqs.length <= 5);
     const escape = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
     for (const faq of faqs) {
       assert.ok(html.includes(`<summary>${escape(faq.name)}</summary>`));

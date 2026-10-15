@@ -588,6 +588,7 @@ export function applyGuideEditorial(content) {
   record.guideCaseContext = edit.caseContext;
   record.guideNext = edit.next;
  }
+ applyAuditGuideAmendments(content);
  // Shorten discovery labels, but preserve contextual wording authored in complete guide paragraphs.
  for (const record of [...content.services, ...content.guides, ...content.news, ...content.caseStudies]) {
   const discoverySections = guideEditorial[record.slug] ? [] : (record.sections || []);
@@ -596,4 +597,28 @@ export function applyGuideEditorial(content) {
    if (guideEditorial[slug]) l.label = guideEditorial[slug].label;
   }
  }
+}
+
+function applyAuditGuideAmendments(content) {
+ const get = slug => content.guides.find(g => g.slug === slug && g.status === 'approved' && !g.noindex);
+ const grouped = get('field-notes-grouping-multiple-household-jobs');
+ if (grouped) grouped.sections.push({ id: 'move-in-repair-list', aliases: [], heading: 'Move-In Repairs Before Furniture Delivery', paragraphs: [
+  'Prepare a move-in list by room with the keys or access contact, fitting and observed task, product delivery dates, instructions and the person approving changes. For new curtain rods and shelving, include product dimensions, intended position and wall-fixing permission. Keep finishing stages and any licensed work separate.',
+  'Tell MEL ONE when furniture is due and which rooms will remain accessible. Empty rooms can help access, but the requested date does not reserve an appointment. MEL ONE assesses each task and confirms accepted work, sequence and visits; completion before delivery must be agreed directly.'
+ ] });
+ const rental = get('field-notes-rental-end-of-lease-maintenance-list');
+ if (rental) {
+  rental.sections.push({ id: 'short-stay-maintenance', aliases: [], heading: 'Short-Stay Repairs, Guest-Free Access and Records', paragraphs: [
+   'For an Airbnb or other holiday rental, list the actual minor repair and room: a torn flyscreen, sticking cupboard or approved wall patch. Give the suburb, check-out and next check-in dates, available guest-free entry window and authorised owner or manager. MEL ONE assesses the requested tasks and confirms whether scope and timing can be agreed; a preferred changeover window is not a booking or an emergency attendance promise.',
+   'Keep repairs separate from cleaning, guest messages and accommodation management. A short-stay checklist should record the reported fault and date, location, priority, parts or model details, approval contact, agreed scope and quote, vacant access and completion or outstanding status. Keep approved changes, any agreed invoice or completion notes and follow-up actions with the same record. Requested photographs and itemised invoices need direct confirmation; case images do not establish a standard customer deliverable.',
+   'An immediate threat to guests needs the appropriate emergency response and owner or manager notification. Keep affected equipment or areas out of use where appropriate while suitable help is arranged. Routine non-urgent repairs can go into the assessed maintenance list; MEL ONE availability is confirmed for the request.'
+  ] });
+  rental.faqs.push({ question: 'Do tenants need permission for alterations or fixed fittings in South Australia?', answer: 'Unless the tenancy agreement permits it, section 70 of the Residential Tenancies Act 1995 requires the landlord\'s written consent for alterations or additions. Consent cannot be unreasonably withheld for specified categories, including minor changes, subject to the Act\'s qualifications. Confirm the exact work, permission and restoration requirements before booking; a repair contractor cannot grant the landlord\'s consent. Seek tenancy advice for a disputed request.' });
+  rental.sections.find(s => s.heading === 'Confirm Approval Before Arranging Repairs').paragraphs.push(['For the applicable rules, read ', { url: 'https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/residential-tenancies-act-1995/current/1995.63.auth.pdf', label: 'South Australian Residential Tenancies Act, section 70' }, '.']);
+ }
+ const preparation = get('prepare-household-maintenance-enquiry');
+ if (preparation) preparation.sections.push({ id: 'work-specific-licences', aliases: [], heading: 'Work-Specific Licence and Provider Checks', paragraphs: [
+  'A handyman label does not remove South Australian licensing requirements. Match the actual work to the proposed contractor and licence conditions. For building work, check the building contractor licence and registered supervision arrangements. For plumbing, gas fitting or electrical work, check the relevant contractor licence and the registration of the person doing the physical trade work. Confirm the task with Consumer and Business Services if unsure; this guidance does not establish any MEL ONE trade authorisation.',
+  ['Use ', { url: 'https://www.sa.gov.au/topics/business-and-trade/licensing/building-and-trades/building-work-contractor-s-licence', label: 'SA building contractor guidance' }, ', ', { url: 'https://www.sa.gov.au/topics/business-and-trade/licensing/building-and-trades/licensing', label: 'SA plumbing, gas fitting and electrical guidance' }, ' and ', { url: 'https://www.cbs.sa.gov.au/find-a-licence-holder', label: 'CBS licence-holder checks' }, ' when comparing the proposed arrangements.']
+ ] });
 }

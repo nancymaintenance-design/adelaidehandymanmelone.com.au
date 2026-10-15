@@ -1,5 +1,18 @@
 {
   "version": 2,
+  "auditAmendmentProvenance": "2026-10-15: These heading/FAQ amendments are independently authored from the approved content audit and the selected topic edits, not generated from rendered output. Core H1 expectations remain unchanged.",
+  "auditAmendments": {
+    "/": { "requiredHeadings": ["Repair Assessment, Written Quotes and Provider Arrangements"], "removedHeadings": ["Know who is coming and what is agreed."] },
+    "/about/": { "requiredHeadings": ["Repair Assessment, Written Quotes and Provider Arrangements"], "removedHeadings": ["Know who is coming and what is agreed."] },
+    "/contact/": { "requiredHeadings": ["Repair Assessment, Written Quotes and Provider Arrangements"], "removedHeadings": ["Know who is coming and what is agreed."] },
+    "/news/field-notes-one-household-job-list/": { "requiredHeadings": ["Small Household Repairs: Repair Questions", "Small Household Repairs: Services and Case Records"], "removedHeadings": ["Adelaide Home Repairs: Repair Questions", "Adelaide Home Repairs: Services and Case Records"] },
+    "/news/field-notes-clear-maintenance-handover/": { "requiredHeadings": ["Rental Repair Handover: Repair Questions", "Rental Repair Handover: Services and Case Records"] },
+    "/services/gutter-cleaning/": { "removedFaqs": ["Will gutter cleaning resolve every overflow?", "Does cleaning include roof repairs or downpipe work?"] },
+    "/services/flat-pack-assembly/": { "requiredHeadings": ["Furniture Assembly Requests: Kits and Existing Repairs", "Loose Furniture Joints and Repair Decisions"], "removedHeadings": ["Flat-pack furniture assembly: product, parts and instructions"], "removedFaqs": ["Can you assess a partly assembled wardrobe?"] },
+    "/guides/field-notes-grouping-multiple-household-jobs/": { "requiredHeadings": ["Move-In Repairs Before Furniture Delivery"] },
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/": { "requiredHeadings": ["Short-Stay Repairs, Guest-Free Access and Records"] },
+    "/guides/prepare-household-maintenance-enquiry/": { "requiredHeadings": ["Work-Specific Licence and Provider Checks"] }
+  },
   "reviewNote": "Independently authored expectations for all 102 routes. ADH IDs identify relevant research intent, not demand or capability. Other elements cite the original business/local/case record or an explicit functional purpose. No heading expectations are regenerated from rendered HTML; held service claims are not treated as delivered. Approved 2026-10-14: authored statement headings, compact local labels and 22 individually selected decision answers; no rendered-output expectations.",
   "pages": {
     "/guides/field-notes-doors-windows-screens-enquiry/": {

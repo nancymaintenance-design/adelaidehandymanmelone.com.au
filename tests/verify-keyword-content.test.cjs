@@ -6,7 +6,7 @@ const os = require('node:os');
 const path = require('node:path');
 const { chromium } = require('C:/Users/UFTR/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const buildFixture = require('./build-fixture.cjs');
-const { verifyPage, classifyKeywordEvidence, recordEvidence, extractPage, findUnresolvedFeedTargets, verifyProtectedLayoutCss, reviewedIntentExceptions } = require('../scripts/verify-keyword-content.cjs');
+const { verifyPage, classifyKeywordEvidence, recordEvidence, extractPage, findUnresolvedFeedTargets, verifyProtectedLayoutCss } = require('../scripts/verify-keyword-content.cjs');
 
 const page = () => ({
   route: '/services/example/', title: 'Drawer Repair Adelaide | MEL ONE',
@@ -102,7 +102,10 @@ test('related anchoring prose does not answer why, and generic gutter access doe
     ['ADH-0168', [{ route: '/services/flat-pack-assembly/', surface: 'heading+body', quote: 'Manufacturer securing instructions should be considered against the actual wall.' }]],
     ['ADH-0357', [{ route: '/services/gutter-cleaning/', surface: 'heading+body', quote: 'Building height and access affect a gutter-cleaning plan.' }]]
   ]);
-  const result = classifyKeywordEvidence(rows, related, reviewedIntentExceptions);
+  const result = classifyKeywordEvidence(rows, related, new Map([
+    ['ADH-0168', 'This old excerpt omits why anchoring reduces tip-over risk.'],
+    ['ADH-0357', 'This old excerpt does not establish a single-storey scope.']
+  ]));
   assert.deepEqual(result.counts, { mappedObserved: 0, qualifiedObserved: 0, heldServiceClaim: 0, unverified: 2 });
   for (const row of result.rows) {
     assert.deepEqual(row.observed, []);

@@ -270,6 +270,107 @@ export function applyKeywordLedContent(content, focusedServices) {
     record.faqs = [...copy.faqs, ...(record.faqs || []).filter(q => !copy.faqs.some(c => c.question === (q.question || q.title)))];
     record.sections = record.sections.map(s => ({ ...s, heading: preparationHeadings[record.slug]?.[s.heading || s.title] || s.heading || s.title }));
   }
+  applyAuditContentAmendments(content, focusedServices);
+}
+
+/** Individually reviewed October 15 intents. Educational boundaries do not extend service scope. */
+function applyAuditContentAmendments(content, focused) {
+  const records = [...content.services, ...focused];
+  const get = slug => records.find(r => r.slug === slug);
+  const extend = (slug, heading, ...paragraphs) => {
+    const record = get(slug);
+    if (!record) return; // Isolated content fixtures may contain only selected approved records.
+    const target = record.sections.find(s => s.heading === heading);
+    if (!target) throw new Error(`Missing reviewed amendment topic: ${slug}/${heading}`);
+    target.paragraphs.push(...paragraphs);
+  };
+  const add = (slug, heading, ...paragraphs) => { const record = get(slug); if (record) record.sections.push(section(heading, ...paragraphs)); };
+  const source = (url, label) => ['Read ', { url, label }, ' for the general guidance; the actual product and work still need assessment.'];
+  extend('door-repair', 'Sticking Doors, Loose Hinges and Latch Alignment',
+    'For a loose ordinary door handle, distinguish movement of the handle on the door from a latch that will not operate. Accessible fixings, the mechanism and the material supporting it need checking. Refixing or compatible hardware may allow the door to be retained; replacement of the whole door is not automatically necessary. Fire-rated and security hardware require separate arrangements.');
+  extend('door-repair', 'Wardrobe Sliding Door Rollers and Bottom Guides',
+    'A wardrobe panel that repeatedly jumps out may have a guide, roller, track or alignment fault. The assembly needs checking together; repeated realignment alone may leave the cause unresolved. Keep clear of an unstable panel and leave heavy or mirrored panels in place for appropriate assessment.');
+  extend('flyscreen-repair', 'Sliding Screen Door Rollers and Track Alignment',
+    'Report an ordinary screen door that repeatedly leaves its track, including where it happens and track damage already visible. Guides, rollers and frame alignment need checking together. Leave an unstable panel alone rather than refitting it for a photograph, and confirm the system and suitable repair before reuse.');
+  add('flyscreen-repair', 'Pet-Resistant Mesh and Existing Frame Compatibility',
+    'Pet-resistant mesh may differ in thickness from ordinary insect mesh. The frame channel, retaining spline and manufacturer requirements must suit the selected material; an existing frame is not automatically compatible. This is material-selection guidance, and MEL ONE pet-resistant mesh supply or installation must be confirmed separately.',
+    source('https://www.phifer.com/blog/what-size-and-type-of-spline/', 'Phifer screen spline and material guidance'));
+  extend('cabinet-drawer-repair', 'Loose Cabinet Hinge Screws and Damaged Fixing Points',
+    'If one soft-close cupboard door slams while neighbouring doors work, identify the affected hinge model and any changed alignment. The hinge or damper, mounting support and adjustment need assessment before compatible parts are chosen. Drawer soft-close parts are not necessarily suitable for a cupboard hinge, and not every damper is separately replaceable.');
+  add('doors-windows-screens', 'Timber Window Movement, Coatings and Frame Condition',
+    'For a sticking timber window, identify the sash or casement type, contact point and visible paint build-up or soft timber. A painted-shut sash has a different mechanism from the Burnside sliding-window hardware example. Leave old coatings, cords and counterweights undisturbed and arrange suitable window assessment rather than forcing the opening.',
+    'Peeling paint, soft timber and repeated coating failure need the wetting history, timber condition and previous preparation considered before repainting. Damaged joints, widespread decay, uncertain support or heritage restrictions may require a suitable carpenter or building professional. MEL ONE timber restoration or sash-mechanism work is not established by a sliding-window record.',
+    source('https://cdn.environment.sa.gov.au/environment/docs/tech_note3_1.pdf', 'SA guidance on maintaining older buildings'));
+  add('doors-windows-screens', 'Draughts, Ventilation and Water Entry',
+    'A gap under an external door can involve operating clearance, a worn seal or the threshold. Report where cold air enters and any visible seal wear. Suitable sealing must preserve door operation and required ventilation; a draught is not automatically a reason to replace the door.',
+    'A whistling window does not identify the air path by itself. Record the wind conditions, closing movement and visible frame damage without probing or blocking openings. Identify whether an opening provides ventilation or drainage before any sealing is selected. Unwanted air leakage differs from rainwater entry through joints, drainage or flashing: a draught seal is not a water-leak repair.',
+    'These observations help choose the appropriate assessment. Door or window seal replacement, draught-proofing and water-ingress remediation need separate scope confirmation.',
+    source('https://www.yourhome.gov.au/passive-design/ventilation-airtightness', 'YourHome ventilation and airtightness guidance'));
+  extend('interior-repairs-assembly', 'Shelves, Picture Hanging and Curtain Rod Fixings',
+    'For a gallery wall, provide the frame count, desired spacing and proposed layout before agreeing mounting positions. Older plaster and brick or masonry walls need their actual condition checked with the mirror or frame weight; a wall-type label alone does not establish a suitable fixing.',
+    'Floating shelves use their own concealed bracket system. Give the shelf model, intended load and manufacturer fixing requirements for assessment. A shelf tilting under books may involve the bracket or its attachment, while a shelf sagging between supports may involve the shelf itself. Do not keep loading a suspect fitting to test it; installation and load suitability are confirmed for the actual product and wall.');
+  add('interior-repairs-assembly', 'Corded Blinds and Child-Safety Components',
+    'A tensioner, cleat or cord guide helps keep a blind cord or chain secured rather than leaving a reachable loop. Product instructions, the specified cord-safety components, secure attachment and required labels must be considered when fitting corded coverings. Keep children away from reachable cords and move cots and furniture away from them. Confirm the actual blind and fitting arrangements before installation.',
+    source('https://www.productsafety.gov.au/business/search-mandatory-standards/blinds-curtains-and-window-fittings-mandatory-standard', 'ACCC corded window-covering requirements'));
+  extend('home-repairs-renovation-support', 'Patch and Paint, Skirting Boards and Small Finishing Jobs',
+    'A doorway architrave is the decorative trim around the opening, distinct from the supporting door frame. For split joints, loose attachment or pet-chewed trim, describe the affected length, missing material, profile and desired finish. Compare a local repair with compatible replacement after assessment; a discontinued original profile may not be available.',
+    'Swollen or soft skirting needs its material and wetting history checked before patching or replacement. Water exposure can damage MDF and affect whether it remains sound enough for a local surface repair. Filler will not restore material that has lost integrity, and the moisture source must be considered rather than hidden.',
+    'Before selling, distinguish scuffed paint on a door frame from damaged or loose trim. Share existing paint information and agree preparation, repair and painting separately. In an older home, discuss whether sound original skirting or door trim can be retained, its profile and any heritage restrictions before replacement; age alone does not establish restoration scope.');
+  add('home-repairs-renovation-support', 'Older Coatings and Unknown Sheet Materials',
+    'Peeling door paint needs its substrate, old coating and moisture or adhesion history assessed before refinishing. Repeated cosmetic touch-ups can fail if the condition beneath the finish remains unresolved. Standalone door painting and hazardous-coating treatment require separate scope confirmation.',
+    'Unknown old paint may contain lead, and some older wall or ceiling sheets may contain asbestos. Sanding or drilling can release hazardous dust or fibres. Leave unknown material undisturbed and obtain appropriate identification and assessment before work is selected. Do not expose material to prepare an enquiry; hazardous-material identification or removal is not an ordinary cosmetic repair.',
+    source('https://www.safework.sa.gov.au/workplaces/work-tasks-and-projects/lead-risk-work', 'SafeWork SA lead-risk guidance'),
+    source('https://www.asbestos.sa.gov.au/in-your-home/asbestos-in-your-home/homeowners2', 'SA asbestos guidance for homeowners'));
+  add('wall-patching-repair', 'Ceiling Stains, Cornice Cracks and Sagging',
+    'A ceiling stain after a reported leak repair still needs the lining condition considered: state whether it remains wet, soft or sagging and who checked the leak. Repairing the water source does not establish that the damaged overhead finish needs only paint. A recurring cornice crack can involve movement, attachment or moisture; filling the visible joint does not assess the cause.',
+    'Sagging or dropping ceiling lining or cornice can warn of failure. Keep clear and arrange prompt qualified inspection; tenants should report it to the property manager. Do not probe the lining or enter the roof space to investigate. A ceiling concern must not be treated as a routine wall patch.',
+    'A broken cornice section needs its material, profile, dimensions and sound adjacent support checked before matching is considered. Availability controls whether a matching section can be sourced. MEL ONE ceiling and cornice repair capability must be confirmed separately from the wall repairs described here.',
+    source('https://www.consumerprotection.wa.gov.au/announcements/the-commissioner-be-aware-of-the-signs-of-stressed-ceiling', 'Consumer Protection ceiling warning signs'),
+    source('https://www.gyprock.com.au/products/cornice/standard/cove-cornice', 'Gyprock cornice product and profile information'));
+  const flat = get('flat-pack-assembly');
+  if (flat) {
+    // Consolidate the repeated kit/quote prose while retaining its established fragment and case links.
+    const linked = flat.sections.find(s => s.id === 'furniture-assembly');
+    linked.heading = 'Furniture Assembly Requests: Kits and Existing Repairs';
+    linked.paragraphs = ['A new bed-frame kit, chest of drawers or bookcase can be listed with its model, item count and instructions for assembly assessment. New-kit assembly differs from repairing a used bed frame, chair or table; those repair capabilities need separate confirmation. Missing fittings should be identified from the product information rather than replaced with an assumed equivalent.'];
+    const completion = flat.sections.find(s => s.heading === 'Flat Pack Assembly, Securing and Packaging');
+    completion.paragraphs = ['At completion, review the agreed doors, drawers and accessible fittings, then record missing parts or manufacturer issues and any remaining action. The written scope determines which assembly, placement and packaging tasks have been agreed.'];
+    const quote = flat.sections.find(s => s.heading === 'Flat-Pack Assembly Quotes: Models, Parts and Access');
+    quote.paragraphs = ['Compare quotes for the same item count, assembly stage, any work correcting an existing assembly and the planned visits. A quote for a complete kit and one allowing for missing or damaged parts may have different dependencies.'];
+    flat.faqs = flat.faqs.filter(q => q.question !== 'Can you assess a partly assembled wardrobe?');
+  }
+  extend('flat-pack-assembly', 'Wardrobe Assembly, Door Alignment and Securing Requirements',
+    'Some manufacturer instructions require wall anchoring to reduce the risk of furniture tipping over. Opening drawers or climbing can shift weight forward, so a unit appearing steady is not proof that the restraint is unnecessary. Follow the product requirements and assess the actual wall, fixings and permission. Anchoring scope is confirmed separately; assembly does not automatically include it.',
+    source('https://www.productsafety.gov.au/consumers/be-safe-around-the-home/use-products-inside-the-home-safely/toppling-furniture-and-televisions-guide', 'ACCC toppling furniture guidance'));
+  add('flat-pack-assembly', 'Loose Furniture Joints and Repair Decisions',
+    'A loose furniture joint may involve a loosened compatible fastener, a damaged joint or deteriorated material. An enlarged fastener hole needs the component, material and intended load assessed; simply tightening or filling it does not establish that the connection can carry that load. Keep unstable furniture out of use while suitable assessment is arranged.',
+    'Compare the proposed repair, compatible parts, remaining condition and likely useful life with replacement cost before deciding whether repair is worthwhile. No universal repair price or safe repair method follows from a photograph. General chair, table and used bed-frame repair availability remains unconfirmed.');
+  const gutter = get('gutter-cleaning');
+  if (gutter) gutter.faqs = gutter.faqs.filter(q => !['Will gutter cleaning resolve every overflow?', 'Does cleaning include roof repairs or downpipe work?'].includes(q.question));
+  add('fence-gate-repair', 'Pool Gates and Safety-Barrier Requirements',
+    'A pool gate forms part of a child-safety barrier, unlike an ordinary garden gate. Applicable self-closing, latching and barrier-maintenance requirements must be assessed, and the gate must not be propped open. Ordinary hinge or latch repair does not establish pool-barrier compliance or a MEL ONE pool-gate service.',
+    source('https://www.sa.gov.au/topics/housing/keeping-your-property-safe/pool-and-spa-safety', 'SA pool and spa safety guidance'));
+  extend('outdoor-structures-fences-pools', 'Deck Board Repairs and Local Timber Replacement',
+    'Report raised deck screws or protruding fasteners already visible from a safe position. Board and supporting-timber condition, the fixing type and sound attachment need checking before refixing or replacement. Do not walk over, press or load-test suspect boards to investigate.');
+  extend('outdoor-structures-fences-pools', 'Pergola Timber, Fence Panels and Gate Fittings',
+    'For loose verandah trim or decorative timber separating at joints, identify the location and whether the affected piece is decorative or supports another member. Describe movement already noticed without testing it. Verandah-specific acceptance is confirmed separately; roof connections and load-bearing deterioration need appropriate building assessment.');
+  extend('roof-gutter-exterior-care', 'Fascia, Eaves and Local Exterior Timber Repairs',
+    'An old cracked eaves panel of unknown composition needs appropriate material identification before drilling, cutting or removal. Some older eaves sheets may contain asbestos, which can release fibres when disturbed. Leave the panel alone and describe it from ground level. Timber-maintenance examples do not establish eaves-sheet replacement or asbestos work.',
+    source('https://www.asbestos.sa.gov.au/in-your-home/asbestos-in-your-home/homeowners2', 'SA asbestos guidance for homeowners'));
+  extend('pressure-cleaning', 'Driveway Pressure Cleaning and Paved Surface Condition',
+    'For a slippery paved patio, report the material, growth or dirt and when it becomes slippery. Cleaning and drainage assessment are separate from proving slip resistance or repairing uneven paving. After renovation work, distinguish loose dirt from known cement, paint or adhesive residue and identify any coating; neither one pressure setting nor complete residue removal can be assumed.');
+  add('home-repairs-renovation-support', 'Grout, Silicone and Concealed Waterproofing',
+    'Grout fills tile joints, silicone is a flexible joint sealant where the system specifies it, and an under-tile waterproofing membrane is a separate layer. A cracked silicone joint or missing grout is an observation to report with its location and recurrence; neither establishes the condition of concealed waterproofing.',
+    'Water outside a shower after silicone replacement needs the water path, plumbing and waterproofing assessed as appropriate. Another surface bead is not a guaranteed leak repair. Recurring mould warrants checking moisture and joint preparation as well as the product; sealant instructions require suitable clean, dry surfaces, and a mould-resistance claim does not resolve continuing dampness.',
+    'A loose or hollow-sounding tile may involve adhesive, substrate movement or moisture conditions. Report sounds already noticed without impact testing. A chip is surface damage, but looseness, cracks or sharp edges are separate concerns. One visible loose tile does not determine the repair extent or prove that retiling can be avoided.',
+    'Several loose shower tiles need assessment of the tile system and concealed conditions. Tile and adhesive removal may disturb an underlying membrane, depending on the system and method, so agree any reinstatement requirements before replacement. This is general preparation guidance; MEL ONE tile replacement, regrouting and silicone renewal are not confirmed offerings.',
+    source('https://ardexaustralia.com/ardex-answers/pre-mixed-tile-adhesives-in-wet-areas-what-you-need-to-know/', 'ARDEX wet-area tile-system guidance'),
+    source('https://www.selleys.com.au/products/sealants/wet-area-silicone/wet-area-silicone/', 'Selleys wet-area sealant requirements'));
+  add('home-repairs-renovation-support', 'Floor Movement, Transition Strips and Moisture',
+    'A floating floor is an installation system in which connected boards need movement allowance; a small damaged area may therefore require more than a local surface intervention. Repairability depends on the product, joining system, spare compatible boards, access and substrate condition. Do not assume a raised transition strip can simply be screwed through that floor.',
+    'For a raised strip, describe the location, profile, floor type and movement already noticed. A squeak can arise from movement in the installation or below the boards; sound alone neither identifies the repair nor proves structural failure. Swollen flooring needs the product and known wetting history assessed, with the moisture cause considered before a repair is selected. Floor-repair capability must be confirmed separately.',
+    source('https://www.atfa.com.au/uncategorized/what-to-do-when-you-have-a-flooring-problem-consumer/', 'ATFA guidance for flooring concerns'),
+    source('https://www.atfa.com.au/wp-content/uploads/2024/02/Pages-from-ATFA-Timber-Floors-Magazine-Issue-53-3.pdf', 'ATFA engineered-floor squeak assessment'));
 }
 
 // Educational additions complement the retained practical guidance and case links.

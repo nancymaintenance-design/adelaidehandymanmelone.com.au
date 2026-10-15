@@ -2,6 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
+const { verifySemanticReview, exportSemanticReview } = require('./semantic-review.cjs');
 const { pathToFileURL } = require('node:url');
 const root = path.resolve(__dirname, '..');
 const site = 'https://www.adelaidehandymanmelone.com.au';
@@ -11,11 +12,6 @@ const reportDir = path.resolve(reportArg >= 0 ? process.argv[reportArg + 1] : pa
 const readJson = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const normal = value => String(value || '').replace(/\s+/g, ' ').trim();
 const hash = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
-const reviewedIntentExceptions = new Map([
-  ['ADH-0415', 'The rental handover note and guide discuss requested records and asking about invoice details; neither answers whether MEL ONE issues an itemised rental-repair invoice. This yes/no intent remains unverified without a confirmed business fact.'],
-  ['ADH-0168', 'The wardrobe section mentions manufacturer securing instructions but does not answer why wall anchoring is required, such as the stability or tip-over purpose. The educational why intent remains unverified.'],
-  ['ADH-0357', 'The gutter page discusses general building height and access but does not establish a single-storey-specific service or answer. This qualification remains unverified.']
-]);
 function verifyProtectedLayoutCss(baseline, file, profile, guideProfile, desktopProfile) {
   if (!fs.existsSync(file)) return [`Protected layout CSS changed: ${file}`];
   if (!profile) return hash(file) === baseline.layoutCssHash ? [] : [`Protected layout CSS changed: ${file}`];
@@ -67,6 +63,9 @@ function faqAnswerProblem(answer) {
 
 function verifyPage(page, context) {
   const issues = [];
+  for (const heading of context.amendment?.requiredHeadings || []) if (!page.headings.some(h => h.text === heading)) issues.push(`Missing independently authored amendment heading: ${heading}`);
+  for (const heading of context.amendment?.removedHeadings || []) if (page.headings.some(h => h.text === heading)) issues.push(`Retired duplicate/editorial heading remains: ${heading}`);
+  for (const question of context.amendment?.removedFaqs || []) if (page.faq.some(q => q.question === question)) issues.push(`Retired duplicate FAQ remains: ${question}`);
   const expectedCanonical = context.origin + page.route;
   if (!page.title || !normal(page.title)) issues.push('Missing title');
   if (page.canonical !== expectedCanonical) issues.push(`Self-canonical mismatch: ${page.canonical || '(missing)'}`);
@@ -188,20 +187,6 @@ function recordEvidence(pages, contract) {
   return evidence;
 }
 
-function relatedEvidenceForUnverified(pages) {
-  const targets = [
-    ['ADH-0168', '/services/flat-pack-assembly/', 'Wardrobe Assembly, Door Alignment and Securing Requirements'],
-    ['ADH-0357', '/services/gutter-cleaning/', 'Gutter Cleaning Access, Trees and Debris Removal']
-  ];
-  const related = new Map();
-  for (const [id, route, heading] of targets) {
-    const page = pages.find(item => item.route === route);
-    const match = page?.headings.find(item => item.text === heading);
-    if (match) related.set(id, [{ route, surface: 'related heading+body (specific intent unverified)', quote: `${heading}: ${normal(match.body).slice(0, 210)}` }]);
-  }
-  return related;
-}
-
 async function run() {
   const output = path.join(root, 'public');
   const baseline = readJson(path.join(baselineDir, 'protected-baseline.json'));
@@ -210,6 +195,7 @@ async function run() {
   const guideAcceptance = readJson(path.join(root, 'src/content-pack/guide-editorial-acceptance.json'));
   const contract = readJson(path.join(root, 'src/content-pack/keyword-content-contract.json'));
   const reviewed = readJson(path.join(root, 'src/content-pack/keyword-content-expectations.json'));
+  const semanticData = readJson(path.join(root, 'src/content-pack/semantic-keyword-review.json'));
   const sitemap = fs.readFileSync(path.join(output, 'sitemap.xml'), 'utf8');
   const routes = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => new URL(match[1]).pathname);
   const globalIssues = [];
@@ -266,7 +252,7 @@ async function run() {
     const original = mapping.pages.find(p => p.route === page.route);
     const spec = contract.pages.find(p => p.route === page.route);
     const expectation = reviewed.pages[page.route] || spec;
-    const issues = verifyPage(page, { origin: site, routes: new Set(routes), assets, anchors, expectation });
+    const issues = verifyPage(page, { origin: site, routes: new Set(routes), assets, anchors, expectation, amendment: reviewed.auditAmendments?.[page.route] });
     return { route: page.route, before: original ? { title: original.currentTitle, h1: original.currentH1, headingTexts: original.currentHeadings, headingLevelsAvailable: false } : null,
       after: { title: page.title, h1: page.headings.find(h => h.level === 1)?.text, h2: page.headings.filter(h => h.level === 2).map(h => h.text) },
       sourceKeywordIds: spec?.sourceKeywordIds || [], proposedSourceKeywordIds: spec?.proposedSourceKeywordIds || [],
@@ -276,13 +262,18 @@ async function run() {
       issues };
   });
   const observedEvidence = recordEvidence(pages, contract);
-  for (const [id, items] of relatedEvidenceForUnverified(pages)) observedEvidence.set(id, items);
-  const keywordEvidence = classifyKeywordEvidence(mapping.keywordRows, observedEvidence, reviewedIntentExceptions);
+  const historicalStatus = new Map(Object.entries(semanticData.priorCohorts).flatMap(([status, ids]) => ids.map(id => [id, status])));
+  const priorRows = mapping.keywordRows.map(row => ({ ...row, text: row.keyword || row.text, status: historicalStatus.get(row.id), observed: historicalStatus.get(row.id) === 'unverified' ? [] : observedEvidence.get(row.id) || [] }));
+  for (const row of priorRows.filter(row => ['mappedObserved', 'qualifiedObserved'].includes(row.status))) if (!row.observed.length) globalIssues.push(`Previously observed intent lost current contract evidence: ${row.id}`);
+  const semanticResult = verifySemanticReview({ rows: semanticData.rows, sourceRows: contract.keywordSources, priorRows, pages, baseline: readJson(path.join(root, 'tests/fixtures/local-audit-immutable-baseline.json')) });
+  globalIssues.push(...semanticResult.issues);
+  exportSemanticReview(semanticResult, reportDir);
+  const keywordEvidence = { rows: semanticResult.rollup.map(row => ({ ...row, status: row.finalDisposition, observed: row.evidence || row.observed || [], reason: row.rationale || row.reason })), counts: { mappedObserved: semanticResult.priorCohorts.observed - semanticData.priorCohorts.qualifiedObserved.length, qualifiedObserved: semanticData.priorCohorts.qualifiedObserved.length, heldServiceClaim: semanticResult.priorCohorts.held, ...semanticResult.counts, unverified: 0 } };
   const keywordById = new Map(keywordEvidence.rows.map(item => [item.id, item]));
   for (const row of rows) row.keywordReview = [...new Set([...row.sourceKeywordIds, ...row.proposedSourceKeywordIds])].map(id => ({ id, status: keywordById.get(id)?.status || 'not-in-source-map', reason: keywordById.get(id)?.reason }));
   const result = { generatedAt: new Date().toISOString(), scope: 'Local candidate only; no remote requests or enquiries sent', routeCount: routes.length, sourceImageHashesChecked: imageChecked, publishedImageHashesChecked: publishedImageChecked, blockedRemoteRequests: blocked.length,
     cssAcceptance: { protectedPrefixHash: baseline.layoutCssHash, intentionalScope: 'Separately protected .decision-hub, .guide-page / .guide-directory and .desktop-layout blocks', scopedCssHash: acceptance.scopedCssHash, guideScopedCssHash: guideAcceptance.scopedCssHash, desktopScopedCssHash: desktopAcceptance.scopedCssHash, allowedTemplates: desktopAcceptance.allowedTemplates }, plannedDispositionCounts: mapping.dispositions, observedKeywordCounts: keywordEvidence.counts, globalIssues, pageIssueCount: rows.reduce((n, p) => n + p.issues.length, 0), pages: rows, keywords: keywordEvidence.rows,
-    interpretation: 'Observed means an exact reviewed topic with rendered evidence, not verbatim query presence, measured demand, ranking, or permission to offer a held service. Unverified means not individually source-linked and verified in this pass; natural synonyms or other page copy may still answer the intent.' };
+    interpretation: 'All 319 formerly unverified IDs now have individually authored final outcomes checked against current rendered answers or precise pending facts. The previous 135 observed and 94 held outcomes remain separately traced. Educational outcomes do not authorise a service; 440/14/94 are historical planning dispositions, not completion totals.' };
   fs.mkdirSync(reportDir, { recursive: true });
   fs.writeFileSync(path.join(reportDir, 'task-4-verification.json'), JSON.stringify(result, null, 2));
   console.log(JSON.stringify({ routes: result.routeCount, sourceImages: imageChecked, publishedImages: publishedImageChecked, globalIssues: globalIssues.length, pageIssues: result.pageIssueCount, observed: keywordEvidence.counts, report: path.join(reportDir, 'task-4-verification.json') }, null, 2));
@@ -297,5 +288,5 @@ function findUnresolvedFeedTargets(caseFeed, areaFeed, routes, assets, origin) {
     return parsed.origin === origin && !routes.has(parsed.pathname) && !assets.has(parsed.pathname) ? [`Feed target unresolved: ${url}`] : [];
   });
 }
-module.exports = { verifyPage, classifyKeywordEvidence, recordEvidence, relatedEvidenceForUnverified, reviewedIntentExceptions, extractPage, findUnresolvedFeedTargets, verifyProtectedLayoutCss };
+module.exports = { verifyPage, classifyKeywordEvidence, recordEvidence, extractPage, findUnresolvedFeedTargets, verifyProtectedLayoutCss };
 if (require.main === module) run().catch(error => { console.error(error); process.exitCode = 1; });

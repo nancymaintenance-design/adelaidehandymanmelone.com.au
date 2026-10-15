@@ -2,6 +2,8 @@
   "version": 3,
   "generatedFrom": "reports/keyword-led-content-2026-10-13/keyword-page-mapping.json",
   "reviewedExpectations": "src/content-pack/keyword-content-expectations.json",
+  "individualSemanticReview": "src/content-pack/semantic-keyword-review.json",
+  "planningDispositionNote": "440 mapped / 14 qualified / 94 held are original planning counts. Final individual outcomes and the separately traced prior cohorts are in the semantic review; educational answers do not extend service scope.",
   "sourceSha256": "569ab31dabb73eeb7159b16af2673a8e6065d492556d49dc78b20c325fd842d6",
   "provenanceNote": "ADH rows are research candidates, not measured demand or proof of capability. All 102 semantic expectations are independently authored, with verified-business references or explicit functional-purpose exceptions where appropriate. Proposed owner IDs do not mean delivered intent.",
   "keywordSources": [
