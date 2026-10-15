@@ -570,4 +570,38 @@ a, button, input, textarea, summary { scroll-margin-block: 24px 112px; }
   .desktop-layout .desktop-topic-row > section { padding-top: 20px; }
   .desktop-layout .article-layout { padding-block: 28px 36px; }
 }
+/* Audit media/card repair, approved 2026-10-15. Historical blocks above are unchanged. */
+.desktop-layout .desktop-service-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 320px); gap: 48px; align-items: center; padding-block: 48px; }
+.desktop-layout .desktop-service-intro .page-intro { width: auto; margin: 0; padding: 0; min-width: 0; }
+.desktop-layout .desktop-service-media { min-width: 0; }
+.desktop-layout .desktop-service-intro .service-visual-gallery:not(.case-photo-grid) { margin: 0; }
+.desktop-layout .service-visual-gallery:not(.case-photo-grid) { justify-items: start; align-items: start; margin-bottom: 32px; }
+.desktop-layout .service-visual-gallery:not(.case-photo-grid) .service-visual { width: fit-content; max-width: 100%; margin: 0; background: transparent; }
+.desktop-layout .service-visual-gallery:not(.case-photo-grid) picture { display: block; max-width: 100%; }
+.desktop-layout .service-visual-gallery:not(.case-photo-grid) img { width: auto; height: auto; max-width: 100%; max-height: 280px; object-fit: contain; }
+@media (min-width: 851px) {
+  .desktop-layout .desktop-card-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .desktop-layout .desktop-card-grid > .note-card { grid-column: span 2; }
+  .desktop-layout .desktop-card-grid--paired { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .desktop-layout .desktop-card-grid--paired > .note-card { grid-column: auto; }
+  .desktop-layout .desktop-card-grid > .desktop-card-tail-pair { grid-column: span 3; }
+  .desktop-layout .desktop-card-grid > .desktop-card-wide { grid-column: 1 / -1; }
+  .desktop-layout .desktop-card-grid > .work-card.desktop-card-wide { display: grid; grid-template-columns: minmax(0, 410px) minmax(0, 1fr); gap: 0 32px; align-items: start; }
+  .desktop-layout .desktop-card-grid > .work-card.desktop-card-wide > .work-image-link { grid-column: 1; grid-row: 1 / span 4; }
+  .desktop-layout .desktop-card-grid > .work-card.desktop-card-wide > :not(.work-image-link) { grid-column: 2; }
+  .desktop-layout .desktop-card-grid > .work-card.desktop-card-wide .intake-visual { margin: 0; }
+  .desktop-layout .desktop-card-grid > .work-card.desktop-card-wide > .text-link { justify-self: start; }
+  .desktop-layout .desktop-card-grid--paired .work-image-link, .desktop-layout .desktop-card-grid > .desktop-card-tail-pair .work-image-link { max-width: 410px; }
+}
+@media (min-width: 521px) and (max-width: 850px) {
+  .desktop-layout .desktop-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .desktop-layout .desktop-card-grid > .note-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .desktop-layout .desktop-card-grid > .work-card:last-child:nth-child(odd) .work-image-link { max-width: 410px; }
+}
+@media (max-width: 850px) {
+  .desktop-layout .desktop-service-intro { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 32px; }
+}
+@media (max-width: 650px) {
+  .desktop-layout .service-visual-gallery:not(.case-photo-grid) img { max-height: 240px; }
+}
 /* desktop-layout-repair:end */

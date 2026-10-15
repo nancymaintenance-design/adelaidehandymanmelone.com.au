@@ -2,9 +2,16 @@
   "approved": "2026-10-14",
   "baseline": "d551a35e194e5ccea2b303bd3d366f19001bacb3",
   "scope": "Layout-only whole-site desktop composition; preserve historical, decision-hub and guide CSS hashes independently.",
-  "scopedCssHash": "b1cd766db77306401066e61fe8737fc5ec989baa18e290506dbfa0a45da16cfe",
+  "scopedCssHash": "1bcbbe80f75a55f22bffa85409d1d5797006514adc6d2c05563d92cb2c52cb8c",
+  "amendment": {
+    "approved": "2026-10-15",
+    "previousScopedCssHash": "b1cd766db77306401066e61fe8737fc5ec989baa18e290506dbfa0a45da16cfe",
+    "scope": "Append only: pair existing service introductions with intrinsic whole-original media frames, shared count-aware card rows and compact final work record; retain the existing desktop rules and historical/decision/guide byte protections.",
+    "cardCounts": [1, 2, 4, 7, 8, 20],
+    "acceptance": "Image-frame blank area <=25%; original diagnostic aspect ratio and no upscaling; no unused final-row columns beside >320px cards; 0 horizontal overflow down to 320px; all 102 H1 and image bytes unchanged."
+  },
   "selectorPrefix": ".desktop-layout ",
   "allowedTemplates": ["home", "services-hub", "services-detail", "guides-hub", "guides-detail", "news-hub", "news-detail", "case-studies-hub", "case-studies-detail", "area-hub", "region", "suburb", "decision-hub", "faq-hub", "about-hub", "contact-hub", "service-standards-hub", "privacy-hub", "404"],
   "exceptions": ["Privacy keeps legal prose at 780px within the wide frame", "Decision hub retains its approved 1080px frame", "Existing original-ratio compact case galleries retain 2x2 thumbnails on mobile"],
-  "protectedFacts": "All exact text, metadata, JSON-LD, ordered links and aliases, form controls, image attributes/hashes and keyword dispositions are unchanged."
+  "protectedFacts": "All exact text, metadata, JSON-LD, ordered links and aliases, form controls, original image URLs/alt/dimensions/bytes and keyword dispositions are unchanged. The 2026-10-15 card amendment intentionally updates only responsive slot data-image-layout/sizes for the newly paired or wide cards."
 }

@@ -57,15 +57,43 @@ function topicRows(html) {
   }
   return result+html.slice(cursor);
 }
+function serviceIntroduction(html) {
+  function pair(nodes) {
+    for(const [index,node] of nodes.entries()) {
+      const next=nodes[index+1],gallery=next?.children[0];
+      if(classes(node).includes('page-intro') && next?.children.length===1 && classes(gallery).includes('service-visual-gallery') && gallery.children.length===1) {
+        const heading=html.slice(node.start,node.end).replace(node.opening,node.opening.replace(/class="([^"]*)"/,(_,value)=>`class="${value.split(/\s+/).filter(name=>name!=='wrap').join(' ')}"`));
+        const media=html.slice(next.start,next.end).replace(next.opening,'<div class="desktop-service-media">');
+        return html.slice(0,node.start)+`<div class="wrap desktop-service-intro">${heading}${media}</div>`+html.slice(next.end);
+      }
+      const nested=pair(node.children);
+      if(nested) return nested;
+    }
+    return null;
+  }
+  return pair(elements(html))||html;
+}
 export function composeDesktopLayout(html, route) {
-  function render(nodes, start, end) {
+  if(route.startsWith('/services/')) html=serviceIntroduction(html);
+  function render(nodes, start, end, cardCount=0) {
     let result='',cursor=start;
-    for(const n of nodes) {
+    for(const [index,n] of nodes.entries()) {
       result+=html.slice(cursor,n.start);
       const reading=classes(n).includes('reading');
-      const opening=reading?n.opening.replace(/class="([^"]*)"/,`class="$1 desktop-reading${route==='/privacy/'?' desktop-prose':''}"`):n.opening;
+      const cardGrid=classes(n).includes('card-grid');
+      const count=cardGrid?n.children.filter(child=>classes(child).includes('note-card')).length:0;
+      // Keep complete records in source order. Four cards form two pairs; longer
+      // collections keep three-card rows and share the entire last row deliberately.
+      const paired=count===2||count===4;
+      let addition=reading?` desktop-reading${route==='/privacy/'?' desktop-prose':''}`:'';
+      if(cardGrid) addition+=` desktop-card-grid${paired?' desktop-card-grid--paired':''}`;
+      if(cardCount && cardCount!==2 && cardCount!==4) {
+        if(cardCount%3===2 && index>=cardCount-2) addition+=' desktop-card-tail-pair';
+        if(cardCount%3===1 && index===cardCount-1) addition+=' desktop-card-wide';
+      }
+      const opening=addition?n.opening.replace(/class="([^"]*)"/,`class="$1${addition}"`):n.opening;
       if(n.close!==undefined) {
-        let inner=render(n.children,n.openEnd,n.close);
+        let inner=render(n.children,n.openEnd,n.close,count);
         if(reading&&route!=='/privacy/') inner=topicRows(inner);
         if(classes(n).includes('compact-enquiry')) inner=inner.replace(/(<label\b[^>]*for="(?:name|email|phone|suburb)"[^>]*>[^]*?<\/label>)(<p class="field-error"[^>]*><\/p>)/g,'<div class="desktop-field">$1$2</div>');
         result+=opening+inner+html.slice(n.close,n.end);

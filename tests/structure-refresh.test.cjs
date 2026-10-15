@@ -91,9 +91,9 @@ test('home comparison, work cards and full-width atlas declare their own layout 
 test('one and two-card collections match compact cover layouts and their 720px switch', () => {
   const counts = new Set();
   for (const file of fs.readdirSync(fixture.output, { recursive: true }).filter(f => f.endsWith('.html'))) {
-    for (const [, cards] of fixture.read(file).matchAll(/<div class="card-grid">((?:<article\b[^]*?<\/article>)+)<\/div>/g)) {
+    for (const [, cards] of fixture.read(file).matchAll(/<div class="card-grid(?: [^"]*)?">((?:<article\b[^]*?<\/article>)+)<\/div>/g)) {
       const count = (cards.match(/<article\b/g) || []).length;
-      if (!cards.includes('class="note-card work-card"') || count > 2) continue;
+      if (!/class="note-card work-card(?: [^"]*)?"/.test(cards) || count > 2) continue;
       counts.add(count);
       for (const image of cards.match(/<img\b[^>]*>/g)) {
         const sizes = image.match(/sizes="([^"]+)"/)[1];

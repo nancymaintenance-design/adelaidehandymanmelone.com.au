@@ -178,10 +178,10 @@ for (const metadata of Object.values(imageManifest)) {
 // One media boundary reserves real geometry and chooses an appropriate download.
 function responsiveImages(html) {
   // Tag layout at the authored boundary before wrapping images in picture.
-  html = html.replace(/(<div class="card-grid">)((?:<article\b[^]*?<\/article>)+)(<\/div>)/g, (_, open, cards, close) => {
+  html = html.replace(/(<div class="card-grid(?: [^"]*)?">)((?:<article\b[^]*?<\/article>)+)(<\/div>)/g, (_, open, cards, close) => {
     const count = (cards.match(/<article\b/g) || []).length;
-    const layout = count === 1 ? 'card-single' : count === 2 ? 'card-pair' : 'card';
-    return open + cards.replace(/(<article class="note-card work-card"[^]*?<img)\b/g, `$1 data-image-layout="${layout}"`) + close;
+    const layout = count === 1 ? 'card-single' : count === 2 || count === 4 ? 'card-pair' : 'card';
+    return open + cards.replace(/(<article class="note-card work-card([^"]*)"[^]*?<img)\b/g, (_, image, variants) => `${image} data-image-layout="${variants.includes('desktop-card-wide') ? 'card-single' : variants.includes('desktop-card-tail-pair') ? 'card-pair' : layout}"`) + close;
   });
   html = html.replace(/(<figure class="area-atlas-hero"[^]*?<img)\b/g, '$1 data-image-layout="wide"');
   return html.replace(/<img\b[^>]*>/g, tag => {
