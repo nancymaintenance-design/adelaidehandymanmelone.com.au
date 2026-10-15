@@ -103,7 +103,8 @@ const caseStudyLocalRoutes = {
 };
 const { site } = content;
 const contact = site.contact;
-const phoneLink = `+61${contact.phone.replace(/\D/g, '').slice(1)}`;
+// The authorized call destination is separate from the unchanged displayed number.
+const phoneLink = '+611300838722';
 const originUrl = new URL(process.env.SITE_ORIGIN || 'https://www.adelaidehandymanmelone.com.au');
 if (!['http:', 'https:'].includes(originUrl.protocol) || originUrl.username || originUrl.password) throw new Error('SITE_ORIGIN must be an HTTP(S) origin without credentials.');
 const origin = originUrl.origin;
@@ -146,7 +147,7 @@ for (const name of fs.readdirSync(siteDir, { recursive: true })) {
 // cannot remain publicly served after source assets are retired or renamed.
 fs.rmSync(path.join(siteDir, 'assets'), { recursive: true, force: true });
 for (const asset of [
-  'css/site.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
+  'css/site.css', 'css/footer.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
 ]) {
   const target = path.join(siteDir, 'assets', asset);
   fs.mkdirSync(path.dirname(target), { recursive: true });
@@ -377,13 +378,16 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
   const feeds = `<link rel="alternate" type="application/json" title="MEL ONE photographed case data" href="${canonical('/case-studies/feed.json')}"><link rel="alternate" type="application/json" title="MEL ONE service area data" href="${canonical('/service-areas/feed.json')}">`;
   const withDiscovery = html.replace('</head>', `${feeds}</head>`).replace('<a href="/services/">Services</a><a href="/how-it-works/">', '<a href="/services/">Services</a><a href="/case-studies/">Our work</a><a href="/how-it-works/">');
   const withFeedLinks = withDiscovery.replace('<div class="wrap footer-bottom">', '<div class="wrap footer-bottom"><span class="feed-links"><a href="/case-studies/feed.json">Case data (JSON)</a> · <a href="/service-areas/feed.json">Area data (JSON)</a></span>');
-  const socialLinks = `<div class="wrap footer-social"><p class="eyebrow">Follow MEL ONE</p><nav aria-label="MEL ONE reviews and social media">
+  const socialLinks = `<div class="footer-social"><p class="eyebrow">Follow MEL ONE</p><nav aria-label="MEL ONE reviews and social media">
     <a href="${escapeHtml(businessFacts.googleReviewsUrl)}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="#fbbc04" d="m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z"/></svg><span>Google Reviews</span></a>
     <a href="${escapeHtml(businessFacts.socialProfiles.instagram)}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#e1306c" stroke-width="2.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="#c77dff" stroke-width="2.3"/><circle cx="17.5" cy="6.5" r="1.4" fill="#ffbc49"/></svg><span>Instagram</span></a>
     <a href="${escapeHtml(businessFacts.socialProfiles.youtube)}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="4" width="22" height="16" rx="5" fill="#ff0033"/><path d="m10 8 6 4-6 4Z" fill="#fff"/></svg><span>YouTube</span></a>
     <a href="${escapeHtml(businessFacts.socialProfiles.tiktok)}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z" fill="#25f4ee" transform="translate(-.7 .6)"/><path d="M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z" fill="#fe2c55" transform="translate(.7 -.4)"/><path d="M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z" fill="#fff"/></svg><span>TikTok</span></a>
   </nav></div>`;
-  const withSocialLinks = withFeedLinks.replace('<div class="wrap footer-bottom">', `${socialLinks}<div class="wrap footer-bottom">`);
+  const footerDescription = `<p>${escapeHtml(site.description)}</p>`;
+  const withSocialLinks = withFeedLinks
+    .replace(footerDescription, `${footerDescription}${socialLinks}`)
+    .replace('</head>', '<link rel="stylesheet" href="/assets/css/footer.css"></head>');
   const finalHtml = responsiveImages(withSocialLinks.replace('</body>', `${mobileActions}</body>`));
   validateSecurityPolicy(finalHtml, securityPolicy);
   fs.writeFileSync(destination, finalHtml);

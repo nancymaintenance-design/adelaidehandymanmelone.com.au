@@ -57,7 +57,7 @@ test('published site uses its declared analytics and first-party enquiry endpoin
     GA4_MEASUREMENT_ID: 'G-TEST123456',
     GSC_VERIFICATION_TOKEN: 'token-123',
   });
-  assert.match(fixture.read('index.html'), /baidutagmanager\.com/);
+  assert.match(fixture.read('index.html'), /googletagmanager\.com/);
   assert.match(fixture.read('index.html'), /G-9KMWMVLZ3/);
   assert.doesNotMatch(fixture.read('contact/index.html'), /action="(?:https?:|\/api\/)/);
   assert.match(fixture.read('assets/js/site.js'), /fetch\('\/api\/contact'/);

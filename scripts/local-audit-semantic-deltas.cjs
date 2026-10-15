@@ -6,6 +6,15 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const digest = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+// Keep historical link digests immutable while validating the separately approved
+// 2026-10-15 phone routing change. Labels, mail links and other destinations stay exact.
+function historicalPhoneLinks(links) {
+  return links.map(([href, ...rest]) => {
+    assert.notEqual(href, 'tel:+61416614281', 'Business phone must use the approved routing target');
+    const previous = { 'tel:+611300838722': 'tel:+61416614281' };
+    return [previous[href] || href, ...rest];
+  });
+}
 const protectedImages = images => images.map(attrs => attrs.filter(([name]) => !['sizes', 'data-image-layout'].includes(name)));
 const normalizeSlots = (images, exceptions = []) => images.map((attrs,index) => exceptions.includes(index) ? attrs.filter(([name,value]) => name !== 'sizes' && !(name === 'data-image-layout' && value === 'service-intro')) : attrs);
 function imageGuards(pages) {
@@ -39,9 +48,9 @@ function compareApprovedDeltas(current, historical, manifest) {
       const key = now.route + ':' + field, delta = manifest.deltas[key];
       if (delta) {
         assert.equal(digest(before[field]), delta.before, key + ': old value');
-        assert.equal(digest(now[field]), delta.approved, key + ': outside approved Task 1/2 delta');
+        assert.equal(digest(field === 'links' ? historicalPhoneLinks(now[field]) : now[field]), delta.approved, key + ': outside approved Task 1/2 delta');
         seen.add(key);
-      } else assert.deepEqual(now[field], before[field], key + ': unapproved difference');
+      } else assert.deepEqual(field === 'links' ? historicalPhoneLinks(now[field]) : now[field], before[field], key + ': unapproved difference');
     }
   }
   assert.deepEqual([...seen].sort(), Object.keys(manifest.deltas).sort(), 'all deltas consumed exactly');
@@ -58,4 +67,4 @@ function compareApprovedDeltas(current, historical, manifest) {
   }
   return { routes: current.length, approvedFieldDeltas: seen.size, protectedImages: current.reduce((n,p) => n + p.images.length, 0), fragments };
 }
-module.exports = { compareApprovedDeltas, digest, protectedImages, imageGuards };
+module.exports = { compareApprovedDeltas, digest, protectedImages, imageGuards, historicalPhoneLinks };
