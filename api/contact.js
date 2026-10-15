@@ -1,4 +1,4 @@
-const RECIPIENT = 'admin@melonemaintenance.com.au';
+const RECIPIENT = 'ellisgroupservices@gmail.com';
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_FIELD_LENGTH = 4000;
 
