@@ -35,7 +35,7 @@ test('validateContact rejects incomplete, mismatched preference and bot submissi
   assert.match(validateContact({ name: 'Alex', phone: '0400', email: 'alex@example.com', message: 'Hello', website: 'bot' }).error, /valid/i);
 });
 
-test('createEmailPayload routes a MEL ONE enquiry to the owner with reply-to set', () => {
+test('createEmailPayload routes a MEL services enquiry to the owner with reply-to set', () => {
   const payload = createEmailPayload({
     name: 'Alex Builder',
     phone: '0400 000 000',
@@ -46,7 +46,7 @@ test('createEmailPayload routes a MEL ONE enquiry to the owner with reply-to set
     contactPreference: 'email',
   }, 'MEL ONE <enquiries@adelaidecarpentryhub.com.au>');
 
-  assert.deepEqual(payload.to, ['admin@melonemaintenance.com.au']);
+  assert.deepEqual(payload.to, ['ellisgroupservices@gmail.com']);
   assert.equal(payload.reply_to, 'alex@example.com');
   assert.match(payload.subject, /Alex Builder/);
   assert.match(payload.html, /custom storage/);
@@ -57,7 +57,7 @@ test('published site uses its declared analytics and first-party enquiry endpoin
     GA4_MEASUREMENT_ID: 'G-TEST123456',
     GSC_VERIFICATION_TOKEN: 'token-123',
   });
-  assert.match(fixture.read('index.html'), /googletagmanager\.com/);
+  assert.match(fixture.read('index.html'), /baidutagmanager\.com/);
   assert.match(fixture.read('index.html'), /G-9KMWMVLZ3/);
   assert.doesNotMatch(fixture.read('contact/index.html'), /action="(?:https?:|\/api\/)/);
   assert.match(fixture.read('assets/js/site.js'), /fetch\('\/api\/contact'/);
