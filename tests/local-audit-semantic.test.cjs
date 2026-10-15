@@ -67,3 +67,31 @@ test('editorial amendments explain anchoring and keep concise case labels with o
   assert.ok(!interior.includes('>Kitchen Cabinet Hinge Repair in Unley, Adelaide</a>'));
   assert.match(read('case-studies/unley-kitchen-cabinet-repair/index.html'), /<h1[^>]*>Kitchen Cabinet Hinge Repair in Unley, Adelaide<\/h1>/);
 });
+
+test('bookcase restraint evidence includes fixing permission and separately agreed anchoring', () => {
+  const row = JSON.parse(fs.readFileSync(dataFile, 'utf8')).rows.find(r => r.id === 'ADH-0166');
+  const restraint = row.evidence.find(e => e.headingOrQuestion === 'Is wall anchoring automatically included?');
+  assert.ok(restraint, 'The kit-information quote alone cannot answer the wall-restraint intent');
+  assert.ok(/manufacturer.*wall construction.*permission/i.test(restraint.quote));
+  assert.ok(/scope.*confirmed before approval/i.test(restraint.quote));
+});
+
+test('unstable cabinet evidence explains withdrawal from use and qualified assessment rather than generic kit steps', t => {
+  const { read } = buildFixture(t);
+  const html = read('services/flat-pack-assembly/index.html');
+  assert.ok(/If a flat-pack cabinet becomes unstable[^<]*keep it out of use[^<]*appropriate product or assembly assessment/i.test(html), 'The actual instability scenario needs its own substantive answer');
+  const row = JSON.parse(fs.readFileSync(dataFile, 'utf8')).rows.find(r => r.id === 'ADH-0177');
+  assert.equal(row.finalDisposition, 'qualified-education-only', 'Guidance cannot establish repair capability for an unstable existing cabinet');
+  assert.ok(row.evidence.some(e => e.headingOrQuestion === 'Loose Furniture Joints and Repair Decisions' && /flat-pack cabinet becomes unstable.*keep it out of use/i.test(e.quote)));
+});
+
+test('licensed-trade task answer names electrical and water-pipe examples and binds ADH-0544 to those conditions', t => {
+  const { read } = buildFixture(t);
+  const html = read('guides/prepare-household-maintenance-enquiry/index.html');
+  assert.ok(/power point[^<]*fixed wiring/i.test(html), 'Credential names alone do not explain electrical repair tasks');
+  assert.ok(/water pipe[^<]*sanitary/i.test(html), 'The answer needs concrete plumbing work');
+  assert.ok(/licence and registration conditions[^<]*MEL ONE/i.test(html), 'Examples must retain work-specific conditions and the unverified-provider boundary');
+  const row = JSON.parse(fs.readFileSync(dataFile, 'utf8')).rows.find(r => r.id === 'ADH-0544');
+  const bound = row.evidence.find(e => e.headingOrQuestion === 'Work-Specific Licence and Provider Checks');
+  assert.ok(bound && /power point.*fixed wiring/i.test(bound.quote) && /water pipe.*sanitary/i.test(bound.quote), 'The row must cite the task answer itself');
+});
