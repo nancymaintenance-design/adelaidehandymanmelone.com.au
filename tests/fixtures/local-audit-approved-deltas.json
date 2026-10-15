@@ -1,0 +1,541 @@
+{
+  "approvedCommit": "bc3ca95cce85199af3ae359de23e470d530f3d89",
+  "historicalDigest": "b643554cfbe1cd07c1e2d7cae2f46843cb1b5d03e27ce30b8436dfccb5cff69e",
+  "reason": "Task 1 compact media/card slots; Task 2 individually reviewed body/FAQ/H2/card labels, approved bc3ca95. Image sizes/layout are independently checked by slot/geometry tests; every other image attribute is immutable.",
+  "protectedSourceHashes": {
+    "src/content-pack/mel-one-site-content.json": "ccad005622e3d016324d2ea125b85028e43f495aef7e321a9b5be3c03a1d6f56",
+    "src/content-pack/business-facts.json": "2b8704fd688e28e3c9c3dccb1a605e8bffe46940885a2e6e0404229fe9fad7e0"
+  },
+  "imageSlotExceptions": {
+    "/services/home-electrical-repairs/": [
+      2,
+      1
+    ],
+    "/services/interior-repairs-assembly/": [
+      2,
+      1
+    ],
+    "/services/doors-windows-screens/": [
+      2,
+      1
+    ],
+    "/services/garden-landscape-care/": [
+      2,
+      1
+    ],
+    "/services/outdoor-structures-fences-pools/": [
+      2,
+      1
+    ],
+    "/services/home-repairs-renovation-support/": [
+      2,
+      1
+    ],
+    "/services/cleaning-removals-specialist-care/": [
+      2,
+      1
+    ]
+  },
+  "imageLayoutDigests": {
+    "/": "1f181df30de2583a4709225b0158f7ca3b03a7536a6044fdf5b2498bcd94b900",
+    "/services/cabinet-drawer-repair/": "08a20a591cec4be59a8c5284f1cc1ba92c5afbc324c9b58a472da9cc2da5e264",
+    "/services/sliding-door-repair/": "e4f6c7036da43d3b7fd15901d2ffc10693f3cd2332ce1714770f7045cf2e273c",
+    "/services/wall-patching-repair/": "cad2cbe1afb19f7df6c8be271a583c58581803ad9afa216f45d76549ff9740b5",
+    "/services/pressure-cleaning/": "409ec7463a4cd7add35701943531d3bf7c672cbdc3070ab487faeb437a0ed2e7",
+    "/services/flyscreen-repair/": "3be720f5fccdd5592d5b37c60a22c37492fbf8d7cd46d2848b06fb1f1405a4c8",
+    "/services/door-repair/": "154d76192085567e447dcfb8f95c164313f7ae72f091b46d669cc538dc865905",
+    "/services/gutter-cleaning/": "a7c7d4d794dece0beb0579abdf04a0bc649b418e099dfeeed7a1e31fa9bc017d",
+    "/services/fence-gate-repair/": "f3cf51766da6c5587e8e362c77bdeec0b143b436869cf9931870f7cf0f76068a",
+    "/services/flat-pack-assembly/": "7889ac1389f68c3a99162d0ff74a23c3033486ffe98f21f5bf53a288c8b49b24",
+    "/services/": "c4245578e508b4ac5251a4dc081bdd1e5ca7e67b04b5408679279b1aea9cdd4e",
+    "/services/home-electrical-repairs/": "492155dc93829483cde17db21df5ef5c7829a4ba7ff53895cde6c027e6cb30cc",
+    "/services/interior-repairs-assembly/": "dc0685864db471bb1914875ef0ea5664226c5ac730313999030c1cdc4a78e9d4",
+    "/services/doors-windows-screens/": "54a4cf21855c4c2547c13b60f26ac01106afd209f0c265e1c4c1c9671da4509e",
+    "/services/roof-gutter-exterior-care/": "300209ca749a6d9e5b81e035bc53688b591d2ba222387ac4247c2683dc3601d8",
+    "/services/garden-landscape-care/": "5c1d8e8ce99b31d965572ada12b13f2d311559ab5aef1227182d2e6d2b15175b",
+    "/services/outdoor-structures-fences-pools/": "a0b7e869f7c15740976f3bd385f799e70d9f9ecc8d4b28cc7400888d0ced9bd3",
+    "/services/home-repairs-renovation-support/": "d107aa424f8beb25dbfc1ab191039502d39a201725ca20775b1040636c251889",
+    "/services/maintenance-planning-inspection-support/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/services/cleaning-removals-specialist-care/": "48dc53ab841975e7cb1f644cbe302ead4aee66af635c693831d7200ff502651d",
+    "/news/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/news/field-notes-one-household-job-list/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/news/field-notes-clear-maintenance-handover/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/guides/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/guides/field-notes-doors-windows-screens-enquiry/": "d3389346c64f3676b1cecedd705d03c286562ecb1e9a2d563bcd21100cd59b58",
+    "/guides/field-notes-wall-interior-repairs-job-list/": "f87cbda4a8bfc434b20173f5aa0ef7d988bdb3bc3e97b179efcd6c7ee47032ca",
+    "/guides/field-notes-roof-gutter-exterior-observations/": "7f4ba084be2e1808113fb1589f6970f9d34f8ae0b0e8f80ba74b00ec424b068d",
+    "/guides/field-notes-garden-outdoor-seasonal-preparation/": "ae724994e1c0763106217094b8fd1f5f722aa96c1a57664cf003c2f3c4ecf010",
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/": "af472e47c46384d2b0a308f1e989c1448678f47d9ae93ca8d2dee436d4350f01",
+    "/guides/field-notes-pre-sale-home-maintenance-list/": "f87cbda4a8bfc434b20173f5aa0ef7d988bdb3bc3e97b179efcd6c7ee47032ca",
+    "/guides/field-notes-grouping-multiple-household-jobs/": "45bc766e8828e031c607368e1f5002c0bb1196856e4f36f1f8b6380179d8e347",
+    "/guides/field-notes-cleaning-removals-preparation/": "9fd1c7d091398fc0b71a33a7e7001dae5d6a4f92329116af91272ca34b47c6e2",
+    "/guides/prepare-household-maintenance-enquiry/": "657cad56366ba4560055a40df0a382b7358a0552c65e3ddb20565b93c70d77c7",
+    "/guides/home-maintenance-walk-through-checklist/": "7f4ba084be2e1808113fb1589f6970f9d34f8ae0b0e8f80ba74b00ec424b068d",
+    "/case-studies/": "d429afbe9baba4e060de5154eea22081bdae508dd57647d07147ee1d84b12b2c",
+    "/case-studies/norwood-flyscreen-repair/": "0667549ddc9ba4d8e437d82feb77a40d87be773cf51ba4b35a213ae0b4c54661",
+    "/case-studies/north-adelaide-door-repair/": "cb39e1bd0eb743ba59af77c1c20085fb66aa09462f1e3f800423738b7fd47224",
+    "/case-studies/burnside-window-repair/": "1e64eab583ee21587a1854426bc9ffdd63789c78c4cdfe1818f2d9f6928d1718",
+    "/case-studies/kensington-furniture-assembly/": "0b924c873e1a863ce189fbb97a29441cdcbddccbac8903f39fc03d81c39b3229",
+    "/case-studies/unley-kitchen-cabinet-repair/": "1990e1f3b8c9a654b3c313c3d51abb28f9401666fcbacb2d3df8a397dd53fd2b",
+    "/case-studies/goodwood-wall-repair/": "07b79521e94a1295b6a6aa9c7bf0f6cce26c880aa60b7778bd2c5a766d35bea5",
+    "/case-studies/mile-end-fence-repair/": "03d5bf10cca1888fa5d2790cb0c494918e012bb249fd439f1f6834ff1c98105c",
+    "/case-studies/prospect-gutter-cleaning/": "44adfcfb9c5e1d1adaae308d74d5b3b899a8cda7a9930293d4f2a6b318ff81cb",
+    "/case-studies/adelaide-cbd-wall-repair/": "ab43e3126156e857e0d4a12ae8c01712158c24133d5db055b5adcc5c3ae2ac18",
+    "/case-studies/modbury-timber-fence-repair-assessment/": "9b047822cf2425b71910e6d35020b5829a955395e7b88a99d96551b93d2756c5",
+    "/case-studies/marion-shower-screen-repair/": "a5c7b7ae2c2c5d50d8b45b2f7b18a7db10f5321334fe7ea3cd07287eb073ef1a",
+    "/case-studies/henley-beach-sliding-screen-door-repair/": "cc0076611193822aac3f634221c415f653af304d5191073f852d1311e5de58df",
+    "/case-studies/stirling-deck-pergola-timber-repair/": "5475b00a9aff487688a8b6d7946082cb0baf6f07081192292b820ea3fe544a78",
+    "/case-studies/modbury-garden-pruning-tidy-up/": "e552c8068a4a29e36ee4374f6dc1973624b92ed85a5cc16cb41d6b2c138b622a",
+    "/case-studies/north-adelaide-timber-gate-repair/": "c8966b76fd3184caefd9c81083accee5c577644d97d8956a914b8f23cc707fe1",
+    "/case-studies/burnside-driveway-pressure-cleaning/": "42e00e77256abbe9e36cca3889e5ae9dd7287aa64c16b8aa050aabfdc673a6dd",
+    "/case-studies/stirling-flat-pack-wardrobe-assembly/": "06f7043198da499dd074a152f6262b4e55b0e399893e866ed6793bd503d09447",
+    "/case-studies/marion-wardrobe-sliding-door-repair/": "51bffe5bda8afe5230b89c1c4526ad3ec418bae97ae013393d3d9f5f4b0ec08d",
+    "/case-studies/kitchen-drawer-runner-repair/": "2ba0773aebda60400e212bee4fcc065cd191df33f5e7f69e53b3ade208f6b04d",
+    "/case-studies/sliding-patio-door-roller-track-repair/": "e29d6f681da96baa78c8c86ae5b2df039fd407f8c52f0909044b25d6ba01d4ff",
+    "/how-it-works/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/": "412bfd665560d0a20cf6bb8f00293f92f84114bc37b7ddda316a1c0366216cef",
+    "/service-areas/cbd-north-adelaide/": "38e9a15bcb591c384cb112327f508783b4ae2083d0c42a31d0a39bd090e19316",
+    "/service-areas/cbd-north-adelaide/adelaide-cbd/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/cbd-north-adelaide/north-adelaide/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/cbd-north-adelaide/kent-town/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/cbd-north-adelaide/bowden/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/eastern-suburbs/": "2cfa0e697964752e224e4582f4157e911f5539a2bdee1a886798e2ff7751af51",
+    "/service-areas/eastern-suburbs/norwood/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/eastern-suburbs/burnside/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/eastern-suburbs/kensington/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/eastern-suburbs/magill/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-south/": "6f82bf12ee87a93f4f521252d38424b880253af0e675a814a59e08c676196281",
+    "/service-areas/inner-south/unley/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-south/goodwood/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-south/parkside/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-south/millswood/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-west/": "356391f0078fa1ca374452ef16dbae3686be8c9c4f26346c4f8dc2434dfd8d81",
+    "/service-areas/inner-west/mile-end/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-west/thebarton/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-west/torrensville/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/inner-west/brompton/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/western-suburbs/": "e48ad97a01c32660ccc08a61109faebb678e9fc127ccbe2138b478a297bcee25",
+    "/service-areas/western-suburbs/henley-beach/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/western-suburbs/west-beach/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/western-suburbs/glenelg/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/western-suburbs/semaphore/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/north-north-east/": "31ae72ab471e35a16eaad3527cb547152b34ffbf4be632b768f0b217ad7c0c05",
+    "/service-areas/north-north-east/modbury/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/north-north-east/prospect/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/north-north-east/campbelltown/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/north-north-east/golden-grove/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/adelaide-hills-foothills/": "8248d68a0167192f7049e6619db13a9091d722f423ea874087ebb6ab7cba4267",
+    "/service-areas/adelaide-hills-foothills/stirling/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/adelaide-hills-foothills/crafers/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/adelaide-hills-foothills/aldgate/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/adelaide-hills-foothills/blackwood/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/southern-suburbs/": "0cc39ce3e949eb6416134bfd30e2c946f27050e61d534dfe621e023e4474324b",
+    "/service-areas/southern-suburbs/marion/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/southern-suburbs/brighton/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/southern-suburbs/hallett-cove/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-areas/southern-suburbs/morphett-vale/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/faq/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/service-standards/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/about/": "41f86022d6d59237f446a56e1e395c55805d367d5d3ce0e49a0d50b0c11d0f2c",
+    "/contact/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa",
+    "/privacy/": "29f81966b3cff20148192e146a63fa827a57e3ffb7fbb90cfbf8dd3f1cc915fa"
+  },
+  "deltas": {
+    "/:schema": {
+      "before": "594758cf8631df9f4a27e5b0204ef2e06e9279ed14a61568054e97935451f976",
+      "approved": "487f1155bf5dddd0d6c67deba491749e534a03f62b045bc87b08d2149345ba4d"
+    },
+    "/:text": {
+      "before": "162a88830f3062102e9a63efd3e9ac61e7834187d274790ffe09be3438d91d59",
+      "approved": "575cfeac58d7e4a6a5a386995fcc264388e039a76a586c224b7a6b5277659eee"
+    },
+    "/:headings": {
+      "before": "46ebc7f474154af6a1a923fa20a3b3e21e1fc0a6fcb9a448598c07fd3c3fc4e2",
+      "approved": "65388f5d46c7727a05a1ac126acb4ecdd71b41f712f94e94d4d7a322d1829023"
+    },
+    "/:links": {
+      "before": "78c340c24e43cf5e7da06cb7f88779ea3bfe14abe898f59c9731f684c65147e6",
+      "approved": "c570fdff2aed2de341ca27d7ae71cb917f2302b145865e1bc10cc76a156294b6"
+    },
+    "/services/cabinet-drawer-repair/:text": {
+      "before": "30d7c88e34086298e5622d4aee55e6d14e20c58bd1f1524f3669450030b2dd95",
+      "approved": "aa03291c571fe668448360b0b166105e55f9978a157eb096f04c282a787c0f6f"
+    },
+    "/services/cabinet-drawer-repair/:headings": {
+      "before": "b7a5f51a68c0b7c86aab5e53807b07a921d41da9cdc07a44f284ed030aad77f3",
+      "approved": "a6f692f83fa053104cc1e27e0490f5871922a1c04f906d0fd983414672ab96f0"
+    },
+    "/services/cabinet-drawer-repair/:links": {
+      "before": "a99f3eb3c1636abf6cb7ac3e6e8166485a7ee5fd5d7cb5beffcb561fb7deba68",
+      "approved": "52b20cc98a15bd6b0773de5e3372180da4dc62b6cbcceb73991636ac0e800ae9"
+    },
+    "/services/sliding-door-repair/:text": {
+      "before": "aa8ad60302f400b7e08e5400164ac9f8c7a48c167db617b24f1f0e610261acef",
+      "approved": "ee0816f9052ce29c64246495f4f119ea5eeebe37497b6b4edaa5fa3047fcb1c1"
+    },
+    "/services/sliding-door-repair/:headings": {
+      "before": "586f330a3ed1b494243c679e967bbe3d7f15dcfc780005bf83a81a9823da9c91",
+      "approved": "8ad3a03907e73651168aeb1bfd6b0b5e949f78153d19c63466c0fdc9f1206b22"
+    },
+    "/services/sliding-door-repair/:links": {
+      "before": "08cc6a635a24ff9007d0271111cc3bccfa35d31f56fce98a2931a111f1703e9e",
+      "approved": "c94aacfb83d670ad96e455491bd117ac29490b8eeec870a2bbe9033e04a2a79a"
+    },
+    "/services/wall-patching-repair/:text": {
+      "before": "7df64c6bb8cdf97786d0ba11e874a23dc523b5f092e2b90e4e4638e26abd65fe",
+      "approved": "7eeecee9533baeae05c46a8be4f4434f84c9cec9e5cf02bfbe3f6dab10b57c8d"
+    },
+    "/services/wall-patching-repair/:headings": {
+      "before": "c2ab3d67fe70c96002de83d89fe9cd1cc25c32324a0c9d85df840650b793a80d",
+      "approved": "6157e50f7e0114b56cf18861d8796e9f33d2f5d1a2a7f849e89109e1e5fa33ae"
+    },
+    "/services/wall-patching-repair/:links": {
+      "before": "03c802c50dbea02abd7cdac55308ac00c7a9d7155b7e900f7bf983886d96ad6a",
+      "approved": "b7fddac8066950dbc8cfc53526653f486fded5f287311824e2b6e1f8b0682005"
+    },
+    "/services/pressure-cleaning/:text": {
+      "before": "e70a19aa05987b65db9578ffe06d6534cb89ae4a8bba00d729130f73c4fe355e",
+      "approved": "5f1eb814122720a1566df11dc0c9a3bcda04dcb68c900696d8f74771685d178d"
+    },
+    "/services/pressure-cleaning/:headings": {
+      "before": "11828d294a70bbf09c2e499d2e37aa10183f00d95c7e44e8e9665c172d1ee5de",
+      "approved": "9dd21bcc59315cca527e5c3ea6f16f776d2c678181a53c986ac3ead75123df85"
+    },
+    "/services/pressure-cleaning/:links": {
+      "before": "862dcc14ceb5fa385919e1b28d518147b7a9248f196b3b2ff99c41b1d422f723",
+      "approved": "a200fb4794e6573de5b0088a4261e46a160b9a6484f5169943f788bb0edd25a0"
+    },
+    "/services/flyscreen-repair/:text": {
+      "before": "64aae403b7dc4dcfbd2dbe2906aa560ca1ca13497ed25d570beb058f43e55da4",
+      "approved": "8d6e681e24f797f6dfc1e6af52c4d468d91c5760b24cad9e427eaf225e9112b1"
+    },
+    "/services/flyscreen-repair/:headings": {
+      "before": "cb4213a920157d08d15d96a91cb276d4dce4aae95d0d5f0273e7ab98ee3380ba",
+      "approved": "2066564a99e15e2aeaf12d51e4a497f6b422a5b7ea053fcce53ca88efc96e8dd"
+    },
+    "/services/flyscreen-repair/:links": {
+      "before": "3e7599772343dae0059cd5ecc8a929e4e4f250b79c3ff0bee5e50e9e67ef1fbd",
+      "approved": "35b38532e3fe5cc5cfd6f9453650bb35a5eed2cbae04e80c2dddf3b893e972b1"
+    },
+    "/services/door-repair/:text": {
+      "before": "0b2ff551cd2cc4967a697270d37c71e2a69725f5caa397a629297f5283d1f2c8",
+      "approved": "55f0c6f6f068a655395ef8d693ea06f077414fdc7979304d1d5e74fe7b10b74c"
+    },
+    "/services/door-repair/:headings": {
+      "before": "f002643332e892b8aaac00a2783a080bd20759b280665532894d9dd0cfb47ac4",
+      "approved": "725412a4a89da9d50fd5cdf925d37eef1d8872d2da11a6b8a3de89314e25743d"
+    },
+    "/services/door-repair/:links": {
+      "before": "ea0cbed227badb47012a6b8e504bcba7489bde87c422cf727bb3a23a308c3411",
+      "approved": "fdd8e6fcafaae11a9a6e88b38a207ad9bdaa541258431416c723769de3ba07af"
+    },
+    "/services/gutter-cleaning/:schema": {
+      "before": "b2f46872b3f1a5199f5e165024b85d5974b12a1670fc224ddb723f77755017dd",
+      "approved": "64aa84ddcbef8a6714800d233e4c772f12c0aaeb0e9e6424ec7503638984a428"
+    },
+    "/services/gutter-cleaning/:text": {
+      "before": "b27f7d2d63b539599aee26bbcf2fdda24ed78d0e9b058f8c695026503f6147c2",
+      "approved": "c10e74d14252dfdfa9317ad6496870e5cde4ea42b9d1390e141de0b51a5e28f6"
+    },
+    "/services/gutter-cleaning/:headings": {
+      "before": "5c52ebf14afde52b18730255d780354aff8b9f02559b3f3e904be6ed5fdd5a64",
+      "approved": "9beff8ae676251cb1b592569e352fb1f023124cd1f0bec80f347fdd5143bffd6"
+    },
+    "/services/gutter-cleaning/:links": {
+      "before": "ab2df8ae5d57af230e63ec7a64cc4eeda7c8a4a1b254270e2b46b78130ab3f5b",
+      "approved": "65e9352f17ab1f835431f764b9461815ac5638554269c78ed78bd0863d6bcc31"
+    },
+    "/services/fence-gate-repair/:text": {
+      "before": "88c22fd6b7c79bf84b447011d045b755335f63e38d00a28c8cba975abf52c6a0",
+      "approved": "1eaa60b219f71f6bfcdad597a0a1fa6ed2e21821ad072fe454beb7654f1a3181"
+    },
+    "/services/fence-gate-repair/:headings": {
+      "before": "18f57fdc273ca0422449f017ff1bbbb8d44e7ad3b173387d9b5daa8d8de78679",
+      "approved": "2dcffeebb358dadf17838a6c47752060c2adcf27f1f732768677664ff9f857ae"
+    },
+    "/services/fence-gate-repair/:links": {
+      "before": "201c2ffe68531f0ae90e8499d108e5b95dc1d6948009dee8b679461db0f42055",
+      "approved": "acbf2acc9fc952669c5694f5b44777db1c798846e1360d765bbb2b7e13696931"
+    },
+    "/services/flat-pack-assembly/:schema": {
+      "before": "e7ab1f537f0c7e0fbe6aeb9c62ce0fffa1fbf7a67be710ae737ef5d42215afb4",
+      "approved": "0002e1ba283a4772281f73595e5f52dc13a2ff06d7a66bd33ec0d1e1bca14cc5"
+    },
+    "/services/flat-pack-assembly/:text": {
+      "before": "6fe777f2bd8f8284fefc880c5f3c53b39b3cc4370d0a93dd1817a0cc59f25398",
+      "approved": "1d6b3a7404072137b8ef999f1324726d619d951747cb27b56e5cb598f4c006c3"
+    },
+    "/services/flat-pack-assembly/:headings": {
+      "before": "90d5b554a82739ae0007f4cdaf85bf30be47d2cb99a34d66c49a5ac746965403",
+      "approved": "a5fa4d560dd44e3d5104e2874409e1c9af8e544057c3c9a381af30090bbbf213"
+    },
+    "/services/flat-pack-assembly/:links": {
+      "before": "08f9fd8b6eb293419b6ec94736dfdc54607b639a89a5f588413f6cdf568d37bc",
+      "approved": "5289667fc1f04b12cb2f34c093c3d6801eb412526d726bda055f8713ee4e7658"
+    },
+    "/services/interior-repairs-assembly/:text": {
+      "before": "929236e646e2c1546b4bab55d32b077d13adc995282fa3e9cf66e9e7d973aba5",
+      "approved": "413b4b41b32b99965875530bcef2ffd352e13077b8a16c211811aad3d65c7d7b"
+    },
+    "/services/interior-repairs-assembly/:headings": {
+      "before": "cb9e425241afb80764acf9981fd5cc071a5b8e81d091637b7719237d399d5a4e",
+      "approved": "56af7ca3cae4b54f33e6f7bf2a74a0a15c2b40285cc0bcb6257966c78f96bd9a"
+    },
+    "/services/interior-repairs-assembly/:links": {
+      "before": "f8e2accb539295ca69b879c17224f57936bb1caf1f5fa701f41e5e816061d103",
+      "approved": "a5a64064a49077e3a8f0b172e5514f8e2c2f7f93d83aed9b1bac472f18ebd3f5"
+    },
+    "/services/doors-windows-screens/:text": {
+      "before": "cbd1b4ed7d66c90feac38a63e8fe3918f3ecfaae0c276dc4ff2f75006768c3f0",
+      "approved": "fd8499a1540a9724c3d17e3dffbeba6461257b1487a0d45c7771a62769448f30"
+    },
+    "/services/doors-windows-screens/:headings": {
+      "before": "b88c180235b5c4204900bde3cecd2125ac39ce00ef9bb4734e74b6f5dc212555",
+      "approved": "a7d134213a85cc4773efe7ac7ea08eaf24eb2c37c1ea88246c607e154e330d47"
+    },
+    "/services/doors-windows-screens/:links": {
+      "before": "079de548a0bd4fbd97c525af7af26be7f4a4b9ce94c2ca3a8ea46b6d11a528f9",
+      "approved": "9453069bd84b83f48fcb5eb36f6796847bf5ed06a6be95def781600b751e20bf"
+    },
+    "/services/roof-gutter-exterior-care/:text": {
+      "before": "1ea1b0bfe8f38bf3d7d97c02d4e5ac78c8e89f58f14ed574de5e785217669542",
+      "approved": "28acc5e24bbe1177f20c178cde632aa4b0c88e2520ec9345cc6a286aca87fa34"
+    },
+    "/services/roof-gutter-exterior-care/:headings": {
+      "before": "0be02d18c987cb4e259dc42ed3c131c05800fc9c3d01bc87d327ab5fbf5e3d27",
+      "approved": "d0c38ddcb3f0b0e1faeef21c94090ba2b1faea8d87df093354aa329d920c1145"
+    },
+    "/services/roof-gutter-exterior-care/:links": {
+      "before": "a5d5fa61c195de889387f0b1bbf7e83b74fed7c765e2cc6afa4b3f224de2d36e",
+      "approved": "40a5d2c3b241af6018ee54cfe5d23b64bbdf800cd0c7d41e5c3c70cc388a7e3e"
+    },
+    "/services/garden-landscape-care/:text": {
+      "before": "419f555ab8b433eaebba63664cd5dd9ba40d3d2291e2532c879adccefd76067d",
+      "approved": "1aaff2e60b4a2da6fc37df62c6ad13eeb74c85ccaae5cde9a820bd6e37556ff3"
+    },
+    "/services/garden-landscape-care/:headings": {
+      "before": "5e30cf01133142bc8b2283c47b6a09cb74408bc8e32cbc41744b60f62eb3cd2d",
+      "approved": "24b472bfa46622bf54065303714932931cf659c623e612a964b6d405b7f9d650"
+    },
+    "/services/garden-landscape-care/:links": {
+      "before": "339fcf2a54e8e00af095ce1cb50a4ceabbf125eae12a850584e2b8a3c3b09480",
+      "approved": "1fec8edd424f5197762af0f18ecd7d669ecef932962e0c9ffad53f01cdff8fb7"
+    },
+    "/services/outdoor-structures-fences-pools/:text": {
+      "before": "0db7c1c8638a9b7fefc95be83e6212772599931c4b68396eb56643b183158239",
+      "approved": "503cc22ab8c44e5b257b8cc7cd5951817b1ee2558e16eb35b1f5b19477127970"
+    },
+    "/services/outdoor-structures-fences-pools/:headings": {
+      "before": "70427744497b487fb2aa107a19a3f6a24beda3414b2a7a401a234dbc0b8dc864",
+      "approved": "68b3f67639d76937428151a3d31b507673af43e3f9625e04ce5105dbb6350151"
+    },
+    "/services/outdoor-structures-fences-pools/:links": {
+      "before": "acf8cc958c53c6d827d5d398a33f378f5405ae4a3395a3e5d75099b7e9237286",
+      "approved": "02386efccd2aed6c11bb5dfbb7694c1aa07ac3db525ba70e0c6708fdce5dc838"
+    },
+    "/services/home-repairs-renovation-support/:text": {
+      "before": "abde196207240c96f1709133845a717b23f9198dfb558462d0dc48398c9d29bf",
+      "approved": "004cc460ae494e98de58d5a581a13f1878a8a552044c1944b3257255c6196a79"
+    },
+    "/services/home-repairs-renovation-support/:headings": {
+      "before": "f7e6eb1a85e85b6fd4ae405a8c676e54ff334c1b32834b59e7e31f60f47c19ac",
+      "approved": "bb7981ce17bf3753f61261ecf47292acb1cc5810a2d70febfbe7d4c47ca70013"
+    },
+    "/services/home-repairs-renovation-support/:links": {
+      "before": "ca593d01324dec58b4273aeefee7098d63bfc5ac12227eada7b6a93b9c7fff5f",
+      "approved": "9ddf6408bff3ba17438b801ca3ff57c0676eb2f70f151a775f411fc9e17ecbdc"
+    },
+    "/services/cleaning-removals-specialist-care/:text": {
+      "before": "af5c3fc0645a451da4f98a44d144360e2756b04999da23d8e499673be254f1ee",
+      "approved": "2a628f0f177cbaace62b56545ebe6b99d51119fa54284282c3abab7b8b798985"
+    },
+    "/services/cleaning-removals-specialist-care/:headings": {
+      "before": "b215b4b16c5125481bcef0bc2245345cb96537f039d85f43232a574e7ee3cf33",
+      "approved": "f432a3f329267c8a5b37b77ce6046f7e86237091f29c851808730e4b76a890c4"
+    },
+    "/services/cleaning-removals-specialist-care/:links": {
+      "before": "ce7248e4b50837259f563d3976c762ac600f5e095465734949fce3ef81922168",
+      "approved": "65fc3fa9da0cd0a2f5fc836aa52a32ec644403282e133470042a3b4581c85ee8"
+    },
+    "/news/field-notes-one-household-job-list/:text": {
+      "before": "64bed24053206222b8a5177e8eac0d835fe309e3b07937cf463d99f70a0d79b0",
+      "approved": "cc378ad05c6ac9d252721dc2cb11d2919d495827a7a50209bac02dd63426fc8b"
+    },
+    "/news/field-notes-one-household-job-list/:headings": {
+      "before": "057b2f2a5077e10f1d7f5ea3bd6afeddbdca33df02864b57ba613db38f48b7fe",
+      "approved": "a4a8e7453a31d0f9733ffbc19e8fe2ccca95998e8318cbe68f6fcb2cbf19cf4e"
+    },
+    "/news/field-notes-clear-maintenance-handover/:text": {
+      "before": "c03ad61ae01dbce262b13841e463c31cf97596098353dc378582d2943ef5c246",
+      "approved": "e58012e063a008466e0d2366d8f72d58fe0f508d906ef807f9066d8427c27e8d"
+    },
+    "/news/field-notes-clear-maintenance-handover/:headings": {
+      "before": "1eaec0578ba96023669e5662f584f4690a45ab63abb293062bd377d914752303",
+      "approved": "555fdd2bf956f6496edb718b1b2cc678d09e9bc59be31c958f94c39e79fcfa70"
+    },
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/:schema": {
+      "before": "84a1514c3150afc7b991bf025e1d7f4cb196ac73f4a7e06c596e2315c6f952f6",
+      "approved": "6d246290540fb6c6e3e32c0fd41f842c30e63d906fd43d3a2253cacde658a951"
+    },
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/:text": {
+      "before": "36c13e12b7da880b24e1cae50c431307c0b03d7f367df2aa1ea3d8dd7f1333b7",
+      "approved": "899823e99b8d166516035896234bdfc46ab56fae3e098fbe044d9e5fc26202a3"
+    },
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/:headings": {
+      "before": "b1afa9d8b5af9f3cfe116bffb6a563936662ad19d9e4574a1945236b597d2ab2",
+      "approved": "47d21a0dc56dcae41f8d8e1b37cd4561d3a2d71e939c0861f7ceb3d4fcd9f48f"
+    },
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/:links": {
+      "before": "6d72a47a32d4bc6e599ab0ceba3931c0aa2d474b530a4f2b1bb58de0a3dad6d8",
+      "approved": "97fbce64e695455dce31836b9c3dc4adb9a2cd9fdbfa4f80cf1b166a2a747115"
+    },
+    "/guides/field-notes-rental-end-of-lease-maintenance-list/:ids": {
+      "before": "c498bfb1e5ee56d40ad63aa923a4fe56dc5476498b32f2be1cec921d741331dc",
+      "approved": "724ad517b005378ee47c2b67d3afc62558385fbddbb638ab331adadd22c46121"
+    },
+    "/guides/field-notes-grouping-multiple-household-jobs/:text": {
+      "before": "2d204019c037f8546a9e35ef7f2f00b1301b592c7ffe912555805848a5dcde08",
+      "approved": "ea4dbaa3a6f5bdd98db00e45da200cd2d0636ae33081e8cfdb8ae9cd9f026b5d"
+    },
+    "/guides/field-notes-grouping-multiple-household-jobs/:headings": {
+      "before": "7dfb98650d48a98bda79e9792dc18b6c1785cb97f80de75622b723029662a0e8",
+      "approved": "5b431a282ab741f48d6fe65c02e6fa1e12585029afd83330373583d3a494c794"
+    },
+    "/guides/field-notes-grouping-multiple-household-jobs/:links": {
+      "before": "a590abb6238fafa38c79441a1cc0185b60245c57b238dd3092655ac0ae40e397",
+      "approved": "8a31fad48d147c9884cde17eed6b89e6e890615652d92787bc0eeea135b9373e"
+    },
+    "/guides/field-notes-grouping-multiple-household-jobs/:ids": {
+      "before": "c388959aa3eb6ccfb4a4334c6c0f16bb2771f512df6afc5ce716b6242d42c6a4",
+      "approved": "c209a5cbc24ab99bb957c02c68129b3b1c17fc30d1a286865afb4bcdca4a8705"
+    },
+    "/guides/prepare-household-maintenance-enquiry/:text": {
+      "before": "9e0deae8299735f65a5575443544619d06c7e526c52ef297358c93ceacc1222a",
+      "approved": "4663c83ffe2b6d564e0fba9becd74f903ab6ec43c0f0b135a327824e2769c4e4"
+    },
+    "/guides/prepare-household-maintenance-enquiry/:headings": {
+      "before": "30439a9285e590c724dc2b77e12b5e5e2ff44996063529d1f22b390319fe4304",
+      "approved": "a29e659542bb6d75fce7cdb3ddd68cfe253b8dd7ec762cc18f75f3732f59a0b5"
+    },
+    "/guides/prepare-household-maintenance-enquiry/:links": {
+      "before": "36b809c05cff0cceb05f3fff577a01c93d8908c6504971be897120c0a72b0661",
+      "approved": "962a8883f683886d1ee8dd5f03a4bd9d59c8d6c2a930af30c2f0d2c6c872d7ec"
+    },
+    "/guides/prepare-household-maintenance-enquiry/:ids": {
+      "before": "70a9e3342561ccef6992aa164b8dad382c64e245dfbd893737f6363d9ee6c50e",
+      "approved": "bea169db6e960a31d7e61ea250db83daae8abe50845923ee075863e08bd5f1fc"
+    },
+    "/case-studies/:text": {
+      "before": "1a5d8355904afe3ecc7f165c177fcc6891607c95f0410f1e4a53e5c5d93a361f",
+      "approved": "b3706b73a126abbca0d6d4ab57f4b67d24f83482e9c8f55bec786a1e4fb66588"
+    },
+    "/case-studies/:headings": {
+      "before": "112bc22b9745135613092ff3ff581c27b692c853f07a12fdf8402ec9cb732413",
+      "approved": "14464dc11f4c0fad97f7760fde4b4ed187655526580fc234739dec38b5ec06cb"
+    },
+    "/case-studies/:links": {
+      "before": "0a23568b78ecd2081fa3f3c28cf9cb6c4d4539b807a5cc1de848eaa06cbcd948",
+      "approved": "85f33282e6f583c97245fb6e6e675bea739ba83f94d4eaeb0a0e1e053c37c4a7"
+    },
+    "/service-areas/eastern-suburbs/:text": {
+      "before": "2819d1da0388b37c8e7df3da6deb7df42034314293695d95bbd2c88627a43912",
+      "approved": "8f631bb9492bdcde706d47759653a9280db8ec0b8a0d4128f9373fedc76ceef9"
+    },
+    "/service-areas/eastern-suburbs/:headings": {
+      "before": "1e3b50c277ab2db15f1ce5bc03df0bc713be480383efe1273535a87f577e536f",
+      "approved": "29bd0e3e14f199c9a3ba929a23b6029c205f7d9ecff937280b350ba1abed0f5e"
+    },
+    "/service-areas/eastern-suburbs/:links": {
+      "before": "5569e7f0aa2dbc458149912a1fe27dfe3737de7c94703d536d9c8f124545a47b",
+      "approved": "f27accc1fd832d6fbad03b058722d70390379ce7f0e94e827529a4ec71da9c18"
+    },
+    "/service-areas/inner-south/:text": {
+      "before": "d73d7c0696cdb3248193d8f1460cb136f2ee2e9abee0f3c52bfa7a7e2520b9aa",
+      "approved": "3d456ba6d484ddfdc08b6ca52f5778d1574f772fee1e5fe1b71b47e88bf76803"
+    },
+    "/service-areas/inner-south/:headings": {
+      "before": "b6b436b904bb98fd3d70dfba8140a01a160e9c8c8704e4d01c8530c24bf38b9d",
+      "approved": "ae72497d07b1c2deba655bb5a539bd49b77d1b5b6420cd699621a852f73ebc1f"
+    },
+    "/service-areas/inner-south/:links": {
+      "before": "c853e52cea2c16695bc9d2a8c8da93ebfa8c4092f83bb707c5a7ff6d78d5935b",
+      "approved": "3b63974d2bd62a085673dd590a1a24f0e9a63d657886ce584dd52a12a1e5d2c6"
+    },
+    "/service-areas/inner-west/:text": {
+      "before": "bf8d7ca112272d47395b48a29afe9db8f8f897428b1b64f5a3b790288c3d0733",
+      "approved": "9ae37ae3d4305d79fb013c6a63d8acdf3f3084f0bacd59f9dc0c172ceb284836"
+    },
+    "/service-areas/inner-west/:headings": {
+      "before": "054e30ee6bc078814fae4aa245962d56056f65f0edd98cd6c5592ce0a913d303",
+      "approved": "69e47607f8dd187021343f777b37611b2b0b83f84370c75ca5ede242f998ba88"
+    },
+    "/service-areas/inner-west/:links": {
+      "before": "0c603f5c06aecae7f0a3dd5027ab01e3080a898577499b608223f76275fc641c",
+      "approved": "c47da362ff81bf99991f9a4f5c0c196102bf94a250ab06ad0c39395ef9d43285"
+    },
+    "/service-areas/north-north-east/:text": {
+      "before": "eb9306674bf45789b28f314ff72d27931d65f2589b6b8e2cc978512c1098da1e",
+      "approved": "303d8c807cbc8454f84b855704648ada70686daa804f0e9c3a582c2af118bfdf"
+    },
+    "/service-areas/north-north-east/:headings": {
+      "before": "49da808210b1f98e7f2595fa66709e1e37af01ec857201d8c86acf08998dee2c",
+      "approved": "a05d2d2e30e74f6e425c0f39a08158a1a46017ea67b60b4c08ff8f3daebd3463"
+    },
+    "/service-areas/north-north-east/:links": {
+      "before": "553a3bc154170402d805369a45dc0e5b5512bc1f9cba45ab4e9b22d8effafe89",
+      "approved": "8128102aa1ac47d158a80d09b73f86ee6e7e452d1f7894d4be4b295735494ae8"
+    },
+    "/service-areas/adelaide-hills-foothills/:text": {
+      "before": "3c4fd5e7e32229ebd4c87d4a75fdddb55b870302e68adefb95761942988639da",
+      "approved": "afe26eadcc8ed9e38cc309e41e4a980eab5d34d60bab23605f1a57698d25643e"
+    },
+    "/service-areas/adelaide-hills-foothills/:headings": {
+      "before": "962350e2d93493f387f8909f3dac86c6404892d01a2419737677f6a253a45aaa",
+      "approved": "8317339995df2687556637fee8dcda86562115ce4883a84d294ebd7a3876cb29"
+    },
+    "/service-areas/adelaide-hills-foothills/:links": {
+      "before": "d2fb3f653ab46128f58285f2e00d8080bc6d610064448fc40070ecad3ef625e4",
+      "approved": "9870d821dca14064476ba9e781bd1735275b6fb47083b313f18a6c0dc0c3ec10"
+    },
+    "/service-areas/southern-suburbs/:text": {
+      "before": "b0cad699663dbe57967eff3f2bd76081579fc23e93af879b7217a72b5d34bfbd",
+      "approved": "0de7c4206f0fd04fe96cd3853e64ae1b05a18ec9696e4fe6db921671672fe1f9"
+    },
+    "/service-areas/southern-suburbs/:headings": {
+      "before": "4863f57519c7b934b421f9345529379a6f45de496d3e145f3bba693eb57c4bf9",
+      "approved": "7f944cc538085da2372faec8f1cade5da90b7562f6bad2d63a29198fe54436f4"
+    },
+    "/service-areas/southern-suburbs/:links": {
+      "before": "c77228828234fed92b2a2333aeccc2ee7e34ffb1f10b1c661dca804d894b9cbe",
+      "approved": "c6fae0426140819063d268117f38880477351fb794764b75cadc0714cc1b72f9"
+    },
+    "/faq/:schema": {
+      "before": "2df48c86325e2b59dcdee4c474476c7d79e5425503514f3cc06acdb64211f598",
+      "approved": "3dafafe5531c6f9fae12bb9e84544c92cd65a58305e6f4d3cc9cfe4f5a1437e0"
+    },
+    "/faq/:text": {
+      "before": "909befd140c8d4d5458eb45994a17f71aa6d6c8459913bc6ea3a41c37e7a1ef2",
+      "approved": "a156991e50df4b2d2123c5fab1da536a33134ec263ea86ed0adea38c9267b20c"
+    },
+    "/about/:text": {
+      "before": "19fba076daad3925fd733ec14f3c2076696a12fedaa0e98e361ed160080206bd",
+      "approved": "25be3c64fbb70f12303c4ace226376706ee0b8fb50e353045644bc6493532931"
+    },
+    "/about/:headings": {
+      "before": "1c553688bc591c6f1a689b3bc4ab33c0160e4724fafc75f6e68f8c9d27808a69",
+      "approved": "9f51bcb5115690f4256fe1ec122a7b8f9b30c8e5e1ee653f92c879565a657d24"
+    },
+    "/contact/:schema": {
+      "before": "939f7e1e8ed0e3b6fe40172bda0fbdbc7809995809feebc37eb6420d1a6c616d",
+      "approved": "31af641e3698260a36cafd25761385b79febd67cfa4573861178f9fe9abe85bb"
+    },
+    "/contact/:text": {
+      "before": "e922562777aa40ddf95d0c1996359c9d4890702fae1072144c27b74bc283ccc6",
+      "approved": "8edaff556af28a5d9241b750f1968639efdcbc2bc95e40ab51d214e91ccdf82d"
+    },
+    "/contact/:headings": {
+      "before": "3b3692acae8495312496d57ad03d1da572b160a68889a33eb1eb7d91d1330cf8",
+      "approved": "d87d944f3a4d834f45231f762519dab1792fa330883b9aa085e4392eda5edc4f"
+    }
+  }
+}

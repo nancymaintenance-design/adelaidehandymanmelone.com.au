@@ -185,6 +185,7 @@ function responsiveImages(html) {
     return open + cards.replace(/(<article class="note-card work-card([^"]*)"[^]*?<img)\b/g, (_, image, variants) => `${image} data-image-layout="${variants.includes('desktop-card-wide') ? 'card-single' : variants.includes('desktop-card-tail-pair') ? 'card-pair' : layout}"`) + close;
   });
   html = html.replace(/(<figure class="area-atlas-hero"[^]*?<img)\b/g, '$1 data-image-layout="wide"');
+  html = html.replace(/(<div class="wrap desktop-service-intro"[^]*?<figure class="intake-visual service-visual"><img)\b/g, '$1 data-image-layout="service-intro"');
   return html.replace(/<img\b[^>]*>/g, tag => {
     const source = tag.match(/src="([^"]+)"/)?.[1];
     const metadata = imageManifest[source];
@@ -198,6 +199,8 @@ function responsiveImages(html) {
     const desktopCap = Math.min(metadata.width, 240 * ratio).toFixed(2);
     const sizes = tag.includes('data-guide-photo')
       ? `(max-width: 650px) min(calc(100vw - 68px), ${Math.min(metadata.width, 240 * ratio).toFixed(2)}px), ${Math.min(metadata.width, 280 * ratio, 300).toFixed(2)}px`
+      : layout === 'service-intro'
+      ? `(max-width: 520px) min(calc(100vw - 36px), ${Math.min(metadata.width, 240 * ratio).toFixed(2)}px), (max-width: 650px) min(calc(100vw - 40px), ${Math.min(metadata.width, 240 * ratio).toFixed(2)}px), (max-width: 850px) min(calc(100vw - 40px), ${Math.min(metadata.width, 280 * ratio).toFixed(2)}px), 320px`
       : detail
       ? `(max-width: 520px) min(calc(50vw - 24px), ${mobileCap}px), (max-width: 650px) min(calc(50vw - 26px), ${mobileCap}px), (max-width: 850px) min(calc(50vw - 32px), ${desktopCap}px), (max-width: 1100px) min(calc(50vw - 40px), ${desktopCap}px), min(388px, ${desktopCap}px)`
       : layout === 'comparison'

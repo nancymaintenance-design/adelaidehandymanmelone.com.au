@@ -11,7 +11,7 @@ const acceptance = require('../src/content-pack/desktop-layout-acceptance.json')
 const focused = process.argv.includes('--focused');
 const routes = [...fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m => new URL(m[1]).pathname);
 const family = route => route === '/' ? 'home' : route === '/how-it-works/' ? 'decision-hub' : route.startsWith('/service-areas/') ? (route.split('/').filter(Boolean).length === 3 ? 'suburb' : route === '/service-areas/' ? 'area-hub' : 'region') : route.split('/').filter(Boolean).length > 1 ? route.split('/')[1] + '-detail' : route.slice(1,-1) + '-hub';
-const representatives = ['/', '/services/interior-repairs-assembly/', '/services/cabinet-drawer-repair/', routes.find(r=>r.startsWith('/guides/')&&r!='/guides/'), routes.find(r=>r.startsWith('/news/')&&r!='/news/'), routes.find(r=>family(r)==='suburb'), routes.find(r=>family(r)==='case-studies-detail'), '/faq/'].filter(Boolean);
+const representatives = ['/', '/services/interior-repairs-assembly/', '/services/cabinet-drawer-repair/', routes.find(r=>r.startsWith('/guides/')&&r!='/guides/'), '/guides/prepare-household-maintenance-enquiry/', routes.find(r=>r.startsWith('/news/')&&r!='/news/'), routes.find(r=>family(r)==='suburb'), routes.find(r=>family(r)==='case-studies-detail'), '/faq/'].filter(Boolean);
 function desktopPairFailure(row) {
   if(row.children.length!==2) return 'expected two column items';
   const [left,right]=row.children;
@@ -21,21 +21,29 @@ function desktopPairFailure(row) {
   if(left.x<row.x-1||right.x+right.width>row.x+row.width+1) return 'columns escape their container';
   return null;
 }
-async function run() {
-  const output = path.join(report, phase); fs.mkdirSync(output, {recursive:true});
+async function run({ snapshotOnly = false, remediation = false } = {}) {
+  const output = snapshotOnly || remediation ? path.resolve(root, '../reports/local-audit-remediation-2026-10-15/task-3', snapshotOnly ? 'approved-reference' : phase) : path.join(report, phase); fs.mkdirSync(output, {recursive:true});
   const server = spawn(process.execPath,['serve.cjs'],{cwd:root,env:{...process.env,PORT:'0'},windowsHide:true,stdio:['ignore','pipe','pipe']});
   const origin = await new Promise((resolve,reject)=>{server.once('error',reject);server.stdout.on('data',b=>{const m=b.toString().match(/http:\/\/127\.0\.0\.1:\d+/);if(m)resolve(m[0]);});});
   const browser = await chromium.launch({ executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe', headless:true });
   const context = await browser.newContext({ reducedMotion:'reduce', hasTouch:true });
-  await context.route('**/*', r => new URL(r.request().url()).origin===origin ? r.continue() : r.fulfill({status:200,body:''}));
+  await context.route('**/*', r => new URL(r.request().url()).origin===origin ? r.continue() : r.abort());
   const page = await context.newPage();
   const metrics=[], semantics=[], failures=[], interactions=[];
   try {
-    for (const width of focused ? [1440,390] : [1280,1440,1920,850,768,390,320]) {
+    const changedFamilies=['/services/flat-pack-assembly/','/services/gutter-cleaning/','/services/doors-windows-screens/','/guides/prepare-household-maintenance-enquiry/','/service-areas/','/case-studies/','/about/','/contact/'];
+    for (const width of snapshotOnly ? [1280] : focused ? [1440,390] : [1280,1440,1920,850,768,390,320]) {
       await page.setViewportSize({width,height:1000});
       for (const route of focused ? representatives : routes) {
         assert(acceptance.allowedTemplates.includes(family(route)), 'Template outside approved desktop scope: '+route);
-        await page.goto(origin+route);
+        const response = await page.goto(origin+route);
+        assert.equal(response.status(), 200, route + ': real navigation');
+        if(remediation) await page.evaluate(async()=>{
+          const images=[...document.images],loading=images.map(img=>img.getAttribute('loading'));
+          for(const img of images)img.loading='eager';
+          await Promise.all(images.map(img=>img.decode().catch(()=>{})));
+          images.forEach((img,index)=>loading[index]===null?img.removeAttribute('loading'):img.setAttribute('loading',loading[index]));
+        });
         const data = await page.evaluate(() => {
           const rect = el => {const r=el.getBoundingClientRect(); return {x:r.x,y:r.y,width:r.width,height:r.height,bottom:r.bottom};};
           const all = sel => [...document.querySelectorAll(sel)];
@@ -49,7 +57,12 @@ async function run() {
             ...rect(el), children:[...el.children].map(rect)
           }));
           const article = document.querySelector('.article-layout'); const form = article?.querySelector('.contact-aside');
-          return {overflow:document.documentElement.scrollWidth-innerWidth, reading, rows, collections,
+          const media = all('.service-visual-gallery:not(.case-photo-grid) .service-visual').map(frame=>{
+            const image=frame.querySelector('img'), r=rect(image), f=rect(frame), scale=Math.min(r.width/image.naturalWidth,r.height/image.naturalHeight);
+            return {...r,frame:f,naturalWidth:image.naturalWidth,naturalHeight:image.naturalHeight,loaded:image.complete&&image.naturalWidth>0,fit:getComputedStyle(image).objectFit,blankRatio:1-image.naturalWidth*image.naturalHeight*scale*scale/(f.width*f.height)};
+          });
+          const grids=all('.card-grid').map(grid=>({...rect(grid),gap:parseFloat(getComputedStyle(grid).columnGap)||0,cards:[...grid.children].map(rect)}));
+          return {overflow:document.documentElement.scrollWidth-innerWidth, reading, rows, collections,media,grids,imageDecodeFailures:all('img').filter(img=>img.complete&&img.naturalWidth===0).map(img=>img.getAttribute('src')),
             form:form?rect(form):null, articleReading:article?.querySelector('.reading')?rect(article.querySelector('.reading')):null,
             paragraphs:all('.desktop-reading p').filter(p=>p.getClientRects().length).map(p=>({width:rect(p).width,chars:p.textContent.length})),
             semantic:{title:document.title, meta:all('meta').map(el=>el.outerHTML), canonical:document.querySelector('link[rel=canonical]')?.getAttribute('href'), schema:all('script[type="application/ld+json"]').map(el=>JSON.parse(el.textContent)),
@@ -59,6 +72,12 @@ async function run() {
         if(width===(focused?1440:1280)) semantics.push({route,...semantic});
         const fail = message => failures.push({route,width,message});
         if(data.overflow>1) fail('horizontal overflow '+data.overflow);
+        if(remediation) {
+          const {mediaFailure,gridFailure}=require('./check-audit-media-grid.cjs');
+          for(const media of data.media){const failure=mediaFailure(media);if(failure)fail(failure);}
+          for(const grid of data.grids){const failure=gridFailure(grid);if(failure)fail(failure);}
+          for(const source of data.imageDecodeFailures)fail('image did not decode: '+source);
+        }
         if(width>=1280) {
           const expected = Math.min(1280,width-111);
           for(const r of data.reading) if(r.width<expected-2) fail('whole-content width '+r.width+' < '+expected);
@@ -77,17 +96,22 @@ async function run() {
           if(data.paragraphs.some(p=>p.chars>180&&p.width>800)) fail('paragraph line exceeds 800px');
         }
         if(width<=850) for(const row of data.rows) if(row.children.length===2&&Math.abs(row.children[0].y-row.children[1].y)<5) fail('phone/tablet topics must stack');
-        if(!focused&&representatives.includes(route)&&[1440,1920,390,320].includes(width)) {
+        if(!snapshotOnly&&!focused&&((representatives.includes(route)&&[1440,1920,390,320].includes(width))||(remediation&&changedFamilies.includes(route)&&[1440,390].includes(width)))) {
           await page.evaluate(async()=>{for(const img of document.images)img.loading='eager';await Promise.all([...document.images].map(img=>img.decode().catch(()=>{})));});
           await page.screenshot({path:path.join(output,`${width}-${route.replace(/\//g,'_')||'home'}.png`),fullPage:true});
           await page.screenshot({path:path.join(output,`${width}-${route.replace(/\//g,'_')||'home'}-top.png`)});
           const topic=page.locator('.desktop-topic-row, .desktop-topic-body').first();
           if(await topic.count()){await topic.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(output,`${width}-${route.replace(/\//g,'_')||'home'}-topics-view.png`)});}
+          if(remediation&&[1440,390].includes(width)) {
+            const lastCard=page.locator('.card-grid > :last-child').last();
+            if(await lastCard.count()){await lastCard.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(output,`${width}-${route.replace(/\//g,'_')}-last-row-view.png`)});}
+            if(route==='/guides/prepare-household-maintenance-enquiry/') await page.locator('#work-specific-licences').screenshot({path:path.join(output,`${width}-work-specific-licences.png`)});
+          }
           if(width===1440&&route.includes('interior-repairs')) for(const [sel,name] of [['.article-layout .reading','topics'],['.contact-aside','form']]) await page.locator(sel).screenshot({path:path.join(output,`${width}-${name}.png`)});
         }
       }
     }
-    if(phase!=='before') for(const width of [1440,390,320]) {
+    if(!snapshotOnly&&phase!=='before') for(const width of [1440,390,320]) {
       await page.setViewportSize({width,height:900});
       await page.goto(origin+'/guides/field-notes-doors-windows-screens-enquiry/');
       const toc=page.locator('.guide-contents a').first(); const href=await toc.getAttribute('href');
@@ -117,10 +141,16 @@ async function run() {
     fs.writeFileSync(path.join(output,'metrics.json'),JSON.stringify({metrics,failures,interactions},null,2));
     fs.writeFileSync(path.join(output,'semantics.json'),JSON.stringify(semantics,null,2));
     fs.writeFileSync(path.join(output,'route-inventory.json'),JSON.stringify(routes.map(route=>({route,family:family(route)})),null,2));
-    if(phase!=='before'&&!focused) assert.deepEqual(semantics,JSON.parse(fs.readFileSync(path.join(report,'before/semantics.json'))),'All 102 route semantics must match before');
+    if(!snapshotOnly&&phase!=='before'&&!focused) {
+      const historical=JSON.parse(fs.readFileSync(path.join(report,'before/semantics.json')));
+      if(remediation) {
+        const result=require('./local-audit-semantic-deltas.cjs').compareApprovedDeltas(semantics,historical,require('../tests/fixtures/local-audit-approved-deltas.json'));
+        fs.writeFileSync(path.join(output,'approved-delta-verification.json'),JSON.stringify(result,null,2));
+      } else assert.deepEqual(semantics,historical,'All 102 route semantics must match before');
+    }
     console.log(JSON.stringify({phase,routes:semantics.length,checks:metrics.length,failures:failures.length,examples:failures.slice(0,12)},null,2));
     assert.equal(failures.length,0,'desktop utilization/layout contract');
   } finally { await browser.close(); server.kill(); }
 }
-if(require.main===module) run().catch(e=>{console.error(e);process.exitCode=1;});
-module.exports={desktopPairFailure};
+if(require.main===module) run({remediation:process.argv.includes('--local-audit-remediation')}).catch(e=>{console.error(e);process.exitCode=1;});
+module.exports={desktopPairFailure,run};

@@ -10,7 +10,7 @@
     "start": "node serve.cjs",
     "check": "node tests/stage3-current-check.cjs",
     "check:layout": "node build.mjs && node --test scripts/check-content-layout.cjs",
-    "test": "node --test test/*.test.cjs tests/*.test.cjs"
+    "test": "node --test --test-concurrency=1 test/*.test.cjs tests/*.test.cjs"
   },
   "engines": {
     "node": ">=22.13.0"
