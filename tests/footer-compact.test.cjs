@@ -24,7 +24,7 @@ test.after(() => {
 test.before(async () => {
   fs.mkdirSync(report, {recursive:true});
   fixture = fs.mkdtempSync(path.join(report, 'fixture-'));
-  fs.copyFileSync(path.join(root, 'build.mjs'), path.join(fixture, 'build.mjs'));
+  require('./english-builder-fixture.cjs')(root, fixture);
   fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), {recursive:true});
   execFileSync(process.execPath, ['build.mjs'], {cwd:fixture, stdio:'pipe'});
   const output = path.join(fixture, 'public');

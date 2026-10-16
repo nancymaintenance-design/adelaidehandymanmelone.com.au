@@ -32,7 +32,7 @@ test('every approved suburb has complete unique, customer-visible content', () =
 test('the build rejects an out-of-scope or duplicate service-area record', () => {
   const fixture = fs.mkdtempSync(path.join(require('node:os').tmpdir(), 'mel-one-areas-'));
   try {
-    fs.copyFileSync(path.join(__dirname, '../build.mjs'), path.join(fixture, 'build.mjs'));
+    require('./english-builder-fixture.cjs')(path.resolve(__dirname, '..'), fixture);
     fs.cpSync(path.join(__dirname, '../src'), path.join(fixture, 'src'), { recursive: true });
     const fixturePath = path.join(fixture, 'src/content-pack/service-areas.json');
     const invalid = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));

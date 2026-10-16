@@ -48,7 +48,7 @@ test('all 102 generated pages preserve their former link sequence after reversin
   const fixture = fs.mkdtempSync(path.join(reportRoot, 'links-test-'));
   assert.equal(path.dirname(fixture), reportRoot);
   t.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
-  fs.copyFileSync(path.join(root, 'build.mjs'), path.join(fixture, 'build.mjs'));
+  require('./english-builder-fixture.cjs')(root, fixture);
   fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), { recursive: true });
   execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, env: { ...process.env, SITE_ORIGIN: '' }, stdio: 'pipe', windowsHide: true });
 

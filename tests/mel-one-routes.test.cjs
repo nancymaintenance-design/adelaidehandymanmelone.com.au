@@ -8,7 +8,7 @@ const buildFixture = require('./build-fixture.cjs');
 
 const root = path.resolve(__dirname, '..');
 const fixture = fs.mkdtempSync(path.join(os.tmpdir(), 'mel-one-routes-'));
-fs.copyFileSync(path.join(root, 'build.mjs'), path.join(fixture, 'build.mjs'));
+require('./english-builder-fixture.cjs')(root, fixture);
 fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), { recursive: true });
 const content = JSON.parse(fs.readFileSync(path.join(fixture, 'src/content-pack/mel-one-site-content.json'), 'utf8'));
 const serviceAreas = JSON.parse(fs.readFileSync(path.join(fixture, 'src/content-pack/service-areas.json'), 'utf8'));

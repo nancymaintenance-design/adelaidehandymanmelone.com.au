@@ -1018,6 +1018,1026 @@
       "permanent": true
     },
     {
+      "source": "/zh",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/cabinet-drawer-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/cabinet-drawer-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/cabinet-drawer-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/cabinet-drawer-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/sliding-door-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/sliding-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/sliding-door-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/sliding-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/wall-patching-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/wall-patching-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/wall-patching-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/wall-patching-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/pressure-cleaning",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/pressure-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/pressure-cleaning/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/pressure-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/flyscreen-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/flyscreen-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/flyscreen-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/flyscreen-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/door-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/door-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/gutter-cleaning",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/gutter-cleaning/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/fence-gate-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/fence-gate-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/fence-gate-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/fence-gate-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/flat-pack-assembly",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/flat-pack-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/flat-pack-assembly/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/flat-pack-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/home-electrical-repairs",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/home-electrical-repairs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/home-electrical-repairs/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/home-electrical-repairs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/interior-repairs-assembly",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/interior-repairs-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/interior-repairs-assembly/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/interior-repairs-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/doors-windows-screens",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/doors-windows-screens/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/doors-windows-screens/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/doors-windows-screens/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/roof-gutter-exterior-care",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/roof-gutter-exterior-care/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/roof-gutter-exterior-care/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/roof-gutter-exterior-care/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/garden-landscape-care",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/garden-landscape-care/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/garden-landscape-care/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/garden-landscape-care/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/outdoor-structures-fences-pools",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/outdoor-structures-fences-pools/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/home-repairs-renovation-support",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/home-repairs-renovation-support/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/home-repairs-renovation-support/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/home-repairs-renovation-support/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/maintenance-planning-inspection-support",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/maintenance-planning-inspection-support/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/maintenance-planning-inspection-support/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/maintenance-planning-inspection-support/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/cleaning-removals-specialist-care",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/cleaning-removals-specialist-care/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/services/cleaning-removals-specialist-care/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/services/cleaning-removals-specialist-care/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/field-notes-one-household-job-list",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/field-notes-one-household-job-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/field-notes-one-household-job-list/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/field-notes-one-household-job-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/field-notes-clear-maintenance-handover",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/field-notes-clear-maintenance-handover/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/field-notes-clear-maintenance-handover/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/field-notes-clear-maintenance-handover/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-doors-windows-screens-enquiry",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-doors-windows-screens-enquiry/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-doors-windows-screens-enquiry/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-doors-windows-screens-enquiry/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-wall-interior-repairs-job-list",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-wall-interior-repairs-job-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-wall-interior-repairs-job-list/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-wall-interior-repairs-job-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-roof-gutter-exterior-observations",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-roof-gutter-exterior-observations/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-roof-gutter-exterior-observations/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-roof-gutter-exterior-observations/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-garden-outdoor-seasonal-preparation",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-garden-outdoor-seasonal-preparation/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-garden-outdoor-seasonal-preparation/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-garden-outdoor-seasonal-preparation/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-rental-end-of-lease-maintenance-list",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-rental-end-of-lease-maintenance-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-rental-end-of-lease-maintenance-list/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-rental-end-of-lease-maintenance-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-pre-sale-home-maintenance-list",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-pre-sale-home-maintenance-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-pre-sale-home-maintenance-list/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-pre-sale-home-maintenance-list/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-grouping-multiple-household-jobs",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-grouping-multiple-household-jobs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-grouping-multiple-household-jobs/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-grouping-multiple-household-jobs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-cleaning-removals-preparation",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-cleaning-removals-preparation/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/field-notes-cleaning-removals-preparation/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/field-notes-cleaning-removals-preparation/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/prepare-household-maintenance-enquiry",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/prepare-household-maintenance-enquiry/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/prepare-household-maintenance-enquiry/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/prepare-household-maintenance-enquiry/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/home-maintenance-walk-through-checklist",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/home-maintenance-walk-through-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/guides/home-maintenance-walk-through-checklist/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/guides/home-maintenance-walk-through-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/norwood-flyscreen-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/norwood-flyscreen-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/norwood-flyscreen-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/norwood-flyscreen-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/north-adelaide-door-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/north-adelaide-door-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/burnside-window-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/burnside-window-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/burnside-window-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/burnside-window-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/kensington-furniture-assembly",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/kensington-furniture-assembly/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/unley-kitchen-cabinet-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/unley-kitchen-cabinet-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/unley-kitchen-cabinet-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/unley-kitchen-cabinet-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/goodwood-wall-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/goodwood-wall-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/goodwood-wall-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/goodwood-wall-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/mile-end-fence-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/mile-end-fence-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/mile-end-fence-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/mile-end-fence-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/prospect-gutter-cleaning",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/prospect-gutter-cleaning/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/adelaide-cbd-wall-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/adelaide-cbd-wall-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/adelaide-cbd-wall-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/adelaide-cbd-wall-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/modbury-timber-fence-repair-assessment",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/modbury-timber-fence-repair-assessment/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/modbury-timber-fence-repair-assessment/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/modbury-timber-fence-repair-assessment/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/marion-shower-screen-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/marion-shower-screen-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/marion-shower-screen-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/marion-shower-screen-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/henley-beach-sliding-screen-door-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/henley-beach-sliding-screen-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/henley-beach-sliding-screen-door-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/henley-beach-sliding-screen-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/stirling-deck-pergola-timber-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/stirling-deck-pergola-timber-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/modbury-garden-pruning-tidy-up",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/modbury-garden-pruning-tidy-up/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/modbury-garden-pruning-tidy-up/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/modbury-garden-pruning-tidy-up/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/north-adelaide-timber-gate-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-timber-gate-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/north-adelaide-timber-gate-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-timber-gate-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/burnside-driveway-pressure-cleaning",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/burnside-driveway-pressure-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/burnside-driveway-pressure-cleaning/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/burnside-driveway-pressure-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/stirling-flat-pack-wardrobe-assembly",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-flat-pack-wardrobe-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/stirling-flat-pack-wardrobe-assembly/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-flat-pack-wardrobe-assembly/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/marion-wardrobe-sliding-door-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/marion-wardrobe-sliding-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/marion-wardrobe-sliding-door-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/marion-wardrobe-sliding-door-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/kitchen-drawer-runner-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/kitchen-drawer-runner-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/kitchen-drawer-runner-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/kitchen-drawer-runner-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/sliding-patio-door-roller-track-repair",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/sliding-patio-door-roller-track-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/case-studies/sliding-patio-door-roller-track-repair/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/case-studies/sliding-patio-door-roller-track-repair/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/how-it-works",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/how-it-works/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/adelaide-cbd",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/adelaide-cbd/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/adelaide-cbd/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/adelaide-cbd/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/north-adelaide",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/north-adelaide/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/north-adelaide/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/north-adelaide/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/kent-town",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/kent-town/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/kent-town/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/kent-town/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/bowden",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/bowden/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/cbd-north-adelaide/bowden/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/cbd-north-adelaide/bowden/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/norwood",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/norwood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/norwood/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/norwood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/burnside",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/burnside/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/burnside/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/burnside/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/kensington",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/kensington/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/kensington/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/kensington/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/magill",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/magill/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/eastern-suburbs/magill/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/eastern-suburbs/magill/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/unley",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/unley/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/unley/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/unley/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/goodwood",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/goodwood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/goodwood/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/goodwood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/parkside",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/parkside/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/parkside/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/parkside/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/millswood",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/millswood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-south/millswood/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-south/millswood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/mile-end",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/mile-end/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/mile-end/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/mile-end/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/thebarton",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/thebarton/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/thebarton/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/thebarton/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/torrensville",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/torrensville/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/torrensville/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/torrensville/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/brompton",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/brompton/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/inner-west/brompton/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/inner-west/brompton/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/henley-beach",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/henley-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/henley-beach/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/henley-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/west-beach",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/west-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/west-beach/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/west-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/glenelg",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/glenelg/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/glenelg/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/glenelg/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/semaphore",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/semaphore/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/western-suburbs/semaphore/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/western-suburbs/semaphore/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/modbury",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/modbury/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/modbury/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/modbury/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/prospect",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/prospect/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/prospect/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/prospect/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/campbelltown",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/campbelltown/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/campbelltown/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/campbelltown/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/golden-grove",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/golden-grove/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/north-north-east/golden-grove/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/north-north-east/golden-grove/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/stirling",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/stirling/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/stirling/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/stirling/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/crafers",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/crafers/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/crafers/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/crafers/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/aldgate",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/aldgate/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/aldgate/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/aldgate/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/blackwood",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/blackwood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/adelaide-hills-foothills/blackwood/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/adelaide-hills-foothills/blackwood/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/marion",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/marion/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/marion/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/marion/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/brighton",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/brighton/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/brighton/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/brighton/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/hallett-cove",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/hallett-cove/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/hallett-cove/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/hallett-cove/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/morphett-vale",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/morphett-vale/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-areas/southern-suburbs/morphett-vale/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-areas/southern-suburbs/morphett-vale/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/faq",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/faq/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-standards",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-standards/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/service-standards/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/service-standards/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/about",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/about/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/about/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/about/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/contact",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/contact/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/privacy",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/privacy/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/privacy/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {

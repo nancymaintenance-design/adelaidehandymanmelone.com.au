@@ -1,0 +1,19 @@
+{
+  "matches": {"en": "{count} matching suburb{suffix}.", "zh": "找到 {count} 个匹配地区。"},
+  "noMatches": {"en": "No matching suburbs. Clear the search to browse all regions, or contact MEL ONE with your location.", "zh": "未找到匹配地区。清除搜索可浏览全部区域，或联系 MEL ONE 告知您的位置。"},
+  "messageRequired": {"en": "Describe what needs attention.", "zh": "请描述需要维修或维护的问题。"},
+  "suburbRequired": {"en": "Add your suburb or postcode.", "zh": "请填写所在地区或邮编。"},
+  "phoneRequired": {"en": "Add a phone number for your preferred reply.", "zh": "您选择了电话回复，请填写有效电话号码。"},
+  "emailRequired": {"en": "Add an email address, such as name@example.com.", "zh": "请填写有效邮箱，例如 name@example.com。"},
+  "checkFields": {"en": "Check the highlighted details before sending.", "zh": "发送前请检查并补全标出的信息。"},
+  "sending": {"en": "Sending your enquiry…", "zh": "正在发送您的咨询……"},
+  "failed": {"en": "We could not send your enquiry.", "zh": "咨询未能发送，您填写的内容已保留。"},
+  "success": {"en": "Thank you — your enquiry has been sent to MEL ONE. We will be in touch.", "zh": "感谢您的咨询，信息已发送至 MEL ONE。我们会与您联系。"},
+  "fallback": {"en": "Please call 0416 614 281 or email admin@melonemaintenance.com.au.", "zh": "请致电 0416 614 281，或发送邮件至 admin@melonemaintenance.com.au。"},
+  "localPreview": {"en": "Local preview: enquiries are not sent. Your details remain in the form.", "zh": "本地预览不会发送咨询。您填写的内容会保留在表单中。"},
+  "tooMany": {"en": "Too many requests. Please try again later.", "zh": "请求过于频繁，请稍后再试。"},
+  "notFoundTitle": {"en": "This page is unavailable", "zh": "此页面暂不可用"},
+  "notFoundHelp": {"en": "The link may have changed. Browse the Chinese homepage or contact MEL ONE.", "zh": "链接可能已变更。您可以返回中文首页，或联系 MEL ONE。"},
+  "chineseHome": {"en": "Chinese homepage", "zh": "返回中文首页"},
+  "contactLabel": {"en": "Contact MEL ONE", "zh": "联系我们"}
+}

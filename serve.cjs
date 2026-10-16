@@ -52,7 +52,7 @@ const server = http.createServer((req, res) => {
 
   try {
     if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
-      const notFound = path.join(ROOT, '404.html');
+      const notFound = path.join(ROOT, url.startsWith('/zh/') ? 'zh/404.html' : '404.html');
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(previewHtml(fs.readFileSync(notFound, 'utf8')));
       return;

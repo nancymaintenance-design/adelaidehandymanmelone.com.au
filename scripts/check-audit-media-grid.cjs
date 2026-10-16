@@ -45,7 +45,8 @@ async function run({ captureBaseline = false, phase = process.env.AUDIT_LAYOUT_P
   fs.mkdirSync(reportRoot, { recursive: true });
   if (captureBaseline && fs.existsSync(baselineFile)) throw new Error('Refusing to replace immutable pre-remediation baseline');
   const fixture = fs.mkdtempSync(path.join(reportRoot, 'fixture-'));
-  for (const file of ['build.mjs', 'serve.cjs', 'vercel.json']) fs.copyFileSync(path.join(root, file), path.join(fixture, file));
+  require('../tests/english-builder-fixture.cjs')(root, fixture);
+  for (const file of ['serve.cjs', 'vercel.json']) fs.copyFileSync(path.join(root, file), path.join(fixture, file));
   fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), { recursive: true });
   execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, stdio: 'pipe', env: { ...process.env, SITE_ORIGIN: '' } });
   const server = spawn(process.execPath, ['serve.cjs'], { cwd: fixture, env: { ...process.env, PORT: '0' }, windowsHide: true, stdio: ['ignore', 'pipe', 'pipe'] });

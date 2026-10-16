@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /** MEL ONE local candidate. Public facts originate only in the approved content contract. */
 import fs from 'node:fs';
+import { renderBilingual } from './src/i18n/bilingual.mjs';
 import { composeDesktopLayout } from './src/desktop-layout.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -582,3 +583,4 @@ fs.writeFileSync(path.join(siteDir, 'robots.txt'), `User-agent: *\nAllow: /\nDis
 fs.writeFileSync(path.join(siteDir, 'llms.txt'), `# ${site.title}\n\n> ${site.description}\n\n## Company contact\n\n- Legal entity: ${businessFacts.legalName}\n- ABN: ${businessFacts.abn}\n- ACN: ${businessFacts.acn}\n- Official record: ${businessFacts.registryUrl}\n- Business hours: ${hoursText}\n- Phone: ${contact.phone}\n- Email: ${contact.email}\n- Contact address: ${contact.address}\n\n## Content context\n\nThis is MEL ONE’s Adelaide website. ${businessFacts.adelaideIdentity} ${businessFacts.premisesVisits} Service pages describe practical household-maintenance support. Availability, timing and specialist coordination are confirmed for each request. Field notes are original general guidance that helps customers prepare useful household-maintenance enquiries. Photographed case studies identify the suburb only when supplied, visible maintenance concern, supplied image sequence and connected service page.\n\n## Pages\n\n${routes.map(({ route, title, description }) => `- [${title}](${canonical(route)}): ${description}`).join('\n')}\n`);
 console.log(`MEL ONE website: ${routes.length + 1} pages generated in ${siteDir}`);
 fs.appendFileSync(path.join(siteDir, 'llms.txt'), `\n## Machine-readable data\n\n- [Photographed case study data](${canonical('/case-studies/feed.json')}): Custom JSON catalogue of the same cases shown in HTML, with service, suburb and original image references.\n- [Service area data](${canonical('/service-areas/feed.json')}): Region hubs and suburb page URLs matching the live hierarchy.\n`);
+renderBilingual({ siteDir, routes, origin, extract: process.argv.includes('--i18n-extract') });

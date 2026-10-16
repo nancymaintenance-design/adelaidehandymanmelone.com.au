@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "MEL ONE — Adelaide household-maintenance website candidate",
   "private": true,
+  "dependencies": {
+    "parse5": "8.0.1"
+  },
   "scripts": {
     "build": "node build.mjs",
     "build:docs": "node build.mjs --docs",
+    "i18n:extract": "node build.mjs --i18n-extract",
+    "check:bilingual": "node --test test/bilingual*.test.mjs",
     "serve": "node serve.cjs",
     "start": "node serve.cjs",
     "check": "node tests/stage3-current-check.cjs",
     "check:layout": "node build.mjs && node --test scripts/check-content-layout.cjs",
-    "test": "node --test --test-concurrency=1 test/*.test.cjs tests/*.test.cjs"
+    "test": "node build.mjs && node --test --test-concurrency=1 test/*.test.cjs test/*.test.mjs tests/*.test.cjs"
   },
   "engines": {
     "node": ">=22.13.0"

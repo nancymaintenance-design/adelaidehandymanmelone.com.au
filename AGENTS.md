@@ -1,0 +1,15 @@
+# Adelaide Handyman MEL ONE — bilingual maintenance
+
+Follow `E:/Ellis-Services/AGENTS.md`. This is the only source checkout for this site.
+
+## User requirements confirmed 2026-10-16
+
+- Every English public page has a Simplified Chinese counterpart at `/zh/` plus the same path. Keep the language switch immediately after Contact / 联系我们 and link to the current page's counterpart.
+- Make content and interface changes in both languages in the same change. English source and Chinese catalogues live together in `src/i18n/`; production builds fail on missing or stale source-text mappings. Do not suppress that validation or fall back to English on Chinese pages.
+- Run `pnpm i18n:extract` after source changes. It appends stable IDs to `src/i18n/en.json` and writes a pending list under the sibling reports directory. Translate those IDs in `src/i18n/zh-*.json`, review each English/Chinese pair for matching meaning and factual limits, then record only the reviewed IDs with `node scripts/record-translation-sources.mjs tNNNN [tNNNN ...]`. Run `pnpm build` and `pnpm check:bilingual` afterwards. Never regenerate or renumber existing IDs.
+- `src/i18n/source-lock.json` binds every Chinese translation to the SHA256 of its normalized English source. Editing English under an existing ID makes that binding stale; adding a translated ID without recording its reviewed source also blocks a normal build. Do not delete, manually replace or bulk refresh the lock to bypass review. The `--initial` command is one-time bootstrap only and refuses an existing lock. Recording a binding records completed bilingual review; it does not prove translation quality or authorize new service promises.
+- Runtime form/search messages require both `en` and `zh` in `src/i18n/interface.json`. Check placeholder parity. A wording correction must preserve the other language's meaning and factual limits.
+- Preserve approved English core H1, keyword intent, case evidence, compact social footer, desktop content width and responsive images unless the user explicitly changes them.
+- Keep tel:+61416614281 / 0416 614 281, admin@melonemaintenance.com.au, the four existing social URLs, legal entity and real address. Do not infer additional licences, prices, availability, discounts, service guarantees or Mandarin-speaking staffing from the existence of a Chinese website.
+- Preserve Australian legal context and use recognisable English suburb names in Chinese text. Translate flyscreen as 纱窗/纱门, quote as 报价 and a service visit as 上门服务/上门评估.
+- Before handoff, check all page pairs, localised metadata/JSON-LD, internal links, contact forms, 404s and desktop/mobile layout. Show the local preview first. Deployment requires the user's later explicit approval; the bilingual request itself is not deployment permission.

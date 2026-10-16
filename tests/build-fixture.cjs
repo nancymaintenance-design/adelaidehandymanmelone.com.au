@@ -8,7 +8,7 @@ module.exports = function buildFixture(test, extraEnv = {}, changeContent) {
   const root = path.resolve(__dirname, '..');
   const fixture = fs.mkdtempSync(path.join(os.tmpdir(), 'mel-one-build-'));
   test.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
-  fs.copyFileSync(path.join(root, 'build.mjs'), path.join(fixture, 'build.mjs'));
+  require('./english-builder-fixture.cjs')(root, fixture);
   fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), { recursive: true });
   const contentPath = path.join(fixture, 'src/content-pack/mel-one-site-content.json');
   const content = JSON.parse(fs.readFileSync(contentPath, 'utf8'));

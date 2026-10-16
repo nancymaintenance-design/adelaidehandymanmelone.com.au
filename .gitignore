@@ -1,3 +1,5 @@
 .vercel
 .env*
 .seo-cache/
+node_modules/
+public/

@@ -1,0 +1,517 @@
+[
+  {
+    "route": "/404.html",
+    "h1": "Let’s get you back home.",
+    "mainHash": "9c78a5712f489745f222fa65a3fc4fe367e9c4d1d85e6a37834f62716629b475"
+  },
+  {
+    "route": "/about/",
+    "h1": "About MEL ONE: Adelaide Handyman &amp; Property Maintenance",
+    "mainHash": "b467152a1546557ad0e18a4875aa83cff4197514ec6bdb1016082b052836b478"
+  },
+  {
+    "route": "/case-studies/adelaide-cbd-wall-repair/",
+    "h1": "Wall and Skirting Board Repair in Adelaide CBD",
+    "mainHash": "29559b2c308ee1f255bfafccabb6cb2009dbff676e22460c452653ef63547363"
+  },
+  {
+    "route": "/case-studies/burnside-driveway-pressure-cleaning/",
+    "h1": "Driveway Pressure Cleaning in Burnside, Adelaide",
+    "mainHash": "447d64e7419c843c3d34a40eb958e77eb40f7cb4b726d6ed11f26056cff1c5a8"
+  },
+  {
+    "route": "/case-studies/burnside-window-repair/",
+    "h1": "Sliding Window Repair in Burnside, Adelaide",
+    "mainHash": "220af482fe74fdaed0f45cc21e19ff3c982dc9b6f9dd3cc5619c0869b74529a4"
+  },
+  {
+    "route": "/case-studies/goodwood-wall-repair/",
+    "h1": "Plasterboard Wall Repair in Goodwood, Adelaide",
+    "mainHash": "74de9bc479e8a060bc3249d9ecc9b04aaf1e8f5a80f458dea73070bef202309a"
+  },
+  {
+    "route": "/case-studies/henley-beach-sliding-screen-door-repair/",
+    "h1": "Sliding Screen Door Repair in Henley Beach",
+    "mainHash": "c28057b00f81bef9dce084d1a110204f8ed8a2ed2f9d9777ef3dabfc409f9d64"
+  },
+  {
+    "route": "/case-studies/",
+    "h1": "Adelaide Handyman Repair Case Studies",
+    "mainHash": "8c5ce181dc891ebdcf36bd27c2dd91f4f671a91b7d4b882ab4ef9e29aceb42c2"
+  },
+  {
+    "route": "/case-studies/kensington-furniture-assembly/",
+    "h1": "IKEA KALLAX Furniture Assembly in Kensington, Adelaide",
+    "mainHash": "d098e1fffed2bf71678b4eb96ec4e6106543503f022798ea43e9229e1e9555ff"
+  },
+  {
+    "route": "/case-studies/kitchen-drawer-runner-repair/",
+    "h1": "Kitchen Drawer Runner Repair: A Sagging Drawer",
+    "mainHash": "978f2557f9bc97358de41b9f9f2b5ae48388411fc8e11c83cba83d5ac7ea301f"
+  },
+  {
+    "route": "/case-studies/marion-shower-screen-repair/",
+    "h1": "Shower Screen Door Repair in Marion, Adelaide",
+    "mainHash": "0463e958871a8562167fc39026ca6d0c49b617f547c14674760e61819a38f5b8"
+  },
+  {
+    "route": "/case-studies/marion-wardrobe-sliding-door-repair/",
+    "h1": "Wardrobe Sliding Door Roller Repair in Marion, Adelaide",
+    "mainHash": "3171fcf12474bc0c449efd0dd41ad051593a9bf0432bd1442da006582d8253d1"
+  },
+  {
+    "route": "/case-studies/mile-end-fence-repair/",
+    "h1": "Timber Fence Repair in Mile End, Adelaide",
+    "mainHash": "a0867c5123b4c645bc897de4af38448fe947cef5091901ebefa7d1ef65231992"
+  },
+  {
+    "route": "/case-studies/modbury-garden-pruning-tidy-up/",
+    "h1": "Garden Pruning and Tidy-Up in Modbury, Adelaide",
+    "mainHash": "26b09ad50cd8d8c479a6f9cfeee0af444db0c33c206c6be352049081d962c7b4"
+  },
+  {
+    "route": "/case-studies/modbury-timber-fence-repair-assessment/",
+    "h1": "Timber Fence Repair Assessment in Modbury, Adelaide",
+    "mainHash": "b5b4e543158297b0ad5f7c63b82879f2c6824f6b613bc3dee913bc43e05df318"
+  },
+  {
+    "route": "/case-studies/north-adelaide-door-repair/",
+    "h1": "Front Door Repair in North Adelaide",
+    "mainHash": "4a8c4312211d418bf262b0a1548849dcba52fd9b59985ed2e04375416cd0c48c"
+  },
+  {
+    "route": "/case-studies/north-adelaide-timber-gate-repair/",
+    "h1": "Timber Side Gate Repair in North Adelaide",
+    "mainHash": "011d90165020164ac25a6376bde71b2fd5eb12904430c70c51348cbc47bd051a"
+  },
+  {
+    "route": "/case-studies/norwood-flyscreen-repair/",
+    "h1": "Flyscreen Repair in Norwood, Adelaide",
+    "mainHash": "ed9568c11b0eb52474b1e5b647752c0c7d80f307a09d6424266cec7b127a04b9"
+  },
+  {
+    "route": "/case-studies/prospect-gutter-cleaning/",
+    "h1": "Gutter Cleaning in Prospect, Adelaide",
+    "mainHash": "c2c2c1336ab8ac62532b7dd0043005349ef4c6ae83773afa6304970d2ae3155f"
+  },
+  {
+    "route": "/case-studies/sliding-patio-door-roller-track-repair/",
+    "h1": "Sliding Patio Door Repair: Lower Rollers and a Dusty Track",
+    "mainHash": "eafe72f9134aaf1b6fe234584037eb39f5f30f926c197c3f12a7bfc6812f5ebd"
+  },
+  {
+    "route": "/case-studies/stirling-deck-pergola-timber-repair/",
+    "h1": "Deck and Pergola Timber Repair in Stirling, Adelaide",
+    "mainHash": "a5e7b96f79e53a9842b829c68d00ddcfebcb732fc7f8bc1af1407da0d0dc1ef7"
+  },
+  {
+    "route": "/case-studies/stirling-flat-pack-wardrobe-assembly/",
+    "h1": "Flat-Pack Wardrobe Assembly in Stirling, Adelaide",
+    "mainHash": "bb323d568436238ce00aeaabb2319ab8fe6ad7ed183e85e5fe7543e159c3d130"
+  },
+  {
+    "route": "/case-studies/unley-kitchen-cabinet-repair/",
+    "h1": "Kitchen Cabinet Hinge Repair in Unley, Adelaide",
+    "mainHash": "7361ce59df0dfaf53ac050a4af7bdc07fb51b042d36b60addfb3b9be645d4e9a"
+  },
+  {
+    "route": "/contact/",
+    "h1": "Adelaide Handyman Assessment &amp; Repair Quotes",
+    "mainHash": "a5ba0156d183e58d990a2c7af126589c01feb37e836434035f051fd214abea1c"
+  },
+  {
+    "route": "/faq/",
+    "h1": "Adelaide Handyman Costs, Bookings &amp; Repair Questions",
+    "mainHash": "4c19c4a7862a1b1ba86ca056a1910598c753c8a901c949da8ba9ef31eb514244"
+  },
+  {
+    "route": "/guides/field-notes-cleaning-removals-preparation/",
+    "h1": "Pressure Cleaning Adelaide: Driveway &amp; Paver Guide",
+    "mainHash": "7591570ee555dd8fb4c04c77f321b51746852289b697ba55b0db01f77d2607a4"
+  },
+  {
+    "route": "/guides/field-notes-doors-windows-screens-enquiry/",
+    "h1": "Door &amp; Flyscreen Repairs Adelaide: Rollers, Mesh &amp; Hardware",
+    "mainHash": "e56f2b836d22301658f0fab1bb165fc75bffbc41bb0854c926449e65bb2ad448"
+  },
+  {
+    "route": "/guides/field-notes-garden-outdoor-seasonal-preparation/",
+    "h1": "Garden Maintenance Adelaide: Tidy Ups, Pruning &amp; Timber Checks",
+    "mainHash": "f9acd9d9a7574b57277fffd5301845173568c63160833edf7a3a01e6a53a1067"
+  },
+  {
+    "route": "/guides/field-notes-grouping-multiple-household-jobs/",
+    "h1": "Small Jobs Handyman Adelaide: Planning Multiple Repairs",
+    "mainHash": "41663d7ca4467537810534c2cdd6df2729e7a7329ce2ae546d381649df735b08"
+  },
+  {
+    "route": "/guides/field-notes-pre-sale-home-maintenance-list/",
+    "h1": "Pre-Sale Home Repairs Adelaide: Repair Checklist",
+    "mainHash": "981cc352850eccd51477eb728fab57583f8030864a9b107c6fc4c3ca935d4945"
+  },
+  {
+    "route": "/guides/field-notes-rental-end-of-lease-maintenance-list/",
+    "h1": "End of Lease Repairs Adelaide: Rental Maintenance Checklist",
+    "mainHash": "931df365983d18dc6f91c3bf75f07f692a214bb94b327b11985545681b383f09"
+  },
+  {
+    "route": "/guides/field-notes-roof-gutter-exterior-observations/",
+    "h1": "Gutter Cleaning Adelaide: Overflow &amp; Exterior Repair Checks",
+    "mainHash": "beaeda244b9761f2c2d3df6240961442f803f1282a24eaab728ba6e75e345435"
+  },
+  {
+    "route": "/guides/field-notes-wall-interior-repairs-job-list/",
+    "h1": "Plasterboard Repairs Adelaide: Wall Holes, Patches &amp; Paint",
+    "mainHash": "a41c0e61e7026e8fddc7ce57a24d11dd6e1ddfb998c539eba3f6d28f23f12b08"
+  },
+  {
+    "route": "/guides/home-maintenance-walk-through-checklist/",
+    "h1": "Home Maintenance Adelaide: Room-by-Room Repair Checklist",
+    "mainHash": "afa0733cd9d75b5358ad29f60b3f5457d4cb51c3c618fec7d9435e876438f8fe"
+  },
+  {
+    "route": "/guides/",
+    "h1": "Adelaide Handyman Repair &amp; Maintenance Guides",
+    "mainHash": "4813a36fdcd9e1cc00faac8d40daa60c6e0983ba4248630abf0537fceee9ccab"
+  },
+  {
+    "route": "/guides/prepare-household-maintenance-enquiry/",
+    "h1": "Handyman Quotes Adelaide: Repair Details, Parts &amp; Access",
+    "mainHash": "8cdb25c6da1b11223fdff893d2adeeff17d99c787237f4fb966769fb637144a2"
+  },
+  {
+    "route": "/how-it-works/",
+    "h1": "Handyman Adelaide: Quotes &amp; Booking",
+    "mainHash": "a90b8166bd295b5da6210703c11d420f52340378077ce0077a702ca70be3f4f8"
+  },
+  {
+    "route": "/",
+    "h1": "Handyman Services &amp; Home Repairs Adelaide",
+    "mainHash": "a5bb360a0249b164b0107233bbf07aa5d06c197a05f97b2894136ee3b00fb848"
+  },
+  {
+    "route": "/news/field-notes-clear-maintenance-handover/",
+    "h1": "Rental Property Maintenance Adelaide: Repair Handover Records",
+    "mainHash": "17d26828d1d53eda925620a6f9f9977deaf7bf1dd5b213fa1233289234e0d4cd"
+  },
+  {
+    "route": "/news/field-notes-one-household-job-list/",
+    "h1": "Adelaide Home Repairs: Grouping Small Handyman Jobs",
+    "mainHash": "1c449f32cc765b3fa6d26e402a77eee838ff69d6b87239ab960f8835a40b41c4"
+  },
+  {
+    "route": "/news/",
+    "h1": "Adelaide Home Repair &amp; Maintenance Notes",
+    "mainHash": "08b081595b3d6f5f9a1af8057c4a1ad04a09f9b80e6df3ca3e9909e7137b4aa0"
+  },
+  {
+    "route": "/privacy/",
+    "h1": "MEL ONE Enquiry Privacy",
+    "mainHash": "504f660868b082442cb58fdc20a7aae1648fb000b7e429d3c3d7f181d23ad3bb"
+  },
+  {
+    "route": "/service-areas/adelaide-hills-foothills/aldgate/",
+    "h1": "Handyman Services in Aldgate, Adelaide",
+    "mainHash": "9aef98d458e0c7504a27f9cb747ea20086f0ba835e0fc059254f7c8edf4483de"
+  },
+  {
+    "route": "/service-areas/adelaide-hills-foothills/blackwood/",
+    "h1": "Handyman Services in Blackwood, Adelaide",
+    "mainHash": "14a3192d03e76332401655fff15178912f59dbee72eb12409943f404cdb4228f"
+  },
+  {
+    "route": "/service-areas/adelaide-hills-foothills/crafers/",
+    "h1": "Handyman Services in Crafers, Adelaide",
+    "mainHash": "5914e0d585021f58408464b57b6c64fe0b72a1c1c0de26645d06c8f086163701"
+  },
+  {
+    "route": "/service-areas/adelaide-hills-foothills/",
+    "h1": "Handyman Services &amp; Home Repairs in Adelaide Hills &amp; Foothills",
+    "mainHash": "64bc402e36bf2f8782cd495ac5307e82900d8471b0c60f7b05f357c86df69fbd"
+  },
+  {
+    "route": "/service-areas/adelaide-hills-foothills/stirling/",
+    "h1": "Handyman Services in Stirling, Adelaide",
+    "mainHash": "80fa29acdfd05cf60249f2e9e94041cc3539b625dbdd1f0a2626bf5b6e5c8763"
+  },
+  {
+    "route": "/service-areas/cbd-north-adelaide/adelaide-cbd/",
+    "h1": "Handyman Services in Adelaide CBD, Adelaide",
+    "mainHash": "354a6c73758912c2a5a1728a986a1cc0580b1a10ecc1344d11f93f265eccf0e2"
+  },
+  {
+    "route": "/service-areas/cbd-north-adelaide/bowden/",
+    "h1": "Handyman Services in Bowden, Adelaide",
+    "mainHash": "1e044926ebd176af1428dc931aa47cf8b21153332cbb5977ce77c35a857b8525"
+  },
+  {
+    "route": "/service-areas/cbd-north-adelaide/",
+    "h1": "Handyman Services &amp; Home Repairs in Adelaide CBD &amp; North Adelaide",
+    "mainHash": "743568a17cf31216615b20bb0b5ef137f7245b8cb6d3d4dba064357c70f00949"
+  },
+  {
+    "route": "/service-areas/cbd-north-adelaide/kent-town/",
+    "h1": "Handyman Services in Kent Town, Adelaide",
+    "mainHash": "d15f00be9f7343a8a993198985cc6a4cadf0c0fe5f3bfb6918e738145f4c1a56"
+  },
+  {
+    "route": "/service-areas/cbd-north-adelaide/north-adelaide/",
+    "h1": "Handyman Services in North Adelaide, Adelaide",
+    "mainHash": "b0170acfd3eebe7b369a3e0e545178d0f15116bddeb6a15767f74f7be7037249"
+  },
+  {
+    "route": "/service-areas/eastern-suburbs/burnside/",
+    "h1": "Handyman Services in Burnside, Adelaide",
+    "mainHash": "7bdb94f3d2b6fd069d8296b2195b5a5fec5bda4835bd088ffeb9d773deefc01d"
+  },
+  {
+    "route": "/service-areas/eastern-suburbs/",
+    "h1": "Handyman Services &amp; Home Repairs in Eastern Suburbs",
+    "mainHash": "e95a8f477c544debf4e0d66db41bf714e5f1f174424c0f27854a2f8be67fe14b"
+  },
+  {
+    "route": "/service-areas/eastern-suburbs/kensington/",
+    "h1": "Handyman Services in Kensington, Adelaide",
+    "mainHash": "b06cf1bc21cf00d98555e864d94b59c95c3423b36afa2551e6c42ba6ca9b7a89"
+  },
+  {
+    "route": "/service-areas/eastern-suburbs/magill/",
+    "h1": "Handyman Services in Magill, Adelaide",
+    "mainHash": "0b11d4cef8c4cb651a9f226965a9ee533799eec7a84d023862c717d65b179dd5"
+  },
+  {
+    "route": "/service-areas/eastern-suburbs/norwood/",
+    "h1": "Handyman Services in Norwood, Adelaide",
+    "mainHash": "84bf73988cb79b1de4bf4a1debe117d9fbf0a0d00e2e17b56605332b561d866a"
+  },
+  {
+    "route": "/service-areas/",
+    "h1": "Handyman Service Areas Across Greater Adelaide",
+    "mainHash": "2f289e115bf907f3bdc46699364b1890261315ec2ccea7383b4d3a57a7ef5b29"
+  },
+  {
+    "route": "/service-areas/inner-south/goodwood/",
+    "h1": "Handyman Services in Goodwood, Adelaide",
+    "mainHash": "ed37aaa3d50b2a52625134ab543795fb97ff254f20683405843094ab63f3304e"
+  },
+  {
+    "route": "/service-areas/inner-south/",
+    "h1": "Handyman Services &amp; Home Repairs in Inner South",
+    "mainHash": "d7dba93c132fc4e03da459b7dc17874948987bd20abf8cec25c043ba19fe7f00"
+  },
+  {
+    "route": "/service-areas/inner-south/millswood/",
+    "h1": "Handyman Services in Millswood, Adelaide",
+    "mainHash": "89d5132823d15366753c7aa840d33d867cf65f9bdbc8e22e50b49bc02041ed2b"
+  },
+  {
+    "route": "/service-areas/inner-south/parkside/",
+    "h1": "Handyman Services in Parkside, Adelaide",
+    "mainHash": "bc1b6863f8eb500753a587d5761a90f5dbbfe8647ee3367068c94052b446b93c"
+  },
+  {
+    "route": "/service-areas/inner-south/unley/",
+    "h1": "Handyman Services in Unley, Adelaide",
+    "mainHash": "4f7d159ec288850a9725d9e996e0ac882c8a4a0412f2065542e25efb4641bc21"
+  },
+  {
+    "route": "/service-areas/inner-west/brompton/",
+    "h1": "Handyman Services in Brompton, Adelaide",
+    "mainHash": "b4ce66e01a9b036a09af861aa985497bfb0940360da62406b65cea47617c7a51"
+  },
+  {
+    "route": "/service-areas/inner-west/",
+    "h1": "Handyman Services &amp; Home Repairs in Inner West",
+    "mainHash": "28b5b1460040743e70f0b5fd0a364ac24c87b02d507e1995181469ee19822785"
+  },
+  {
+    "route": "/service-areas/inner-west/mile-end/",
+    "h1": "Handyman Services in Mile End, Adelaide",
+    "mainHash": "2d072a404f8556553d584b8a5c32f732ef69b038707782c3616dcbc3920dff82"
+  },
+  {
+    "route": "/service-areas/inner-west/thebarton/",
+    "h1": "Handyman Services in Thebarton, Adelaide",
+    "mainHash": "b036c83017131c41afc2400e6a73b763760b3c078c9d1f04633ec9d280ec91a6"
+  },
+  {
+    "route": "/service-areas/inner-west/torrensville/",
+    "h1": "Handyman Services in Torrensville, Adelaide",
+    "mainHash": "ceda997524082fee64995c22693b7313034064e65ad3e2205923010844167032"
+  },
+  {
+    "route": "/service-areas/north-north-east/campbelltown/",
+    "h1": "Handyman Services in Campbelltown, Adelaide",
+    "mainHash": "67074ed8efec6905c0ed3234752b654cfd3734a1d6f3b4ef7160cf54d4bf3f27"
+  },
+  {
+    "route": "/service-areas/north-north-east/golden-grove/",
+    "h1": "Handyman Services in Golden Grove, Adelaide",
+    "mainHash": "379d10f0fa030e73f5864244ab16c94663cc6d50724df68a1a6a98e2b5f56425"
+  },
+  {
+    "route": "/service-areas/north-north-east/",
+    "h1": "Handyman Services &amp; Home Repairs in North &amp; North-East",
+    "mainHash": "75aef02bae2957255a844a73b136dcc786189f20aaffbb6d7e0d362336d9233c"
+  },
+  {
+    "route": "/service-areas/north-north-east/modbury/",
+    "h1": "Handyman Services in Modbury, Adelaide",
+    "mainHash": "4dc03c9403764c63d25882bbd8a9e21d7918991512602acd5e6021d77438dca3"
+  },
+  {
+    "route": "/service-areas/north-north-east/prospect/",
+    "h1": "Handyman Services in Prospect, Adelaide",
+    "mainHash": "7db947259ae7c0c5e5f975243df5ecd9ced363bae7768c41dcad4d66766e389c"
+  },
+  {
+    "route": "/service-areas/southern-suburbs/brighton/",
+    "h1": "Handyman Services in Brighton, Adelaide",
+    "mainHash": "c143384eadd6d275ee00c0132e8b0b50688102f912f9fd83e6776639976d1882"
+  },
+  {
+    "route": "/service-areas/southern-suburbs/hallett-cove/",
+    "h1": "Handyman Services in Hallett Cove, Adelaide",
+    "mainHash": "c68147d56bb020c1228348a19abfeeffdb846fbaef79567b3093286bed8b1ed7"
+  },
+  {
+    "route": "/service-areas/southern-suburbs/",
+    "h1": "Handyman Services &amp; Home Repairs in Southern Suburbs",
+    "mainHash": "11921d1db3ab9f020ecf57cbe29f3f30cac680614342fd2851a992ae92b1e71e"
+  },
+  {
+    "route": "/service-areas/southern-suburbs/marion/",
+    "h1": "Handyman Services in Marion, Adelaide",
+    "mainHash": "e836a4d1b7971702517bbd5d77d28878564da80c7af1bc140ff19b301e56d3e4"
+  },
+  {
+    "route": "/service-areas/southern-suburbs/morphett-vale/",
+    "h1": "Handyman Services in Morphett Vale, Adelaide",
+    "mainHash": "05f8d8049b7dd4cb96e4f4d17de1212c452f9f91d1742f7c4aa9216446d079f5"
+  },
+  {
+    "route": "/service-areas/western-suburbs/glenelg/",
+    "h1": "Handyman Services in Glenelg, Adelaide",
+    "mainHash": "c2bb8940e99e4a0de9616556d286028f43abdfd78842b4605ebe10789ba7a6b5"
+  },
+  {
+    "route": "/service-areas/western-suburbs/henley-beach/",
+    "h1": "Handyman Services in Henley Beach, Adelaide",
+    "mainHash": "d89a5174360c68d43eb569b9c5b29a6171b5015962bbdfb46b681cb1c6d19a95"
+  },
+  {
+    "route": "/service-areas/western-suburbs/",
+    "h1": "Handyman Services &amp; Home Repairs in Western Suburbs",
+    "mainHash": "0267d4c6e0f2c00d1382031de10167d53588c070da29feb27da6c425f0ddcc1e"
+  },
+  {
+    "route": "/service-areas/western-suburbs/semaphore/",
+    "h1": "Handyman Services in Semaphore, Adelaide",
+    "mainHash": "97bc040b52befcb251bfa21f06bf80ce2dc524a70abf3fac528ef6f571bbc535"
+  },
+  {
+    "route": "/service-areas/western-suburbs/west-beach/",
+    "h1": "Handyman Services in West Beach, Adelaide",
+    "mainHash": "6a9100c979e28d142ada1c168e6102a6312e18f585c589d39e26d241cfc71782"
+  },
+  {
+    "route": "/service-standards/",
+    "h1": "Adelaide Handyman Quotes, Work Scope &amp; Service Standards",
+    "mainHash": "9790a46d537b6f8512ef1551e7f2dfed53b424bd9199c8354e62737b54df71cc"
+  },
+  {
+    "route": "/services/cabinet-drawer-repair/",
+    "h1": "Cabinet &amp; Drawer Repairs Adelaide",
+    "mainHash": "c23c55b224e34fdad3ce45a72c20c176e8fd97b183c0a81ed18bab28c03ad36d"
+  },
+  {
+    "route": "/services/cleaning-removals-specialist-care/",
+    "h1": "Household Cleaning &amp; Furniture Removal Adelaide",
+    "mainHash": "eeff1b963750c6b0f3cedc451ff41cb91f59acfa412debc5156bff1d9af96640"
+  },
+  {
+    "route": "/services/door-repair/",
+    "h1": "Door Repairs Adelaide",
+    "mainHash": "ab71068722e94a6538f1f9454a047f556334383e34143945bbb3d0d0281b9a13"
+  },
+  {
+    "route": "/services/doors-windows-screens/",
+    "h1": "Door, Window &amp; Flyscreen Repairs Adelaide",
+    "mainHash": "208a44e428bf398185d0d3c9cdd2b365a4b9706f153804e56346f9a1ad808f74"
+  },
+  {
+    "route": "/services/fence-gate-repair/",
+    "h1": "Fence &amp; Gate Repairs Adelaide",
+    "mainHash": "459b291d27f2f9e64ec3ab76d906e1c4f0ade891173a0a6164ffe46b86af94f8"
+  },
+  {
+    "route": "/services/flat-pack-assembly/",
+    "h1": "Flat Pack &amp; Furniture Assembly Adelaide",
+    "mainHash": "029a7b3811b83e527712cfdcaa4968e92cfd9e835d476ed2a9344df0df4f83c0"
+  },
+  {
+    "route": "/services/flyscreen-repair/",
+    "h1": "Flyscreen &amp; Screen Door Repairs Adelaide",
+    "mainHash": "b45b1efd7dbd9a3870e0cf13adaf5837cc48b1671ae836649325b3005d4beba0"
+  },
+  {
+    "route": "/services/garden-landscape-care/",
+    "h1": "Garden Maintenance &amp; Garden Tidy Ups Adelaide",
+    "mainHash": "596443b2cef18c43c2c0b879608ff400d85ac497a97ca99b4b0ce2485827dac9"
+  },
+  {
+    "route": "/services/gutter-cleaning/",
+    "h1": "Gutter Cleaning Adelaide",
+    "mainHash": "f66dcbc52dfa3c45533400366e974341e70f936b94abfc6971a81578b7873be6"
+  },
+  {
+    "route": "/services/home-electrical-repairs/",
+    "h1": "Home Electrical Repairs Adelaide",
+    "mainHash": "70a8fccf316b11750c273dfe76e8f1a40f45939aa35ec4f0634209333a3b8d40"
+  },
+  {
+    "route": "/services/home-repairs-renovation-support/",
+    "h1": "Home Repairs &amp; Pre-Sale Maintenance Adelaide",
+    "mainHash": "d9e3bf7da709fe16a971ab5f2667aeabfaaf224ef4d39157d26699690487d31e"
+  },
+  {
+    "route": "/services/",
+    "h1": "Handyman Services &amp; Property Maintenance Adelaide",
+    "mainHash": "c631a7d8b2abee28ef71a1fb72ece897f57a626d932c33d90cc30ada577a6eb5"
+  },
+  {
+    "route": "/services/interior-repairs-assembly/",
+    "h1": "Furniture Assembly &amp; Interior Repairs Adelaide",
+    "mainHash": "e6cb79f6267edeaca2c170f3b656f0944bd6fed48ea8f8008c77012b09bff51f"
+  },
+  {
+    "route": "/services/maintenance-planning-inspection-support/",
+    "h1": "Home &amp; Property Maintenance Adelaide",
+    "mainHash": "6b8884d4536cff44acdfe116d6387046f5a0d75b45e72b9048788dc4bf3d89f7"
+  },
+  {
+    "route": "/services/outdoor-structures-fences-pools/",
+    "h1": "Deck, Pergola &amp; Outdoor Repairs Adelaide",
+    "mainHash": "1566b6f011548789b960a3b6f777986d39b33acd5eed3b4a5ada520ddd2fa6bd"
+  },
+  {
+    "route": "/services/pressure-cleaning/",
+    "h1": "Pressure Cleaning Adelaide",
+    "mainHash": "bb44e448061d0a6037888478579a650854d4e08002044774977454855b98eef3"
+  },
+  {
+    "route": "/services/roof-gutter-exterior-care/",
+    "h1": "Roof, Gutter &amp; Exterior Maintenance Adelaide",
+    "mainHash": "8d8e8f9c40c84ef57d35778e3d01e787ad6ffad8307e7ac580c40fc4e2a02af8"
+  },
+  {
+    "route": "/services/sliding-door-repair/",
+    "h1": "Sliding Door Repairs Adelaide",
+    "mainHash": "3bf3c0d8d56c86bc65d653932edfbc99ac0023c932959e28d1322edc4326b403"
+  },
+  {
+    "route": "/services/wall-patching-repair/",
+    "h1": "Plasterboard Repairs &amp; Wall Patching Adelaide",
+    "mainHash": "5e36334bec0c48f626612b019488d5ddcb138b0a19e3d7a3f7bf8262c1e8a19f"
+  }
+]
