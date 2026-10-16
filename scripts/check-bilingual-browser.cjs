@@ -3,7 +3,7 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const { chromium } = require(process.env.SEO_PLAYWRIGHT_MODULE || 'C:/Users/UFTR/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const root = path.resolve(__dirname, '..');
-const report = path.resolve(root, '../reports/2026-10-16-bilingual');
+const report = path.resolve(process.env.BROWSER_REPORT_DIR || path.resolve(root, '../reports/2026-10-16-bilingual'));
 const origin = process.env.PREVIEW_ORIGIN || 'http://127.0.0.1:5180';
 const rows = [], errors = [], interactions = [];
 const representatives = ['/', '/services/interior-repairs-assembly/', '/guides/field-notes-cleaning-removals-preparation/', '/how-it-works/', '/contact/', '/service-areas/'];

@@ -6,6 +6,7 @@ import { createHash } from 'node:crypto';
 import { parse } from 'parse5';
 import { walk, attribute, normalise } from '../src/i18n/html.mjs';
 import { createTranslator, languageUrl } from '../src/i18n/bilingual.mjs';
+import { localLabelText } from '../src/local-label-policy.mjs';
 import { validateSecurityPolicy, securityPolicy } from '../src/security-policy.mjs';
 const root = path.resolve(import.meta.dirname, '..');
 const output = path.join(root, 'public');
@@ -38,11 +39,11 @@ test('all 102 indexable pages have complete reciprocal English/Chinese language 
     }
   }
 });
-test('approved English H1 and entire main content are unchanged from the restored 27d59f0 baseline', () => {
+test('English H1 retains its core topic with only the user-approved non-home city reduction', () => {
   for (const expected of baseline) {
     const html = read(expected.route);
-    assert.equal(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1], expected.h1, expected.route);
-    assert.equal(dig(html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] || ''), expected.mainHash, expected.route);
+    assert.equal(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1], expected.route === '/' ? expected.h1 : localLabelText(expected.h1), expected.route);
+    if (['/privacy/', '/404.html'].includes(expected.route)) assert.equal(dig(html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] || ''), expected.mainHash, expected.route);
   }
 });
 test('Chinese pages preserve every section, FAQ, image, contact link and internal link destination', () => {

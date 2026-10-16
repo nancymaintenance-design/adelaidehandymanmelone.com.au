@@ -70,7 +70,7 @@ pnpm test
 
 Dynamic form/search messages are paired in `src/i18n/interface.json`. Keep both languages and placeholders synchronized. Review English and Chinese locally before requesting deployment approval. Language entry points are `/` and `/zh/`; Contact / 联系我们 is followed by the counterpart language link.
 
-The legacy English fixture tests isolate the original generation stage to preserve its existing 102-page content assertions. The bilingual integration tests exercise the actual final output, all 204 sitemap entries, language links, translation completeness and the immutable English main-content baseline.
+The legacy English fixture tests isolate the original generation stage to preserve its existing 102-page content assertions. The bilingual and local-label tests exercise the actual final output, all 204 sitemap entries, language links, translation completeness and the user-approved city-only heading reduction. The October 16 copy rule keeps the homepage city-led H1, uses each service card heading as its CTA text and accessible name, and reduces generic Adelaide modifiers elsewhere. Actual suburbs, geographic coverage, addresses and local time remain factual. The shared editorial stage in `src/local-label-policy.mjs` applies this rule before Chinese generation.
 
 ## Image Slots
 
