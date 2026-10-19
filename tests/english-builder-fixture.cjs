@@ -11,6 +11,9 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   const call = "renderBilingual({ siteDir, routes, origin, extract: process.argv.includes('--i18n-extract') });";
   if (!source.includes(declaration) || !source.includes(call)) throw new Error('English fixture boundary changed; review the bilingual build integration.');
   source = source.replace(declaration, '').replace(call, '');
+  // Historical generator fixtures precede the homepage office composition.
+  // Actual English/Chinese output is covered by test/home-office.test.mjs.
+  source = source.replace("import { composeHomeOffice } from './src/home-office.mjs';", '').replace('composeHomeOffice({ siteDir });', '');
   // The new machine-data stage consumes final bilingual pages. These legacy
   // fixtures intentionally have no Chinese output or installed parser packages;
   // test/machine-readable.test.mjs covers the real post-bilingual build instead.

@@ -20,7 +20,7 @@ function readPage(siteDir,route,origin){
  const h1=clean($('main h1').first().text()),summary=$('meta[name="description"]').attr('content'),language=$('html').attr('lang');
  const main=$('main').clone();
  // Publish the same editorial content, not navigation, enquiry inputs or scripts.
- main.find('script,style,nav,form,aside,.contact-band,.sticky-contact,.mobile-contact').remove();
+ main.find('script,style,nav,form,aside,iframe,.contact-band,.sticky-contact,.mobile-contact').remove();
  main.find('[hidden],[aria-hidden="true"],.breadcrumbs').remove();
  main.find('*').each((_,node)=>{
   for(const [name,value] of Object.entries(node.attribs??{})){

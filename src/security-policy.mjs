@@ -12,7 +12,7 @@ export const securityPolicy = [
   `style-src-attr 'unsafe-hashes' ${inlineStyles.map(cspHash).join(' ')}`,
   "img-src 'self' https://www.google-analytics.com https://region1.google-analytics.com",
   "font-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com",
-  "frame-src 'none'",
+  "frame-src https://www.google.com",
 ].join('; ');
 
 export function validateSecurityPolicy(html, policy) {
