@@ -3,3 +3,4 @@
 .seo-cache/
 node_modules/
 public/
+.local-editor/

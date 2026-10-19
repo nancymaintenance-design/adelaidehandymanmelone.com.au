@@ -1,5 +1,13 @@
 # Adelaide Handyman MEL ONE — bilingual maintenance
 
+## Local content editor (2026-10-19)
+
+- Desktop entry: `Adelaide Handyman MEL ONE 本地后台`; `pnpm editor:dev`, default loopback port 4220. User requested the existing Perth Handymate UI; preserve its workflow.
+- Application: `tools/editor/*.mts`, `editor/ui/`; Windows launcher: `tools/editor/launch-local.cjs`. Do not move the launcher to repository root.
+- `.local-editor/drafts/` contains real user drafts and history; preserve them. They are ignored by Git and not public output. Never blindly delete, overwrite or apply stale revisions after a source change.
+- `pnpm editor:changes` reads pending changes with English originals and Chinese before/after text. Save is local only. Synchronize reviewed English source and Chinese catalogues using the rules below, verify shared-copy impacts and JSON-LD/SEO; publishing still requires explicit user authorization.
+- Public assets/content/contacts and source-lock must not be altered by a draft save. No automatic translation or deployment. See `docs/local-editor-guide.md`.
+
 Follow `E:/Ellis-Services/AGENTS.md`. This is the only source checkout for this site.
 
 ## User requirements confirmed 2026-10-16

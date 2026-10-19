@@ -1,0 +1,246 @@
+{
+  "source": "Adelaide_Handyman_AI_Keyword_Map.md",
+  "policy": "Topic labels only. Include only terms actually present on the corresponding page. No keyword-only services or claims.",
+  "terms": [
+    [
+      "ADH-0503",
+      "itemised repair quote",
+      "分项维修报价"
+    ],
+    [
+      "ADH-0490",
+      "handyman quote",
+      "维修工报价"
+    ],
+    [
+      "ADH-0411",
+      "end of lease repairs",
+      "退租维修"
+    ],
+    [
+      "ADH-0412",
+      "rental property maintenance",
+      "出租房维护"
+    ],
+    [
+      "ADH-0356",
+      "gutter cleaning",
+      "天沟清理"
+    ],
+    [
+      "ADH-0367",
+      "pressure cleaning",
+      "高压清洁"
+    ],
+    [
+      "ADH-0378",
+      "garden tidy up",
+      "花园整理"
+    ],
+    [
+      "ADH-0303",
+      "exterior timber repairs",
+      "室外木材维修"
+    ],
+    [
+      "ADH-0312",
+      "silicone replacement",
+      "硅胶更换"
+    ],
+    [
+      "ADH-0314",
+      "regrouting",
+      "重新勾缝"
+    ],
+    [
+      "ADH-0317",
+      "cracked silicone joint",
+      "硅胶接缝开裂"
+    ],
+    [
+      "ADH-0257",
+      "fence repairs",
+      "围栏维修"
+    ],
+    [
+      "ADH-0258",
+      "timber fence repair",
+      "木围栏维修"
+    ],
+    [
+      "ADH-0268",
+      "gate repairs",
+      "庭院门维修"
+    ],
+    [
+      "ADH-0269",
+      "gate hinge repair",
+      "院门铰链维修"
+    ],
+    [
+      "ADH-0279",
+      "deck repairs",
+      "木平台维修"
+    ],
+    [
+      "ADH-0285",
+      "raised deck screws",
+      "平台螺钉翘起"
+    ],
+    [
+      "ADH-0292",
+      "pergola timber repair",
+      "凉棚木材维修"
+    ],
+    [
+      "ADH-0295",
+      "loose verandah trim",
+      "门廊装饰木条松动"
+    ],
+    [
+      "ADH-0158",
+      "flat pack assembly",
+      "平板家具组装"
+    ],
+    [
+      "ADH-0159",
+      "furniture assembly",
+      "家具组装"
+    ],
+    [
+      "ADH-0169",
+      "furniture repairs",
+      "家具维修"
+    ],
+    [
+      "ADH-0174",
+      "loose furniture joint",
+      "家具接头松动"
+    ],
+    [
+      "ADH-0180",
+      "picture hanging",
+      "挂画服务"
+    ],
+    [
+      "ADH-0114",
+      "plasterboard repairs",
+      "石膏板维修"
+    ],
+    [
+      "ADH-0138",
+      "patch and paint",
+      "修补加油漆"
+    ],
+    [
+      "ADH-0141",
+      "peeling door paint",
+      "门面油漆起皮"
+    ],
+    [
+      "ADH-0059",
+      "flyscreen repairs",
+      "纱窗维修"
+    ],
+    [
+      "ADH-0061",
+      "screen door repairs",
+      "纱门维修"
+    ],
+    [
+      "ADH-0064",
+      "torn flyscreen mesh",
+      "纱网破损"
+    ],
+    [
+      "ADH-0071",
+      "window hardware repairs",
+      "窗户五金维修"
+    ],
+    [
+      "ADH-0075",
+      "sticking timber window",
+      "木窗卡住"
+    ],
+    [
+      "ADH-0081",
+      "kitchen cabinet repairs",
+      "厨房橱柜维修"
+    ],
+    [
+      "ADH-0083",
+      "cabinet hinge replacement",
+      "柜门铰链更换"
+    ],
+    [
+      "ADH-0092",
+      "drawer repairs",
+      "抽屉维修"
+    ],
+    [
+      "ADH-0001",
+      "handyman",
+      "杂项维修工"
+    ],
+    [
+      "ADH-0002",
+      "handyman services",
+      "综合小维修服务"
+    ],
+    [
+      "ADH-0003",
+      "handyman near me",
+      "附近的维修工"
+    ],
+    [
+      "ADH-0004",
+      "local handyman",
+      "本地维修工"
+    ],
+    [
+      "ADH-0009",
+      "small home repairs",
+      "家庭小修缮"
+    ],
+    [
+      "ADH-0015",
+      "home maintenance",
+      "家庭维护"
+    ],
+    [
+      "ADH-0016",
+      "property maintenance",
+      "房产维护"
+    ],
+    [
+      "ADH-0020",
+      "property repair checklist",
+      "房产维修清单"
+    ],
+    [
+      "ADH-0021",
+      "preventative home maintenance",
+      "预防性房屋维护"
+    ],
+    [
+      "ADH-0027",
+      "small jobs handyman",
+      "小工程维修工"
+    ],
+    [
+      "ADH-0037",
+      "door repairs",
+      "门维修"
+    ],
+    [
+      "ADH-0048",
+      "sliding door repairs",
+      "推拉门维修"
+    ],
+    [
+      "ADH-0049",
+      "sliding door roller replacement",
+      "推拉门滚轮更换"
+    ]
+  ]
+}

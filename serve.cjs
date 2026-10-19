@@ -58,7 +58,10 @@ const server = http.createServer((req, res) => {
       return;
     }
     const ext = path.extname(filePath);
-    const mime = mimeTypes[ext] || 'application/octet-stream';
+    const mime = /^\/(?:zh\/)?feed\.json$/.test(url) ? 'application/feed+json; charset=utf-8'
+      : /^\/(?:zh\/)?feed\.xml$/.test(url) ? 'application/rss+xml; charset=utf-8'
+      : /^\/(?:zh\/)?schema-feed\.json$/.test(url) ? 'application/ld+json; charset=utf-8'
+      : mimeTypes[ext] || 'application/octet-stream';
     res.writeHead(200, { 'Content-Type': mime, 'Cache-Control': 'no-cache' });
     res.end(ext === '.html' ? previewHtml(fs.readFileSync(filePath, 'utf8')) : fs.readFileSync(filePath));
   } catch (e) {

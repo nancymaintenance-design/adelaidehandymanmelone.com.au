@@ -4,9 +4,19 @@
   "description": "MEL ONE — Adelaide household-maintenance website candidate",
   "private": true,
   "dependencies": {
+    "cheerio": "1.0.0",
     "parse5": "8.0.1"
   },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "domhandler": "5.0.3",
+    "typescript": "5.9.3"
+  },
   "scripts": {
+    "editor:dev": "node tools/editor/launch-local.cjs --no-open",
+    "editor:typecheck": "tsc --project tsconfig.editor.json",
+    "editor:test": "node --test --test-concurrency=1 tests/local-editor*.test.mjs",
+    "editor:changes": "node tools/editor/export-changes.mts",
     "build": "node build.mjs",
     "build:docs": "node build.mjs --docs",
     "i18n:extract": "node build.mjs --i18n-extract",

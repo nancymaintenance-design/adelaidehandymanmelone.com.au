@@ -1,0 +1,7 @@
+/* Perth Handymate local editor tokens: retained to keep the same familiar UI.
+   Only the editor loads this sheet; public website styles are unchanged. */
+:root{--field-navy:#102b3a;--field-blue:#075873;--field-light:#edf5f7;--field-yellow:#f3b63f;--field-text:#172f3d;--field-radius:14px;--field-display:Arial,Helvetica,sans-serif;--field-scroll-thumb:#69808c}
+html{scrollbar-color:var(--field-scroll-thumb) var(--field-light);scrollbar-width:auto}
+h1,h2,h3{font-family:var(--field-display);line-height:1.12}
+[hidden]{display:none!important}
+@media(forced-colors:active){html{scrollbar-color:auto}}

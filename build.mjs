@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import { renderBilingual } from './src/i18n/bilingual.mjs';
 import { applyLocalLabels } from './src/local-label-policy.mjs';
+import { enhanceMachineData } from './src/machine-readable.mjs';
 import { composeDesktopLayout } from './src/desktop-layout.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -586,3 +587,7 @@ console.log(`MEL ONE website: ${routes.length + 1} pages generated in ${siteDir}
 fs.appendFileSync(path.join(siteDir, 'llms.txt'), `\n## Machine-readable data\n\n- [Photographed case study data](${canonical('/case-studies/feed.json')}): Custom JSON catalogue of the same cases shown in HTML, with service, suburb and original image references.\n- [Service area data](${canonical('/service-areas/feed.json')}): Region hubs and suburb page URLs matching the live hierarchy.\n`);
 applyLocalLabels({ siteDir, routes });
 renderBilingual({ siteDir, routes, origin, extract: process.argv.includes('--i18n-extract') });
+if (!process.argv.includes('--i18n-extract')) {
+  const machinePages = enhanceMachineData({ siteDir, routes, origin });
+  console.log(`Machine-readable data: ${machinePages.length} bilingual pages; visible HTML unchanged; paired JSON Feed, RSS and Schema.org DataFeed.`);
+}
