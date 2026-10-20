@@ -6,6 +6,8 @@ const { execFileSync } = require('node:child_process');
 const buildFixture = require('./build-fixture.cjs');
 const preview = buildFixture(test, { SITE_ORIGIN: 'https://example.test' });
 const schemaOf = html => JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
+// Independently enumerated editorial follow-up; unchanged cases keep October 13.
+const october20Cases = new Set(['norwood-flyscreen-repair','north-adelaide-door-repair','kensington-furniture-assembly','unley-kitchen-cabinet-repair','goodwood-wall-repair','mile-end-fence-repair','prospect-gutter-cleaning','adelaide-cbd-wall-repair','modbury-timber-fence-repair-assessment','henley-beach-sliding-screen-door-repair','north-adelaide-timber-gate-repair','burnside-driveway-pressure-cleaning','stirling-flat-pack-wardrobe-assembly','marion-wardrobe-sliding-door-repair','kitchen-drawer-runner-repair','sliding-patio-door-roller-track-repair']);
 
 function expectedGeneratedAssets(fixture) {
   const source = path.join(path.dirname(fixture.output), 'src/assets');
@@ -104,7 +106,7 @@ test('generated business and Article schema use only configured regions and visi
       } else {
         assert.equal(file, `guides/${sampleGuide.slug}/index.html`, `${file} omits Article image when no image is visible`);
       }
-      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-14' : '2026-10-13');
+      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-14' : october20Cases.has(file.split('/')[1]) ? '2026-10-20' : '2026-10-13');
     }
   }
 });
@@ -222,7 +224,7 @@ test('article markup describes visible original editorial pages with publisher i
     const articles = schemaOf(html).filter(item => item['@type'] === 'Article');
     assert.equal(articles.length, 1, `${study.slug} exactly one Article`);
     assert.deepEqual(articles[0].image, study.images.map(image => `https://example.test${image.src}`), `${study.slug} all documented photos in order`);
-    assert.equal(articles[0].dateModified, '2026-10-13');
+    assert.equal(articles[0].dateModified, october20Cases.has(study.slug) ? '2026-10-20' : '2026-10-13');
   }
   assert.ok(!schemaOf(preview.read('index.html')).some(item => item['@type'] === 'Article'));
 });

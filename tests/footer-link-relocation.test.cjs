@@ -35,7 +35,7 @@ test('footer acceptance permits only the exact four unchanged links to move afte
   }
 });
 
-test('all 102 generated pages preserve their former link sequence after reversing the footer relocation', async t => {
+test('historical 102-page footer fixture preserves its former link sequence after reversing the relocation', async t => {
   const manifest = require('./fixtures/local-audit-approved-deltas.json');
   assert.equal(manifest.historicalDigest, 'b643554cfbe1cd07c1e2d7cae2f46843cb1b5d03e27ce30b8436dfccb5cff69e', 'Historical baseline is unchanged');
   assert.equal(manifest.footerLinkRelocation?.previousSemanticsDigest, previousSemanticsDigest, 'The exact footer relocation must be documented in the manifest');
@@ -49,6 +49,14 @@ test('all 102 generated pages preserve their former link sequence after reversin
   assert.equal(path.dirname(fixture), reportRoot);
   t.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
   require('./english-builder-fixture.cjs')(root, fixture);
+  // Freeze this historical October 15 link-sequence experiment before the
+  // separately approved October 20 contextual content links. Current candidate
+  // footer invariance is checked across 206 pages by check-benchmark-preservation,
+  // plus bilingual and compact-footer tests. Do not refresh the old digests.
+  const builderFile = path.join(fixture, 'build.mjs');
+  const builder = fs.readFileSync(builderFile, 'utf8');
+  assert.ok(builder.includes('applyRepairEvidenceRefinement(content, focusedServices);'));
+  fs.writeFileSync(builderFile, builder.replace('applyRepairEvidenceRefinement(content, focusedServices);', ''));
   fs.cpSync(path.join(root, 'src'), path.join(fixture, 'src'), { recursive: true });
   execFileSync(process.execPath, ['build.mjs'], { cwd: fixture, env: { ...process.env, SITE_ORIGIN: '' }, stdio: 'pipe', windowsHide: true });
 
