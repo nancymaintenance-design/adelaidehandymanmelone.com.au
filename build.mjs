@@ -7,6 +7,7 @@ import { enhanceMachineData } from './src/machine-readable.mjs';
 import { generateLlmsIndex } from './src/llms-index.mjs';
 import { composeHomeOffice } from './src/home-office.mjs';
 import { applyServiceNavigation } from './src/service-navigation.mjs';
+import { applyPublicReferencePolicy } from './src/public-reference-policy.mjs';
 import { composeDesktopLayout } from './src/desktop-layout.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -593,6 +594,7 @@ fs.appendFileSync(path.join(siteDir, 'llms.txt'), `\n## Machine-readable data\n\
 applyLocalLabels({ siteDir, routes });
 composeHomeOffice({ siteDir });
 applyServiceNavigation({siteDir, routes, origin, services: published.services, focusedServices, caseStudies, guides: published.guides, news: published.news, serviceAreas: serviceAreas.map(area => ({...area,suburbs:areaSuburbs(area)}))});
+applyPublicReferencePolicy({siteDir, routes});
 renderBilingual({ siteDir, routes, origin, extract: process.argv.includes('--i18n-extract') });
 if (!process.argv.includes('--i18n-extract')) {
   const machinePages = enhanceMachineData({ siteDir, routes, origin });

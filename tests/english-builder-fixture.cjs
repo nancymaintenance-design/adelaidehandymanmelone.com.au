@@ -26,6 +26,9 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Keep historical English link-order fixtures at their original stage. The
   // real 204-page service hierarchy is checked by service-navigation.test.mjs.
   source = source.replace("import { applyServiceNavigation } from './src/service-navigation.mjs';", '').replace(/^applyServiceNavigation\([^\r\n]+\);\r?\n/m, '');
+  // Public citation removal is a final bilingual presentation policy. Keep the
+  // historical source/evidence fixtures unchanged; actual output has its own test.
+  source = source.replace("import { applyPublicReferencePolicy } from './src/public-reference-policy.mjs';", '').replace('applyPublicReferencePolicy({siteDir, routes});', '');
   // Historical English fixtures retain the pre-October-16 city-label contract.
   // The actual 204-page output is checked by test/local-labels.test.mjs.
   source = source.replace("import { applyLocalLabels } from './src/local-label-policy.mjs';", '').replace('applyLocalLabels({ siteDir, routes });', '');
