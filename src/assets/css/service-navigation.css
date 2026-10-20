@@ -1,0 +1,16 @@
+/* Extend the existing marketing layout; no change to its width, map or footer. */
+.breadcrumbs ol { display:flex; flex-wrap:wrap; align-items:center; gap:0 .65rem; list-style:none; margin:0; padding:0; min-width:0; }
+.breadcrumbs li { display:flex; align-items:baseline; gap:.65rem; max-width:100%; min-width:0; }
+.breadcrumbs a, .breadcrumbs [aria-current] { overflow-wrap:anywhere; }
+.breadcrumbs a { display:inline-flex; align-items:center; min-height:44px; }
+.breadcrumbs .breadcrumb-separator { flex:none; }
+.service-shortcuts { margin-top:1.5rem; }
+.service-shortcuts h3 { font-family:var(--body); font-size:1rem; margin:0 0 .5rem; }
+.service-shortcuts ul { display:flex; flex-wrap:wrap; gap:.3rem 1.5rem; list-style:none; padding:0; margin:0; }
+.service-shortcuts a { display:inline-flex; align-items:center; min-height:44px; }
+.service-paths { padding-block:1.5rem; }
+.service-paths ul { columns:2; padding-left:1.25rem; }
+.service-paths li { break-inside:avoid; padding-block:.3rem; }
+.repair-next-step { padding-block:1rem; }
+.repair-next-step a { display:inline-block; padding-block:.4rem; }
+@media(max-width:600px) { .service-paths ul { columns:1; } .breadcrumbs li:last-child { flex:0 1 auto; } }

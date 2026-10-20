@@ -14,7 +14,7 @@ function expectedGeneratedAssets(fixture) {
   const files = directory => fs.readdirSync(directory, { recursive: true })
     .filter(file => fs.statSync(path.join(directory, file)).isFile())
     .map(file => file.split(path.sep).join('/'));
-  return ['css/site.css', 'css/footer.css', 'css/home-office.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
+  return ['css/site.css', 'css/footer.css', 'css/home-office.css', 'css/service-navigation.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
     ...files(path.join(source, 'images/intake')).filter(file => file.endsWith('.png')).map(file => `images/${file}`),
     ...files(path.join(source, 'images/cases')).map(file => `images/cases/${file}`),
     ...Object.values(JSON.parse(fs.readFileSync(path.join(source, 'images/responsive-manifest.json'), 'utf8'))).flatMap(image => [...image.variants, ...image.avifVariants, ...(image.detailVariants || [])].map(variant => variant.src.replace('/assets/', ''))),

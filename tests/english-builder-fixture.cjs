@@ -23,6 +23,9 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Curated indexes consume final bilingual HTML; test/llms-*.test.mjs exercises
   // that real production stage, including invalid language/canonical inputs.
   source = source.replace("import { generateLlmsIndex } from './src/llms-index.mjs';", '');
+  // Keep historical English link-order fixtures at their original stage. The
+  // real 204-page service hierarchy is checked by service-navigation.test.mjs.
+  source = source.replace("import { applyServiceNavigation } from './src/service-navigation.mjs';", '').replace(/^applyServiceNavigation\([^\r\n]+\);\r?\n/m, '');
   // Historical English fixtures retain the pre-October-16 city-label contract.
   // The actual 204-page output is checked by test/local-labels.test.mjs.
   source = source.replace("import { applyLocalLabels } from './src/local-label-policy.mjs';", '').replace('applyLocalLabels({ siteDir, routes });', '');

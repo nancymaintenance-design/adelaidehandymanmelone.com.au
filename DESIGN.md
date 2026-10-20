@@ -79,6 +79,8 @@ Before/after records are ordinary links, not draggable sliders. Gold ring-and-ru
 
 Motion is limited to existing short hover feedback; prefers-reduced-motion disables transitions. Media never moves on hover. No new overlay or modal.
 
+Service navigation (2026-10-20): one reviewed relationship map owns the visible ordered breadcrumb and its structured data. Core service pages return directly to Home; task-specific cases and guides return to their actual service. Mixed-service guides and area pages keep their natural collection hierarchy. Breadcrumb ancestors are ordinary canonical links, current-page text wraps, and link targets are at least 44px tall. A compact list inside the existing homepage service section exposes the nine focused repair pages without replacing the map or adding another large band. Parent pages list any missing related records/guides; enquiry links reuse the confirmed contact route. Styling belongs to `service-navigation.css`, extending existing tokens rather than changing the historical layout stylesheet.
+
 ## Do's and Don'ts
 
 - Show genuine photo evidence and accurate stage labels.

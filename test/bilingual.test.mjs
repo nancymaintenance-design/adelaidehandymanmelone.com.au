@@ -43,7 +43,12 @@ test('English H1 retains its core topic with only the user-approved non-home cit
   for (const expected of baseline) {
     const html = read(expected.route);
     assert.equal(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1], expected.route === '/' ? expected.h1 : localLabelText(expected.h1), expected.route);
-    if (['/privacy/', '/404.html'].includes(expected.route)) assert.equal(dig(html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] || ''), expected.mainHash, expected.route);
+    // The privacy prose remains byte-identical. Its newly requested navigation
+    // is tested against visible/schema/parent contracts in service-navigation.
+    if (['/privacy/', '/404.html'].includes(expected.route)) {
+      const unchanged = html.replace(/<div class="wrap"><nav class="breadcrumbs"[^]*?<\/nav><\/div>/, '');
+      assert.equal(dig(unchanged.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] || ''), expected.mainHash, expected.route);
+    }
   }
 });
 test('Chinese pages preserve every section, FAQ, image, contact link and internal link destination', () => {

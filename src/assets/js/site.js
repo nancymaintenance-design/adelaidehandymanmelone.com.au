@@ -44,6 +44,23 @@
   const track = (eventName, parameters = {}) => {
     if (typeof window.gtag === 'function') window.gtag('event', eventName, parameters);
   };
+  // Navigation is not a lead. Only public paths and the authored service ID
+  // are sent; query strings, fragments and enquiry values are never included.
+  document.querySelectorAll('.breadcrumbs a').forEach(link => {
+    if (link.dataset.breadcrumbTracked) return;
+    link.dataset.breadcrumbTracked = 'true';
+    link.addEventListener('click', () => {
+      const target = new URL(link.href, window.location.href);
+      const owner = link.dataset.breadcrumbOwner || '';
+      track('breadcrumb_click', {
+        source_path: window.location.pathname,
+        target_path: target.pathname,
+        locale: chinese ? 'zh-Hans' : 'en-AU',
+        position: Number(link.dataset.breadcrumbPosition),
+        owner_id: owner ? (chinese ? '/zh' : '') + owner : '',
+      });
+    });
+  });
   document.querySelectorAll('a[href^="tel:"]').forEach(link => {
     link.addEventListener('click', () => track('click_to_call', { link_url: link.href }));
   });

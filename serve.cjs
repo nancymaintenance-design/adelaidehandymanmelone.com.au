@@ -71,6 +71,9 @@ const server = http.createServer((req, res) => {
 });
 
 function previewHtml(html) {
-  return html.replace(/<script\b[^>]*\bsrc=["']https:\/\/www\.googletagmanager\.com\/[^"']*["'][^>]*>\s*<\/script>/gi, '');
+  return html.replace(/<script\b[^>]*\bsrc=["']https:\/\/www\.googletagmanager\.com\/[^"']*["'][^>]*>\s*<\/script>/gi, '')
+    // Canonical URLs and JSON-LD remain production-absolute. Only navigable
+    // anchors are made local so reviewing a breadcrumb cannot leave preview.
+    .replace(/(<a\b[^>]*\bhref=["'])https:\/\/www\.adelaidehandymanmelone\.com\.au(\/[^"']*)/gi, '$1$2');
 }
 server.listen(PORT, '127.0.0.1', () => console.log(`MEL ONE local review preview (not deployed): http://127.0.0.1:${server.address().port}`));
