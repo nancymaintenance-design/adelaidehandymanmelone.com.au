@@ -1,0 +1,20 @@
+[
+  {"group":"company","route":"/"},
+  {"group":"company","route":"/services/"},
+  {"group":"company","route":"/service-areas/"},
+  {"group":"company","route":"/about/"},
+  {"group":"company","route":"/contact/"},
+  {"group":"services","route":"/services/home-electrical-repairs/"},
+  {"group":"services","route":"/services/interior-repairs-assembly/"},
+  {"group":"services","route":"/services/doors-windows-screens/"},
+  {"group":"services","route":"/services/roof-gutter-exterior-care/"},
+  {"group":"services","route":"/services/garden-landscape-care/"},
+  {"group":"services","route":"/services/outdoor-structures-fences-pools/"},
+  {"group":"services","route":"/services/home-repairs-renovation-support/"},
+  {"group":"services","route":"/services/maintenance-planning-inspection-support/"},
+  {"group":"services","route":"/services/cleaning-removals-specialist-care/"},
+  {"group":"evidence","route":"/case-studies/burnside-driveway-pressure-cleaning/"},
+  {"group":"evidence","route":"/case-studies/marion-wardrobe-sliding-door-repair/"},
+  {"group":"evidence","route":"/guides/field-notes-doors-windows-screens-enquiry/"},
+  {"group":"evidence","route":"/guides/field-notes-grouping-multiple-household-jobs/"}
+]

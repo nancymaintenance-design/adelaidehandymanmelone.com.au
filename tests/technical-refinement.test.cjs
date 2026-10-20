@@ -66,7 +66,11 @@ test('verified dates and llms locality are truthful', async () => {
     assert.match(html,/"datePublished":"2026-10-12"/);
   }
   assert.ok(xml.includes('/contact/</loc><lastmod>2026-10-13</lastmod></url>'));
-  assert.match(fs.readFileSync('public/llms.txt','utf8'), /suburb only when supplied/);
+  // Curated discovery references real case pages, not the old full-route preface.
+  const llms=fs.readFileSync('public/llms.txt','utf8');
+  assert.match(llms, /case-studies\/burnside-driveway-pressure-cleaning\//);
+  assert.match(llms, /zh\/case-studies\/burnside-driveway-pressure-cleaning\//);
+  assert.doesNotMatch(llms, /service-areas\/eastern-suburbs\/burnside\//);
 });
 test('Vercel exact-route candidate covers sitemap variants without broad file/API redirects', () => {
   const config = JSON.parse(fs.readFileSync('vercel.json','utf8'));

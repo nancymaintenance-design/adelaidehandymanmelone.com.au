@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import { renderBilingual } from './src/i18n/bilingual.mjs';
 import { applyLocalLabels } from './src/local-label-policy.mjs';
 import { enhanceMachineData } from './src/machine-readable.mjs';
+import { generateLlmsIndex } from './src/llms-index.mjs';
 import { composeHomeOffice } from './src/home-office.mjs';
 import { composeDesktopLayout } from './src/desktop-layout.mjs';
 import path from 'node:path';
@@ -592,4 +593,6 @@ renderBilingual({ siteDir, routes, origin, extract: process.argv.includes('--i18
 if (!process.argv.includes('--i18n-extract')) {
   const machinePages = enhanceMachineData({ siteDir, routes, origin });
   console.log(`Machine-readable data: ${machinePages.length} bilingual pages; visible HTML unchanged; paired JSON Feed, RSS and Schema.org DataFeed.`);
+  const llmsItems = generateLlmsIndex({ siteDir, origin });
+  console.log(`Curated llms.txt: ${llmsItems.length / 2} reviewed English/Chinese page pairs.`);
 }
