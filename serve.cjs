@@ -4,6 +4,7 @@ const path = require('path');
 
 const PORT = Number(process.env.PORT || 5173);
 const ROOT = path.join(__dirname, 'public');
+let chineseNotFound;
 const globalHeaders = JSON.parse(fs.readFileSync(path.join(__dirname, 'vercel.json'), 'utf8')).headers
   .filter(rule => rule.source === '/(.*)').flatMap(rule => rule.headers);
 
@@ -52,7 +53,12 @@ const server = http.createServer((req, res) => {
 
   try {
     if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
-      const notFound = path.join(ROOT, url.startsWith('/zh/') ? 'zh/404.html' : '404.html');
+      if (url.startsWith('/zh/')) {
+        chineseNotFound ||= require('./api/not-found.js').createNotFound({ root: __dirname, transform: previewHtml });
+        chineseNotFound(req, res);
+        return;
+      }
+      const notFound = path.join(ROOT, '404.html');
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(previewHtml(fs.readFileSync(notFound, 'utf8')));
       return;

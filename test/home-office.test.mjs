@@ -10,7 +10,8 @@ for (const prefix of ['', 'zh/']) test(`${prefix || 'en/'} homepage offers the c
   assert.equal(card.find('a[href="https://maps.app.goo.gl/rtHK3cyEqyp7kiea8"]').length, 1);
   const embed = new URL(card.find('iframe').attr('src'));
   assert.equal(embed.origin, 'https://www.google.com');
-  assert.equal(embed.searchParams.get('q'), '63 Pirie St, Adelaide SA 5000');
+  assert.equal(embed.pathname, '/maps/embed', 'load the actual embed endpoint without the search-page redirect');
+  assert.equal(embed.searchParams.get('pb'), '!1m3!2m1!1s63 Pirie St, Adelaide SA 5000!6i16');
   assert.equal(card.find(`a[href="/${prefix}contact/"]`).length, 1);
   assert.equal(card.find(`a[href="/${prefix}service-areas/"]`).length, 1);
   assert.equal(card.find(`a[href="/${prefix}faq/"]`).length, 1);
