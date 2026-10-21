@@ -12,6 +12,7 @@ const require=createRequire(import.meta.url);
 test('unmatched Chinese paths reach a real 404 handler, not a 200 static rewrite',()=>{
   const config=JSON.parse(fs.readFileSync('vercel.json','utf8'));
   assert.equal(config.rewrites?.find(r=>r.source==='/zh/:path*')?.destination,'/api/not-found');
+  assert.equal(config.rewrites?.find(r=>r.source==='/zh/:path*/')?.destination,'/api/not-found','Vercel requires an explicit trailing-slash fallback as well');
   assert.equal(config.functions?.['api/not-found.js']?.includeFiles,'public/zh/404.html');
 });
 
