@@ -12,14 +12,14 @@
     ],
     "about": {
       "title": "About MEL ONE: Adelaide Handyman & Property Maintenance",
-      "description": "Meet MEL ONE’s independent Adelaide handyman team. Check the company ABN, real business premises, assessment process and written-quote arrangements.",
+      "description": "Meet our handyman team, see how we assess repairs and prepare written quotes, and find our company and appointment-only office details.",
       "sections": [
         {
           "id": "purpose",
           "heading": "Adelaide Handyman Repairs and Household Maintenance",
           "paragraphs": [
             "MEL ONE provides handyman repairs and household maintenance in Adelaide. Our team arranges an on-site assessment, identifies the work required and confirms the repair plan and written quote. The starting point is everyday life at home: a cupboard that no longer closes neatly, furniture waiting to be assembled, a worn screen or a garden that needs attention.",
-            "Single repairs and longer lists both start with your description and Adelaide suburb. Tell MEL ONE what needs attention and the outcome you would like; our team checks the work on site."
+            "Tell us what needs attention, your suburb and the result you want. We assess single repairs and longer job lists on site before agreeing the work."
           ]
         },
         {
@@ -35,7 +35,7 @@
           "heading": "Combine Cupboard, Wall and Furniture Jobs",
           "paragraphs": [
             "Several small jobs can be easier to describe together. Group your list by room or outdoor area, add a short note beside each item and point out anything that affects daily use. A loose handle, a wall patch and a flat-pack shelf can all go in the same enquiry.",
-            "MEL ONE checks each listed task on site and confirms which work can be combined, the materials, access, timing and quote. Identify the owner or manager who can approve the work."
+            "We assess each item on your list and explain which tasks can be combined, along with the materials, access, timing and quote. Let us know who can approve the work."
           ]
         },
         {
@@ -43,7 +43,7 @@
           "heading": "Qualified Service Arrangements for Specialist Work",
           "paragraphs": [
             "Contact MEL ONE with your Adelaide suburb and job details. Our team arranges an on-site assessment, checks the reported concern or new-work requirements and confirms the scope, quote and appointment. Safe existing photos are optional; email them to admin@melonemaintenance.com.au.",
-            "Where licensed work or formal project approvals are part of the job, MEL ONE confirms the qualified service arrangements, work scope and required documents before work begins."
+            "For jobs involving licensed work or formal approvals, we confirm the qualified service arrangements, scope and required documents before work begins."
           ]
         },
         {
@@ -71,7 +71,7 @@
                 "ADH-0495"
               ],
               "question": "Is there a minimum charge for one small repair?",
-              "answer": "A single small repair may still involve an assessment or minimum call-out charge. MEL ONE does not publish a universal minimum here. Before agreeing a visit, ask for the total applicable charge, what time or work it includes and whether parts or a return visit would be extra.",
+              "answer": "Contact us before booking about any assessment or minimum call-out charge for your small repair. Discuss what the charge covers and whether parts or a return visit are extra. We do not list a universal minimum fee on this site.",
               "link": {
                 "url": "/service-standards/#quote-details",
                 "label": "Charges to confirm before booking"
@@ -83,7 +83,7 @@
                 "ADH-0512"
               ],
               "question": "Why can a small repair have a minimum call-out charge?",
-              "answer": "Travel, setup and time at the property can be needed even for one loose fitting. A minimum charge may cover those visit costs rather than just the minutes spent adjusting the part. Ask which charges apply to your request and compare the total for the same work; adding jobs does not establish a discount."
+              "answer": "A visit can involve travel, setup and time at your property even for a small repair. Contact us about the charges for your job and the work they cover. If you have several tasks, send one list so we can assess the scope together; a combined list does not carry an automatic discount."
             },
             {
               "id": "ADH-0511",
@@ -91,7 +91,7 @@
                 "ADH-0511"
               ],
               "question": "What is the difference between an estimate and a fixed repair quote?",
-              "answer": "An estimate is an approximate cost; a fixed quote states a price for a defined scope. Check the tasks, exclusions, parts and validity before accepting either. MEL ONE checks the work on site and confirms a written quote; any changed work needs discussion and agreement before proceeding.",
+              "answer": "We assess the work on site and confirm a written quote for the agreed scope. An estimate is an approximate cost; a fixed quote prices a defined scope. Review the tasks, exclusions, parts and validity with us before approval. Changes to the work need discussion and agreement before proceeding.",
               "link": {
                 "url": "https://business.gov.au/people/contractors/prepare-quotes",
                 "label": "Written quote guidance from business.gov.au"
@@ -115,7 +115,7 @@
                 "ADH-0497"
               ],
               "question": "Does the quote include labour, materials, travel and GST?",
-              "answer": "Check each inclusion in the particular quote: labour, parts, materials, travel, waste handling and GST treatment. Also clarify assessment charges and any minimum call-out. A price for adjustment only differs from one including new hardware or final painting, so compare the same task list and finishing stages.",
+              "answer": "Your quote covers the work and inclusions agreed for your repair. Review labour, parts, materials, travel, waste handling and GST treatment with us, along with any assessment or minimum call-out charge. Adjustment, new hardware and final painting are separate items unless included in the agreed scope.",
               "link": {
                 "url": "/service-standards/#quote-details",
                 "label": "Written scope and quote details"
@@ -194,7 +194,7 @@
                 "ADH-0118"
               ],
               "question": "Does wall patching include sanding and painting?",
-              "answer": "Only the finishing stages named in the quote are included. A patch may involve backing, filling, drying and sanding before primer or painting. Confirm whether the agreed finish is patch-only, a touch-up or a wider painted area, because materials and drying stages affect the visit plan.",
+              "answer": "We include the finishing stages agreed in your quote. A wall patch can involve backing, filling, drying and sanding, with primer or painting listed separately where agreed. Tell us whether you want a patch-only finish, a local paint touch-up or a wider painted area so we can plan the materials and visits.",
               "link": {
                 "url": "/services/wall-patching-repair/",
                 "label": "Wall patching and paint scope"
@@ -276,7 +276,7 @@
                 "ADH-0501"
               ],
               "question": "Can I arrange an evening or weekend visit?",
-              "answer": "MEL ONE's confirmed business hours are Monday–Sunday, 09:00–21:00, Adelaide local time. Tell us your preferred evening or weekend timing and the repair list. An appointment depends on the work, access and availability; listed business hours do not reserve a visit or promise a particular slot.",
+              "answer": "Our business hours are Monday–Sunday, 09:00–21:00, Adelaide local time. Tell us your preferred evening or weekend window and repair list. We confirm the appointment directly according to the work, access and availability; business hours do not reserve a visit.",
               "link": {
                 "url": "/contact/",
                 "label": "Request an assessment and quote"
@@ -331,7 +331,7 @@
                 "ADH-0003"
               ],
               "question": "How do I choose a handyman near me?",
-              "answer": "Start with the task, confirmed coverage and relevant repair evidence. Norwood flyscreen work, Burnside driveway cleaning and Marion wardrobe rollers are different recorded jobs; a nearby address alone does not prove the same repair suits your property. Use the listed suburb pages, then confirm the exact location, access and travel arrangements.",
+              "answer": "Tell us the repair you need and your exact suburb. Our service-area pages and photographed jobs help you find relevant examples. We confirm access, local availability and travel arrangements for your property, then assess the work before quoting.",
               "link": {
                 "url": "/service-areas/",
                 "label": "Local service areas and repair examples"
@@ -1081,7 +1081,7 @@
           "heading": "Start with the jobs you keep noticing",
           "paragraphs": [
             "A cupboard door that will not sit straight, an unassembled bookshelf and a small wall mark can live on separate mental lists. Write them down together, with the room or location beside each item. This gives a clearer starting point for a household-maintenance enquiry.",
-            "For MEL ONE, a useful first message explains what you can see and what outcome you want. You do not need to diagnose a fault or select a repair method before making contact."
+            "Tell us what you can see and the result you want. You do not need to diagnose the fault or choose a repair method before contacting us."
           ]
         },
         {
@@ -1130,7 +1130,7 @@
         {
           "heading": "Clarify who is involved",
           "paragraphs": [
-            "If a tenant, owner or property manager is involved, identify the person who can approve the work and the person who will arrange access. Arrange access codes and keys directly once the visit and scope are confirmed. Arrange the necessary access details directly after the visit and scope have been confirmed.",
+            "Tell us who can approve the work and who will provide access: the tenant, owner or property manager. Arrange keys and entry codes directly with us after the visit and scope are confirmed; leave them out of the initial enquiry form.",
             "List timing preferences or practical limitations, such as furniture in the work area or a shared entrance. We confirm the assessment appointment and access with you rather than assuming that a particular time is available."
           ]
         },
@@ -1149,13 +1149,13 @@
       "status": "approved",
       "slug": "contact-mel-one",
       "title": "How can I contact MEL ONE?",
-      "description": "Call 0416 614 281, email admin@melonemaintenance.com.au, or use the contact address 63 Pirie St Adelaide SA 5000.",
+      "description": "Call 0416 614 281 or email admin@melonemaintenance.com.au to discuss your repair. Our office is at 63 Pirie St Adelaide SA 5000; please contact us to arrange an appointment before visiting.",
       "scope": [
-        "Call 0416 614 281, email admin@melonemaintenance.com.au, or use the contact address 63 Pirie St Adelaide SA 5000."
+        "Call 0416 614 281 or email admin@melonemaintenance.com.au to discuss your repair. Our office is at 63 Pirie St Adelaide SA 5000; please contact us to arrange an appointment before visiting."
       ],
       "exclusions": [],
       "question": "How can I contact MEL ONE?",
-      "answer": "Call 0416 614 281, email admin@melonemaintenance.com.au, or use the contact address 63 Pirie St Adelaide SA 5000."
+      "answer": "Call 0416 614 281 or email admin@melonemaintenance.com.au to discuss your repair. Our office is at 63 Pirie St Adelaide SA 5000; please contact us to arrange an appointment before visiting."
     },
     {
       "status": "approved",
@@ -1173,13 +1173,13 @@
       "status": "approved",
       "slug": "specialist-work-enquiries",
       "title": "How are specialist requests handled?",
-      "description": "Contact MEL ONE with your Adelaide suburb and job details. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins.",
+      "description": "Tell us your suburb and the job details. We arrange an on-site assessment, review the reported concern and confirm the proposed scope, quote and appointment. For licensed work, we confirm the qualified service arrangements before work begins. Safe existing photos are optional and can be emailed to admin@melonemaintenance.com.au.",
       "scope": [
-        "Contact MEL ONE with your Adelaide suburb and job details. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins."
+        "Tell us your suburb and the job details. We arrange an on-site assessment, review the reported concern and confirm the proposed scope, quote and appointment. For licensed work, we confirm the qualified service arrangements before work begins. Safe existing photos are optional and can be emailed to admin@melonemaintenance.com.au."
       ],
       "exclusions": [],
       "question": "How are specialist requests handled?",
-      "answer": "Contact MEL ONE with your Adelaide suburb and job details. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. Our team arranges an on-site assessment, identifies the cause of the problem and confirms the repair scope, quote and appointment. Where licensed work is part of the job, we confirm the qualified service arrangements before work begins."
+      "answer": "Tell us your suburb and the job details. We arrange an on-site assessment, review the reported concern and confirm the proposed scope, quote and appointment. For licensed work, we confirm the qualified service arrangements before work begins. Safe existing photos are optional and can be emailed to admin@melonemaintenance.com.au."
     },
     {
       "status": "approved",
@@ -1247,7 +1247,7 @@
         "Additional tasks and concealed conditions are reviewed and agreed before they are added to the scope."
       ],
       "question": "What if the job changes after the visit starts?",
-      "answer": "Ask what the changed condition means for the proposed work, materials, timing and any quote. Additional work needs agreement before it proceeds. An item may need separate assessment, so record the next step rather than assuming it is covered by the original list."
+      "answer": "Tell us about the changed condition or extra task. We discuss any change to the proposed work, materials, timing and quote with you before additional work proceeds. Items needing separate assessment are kept outside the original agreed scope until approved."
     },
     {
       "status": "approved",
@@ -1304,7 +1304,7 @@
           "heading": "What the Norwood homeowner could see",
           "paragraphs": [
             "This Norwood flyscreen repair started with a visible tear in the mesh of a residential window screen. The supplied photographs show that the mesh had separated across a large section, leaving the screen unable to provide its usual insect barrier. The frame, window opening and nearby brickwork are visible in the images, which gives useful context for a local handyman enquiry without publishing the customer’s address.",
-            "For flyscreen repairs in Adelaide, a clear photograph is often the best first step. It helps identify whether the concern appears to be limited to the mesh, the spline, the frame, the sliding track or the way the screen sits within the window. This case was recorded as a practical window-screen repair enquiry in Norwood, in Adelaide’s eastern suburbs."
+            "We repaired torn window-screen mesh in this Norwood case. For a similar request, tell us whether the mesh is torn, the edge is loose or the frame no longer fits. We check the mesh, retaining spline and frame before agreeing the repair; safe existing photos are optional."
           ]
         },
         {
@@ -1481,7 +1481,7 @@
           "heading": "Kensington furniture assembly case",
           "paragraphs": [
             "This photographed Kensington furniture assembly case records the set-up and completion of an IKEA KALLAX shelving unit in a residential living room. The supplied before image shows the cartons, panels, loose hardware, instructions and prepared work area. It provides clear context for a flat-pack assembly enquiry without publishing the home address or customer details.",
-            "Furniture assembly Adelaide enquiries are easier to discuss when the product name, instructions, cartons and intended room are known. The KALLAX packaging and manual visible in this case help identify the assembly sequence and the type of components involved. A local handyman can then discuss access, available space, product information and the appropriate next step."
+            "We assemble flat-pack furniture using the product instructions and supplied components. This Kensington case shows an IKEA KALLAX shelving unit. For your assembly, send the model, instructions, current stage and intended room so we can assess the kit and access before quoting."
           ]
         },
         {
@@ -1599,7 +1599,7 @@
           "heading": "Goodwood internal wall repair case",
           "paragraphs": [
             "This photographed Goodwood wall repair case records visible damage to an internal wall, including a broken central area and cracks extending across the painted surface. The wide image gives room context, while the close view shows the damaged section more clearly. These supplied photographs help document the customer’s household-maintenance concern without adding unsupported detail about the cause of the damage.",
-            "For plasterboard repairs Adelaide, a clear photo is useful because a small scuff, a hole, a loose surface or a wider crack can call for different discussions. Customers should describe where the wall is located, what they can see and whether the area has changed over time. If a concern appears connected to moisture, significant movement or another underlying issue, that information can be considered before a repair scope is arranged."
+            "We assess local plasterboard damage and the surrounding wall before agreeing the repair. Tell us whether you see a scuff, hole or crack, where it is and whether it has changed. Mention known moisture or recurring movement so the cause can be considered before cosmetic work."
           ]
         },
         {
@@ -1832,7 +1832,7 @@
           "heading": "Visible timber fence concerns in Modbury",
           "paragraphs": [
             "This Modbury timber fence repair assessment records a boundary fence with visibly broken palings, open gaps, weathered timber and sections that appear to be leaning. The supplied images include a close view of the damaged opening, a front elevation, a side-passage view and a wider look along the fence line. Together they give a clear visual starting point for a fence repairs Adelaide enquiry while keeping the property address and customer details private.",
-            "The photographs show what can be observed from accessible positions. They do not identify the cause of the damage, confirm ownership of the boundary, assess posts below ground or establish whether every part of the fence needs replacement. That distinction matters. A timber fence repair Adelaide request should separate visible concerns from assumptions, then allow the practical scope, shared-boundary arrangements and access conditions to be discussed directly."
+            "This Modbury fence visit was an assessment only: we documented broken palings and the visible lean for repair discussion. Before agreeing repairs, the posts, rails, connections, boundary permissions and access need checking. No completed fence repair is recorded in this case."
           ]
         },
         {
@@ -2064,7 +2064,7 @@
           "heading": "Garden pruning and tidy-up in Modbury",
           "paragraphs": [
             "This photographed Modbury garden tidy-up records a residential garden bed with visible overgrowth, branches across the lawn edge and accumulated green waste. The supplied images show the condition before work, a closer view of the affected planting, practical pruning with collection equipment and the garden after the recorded tidy-up. The sequence is a useful visual reference for a garden maintenance Adelaide enquiry because it shows both the work area and the result without identifying the household.",
-            "Garden maintenance is best described by what is accessible and observable. In this example, the visible task is light pruning and removal of cut material around established shrubs and a lawn edge. The photos do not identify every plant species, confirm a horticultural diagnosis or show tree work at height. Keeping that boundary clear helps customers explain the work they need without turning an ordinary garden tidy-up into a claim about specialist arborist, chemical or landscaping services."
+            "We pruned and tidied the garden bed in this Modbury case, including the cut material shown around the shrubs and lawn edge. For your garden, identify the plants to retain, the clearance wanted and how green waste should be handled. Large-tree, chemical and specialist landscaping tasks need a separate specialist scope."
           ]
         },
         {

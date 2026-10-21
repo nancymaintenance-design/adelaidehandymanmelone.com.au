@@ -22,7 +22,7 @@ export const guideEditorial = {
             "url": "/case-studies/henley-beach-sliding-screen-door-repair/",
             "label": "Henley Beach screen record"
           },
-          " illustrates operating hardware, while the Norwood photograph below illustrates remeshing. Neither specifies parts for another screen."
+          " shows our roller and alignment work, while the Norwood photograph below shows remeshing. We check your screen and compatible parts before agreeing a repair."
         ]
       ]
     },
@@ -82,7 +82,7 @@ export const guideEditorial = {
         "Provide the suburb, access contact and person who can approve work."
       ]
     }
-  ], aliases: [[1,6,9],[2,7],[8,10,11],[3,4,5]], caseContext: 'The Norwood record shows a mesh repair. It illustrates the insect barrier, not a roller replacement or a security-rating test.', next: service('door-repair','Hinged-door and hardware assessment')
+  ], aliases: [[1,6,9],[2,7],[8,10,11],[3,4,5]], caseContext: 'Our Norwood flyscreen case shows replacement mesh fitted to a window-screen frame. For a dragging screen door, see the separate roller and alignment examples.', next: service('door-repair','Hinged-door and hardware assessment')
  },
  'field-notes-wall-interior-repairs-job-list': {
   label: 'Wall holes, patches and paint', summary: 'Understand backing, drying, sanding and paint stages, and flag recurring cracks or moisture before cosmetic work.',
@@ -134,7 +134,7 @@ export const guideEditorial = {
         "Note room availability, belongings restricting access and who can agree the work."
       ]
     }
-  ], aliases: [[1],[2],[5,6,7],[3,4]], caseContext: 'The Goodwood record concerns a plasterboard wall patch. Compare the documented surface work with the finishing stages in your own quote; it does not promise an invisible colour match.', next: guide('field-notes-grouping-multiple-household-jobs','Plan a mixed interior repair list')
+  ], aliases: [[1],[2],[5,6,7],[3,4]], caseContext: 'Our Goodwood case shows a completed plasterboard patch. We agree the patching and painting stages for your wall separately; existing paint and texture affect the finish that can be matched.', next: guide('field-notes-grouping-multiple-household-jobs','Plan a mixed interior repair list')
  },
  'field-notes-roof-gutter-exterior-observations': {
   label: 'Gutter overflow and exterior checks', summary: 'Record where water overflows, distinguish debris from drainage faults and prepare access details without climbing.',
@@ -171,7 +171,7 @@ export const guideEditorial = {
             "url": "/services/roof-gutter-exterior-care/",
             "label": "exterior maintenance assessment"
           },
-          ". A debris-clearing example does not prove that cleaning will resolve every leak."
+          ". We assess ongoing leaks separately from gutter debris clearing so the proposed work addresses the reported problem."
         ]
       ]
     },
@@ -186,7 +186,7 @@ export const guideEditorial = {
         "Give timing constraints and the person who can approve the assessed work."
       ]
     }
-  ], aliases: [[1],[2],[5,6],[3,4]], caseContext: 'The Prospect record documents gutter debris clearing. It supports a cleaning example, not a diagnosis that every overflow or leak can be resolved by cleaning.', next: guide('home-maintenance-walk-through-checklist','Make an indoor and outdoor maintenance list')
+  ], aliases: [[1],[2],[5,6],[3,4]], caseContext: 'Our Prospect case shows leaves and branches cleared from a gutter. Tell us about any continuing overflow or leak so cleaning and further repair assessment can be considered separately.', next: guide('home-maintenance-walk-through-checklist','Make an indoor and outdoor maintenance list')
  },
  'field-notes-garden-outdoor-seasonal-preparation': {
   label: 'Garden tidy-ups and outdoor timber', summary: 'Mark retained plants, path clearance and green waste; keep deck, fence and gate repairs as separately assessed items.',
@@ -243,7 +243,7 @@ export const guideEditorial = {
         "Keep the agreed area references with the quote and note any unresolved item for follow-up."
       ]
     }
-  ], aliases: [[1],[2],[4,6,7],[3,5]], caseContext: 'The Modbury garden record shows pruning and a tidy-up. It illustrates plant clearance; it is not evidence of a deck repair or structural assessment.', next: guide('home-maintenance-walk-through-checklist','Record recurring outdoor maintenance')
+  ], aliases: [[1],[2],[4,6,7],[3,5]], caseContext: 'Our Modbury garden case shows pruning and a garden-bed tidy-up. List deck, fence or gate repairs separately so we can assess their timber and fixings.', next: guide('home-maintenance-walk-through-checklist','Record recurring outdoor maintenance')
  },
  'field-notes-rental-end-of-lease-maintenance-list': {
   label: 'Rental repairs and handover', summary: 'Keep damage, approval, access and completion status together without confusing repair work with a bond guarantee.',
@@ -297,7 +297,7 @@ export const guideEditorial = {
         "Keep cleaning instructions and unrelated tenancy correspondence outside the repair list."
       ]
     }
-  ], aliases: [[1],[2],[4,6],[3,5]], dropFaqs: ['Will repairs guarantee the return of my rental bond?'], caseContext: 'The Adelaide CBD wall-and-skirting record shows a particular repair scope. It is an example of documented work, not a statement about a tenant’s liability or bond.', next: guide('prepare-household-maintenance-enquiry','Prepare the repair quote request')
+  ], aliases: [[1],[2],[4,6],[3,5]], dropFaqs: ['Will repairs guarantee the return of my rental bond?'], caseContext: 'Our Adelaide CBD case shows lower-wall and skirting repairs. For a rental repair, give us the approved task list and owner or manager contact; tenancy liability and bond decisions sit outside the repair scope.', next: guide('prepare-household-maintenance-enquiry','Prepare the repair quote request')
  },
  'field-notes-pre-sale-home-maintenance-list': {
   label: 'Pre-sale repair priorities', summary: 'Prioritise everyday faults, separate optional presentation work and plan access around finishing stages and inspection dates.',
@@ -314,7 +314,7 @@ export const guideEditorial = {
           },
           ", a cupboard that will not close or a gate that catches. Then list wall holes, skirting damage and optional paint touch-ups. Functional problems and presentation choices serve different purposes."
         ],
-        "Set a desired result beside each item so optional work can be separated if the scope changes. A small repair record does not establish an effect on a property’s sale price."
+        "Set a desired result beside each task so we can distinguish repairs from optional presentation work when agreeing the scope. Repair work does not guarantee a sale-price result."
       ]
     },
     {
@@ -361,7 +361,7 @@ export const guideEditorial = {
         "At handover, mark outstanding items and the next agreed action beside the original task."
       ]
     }
-  ], aliases: [[1],[2],[4,6],[3,5]], dropFaqs: ['Which repairs should I list before an open inspection?'], caseContext: 'The Goodwood record illustrates a wall patch. It helps compare the repair boundary; it does not establish a sale-price effect or a guaranteed finish date.', next: link('/service-standards/#quote-details','Check repair scope and quote inclusions')
+  ], aliases: [[1],[2],[4,6],[3,5]], dropFaqs: ['Which repairs should I list before an open inspection?'], caseContext: 'Our Goodwood case shows a completed wall patch. For pre-sale repairs, tell us the affected areas, desired finish and inspection date so we can discuss scope and timing. Repair work does not guarantee a sale-price result.', next: link('/service-standards/#quote-details','Check repair scope and quote inclusions')
  },
  'field-notes-grouping-multiple-household-jobs': {
   label: 'Combine several small repairs', summary: 'Use a worked room-by-room list, identify parts and dependencies, and compare quotes without assuming a single visit or discount.',
@@ -378,7 +378,7 @@ export const guideEditorial = {
       "heading": "Compare a Multi-Job Quote by Task, Materials and Visits",
       "paragraphs": [
         "Compare labour, parts and preparation for each item. Adjustment alone differs from replacement runners, remeshing or final paint. Confirm assessment, minimum call-out, travel and disposal charges on the same basis.",
-        "Shared preparation does not establish an automatic discount or saving. Compatible components, finishing stages and specialist arrangements can require more than one visit; ask for the proposed sequence alongside the itemised scope."
+        "We assess your list and confirm which tasks can share preparation or access. Parts, finishing stages and specialist arrangements can require more than one visit. Review the proposed sequence and itemised scope with us; combining tasks does not carry an automatic discount."
       ]
     },
     {
@@ -414,7 +414,7 @@ export const guideEditorial = {
         ]
       ]
     }
-  ], aliases: [[1],[2],[3,6],[4,5]], caseContext: 'The Kensington record documents assembly of one IKEA KALLAX unit. It shows why the product and available kit matter; it does not prove that an unrelated mixed list will fit into one visit.', next: link('/service-standards/#quote-details','Confirm charges and included work')
+  ], aliases: [[1],[2],[3,6],[4,5]], caseContext: 'Our Kensington case shows assembly of an IKEA KALLAX unit. Send the models and kit details for your furniture; parts and assembly stages determine the work and visits we agree.', next: link('/service-standards/#quote-details','Confirm charges and included work')
  },
  'field-notes-cleaning-removals-preparation': {
   title: 'Pressure Cleaning Adelaide: Driveway & Paver Guide', label: 'Driveway and paver cleaning', summary: 'Assess paving, joints, coatings and drainage before choosing a cleaning method; check quote boundaries and prepare the area.',
@@ -459,7 +459,7 @@ export const guideEditorial = {
         "State the access contact and any times the driveway or path must remain available."
       ]
     }
-  ], aliases: [[6],[1],[2,7],[3,4,5]], caseContext: 'Before cleaning: moss is visible on this Burnside paved driveway. Follow the linked case sequence for the documented finished result. This image records the initial condition, not a completed clean.', next: link('/service-standards/#quote-details','Confirm the cleaning scope and written quote')
+  ], aliases: [[6],[1],[2,7],[3,4,5]], caseContext: 'Before cleaning: moss is visible on this Burnside paved driveway. Follow the case sequence to see our cleaning work and the finished result.', next: link('/service-standards/#quote-details','Confirm the cleaning scope and written quote')
  },
  'prepare-household-maintenance-enquiry': {
   label: 'Request and compare repair quotes', summary: 'Describe symptoms without choosing parts, clarify labour and charges, and name the people arranging access and approval.',
@@ -519,7 +519,7 @@ export const guideEditorial = {
         "Check that each task has a clear room or fitting reference."
       ]
     }
-  ], aliases: [[1],[2,3],[4],[5,6]], caseContext: 'The North Adelaide door record illustrates closing alignment and hardware work. Similar symptoms at another property still need their own assessment and compatible-parts check.', next: service('maintenance-planning-inspection-support','Arrange assessment of a household repair list')
+  ], aliases: [[1],[2,3],[4],[5,6]], caseContext: 'Our North Adelaide door case shows latch and closing-alignment work. Tell us where your door catches; we check its hinges, fixings and clearance before proposing the repair.', next: service('maintenance-planning-inspection-support','Arrange assessment of a household repair list')
  },
  'home-maintenance-walk-through-checklist': {
   label: 'Room-by-room maintenance checklist', summary: 'Turn normal-use observations into an indoor and outdoor work list, distinguishing repeat upkeep from recurring faults.',
@@ -571,7 +571,7 @@ export const guideEditorial = {
         "Keep the agreed list and record each next action so another person can follow the work."
       ]
     }
-  ], aliases: [[1,3],[2],[4],[5,6]], dropFaqs: ['Does this checklist replace a building inspection or defect report?'], caseContext: 'The Prospect record shows debris cleared from a gutter. It is an example of an individual maintenance task, not a whole-property inspection or a universal cleaning interval.', next: guide('field-notes-grouping-multiple-household-jobs','Prioritise several small repairs')
+  ], aliases: [[1,3],[2],[4],[5,6]], dropFaqs: ['Does this checklist replace a building inspection or defect report?'], caseContext: 'Our Prospect case shows gutter debris clearing. For recurring care, tell us about leaf build-up and past overflow so we can discuss the cleaning scope and a suitable interval.', next: guide('field-notes-grouping-multiple-household-jobs','Prioritise several small repairs')
  }
 };
 

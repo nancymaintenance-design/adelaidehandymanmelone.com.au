@@ -204,7 +204,7 @@ test('every generated HTML and schema excludes legacy facts and unapproved recor
 test('enquiry form is disclosed and submits only to the first-party endpoint', () => {
   const html = read('/contact/');
   assert.match(html, /data-enquiry-form/);
-  assert.match(html, /MEL ONE will receive the details by email/i);
+  assert.match(html, /We receive your enquiry by email/i);
   assert.doesNotMatch(html, /action="(?:https?:|\/api\/)/);
   for (const name of ['message', 'suburb', 'timing', 'contactPreference', 'phone', 'email']) assert.match(html, new RegExp(`name="${name}"`));
   assert.doesNotMatch(html, /name="photo"/);

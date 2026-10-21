@@ -20,7 +20,7 @@ function fixture(t) {
 test('llms generator follows changed body text without changing HTML and is deterministic', t=>{
   const options=fixture(t),file=path.join(options.siteDir,'about/index.html');
   const original=fs.readFileSync(file,'utf8');
-  const changed=original.replaceAll('Meet MEL ONE’s independent handyman team.','Discuss a room-by-room repair list with MEL ONE.');
+  const changed=original.replaceAll('Meet our handyman team, see','Discuss a room-by-room repair list with MEL ONE. See');
   assert.notEqual(changed,original);
   fs.writeFileSync(file,changed);
   generateLlmsIndex(options);

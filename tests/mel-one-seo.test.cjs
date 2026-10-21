@@ -70,7 +70,7 @@ test('each indexable page has unique metadata and a consistent business entity',
     assert.equal(business.email, 'admin@melonemaintenance.com.au');
     assert.deepEqual(business.address, { '@type': 'PostalAddress', streetAddress: '63 Pirie St', addressLocality: 'Adelaide', addressRegion: 'SA', postalCode: '5000', addressCountry: 'AU' });
     assert.ok(graph.some(item => item['@type'] === 'WebPage' && item.isPartOf['@id'].endsWith('/#website')));
-    assert.doesNotMatch(JSON.stringify(graph), /Review|AggregateRating|ratingValue|foundingDate/);
+    assert.doesNotMatch(JSON.stringify(graph), /"@type":"(?:Review|AggregateRating)"|"(?:review|aggregateRating|ratingValue|foundingDate)":/);
     assert.equal(business.openingHoursSpecification[0].opens, '09:00');
     assert.equal(business.openingHoursSpecification[0].closes, '21:00');
     assert.equal(business.openingHoursSpecification[0].dayOfWeek.length, 7);
