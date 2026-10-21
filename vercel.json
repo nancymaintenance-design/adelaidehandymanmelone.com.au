@@ -2045,6 +2045,46 @@
       "permanent": true
     },
     {
+      "source": "/news/after-rain-home-repair-order",
+      "destination": "https://www.adelaidehandymanmelone.com.au/news/after-rain-home-repair-order/",
+      "permanent": true
+    },
+    {
+      "source": "/news/after-rain-home-repair-order/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/news/after-rain-home-repair-order/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/after-rain-home-repair-order",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/after-rain-home-repair-order/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/after-rain-home-repair-order/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/after-rain-home-repair-order/",
+      "permanent": true
+    },
+    {
+      "source": "/news/gutter-overflow-and-outdoor-repairs-after-rain",
+      "destination": "https://www.adelaidehandymanmelone.com.au/news/gutter-overflow-and-outdoor-repairs-after-rain/",
+      "permanent": true
+    },
+    {
+      "source": "/news/gutter-overflow-and-outdoor-repairs-after-rain/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/news/gutter-overflow-and-outdoor-repairs-after-rain/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/gutter-overflow-and-outdoor-repairs-after-rain",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/gutter-overflow-and-outdoor-repairs-after-rain/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/news/gutter-overflow-and-outdoor-repairs-after-rain/index.html",
+      "destination": "https://www.adelaidehandymanmelone.com.au/zh/news/gutter-overflow-and-outdoor-repairs-after-rain/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {

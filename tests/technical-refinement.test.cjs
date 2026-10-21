@@ -44,14 +44,14 @@ test('verified dates and llms locality are truthful', async () => {
   assert.throws(()=>validateEditorialDate('2099-01-01'), /future/i);
   assert.throws(()=>validateEditorialDate('2026-10-12','2026-10-13'), /publication/i);
   const xml=fs.readFileSync('public/sitemap.xml','utf8');
-  assert.equal((xml.match(/<loc>/g)||[]).length,204);
+  assert.equal((xml.match(/<loc>/g)||[]).length,208);
   const changedRoutes = [
     ...['cabinet-drawer-repair','sliding-door-repair','wall-patching-repair','pressure-cleaning'].map(s=>`/services/${s}/`),
     ...['cbd-north-adelaide/adelaide-cbd','cbd-north-adelaide/bowden','eastern-suburbs/burnside','inner-south/unley','inner-south/goodwood','inner-south/parkside','inner-west/brompton','western-suburbs/glenelg','southern-suburbs/marion'].map(s=>`/service-areas/${s}/`),
     ...['field-notes-doors-windows-screens-enquiry','field-notes-wall-interior-repairs-job-list','field-notes-cleaning-removals-preparation','field-notes-pre-sale-home-maintenance-list'].map(s=>`/guides/${s}/`)
   ];
   for (const route of changedRoutes) {
-    assert.ok(xml.includes(route+'</loc><lastmod>'+ (route.startsWith('/guides/') ? '2026-10-14' : route.startsWith('/services/') ? '2026-10-20' : '2026-10-13') +'</lastmod>'),route);
+    assert.ok(xml.includes(route+'</loc><lastmod>'+ (route.startsWith('/guides/') ? '2026-10-14' : route.startsWith('/services/') ? '2026-10-21' : '2026-10-13') +'</lastmod>'),route);
     if (route.startsWith('/guides/')) {
       const html=fs.readFileSync('public'+route+'index.html','utf8');
       assert.match(html,/Updated <time datetime="2026-10-14">2026-10-14<\/time>/);
@@ -76,8 +76,8 @@ test('Vercel exact-route candidate covers sitemap variants without broad file/AP
   const config = JSON.parse(fs.readFileSync('vercel.json','utf8'));
   const routes = [...fs.readFileSync('public/sitemap.xml','utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>new URL(m[1]).pathname);
   const rules = config.redirects.filter(rule=>!rule.has);
-  assert.equal(rules.length,407);
-  assert.equal(new Set(rules.map(rule=>rule.source)).size,407);
+  assert.equal(rules.length,415);
+  assert.equal(new Set(rules.map(rule=>rule.source)).size,415);
   for (const route of routes) for (const variant of route==='/'?['/index.html']:[route.slice(0,-1),route+'index.html']) {
     const rule=rules.find(rule=>rule.source===variant);
     assert.equal(rule?.destination,'https://www.adelaidehandymanmelone.com.au'+route);

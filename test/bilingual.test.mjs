@@ -12,7 +12,8 @@ const root = path.resolve(import.meta.dirname, '..');
 const output = path.join(root, 'public');
 const baseline = JSON.parse(fs.readFileSync(new URL('./fixtures/bilingual-english-baseline.json', import.meta.url), 'utf8'));
 const origin = 'https://www.adelaidehandymanmelone.com.au';
-const routes = baseline.map(item => item.route);
+const additions = JSON.parse(fs.readFileSync(path.join(root, 'src/content-pack/post-rain-content.json'), 'utf8')).news.map(item => `/news/${item.slug}/`);
+const routes = [...baseline.map(item => item.route), ...additions];
 const indexable = routes.filter(route => route !== '/404.html');
 const pathSet = new Set([...routes, '/case-studies/feed.json', '/service-areas/feed.json']);
 const read = route => fs.readFileSync(path.join(output, route.endsWith('.html') ? route.slice(1) : `${route.slice(1)}index.html`), 'utf8');
@@ -22,7 +23,7 @@ const tag = name => node => node.tagName === name;
 const main = doc => nodes(doc, node => attribute(node, 'id') === 'main')[0];
 const dig = value => createHash('sha256').update(value).digest('hex');
 
-test('all 102 indexable pages have complete reciprocal English/Chinese language metadata and self canonicals', () => {
+test('all baseline and added indexable pages have complete reciprocal English/Chinese language metadata and self canonicals', () => {
   const sitemap = fs.readFileSync(path.join(output, 'sitemap.xml'), 'utf8');
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]).sort();
   assert.deepEqual(locations, indexable.flatMap(route => [origin + route, origin + '/zh' + route]).sort());

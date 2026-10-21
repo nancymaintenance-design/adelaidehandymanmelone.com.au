@@ -32,5 +32,8 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Historical English fixtures retain the pre-October-16 city-label contract.
   // The actual 204-page output is checked by test/local-labels.test.mjs.
   source = source.replace("import { applyLocalLabels } from './src/local-label-policy.mjs';", '').replace('applyLocalLabels({ siteDir, routes });', '');
+  // Historical 102-page fixtures predate the October 21 rain-intent edit.
+  // Actual new pages and edited services are covered by post-rain-content.test.mjs.
+  source = source.replace("import { applyPostRainContent } from './src/post-rain-content.mjs';", '').replace('applyPostRainContent(content, focusedServices);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };

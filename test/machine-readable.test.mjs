@@ -10,9 +10,9 @@ const plain=s=>s.replace(/\s+/g,' ').trim();
 test('all bilingual feed items are the existing visible content, not hidden keyword pages',()=>{
  for(const prefix of ['', 'zh/']){
   const feed=JSON.parse(read(prefix+'feed.json')),schema=JSON.parse(read(prefix+'schema-feed.json'));
-  assert.equal(feed.version,'https://jsonfeed.org/version/1.1');assert.equal(feed.items.length,102);
-  assert.equal(new Set(feed.items.map(i=>i.id)).size,102);
-  assert.equal(schema['@type'],'DataFeed');assert.equal(schema.dataFeedElement.length,102);
+  assert.equal(feed.version,'https://jsonfeed.org/version/1.1');assert.equal(feed.items.length,104);
+  assert.equal(new Set(feed.items.map(i=>i.id)).size,104);
+  assert.equal(schema['@type'],'DataFeed');assert.equal(schema.dataFeedElement.length,104);
   for(const item of feed.items){
    const $=load(read(fileFor(item.url))),graph=JSON.parse($('script[type="application/ld+json"]').first().text())['@graph'];
    assert.equal(item.title,plain($('main h1').first().text()),item.url);
@@ -40,7 +40,7 @@ test('company and service catalogues describe the existing entity and listed ser
   assert.ok(catalogue.itemListElement.length>=9);assert.equal(business.hasOfferCatalog['@id'],catalogue['@id']);
   assert.equal(business.legalName,'MEL ONE PROPERTY MAINTENANCE PTY LTD');
   for(const offer of catalogue.itemListElement){assert.ok(!('price' in offer));assert.ok(offer.itemOffered['@id'].startsWith(origin+'/'+prefix+'services/'));}
-  const rss=load(read(prefix+'feed.xml'),{xmlMode:true});assert.equal(rss('rss').attr('version'),'2.0');assert.equal(rss('channel > item').length,102);
+  const rss=load(read(prefix+'feed.xml'),{xmlMode:true});assert.equal(rss('rss').attr('version'),'2.0');assert.equal(rss('channel > item').length,104);
   assert.equal(rss('parsererror').length,0);assert.equal(rss('pubDate,lastBuildDate').length,0);
   for(const n of rss('item').toArray())assert.ok(rss(n).find('content\\:encoded').text().length>80);
   const cases=JSON.parse(read(prefix+'case-studies/feed.json'));
