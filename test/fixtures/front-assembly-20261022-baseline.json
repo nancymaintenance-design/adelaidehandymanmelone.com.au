@@ -1,0 +1,1201 @@
+{
+  "commit": "da202944647c290e81af66763316cedb1cca02eb",
+  "pages": [
+    {
+      "file": "404.html",
+      "sha256": "fb44815ed845912fdd506a5b1ab44c8e9629f199128b274dcb4f49ee70541d75"
+    },
+    {
+      "file": "about/index.html",
+      "sha256": "370e6cd2d27123c842e502bc4cdabd5314a8711c2ed7027109af580a9ed731c8"
+    },
+    {
+      "file": "case-studies/adelaide-cbd-wall-repair/index.html",
+      "sha256": "6a5a9fc8b258970a7f3bdf12c940ae3348b5b79d8d986c0a97d70099976f133f"
+    },
+    {
+      "file": "case-studies/burnside-driveway-pressure-cleaning/index.html",
+      "sha256": "5cd52caee3aad57d28c58fb7229ec11a8c450724ba32f57b78e12c8f8e0f0e69"
+    },
+    {
+      "file": "case-studies/burnside-window-repair/index.html",
+      "sha256": "bcf77b73b2a7f737329319abd157b55ebff69204b70beab420faf833d8140764"
+    },
+    {
+      "file": "case-studies/goodwood-wall-repair/index.html",
+      "sha256": "b99afd3a1bcfb45c54a8abb1c37f9b12af263f031ad2ba64ce21cda074f347ea"
+    },
+    {
+      "file": "case-studies/henley-beach-sliding-screen-door-repair/index.html",
+      "sha256": "a74d5de793f40dad58de4f4cbb951fd75a64e2d3db40546be3591d3b92c8fd10"
+    },
+    {
+      "file": "case-studies/index.html",
+      "sha256": "5e75bb59ed8fa6ba601cbe4f8ab12758c86555e518ecb8df9d13f15cd215f6bf"
+    },
+    {
+      "file": "case-studies/kensington-furniture-assembly/index.html",
+      "sha256": "11b1bd9e8c831de0ea8cd7a1867753aba875fee490cb4556105c832729e6974f",
+      "route": "case-studies/kensington-furniture-assembly/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 1,
+          "text": "For a similar Kensington furniture assembly request, include the brand and model, the number of cartons, the room where it will be assembled and any parking or access considerations. Clear photos make it easier to see whether the item is still boxed, partly assembled or ready for the final stages. Customers can also list other small jobs in the same home so MEL ONE can discuss each item clearly."
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "For an IKEA KALLAX assembly enquiry, send the model, instructions, current assembly stage and any missing-part details. We check the kit, space and securing requirements before agreeing the scope. MEL ONE is independent of IKEA and is not an official IKEA service. Compare the repair scope: Flat Pack & Furniture Assembly."
+        }
+      ],
+      "protectedCopy": {
+        "head": "<head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>IKEA KALLAX Furniture Assembly in Kensington | MEL ONE</title><meta name=\"description\" content=\"A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.\"><meta name=\"robots\" content=\"index,follow\"><link rel=\"canonical\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/favicon-192.png\"><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\"><link rel=\"manifest\" href=\"/site.webmanifest\"><meta property=\"og:title\" content=\"IKEA KALLAX Furniture Assembly in Kensington | MEL ONE\"><meta property=\"og:description\" content=\"A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.\"><meta property=\"og:url\" content=\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"><link rel=\"stylesheet\" href=\"/assets/css/site.css\"><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-9KMWMVLZ3\"></script><script>document.documentElement.classList.add('nav-enhanced');document.addEventListener('error',function(event){if(event.target instanceof HTMLScriptElement&&event.target.src.endsWith('/assets/js/site.js'))document.documentElement.classList.remove('nav-enhanced')},true);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config', 'G-9KMWMVLZ3');</script><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\",\"name\":\"IKEA KALLAX Furniture Assembly in Kensington\",\"description\":\"A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#breadcrumb\"},\"keywords\":[\"IKEA KALLAX Furniture Assembly in Kensington\",\"property maintenance\",\"furniture assembly\",\"handyman services\",\"handyman\",\"IKEA KALLAX Panels, Hardware and Instructions\",\"Cam-Lock Assembly and Completed Shelving\",\"IKEA KALLAX Panels, Hardware and Instructions: Details for Another Property\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#case-study\",\"headline\":\"IKEA KALLAX Furniture Assembly in Kensington\",\"description\":\"A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"en-AU\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-04.png\"],\"keywords\":[\"IKEA KALLAX Furniture Assembly in Kensington\",\"property maintenance\",\"furniture assembly\",\"handyman services\",\"handyman\",\"IKEA KALLAX Panels, Hardware and Instructions\",\"Cam-Lock Assembly and Completed Shelving\",\"IKEA KALLAX Panels, Hardware and Instructions: Details for Another Property\"],\"about\":{\"@type\":\"Service\",\"name\":\"Furniture Assembly & Interior Repairs\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Kensington, Adelaide, South Australia\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I compare before requesting IKEA KALLAX assembly?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For an IKEA KALLAX assembly enquiry, send the model, instructions, current assembly stage and any missing-part details. We check the kit, space and securing requirements before agreeing the scope. MEL ONE is independent of IKEA and is not an official IKEA service.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Flat Pack & Furniture Assembly\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/flat-pack-assembly/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"IKEA KALLAX Furniture Assembly in Kensington\",\"item\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"}]}]}</script><script src=\"/assets/js/messages.en.js\" defer=\"\"></script><script src=\"/assets/js/site.js\" defer=\"\"></script><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE photographed case data\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/feed.json\"><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE service area data\" href=\"https://www.adelaidehandymanmelone.com.au/service-areas/feed.json\"><link rel=\"stylesheet\" href=\"/assets/css/footer.css\"><link rel=\"stylesheet\" href=\"/assets/css/service-navigation.css\"><link rel=\"alternate\" hreflang=\"en-AU\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"><link rel=\"alternate\" hreflang=\"zh-Hans\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"><link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"><meta property=\"og:locale\" content=\"en_AU\"><meta property=\"og:locale:alternate\" content=\"zh_CN\"><link rel=\"stylesheet\" href=\"/assets/css/bilingual.css\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/feed+json\" href=\"https://www.adelaidehandymanmelone.com.au/feed.json\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/rss+xml\" href=\"https://www.adelaidehandymanmelone.com.au/feed.xml\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/ld+json\" href=\"https://www.adelaidehandymanmelone.com.au/schema-feed.json\"></head>",
+        "title": "IKEA KALLAX Furniture Assembly in Kensington | MEL ONE",
+        "h1": "IKEA KALLAX Furniture Assembly in Kensington",
+        "meta": "A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.",
+        "headings": [
+          "IKEA KALLAX Panels, Hardware and Instructions",
+          "Cam-Lock Assembly and Completed Shelving",
+          "IKEA KALLAX Panels, Hardware and Instructions: Details for Another Property",
+          "Shelving Models and Securing: Assembly Comparison",
+          "Shelving Models and Securing: Assembly Comparison: Questions",
+          "Related repair guidance",
+          "Related MEL ONE pages",
+          "Specific Door, Cabinet and Household Repairs",
+          "Request a Handyman Repair Quote"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">Skip to content</a>",
+          "<a class=\"brand\" href=\"/\" aria-label=\"MEL ONE home\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/\">Home</a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\" aria-current=\"page\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/guides/\">Field notes</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a class=\"header-enquiry\" href=\"/contact/\">Contact <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/zh/case-studies/kensington-furniture-assembly/\" lang=\"zh-Hans\" hreflang=\"zh-Hans\" aria-label=\"切换到中文服务\">中文服务</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/flat-pack-assembly/\">Home</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/services/flat-pack-assembly/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/flat-pack-assembly/\">Flat Pack &amp; Furniture Assembly</a>",
+          "<a href=\"/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/services/flat-pack-assembly/\">Flat Pack &amp; Furniture Assembly</a>",
+          "<a href=\"/service-standards/\">Assessment, scope and repair follow-up</a>",
+          "<a href=\"/guides/field-notes-grouping-multiple-household-jobs/\">Combine several small repairs</a>",
+          "<a class=\"text-link\" href=\"/services/interior-repairs-assembly/\">Furniture Assembly &amp; Interior Repairs <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/service-areas/eastern-suburbs/kensington/\">Kensington handyman services <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/services/flat-pack-assembly/\">Flat Pack &amp; Furniture Assembly</a>",
+          "<a class=\"button primary\" href=\"/contact/\">Request an assessment and quote<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/\">MEL ONE<span aria-hidden=\"true\">.</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google Reviews</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a href=\"/service-standards/\">Service standards</a>",
+          "<a href=\"/news/\">News</a>",
+          "<a href=\"/guides/\">Guides</a>",
+          "<a href=\"/faq/\">FAQ</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/case-studies/feed.json\">Case data (JSON)</a>",
+          "<a href=\"/service-areas/feed.json\">Area data (JSON)</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a href=\"/contact/\">Start an enquiry <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-01.png\" alt=\"IKEA KALLAX flat-pack components and instructions ready for assembly in Kensington\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-01-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-01-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-02.png\" alt=\"Handyman assembling IKEA KALLAX shelving unit in Kensington\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-02-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-02-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-03.png\" alt=\"Close view of furniture hardware being fitted during Kensington flat-pack assembly\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-03-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-03-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-04.png\" alt=\"Completed IKEA KALLAX shelving unit in a Kensington home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-04-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-04-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>What should I compare before requesting IKEA KALLAX assembly?</summary><p>For an IKEA KALLAX assembly enquiry, send the model, instructions, current assembly stage and any missing-part details. We check the kit, space and securing requirements before agreeing the scope. MEL ONE is independent of IKEA and is not an official IKEA service.</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\",\"name\":\"IKEA KALLAX Furniture Assembly in Kensington\",\"description\":\"A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#breadcrumb\"},\"keywords\":[\"IKEA KALLAX Furniture Assembly in Kensington\",\"property maintenance\",\"furniture assembly\",\"handyman services\",\"handyman\",\"IKEA KALLAX Panels, Hardware and Instructions\",\"Cam-Lock Assembly and Completed Shelving\",\"IKEA KALLAX Panels, Hardware and Instructions: Details for Another Property\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#case-study\",\"headline\":\"IKEA KALLAX Furniture Assembly in Kensington\",\"description\":\"A photographed Kensington flat-pack furniture assembly case showing unpacking, assembly and completed shelving.\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"en-AU\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-04.png\"],\"keywords\":[\"IKEA KALLAX Furniture Assembly in Kensington\",\"property maintenance\",\"furniture assembly\",\"handyman services\",\"handyman\",\"IKEA KALLAX Panels, Hardware and Instructions\",\"Cam-Lock Assembly and Completed Shelving\",\"IKEA KALLAX Panels, Hardware and Instructions: Details for Another Property\"],\"about\":{\"@type\":\"Service\",\"name\":\"Furniture Assembly & Interior Repairs\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Kensington, Adelaide, South Australia\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I compare before requesting IKEA KALLAX assembly?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For an IKEA KALLAX assembly enquiry, send the model, instructions, current assembly stage and any missing-part details. We check the kit, space and securing requirements before agreeing the scope. MEL ONE is independent of IKEA and is not an official IKEA service.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Flat Pack & Furniture Assembly\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/flat-pack-assembly/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"IKEA KALLAX Furniture Assembly in Kensington\",\"item\":\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"}]}]}"
+        ]
+      },
+      "maskedHash": "f5402892fc385887a44b3c5ee7a50c9c08084130a345c65dcd464fb6dffb7185"
+    },
+    {
+      "file": "case-studies/kitchen-drawer-runner-repair/index.html",
+      "sha256": "400a5537e2d0cc09bd630eb2460d24483ba4f86364a36877d1a86d1413839601"
+    },
+    {
+      "file": "case-studies/marion-shower-screen-repair/index.html",
+      "sha256": "1b3e513beba75ead809bdcfb3495bab37684ec107dc9601e0b85b513e2084d38"
+    },
+    {
+      "file": "case-studies/marion-wardrobe-sliding-door-repair/index.html",
+      "sha256": "b08693729a942bf9375e42b8afbe6244dfecaa39a7b904c759e9ea774764d43f"
+    },
+    {
+      "file": "case-studies/mile-end-fence-repair/index.html",
+      "sha256": "5ee18caae70f39b7a9dcfb8d8d72287c75cac7125e8190c32f6a4dd64b10131e"
+    },
+    {
+      "file": "case-studies/modbury-garden-pruning-tidy-up/index.html",
+      "sha256": "aec539427f1d288acee055963536305916c9a6c7c7fd0cb929092a6299885aaa"
+    },
+    {
+      "file": "case-studies/modbury-timber-fence-repair-assessment/index.html",
+      "sha256": "258ce90d9d2137b63962f4393e291536f25ccd2ffcb8f58ac8cc3c467017fbc2"
+    },
+    {
+      "file": "case-studies/north-adelaide-door-repair/index.html",
+      "sha256": "af8b7a9570b5c6272b6bc6a16be9f16fe7f4faac21a59ae6186685c31505e72a",
+      "route": "case-studies/north-adelaide-door-repair/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 0,
+          "text": "Door repairs often begin with the everyday symptom: a door that catches, does not sit comfortably in the frame, needs extra force to close, or leaves a visible gap at the latch side. A good enquiry describes what happens during normal use and includes clear images of the door edge, hinges, handle and strike where safe to photograph."
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "This record concerns latch and closing alignment. Report whether your door rubs, fails to latch or has loose hardware; those symptoms do not necessarily need the same adjustment. Compare the repair scope: Door Repairs."
+        }
+      ],
+      "protectedCopy": {
+        "head": "<head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Front Door Repair in North Adelaide | MEL ONE</title><meta name=\"description\" content=\"A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.\"><meta name=\"robots\" content=\"index,follow\"><link rel=\"canonical\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/favicon-192.png\"><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\"><link rel=\"manifest\" href=\"/site.webmanifest\"><meta property=\"og:title\" content=\"Front Door Repair in North Adelaide | MEL ONE\"><meta property=\"og:description\" content=\"A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.\"><meta property=\"og:url\" content=\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"><link rel=\"stylesheet\" href=\"/assets/css/site.css\"><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-9KMWMVLZ3\"></script><script>document.documentElement.classList.add('nav-enhanced');document.addEventListener('error',function(event){if(event.target instanceof HTMLScriptElement&&event.target.src.endsWith('/assets/js/site.js'))document.documentElement.classList.remove('nav-enhanced')},true);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config', 'G-9KMWMVLZ3');</script><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\",\"name\":\"Front Door Repair in North Adelaide\",\"description\":\"A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#breadcrumb\"},\"keywords\":[\"Front Door Repair in North Adelaide\",\"property maintenance\",\"flyscreen repairs\",\"handyman services\",\"door repairs\",\"handyman\",\"Front Door Latch and Closing Misalignment\",\"Latch Adjustment and Repaired Closing Alignment\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#case-study\",\"headline\":\"Front Door Repair in North Adelaide\",\"description\":\"A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"en-AU\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-04.png\"],\"keywords\":[\"Front Door Repair in North Adelaide\",\"property maintenance\",\"flyscreen repairs\",\"handyman services\",\"door repairs\",\"handyman\",\"Front Door Latch and Closing Misalignment\",\"Latch Adjustment and Repaired Closing Alignment\"],\"about\":{\"@type\":\"Service\",\"name\":\"Door, Window & Flyscreen Repairs\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"North Adelaide, Adelaide, South Australia\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I note about a door that will not latch?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"This record concerns latch and closing alignment. Report whether your door rubs, fails to latch or has loose hardware; those symptoms do not necessarily need the same adjustment.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Door Repairs\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/door-repair/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Front Door Repair in North Adelaide\",\"item\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"}]}]}</script><script src=\"/assets/js/messages.en.js\" defer=\"\"></script><script src=\"/assets/js/site.js\" defer=\"\"></script><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE photographed case data\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/feed.json\"><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE service area data\" href=\"https://www.adelaidehandymanmelone.com.au/service-areas/feed.json\"><link rel=\"stylesheet\" href=\"/assets/css/footer.css\"><link rel=\"stylesheet\" href=\"/assets/css/service-navigation.css\"><link rel=\"alternate\" hreflang=\"en-AU\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"><link rel=\"alternate\" hreflang=\"zh-Hans\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"><link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"><meta property=\"og:locale\" content=\"en_AU\"><meta property=\"og:locale:alternate\" content=\"zh_CN\"><link rel=\"stylesheet\" href=\"/assets/css/bilingual.css\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/feed+json\" href=\"https://www.adelaidehandymanmelone.com.au/feed.json\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/rss+xml\" href=\"https://www.adelaidehandymanmelone.com.au/feed.xml\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/ld+json\" href=\"https://www.adelaidehandymanmelone.com.au/schema-feed.json\"></head>",
+        "title": "Front Door Repair in North Adelaide | MEL ONE",
+        "h1": "Front Door Repair in North Adelaide",
+        "meta": "A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.",
+        "headings": [
+          "Front Door Latch and Closing Misalignment",
+          "Latch Adjustment and Repaired Closing Alignment",
+          "Front Door Latch and Closing Misalignment: Details for Another Property",
+          "Latch Contact or Loose Hinges: Repair Comparison",
+          "Latch Contact or Loose Hinges: Repair Comparison: Questions",
+          "Related repair guidance",
+          "Related MEL ONE pages",
+          "Specific Door, Cabinet and Household Repairs",
+          "Request a Handyman Repair Quote"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">Skip to content</a>",
+          "<a class=\"brand\" href=\"/\" aria-label=\"MEL ONE home\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/\">Home</a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\" aria-current=\"page\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/guides/\">Field notes</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a class=\"header-enquiry\" href=\"/contact/\">Contact <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/zh/case-studies/north-adelaide-door-repair/\" lang=\"zh-Hans\" hreflang=\"zh-Hans\" aria-label=\"切换到中文服务\">中文服务</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/door-repair/\">Home</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/services/door-repair/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/door-repair/\">Door Repairs</a>",
+          "<a href=\"/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/services/door-repair/\">Door Repairs</a>",
+          "<a href=\"/service-standards/\">Assessment, scope and repair follow-up</a>",
+          "<a href=\"/guides/prepare-household-maintenance-enquiry/\">Request and compare repair quotes</a>",
+          "<a class=\"text-link\" href=\"/services/doors-windows-screens/\">Door, Window &amp; Flyscreen Repairs <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/service-areas/cbd-north-adelaide/north-adelaide/\">North Adelaide handyman services <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/services/door-repair/\">Door Repairs</a>",
+          "<a class=\"button primary\" href=\"/contact/\">Request an assessment and quote<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/\">MEL ONE<span aria-hidden=\"true\">.</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google Reviews</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a href=\"/service-standards/\">Service standards</a>",
+          "<a href=\"/news/\">News</a>",
+          "<a href=\"/guides/\">Guides</a>",
+          "<a href=\"/faq/\">FAQ</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/case-studies/feed.json\">Case data (JSON)</a>",
+          "<a href=\"/service-areas/feed.json\">Area data (JSON)</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a href=\"/contact/\">Start an enquiry <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-01.png\" alt=\"North Adelaide front door before latch and closing repair\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-01-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-01-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-02.png\" alt=\"Close view of front door latch and strike plate in North Adelaide\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-02-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-02-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-03.png\" alt=\"Handyman adjusting a front door latch in North Adelaide\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-03-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-03-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-04.png\" alt=\"Completed front door repair at a North Adelaide home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-04-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-04-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>What should I note about a door that will not latch?</summary><p>This record concerns latch and closing alignment. Report whether your door rubs, fails to latch or has loose hardware; those symptoms do not necessarily need the same adjustment.</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\",\"name\":\"Front Door Repair in North Adelaide\",\"description\":\"A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#breadcrumb\"},\"keywords\":[\"Front Door Repair in North Adelaide\",\"property maintenance\",\"flyscreen repairs\",\"handyman services\",\"door repairs\",\"handyman\",\"Front Door Latch and Closing Misalignment\",\"Latch Adjustment and Repaired Closing Alignment\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#case-study\",\"headline\":\"Front Door Repair in North Adelaide\",\"description\":\"A photographed North Adelaide front-door repair case focused on the door latch and closing alignment.\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"en-AU\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-04.png\"],\"keywords\":[\"Front Door Repair in North Adelaide\",\"property maintenance\",\"flyscreen repairs\",\"handyman services\",\"door repairs\",\"handyman\",\"Front Door Latch and Closing Misalignment\",\"Latch Adjustment and Repaired Closing Alignment\"],\"about\":{\"@type\":\"Service\",\"name\":\"Door, Window & Flyscreen Repairs\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"North Adelaide, Adelaide, South Australia\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I note about a door that will not latch?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"This record concerns latch and closing alignment. Report whether your door rubs, fails to latch or has loose hardware; those symptoms do not necessarily need the same adjustment.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Door Repairs\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/door-repair/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Front Door Repair in North Adelaide\",\"item\":\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"}]}]}"
+        ]
+      },
+      "maskedHash": "d4bbac58136af99a839a29f5c595ba103efcf0f68d57eda2efc851a5a0cebad9"
+    },
+    {
+      "file": "case-studies/north-adelaide-timber-gate-repair/index.html",
+      "sha256": "df1a3b0a925fdaf1a8ebb917c82caac6f6dc07c936fa76893a8cc082380c1e65"
+    },
+    {
+      "file": "case-studies/norwood-flyscreen-repair/index.html",
+      "sha256": "519494e8e6e68649330fd55f8a699b0f5899b878523e193023d5f7ad12406758"
+    },
+    {
+      "file": "case-studies/prospect-gutter-cleaning/index.html",
+      "sha256": "6e088d73552083ec75559fe8cae36f438f5025c0bd5e55e12b9be6f4c372c78b"
+    },
+    {
+      "file": "case-studies/sliding-patio-door-roller-track-repair/index.html",
+      "sha256": "5f4666df3793b652d1eac1e3d279d5551dc1c09288693c14590b4381487e5b8f"
+    },
+    {
+      "file": "case-studies/stirling-deck-pergola-timber-repair/index.html",
+      "sha256": "696836b88c2c6e739b27b5b4f80fd096793ada2a64aa1c5fafec48526fba9c61"
+    },
+    {
+      "file": "case-studies/stirling-flat-pack-wardrobe-assembly/index.html",
+      "sha256": "de5798b48a65db1e2d5f8bb52bef7dbea20bec66af59a54575d50f4d6804dd5f"
+    },
+    {
+      "file": "case-studies/unley-kitchen-cabinet-repair/index.html",
+      "sha256": "d7a5c0b16f94092588ee0d0131b0b10b2617b85a370505c947892e6ad0ef7a46"
+    },
+    {
+      "file": "contact/index.html",
+      "sha256": "938e30e68fd79290553c680d9c2bbd24b2d21d0d3345d3c5375513adb37d8bff"
+    },
+    {
+      "file": "faq/index.html",
+      "sha256": "afd45923067aa10ea9d77e85cf1980c0cef2c2bf2ca61badbe3ec0596bb66590"
+    },
+    {
+      "file": "guides/field-notes-cleaning-removals-preparation/index.html",
+      "sha256": "5cc3ce6124dbebdf02d2f798bac210c0bf83a2956ee2779c30b6b1685dbde8b3"
+    },
+    {
+      "file": "guides/field-notes-doors-windows-screens-enquiry/index.html",
+      "sha256": "7b39490a03d663638b75ba658471d0ac4122c830122fb1abddcd657819d3be7a"
+    },
+    {
+      "file": "guides/field-notes-garden-outdoor-seasonal-preparation/index.html",
+      "sha256": "36c2bdf840b54885eb8b022a764d3eff3ea69dfdb65530ab96deaf2bfd0c7621"
+    },
+    {
+      "file": "guides/field-notes-grouping-multiple-household-jobs/index.html",
+      "sha256": "f54c0a70c69677ff2c332fc3c2f220188ce81da1144ce2e76aca68f51720ea5f"
+    },
+    {
+      "file": "guides/field-notes-pre-sale-home-maintenance-list/index.html",
+      "sha256": "bdd385a518136f444ebddb616412637a664c28189c096f4b750662e808729404"
+    },
+    {
+      "file": "guides/field-notes-rental-end-of-lease-maintenance-list/index.html",
+      "sha256": "77745a2cd1da26e80eaa6d407da2768bee4267041aa19b5bd18889ee178aa315"
+    },
+    {
+      "file": "guides/field-notes-roof-gutter-exterior-observations/index.html",
+      "sha256": "62f5bad5467dc8d3e5fd233051b52bf9d4eecf43bc226e2e52cea5d66c83efa5"
+    },
+    {
+      "file": "guides/field-notes-wall-interior-repairs-job-list/index.html",
+      "sha256": "27c8353554f6938c5eaa3401c3ee46294d7e47a9761e3bcf6c002789bda8b181"
+    },
+    {
+      "file": "guides/home-maintenance-walk-through-checklist/index.html",
+      "sha256": "c19490dba4f8c1d1d30ac02c93566614d354108f1ab3213005a5f470562cb205"
+    },
+    {
+      "file": "guides/index.html",
+      "sha256": "aad0690a8de7ade1b60ab799d9c5f33a4bbb93f0884d979f779058135d788cf0"
+    },
+    {
+      "file": "guides/prepare-household-maintenance-enquiry/index.html",
+      "sha256": "4c9f4dce7e4764ef11488b86259a489c854f44749ad4e0e6d85169ab90e23c8c"
+    },
+    {
+      "file": "how-it-works/index.html",
+      "sha256": "2f92256eec3a78cab9bed4792c0472b13ae31d91a63c2e689c792f662af33f6e"
+    },
+    {
+      "file": "index.html",
+      "sha256": "5bd3369ab717f3d3c4c397b90b5a4ef2d387ae48acae06e6be2e803cf41d643c"
+    },
+    {
+      "file": "news/after-rain-home-repair-order/index.html",
+      "sha256": "b686cee2e957e442b1e301025d0300c93dd34c37b9b400a6cff84799c7a5282e"
+    },
+    {
+      "file": "news/field-notes-clear-maintenance-handover/index.html",
+      "sha256": "579094e765bc06329d035fa65318737070cd5188ed7cfb630227e2e236f86f9b"
+    },
+    {
+      "file": "news/field-notes-one-household-job-list/index.html",
+      "sha256": "2e455985b3eb0380de5b39c4ff90b7b0c7055b2c6e4a5b345f57d6f5590ada18"
+    },
+    {
+      "file": "news/gutter-overflow-and-outdoor-repairs-after-rain/index.html",
+      "sha256": "6e318d867dc983000689b7ab24b906fa8819091eebd244900e72a304c82492a0"
+    },
+    {
+      "file": "news/index.html",
+      "sha256": "f88faf2295cce3a079b8a356e32dfc69c566e9e73efaa7087c5b065db23cfc01"
+    },
+    {
+      "file": "privacy/index.html",
+      "sha256": "718d35452bb637aef4721b5d80f6ff751454d014c31732a8d82b239a925cd3b7"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/aldgate/index.html",
+      "sha256": "730d0829ac3cf9d542db869aa120fbc1bedd8fd7f004f2c6cd807d259c2623ac"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/blackwood/index.html",
+      "sha256": "73f18438163851d710e57e34a5361f832b50111955d68523cd0fab63d28faef9"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/crafers/index.html",
+      "sha256": "62c2f02d785275881a6a2a22e1034269c0a26863dbd1a2ec72f062aa51106d06"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/index.html",
+      "sha256": "97a9c26df506a717896a51bfeadbe3857c7cbe841c1db8692d0fe6a0f98f24da"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/stirling/index.html",
+      "sha256": "7ed1f8e2c8286b86c96b4d56878a04b48fe3737db93e5eda2aca08cd1532fd65"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/adelaide-cbd/index.html",
+      "sha256": "e0fa119aa79f8b3549919282fea6b22f3cf18e0401e2adff2399f334ce92aed7"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/bowden/index.html",
+      "sha256": "1d077711cd73b234b21ef8eaf11468d28c37a0e5b9900ad413efbb4989ab1c36"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/index.html",
+      "sha256": "ce838dfeae51adae037894549440a4b79a7c8d10fb188b8f0d38a2f7860f0c4a"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/kent-town/index.html",
+      "sha256": "bb1ea0c26006c13b107b61c59edc08028ca0c67e375268a65b8eeaeff69b237c"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/north-adelaide/index.html",
+      "sha256": "939a36c81a35f8a6a4749bb171694deba539d0d77f93a1dee51ad51fee445fc4"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/burnside/index.html",
+      "sha256": "2a84fcf2fbd157f2fb75776c5fc4ea5fc9547f8425d535dbd90dfb6415662bad"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/index.html",
+      "sha256": "395677c93d65b75a89a8495c3da4f71003eb7fd1858b72556e7e31de4b8ed360"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/kensington/index.html",
+      "sha256": "e32a21ac781f3a0f2f990d3a26af0047bc58c2c24877d8157d597d52fe3f9a00"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/magill/index.html",
+      "sha256": "b4c4e8ccff8fff60fad0ca55ded6d8965c2494ec05ea58bb1e10d94e7db35b52"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/norwood/index.html",
+      "sha256": "0c6448fc1d498880de5e9163fb1f19a7acc98cde3c81d857b3eb503869598c61"
+    },
+    {
+      "file": "service-areas/index.html",
+      "sha256": "287043181dc74f1b942be09d01145b3c05a7b12f0b23c01a157c37f0e59a8652"
+    },
+    {
+      "file": "service-areas/inner-south/goodwood/index.html",
+      "sha256": "08f51eaddcd5f2b078e3cd8a2c83ce51410e795893c5f9306d6e936e2098dc33"
+    },
+    {
+      "file": "service-areas/inner-south/index.html",
+      "sha256": "37f52517f18a899f5029a2953e6aeb938c03bc37fd1e50f47ca3dc26616fcb2a"
+    },
+    {
+      "file": "service-areas/inner-south/millswood/index.html",
+      "sha256": "f32e90f452ded3f1defef29cc8cda48b4cc78359c75fd597c83231eaed98ab9c"
+    },
+    {
+      "file": "service-areas/inner-south/parkside/index.html",
+      "sha256": "f58e22b543febc80919d66d9b7b3ba1820eb4c70d53b7a79746eaae9c16ccd45"
+    },
+    {
+      "file": "service-areas/inner-south/unley/index.html",
+      "sha256": "68b75b36ada093ed2ad083f753b5ce08067e1592ee3cfbb701ed7d6dbd99e369"
+    },
+    {
+      "file": "service-areas/inner-west/brompton/index.html",
+      "sha256": "030d450914eae5fdbffdc56cea768361e194f30bd2d655da4a4fab0082cd5070"
+    },
+    {
+      "file": "service-areas/inner-west/index.html",
+      "sha256": "a6d2c5391a7e0f866a7436e5d4acaf770e9b6ce9af77ce7451fd62e559310d76"
+    },
+    {
+      "file": "service-areas/inner-west/mile-end/index.html",
+      "sha256": "c6fd7178b89516bdbed3acc9f3b92866395c355e9ca3e16c3a18814206bbcfbd"
+    },
+    {
+      "file": "service-areas/inner-west/thebarton/index.html",
+      "sha256": "8721b79cb66944d46c80c37410f76b1888edd1bcad779cc03029af9a9e8e608e"
+    },
+    {
+      "file": "service-areas/inner-west/torrensville/index.html",
+      "sha256": "78d9a50e6d5f808402b25c7c50ab20cf04393130745d228dbfddf011fddcf110"
+    },
+    {
+      "file": "service-areas/north-north-east/campbelltown/index.html",
+      "sha256": "f32aa80a2498d4154e0ef70181b0f967ab303282abc926ae32ab17838f43cfef"
+    },
+    {
+      "file": "service-areas/north-north-east/golden-grove/index.html",
+      "sha256": "e5d61d7c97ac6220347171d0f626b46567c6b24b74631e2c7a39623a4b8ec23f"
+    },
+    {
+      "file": "service-areas/north-north-east/index.html",
+      "sha256": "7f37e51ca0bfae770a4ab7c82d162bacf3cd0f01ea69d49842ac98cdf83ae88a"
+    },
+    {
+      "file": "service-areas/north-north-east/modbury/index.html",
+      "sha256": "01c95b01bf48d56fb386384796ac18af6e0da5492f00ddd2618fedfd28a57a25"
+    },
+    {
+      "file": "service-areas/north-north-east/prospect/index.html",
+      "sha256": "9844c70f7cb1c4d60569f4485fd494041c48318dfe34c7e85a0fda4e5c06c124"
+    },
+    {
+      "file": "service-areas/southern-suburbs/brighton/index.html",
+      "sha256": "15694677f8e3cb31449ff729ccac28651a8414e593f20aa2e848d8b71849cead"
+    },
+    {
+      "file": "service-areas/southern-suburbs/hallett-cove/index.html",
+      "sha256": "69bd4da063208d4d58f9ab6372761c9e105e4b96fd9b8f358cd245f5d269fd4d"
+    },
+    {
+      "file": "service-areas/southern-suburbs/index.html",
+      "sha256": "6f027358f3a2138a26f3c300b8c6cdbc1634833ca3e98fda55b79f913d013325"
+    },
+    {
+      "file": "service-areas/southern-suburbs/marion/index.html",
+      "sha256": "c68319461c86f847492841bf33174982760959d52d7dae3baafbc1a01fcabcc0"
+    },
+    {
+      "file": "service-areas/southern-suburbs/morphett-vale/index.html",
+      "sha256": "fc7fa20349c784181966ee738fad30737c459033d367e580813479f5542701ec"
+    },
+    {
+      "file": "service-areas/western-suburbs/glenelg/index.html",
+      "sha256": "8525d08c135e09988b62b164401f7a0c5d1fd83953819eeeabd851fe1edc292b"
+    },
+    {
+      "file": "service-areas/western-suburbs/henley-beach/index.html",
+      "sha256": "ae48eb853ec2207abc3c8722004fd6d28e114f5c19ebd968906513a187b5bb2e"
+    },
+    {
+      "file": "service-areas/western-suburbs/index.html",
+      "sha256": "9ca78b3f4104b5338f4a02aa51273c4be4bbbc6b60e404b4fe715870e2c03f2d"
+    },
+    {
+      "file": "service-areas/western-suburbs/semaphore/index.html",
+      "sha256": "46609552a5358a63646c244830c19ea0d313f4b28fb10d70d8b51e50ea393dce"
+    },
+    {
+      "file": "service-areas/western-suburbs/west-beach/index.html",
+      "sha256": "b9081398aa5593f429d67fc9cbacbebe45600c65e590228d5781c6eaa09509ce"
+    },
+    {
+      "file": "service-standards/index.html",
+      "sha256": "0762730c1b8908eea723d2b0f357fa2f87fb51197317cd9826aff2ab6ad585b7"
+    },
+    {
+      "file": "services/cabinet-drawer-repair/index.html",
+      "sha256": "876cbf04f3fef1a058561c24e53f407ec005398e92b6b57fa0f2cb85d585573b"
+    },
+    {
+      "file": "services/cleaning-removals-specialist-care/index.html",
+      "sha256": "37ced5d5a0397929e5d0dfef17d3cc06032ad82c53962ba849fe9635fa5a0621"
+    },
+    {
+      "file": "services/door-repair/index.html",
+      "sha256": "62bd61287cccc064ff56f12afaefdb24a92a1bb2128f1eb1254b5eec6f3240b2"
+    },
+    {
+      "file": "services/doors-windows-screens/index.html",
+      "sha256": "7bdc7394fc478d63e4197b89abf2dc01c0b2e467023c603747d5dc6086542fdd"
+    },
+    {
+      "file": "services/fence-gate-repair/index.html",
+      "sha256": "b07252c4a2e8ed6645816f0f9c8c3c6bb2642f619a0c90e5f19abb416b9a8183"
+    },
+    {
+      "file": "services/flat-pack-assembly/index.html",
+      "sha256": "d0b97b8cf2b14a63647cbf4ea667801451d2af058f82341d754f49dbd72a8995"
+    },
+    {
+      "file": "services/flyscreen-repair/index.html",
+      "sha256": "5d31743431505a84a6e3e79980bd2b6c42a78cddc663fc441afc3db02a9b4186"
+    },
+    {
+      "file": "services/garden-landscape-care/index.html",
+      "sha256": "35a8eb7e7451f71d89a71b588e34aaaa8e532c65d318714915b18db70d1835bb"
+    },
+    {
+      "file": "services/gutter-cleaning/index.html",
+      "sha256": "e5fc385f0682a7d4d3d373563ad21146342e40df0e7b74414b450a689695a771"
+    },
+    {
+      "file": "services/home-electrical-repairs/index.html",
+      "sha256": "0e58bba827f612a8fd21dee1414bd1411876cf7740ca64850dbc662ec99d496e"
+    },
+    {
+      "file": "services/home-repairs-renovation-support/index.html",
+      "sha256": "a740f9203c68b16e8ee464e58f5aa43c5dbd4062259784a0da9ce28fecbfbd52"
+    },
+    {
+      "file": "services/index.html",
+      "sha256": "21968bf49c1c063ab2492527afb4a8d9363856036078e4e036a31461526b9151"
+    },
+    {
+      "file": "services/interior-repairs-assembly/index.html",
+      "sha256": "101d8e395896c95f98dee0825114d48078f94a25c48d1430081362dff4d4137f"
+    },
+    {
+      "file": "services/maintenance-planning-inspection-support/index.html",
+      "sha256": "39c6edb21e6529395833b7bf807e26f4030f474a9dfc43e41aadd7ee81cb78ad"
+    },
+    {
+      "file": "services/outdoor-structures-fences-pools/index.html",
+      "sha256": "6474cb625e9158436038f47ab01be0c95ba13646a7b83e92392c4e75a0cdd803"
+    },
+    {
+      "file": "services/pressure-cleaning/index.html",
+      "sha256": "ded6fa717544b247c202c24366107e54b74a8a649baaaff58bcd6d6a63e1e813"
+    },
+    {
+      "file": "services/roof-gutter-exterior-care/index.html",
+      "sha256": "f5b73187dc95703d9ee59e98977afc41d2b60b22c89420e132caeebcf18af6c9"
+    },
+    {
+      "file": "services/sliding-door-repair/index.html",
+      "sha256": "f696c548de23fb95a681f9a363534b205538f93b0b4fc6b981eadf043d8f13b0"
+    },
+    {
+      "file": "services/wall-patching-repair/index.html",
+      "sha256": "719f7620f1c5a14f07c5068d28c0091a8d9765ffec718e1ee0506021eb351427"
+    },
+    {
+      "file": "zh/404.html",
+      "sha256": "1a24f9854a0b2a6feb0591296d5ac6dfe60bb7b3701f777f6d7e52146bdf76eb"
+    },
+    {
+      "file": "zh/about/index.html",
+      "sha256": "4c32105a477b14ab72d8bae3aed50c98ce8a4da748332d837a578d08e4738291"
+    },
+    {
+      "file": "zh/case-studies/adelaide-cbd-wall-repair/index.html",
+      "sha256": "b4269a66244aff9712141d0f231aeeded132be56a72782661dd1df46479d1570"
+    },
+    {
+      "file": "zh/case-studies/burnside-driveway-pressure-cleaning/index.html",
+      "sha256": "d80336d5a345a7389197a04269564373a7adef3b0e140160bc2c684245621ae0"
+    },
+    {
+      "file": "zh/case-studies/burnside-window-repair/index.html",
+      "sha256": "b55bfd2cad700d823435c3908545855dbb2a178798bae4957d7d2b0a0f160264"
+    },
+    {
+      "file": "zh/case-studies/goodwood-wall-repair/index.html",
+      "sha256": "3574597f4abf7502de5c92b794b44519f64642e1965eb3dc6f5a356e65c3174c"
+    },
+    {
+      "file": "zh/case-studies/henley-beach-sliding-screen-door-repair/index.html",
+      "sha256": "0caa81247215954da0b241ad21ecd551d92045d82cab286850981368fc239dc7"
+    },
+    {
+      "file": "zh/case-studies/index.html",
+      "sha256": "cc531a638cfbd9fa55da4788f76f6b79bb6cfe8ed07c5137e75054260e52452b"
+    },
+    {
+      "file": "zh/case-studies/kensington-furniture-assembly/index.html",
+      "sha256": "4c8a82accb03e5ec200c997c53001f6e4d82fe9c70f9a5116a6b1105d601b98c",
+      "route": "case-studies/kensington-furniture-assembly/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 1,
+          "text": "如需咨询类似的 Kensington 家具组装，请提供品牌和型号、包装箱数量、组装房间，以及停车或通行方面的注意事项。清晰照片有助于了解家具仍在箱中、已部分组装，还是只剩最后步骤。也可以列出同一住宅的其他小工作，方便 MEL ONE 逐项讨论。"
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "咨询 IKEA KALLAX 组装时，请提供型号、说明书、当前进度及缺件情况。我们会检查套件、空间和固定要求后商定范围。MEL ONE 独立于 IKEA，并非 IKEA 官方服务。相关服务范围： 平板包装与家具组装。"
+        }
+      ],
+      "protectedCopy": {
+        "head": "<head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Kensington IKEA KALLAX 家具组装 | MEL ONE</title><meta name=\"description\" content=\"Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。\"><meta name=\"robots\" content=\"index,follow\"><link rel=\"canonical\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/favicon-192.png\"><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\"><link rel=\"manifest\" href=\"/site.webmanifest\"><meta property=\"og:title\" content=\"Kensington IKEA KALLAX 家具组装 | MEL ONE\"><meta property=\"og:description\" content=\"Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。\"><meta property=\"og:url\" content=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"><link rel=\"stylesheet\" href=\"/assets/css/site.css\"><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-9KMWMVLZ3\"></script><script>document.documentElement.classList.add('nav-enhanced');document.addEventListener('error',function(event){if(event.target instanceof HTMLScriptElement&&event.target.src.endsWith('/assets/js/site.js'))document.documentElement.classList.remove('nav-enhanced')},true);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config', 'G-9KMWMVLZ3');</script><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\",\"name\":\"Kensington IKEA KALLAX 家具组装\",\"description\":\"Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#breadcrumb\"},\"keywords\":[\"Kensington IKEA KALLAX 家具组装\",\"家具组装\",\"IKEA KALLAX 板材、五金和说明书\",\"偏心连接件组装和完成后的书架\",\"IKEA KALLAX 板件、五金和说明书：其他房屋的咨询信息\",\"搁架型号与固定：组装比较\",\"搁架型号与固定：组装比较答疑\",\"相关维修指引\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#case-study\",\"headline\":\"Kensington IKEA KALLAX 家具组装\",\"description\":\"Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"zh-Hans\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-04.png\"],\"keywords\":[\"Kensington IKEA KALLAX 家具组装\",\"家具组装\",\"IKEA KALLAX 板材、五金和说明书\",\"偏心连接件组装和完成后的书架\",\"IKEA KALLAX 板件、五金和说明书：其他房屋的咨询信息\",\"搁架型号与固定：组装比较\",\"搁架型号与固定：组装比较答疑\",\"相关维修指引\"],\"about\":{\"@type\":\"Service\",\"name\":\"家具组装与室内维修\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Kensington，阿德莱德，南澳大利亚\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"申请 IKEA KALLAX 组装前应比较哪些信息？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"咨询 IKEA KALLAX 组装时，请提供型号、说明书、当前进度及缺件情况。我们会检查套件、空间和固定要求后商定范围。MEL ONE 独立于 IKEA，并非 IKEA 官方服务。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"平板包装与家具组装\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/flat-pack-assembly/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Kensington IKEA KALLAX 家具组装\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"}]}]}</script><script src=\"/assets/js/messages.zh.js\" defer=\"\"></script><script src=\"/assets/js/site.js\" defer=\"\"></script><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE 照片案例数据\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/feed.json\"><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE 服务区域数据\" href=\"https://www.adelaidehandymanmelone.com.au/zh/service-areas/feed.json\"><link rel=\"stylesheet\" href=\"/assets/css/footer.css\"><link rel=\"stylesheet\" href=\"/assets/css/service-navigation.css\"><link rel=\"alternate\" hreflang=\"en-AU\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"><link rel=\"alternate\" hreflang=\"zh-Hans\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"><link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/kensington-furniture-assembly/\"><meta property=\"og:locale\" content=\"zh_CN\"><meta property=\"og:locale:alternate\" content=\"en_AU\"><link rel=\"stylesheet\" href=\"/assets/css/bilingual.css\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/feed+json\" href=\"https://www.adelaidehandymanmelone.com.au/zh/feed.json\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/rss+xml\" href=\"https://www.adelaidehandymanmelone.com.au/zh/feed.xml\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/ld+json\" href=\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json\"></head>",
+        "title": "Kensington IKEA KALLAX 家具组装 | MEL ONE",
+        "h1": "Kensington IKEA KALLAX 家具组装",
+        "meta": "Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。",
+        "headings": [
+          "IKEA KALLAX 板材、五金和说明书",
+          "偏心连接件组装和完成后的书架",
+          "IKEA KALLAX 板件、五金和说明书：其他房屋的咨询信息",
+          "搁架型号与固定：组装比较",
+          "搁架型号与固定：组装比较答疑",
+          "相关维修指引",
+          "MEL ONE 相关页面",
+          "门、橱柜及其他家居维修",
+          "申请家居维修报价"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">跳至正文</a>",
+          "<a class=\"brand\" href=\"/zh/\" aria-label=\"MEL ONE 首页\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/zh/\">首页</a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\" aria-current=\"page\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/guides/\">维护笔记</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a class=\"header-enquiry\" href=\"/zh/contact/\">联系我们 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/case-studies/kensington-furniture-assembly/\" lang=\"en-AU\" hreflang=\"en-AU\" aria-label=\"Switch to English\">English</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/flat-pack-assembly/\">首页</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/services/flat-pack-assembly/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/flat-pack-assembly/\">平板包装与家具组装</a>",
+          "<a href=\"/zh/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/zh/services/flat-pack-assembly/\">平板包装与家具组装</a>",
+          "<a href=\"/zh/service-standards/\">评估、范围和维修跟进</a>",
+          "<a href=\"/zh/guides/field-notes-grouping-multiple-household-jobs/\">合并多项小型维修</a>",
+          "<a class=\"text-link\" href=\"/zh/services/interior-repairs-assembly/\">家具组装与室内维修 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/service-areas/eastern-suburbs/kensington/\">Kensington 家居维修服务 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/services/flat-pack-assembly/\">平板包装与家具组装</a>",
+          "<a class=\"button primary\" href=\"/zh/contact/\">申请评估和报价<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/zh/\">MEL ONE<span aria-hidden=\"true\">。</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google 评价</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a href=\"/zh/service-standards/\">服务标准</a>",
+          "<a href=\"/zh/news/\">资讯</a>",
+          "<a href=\"/zh/guides/\">指南</a>",
+          "<a href=\"/zh/faq/\">常见问题</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/zh/case-studies/feed.json\">案例数据（JSON）</a>",
+          "<a href=\"/zh/service-areas/feed.json\">区域数据（JSON）</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a href=\"/zh/contact/\">开始咨询 <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-01.png\" alt=\"Kensington 待组装的 IKEA KALLAX 板式部件及说明书\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-01-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-01-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-02.png\" alt=\"维修师傅在 Kensington 组装 IKEA KALLAX 搁架柜\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-02-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-02-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-03.png\" alt=\"Kensington 板式家具组装过程中安装五金的近照\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-03-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-03-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/kensington-furniture-assembly-04.png\" alt=\"Kensington 住宅已组装完成的 IKEA KALLAX 书架\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/kensington-furniture-assembly-04-480.webp 480w, /assets/images/responsive/kensington-furniture-assembly-04-960.webp 960w, /assets/images/responsive/kensington-furniture-assembly-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>申请 IKEA KALLAX 组装前应比较哪些信息？</summary><p>咨询 IKEA KALLAX 组装时，请提供型号、说明书、当前进度及缺件情况。我们会检查套件、空间和固定要求后商定范围。MEL ONE 独立于 IKEA，并非 IKEA 官方服务。</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\",\"name\":\"Kensington IKEA KALLAX 家具组装\",\"description\":\"Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#breadcrumb\"},\"keywords\":[\"Kensington IKEA KALLAX 家具组装\",\"家具组装\",\"IKEA KALLAX 板材、五金和说明书\",\"偏心连接件组装和完成后的书架\",\"IKEA KALLAX 板件、五金和说明书：其他房屋的咨询信息\",\"搁架型号与固定：组装比较\",\"搁架型号与固定：组装比较答疑\",\"相关维修指引\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#case-study\",\"headline\":\"Kensington IKEA KALLAX 家具组装\",\"description\":\"Kensington 板式家具组装实拍案例，展示拆包、组装及完成后的书架。\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"zh-Hans\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/kensington-furniture-assembly-04.png\"],\"keywords\":[\"Kensington IKEA KALLAX 家具组装\",\"家具组装\",\"IKEA KALLAX 板材、五金和说明书\",\"偏心连接件组装和完成后的书架\",\"IKEA KALLAX 板件、五金和说明书：其他房屋的咨询信息\",\"搁架型号与固定：组装比较\",\"搁架型号与固定：组装比较答疑\",\"相关维修指引\"],\"about\":{\"@type\":\"Service\",\"name\":\"家具组装与室内维修\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Kensington，阿德莱德，南澳大利亚\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"申请 IKEA KALLAX 组装前应比较哪些信息？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"咨询 IKEA KALLAX 组装时，请提供型号、说明书、当前进度及缺件情况。我们会检查套件、空间和固定要求后商定范围。MEL ONE 独立于 IKEA，并非 IKEA 官方服务。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"平板包装与家具组装\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/flat-pack-assembly/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Kensington IKEA KALLAX 家具组装\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/kensington-furniture-assembly/\"}]}]}"
+        ]
+      },
+      "maskedHash": "8a25433864817bd5e2dc046814908be1fda6cd5bc47b5d935e369c627b4ecda2"
+    },
+    {
+      "file": "zh/case-studies/kitchen-drawer-runner-repair/index.html",
+      "sha256": "29428670ba155e1ec521a220382e25a82bcaf3d6d30e5b66aa92d506a3911e49"
+    },
+    {
+      "file": "zh/case-studies/marion-shower-screen-repair/index.html",
+      "sha256": "2b7d22d754e7044602ab6ba6f054760dc4ab8d17a0e3956af1ce8207b72a4210"
+    },
+    {
+      "file": "zh/case-studies/marion-wardrobe-sliding-door-repair/index.html",
+      "sha256": "786e1fe7150352458bd679959fa106bc77db2936d386675705c1c182b4d818b2"
+    },
+    {
+      "file": "zh/case-studies/mile-end-fence-repair/index.html",
+      "sha256": "5144c85730524a86b2671fe110b1306d7947e96a3eec7f62763bdf027d7c18cc"
+    },
+    {
+      "file": "zh/case-studies/modbury-garden-pruning-tidy-up/index.html",
+      "sha256": "d22129d734b4dafe1a9d0958041ca04472ba1f5d078f960659bdae39d397de12"
+    },
+    {
+      "file": "zh/case-studies/modbury-timber-fence-repair-assessment/index.html",
+      "sha256": "9c891c3426ca6b932862438c8cd4558f7f0313c98a91216b87ed62ecf4974d20"
+    },
+    {
+      "file": "zh/case-studies/north-adelaide-door-repair/index.html",
+      "sha256": "de7c90bada4a2c8d74c9e44f2651bf262367fe73157e92b8ce459cc80b5241e5",
+      "route": "case-studies/north-adelaide-door-repair/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 0,
+          "text": "门维修通常始于日常症状：门卡住、在框内位置不合适、关闭时需要额外用力，或门闩侧出现明显缝隙。清楚的咨询应描述正常使用时发生的情况，并在安全可拍摄的条件下提供门边、铰链、把手和锁扣板的清晰照片。"
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "本记录涉及门闩和关闭对齐。请说明您家门是否擦碰、无法锁合或五金松动；这些症状不一定需要相同调整。比较维修范围： 门维修。"
+        }
+      ],
+      "protectedCopy": {
+        "head": "<head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>North Adelaide 入户门维修 | MEL ONE</title><meta name=\"description\" content=\"North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。\"><meta name=\"robots\" content=\"index,follow\"><link rel=\"canonical\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/favicon-192.png\"><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\"><link rel=\"manifest\" href=\"/site.webmanifest\"><meta property=\"og:title\" content=\"North Adelaide 入户门维修 | MEL ONE\"><meta property=\"og:description\" content=\"North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。\"><meta property=\"og:url\" content=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:image\" content=\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"><link rel=\"stylesheet\" href=\"/assets/css/site.css\"><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-9KMWMVLZ3\"></script><script>document.documentElement.classList.add('nav-enhanced');document.addEventListener('error',function(event){if(event.target instanceof HTMLScriptElement&&event.target.src.endsWith('/assets/js/site.js'))document.documentElement.classList.remove('nav-enhanced')},true);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config', 'G-9KMWMVLZ3');</script><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\",\"name\":\"North Adelaide 入户门维修\",\"description\":\"North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#breadcrumb\"},\"keywords\":[\"North Adelaide 入户门维修\",\"纱窗维修\",\"门维修\",\"前门门闩和关闭错位\",\"门闩调整和关闭对齐修复\",\"前门门闩及关闭错位：其他房屋的咨询信息\",\"门闩接触或铰链松动：维修比较\",\"门闩接触或铰链松动：维修比较答疑\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#case-study\",\"headline\":\"North Adelaide 入户门维修\",\"description\":\"North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"zh-Hans\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-04.png\"],\"keywords\":[\"North Adelaide 入户门维修\",\"纱窗维修\",\"门维修\",\"前门门闩和关闭错位\",\"门闩调整和关闭对齐修复\",\"前门门闩及关闭错位：其他房屋的咨询信息\",\"门闩接触或铰链松动：维修比较\",\"门闩接触或铰链松动：维修比较答疑\"],\"about\":{\"@type\":\"Service\",\"name\":\"门窗和纱窗维修\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"North Adelaide，阿德莱德，南澳大利亚\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"门无法扣上时，应该记录哪些情况？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"此记录涉及门闩和关闭对齐。请说明您的门是否摩擦、无法扣闩或五金松动；这些症状未必需要同样调整。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"门维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/door-repair/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"North Adelaide 入户门维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"}]}]}</script><script src=\"/assets/js/messages.zh.js\" defer=\"\"></script><script src=\"/assets/js/site.js\" defer=\"\"></script><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE 照片案例数据\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/feed.json\"><link rel=\"alternate\" type=\"application/json\" title=\"MEL ONE 服务区域数据\" href=\"https://www.adelaidehandymanmelone.com.au/zh/service-areas/feed.json\"><link rel=\"stylesheet\" href=\"/assets/css/footer.css\"><link rel=\"stylesheet\" href=\"/assets/css/service-navigation.css\"><link rel=\"alternate\" hreflang=\"en-AU\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"><link rel=\"alternate\" hreflang=\"zh-Hans\" href=\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"><link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.adelaidehandymanmelone.com.au/case-studies/north-adelaide-door-repair/\"><meta property=\"og:locale\" content=\"zh_CN\"><meta property=\"og:locale:alternate\" content=\"en_AU\"><link rel=\"stylesheet\" href=\"/assets/css/bilingual.css\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/feed+json\" href=\"https://www.adelaidehandymanmelone.com.au/zh/feed.json\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/rss+xml\" href=\"https://www.adelaidehandymanmelone.com.au/zh/feed.xml\"><link data-machine-feed=\"\" rel=\"alternate\" type=\"application/ld+json\" href=\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json\"></head>",
+        "title": "North Adelaide 入户门维修 | MEL ONE",
+        "h1": "North Adelaide 入户门维修",
+        "meta": "North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。",
+        "headings": [
+          "前门门闩和关闭错位",
+          "门闩调整和关闭对齐修复",
+          "前门门闩及关闭错位：其他房屋的咨询信息",
+          "门闩接触或铰链松动：维修比较",
+          "门闩接触或铰链松动：维修比较答疑",
+          "相关维修指引",
+          "MEL ONE 相关页面",
+          "门、橱柜及其他家居维修",
+          "申请家居维修报价"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">跳至正文</a>",
+          "<a class=\"brand\" href=\"/zh/\" aria-label=\"MEL ONE 首页\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/zh/\">首页</a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\" aria-current=\"page\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/guides/\">维护笔记</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a class=\"header-enquiry\" href=\"/zh/contact/\">联系我们 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/case-studies/north-adelaide-door-repair/\" lang=\"en-AU\" hreflang=\"en-AU\" aria-label=\"Switch to English\">English</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/door-repair/\">首页</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/services/door-repair/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/door-repair/\">门维修</a>",
+          "<a href=\"/zh/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/zh/services/door-repair/\">门维修</a>",
+          "<a href=\"/zh/service-standards/\">评估、范围和维修跟进</a>",
+          "<a href=\"/zh/guides/prepare-household-maintenance-enquiry/\">申请并比较维修报价</a>",
+          "<a class=\"text-link\" href=\"/zh/services/doors-windows-screens/\">门窗和纱窗维修 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/service-areas/cbd-north-adelaide/north-adelaide/\">North Adelaide 家居维修服务 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/services/door-repair/\">门维修</a>",
+          "<a class=\"button primary\" href=\"/zh/contact/\">申请评估和报价<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/zh/\">MEL ONE<span aria-hidden=\"true\">。</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google 评价</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a href=\"/zh/service-standards/\">服务标准</a>",
+          "<a href=\"/zh/news/\">资讯</a>",
+          "<a href=\"/zh/guides/\">指南</a>",
+          "<a href=\"/zh/faq/\">常见问题</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/zh/case-studies/feed.json\">案例数据（JSON）</a>",
+          "<a href=\"/zh/service-areas/feed.json\">区域数据（JSON）</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a href=\"/zh/contact/\">开始咨询 <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-01.png\" alt=\"North Adelaide 前门门闩及关闭维修前的状态\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-01-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-01-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-02.png\" alt=\"North Adelaide 入户门门闩及锁扣板近照\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-02-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-02-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-03.png\" alt=\"维修人员在 North Adelaide 调整前门门闩\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-03-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-03-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/north-adelaide-door-repair-04.png\" alt=\"North Adelaide 住宅完成后的入户门维修\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-door-repair-04-480.webp 480w, /assets/images/responsive/north-adelaide-door-repair-04-960.webp 960w, /assets/images/responsive/north-adelaide-door-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>门无法扣上时，应该记录哪些情况？</summary><p>此记录涉及门闩和关闭对齐。请说明您的门是否摩擦、无法扣闩或五金松动；这些症状未必需要同样调整。</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\",\"name\":\"North Adelaide 入户门维修\",\"description\":\"North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#breadcrumb\"},\"keywords\":[\"North Adelaide 入户门维修\",\"纱窗维修\",\"门维修\",\"前门门闩和关闭错位\",\"门闩调整和关闭对齐修复\",\"前门门闩及关闭错位：其他房屋的咨询信息\",\"门闩接触或铰链松动：维修比较\",\"门闩接触或铰链松动：维修比较答疑\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#case-study\",\"headline\":\"North Adelaide 入户门维修\",\"description\":\"North Adelaide 入户门维修照片，重点展示门闩及闭合对齐处理。\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"zh-Hans\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/north-adelaide-door-repair-04.png\"],\"keywords\":[\"North Adelaide 入户门维修\",\"纱窗维修\",\"门维修\",\"前门门闩和关闭错位\",\"门闩调整和关闭对齐修复\",\"前门门闩及关闭错位：其他房屋的咨询信息\",\"门闩接触或铰链松动：维修比较\",\"门闩接触或铰链松动：维修比较答疑\"],\"about\":{\"@type\":\"Service\",\"name\":\"门窗和纱窗维修\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"North Adelaide，阿德莱德，南澳大利亚\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"门无法扣上时，应该记录哪些情况？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"此记录涉及门闩和关闭对齐。请说明您的门是否摩擦、无法扣闩或五金松动；这些症状未必需要同样调整。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"门维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/door-repair/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"North Adelaide 入户门维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/north-adelaide-door-repair/\"}]}]}"
+        ]
+      },
+      "maskedHash": "593a98279c6ac2118f8b9aaf1dcc681f261672286255313c881253b0e3cd8631"
+    },
+    {
+      "file": "zh/case-studies/north-adelaide-timber-gate-repair/index.html",
+      "sha256": "c37aa77f83dd98cfe60a3c3e8a2222595acba771fae2840fac919c66967735b6"
+    },
+    {
+      "file": "zh/case-studies/norwood-flyscreen-repair/index.html",
+      "sha256": "ee97ad67d4047ec5ed8c5747c221cc0282563633f36daf0de55bb41c08b2ace0"
+    },
+    {
+      "file": "zh/case-studies/prospect-gutter-cleaning/index.html",
+      "sha256": "9efea0756e6585a899b0cefdc61c75158dc9261b463cf88f20722a7fce9188fd"
+    },
+    {
+      "file": "zh/case-studies/sliding-patio-door-roller-track-repair/index.html",
+      "sha256": "c430ee723c5af96be4b6e9eef2c08f7f95ac260978c60d084a946b062ff4e6bd"
+    },
+    {
+      "file": "zh/case-studies/stirling-deck-pergola-timber-repair/index.html",
+      "sha256": "f8ec7bc090d2ba3a3f4ef4c9b14625395e9531dc77f9e037d403a74ccf4f93d9"
+    },
+    {
+      "file": "zh/case-studies/stirling-flat-pack-wardrobe-assembly/index.html",
+      "sha256": "2f10c5767bbc5d9d3d09a0e0e14d10dc05bfeac988a6d5fdfec032947c5e0f5b"
+    },
+    {
+      "file": "zh/case-studies/unley-kitchen-cabinet-repair/index.html",
+      "sha256": "48c5822a4bff6fa79db929bd6298dc17b1d1c268bc9b49463e359309ff8cce12"
+    },
+    {
+      "file": "zh/contact/index.html",
+      "sha256": "79d01170aeaf25e1f1de119a8e80febe9f3c90aae88993e2082f234957dd481e"
+    },
+    {
+      "file": "zh/faq/index.html",
+      "sha256": "e0068cdc58d04d5a91152415ad94413a24c721da3c444ed31b2b3392ad9d03a8"
+    },
+    {
+      "file": "zh/guides/field-notes-cleaning-removals-preparation/index.html",
+      "sha256": "c8fb0d52d5ac8a85c0bc06cba98e7c43b4e5779d4b4660cb65219385cc8ca03f"
+    },
+    {
+      "file": "zh/guides/field-notes-doors-windows-screens-enquiry/index.html",
+      "sha256": "55615771111f9bc59ea981b8d1d56a9d3b393a790a94911e65873ff4869db7a2"
+    },
+    {
+      "file": "zh/guides/field-notes-garden-outdoor-seasonal-preparation/index.html",
+      "sha256": "9c4504c1015348fb4a537faa1f30bc8e10c16593548e75a6a13c62ddb578ae6f"
+    },
+    {
+      "file": "zh/guides/field-notes-grouping-multiple-household-jobs/index.html",
+      "sha256": "a9d4b43ffad7cbe933a196729362d4b26b3137387d1895a5ba9299f3c883ab43"
+    },
+    {
+      "file": "zh/guides/field-notes-pre-sale-home-maintenance-list/index.html",
+      "sha256": "c2905da93695641b1d37f45be407a34c2428592f36763407a9599ce4532aff05"
+    },
+    {
+      "file": "zh/guides/field-notes-rental-end-of-lease-maintenance-list/index.html",
+      "sha256": "391dbd94cd9245deae6d0ad6b9433e287679416fd5c724c0d687693eea44d677"
+    },
+    {
+      "file": "zh/guides/field-notes-roof-gutter-exterior-observations/index.html",
+      "sha256": "49f61a69d370f2146c43f4e7189f9bb614d7f74f9e98a5d9486706942d57dc68"
+    },
+    {
+      "file": "zh/guides/field-notes-wall-interior-repairs-job-list/index.html",
+      "sha256": "dd91667357e8afa224db0bb03d8b6deff9aa963c382039fa1d18624a1bf0be31"
+    },
+    {
+      "file": "zh/guides/home-maintenance-walk-through-checklist/index.html",
+      "sha256": "dbdb2e133ecac9ac37fc4c0006c3b8a9135b12d9e68965ee1a508e5ddbeee668"
+    },
+    {
+      "file": "zh/guides/index.html",
+      "sha256": "d72910b0253eb25c0a4ebe938ab46c14e500975b654be6b4228a4f2fadc6ff8a"
+    },
+    {
+      "file": "zh/guides/prepare-household-maintenance-enquiry/index.html",
+      "sha256": "c7fa375346edf830918e56a77dd83fa47be0dd60040b0ea922a7c654da55d3ae"
+    },
+    {
+      "file": "zh/how-it-works/index.html",
+      "sha256": "890f07733116f10f8fa4dce0f8d2789b3963974d984c1cbf1e7bc7f4efc1af96"
+    },
+    {
+      "file": "zh/index.html",
+      "sha256": "cff05f5e68b664ad29d5da63ebccd1e86f846e945b1a243ed5c5d4412078427a"
+    },
+    {
+      "file": "zh/news/after-rain-home-repair-order/index.html",
+      "sha256": "24b2944a6ef4e3d25741daeba87ca1869b9469d5e9ac74cf344485cbb8271ead"
+    },
+    {
+      "file": "zh/news/field-notes-clear-maintenance-handover/index.html",
+      "sha256": "60f73eb5b5e3afceb4fe8147d5a8b5d3099f279cc707724309acb527ab91b429"
+    },
+    {
+      "file": "zh/news/field-notes-one-household-job-list/index.html",
+      "sha256": "3afe45071d41fe6bea28ede7804d60869baa2f0b375b5ac85fada64cf96b1e22"
+    },
+    {
+      "file": "zh/news/gutter-overflow-and-outdoor-repairs-after-rain/index.html",
+      "sha256": "ad4425f904bed9042863371d91fff7162a816f56283a1a4bfe90f3b795b1b27f"
+    },
+    {
+      "file": "zh/news/index.html",
+      "sha256": "c0b902e079cd43b72e517a0bfd74e4cb3f12e3b2cc948d434b27df91b3384ccc"
+    },
+    {
+      "file": "zh/privacy/index.html",
+      "sha256": "b218d9dc993c365123cbc5bd72079dbab193af1b8ba89aa11da0bcf3a148a3ef"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/aldgate/index.html",
+      "sha256": "6ae610818a3a4f92b8cdf293d7e86a040c8c002583ed25f3cb9d1d90c44a98e2"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/blackwood/index.html",
+      "sha256": "5a530cc33cc3a5f038705a3e5dbb55b18f1f64390b3445f66616d2f236b3cf4c"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/crafers/index.html",
+      "sha256": "c9edabb5e821b4b9aa9f258611e376f7c56d26ca72154b55ce09ee71a4cc0e74"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/index.html",
+      "sha256": "964c8512cd2bbfffe3d58dca1519279ad2820bde740b9727f75dedc0b5041b74"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/stirling/index.html",
+      "sha256": "6a8b0fcb382e8ae467a50aa837ecd3f2721cc2e5282879c568dc1a9251e6045a"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/adelaide-cbd/index.html",
+      "sha256": "5ff0b638e77e4fc16f7beb7dd95982cf1150fd8cfef32aa2c63de7a70dff2fac"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/bowden/index.html",
+      "sha256": "f0445f7377f67a1e929b497be93c77876d5bc93610efdefe4f49faea10b3cd92"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/index.html",
+      "sha256": "8313b81a1e5e4896d4c308831f7b3f4bd1d1681fb89843d56a7b202920f119cb"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/kent-town/index.html",
+      "sha256": "00fc9154e3494b180dba2052410b016c20364a79eda9564e85d9eeb675611c5c"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/north-adelaide/index.html",
+      "sha256": "17d63c663f3452ac8a1f2c8ad5d8c92ccf84b1cb67e2185d9e70a7db1231a513"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/burnside/index.html",
+      "sha256": "c6eda4f8e2de1287680e62003576dc34e11f76204590aa5ee568c219a297c671"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/index.html",
+      "sha256": "02eeda20b9b0d6d36406ca9a77563a19aaa2bca0220a60b97dc526464e79ada7"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/kensington/index.html",
+      "sha256": "69f5316284a72a3739c4828f787eee404cd6e412847faad0b799039229a32955"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/magill/index.html",
+      "sha256": "229eab824683692da5857229c5a642e70241ddc7ea19c11d841147388ff1ae2b"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/norwood/index.html",
+      "sha256": "da37b494676ac8645bb9b5e944b3a6516842b4780fbd2fbb8d3fea83afa01e38"
+    },
+    {
+      "file": "zh/service-areas/index.html",
+      "sha256": "b5f2d9f7df9bc1f40129c2e08a210cfce91f5742b591ea2d741eb0d23023d3fc"
+    },
+    {
+      "file": "zh/service-areas/inner-south/goodwood/index.html",
+      "sha256": "d74a6906167f2dccef17183735111ea5ddb9b02fd5948aff8958d9bc773de913"
+    },
+    {
+      "file": "zh/service-areas/inner-south/index.html",
+      "sha256": "075b46fe0c5fbba4336ec4af28637f1c9a3f08f71e57b776deb6e96289ad748f"
+    },
+    {
+      "file": "zh/service-areas/inner-south/millswood/index.html",
+      "sha256": "af1c295f61b3803d23dd430381f28f4db318a365d6892c09599075543fd5a1de"
+    },
+    {
+      "file": "zh/service-areas/inner-south/parkside/index.html",
+      "sha256": "99d10e4f8e1bf2cea82ee2d4c541575af8db9841ad111b97af78a00c3e73f15f"
+    },
+    {
+      "file": "zh/service-areas/inner-south/unley/index.html",
+      "sha256": "3dabfcf8750dfcb63146d8fe9328f6d45d8834874f88874a247771ee7a75adf2"
+    },
+    {
+      "file": "zh/service-areas/inner-west/brompton/index.html",
+      "sha256": "0fdf4bbd895f47e9e448ff3836d135123ddbd8243342929bdd69f0e96b5a7489"
+    },
+    {
+      "file": "zh/service-areas/inner-west/index.html",
+      "sha256": "b65f289a0b09182c88c072ff055606e18e6dc84727bbcbb8e13baa9b2d50517d"
+    },
+    {
+      "file": "zh/service-areas/inner-west/mile-end/index.html",
+      "sha256": "bd58c30e90719e96fe820f942032539d67f07b9ea5b2049ab58b447c141daed9"
+    },
+    {
+      "file": "zh/service-areas/inner-west/thebarton/index.html",
+      "sha256": "ec54186666eaf5fd95fe9c34b11762678920c691a6c3397ae228e2a2fbf38d11"
+    },
+    {
+      "file": "zh/service-areas/inner-west/torrensville/index.html",
+      "sha256": "cf5527bcb00451112a415b248ee59a7892972f7268f20039f04e44e2979b86e6"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/campbelltown/index.html",
+      "sha256": "2d15282f7e0e7fb93df37443afe4b7664a0de957f26b08c4f74fccf5c7afbef3"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/golden-grove/index.html",
+      "sha256": "251f7da13818d6de9fc4c6dd44166c44fc1828699c6d1681a71584cf5a097b29"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/index.html",
+      "sha256": "21bafe944c77c0ef997682eb8e5375e9efd667b611addd0238d236df1c015bf9"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/modbury/index.html",
+      "sha256": "56e8d703561ea7dd133d85c6f0f3777134806a9cabc6f21bec040cb4e4fd9a12"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/prospect/index.html",
+      "sha256": "459a5634b5bf0e2a76987d57e6b1896539fe3ab88ffcf1d9a617e0148a8fa521"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/brighton/index.html",
+      "sha256": "a693db410f02f695bf14699fa3d1960b23ae12e9df292397d6a8db7a8fc723e4"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/hallett-cove/index.html",
+      "sha256": "8e348b0282c338466876b2da110f948c9711345b605fba7122430aef35367f82"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/index.html",
+      "sha256": "3832a2b7265b7fcb9b41241c221a1efdce68e3b922b2074c43362618268bffa0"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/marion/index.html",
+      "sha256": "ab74f9f8d7ef37f4afd218a7bb1fd8888322ed98dc1a474bf2bbec53fbab6900"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/morphett-vale/index.html",
+      "sha256": "96207d6404bb08b6811f6491a11cf7118e9b60454ab77f0749a759c6d7362d74"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/glenelg/index.html",
+      "sha256": "02edb8b412f2a9f3bb9ae6c1235eec0c38c5fdbead01fa943bbe3a86187a554b"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/henley-beach/index.html",
+      "sha256": "4d3de0389373c8dd5670388281d44f0b2d9ea00384a85d25dccefb9f597bf577"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/index.html",
+      "sha256": "98acc5359989dcde946b2cf20cd2d50675c32f9534bcd4a5858115eb5ddd19ae"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/semaphore/index.html",
+      "sha256": "b7dd3c1552d301c14417df852ba081f14905889546ec7a3ffbc9845dd83aba1a"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/west-beach/index.html",
+      "sha256": "640c1091ce30f866ad638d7f33959a05df7ba5ecf3c39d6824cdaa442be650e6"
+    },
+    {
+      "file": "zh/service-standards/index.html",
+      "sha256": "ff13e53e2451eb651e11292547b83f2b7450579d098fce3b907e9392d61c33ab"
+    },
+    {
+      "file": "zh/services/cabinet-drawer-repair/index.html",
+      "sha256": "dfc1b470fb8e00d7b2e7ffbf0a8adb82e8b2f5ce58a650b9dd2c8e1d4ad5c858"
+    },
+    {
+      "file": "zh/services/cleaning-removals-specialist-care/index.html",
+      "sha256": "aab866fca4c3e305d9ad8b5d2bf83d0099b282ef26a0dc2fedcf6ec26ae5405c"
+    },
+    {
+      "file": "zh/services/door-repair/index.html",
+      "sha256": "fd2eec2a43bbf0aa9f962a34e498798c1c1e95ecc3d4aabd5bc8b3b974e9db4d"
+    },
+    {
+      "file": "zh/services/doors-windows-screens/index.html",
+      "sha256": "77825b6d33feaac0b8caa5e55fe1a1cf752d3e546ccd483a4e86d222a4208453"
+    },
+    {
+      "file": "zh/services/fence-gate-repair/index.html",
+      "sha256": "1e61c604498ce08a1946ea68f23f5681984bb8ec94a5b7943fbc797f9aeb594d"
+    },
+    {
+      "file": "zh/services/flat-pack-assembly/index.html",
+      "sha256": "f07d6474164f98b5cc3741c643d3ed7f0aec0b80c08efd9123e4c83e9a906476"
+    },
+    {
+      "file": "zh/services/flyscreen-repair/index.html",
+      "sha256": "5fb2b9c1009830b7064aa6dcaccde5f757c312ea5c3347a14b9eb5636e2ce7a2"
+    },
+    {
+      "file": "zh/services/garden-landscape-care/index.html",
+      "sha256": "b96348a15cfcc572e8737360e8ed04c4e05078333c62ce70ceeae4e0ce25c356"
+    },
+    {
+      "file": "zh/services/gutter-cleaning/index.html",
+      "sha256": "1f5ebe4fc6370426ba513eb89f0d11d93607dc347cfe9239183fa5dfd9011ad6"
+    },
+    {
+      "file": "zh/services/home-electrical-repairs/index.html",
+      "sha256": "c9bb6e751808411110c9e9b89de722072742fa09ccd57c054e94cdb9362b733f"
+    },
+    {
+      "file": "zh/services/home-repairs-renovation-support/index.html",
+      "sha256": "c60bd45ff149dfcd1569c9f883ffb3ed71bc5c5563cd1ffd7c1a18a4f4dd6c9c"
+    },
+    {
+      "file": "zh/services/index.html",
+      "sha256": "4b2f1fb3eb3ed08da67db427690fa55917db1d875f3c2698b45835fd9bc61766"
+    },
+    {
+      "file": "zh/services/interior-repairs-assembly/index.html",
+      "sha256": "dab03ad062fdcc9def818fffbe46d22c493d5713ed74bd4f5ae534257472c935"
+    },
+    {
+      "file": "zh/services/maintenance-planning-inspection-support/index.html",
+      "sha256": "6b3400f154643d6eedf0310d459d57aecfe0325d78283775045fda2ea2bfe43a"
+    },
+    {
+      "file": "zh/services/outdoor-structures-fences-pools/index.html",
+      "sha256": "9b28dc8db5bbaabda2255f969f7ed89d33680542ff26e844eea66ebe6b3aeb74"
+    },
+    {
+      "file": "zh/services/pressure-cleaning/index.html",
+      "sha256": "2b288ce2aef5b63c14d2d7622e6ea97592e1814bbd60524221a971872723e53a"
+    },
+    {
+      "file": "zh/services/roof-gutter-exterior-care/index.html",
+      "sha256": "ad883acefcaa2a6699b4510e7e6d3f5d67af6f33c8cb545f39c9a7994bb940c1"
+    },
+    {
+      "file": "zh/services/sliding-door-repair/index.html",
+      "sha256": "cd3e7d7ccb368c0456384e6c8d8bbd0258e9b71ce39f0354d8f2e19e212e3e34"
+    },
+    {
+      "file": "zh/services/wall-patching-repair/index.html",
+      "sha256": "2d0efbba48c144213b729824d234ae1c702859561f5334c60c15b56bcae52d85"
+    }
+  ]
+}

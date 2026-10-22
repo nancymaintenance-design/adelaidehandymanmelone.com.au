@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {frontAssemblyFiles} from './helpers/front-assembly-baseline.mjs';
 import {screenWardrobeFiles} from './helpers/screen-wardrobe-baseline.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -6,8 +7,8 @@ import {followupDigest,followupSnapshot,followupParagraphs} from './helpers/p1-f
 import {seasonalFiles} from './helpers/seasonal-copy-baseline.mjs';
 const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/p1-followup-20261022-baseline.json',import.meta.url),'utf8'));
 const read=f=>fs.readFileSync(new URL('../public/'+f,import.meta.url),'utf8');
-test('190 other pages including CBD remain identical; eight seasonal pages have independent paragraph checks',()=>{
- let count=0;for(const old of baseline.pages)if(!old.route&&!seasonalFiles.has(old.file)&&!screenWardrobeFiles.has(old.file)){assert.equal(followupDigest(read(old.file)),old.sha256,old.file);count++;}assert.equal(count,190);
+test('186 other pages including CBD remain identical; eight seasonal pages have independent paragraph checks',()=>{
+ let count=0;for(const old of baseline.pages)if(!old.route&&!seasonalFiles.has(old.file)&&!screenWardrobeFiles.has(old.file)&&!frontAssemblyFiles.has(old.file)){assert.equal(followupDigest(read(old.file)),old.sha256,old.file);count++;}assert.equal(count,186);
 });
 for(const route of Object.keys(followupParagraphs))test(`${route}: concise EN/ZH paragraphs retain facts, photos, all links, headings, FAQ and layout`,()=>{
  for(const old of baseline.pages.filter(p=>p.route===route)){

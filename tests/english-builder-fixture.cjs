@@ -49,5 +49,6 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   source = source.replace("import { applyP1FollowupCopy } from './src/p1-followup-copy.mjs';", '').replace('applyP1FollowupCopy(content, focusedServices);', '');
   source = source.replace("import { applySeasonalCopyConcision } from './src/seasonal-copy-concision.mjs';", '').replace('applySeasonalCopyConcision(content, focusedServices);', '');
   source = source.replace("import { applyScreenWardrobeConcision } from './src/screen-wardrobe-concision.mjs';", '').replace('applyScreenWardrobeConcision(content);', '');
+  source = source.replace("import { applyFrontDoorAssemblyConcision } from './src/front-door-assembly-concision.mjs';", '').replace('applyFrontDoorAssemblyConcision(content);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };
