@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {load} from 'cheerio';
+import { localLabelText } from './local-label-policy.mjs';
 
 const inventory=JSON.parse(fs.readFileSync(new URL('./machine-keywords.json',import.meta.url),'utf8')).terms;
 const clean=s=>String(s??'').replace(/\s+/g,' ').trim();
@@ -53,7 +54,7 @@ function enhanceGraph(page,pages,origin,prefix){
   business.hasOfferCatalog=ref(origin+prefix+'services/#service-catalog');
   const linked=new Set(page.$('main a[href]').toArray().map(n=>new URL(page.$(n).attr('href'),url).href));
   const visibleServices=pages.filter(p=>linked.has(p.url)&&p.route.startsWith(prefix+'services/')).map(p=>p.graph.find(n=>types(n).includes('Service'))).filter(Boolean);
-  if(visibleServices.length)business.knowsAbout=unique(visibleServices.map(s=>s.name));
+  if(visibleServices.length)business.knowsAbout=unique(visibleServices.map(s=>localLabelText(s.name)));
  }
  const primary=graph.find(n=>types(n).includes('Service')||types(n).includes('Article'));
  if(primary){
@@ -76,7 +77,7 @@ function enhanceGraph(page,pages,origin,prefix){
    const services=members.map(p=>p.graph.find(n=>types(n).includes('Service'))).filter(Boolean);
    const catalogue={'@type':'OfferCatalog','@id':url+'#service-catalog',name:h1,itemListElement:services.map(s=>({'@type':'Offer',itemOffered:ref(s['@id'])}))};
    graph.push(catalogue);business.hasOfferCatalog=ref(catalogue['@id']);
-   business.knowsAbout=services.map(s=>s.name);
+   business.knowsAbout=services.map(s=>localLabelText(s.name));
   }
  }
  // Preserve all historical IDs, FAQ evidence, dates, prices (if any) and contacts.

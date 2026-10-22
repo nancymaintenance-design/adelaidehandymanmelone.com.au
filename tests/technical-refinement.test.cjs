@@ -51,7 +51,7 @@ test('verified dates and llms locality are truthful', async () => {
     ...['field-notes-doors-windows-screens-enquiry','field-notes-wall-interior-repairs-job-list','field-notes-cleaning-removals-preparation','field-notes-pre-sale-home-maintenance-list'].map(s=>`/guides/${s}/`)
   ];
   for (const route of changedRoutes) {
-    assert.ok(xml.includes(route+'</loc><lastmod>'+ (route.startsWith('/guides/') ? '2026-10-14' : route.startsWith('/services/') ? '2026-10-21' : '2026-10-13') +'</lastmod>'),route);
+    assert.ok(xml.includes(route+'</loc><lastmod>'+ (route.startsWith('/guides/') ? '2026-10-14' : route.startsWith('/services/') ? (['/services/cabinet-drawer-repair/','/services/sliding-door-repair/','/services/pressure-cleaning/'].includes(route) ? '2026-10-22' : '2026-10-21') : '2026-10-13') +'</lastmod>'),route);
     if (route.startsWith('/guides/')) {
       const html=fs.readFileSync('public'+route+'index.html','utf8');
       assert.match(html,/Updated <time datetime="2026-10-14">2026-10-14<\/time>/);

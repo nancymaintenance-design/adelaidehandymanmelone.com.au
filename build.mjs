@@ -25,6 +25,7 @@ import { pageRevisions, validateEditorialDate } from './src/page-revisions.mjs';
 import { applyGuideEditorial, guideTopics } from './src/guide-editorial.mjs';
 import { applyRepairEvidenceRefinement } from './src/repair-evidence-refinement.mjs';
 import { applyPostRainContent } from './src/post-rain-content.mjs';
+import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.join(projectDir, process.argv.includes('--docs') ? 'docs' : 'public');
@@ -48,6 +49,9 @@ applyGuideEditorial(content);
 applyCaseKeywordContent(content.caseStudies);
 applyRepairEvidenceRefinement(content, focusedServices);
 applyPostRainContent(content, focusedServices);
+// Actual editorial review dates for this approved local batch only.
+for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
+for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';
 for (const [name, preparation] of Object.entries(localPreparation)) {
   if (!suburbGuidance[name]) throw new Error(`Missing approved suburb guidance: ${name}`);
   suburbGuidance[name].preparation = preparation;

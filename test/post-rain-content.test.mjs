@@ -15,7 +15,9 @@ test('all 18 service edits preserve core H1 and keep reviewed symptoms in final 
     assert.ok(old, route);
     // The existing local-label policy remains the sole H1 transformation.
     const original = load(`<h1>${old.h1}</h1>`)('h1').text().replace(/\s+Adelaide\b/g, '').replace(/\bin Adelaide\b/g, '').trim();
-    assert.equal(en('h1').text(), original, route);
+    const pilot = JSON.parse(fs.readFileSync('src/content-pack/service-city-pilot.json', 'utf8'))[route];
+    if (pilot) assert.equal(original, pilot.beforeTitle, route);
+    assert.equal(en('h1').text(), pilot ? pilot.h1 : original, route);
     for (const text of edit.introductions) assert.ok(en('main').text().includes(text), route);
     assert.equal(zh('main h2').length, en('main h2').length, route);
     assert.ok(zh('main').text().includes('维修'), route);

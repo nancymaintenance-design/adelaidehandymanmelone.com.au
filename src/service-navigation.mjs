@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { serviceCityPilot } from './service-city-pilot.mjs';
 import path from 'node:path';
 import {load} from 'cheerio';
 
@@ -61,7 +62,7 @@ export function createNavigationMap({siteDir,routes,origin,services,focusedServi
     if(records.has(route))throw Error('Duplicate navigation record: '+route);
     const $=load(fs.readFileSync(fileFor(siteDir,route),'utf8'));
     if($('meta[name=robots]').attr('content')?.includes('noindex'))throw Error('Noindex navigation record: '+route);
-    records.set(route,{route,url:origin+route,locale:'en-AU',type,parent,owner,serviceGroup:owner?.replace('/services/','').replace(/\/$/,'')||null,label:label||$('h1').text().trim(),counterpart:origin+'/zh'+route,rationale});
+    records.set(route,{route,url:origin+route,locale:'en-AU',type,parent,owner,serviceGroup:owner?.replace('/services/','').replace(/\/$/,'')||null,label:label||serviceCityPilot[route]?.beforeTitle||$('h1').text().trim(),counterpart:origin+'/zh'+route,rationale});
   };
   for(const [route,[type,label]] of Object.entries(hubs))add(route,type,route==='/'?null:'/',route==='/'?'/':null,'Existing public navigation destination',label);
   for(const service of [...services,...focusedServices])add(serviceRoute(service.slug),'service','/',serviceRoute(service.slug),'Established service URL; homepage remains the broad city-business destination');

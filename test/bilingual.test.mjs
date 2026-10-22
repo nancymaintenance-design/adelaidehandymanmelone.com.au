@@ -43,7 +43,9 @@ test('all baseline and added indexable pages have complete reciprocal English/Ch
 test('English H1 retains its core topic with only the user-approved non-home city reduction', () => {
   for (const expected of baseline) {
     const html = read(expected.route);
-    assert.equal(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1], expected.route === '/' ? expected.h1 : localLabelText(expected.h1), expected.route);
+    const pilot = JSON.parse(fs.readFileSync('src/content-pack/service-city-pilot.json', 'utf8'))[expected.route];
+    if (pilot) assert.equal(localLabelText(expected.h1), pilot.beforeTitle.replaceAll('&', '&amp;'), expected.route);
+    assert.equal(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1], pilot ? pilot.h1.replaceAll('&', '&amp;') : expected.route === '/' ? expected.h1 : localLabelText(expected.h1), expected.route);
     // The privacy prose remains byte-identical. Its newly requested navigation
     // is tested against visible/schema/parent contracts in service-navigation.
     if (['/privacy/', '/404.html'].includes(expected.route)) {

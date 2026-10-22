@@ -2,9 +2,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'parse5';
 import { walk, attribute } from './i18n/html.mjs';
+import { applyServiceCityPilot, applyCaseCopyPilot, serviceCityPilot } from './service-city-pilot.mjs';
 
 // User copy rule, 2026-10-16: the homepage keeps its city-led H1. Other
 // headings and internal labels use the repair topic or actual suburb instead.
+// The October 22 five-page exception is applied to exact page fields below;
+// it does not exempt those pages' navigation, cards or supporting headings.
 // These are real locality identifiers, not generic search modifiers.
 const locations = /North Adelaide|Adelaide CBD|Adelaide Hills|Greater Adelaide|Adelaide local time|Adelaide, South Australia|Adelaide SA 5000|北阿德莱德|阿德莱德\s*CBD|阿德莱德中央商务区|阿德莱德山(?:区|丘)?|大阿德莱德|阿德莱德当地时间/g;
 const escaped = value => value.replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
@@ -97,7 +100,7 @@ export function applyLocalLabelsToHtml(html, route) {
     put(cta.sourceCodeLocation.startTag.endOffset, cta.sourceCodeLocation.endTag.startOffset, `${escaped(label)} <span aria-hidden="true">↗</span>`);
   });
   for (const edit of [...edits.values()].sort((a, b) => b.start - a.start)) html = html.slice(0, edit.start) + edit.value + html.slice(edit.end);
-  return html;
+  return applyCaseCopyPilot(applyServiceCityPilot(html, route), route);
 }
 
 export function applyLocalLabels({ siteDir, routes }) {
@@ -108,7 +111,7 @@ export function applyLocalLabels({ siteDir, routes }) {
   let index = fs.readFileSync(path.join(siteDir, 'llms.txt'), 'utf8');
   for (const record of routes) {
     if (record.route === '/') continue;
-    const title = localLabelText(record.title), description = localLabelText(record.description);
+    const title = serviceCityPilot[record.route]?.title || localLabelText(record.title), description = serviceCityPilot[record.route]?.description || localLabelText(record.description);
     index = index.replace(`[${record.title}]`, `[${title}]`).replace(`: ${record.description}\n`, `: ${description}\n`);
     record.title = title;
     record.description = description;

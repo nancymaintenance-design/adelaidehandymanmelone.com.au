@@ -106,7 +106,7 @@ test('generated business and Article schema use only configured regions and visi
       } else {
         assert.equal(file, `guides/${sampleGuide.slug}/index.html`, `${file} omits Article image when no image is visible`);
       }
-      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-14' : october20Cases.has(file.split('/')[1]) ? '2026-10-20' : '2026-10-13');
+      assert.equal(article.dateModified, file.startsWith('guides/') ? '2026-10-14' : ['norwood-flyscreen-repair','burnside-driveway-pressure-cleaning'].includes(file.split('/')[1]) ? '2026-10-22' : october20Cases.has(file.split('/')[1]) ? '2026-10-20' : '2026-10-13');
     }
   }
 });
@@ -224,7 +224,7 @@ test('article markup describes visible original editorial pages with publisher i
     const articles = schemaOf(html).filter(item => item['@type'] === 'Article');
     assert.equal(articles.length, 1, `${study.slug} exactly one Article`);
     assert.deepEqual(articles[0].image, study.images.map(image => `https://example.test${image.src}`), `${study.slug} all documented photos in order`);
-    assert.equal(articles[0].dateModified, october20Cases.has(study.slug) ? '2026-10-20' : '2026-10-13');
+    assert.equal(articles[0].dateModified, ['norwood-flyscreen-repair','burnside-driveway-pressure-cleaning'].includes(study.slug) ? '2026-10-22' : october20Cases.has(study.slug) ? '2026-10-20' : '2026-10-13');
   }
   assert.ok(!schemaOf(preview.read('index.html')).some(item => item['@type'] === 'Article'));
 });

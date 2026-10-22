@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'parse5';
 import { walk, attribute, normalise } from '../src/i18n/html.mjs';
+import { serviceCityPilot } from '../src/service-city-pilot.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const read = route => fs.readFileSync(path.join(root, 'public', `${route.slice(1)}index.html`), 'utf8');
@@ -36,7 +37,9 @@ test('non-home headings and internal-link names do not repeat a generic city mod
     const doc = parse(read(route));
     if (!['/', '/zh/'].includes(route)) {
       const heading = nodes(doc, n => n.tagName === 'h1')[0];
-      assert.ok(!unnecessaryCity(text(heading)), `${route}: ${text(heading)}`);
+      const approved = serviceCityPilot[route.replace(/^\/zh\//, '/')];
+      if (approved) assert.equal(text(heading), route.startsWith('/zh/') ? approved.zhH1 : approved.h1, route);
+      else assert.ok(!unnecessaryCity(text(heading)), `${route}: ${text(heading)}`);
     }
     const internal = nodes(doc, n => n.tagName === 'a' && attribute(n, 'href')?.startsWith('/') && !attribute(n, 'href').includes('feed.json'));
     for (const link of internal) {
