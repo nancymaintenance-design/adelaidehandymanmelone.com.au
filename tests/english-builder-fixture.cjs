@@ -42,5 +42,8 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Original case preparation prose belongs to historical isolated fixtures.
   // The actual six paired P1 pages and unchanged 204 pages have dedicated checks.
   source = source.replace("import { applyP1LocalEntries } from './src/p1-local-entry.mjs';", '').replace('applyP1LocalEntries(content, localKeywordCopy);', '');
+  // Historical isolated fixtures predate the P2 paragraph-only edit. Real output
+  // is compared with all 210 released pages in p2-copy-concision.test.mjs.
+  source = source.replace("import { applyP2CopyConcision } from './src/p2-copy-concision.mjs';", '').replace('applyP2CopyConcision(focusedServices);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };

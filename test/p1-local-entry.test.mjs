@@ -4,8 +4,9 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {p1BodyHash} from './helpers/p1-render-baseline.mjs';
+import {restoreUnleyPhotoOrder} from './helpers/unley-photo-order.mjs';
 const paths=['case-studies/goodwood-wall-repair/','case-studies/modbury-timber-fence-repair-assessment/','service-areas/north-north-east/modbury/'];
-const read=file=>fs.readFileSync(new URL('../public/'+file,import.meta.url),'utf8');
+const read=file=>restoreUnleyPhotoOrder(fs.readFileSync(new URL('../public/'+file,import.meta.url),'utf8'),file);
 const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/p1-20261022-baseline.json',import.meta.url),'utf8'));
 test('Goodwood explains a distinct wall-patch enquiry and links to the matching service and local contact',()=>{
  const d=load(read(paths[0]+'index.html'));
@@ -30,8 +31,9 @@ test('six affected pages retain paired questions and visible FAQ matches JSON-LD
   assert.ok(d('[data-language-switch]').attr('href').includes(route));
  }
 });
-test('204 HTML pages stay identical and six edited bodies change only approved enquiry paragraphs, FAQ answers and dates',()=>{
+test('198 other HTML pages stay identical; P1 bodies retain their narrow contract and six P2 bodies have separate released-baseline checks',()=>{
  const affected=new Set(paths.flatMap(p=>[p+'index.html','zh/'+p+'index.html']));let count=0;
- for(const p of baseline.pages)if(!affected.has(p.file)){assert.equal(createHash('sha256').update(read(p.file).replaceAll('\r\n','\n')).digest('hex'),p.sha256,p.file);count++;}else assert.equal(p1BodyHash(read(p.file),p.file),p.maskedBodyHash,p.file);
- assert.equal(count,204);
+ const p2=new Set(['cabinet-drawer-repair','flyscreen-repair','pressure-cleaning'].flatMap(s=>[`services/${s}/index.html`,`zh/services/${s}/index.html`]));
+ for(const p of baseline.pages)if(p2.has(p.file))continue;else if(!affected.has(p.file)){assert.equal(createHash('sha256').update(read(p.file).replaceAll('\r\n','\n')).digest('hex'),p.sha256,p.file);count++;}else assert.equal(p1BodyHash(read(p.file),p.file),p.maskedBodyHash,p.file);
+ assert.equal(count,198);
 });

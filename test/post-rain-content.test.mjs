@@ -18,7 +18,25 @@ test('all 18 service edits preserve core H1 and keep reviewed symptoms in final 
     const pilot = JSON.parse(fs.readFileSync('src/content-pack/service-city-pilot.json', 'utf8'))[route];
     if (pilot) assert.equal(original, pilot.beforeTitle, route);
     assert.equal(en('h1').text(), pilot ? pilot.h1 : original, route);
-    for (const text of edit.introductions) assert.ok(en('main').text().includes(text), route);
+    // P2 explicitly authorises shortening these introductions. Keep the original
+    // symptoms and scope limits independently checked, rather than requiring the
+    // superseded long paragraph verbatim. Other 15 services retain exact checks.
+    const p2Symptoms={
+      'cabinet-drawer-repair':[
+        [/loose screw/,/swollen or crumbling/,/weakened board/,/drops or stops halfway/,/water-affected panels/],
+        [/螺丝是否松动/,/膨胀或碎裂/,/受损的板材/,/抽屉下垂或拉到一半停住/,/哪些板材受过水/],
+      ],
+      'flyscreen-repair':[
+        [/torn mesh/,/spline and frame/,/does not repair window rain entry/,/drags, drops or leaves a closing gap/,/weatherproofing need separate assessment/],
+        [/纱网是否破损/,/压条和框架/,/换网不修复窗边雨水渗入/,/门扇拖滞、下垂或关合留缝/,/防雨密封须另行评估/],
+      ],
+      'pressure-cleaning':[
+        [/slippery or stained driveway after rain/,/loose joints and standing water/,/does not establish a correction to falls or underground drainage/,/water access and runoff arrangements/,/maximum pressure is not a substitute for assessment/],
+        [/车道雨后湿滑或有污渍/,/松动接缝及积水/,/不能证明清洗修正了排水坡度或地下排水故障/,/用水及径流处理/,/不能以最大水压代替评估/],
+      ],
+    }[slug];
+    if(p2Symptoms)for(const [index,doc]of [en,zh].entries())for(const pattern of p2Symptoms[index])assert.match(doc('main').text(),pattern,route);
+    else for (const text of edit.introductions) assert.ok(en('main').text().includes(text), route);
     assert.equal(zh('main h2').length, en('main h2').length, route);
     assert.ok(zh('main').text().includes('维修'), route);
   }

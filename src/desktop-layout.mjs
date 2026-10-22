@@ -50,7 +50,10 @@ function topicRows(html) {
     const aHtml=html.slice(a.start,a.end), bHtml=b&&html.slice(b.start,b.end);
     // Whole neighboring topics only; FAQ/photography/navigation remain independent bands.
     const eligible = (n,s) => n?.tag==='section' && !/class="[^"]*faq-list/.test(s) && !classes(n).includes('guide-next');
-    if(eligible(a,aHtml)&&eligible(b,bHtml)&&!/<h3\b/.test(aHtml+bHtml)&&Math.abs(textLength(aHtml)-textLength(bHtml))<=600) {
+    // Preserve the existing standalone ordinary-screen topic when copy shrinks;
+    // its anchor and two internal columns are an established page boundary.
+    const standalone=n=>n&&/\bid="ordinary-screen-repairs"/.test(n.opening);
+    if(eligible(a,aHtml)&&eligible(b,bHtml)&&!standalone(a)&&!standalone(b)&&!/<h3\b/.test(aHtml+bHtml)&&Math.abs(textLength(aHtml)-textLength(bHtml))<=600) {
       result+=`<div class="desktop-topic-row">${aHtml}${html.slice(a.end,b.start)}${bHtml}</div>`;
       cursor=b.end;i++;
     } else {result+=eligible(a,aHtml)?wideTopic(aHtml):aHtml;cursor=a.end;}

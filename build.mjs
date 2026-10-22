@@ -27,6 +27,7 @@ import { applyRepairEvidenceRefinement } from './src/repair-evidence-refinement.
 import { applyPostRainContent } from './src/post-rain-content.mjs';
 import { applySemrushContent } from './src/semrush-content-refinement.mjs';
 import { applyP1LocalEntries } from './src/p1-local-entry.mjs';
+import { applyP2CopyConcision } from './src/p2-copy-concision.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -53,6 +54,7 @@ applyRepairEvidenceRefinement(content, focusedServices);
 applyPostRainContent(content, focusedServices);
 applySemrushContent(content, focusedServices);
 applyP1LocalEntries(content, localKeywordCopy);
+applyP2CopyConcision(focusedServices);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';
@@ -505,7 +507,12 @@ for (const study of caseStudies) {
   const route = `/case-studies/${study.slug}/`;
   const photoMarks = { 'burnside-driveway-pressure-cleaning': [0, 'Moss on pavers', 48, 67], 'marion-wardrobe-sliding-door-repair': [1, 'Lower roller', 64, 65], 'north-adelaide-timber-gate-repair': [0, 'Hinge connection', 39, 55] };
   const mark = photoMarks[study.slug];
-  const gallery = `<section class="service-visual-gallery case-photo-grid" aria-label="Photographs from this case">${study.images.map((image, index) => `<figure class="intake-visual service-visual"><div class="case-photo-frame">${mark && mark[0] === index ? markedPhoto(image, mark[1], mark[2], mark[3], false, true) : `<img data-detail-photo src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async">`}</div><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`).join('')}</section>`;
+  // User-corrected Unley before/after gallery positions; keep captions in their
+  // factual roles and leave the middle two photos and other placements intact.
+  const galleryImages = study.slug === 'unley-kitchen-cabinet-repair'
+    ? study.images.map((image,index)=>({...image,src:study.images[index===0?3:index===3?0:index].src}))
+    : study.images;
+  const gallery = `<section class="service-visual-gallery case-photo-grid" aria-label="Photographs from this case">${galleryImages.map((image, index) => `<figure class="intake-visual service-visual"><div class="case-photo-frame">${mark && mark[0] === index ? markedPhoto(image, mark[1], mark[2], mark[3], false, true) : `<img data-detail-photo src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async">`}</div><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`).join('')}</section>`;
   const sections = `<p class="article-publisher">Repair record published by MEL ONE · <a href="/about/#company-record">${escapeHtml(businessFacts.legalName)}</a></p>` + study.sections.map((section, index) => sectionHtml(section, index)).join('') + `<section><h2>${escapeHtml(study.sections.at(-1).heading)}: Questions</h2>${faqList(study.faqs)}</section>`;
   const service = published.services.find(item => item.slug === study.service);
   const relatedLocalRoute = caseStudyLocalRoutes[study.suburb] || '/service-areas/';
