@@ -47,10 +47,17 @@ test('all 210 published-baseline titles, H1, metadata, links, images and non-FAQ
   assert.equal(baseline.pages.length,210);
   const affected=new Set(examples.map(x=>x[0]+'/index.html').flatMap(x=>[x,'zh/'+x]));
   const dig=s=>createHash('sha256').update(s).digest('hex');
+  const p1Entries=new Set(['case-studies/goodwood-wall-repair/index.html','case-studies/modbury-timber-fence-repair-assessment/index.html','service-areas/north-north-east/modbury/index.html'].flatMap(x=>[x,'zh/'+x]));
   for(const old of baseline.pages){const $=read(old.file);
     assert.equal($('title').text(),old.title,old.file);assert.equal($('h1').text(),old.h1,old.file);assert.equal($('meta[name=description]').attr('content'),old.meta,old.file);
-    assert.deepEqual($('main a[href]').toArray().map(n=>$(n).attr('href')),old.links,old.file);
+    const links=$('main a[href]').toArray().map(n=>$(n).attr('href'));
+    if(p1Entries.has(old.file)){
+      let cursor=0;for(const link of links)if(link===old.links[cursor])cursor++;assert.equal(cursor,old.links.length,old.file+' original links retained in order');
+    }else assert.deepEqual(links,old.links,old.file);
     assert.deepEqual($('main img').toArray().map(n=>$(n).toString()),old.images,old.file);
+    // The later approved P1 entry/FAQ changes have a separate released-baseline
+    // contract in p1-local-entry.test.mjs. Title/H1/meta/images/links remain above.
+    if(p1Entries.has(old.file))continue;
     if(!affected.has(old.file))assert.equal(dig($('body').toString()),old.bodyHash,old.file);
     else{const body=$('body').clone();body.find('.faq-list').text('REVIEWED_FAQ_GROUP');body.find('.article-date time').attr('datetime','REVIEW_DATE').text('REVIEW_DATE');assert.equal(dig(body.toString()),old.maskedBodyHash,old.file);}
   }

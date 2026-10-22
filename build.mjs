@@ -26,6 +26,7 @@ import { applyGuideEditorial, guideTopics } from './src/guide-editorial.mjs';
 import { applyRepairEvidenceRefinement } from './src/repair-evidence-refinement.mjs';
 import { applyPostRainContent } from './src/post-rain-content.mjs';
 import { applySemrushContent } from './src/semrush-content-refinement.mjs';
+import { applyP1LocalEntries } from './src/p1-local-entry.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -51,6 +52,7 @@ applyCaseKeywordContent(content.caseStudies);
 applyRepairEvidenceRefinement(content, focusedServices);
 applyPostRainContent(content, focusedServices);
 applySemrushContent(content, focusedServices);
+applyP1LocalEntries(content, localKeywordCopy);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';
@@ -582,7 +584,7 @@ for (const area of serviceAreas) {
     const relatedSuburbs = nearby ? `<section><h2>Nearby listed suburbs</h2><ul class="plain-list">${nearby}</ul></section>` : '';
     const contactUrl = `/contact/?region=${encodeURIComponent(area.slug)}&suburb=${encodeURIComponent(suburb.slug)}`;
     const serviceSchema = { '@type': 'Service', '@id': canonical(`${route}#service`), name: suburb.title, description: suburb.description, provider: { '@id': business['@id'] }, areaServed: { '@type': 'City', name: `${suburb.name}, Adelaide` }, url: canonical(route) };
-    page({ route, lastmod: pageRevisions[route] || '2026-10-13', title: suburb.title, description: suburb.description, schema: [serviceSchema, faqSchema(suburb.faqs)], crumbs: [['Home', '/'], ['Service areas', '/service-areas/'], [area.name, areaRoute(area)], [suburb.name, route]], body: `${intro('Local handyman services', suburb.title, suburb.description.replace(', Adelaide.', '.'))}<article class="section wrap reading"><p>${escapeHtml(suburb.lead)}</p><p class="task-background">${escapeHtml(quality.background)}</p>${guidanceHtml}<section><h2>${escapeHtml(localCopy.decisionHeading)}</h2><p>${escapeHtml(localCopy.explanation)}</p></section>${localWork}${claimBlock}${modules}${relatedServiceLinks(suburb.name)}${relatedSuburbs}</article>${faqs}<section class="contact-band"><div class="wrap contact-band-inner"><div><p class="eyebrow">Discuss your local repairs</p><h2>Tell us about<br>your ${escapeHtml(suburb.name)} job.</h2></div><div><p>Share the work details and your preferred timing. We arrange an on-site assessment and confirm the agreed scope and written quote.</p><a class="button primary" href="${escapeHtml(contactUrl)}">Start an enquiry <span aria-hidden="true">↗</span></a></div></div></section>` });
+    page({ route, lastmod: pageRevisions[route] || '2026-10-13', title: suburb.title, description: suburb.description, schema: [serviceSchema, faqSchema(suburb.faqs)], crumbs: [['Home', '/'], ['Service areas', '/service-areas/'], [area.name, areaRoute(area)], [suburb.name, route]], body: `${intro('Local handyman services', suburb.title, suburb.description.replace(', Adelaide.', '.'))}<article class="section wrap reading"><p>${escapeHtml(suburb.lead)}</p><p class="task-background">${escapeHtml(quality.background)}</p>${guidanceHtml}<section><h2>${escapeHtml(localCopy.decisionHeading)}</h2><p>${escapeHtml(localCopy.explanation)}</p>${readingLinks(localCopy.entryLinks)}</section>${localWork}${claimBlock}${modules}${relatedServiceLinks(suburb.name)}${relatedSuburbs}</article>${faqs}<section class="contact-band"><div class="wrap contact-band-inner"><div><p class="eyebrow">Discuss your local repairs</p><h2>Tell us about<br>your ${escapeHtml(suburb.name)} job.</h2></div><div><p>Share the work details and your preferred timing. We arrange an on-site assessment and confirm the agreed scope and written quote.</p><a class="button primary" href="${escapeHtml(contactUrl)}">Start an enquiry <span aria-hidden="true">↗</span></a></div></div></section>` });
   }
 }
 page({ route: '/faq/', title: 'Household-maintenance enquiry FAQ', description: 'Contact details and useful information for preparing a MEL ONE enquiry.', schema: published.faqs.length ? [faqSchema()] : [], body: `${intro('A few helpful answers', 'Before you get in touch.', 'Start with the details below, or contact MEL ONE with your question.')}<section class="section wrap reading">${faqList()}</section>${cta()}` });

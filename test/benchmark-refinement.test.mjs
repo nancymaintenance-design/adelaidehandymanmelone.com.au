@@ -40,12 +40,12 @@ test('edited case dates agree in visible content, Article, sitemap and both lang
   for (const prefix of ['', 'zh/']) {
     const route = `/${prefix}case-studies/goodwood-wall-repair/`;
     const $ = load(fs.readFileSync(`public/${prefix}case-studies/goodwood-wall-repair/index.html`, 'utf8'));
-    assert.ok($('main time[datetime="2026-10-20"]').length);
+    assert.ok($('main time[datetime="2026-10-22"]').length);
     const graphs = $('script[type="application/ld+json"]').map((_, e) => JSON.parse($(e).text())['@graph']).get();
     const article = graphs.find(n => n['@type'] === 'Article');
-    assert.equal(article.dateModified, '2026-10-20');
-    assert.match(sitemap, new RegExp(`${route}</loc>\\s*<lastmod>2026-10-20</lastmod>`));
+    assert.equal(article.dateModified, '2026-10-22');
+    assert.match(sitemap, new RegExp(`${route}</loc>\\s*<lastmod>2026-10-22</lastmod>`));
     const feed = JSON.parse(fs.readFileSync(`public/${prefix}case-studies/feed.json`, 'utf8'));
-    assert.equal(feed.items.find(n => new URL(n.url).pathname === route).dateModified, '2026-10-20');
+    assert.equal(feed.items.find(n => new URL(n.url).pathname === route).dateModified, '2026-10-22');
   }
 });

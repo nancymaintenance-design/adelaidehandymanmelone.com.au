@@ -39,5 +39,8 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Actual paired output and all 210 baseline page fields/layouts are protected
   // by test/semrush-content.test.mjs; there is no production bypass switch.
   source = source.replace("import { applySemrushContent } from './src/semrush-content-refinement.mjs';", '').replace('applySemrushContent(content, focusedServices);', '');
+  // Original case preparation prose belongs to historical isolated fixtures.
+  // The actual six paired P1 pages and unchanged 204 pages have dedicated checks.
+  source = source.replace("import { applyP1LocalEntries } from './src/p1-local-entry.mjs';", '').replace('applyP1LocalEntries(content, localKeywordCopy);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };
