@@ -25,6 +25,7 @@ import { pageRevisions, validateEditorialDate } from './src/page-revisions.mjs';
 import { applyGuideEditorial, guideTopics } from './src/guide-editorial.mjs';
 import { applyRepairEvidenceRefinement } from './src/repair-evidence-refinement.mjs';
 import { applyPostRainContent } from './src/post-rain-content.mjs';
+import { applySemrushContent } from './src/semrush-content-refinement.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -49,6 +50,7 @@ applyGuideEditorial(content);
 applyCaseKeywordContent(content.caseStudies);
 applyRepairEvidenceRefinement(content, focusedServices);
 applyPostRainContent(content, focusedServices);
+applySemrushContent(content, focusedServices);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';
@@ -299,6 +301,11 @@ function guideDirectory(records) {
 }
 function renderConsolidatedGuide(record, route) {
   const revision = guideRevision(record, caseStudies, editorialUpdates);
+  if (record.contentReviewDate) {
+    if (!revision) throw new Error(`Missing guide review provenance: ${route}`);
+    validateEditorialDate(record.contentReviewDate, record.date);
+    revision.date = record.contentReviewDate;
+  }
   const meta = revision && imageManifest[revision.image.src];
   const photo = revision ? `<figure class="guide-case-photo"><img data-guide-photo src="${escapeHtml(revision.image.src)}" alt="${escapeHtml(revision.image.alt)}" width="${meta.width}" height="${meta.height}" loading="lazy" decoding="async"><figcaption><p class="eyebrow">Original case photograph · ${escapeHtml(revision.study.suburb)}</p><p>${escapeHtml(record.guideCaseContext)}</p><a href="/case-studies/${revision.study.slug}/">View the documented ${escapeHtml(revision.study.suburb)} work</a></figcaption></figure>` : '';
   const sections = record.sections.map((s,i) => `<section id="${s.id}">${s.aliases.map(id => `<span id="${id}" class="guide-anchor"></span>`).join('')}<h2>${escapeHtml(s.heading)}</h2>${s.paragraphs.map(p => `<p>${paragraphHtml(p)}</p>`).join('')}${s.items ? list(s.items) : ''}</section>${i === 1 ? photo : ''}`).join('');

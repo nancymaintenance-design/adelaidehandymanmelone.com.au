@@ -1,0 +1,90 @@
+{
+  "reviewDate": "2026-10-22",
+  "services": {
+    "gutter-cleaning": [
+      {
+        "question": "How do gutter guards affect a cleaning enquiry?",
+        "answer": "Mention any gutter guards and the areas where debris or overflow has been noticed. The guard type can affect access and the cleaning plan. Any need to lift or remove a guard, permission and the included work must be confirmed during assessment. Leave guards and roof components in place when preparing your enquiry."
+      },
+      {
+        "question": "What affects the cost of residential gutter cleaning?",
+        "answer": "The gutter sections, building height, safe access, debris build-up and any guards affect the assessed work. Tell MEL ONE about extensions, narrow passages and recurring overflow. Ask the written quote to identify the cleaning area, debris handling and any separate repair; a single advertised rate would not describe every property."
+      }
+    ],
+    "pressure-cleaning": [
+      {
+        "replaces": "Will pressure cleaning remove every driveway stain?",
+        "question": "What affects a driveway pressure cleaning quote?",
+        "answer": "The area, surface material, joints, existing coating, marks, drainage and access affect the cleaning plan. Describe water access and items that normally occupy the area. Compare quotes for the same boundary and method, with any sealing, joint work or separate stain treatment identified. MEL ONE confirms the assessed scope and written quote before approval."
+      }
+    ],
+    "sliding-door-repair": [
+      {
+        "question": "Can replacement rollers be chosen just because a sliding door is aluminium?",
+        "answer": "The frame material alone does not identify a compatible roller. The housing, fixing arrangement, track profile and panel need checking together. Share visible product markings already available and where the door drags; leave the panel in place. MEL ONE confirms suitable parts and whether adjustment, roller work or another assessed repair is appropriate."
+      }
+    ],
+    "cabinet-drawer-repair": [
+      {
+        "question": "Should I buy kitchen drawer runners or cupboard hinges before assessment?",
+        "answer": "Discuss the existing fitting first. Runner dimensions, mounting positions, hinge type and the condition of the cabinet fixing points affect compatibility. Keep any model or part markings already available, but do not dismantle a heavy drawer or door for the enquiry. Agree the required parts and who supplies them before purchasing replacements."
+      }
+    ],
+    "wall-patching-repair": [
+      {
+        "replaces": "Is painting included with wall patching?",
+        "question": "Are drywall, wallboard and plasterboard repair the same enquiry?",
+        "answer": "These terms often refer to plasterboard surfaces, but the actual wall material needs checking. Tell MEL ONE whether you know the material, the approximate damaged area and any repeated cracking or dampness. The backing, local patch and finishing are agreed for that surface; solid plaster, render or masonry should not be assumed to need the same repair."
+      }
+    ],
+    "flat-pack-assembly": [
+      {
+        "replaces": "Can you assemble IKEA furniture or several items together?",
+        "question": "What affects the cost of flat-pack furniture assembly?",
+        "answer": "The model, number of items, instructions, missing or damaged parts and any partly completed assembly affect the work. Include room access and the intended position. Clarify any dismantling, wall anchoring and packaging arrangements separately. MEL ONE reviews the kit and confirms the included tasks and quote; one price is not assumed for every product."
+      }
+    ],
+    "garden-landscape-care": [
+      {
+        "question": "How do I compare a one-off garden clean-up with regular maintenance?",
+        "answer": "For a one-off clean-up, identify the lawn or bed areas, accumulated growth, pruning limits and plants to retain. For repeat care, agree the tasks and visit frequency as well as access. Green-waste handling should be stated in each scope. MEL ONE confirms the work and quote directly; an initial tidy-up does not establish an ongoing appointment."
+      }
+    ],
+    "cleaning-removals-specialist-care": [
+      {
+        "question": "Which rooms and tasks should I list for household cleaning?",
+        "answer": "Name the rooms, surfaces and specific tasks, then describe existing marks, stored items and access restrictions. Explain which areas are occupied and what needs to stay in place. MEL ONE confirms the agreed cleaning tasks and materials after assessment. Specialist treatments and repair work need their own scope rather than being assumed from a general cleaning request."
+      },
+      {
+        "question": "Does moving a few furniture items establish a whole-house removal service?",
+        "answer": "A furniture enquiry should list the items and access at each address. Ask which handling, dismantling, transport or disposal tasks are included in the quote. A quote for listed furniture items does not establish a whole-house removal or packing service; the actual request and arrangements need confirmation before approval."
+      }
+    ],
+    "fence-gate-repair": [
+      {
+        "question": "What should a timber fence and gate repair quote separate?",
+        "answer": "Identify the affected palings, rails or posts and any gate hinge, latch or closing problem separately. The condition of adjoining supports determines whether a local repair is suitable. Ask which parts, preparation, finishing and removed material are included, and clarify shared-boundary access or approval. The quote should describe the agreed section rather than imply the entire fence is being replaced."
+      }
+    ]
+  },
+  "guides": {
+    "prepare-household-maintenance-enquiry": [
+      {
+        "question": "Can I compare an hourly rate with a fixed repair quote?",
+        "answer": "Compare the same task list and included work first. An hourly figure alone may leave parts, minimum attendance, travel or finishing stages unclear. Ask which pricing basis applies, what is included and how extra work would be approved. MEL ONE confirms the written quote for the assessed request; this guide does not publish an hourly rate or promise a fixed price for every job."
+      }
+    ],
+    "field-notes-cleaning-removals-preparation": [
+      {
+        "question": "How should I request cleaning for limestone or other stone pavers?",
+        "answer": "Identify the material if known and mention any sealer, coating, damaged joints or previous surface treatment. Different stone types and finishes need a suitable cleaning approach, so a method used on one driveway should not be assumed suitable for another. MEL ONE confirms whether the proposed surface and work fit the assessed scope before a method is agreed."
+      }
+    ],
+    "field-notes-doors-windows-screens-enquiry": [
+      {
+        "question": "What should I report about a sticking sliding window?",
+        "answer": "Identify the window type and describe whether it catches throughout movement or only near closing. Running fittings, the track and frame condition need checking together. Leave glass and window panels in place and share only safely available information. Targeted hardware work, damaged glazing and whole-window replacement are different scopes and need the appropriate assessment and arrangements."
+      }
+    ]
+  }
+}

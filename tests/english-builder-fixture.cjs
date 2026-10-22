@@ -35,5 +35,9 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Historical 102-page fixtures predate the October 21 rain-intent edit.
   // Actual new pages and edited services are covered by post-rain-content.test.mjs.
   source = source.replace("import { applyPostRainContent } from './src/post-rain-content.mjs';", '').replace('applyPostRainContent(content, focusedServices);', '');
+  // Historical generator contracts predate this reviewed FAQ-only refinement.
+  // Actual paired output and all 210 baseline page fields/layouts are protected
+  // by test/semrush-content.test.mjs; there is no production bypass switch.
+  source = source.replace("import { applySemrushContent } from './src/semrush-content-refinement.mjs';", '').replace('applySemrushContent(content, focusedServices);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };
