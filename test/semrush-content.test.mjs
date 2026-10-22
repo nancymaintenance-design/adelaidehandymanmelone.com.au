@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
 import {restoreUnleyPhotoOrder} from './helpers/unley-photo-order.mjs';
 import {followupFiles} from './helpers/p1-followup-baseline.mjs';
+import {seasonalFiles} from './helpers/seasonal-copy-baseline.mjs';
 
 const examples = [
   ['services/gutter-cleaning', 'How do gutter guards affect a cleaning enquiry?'],
@@ -61,7 +62,7 @@ test('all 210 published-baseline titles, H1, metadata, links, images and non-FAQ
     // The later approved P1 entry/FAQ changes have a separate released-baseline
     // contract in p1-local-entry.test.mjs. Title/H1/meta/images/links remain above.
     // Six P2 bodies have a narrower paragraph-level released-baseline contract.
-    if(p1Entries.has(old.file)||p2Entries.has(old.file)||followupFiles.has(old.file))continue;
+    if(p1Entries.has(old.file)||p2Entries.has(old.file)||followupFiles.has(old.file)||seasonalFiles.has(old.file))continue;
     if(!affected.has(old.file))assert.equal(dig($('body').toString()),old.bodyHash,old.file);
     else{const body=$('body').clone();body.find('.faq-list').text('REVIEWED_FAQ_GROUP');body.find('.article-date time').attr('datetime','REVIEW_DATE').text('REVIEW_DATE');assert.equal(dig(body.toString()),old.maskedBodyHash,old.file);}
   }

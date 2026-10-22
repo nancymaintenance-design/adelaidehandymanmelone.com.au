@@ -1,0 +1,1773 @@
+{
+  "commit": "7dcddd222fd3329cbedd20d91c769c4c72e6c517",
+  "pages": [
+    {
+      "file": "404.html",
+      "sha256": "fb44815ed845912fdd506a5b1ab44c8e9629f199128b274dcb4f49ee70541d75"
+    },
+    {
+      "file": "about/index.html",
+      "sha256": "370e6cd2d27123c842e502bc4cdabd5314a8711c2ed7027109af580a9ed731c8"
+    },
+    {
+      "file": "case-studies/adelaide-cbd-wall-repair/index.html",
+      "sha256": "6a5a9fc8b258970a7f3bdf12c940ae3348b5b79d8d986c0a97d70099976f133f"
+    },
+    {
+      "file": "case-studies/burnside-driveway-pressure-cleaning/index.html",
+      "sha256": "5cd52caee3aad57d28c58fb7229ec11a8c450724ba32f57b78e12c8f8e0f0e69"
+    },
+    {
+      "file": "case-studies/burnside-window-repair/index.html",
+      "sha256": "bcf77b73b2a7f737329319abd157b55ebff69204b70beab420faf833d8140764"
+    },
+    {
+      "file": "case-studies/goodwood-wall-repair/index.html",
+      "sha256": "b99afd3a1bcfb45c54a8abb1c37f9b12af263f031ad2ba64ce21cda074f347ea"
+    },
+    {
+      "file": "case-studies/henley-beach-sliding-screen-door-repair/index.html",
+      "sha256": "ae4c5194a171e8b24ad020fd7b0d8297ee59c94e0158607831baf0862435330a"
+    },
+    {
+      "file": "case-studies/index.html",
+      "sha256": "5e75bb59ed8fa6ba601cbe4f8ab12758c86555e518ecb8df9d13f15cd215f6bf"
+    },
+    {
+      "file": "case-studies/kensington-furniture-assembly/index.html",
+      "sha256": "11b1bd9e8c831de0ea8cd7a1867753aba875fee490cb4556105c832729e6974f"
+    },
+    {
+      "file": "case-studies/kitchen-drawer-runner-repair/index.html",
+      "sha256": "400a5537e2d0cc09bd630eb2460d24483ba4f86364a36877d1a86d1413839601"
+    },
+    {
+      "file": "case-studies/marion-shower-screen-repair/index.html",
+      "sha256": "1b3e513beba75ead809bdcfb3495bab37684ec107dc9601e0b85b513e2084d38"
+    },
+    {
+      "file": "case-studies/marion-wardrobe-sliding-door-repair/index.html",
+      "sha256": "b08693729a942bf9375e42b8afbe6244dfecaa39a7b904c759e9ea774764d43f"
+    },
+    {
+      "file": "case-studies/mile-end-fence-repair/index.html",
+      "sha256": "5ee18caae70f39b7a9dcfb8d8d72287c75cac7125e8190c32f6a4dd64b10131e"
+    },
+    {
+      "file": "case-studies/modbury-garden-pruning-tidy-up/index.html",
+      "sha256": "aec539427f1d288acee055963536305916c9a6c7c7fd0cb929092a6299885aaa"
+    },
+    {
+      "file": "case-studies/modbury-timber-fence-repair-assessment/index.html",
+      "sha256": "258ce90d9d2137b63962f4393e291536f25ccd2ffcb8f58ac8cc3c467017fbc2"
+    },
+    {
+      "file": "case-studies/north-adelaide-door-repair/index.html",
+      "sha256": "af8b7a9570b5c6272b6bc6a16be9f16fe7f4faac21a59ae6186685c31505e72a"
+    },
+    {
+      "file": "case-studies/north-adelaide-timber-gate-repair/index.html",
+      "sha256": "df1a3b0a925fdaf1a8ebb917c82caac6f6dc07c936fa76893a8cc082380c1e65"
+    },
+    {
+      "file": "case-studies/norwood-flyscreen-repair/index.html",
+      "sha256": "519494e8e6e68649330fd55f8a699b0f5899b878523e193023d5f7ad12406758"
+    },
+    {
+      "file": "case-studies/prospect-gutter-cleaning/index.html",
+      "sha256": "1610f7c565f1c3fcba8b84ddd77b52f6d9f17ccb3e525664406de29d50418d97",
+      "route": "case-studies/prospect-gutter-cleaning/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 0,
+          "text": "Gutter cleaning enquiries often start with seasonal leaf accumulation, plants near rooflines, overflow observations or debris that can be seen safely from ground level. A clear exterior photo helps identify the relevant elevation, but it should not encourage householders to climb, reach over a roof edge or investigate a high location themselves. Access, weather, roof design, gutter condition and working-at-height requirements all affect what may be suitable for a particular request."
+        },
+        {
+          "section": 3,
+          "index": 1,
+          "text": "For a Prospect or Greater Adelaide gutter-cleaning enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Mention trees, gates, pets or property-manager access arrangements that may affect the visit. Avoid attempting roof access solely to provide a photo. A short accurate description is more useful than a guess about hidden conditions. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment."
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "The record shows gutter debris being cleared. Overflow, a damaged joint or a downpipe concern needs its own assessment rather than being assumed to have the same cause. Compare the repair scope: Gutter Cleaning."
+        }
+      ],
+      "protectedCopy": {
+        "title": "Gutter Cleaning in Prospect | MEL ONE",
+        "h1": "Gutter Cleaning in Prospect",
+        "meta": "A photographed Prospect gutter-cleaning case showing visible leaf build-up, accessible cleaning work and the cleared gutter line.",
+        "headings": [
+          "Gutter Leaf and Branch Build-Up",
+          "Debris Clearing and the Recorded Gutter Result",
+          "Gutter Leaf and Branch Build-Up: Details for Another Property",
+          "Gutter Cleaning and Separate Faults: Comparison",
+          "Gutter Cleaning and Separate Faults: Comparison: Questions",
+          "Related repair guidance",
+          "Related MEL ONE pages",
+          "Specific Door, Cabinet and Household Repairs",
+          "Request a Handyman Repair Quote"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">Skip to content</a>",
+          "<a class=\"brand\" href=\"/\" aria-label=\"MEL ONE home\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/\">Home</a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\" aria-current=\"page\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/guides/\">Field notes</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a class=\"header-enquiry\" href=\"/contact/\">Contact <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/zh/case-studies/prospect-gutter-cleaning/\" lang=\"zh-Hans\" hreflang=\"zh-Hans\" aria-label=\"切换到中文服务\">中文服务</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/gutter-cleaning/\">Home</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/gutter-cleaning/\">Gutter Cleaning</a>",
+          "<a href=\"/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/services/gutter-cleaning/\">Gutter Cleaning</a>",
+          "<a href=\"/service-standards/\">Assessment, scope and repair follow-up</a>",
+          "<a href=\"/guides/field-notes-roof-gutter-exterior-observations/\">Gutter overflow and exterior checks</a>",
+          "<a href=\"/guides/home-maintenance-walk-through-checklist/\">Room-by-room maintenance checklist</a>",
+          "<a class=\"text-link\" href=\"/services/roof-gutter-exterior-care/\">Roof, Gutter &amp; Exterior Maintenance <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/service-areas/north-north-east/prospect/\">Prospect handyman services <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/services/gutter-cleaning/\">Gutter Cleaning</a>",
+          "<a class=\"button primary\" href=\"/contact/\">Request an assessment and quote<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/\">MEL ONE<span aria-hidden=\"true\">.</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google Reviews</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a href=\"/service-standards/\">Service standards</a>",
+          "<a href=\"/news/\">News</a>",
+          "<a href=\"/guides/\">Guides</a>",
+          "<a href=\"/faq/\">FAQ</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/case-studies/feed.json\">Case data (JSON)</a>",
+          "<a href=\"/service-areas/feed.json\">Area data (JSON)</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a href=\"/contact/\">Start an enquiry <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-01.png\" alt=\"Leaf and branch build-up in a Prospect roof gutter before cleaning\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-01-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-01-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-02.png\" alt=\"Handyman checking leaf build-up in a Prospect gutter\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-02-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-02-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-03.png\" alt=\"Handyman removing leaves from a roof gutter in Prospect\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-03-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-03-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-04.png\" alt=\"Cleared roof gutter after gutter cleaning at a Prospect home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>What should I note when comparing a gutter-cleaning request?</summary><p>The record shows gutter debris being cleared. Overflow, a damaged joint or a downpipe concern needs its own assessment rather than being assumed to have the same cause.</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/\",\"name\":\"Gutter Cleaning in Prospect\",\"description\":\"A photographed Prospect gutter-cleaning case showing visible leaf build-up, accessible cleaning work and the cleared gutter line.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/#breadcrumb\"},\"keywords\":[\"Gutter Cleaning in Prospect\",\"property maintenance\",\"handyman services\",\"gutter cleaning\",\"handyman\",\"Gutter Leaf and Branch Build-Up\",\"Debris Clearing and the Recorded Gutter Result\",\"Gutter Leaf and Branch Build-Up: Details for Another Property\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/#case-study\",\"headline\":\"Gutter Cleaning in Prospect\",\"description\":\"A photographed Prospect gutter-cleaning case showing visible leaf build-up, accessible cleaning work and the cleared gutter line.\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"en-AU\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-04.png\"],\"keywords\":[\"Gutter Cleaning in Prospect\",\"property maintenance\",\"handyman services\",\"gutter cleaning\",\"handyman\",\"Gutter Leaf and Branch Build-Up\",\"Debris Clearing and the Recorded Gutter Result\",\"Gutter Leaf and Branch Build-Up: Details for Another Property\"],\"about\":{\"@type\":\"Service\",\"name\":\"Roof, Gutter & Exterior Maintenance\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Prospect, Adelaide, South Australia\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I note when comparing a gutter-cleaning request?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The record shows gutter debris being cleared. Overflow, a damaged joint or a downpipe concern needs its own assessment rather than being assumed to have the same cause.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gutter Cleaning\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Gutter Cleaning in Prospect\",\"item\":\"https://www.adelaidehandymanmelone.com.au/case-studies/prospect-gutter-cleaning/\"}]}]}"
+        ]
+      },
+      "maskedHash": "f270447e90d9a258ae88608f0041bc792d4c52445bd32c3335899754f6b137e6"
+    },
+    {
+      "file": "case-studies/sliding-patio-door-roller-track-repair/index.html",
+      "sha256": "5f4666df3793b652d1eac1e3d279d5551dc1c09288693c14590b4381487e5b8f"
+    },
+    {
+      "file": "case-studies/stirling-deck-pergola-timber-repair/index.html",
+      "sha256": "d45cf9289223d9c804d85855b94e2189f6f5d544cc421991cc14f9c66c8ce4ec",
+      "route": "case-studies/stirling-deck-pergola-timber-repair/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 0,
+          "text": "Outdoor timber changes over time through weather exposure, foot traffic, moisture, movement and ordinary use. A split board, soft-looking edge or weathered beam end provides a clear starting point for checking the surrounding accessible timber. MEL ONE follows up on each reported deck or pergola issue with a targeted solution based on the visible boards, posts, fixings, access and confirmed scope."
+        },
+        {
+          "section": 3,
+          "index": 1,
+          "text": "For a similar Stirling deck or pergola enquiry, contact MEL ONE with your suburb and a short description of the item and work you need. Explain whether the concern is a soft board, a visible split, a loose component, surface weathering or an access issue. Let MEL ONE know about stairs, pets, furniture and the preferred entry route. Avoid walking on an area that appears unsafe or attempting to remove boards without suitable support. Safe existing photos are optional; email them to admin@melonemaintenance.com.au. A description is enough to request assessment."
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "This record shows work to deck and pergola timber. For another structure, identify visible damage from a safe place; the condition of supports and any structural or approval requirements need their own assessment."
+        }
+      ],
+      "protectedCopy": {
+        "title": "Deck and Pergola Timber Repair in Stirling | MEL ONE",
+        "h1": "Deck and Pergola Timber Repair in Stirling",
+        "meta": "A photographed Stirling deck and pergola timber repair showing deteriorated boards and beam ends, on-site removal work and the finished outdoor deck area.",
+        "headings": [
+          "Deteriorated Deck and Pergola Timber",
+          "Recorded Deck and Pergola Timber Repair",
+          "Deteriorated Deck and Pergola Timber: Details for Another Property",
+          "Local Timber Damage and Supports: Repair Comparison",
+          "Local Timber Damage and Supports: Repair Comparison: Questions",
+          "Related repair guidance",
+          "Related MEL ONE pages",
+          "Request a Handyman Repair Quote"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">Skip to content</a>",
+          "<a class=\"brand\" href=\"/\" aria-label=\"MEL ONE home\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/\">Home</a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\" aria-current=\"page\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/guides/\">Field notes</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a class=\"header-enquiry\" href=\"/contact/\">Contact <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/zh/case-studies/stirling-deck-pergola-timber-repair/\" lang=\"zh-Hans\" hreflang=\"zh-Hans\" aria-label=\"切换到中文服务\">中文服务</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/outdoor-structures-fences-pools/\">Home</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/outdoor-structures-fences-pools/\">Deck, Pergola &amp; Outdoor Repairs</a>",
+          "<a href=\"/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/service-standards/\">Assessment, scope and repair follow-up</a>",
+          "<a href=\"/guides/field-notes-garden-outdoor-seasonal-preparation/\">Garden tidy-ups and outdoor timber</a>",
+          "<a href=\"/guides/home-maintenance-walk-through-checklist/\">Room-by-room maintenance checklist</a>",
+          "<a class=\"text-link\" href=\"/services/outdoor-structures-fences-pools/\">Deck, Pergola &amp; Outdoor Repairs <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/service-areas/adelaide-hills-foothills/stirling/\">Stirling handyman services <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"button primary\" href=\"/contact/\">Request an assessment and quote<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/\">MEL ONE<span aria-hidden=\"true\">.</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google Reviews</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a href=\"/service-standards/\">Service standards</a>",
+          "<a href=\"/news/\">News</a>",
+          "<a href=\"/guides/\">Guides</a>",
+          "<a href=\"/faq/\">FAQ</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/case-studies/feed.json\">Case data (JSON)</a>",
+          "<a href=\"/service-areas/feed.json\">Area data (JSON)</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a href=\"/contact/\">Start an enquiry <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-01.png\" alt=\"Deteriorated deck boards and pergola beam at a Stirling home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-01-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-01-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-02.png\" alt=\"Close view of damaged timber deck board near a pergola post in Stirling\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-02-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-02-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-03.png\" alt=\"Handyman removing damaged deck boards in Stirling\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-03-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-03-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\" alt=\"Finished timber deck and pergola area in Stirling\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>What should I compare before requesting deck or pergola timber repairs?</summary><p>This record shows work to deck and pergola timber. For another structure, identify visible damage from a safe place; the condition of supports and any structural or approval requirements need their own assessment.</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/\",\"name\":\"Deck and Pergola Timber Repair in Stirling\",\"description\":\"A photographed Stirling deck and pergola timber repair showing deteriorated boards and beam ends, on-site removal work and the finished outdoor deck area.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/#breadcrumb\"},\"keywords\":[\"Deck and Pergola Timber Repair in Stirling\",\"pergola timber repair\",\"property maintenance\",\"handyman services\",\"door repairs\",\"handyman\",\"Deteriorated Deck and Pergola Timber\",\"Recorded Deck and Pergola Timber Repair\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/#case-study\",\"headline\":\"Deck and Pergola Timber Repair in Stirling\",\"description\":\"A photographed Stirling deck and pergola timber repair showing deteriorated boards and beam ends, on-site removal work and the finished outdoor deck area.\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/#webpage\"},\"dateModified\":\"2026-10-13\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"en-AU\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\"],\"keywords\":[\"Deck and Pergola Timber Repair in Stirling\",\"pergola timber repair\",\"property maintenance\",\"handyman services\",\"door repairs\",\"handyman\",\"Deteriorated Deck and Pergola Timber\",\"Recorded Deck and Pergola Timber Repair\"],\"about\":{\"@type\":\"Service\",\"name\":\"Deck, Pergola & Outdoor Repairs\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Stirling, Adelaide, South Australia\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I compare before requesting deck or pergola timber repairs?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"This record shows work to deck and pergola timber. For another structure, identify visible damage from a safe place; the condition of supports and any structural or approval requirements need their own assessment.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Deck, Pergola & Outdoor Repairs\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Deck and Pergola Timber Repair in Stirling\",\"item\":\"https://www.adelaidehandymanmelone.com.au/case-studies/stirling-deck-pergola-timber-repair/\"}]}]}"
+        ]
+      },
+      "maskedHash": "6f45755a14dac975ebcb592f1d4dede199e5b1a098d41684d0693b520503e8eb"
+    },
+    {
+      "file": "case-studies/stirling-flat-pack-wardrobe-assembly/index.html",
+      "sha256": "94056932380887c2875af1c0b0e83c3f8c6b692acf4c4774447e3e20030ef3f1"
+    },
+    {
+      "file": "case-studies/unley-kitchen-cabinet-repair/index.html",
+      "sha256": "d7a5c0b16f94092588ee0d0131b0b10b2617b85a370505c947892e6ad0ef7a46"
+    },
+    {
+      "file": "contact/index.html",
+      "sha256": "938e30e68fd79290553c680d9c2bbd24b2d21d0d3345d3c5375513adb37d8bff"
+    },
+    {
+      "file": "faq/index.html",
+      "sha256": "afd45923067aa10ea9d77e85cf1980c0cef2c2bf2ca61badbe3ec0596bb66590"
+    },
+    {
+      "file": "guides/field-notes-cleaning-removals-preparation/index.html",
+      "sha256": "5cc3ce6124dbebdf02d2f798bac210c0bf83a2956ee2779c30b6b1685dbde8b3"
+    },
+    {
+      "file": "guides/field-notes-doors-windows-screens-enquiry/index.html",
+      "sha256": "7b39490a03d663638b75ba658471d0ac4122c830122fb1abddcd657819d3be7a"
+    },
+    {
+      "file": "guides/field-notes-garden-outdoor-seasonal-preparation/index.html",
+      "sha256": "36c2bdf840b54885eb8b022a764d3eff3ea69dfdb65530ab96deaf2bfd0c7621"
+    },
+    {
+      "file": "guides/field-notes-grouping-multiple-household-jobs/index.html",
+      "sha256": "f54c0a70c69677ff2c332fc3c2f220188ce81da1144ce2e76aca68f51720ea5f"
+    },
+    {
+      "file": "guides/field-notes-pre-sale-home-maintenance-list/index.html",
+      "sha256": "bdd385a518136f444ebddb616412637a664c28189c096f4b750662e808729404"
+    },
+    {
+      "file": "guides/field-notes-rental-end-of-lease-maintenance-list/index.html",
+      "sha256": "77745a2cd1da26e80eaa6d407da2768bee4267041aa19b5bd18889ee178aa315"
+    },
+    {
+      "file": "guides/field-notes-roof-gutter-exterior-observations/index.html",
+      "sha256": "62f5bad5467dc8d3e5fd233051b52bf9d4eecf43bc226e2e52cea5d66c83efa5"
+    },
+    {
+      "file": "guides/field-notes-wall-interior-repairs-job-list/index.html",
+      "sha256": "27c8353554f6938c5eaa3401c3ee46294d7e47a9761e3bcf6c002789bda8b181"
+    },
+    {
+      "file": "guides/home-maintenance-walk-through-checklist/index.html",
+      "sha256": "c19490dba4f8c1d1d30ac02c93566614d354108f1ab3213005a5f470562cb205"
+    },
+    {
+      "file": "guides/index.html",
+      "sha256": "aad0690a8de7ade1b60ab799d9c5f33a4bbb93f0884d979f779058135d788cf0"
+    },
+    {
+      "file": "guides/prepare-household-maintenance-enquiry/index.html",
+      "sha256": "4c9f4dce7e4764ef11488b86259a489c854f44749ad4e0e6d85169ab90e23c8c"
+    },
+    {
+      "file": "how-it-works/index.html",
+      "sha256": "2f92256eec3a78cab9bed4792c0472b13ae31d91a63c2e689c792f662af33f6e"
+    },
+    {
+      "file": "index.html",
+      "sha256": "5bd3369ab717f3d3c4c397b90b5a4ef2d387ae48acae06e6be2e803cf41d643c"
+    },
+    {
+      "file": "news/after-rain-home-repair-order/index.html",
+      "sha256": "b686cee2e957e442b1e301025d0300c93dd34c37b9b400a6cff84799c7a5282e"
+    },
+    {
+      "file": "news/field-notes-clear-maintenance-handover/index.html",
+      "sha256": "579094e765bc06329d035fa65318737070cd5188ed7cfb630227e2e236f86f9b"
+    },
+    {
+      "file": "news/field-notes-one-household-job-list/index.html",
+      "sha256": "2e455985b3eb0380de5b39c4ff90b7b0c7055b2c6e4a5b345f57d6f5590ada18"
+    },
+    {
+      "file": "news/gutter-overflow-and-outdoor-repairs-after-rain/index.html",
+      "sha256": "6e318d867dc983000689b7ab24b906fa8819091eebd244900e72a304c82492a0"
+    },
+    {
+      "file": "news/index.html",
+      "sha256": "f88faf2295cce3a079b8a356e32dfc69c566e9e73efaa7087c5b065db23cfc01"
+    },
+    {
+      "file": "privacy/index.html",
+      "sha256": "718d35452bb637aef4721b5d80f6ff751454d014c31732a8d82b239a925cd3b7"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/aldgate/index.html",
+      "sha256": "730d0829ac3cf9d542db869aa120fbc1bedd8fd7f004f2c6cd807d259c2623ac"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/blackwood/index.html",
+      "sha256": "73f18438163851d710e57e34a5361f832b50111955d68523cd0fab63d28faef9"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/crafers/index.html",
+      "sha256": "62c2f02d785275881a6a2a22e1034269c0a26863dbd1a2ec72f062aa51106d06"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/index.html",
+      "sha256": "97a9c26df506a717896a51bfeadbe3857c7cbe841c1db8692d0fe6a0f98f24da"
+    },
+    {
+      "file": "service-areas/adelaide-hills-foothills/stirling/index.html",
+      "sha256": "7ed1f8e2c8286b86c96b4d56878a04b48fe3737db93e5eda2aca08cd1532fd65"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/adelaide-cbd/index.html",
+      "sha256": "e0fa119aa79f8b3549919282fea6b22f3cf18e0401e2adff2399f334ce92aed7"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/bowden/index.html",
+      "sha256": "1d077711cd73b234b21ef8eaf11468d28c37a0e5b9900ad413efbb4989ab1c36"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/index.html",
+      "sha256": "ce838dfeae51adae037894549440a4b79a7c8d10fb188b8f0d38a2f7860f0c4a"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/kent-town/index.html",
+      "sha256": "bb1ea0c26006c13b107b61c59edc08028ca0c67e375268a65b8eeaeff69b237c"
+    },
+    {
+      "file": "service-areas/cbd-north-adelaide/north-adelaide/index.html",
+      "sha256": "939a36c81a35f8a6a4749bb171694deba539d0d77f93a1dee51ad51fee445fc4"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/burnside/index.html",
+      "sha256": "2a84fcf2fbd157f2fb75776c5fc4ea5fc9547f8425d535dbd90dfb6415662bad"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/index.html",
+      "sha256": "395677c93d65b75a89a8495c3da4f71003eb7fd1858b72556e7e31de4b8ed360"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/kensington/index.html",
+      "sha256": "e32a21ac781f3a0f2f990d3a26af0047bc58c2c24877d8157d597d52fe3f9a00"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/magill/index.html",
+      "sha256": "b4c4e8ccff8fff60fad0ca55ded6d8965c2494ec05ea58bb1e10d94e7db35b52"
+    },
+    {
+      "file": "service-areas/eastern-suburbs/norwood/index.html",
+      "sha256": "0c6448fc1d498880de5e9163fb1f19a7acc98cde3c81d857b3eb503869598c61"
+    },
+    {
+      "file": "service-areas/index.html",
+      "sha256": "287043181dc74f1b942be09d01145b3c05a7b12f0b23c01a157c37f0e59a8652"
+    },
+    {
+      "file": "service-areas/inner-south/goodwood/index.html",
+      "sha256": "08f51eaddcd5f2b078e3cd8a2c83ce51410e795893c5f9306d6e936e2098dc33"
+    },
+    {
+      "file": "service-areas/inner-south/index.html",
+      "sha256": "37f52517f18a899f5029a2953e6aeb938c03bc37fd1e50f47ca3dc26616fcb2a"
+    },
+    {
+      "file": "service-areas/inner-south/millswood/index.html",
+      "sha256": "f32e90f452ded3f1defef29cc8cda48b4cc78359c75fd597c83231eaed98ab9c"
+    },
+    {
+      "file": "service-areas/inner-south/parkside/index.html",
+      "sha256": "f58e22b543febc80919d66d9b7b3ba1820eb4c70d53b7a79746eaae9c16ccd45"
+    },
+    {
+      "file": "service-areas/inner-south/unley/index.html",
+      "sha256": "68b75b36ada093ed2ad083f753b5ce08067e1592ee3cfbb701ed7d6dbd99e369"
+    },
+    {
+      "file": "service-areas/inner-west/brompton/index.html",
+      "sha256": "030d450914eae5fdbffdc56cea768361e194f30bd2d655da4a4fab0082cd5070"
+    },
+    {
+      "file": "service-areas/inner-west/index.html",
+      "sha256": "a6d2c5391a7e0f866a7436e5d4acaf770e9b6ce9af77ce7451fd62e559310d76"
+    },
+    {
+      "file": "service-areas/inner-west/mile-end/index.html",
+      "sha256": "c6fd7178b89516bdbed3acc9f3b92866395c355e9ca3e16c3a18814206bbcfbd"
+    },
+    {
+      "file": "service-areas/inner-west/thebarton/index.html",
+      "sha256": "8721b79cb66944d46c80c37410f76b1888edd1bcad779cc03029af9a9e8e608e"
+    },
+    {
+      "file": "service-areas/inner-west/torrensville/index.html",
+      "sha256": "78d9a50e6d5f808402b25c7c50ab20cf04393130745d228dbfddf011fddcf110"
+    },
+    {
+      "file": "service-areas/north-north-east/campbelltown/index.html",
+      "sha256": "f32aa80a2498d4154e0ef70181b0f967ab303282abc926ae32ab17838f43cfef"
+    },
+    {
+      "file": "service-areas/north-north-east/golden-grove/index.html",
+      "sha256": "e5d61d7c97ac6220347171d0f626b46567c6b24b74631e2c7a39623a4b8ec23f"
+    },
+    {
+      "file": "service-areas/north-north-east/index.html",
+      "sha256": "7f37e51ca0bfae770a4ab7c82d162bacf3cd0f01ea69d49842ac98cdf83ae88a"
+    },
+    {
+      "file": "service-areas/north-north-east/modbury/index.html",
+      "sha256": "01c95b01bf48d56fb386384796ac18af6e0da5492f00ddd2618fedfd28a57a25"
+    },
+    {
+      "file": "service-areas/north-north-east/prospect/index.html",
+      "sha256": "9844c70f7cb1c4d60569f4485fd494041c48318dfe34c7e85a0fda4e5c06c124"
+    },
+    {
+      "file": "service-areas/southern-suburbs/brighton/index.html",
+      "sha256": "15694677f8e3cb31449ff729ccac28651a8414e593f20aa2e848d8b71849cead"
+    },
+    {
+      "file": "service-areas/southern-suburbs/hallett-cove/index.html",
+      "sha256": "69bd4da063208d4d58f9ab6372761c9e105e4b96fd9b8f358cd245f5d269fd4d"
+    },
+    {
+      "file": "service-areas/southern-suburbs/index.html",
+      "sha256": "6f027358f3a2138a26f3c300b8c6cdbc1634833ca3e98fda55b79f913d013325"
+    },
+    {
+      "file": "service-areas/southern-suburbs/marion/index.html",
+      "sha256": "c68319461c86f847492841bf33174982760959d52d7dae3baafbc1a01fcabcc0"
+    },
+    {
+      "file": "service-areas/southern-suburbs/morphett-vale/index.html",
+      "sha256": "fc7fa20349c784181966ee738fad30737c459033d367e580813479f5542701ec"
+    },
+    {
+      "file": "service-areas/western-suburbs/glenelg/index.html",
+      "sha256": "8525d08c135e09988b62b164401f7a0c5d1fd83953819eeeabd851fe1edc292b"
+    },
+    {
+      "file": "service-areas/western-suburbs/henley-beach/index.html",
+      "sha256": "ae48eb853ec2207abc3c8722004fd6d28e114f5c19ebd968906513a187b5bb2e"
+    },
+    {
+      "file": "service-areas/western-suburbs/index.html",
+      "sha256": "9ca78b3f4104b5338f4a02aa51273c4be4bbbc6b60e404b4fe715870e2c03f2d"
+    },
+    {
+      "file": "service-areas/western-suburbs/semaphore/index.html",
+      "sha256": "46609552a5358a63646c244830c19ea0d313f4b28fb10d70d8b51e50ea393dce"
+    },
+    {
+      "file": "service-areas/western-suburbs/west-beach/index.html",
+      "sha256": "b9081398aa5593f429d67fc9cbacbebe45600c65e590228d5781c6eaa09509ce"
+    },
+    {
+      "file": "service-standards/index.html",
+      "sha256": "0762730c1b8908eea723d2b0f357fa2f87fb51197317cd9826aff2ab6ad585b7"
+    },
+    {
+      "file": "services/cabinet-drawer-repair/index.html",
+      "sha256": "876cbf04f3fef1a058561c24e53f407ec005398e92b6b57fa0f2cb85d585573b"
+    },
+    {
+      "file": "services/cleaning-removals-specialist-care/index.html",
+      "sha256": "37ced5d5a0397929e5d0dfef17d3cc06032ad82c53962ba849fe9635fa5a0621"
+    },
+    {
+      "file": "services/door-repair/index.html",
+      "sha256": "62bd61287cccc064ff56f12afaefdb24a92a1bb2128f1eb1254b5eec6f3240b2"
+    },
+    {
+      "file": "services/doors-windows-screens/index.html",
+      "sha256": "7bdc7394fc478d63e4197b89abf2dc01c0b2e467023c603747d5dc6086542fdd"
+    },
+    {
+      "file": "services/fence-gate-repair/index.html",
+      "sha256": "b07252c4a2e8ed6645816f0f9c8c3c6bb2642f619a0c90e5f19abb416b9a8183"
+    },
+    {
+      "file": "services/flat-pack-assembly/index.html",
+      "sha256": "d0b97b8cf2b14a63647cbf4ea667801451d2af058f82341d754f49dbd72a8995"
+    },
+    {
+      "file": "services/flyscreen-repair/index.html",
+      "sha256": "5d31743431505a84a6e3e79980bd2b6c42a78cddc663fc441afc3db02a9b4186"
+    },
+    {
+      "file": "services/garden-landscape-care/index.html",
+      "sha256": "35a8eb7e7451f71d89a71b588e34aaaa8e532c65d318714915b18db70d1835bb"
+    },
+    {
+      "file": "services/gutter-cleaning/index.html",
+      "sha256": "addeb128b78809101596ba8fc3402a80af9405246384a86df3a5ab73ca166e03",
+      "route": "services/gutter-cleaning/",
+      "paragraphs": [
+        {
+          "section": 0,
+          "index": 1,
+          "text": "Our Prospect gutter-debris clearing record shows leaves and branches being cleared. We assess safe access, gutter condition and the agreed cleaning scope. Tell us the affected side and approximate building height from ground level; leaks or drainage faults need separate repair assessment."
+        },
+        {
+          "section": 1,
+          "index": 1,
+          "text": "Confirm the gutter sections included and how removed debris will be handled. A repeat cleaning interval can be discussed according to leaf fall and observed build-up, with each visit arranged directly. Roof repair, access equipment and separate faults must be confirmed in the assessed scope."
+        },
+        {
+          "section": 2,
+          "index": 0,
+          "text": "Leaves and visible debris are useful details for a gutter cleaning enquiry, but overflow can have more than one cause. MEL ONE assesses access and the affected gutter area before confirming the cleaning scope. Mention where water spills, whether it happens during rainfall and any ground-level observations of debris or visible damage."
+        },
+        {
+          "section": 2,
+          "index": 1,
+          "text": "Tell us the approximate building height and about narrow side access, extensions or obstacles near the roof edge. These details help plan an assessment; they do not establish that the roof or gutter can be reached safely. Access and the condition of the installation determine what can be undertaken."
+        },
+        {
+          "section": 3,
+          "index": 0,
+          "text": "Give your suburb and identify the affected side of the building. Safe existing photos taken from the ground can help. Do not climb onto the roof or a ladder to investigate for an enquiry. If there is an active leak inside the home, describe that separately so the request is considered beyond routine debris removal."
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "Confirm the gutter sections that can be safely accessed, debris handling and any included accessible outlet checks in the quote. Downpipe blockage removal, damaged joints, resealing and roof repairs are not automatically included in gutter cleaning. Report overflow or a leak separately so the appropriate work can be assessed."
+        },
+        {
+          "section": 4,
+          "index": 1,
+          "text": "The Prospect record shows gutter debris being cleared. It documents that property, not the cause of water spilling at your home. Ask what was observed after cleaning and which remaining concerns need separate repair or qualified assessment; clearing leaves is not a weatherproofing guarantee."
+        },
+        {
+          "section": 5,
+          "index": 0,
+          "text": "The gutter length, building height, safe access, debris and disposal requirements affect the work. Mention nearby structures and restricted entry from ground-level observations. Ask whether accessible outlets are included and how any damaged gutter or downpipe fitting will be handled separately."
+        }
+      ],
+      "protectedCopy": {
+        "title": "Gutter Cleaning | MEL ONE",
+        "h1": "Gutter Cleaning",
+        "meta": "Gutter cleaning: leaf debris, blocked outlets and overflow observations. MEL ONE confirms safe access, gutter condition and the agreed clearing scope.",
+        "headings": [
+          "Leaf Debris, Gutter Outlets and Rainwater Overflow",
+          "Gutter Cleaning Access, Trees and Debris Removal",
+          "Gutter Debris, Condition and Safe Access",
+          "Gutter Overflow Observations from Ground Level",
+          "Gutter cleaning, outlets and repairs: agree the scope",
+          "Gutter Cleaning Quotes: Access, Debris and Condition",
+          "Gutter Cleaning: Repair Questions",
+          "Request a Repair Assessment & Quote",
+          "Relevant photographed repair records",
+          "Request a Handyman Repair Quote"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">Skip to content</a>",
+          "<a class=\"brand\" href=\"/\" aria-label=\"MEL ONE home\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/\">Home</a>",
+          "<a href=\"/services/\" aria-current=\"page\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/guides/\">Field notes</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a class=\"header-enquiry\" href=\"/contact/\">Contact <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/zh/services/gutter-cleaning/\" lang=\"zh-Hans\" hreflang=\"zh-Hans\" aria-label=\"切换到中文服务\">中文服务</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/gutter-cleaning/\">Home</a>",
+          "<a href=\"/case-studies/prospect-gutter-cleaning/\">Prospect gutter-debris clearing record</a>",
+          "<a href=\"/case-studies/prospect-gutter-cleaning/\">Photographed gutter cleaning in Prospect</a>",
+          "<a href=\"/services/roof-gutter-exterior-care/\">Separate roof, fascia and exterior-maintenance concerns</a>",
+          "<a href=\"/contact/\">Request a gutter-cleaning assessment</a>",
+          "<a href=\"/service-standards/#quote-details\">What to confirm in your written quote</a>",
+          "<a href=\"/guides/field-notes-roof-gutter-exterior-observations/\">Ground-level gutter and overflow checklist</a>",
+          "<a href=\"/news/gutter-overflow-and-outdoor-repairs-after-rain/\">Gutter Overflow After Cleaning: What to Record Before More Work</a>",
+          "<a class=\"text-link\" href=\"/services/roof-gutter-exterior-care/\">Roof, Gutter &amp; Exterior Maintenance</a>",
+          "<a class=\"text-link\" href=\"/how-it-works/\">How assessment, approval and completion work</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"work-image-link\" href=\"/case-studies/prospect-gutter-cleaning/\" aria-label=\"View Gutter Cleaning in Prospect\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.avif 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.avif 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px\"><img data-image-layout=\"card-single\" src=\"/assets/images/cases/prospect-gutter-cleaning-04.png\" alt=\"Cleared roof gutter after gutter cleaning at a Prospect home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/case-studies/prospect-gutter-cleaning/\">Gutter Cleaning in Prospect</a>",
+          "<a class=\"text-link\" href=\"/case-studies/prospect-gutter-cleaning/\">See the work <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"button primary\" href=\"/contact/\">Request an assessment and quote<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/\">MEL ONE<span aria-hidden=\"true\">.</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google Reviews</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a href=\"/service-standards/\">Service standards</a>",
+          "<a href=\"/news/\">News</a>",
+          "<a href=\"/guides/\">Guides</a>",
+          "<a href=\"/faq/\">FAQ</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/case-studies/feed.json\">Case data (JSON)</a>",
+          "<a href=\"/service-areas/feed.json\">Area data (JSON)</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a href=\"/contact/\">Start an enquiry <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-image-layout=\"card-single\" src=\"/assets/images/cases/prospect-gutter-cleaning-04.png\" alt=\"Cleared roof gutter after gutter cleaning at a Prospect home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px\">"
+        ],
+        "faq": [
+          "<details><summary>Will gutter cleaning stop all overflow?</summary><p>Clearing debris may restore flow where build-up is the cause, but overflow can also involve gutter damage, alignment or a downstream obstruction. MEL ONE distinguishes the cleaning work from any separate repair or specialist assessment required.</p></details>",
+          "<details><summary>What access details should I provide?</summary><p>Mention approximate building height, narrow passages, extensions and obstacles near the affected gutter. Safe access is confirmed on site before work is agreed.</p></details>",
+          "<details><summary>Does gutter cleaning include downpipe outlets and repairs?</summary><p>Confirm the included cleaning and accessible outlet checks in the quote. A blocked or damaged downpipe, leaking joint or roof defect may need separate assessment and work; clearing debris is not a roof repair.</p></details>",
+          "<details><summary>Why does my gutter still overflow after cleaning?</summary><p>Clearing leaves addresses debris, not every possible fault. Note where water spills and whether an outlet or downpipe appears affected from the ground. Gutter alignment, damaged joints and downstream drainage need separate consideration. Ask us to distinguish the cleaning scope from any further repair assessment.</p></details>",
+          "<details><summary>How do gutter guards affect a cleaning enquiry?</summary><p>Mention any gutter guards and the areas where debris or overflow has been noticed. The guard type can affect access and the cleaning plan. Any need to lift or remove a guard, permission and the included work must be confirmed during assessment. Leave guards and roof components in place when preparing your enquiry.</p></details>",
+          "<details><summary>What affects the cost of residential gutter cleaning?</summary><p>The gutter sections, building height, safe access, debris build-up and any guards affect the assessed work. Tell MEL ONE about extensions, narrow passages and recurring overflow. Ask the written quote to identify the cleaning area, debris handling and any separate repair; a single advertised rate would not describe every property.</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/\",\"name\":\"Gutter Cleaning\",\"description\":\"Gutter cleaning: leaf debris, blocked outlets and overflow observations. MEL ONE confirms safe access, gutter condition and the agreed clearing scope.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-04.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/#breadcrumb\"},\"keywords\":[\"Gutter Cleaning\",\"gutter cleaning\",\"Leaf Debris, Gutter Outlets and Rainwater Overflow\",\"Gutter Cleaning Access, Trees and Debris Removal\",\"Gutter Debris, Condition and Safe Access\",\"Gutter Overflow Observations from Ground Level\",\"Gutter cleaning, outlets and repairs: agree the scope\",\"Gutter Cleaning Quotes: Access, Debris and Condition\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/#service\"}},{\"@type\":\"Service\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/#service\",\"name\":\"Gutter Cleaning\",\"description\":\"Gutter cleaning: leaf debris, blocked outlets and overflow observations. MEL ONE confirms safe access, gutter condition and the agreed clearing scope.\",\"provider\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Adelaide\"},\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/#webpage\"},\"serviceType\":\"Gutter Cleaning\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Will gutter cleaning stop all overflow?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Clearing debris may restore flow where build-up is the cause, but overflow can also involve gutter damage, alignment or a downstream obstruction. MEL ONE distinguishes the cleaning work from any separate repair or specialist assessment required.\"}},{\"@type\":\"Question\",\"name\":\"What access details should I provide?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Mention approximate building height, narrow passages, extensions and obstacles near the affected gutter. Safe access is confirmed on site before work is agreed.\"}},{\"@type\":\"Question\",\"name\":\"Does gutter cleaning include downpipe outlets and repairs?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Confirm the included cleaning and accessible outlet checks in the quote. A blocked or damaged downpipe, leaking joint or roof defect may need separate assessment and work; clearing debris is not a roof repair.\"}},{\"@type\":\"Question\",\"name\":\"Why does my gutter still overflow after cleaning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Clearing leaves addresses debris, not every possible fault. Note where water spills and whether an outlet or downpipe appears affected from the ground. Gutter alignment, damaged joints and downstream drainage need separate consideration. Ask us to distinguish the cleaning scope from any further repair assessment.\"}},{\"@type\":\"Question\",\"name\":\"How do gutter guards affect a cleaning enquiry?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Mention any gutter guards and the areas where debris or overflow has been noticed. The guard type can affect access and the cleaning plan. Any need to lift or remove a guard, permission and the included work must be confirmed during assessment. Leave guards and roof components in place when preparing your enquiry.\"}},{\"@type\":\"Question\",\"name\":\"What affects the cost of residential gutter cleaning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The gutter sections, building height, safe access, debris build-up and any guards affect the assessed work. Tell MEL ONE about extensions, narrow passages and recurring overflow. Ask the written quote to identify the cleaning area, debris handling and any separate repair; a single advertised rate would not describe every property.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gutter Cleaning\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/gutter-cleaning/\"}]}]}"
+        ]
+      },
+      "maskedHash": "50243763a909ee0761cbcf20a3cd55dabd1f00f506436f36b36248a7ca1b8a81"
+    },
+    {
+      "file": "services/home-electrical-repairs/index.html",
+      "sha256": "0e58bba827f612a8fd21dee1414bd1411876cf7740ca64850dbc662ec99d496e"
+    },
+    {
+      "file": "services/home-repairs-renovation-support/index.html",
+      "sha256": "a740f9203c68b16e8ee464e58f5aa43c5dbd4062259784a0da9ce28fecbfbd52"
+    },
+    {
+      "file": "services/index.html",
+      "sha256": "21968bf49c1c063ab2492527afb4a8d9363856036078e4e036a31461526b9151"
+    },
+    {
+      "file": "services/interior-repairs-assembly/index.html",
+      "sha256": "101d8e395896c95f98dee0825114d48078f94a25c48d1430081362dff4d4137f"
+    },
+    {
+      "file": "services/maintenance-planning-inspection-support/index.html",
+      "sha256": "39c6edb21e6529395833b7bf807e26f4030f474a9dfc43e41aadd7ee81cb78ad"
+    },
+    {
+      "file": "services/outdoor-structures-fences-pools/index.html",
+      "sha256": "aadbd08499140a5a8b8b6adafb7a5ee6ffc24c7f9de4a53b32c49fbb8bef7426",
+      "route": "services/outdoor-structures-fences-pools/",
+      "paragraphs": [
+        {
+          "section": 0,
+          "index": 1,
+          "text": "The Stirling deck and pergola record shows photographed local timber work. MEL ONE assesses the reported area and agrees the repair and finish. Widespread movement or deterioration may need specialist assessment rather than a cosmetic replacement."
+        },
+        {
+          "section": 1,
+          "index": 1,
+          "text": "Our Stirling, Mile End and North Adelaide cases show local timber, fence and gate repairs. We assess the affected components and agree the repair scope. New structural work and pool barriers require their own qualified arrangements; ordinary timber repair is not a compliance certification."
+        },
+        {
+          "section": 2,
+          "index": 0,
+          "text": "Split palings, loose panels and a dragging gate should be described separately. We assess the affected timber, accessible fixing points, hinges and latch movement. Report whether the gate needs lifting to close or catches along its swing."
+        },
+        {
+          "section": 2,
+          "index": 1,
+          "text": "Assessment helps distinguish a local fixing or hardware problem from deterioration involving supporting timber. We explain the repair and any replacement needed for the agreed area."
+        },
+        {
+          "section": 3,
+          "index": 0,
+          "text": "For a split or deteriorated board, identify its position and the surrounding area from a safe location. A wider view helps plan access and locate adjoining posts or connections. Avoid using a section that appears unstable."
+        },
+        {
+          "section": 3,
+          "index": 1,
+          "text": "MEL ONE follows up on the reported problem, assesses accessible timber and fixings and proposes a targeted solution. Structural changes or wider movement require the appropriate assessment before a work scope is agreed."
+        },
+        {
+          "section": 5,
+          "index": 0,
+          "text": "Tell us about pets, stairs, furniture, shared boundaries and the entry route. Confirm any owner or neighbour permissions relevant to the proposed work. The quote should identify the affected area and included preparation or finishing."
+        },
+        {
+          "section": 5,
+          "index": 1,
+          "text": "Review the agreed repair with MEL ONE at completion and raise any remaining concern. Do not assume a local repair includes replacement of an entire fence or structure; the included work is set out in the quote."
+        },
+        {
+          "section": 6,
+          "index": 0,
+          "text": "A split paling, a worn gate hinge and decayed deck timber are different repair decisions. Include the affected component and adjoining connections in your description. A local replacement is considered against the condition of its supports, not just the visible board."
+        },
+        {
+          "section": 7,
+          "index": 0,
+          "text": "Identify the damaged length or components, material, access and any shared-boundary approval. The quote should separate removal, replacement timber, hardware, finishing and waste handling where relevant. Structural findings or larger replacement work are discussed before they are added."
+        }
+      ],
+      "protectedCopy": {
+        "title": "Deck, Pergola & Outdoor Repairs | MEL ONE",
+        "h1": "Deck, Pergola & Outdoor Repairs",
+        "meta": "Deck, pergola and outdoor repairs for local timber damage, loose boards, fence panels and gate fittings. MEL ONE assesses the affected parts and supporting structure.",
+        "headings": [
+          "Deck Board Repairs and Local Timber Replacement",
+          "Pergola Timber, Fence Panels and Gate Fittings",
+          "Fence panels and timber gate repairs",
+          "Deck boards and pergola timber",
+          "Outdoor fittings and pool-area boundaries",
+          "Outdoor Timber Condition, Access and Repair Finish",
+          "Local Timber Repairs and Wider Structural Concerns",
+          "Outdoor Timber Repair Quotes: Materials and Finish",
+          "Deck, Pergola & Outdoor Repairs: Repair Questions",
+          "Deck, Pergola & Outdoor Repairs: Guides and Repair Examples",
+          "Deck, Pergola & Outdoor Repairs: Tasks and Materials",
+          "Deck, Pergola & Outdoor Repairs: Specialist Requirements",
+          "Request a Repair Assessment & Quote",
+          "Deck, Pergola & Outdoor Repairs: Photographed Work",
+          "Specific Door, Cabinet and Household Repairs",
+          "Request a Handyman Repair Quote"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">Skip to content</a>",
+          "<a class=\"brand\" href=\"/\" aria-label=\"MEL ONE home\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/\">Home</a>",
+          "<a href=\"/services/\" aria-current=\"page\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/guides/\">Field notes</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a class=\"header-enquiry\" href=\"/contact/\">Contact <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/zh/services/outdoor-structures-fences-pools/\" lang=\"zh-Hans\" hreflang=\"zh-Hans\" aria-label=\"切换到中文服务\">中文服务</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/outdoor-structures-fences-pools/\">Home</a>",
+          "<a href=\"/services/fence-gate-repair/\">Timber fence, hinge and gate-latch repairs</a>",
+          "<a href=\"/guides/field-notes-garden-outdoor-seasonal-preparation/\">Garden tidy-ups and outdoor timber</a>",
+          "<a href=\"/service-standards/#quote-details\">What to confirm in your written quote</a>",
+          "<a href=\"/guides/field-notes-garden-outdoor-seasonal-preparation/\">Garden tidy-ups and outdoor timber</a>",
+          "<a href=\"/guides/home-maintenance-walk-through-checklist/\">Room-by-room maintenance checklist</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"work-image-link\" href=\"/case-studies/mile-end-fence-repair/\" aria-label=\"View Timber Fence Repair in Mile End\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/mile-end-fence-repair-04-480.avif 480w, /assets/images/responsive/mile-end-fence-repair-04-960.avif 960w, /assets/images/responsive/mile-end-fence-repair-04-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/mile-end-fence-repair-04.png\" alt=\"Completed timber fence repair at a Mile End home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/mile-end-fence-repair-04-480.webp 480w, /assets/images/responsive/mile-end-fence-repair-04-960.webp 960w, /assets/images/responsive/mile-end-fence-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/case-studies/mile-end-fence-repair/\">Timber Fence Repair in Mile End</a>",
+          "<a class=\"text-link\" href=\"/case-studies/mile-end-fence-repair/\">See the work <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"work-image-link\" href=\"/case-studies/modbury-timber-fence-repair-assessment/\" aria-label=\"View Timber Fence Repair Assessment in Modbury\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.avif 480w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.avif 960w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg\" alt=\"Broken timber fence palings at a Modbury property\" loading=\"lazy\" decoding=\"async\" width=\"1707\" height=\"1280\" srcset=\"/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.webp 480w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.webp 960w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/case-studies/modbury-timber-fence-repair-assessment/\">Timber Fence Repair Assessment in Modbury</a>",
+          "<a class=\"text-link\" href=\"/case-studies/modbury-timber-fence-repair-assessment/\">See the work <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"work-image-link\" href=\"/case-studies/stirling-deck-pergola-timber-repair/\" aria-label=\"View Deck and Pergola Timber Repair in Stirling\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.avif 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.avif 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\" alt=\"Finished timber deck and pergola area in Stirling\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/case-studies/stirling-deck-pergola-timber-repair/\">Deck and Pergola Timber Repair in Stirling</a>",
+          "<a class=\"text-link\" href=\"/case-studies/stirling-deck-pergola-timber-repair/\">See the work <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"work-image-link\" href=\"/case-studies/north-adelaide-timber-gate-repair/\" aria-label=\"View Timber Side Gate Repair in North Adelaide\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.avif 480w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-960.avif 960w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/north-adelaide-timber-gate-repair-03.png\" alt=\"Timber side gate closed after repair in North Adelaide\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.webp 480w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-960.webp 960w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/case-studies/north-adelaide-timber-gate-repair/\">Timber Side Gate Repair in North Adelaide</a>",
+          "<a class=\"text-link\" href=\"/case-studies/north-adelaide-timber-gate-repair/\">See the work <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/services/fence-gate-repair/\">Fence &amp; Gate Repairs</a>",
+          "<a class=\"button primary\" href=\"/contact/\">Request an assessment and quote<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/\">MEL ONE<span aria-hidden=\"true\">.</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google Reviews</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/services/\">Services</a>",
+          "<a href=\"/case-studies/\">Our work</a>",
+          "<a href=\"/how-it-works/\">How it works</a>",
+          "<a href=\"/service-areas/\">Service areas</a>",
+          "<a href=\"/about/\">About</a>",
+          "<a href=\"/service-standards/\">Service standards</a>",
+          "<a href=\"/news/\">News</a>",
+          "<a href=\"/guides/\">Guides</a>",
+          "<a href=\"/faq/\">FAQ</a>",
+          "<a href=\"/privacy/\">Privacy</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/case-studies/feed.json\">Case data (JSON)</a>",
+          "<a href=\"/service-areas/feed.json\">Area data (JSON)</a>",
+          "<a href=\"tel:+61416614281\">Call 0416 614 281</a>",
+          "<a href=\"/contact/\">Start an enquiry <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-image-layout=\"service-intro\" src=\"/assets/images/mel-one-outdoor-structures-fences.png\" alt=\"Outdoor fence and structure\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/mel-one-outdoor-structures-fences-480.webp 480w, /assets/images/responsive/mel-one-outdoor-structures-fences-960.webp 960w, /assets/images/responsive/mel-one-outdoor-structures-fences-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 320.00px), (max-width: 650px) min(calc(100vw - 40px), 320.00px), (max-width: 850px) min(calc(100vw - 40px), 373.33px), 320px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/mile-end-fence-repair-04.png\" alt=\"Completed timber fence repair at a Mile End home\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/mile-end-fence-repair-04-480.webp 480w, /assets/images/responsive/mile-end-fence-repair-04-960.webp 960w, /assets/images/responsive/mile-end-fence-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg\" alt=\"Broken timber fence palings at a Modbury property\" loading=\"lazy\" decoding=\"async\" width=\"1707\" height=\"1280\" srcset=\"/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.webp 480w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.webp 960w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\" alt=\"Finished timber deck and pergola area in Stirling\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/north-adelaide-timber-gate-repair-03.png\" alt=\"Timber side gate closed after repair in North Adelaide\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.webp 480w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-960.webp 960w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">"
+        ],
+        "faq": [
+          "<details><summary>Can a local deck repair replace a full deck assessment?</summary><p>No. A local repair concerns the agreed damaged area. If supporting timber is soft, loose or moving, MEL ONE discusses the additional assessment needed before proceeding. Replacing a board does not certify the whole deck or establish the condition of concealed components.</p></details>",
+          "<details><summary>Can one damaged fence section be assessed?</summary><p>Yes. Show the damaged section and adjoining supports from a safe position. We assess the affected area before confirming whether local repair or further replacement is appropriate.</p></details>",
+          "<details><summary>Can a deck request include nearby pergola damage?</summary><p>Yes. Identify each affected area. MEL ONE assesses the reported timber and connections and agrees the included repair items and any further assessment needed.</p></details>",
+          "<details><summary>What should I include for a gate that drags?</summary><p>Describe where it catches, whether the latch engages and whether it needs lifting. Safe photos of the hinges, latch and lower clearance help prepare the assessment.</p></details>",
+          "<details><summary>Can a damaged deck board be replaced before cleaning or oiling?</summary><p>The board and its accessible supports need assessment first. Repair, surface preparation and coating are separate work items. Wider decay or movement may require specialist assessment before a finishing plan is agreed.</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE provides handyman repairs and household maintenance in Adelaide. Contact our team to arrange an on-site assessment and confirm the work plan and written quote.\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD has an independent team and genuine business premises at 63 Pirie St Adelaide SA 5000. Office visits are by appointment; call or email to arrange a visit or an assessment at your property.\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/\",\"inLanguage\":\"en-AU\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/\",\"name\":\"Deck, Pergola & Outdoor Repairs\",\"description\":\"Deck, pergola and outdoor repairs for local timber damage, loose boards, fence panels and gate fittings. MEL ONE assesses the affected parts and supporting structure.\",\"inLanguage\":\"en-AU\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-outdoor-structures-fences.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/#breadcrumb\"},\"keywords\":[\"Deck, Pergola & Outdoor Repairs\",\"pergola timber repair\",\"timber fence repair\",\"loose verandah trim\",\"raised deck screws\",\"furniture assembly\",\"gate repairs\",\"door repairs\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/#service\"}},{\"@type\":\"Service\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/#service\",\"name\":\"Deck, Pergola & Outdoor Repairs\",\"description\":\"Deck, pergola and outdoor repairs for local timber damage, loose boards, fence panels and gate fittings. MEL ONE assesses the affected parts and supporting structure.\",\"provider\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/#business\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD & North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Eastern Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner South\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Inner West\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Western Suburbs\"},{\"@type\":\"AdministrativeArea\",\"name\":\"North & North-East\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills & Foothills\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Southern Suburbs\"}],\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/#webpage\"},\"serviceType\":\"Deck, Pergola & Outdoor Repairs\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can a local deck repair replace a full deck assessment?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. A local repair concerns the agreed damaged area. If supporting timber is soft, loose or moving, MEL ONE discusses the additional assessment needed before proceeding. Replacing a board does not certify the whole deck or establish the condition of concealed components.\"}},{\"@type\":\"Question\",\"name\":\"Can one damaged fence section be assessed?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Show the damaged section and adjoining supports from a safe position. We assess the affected area before confirming whether local repair or further replacement is appropriate.\"}},{\"@type\":\"Question\",\"name\":\"Can a deck request include nearby pergola damage?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Identify each affected area. MEL ONE assesses the reported timber and connections and agrees the included repair items and any further assessment needed.\"}},{\"@type\":\"Question\",\"name\":\"What should I include for a gate that drags?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Describe where it catches, whether the latch engages and whether it needs lifting. Safe photos of the hinges, latch and lower clearance help prepare the assessment.\"}},{\"@type\":\"Question\",\"name\":\"Can a damaged deck board be replaced before cleaning or oiling?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The board and its accessible supports need assessment first. Repair, surface preparation and coating are separate work items. Wider decay or movement may require specialist assessment before a finishing plan is agreed.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.adelaidehandymanmelone.com.au/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Deck, Pergola & Outdoor Repairs\",\"item\":\"https://www.adelaidehandymanmelone.com.au/services/outdoor-structures-fences-pools/\"}]}]}"
+        ]
+      },
+      "maskedHash": "2b0f0dd6c21da56a5f92cf7e9bd5405bda766c554816cddd0f1a91a927690267"
+    },
+    {
+      "file": "services/pressure-cleaning/index.html",
+      "sha256": "ded6fa717544b247c202c24366107e54b74a8a649baaaff58bcd6d6a63e1e813"
+    },
+    {
+      "file": "services/roof-gutter-exterior-care/index.html",
+      "sha256": "f5b73187dc95703d9ee59e98977afc41d2b60b22c89420e132caeebcf18af6c9"
+    },
+    {
+      "file": "services/sliding-door-repair/index.html",
+      "sha256": "f696c548de23fb95a681f9a363534b205538f93b0b4fc6b981eadf043d8f13b0"
+    },
+    {
+      "file": "services/wall-patching-repair/index.html",
+      "sha256": "719f7620f1c5a14f07c5068d28c0091a8d9765ffec718e1ee0506021eb351427"
+    },
+    {
+      "file": "zh/404.html",
+      "sha256": "1a24f9854a0b2a6feb0591296d5ac6dfe60bb7b3701f777f6d7e52146bdf76eb"
+    },
+    {
+      "file": "zh/about/index.html",
+      "sha256": "4c32105a477b14ab72d8bae3aed50c98ce8a4da748332d837a578d08e4738291"
+    },
+    {
+      "file": "zh/case-studies/adelaide-cbd-wall-repair/index.html",
+      "sha256": "b4269a66244aff9712141d0f231aeeded132be56a72782661dd1df46479d1570"
+    },
+    {
+      "file": "zh/case-studies/burnside-driveway-pressure-cleaning/index.html",
+      "sha256": "d80336d5a345a7389197a04269564373a7adef3b0e140160bc2c684245621ae0"
+    },
+    {
+      "file": "zh/case-studies/burnside-window-repair/index.html",
+      "sha256": "b55bfd2cad700d823435c3908545855dbb2a178798bae4957d7d2b0a0f160264"
+    },
+    {
+      "file": "zh/case-studies/goodwood-wall-repair/index.html",
+      "sha256": "3574597f4abf7502de5c92b794b44519f64642e1965eb3dc6f5a356e65c3174c"
+    },
+    {
+      "file": "zh/case-studies/henley-beach-sliding-screen-door-repair/index.html",
+      "sha256": "65850583e58310b337de603450fef8d7cc994bbeeccb6d1f30554bd300b21e7a"
+    },
+    {
+      "file": "zh/case-studies/index.html",
+      "sha256": "cc531a638cfbd9fa55da4788f76f6b79bb6cfe8ed07c5137e75054260e52452b"
+    },
+    {
+      "file": "zh/case-studies/kensington-furniture-assembly/index.html",
+      "sha256": "4c8a82accb03e5ec200c997c53001f6e4d82fe9c70f9a5116a6b1105d601b98c"
+    },
+    {
+      "file": "zh/case-studies/kitchen-drawer-runner-repair/index.html",
+      "sha256": "29428670ba155e1ec521a220382e25a82bcaf3d6d30e5b66aa92d506a3911e49"
+    },
+    {
+      "file": "zh/case-studies/marion-shower-screen-repair/index.html",
+      "sha256": "2b7d22d754e7044602ab6ba6f054760dc4ab8d17a0e3956af1ce8207b72a4210"
+    },
+    {
+      "file": "zh/case-studies/marion-wardrobe-sliding-door-repair/index.html",
+      "sha256": "786e1fe7150352458bd679959fa106bc77db2936d386675705c1c182b4d818b2"
+    },
+    {
+      "file": "zh/case-studies/mile-end-fence-repair/index.html",
+      "sha256": "5144c85730524a86b2671fe110b1306d7947e96a3eec7f62763bdf027d7c18cc"
+    },
+    {
+      "file": "zh/case-studies/modbury-garden-pruning-tidy-up/index.html",
+      "sha256": "d22129d734b4dafe1a9d0958041ca04472ba1f5d078f960659bdae39d397de12"
+    },
+    {
+      "file": "zh/case-studies/modbury-timber-fence-repair-assessment/index.html",
+      "sha256": "9c891c3426ca6b932862438c8cd4558f7f0313c98a91216b87ed62ecf4974d20"
+    },
+    {
+      "file": "zh/case-studies/north-adelaide-door-repair/index.html",
+      "sha256": "de7c90bada4a2c8d74c9e44f2651bf262367fe73157e92b8ce459cc80b5241e5"
+    },
+    {
+      "file": "zh/case-studies/north-adelaide-timber-gate-repair/index.html",
+      "sha256": "c37aa77f83dd98cfe60a3c3e8a2222595acba771fae2840fac919c66967735b6"
+    },
+    {
+      "file": "zh/case-studies/norwood-flyscreen-repair/index.html",
+      "sha256": "ee97ad67d4047ec5ed8c5747c221cc0282563633f36daf0de55bb41c08b2ace0"
+    },
+    {
+      "file": "zh/case-studies/prospect-gutter-cleaning/index.html",
+      "sha256": "fae4e21162b4db88065a95c0dbc7dc4d988fef769428b0d2fb8b5fd06fefbc8e",
+      "route": "case-studies/prospect-gutter-cleaning/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 0,
+          "text": "排水沟清洁咨询通常源于季节性落叶堆积、屋檐附近植物、溢水现象，或从地面可以安全看到的杂物。清楚的外观照片有助于识别建筑的相关一侧，但住户不应为此自行攀爬、探身越过屋檐或检查高处。通行条件、天气、屋顶设计、排水沟状况和高处作业要求，都会影响具体项目适合采用的方案。"
+        },
+        {
+          "section": 3,
+          "index": 1,
+          "text": "如需咨询 Prospect 或大阿德莱德地区的排水沟清洁，请联系 MEL ONE，告知所在地区，并简述需要处理的部位和工作。请说明可能影响上门服务的树木、庭院门、宠物或物业经理入场安排。不要仅为拍照而尝试上屋顶。简短、准确的描述比猜测隐蔽部位状况更有帮助。可选择将已有的安全拍摄照片发送至 admin@melonemaintenance.com.au。仅提供文字描述也可申请评估。"
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "本记录展示排水沟杂物清理。溢水、接缝损坏或落水管问题需要单独评估，不能假设原因相同。比较维修范围： 排水沟清理。"
+        }
+      ],
+      "protectedCopy": {
+        "title": "Prospect 排水沟清洁 | MEL ONE",
+        "h1": "Prospect 排水沟清洁",
+        "meta": "Prospect 排水沟清洁照片展示可见落叶堆积、可接近区域的清洁过程和清理后的排水沟。",
+        "headings": [
+          "排水沟落叶和树枝积聚",
+          "杂物清理与排水沟效果记录",
+          "排水沟落叶和树枝积聚：其他房屋的咨询信息",
+          "排水沟清洁与独立故障：比较",
+          "排水沟清洁与独立故障：比较答疑",
+          "相关维修指引",
+          "MEL ONE 相关页面",
+          "门、橱柜及其他家居维修",
+          "申请家居维修报价"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">跳至正文</a>",
+          "<a class=\"brand\" href=\"/zh/\" aria-label=\"MEL ONE 首页\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/zh/\">首页</a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\" aria-current=\"page\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/guides/\">维护笔记</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a class=\"header-enquiry\" href=\"/zh/contact/\">联系我们 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/case-studies/prospect-gutter-cleaning/\" lang=\"en-AU\" hreflang=\"en-AU\" aria-label=\"Switch to English\">English</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/gutter-cleaning/\">首页</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/gutter-cleaning/\">排水沟清理</a>",
+          "<a href=\"/zh/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/zh/services/gutter-cleaning/\">排水沟清理</a>",
+          "<a href=\"/zh/service-standards/\">评估、范围和维修跟进</a>",
+          "<a href=\"/zh/guides/field-notes-roof-gutter-exterior-observations/\">排水沟溢水与外部检查</a>",
+          "<a href=\"/zh/guides/home-maintenance-walk-through-checklist/\">逐房间维护检查清单</a>",
+          "<a class=\"text-link\" href=\"/zh/services/roof-gutter-exterior-care/\">屋顶、排水沟与外部维护 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/service-areas/north-north-east/prospect/\">Prospect 家居维修服务 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/services/gutter-cleaning/\">排水沟清理</a>",
+          "<a class=\"button primary\" href=\"/zh/contact/\">申请评估和报价<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/zh/\">MEL ONE<span aria-hidden=\"true\">。</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google 评价</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a href=\"/zh/service-standards/\">服务标准</a>",
+          "<a href=\"/zh/news/\">资讯</a>",
+          "<a href=\"/zh/guides/\">指南</a>",
+          "<a href=\"/zh/faq/\">常见问题</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/zh/case-studies/feed.json\">案例数据（JSON）</a>",
+          "<a href=\"/zh/service-areas/feed.json\">区域数据（JSON）</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a href=\"/zh/contact/\">开始咨询 <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-01.png\" alt=\"清洁前 Prospect 屋顶排水沟中的落叶和树枝积聚\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-01-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-01-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-02.png\" alt=\"维修人员检查 Prospect 排水沟积叶\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-02-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-02-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-03.png\" alt=\"维修人员在 Prospect 清除屋顶排水沟落叶\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-03-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-03-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/prospect-gutter-cleaning-04.png\" alt=\"Prospect 住宅清理后的屋顶排水沟\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>比较排水沟清洁需求时应注意什么？</summary><p>本记录展示排水沟杂物清除。溢水、接头损坏或落水管问题需要单独评估，不能假定原因相同。</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/\",\"name\":\"Prospect 排水沟清洁\",\"description\":\"Prospect 排水沟清洁照片展示可见落叶堆积、可接近区域的清洁过程和清理后的排水沟。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/#breadcrumb\"},\"keywords\":[\"Prospect 排水沟清洁\",\"排水沟落叶和树枝积聚\",\"杂物清理与排水沟效果记录\",\"排水沟落叶和树枝积聚：其他房屋的咨询信息\",\"排水沟清洁与独立故障：比较\",\"排水沟清洁与独立故障：比较答疑\",\"相关维修指引\",\"MEL ONE 相关页面\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/#case-study\",\"headline\":\"Prospect 排水沟清洁\",\"description\":\"Prospect 排水沟清洁照片展示可见落叶堆积、可接近区域的清洁过程和清理后的排水沟。\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/#webpage\"},\"dateModified\":\"2026-10-20\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"zh-Hans\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-04.png\"],\"keywords\":[\"Prospect 排水沟清洁\",\"排水沟落叶和树枝积聚\",\"杂物清理与排水沟效果记录\",\"排水沟落叶和树枝积聚：其他房屋的咨询信息\",\"排水沟清洁与独立故障：比较\",\"排水沟清洁与独立故障：比较答疑\",\"相关维修指引\",\"MEL ONE 相关页面\"],\"about\":{\"@type\":\"Service\",\"name\":\"屋顶、排水沟与外部维护\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Prospect，阿德莱德，南澳\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"比较排水沟清洁需求时应注意什么？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"本记录展示排水沟杂物清除。溢水、接头损坏或落水管问题需要单独评估，不能假定原因相同。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"排水沟清理\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Prospect 排水沟清洁\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/prospect-gutter-cleaning/\"}]}]}"
+        ]
+      },
+      "maskedHash": "d19cd7427656aae80ff7b2ff4f2f24988b194a108c93020ee5eeb36f01a23aee"
+    },
+    {
+      "file": "zh/case-studies/sliding-patio-door-roller-track-repair/index.html",
+      "sha256": "c430ee723c5af96be4b6e9eef2c08f7f95ac260978c60d084a946b062ff4e6bd"
+    },
+    {
+      "file": "zh/case-studies/stirling-deck-pergola-timber-repair/index.html",
+      "sha256": "47751e8e7ddab5b05b52be4fd9c339795ebba407539753b4432608f5164c138d",
+      "route": "case-studies/stirling-deck-pergola-timber-repair/",
+      "paragraphs": [
+        {
+          "section": 3,
+          "index": 0,
+          "text": "户外木材会因天气、踩踏、潮湿、位移和日常使用而逐渐变化。开裂木板、看似软化的边缘或风化梁端，都是检查周围可接近木材的起点。MEL ONE 会根据可见木板、立柱、固定件、通行条件和确认的范围，针对每项露台或凉棚问题跟进处理方案。"
+        },
+        {
+          "section": 3,
+          "index": 1,
+          "text": "如需咨询类似的 Stirling 露台或凉棚工作，请联系 MEL ONE，告知所在地区，并简要说明物品和所需工作。说明问题是木板发软、可见裂缝、部件松动、表面风化还是通行问题。请告知楼梯、宠物、家具和首选进入路线。不要踩踏看似不安全的区域，也不要在缺乏适当支撑时尝试拆卸木板。可选择将已有的安全拍摄照片发至 admin@melonemaintenance.com.au；仅提供文字描述也可以申请评估。"
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "本记录展示露台与凉棚木材工作。其他结构的问题请从安全位置描述可见损坏；支撑状况及结构或批准要求需要各自评估。"
+        }
+      ],
+      "protectedCopy": {
+        "title": "Stirling 露台与凉棚木材维修 | MEL ONE",
+        "h1": "Stirling 露台与凉棚木材维修",
+        "meta": "Stirling 露台和凉棚木构件维修实拍记录，展示老化木板和梁端、现场拆除工作及完成后的户外露台。",
+        "headings": [
+          "老化的露台与凉棚木材",
+          "露台和凉棚木材维修记录",
+          "露台和凉棚木材老化：其他房屋的咨询信息",
+          "局部木材损坏与支撑：维修比较",
+          "局部木材损坏和支承：维修比较问答",
+          "相关维修指引",
+          "MEL ONE 相关页面",
+          "申请家居维修报价"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">跳至正文</a>",
+          "<a class=\"brand\" href=\"/zh/\" aria-label=\"MEL ONE 首页\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/zh/\">首页</a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\" aria-current=\"page\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/guides/\">维护笔记</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a class=\"header-enquiry\" href=\"/zh/contact/\">联系我们 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/case-studies/stirling-deck-pergola-timber-repair/\" lang=\"en-AU\" hreflang=\"en-AU\" aria-label=\"Switch to English\">English</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/outdoor-structures-fences-pools/\">首页</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/\" data-breadcrumb-position=\"2\" data-breadcrumb-owner=\"/services/outdoor-structures-fences-pools/\">露台、凉棚与户外维修</a>",
+          "<a href=\"/zh/about/#company-record\">MEL ONE PROPERTY MAINTENANCE PTY LTD</a>",
+          "<a href=\"/zh/service-standards/\">评估、范围和维修跟进</a>",
+          "<a href=\"/zh/guides/field-notes-garden-outdoor-seasonal-preparation/\">花园整理与户外木材</a>",
+          "<a href=\"/zh/guides/home-maintenance-walk-through-checklist/\">逐房间维护检查清单</a>",
+          "<a class=\"text-link\" href=\"/zh/services/outdoor-structures-fences-pools/\">露台、凉棚与户外维修 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/service-areas/adelaide-hills-foothills/stirling/\">Stirling 家居维修服务 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"button primary\" href=\"/zh/contact/\">申请评估和报价<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/zh/\">MEL ONE<span aria-hidden=\"true\">。</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google 评价</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a href=\"/zh/service-standards/\">服务标准</a>",
+          "<a href=\"/zh/news/\">资讯</a>",
+          "<a href=\"/zh/guides/\">指南</a>",
+          "<a href=\"/zh/faq/\">常见问题</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/zh/case-studies/feed.json\">案例数据（JSON）</a>",
+          "<a href=\"/zh/service-areas/feed.json\">区域数据（JSON）</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a href=\"/zh/contact/\">开始咨询 <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-01.png\" alt=\"Stirling 住宅老化的露台木板及凉棚梁\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-01-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-01-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-02.png\" alt=\"Stirling 凉棚立柱旁受损露台木板近照\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-02-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-02-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-02-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-03.png\" alt=\"维修师傅在 Stirling 拆除损坏的露台木板\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-03-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-03-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">",
+          "<img data-detail-photo=\"\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\" alt=\"Stirling 完成后的木露台和凉棚区域\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(50vw - 24px), 186.67px), (max-width: 650px) min(calc(50vw - 26px), 186.67px), (max-width: 850px) min(calc(50vw - 32px), 320.00px), (max-width: 1100px) min(calc(50vw - 40px), 320.00px), min(388px, 320.00px)\">"
+        ],
+        "faq": [
+          "<details><summary>申请露台或凉棚木材维修前，应比较哪些事项？</summary><p>本记录展示露台与凉棚木材工作。其他结构的问题请从安全位置描述可见损坏；支撑状况及结构或批准要求需要各自评估。</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/\",\"name\":\"Stirling 露台与凉棚木材维修\",\"description\":\"Stirling 露台和凉棚木构件维修实拍记录，展示老化木板和梁端、现场拆除工作及完成后的户外露台。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-01.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/#breadcrumb\"},\"keywords\":[\"Stirling 露台与凉棚木材维修\",\"凉棚木材维修\",\"花园整理\",\"老化的露台与凉棚木材\",\"露台和凉棚木材维修记录\",\"露台和凉棚木材老化：其他房屋的咨询信息\",\"局部木材损坏与支撑：维修比较\",\"局部木材损坏和支承：维修比较问答\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/#case-study\"}},{\"@type\":\"Article\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/#case-study\",\"headline\":\"Stirling 露台与凉棚木材维修\",\"description\":\"Stirling 露台和凉棚木构件维修实拍记录，展示老化木板和梁端、现场拆除工作及完成后的户外露台。\",\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/#webpage\"},\"dateModified\":\"2026-10-13\",\"datePublished\":\"2026-09-30\",\"inLanguage\":\"zh-Hans\",\"author\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"image\":[\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-01.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-02.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-03.png\",\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\"],\"keywords\":[\"Stirling 露台与凉棚木材维修\",\"凉棚木材维修\",\"花园整理\",\"老化的露台与凉棚木材\",\"露台和凉棚木材维修记录\",\"露台和凉棚木材老化：其他房屋的咨询信息\",\"局部木材损坏与支撑：维修比较\",\"局部木材损坏和支承：维修比较问答\"],\"about\":{\"@type\":\"Service\",\"name\":\"露台、凉棚与户外维修\"},\"contentLocation\":{\"@type\":\"Place\",\"name\":\"Stirling，阿德莱德，南澳\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"申请露台或凉棚木材维修前，应比较哪些事项？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"本记录展示露台与凉棚木材工作。其他结构的问题请从安全位置描述可见损坏；支撑状况及结构或批准要求需要各自评估。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"露台、凉棚与户外维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Stirling 露台与凉棚木材维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/case-studies/stirling-deck-pergola-timber-repair/\"}]}]}"
+        ]
+      },
+      "maskedHash": "58c7239f1e271746db288c9c14736c2cd89fe451ae880366d6f56a39ce1e170f"
+    },
+    {
+      "file": "zh/case-studies/stirling-flat-pack-wardrobe-assembly/index.html",
+      "sha256": "78eafaccef19bde3a1bf1c0590e25c648efe2ba80933501c5b763dafb28cc89a"
+    },
+    {
+      "file": "zh/case-studies/unley-kitchen-cabinet-repair/index.html",
+      "sha256": "48c5822a4bff6fa79db929bd6298dc17b1d1c268bc9b49463e359309ff8cce12"
+    },
+    {
+      "file": "zh/contact/index.html",
+      "sha256": "79d01170aeaf25e1f1de119a8e80febe9f3c90aae88993e2082f234957dd481e"
+    },
+    {
+      "file": "zh/faq/index.html",
+      "sha256": "e0068cdc58d04d5a91152415ad94413a24c721da3c444ed31b2b3392ad9d03a8"
+    },
+    {
+      "file": "zh/guides/field-notes-cleaning-removals-preparation/index.html",
+      "sha256": "c8fb0d52d5ac8a85c0bc06cba98e7c43b4e5779d4b4660cb65219385cc8ca03f"
+    },
+    {
+      "file": "zh/guides/field-notes-doors-windows-screens-enquiry/index.html",
+      "sha256": "55615771111f9bc59ea981b8d1d56a9d3b393a790a94911e65873ff4869db7a2"
+    },
+    {
+      "file": "zh/guides/field-notes-garden-outdoor-seasonal-preparation/index.html",
+      "sha256": "9c4504c1015348fb4a537faa1f30bc8e10c16593548e75a6a13c62ddb578ae6f"
+    },
+    {
+      "file": "zh/guides/field-notes-grouping-multiple-household-jobs/index.html",
+      "sha256": "a9d4b43ffad7cbe933a196729362d4b26b3137387d1895a5ba9299f3c883ab43"
+    },
+    {
+      "file": "zh/guides/field-notes-pre-sale-home-maintenance-list/index.html",
+      "sha256": "c2905da93695641b1d37f45be407a34c2428592f36763407a9599ce4532aff05"
+    },
+    {
+      "file": "zh/guides/field-notes-rental-end-of-lease-maintenance-list/index.html",
+      "sha256": "391dbd94cd9245deae6d0ad6b9433e287679416fd5c724c0d687693eea44d677"
+    },
+    {
+      "file": "zh/guides/field-notes-roof-gutter-exterior-observations/index.html",
+      "sha256": "49f61a69d370f2146c43f4e7189f9bb614d7f74f9e98a5d9486706942d57dc68"
+    },
+    {
+      "file": "zh/guides/field-notes-wall-interior-repairs-job-list/index.html",
+      "sha256": "dd91667357e8afa224db0bb03d8b6deff9aa963c382039fa1d18624a1bf0be31"
+    },
+    {
+      "file": "zh/guides/home-maintenance-walk-through-checklist/index.html",
+      "sha256": "dbdb2e133ecac9ac37fc4c0006c3b8a9135b12d9e68965ee1a508e5ddbeee668"
+    },
+    {
+      "file": "zh/guides/index.html",
+      "sha256": "d72910b0253eb25c0a4ebe938ab46c14e500975b654be6b4228a4f2fadc6ff8a"
+    },
+    {
+      "file": "zh/guides/prepare-household-maintenance-enquiry/index.html",
+      "sha256": "c7fa375346edf830918e56a77dd83fa47be0dd60040b0ea922a7c654da55d3ae"
+    },
+    {
+      "file": "zh/how-it-works/index.html",
+      "sha256": "890f07733116f10f8fa4dce0f8d2789b3963974d984c1cbf1e7bc7f4efc1af96"
+    },
+    {
+      "file": "zh/index.html",
+      "sha256": "cff05f5e68b664ad29d5da63ebccd1e86f846e945b1a243ed5c5d4412078427a"
+    },
+    {
+      "file": "zh/news/after-rain-home-repair-order/index.html",
+      "sha256": "24b2944a6ef4e3d25741daeba87ca1869b9469d5e9ac74cf344485cbb8271ead"
+    },
+    {
+      "file": "zh/news/field-notes-clear-maintenance-handover/index.html",
+      "sha256": "60f73eb5b5e3afceb4fe8147d5a8b5d3099f279cc707724309acb527ab91b429"
+    },
+    {
+      "file": "zh/news/field-notes-one-household-job-list/index.html",
+      "sha256": "3afe45071d41fe6bea28ede7804d60869baa2f0b375b5ac85fada64cf96b1e22"
+    },
+    {
+      "file": "zh/news/gutter-overflow-and-outdoor-repairs-after-rain/index.html",
+      "sha256": "ad4425f904bed9042863371d91fff7162a816f56283a1a4bfe90f3b795b1b27f"
+    },
+    {
+      "file": "zh/news/index.html",
+      "sha256": "c0b902e079cd43b72e517a0bfd74e4cb3f12e3b2cc948d434b27df91b3384ccc"
+    },
+    {
+      "file": "zh/privacy/index.html",
+      "sha256": "b218d9dc993c365123cbc5bd72079dbab193af1b8ba89aa11da0bcf3a148a3ef"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/aldgate/index.html",
+      "sha256": "6ae610818a3a4f92b8cdf293d7e86a040c8c002583ed25f3cb9d1d90c44a98e2"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/blackwood/index.html",
+      "sha256": "5a530cc33cc3a5f038705a3e5dbb55b18f1f64390b3445f66616d2f236b3cf4c"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/crafers/index.html",
+      "sha256": "c9edabb5e821b4b9aa9f258611e376f7c56d26ca72154b55ce09ee71a4cc0e74"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/index.html",
+      "sha256": "964c8512cd2bbfffe3d58dca1519279ad2820bde740b9727f75dedc0b5041b74"
+    },
+    {
+      "file": "zh/service-areas/adelaide-hills-foothills/stirling/index.html",
+      "sha256": "6a8b0fcb382e8ae467a50aa837ecd3f2721cc2e5282879c568dc1a9251e6045a"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/adelaide-cbd/index.html",
+      "sha256": "5ff0b638e77e4fc16f7beb7dd95982cf1150fd8cfef32aa2c63de7a70dff2fac"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/bowden/index.html",
+      "sha256": "f0445f7377f67a1e929b497be93c77876d5bc93610efdefe4f49faea10b3cd92"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/index.html",
+      "sha256": "8313b81a1e5e4896d4c308831f7b3f4bd1d1681fb89843d56a7b202920f119cb"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/kent-town/index.html",
+      "sha256": "00fc9154e3494b180dba2052410b016c20364a79eda9564e85d9eeb675611c5c"
+    },
+    {
+      "file": "zh/service-areas/cbd-north-adelaide/north-adelaide/index.html",
+      "sha256": "17d63c663f3452ac8a1f2c8ad5d8c92ccf84b1cb67e2185d9e70a7db1231a513"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/burnside/index.html",
+      "sha256": "c6eda4f8e2de1287680e62003576dc34e11f76204590aa5ee568c219a297c671"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/index.html",
+      "sha256": "02eeda20b9b0d6d36406ca9a77563a19aaa2bca0220a60b97dc526464e79ada7"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/kensington/index.html",
+      "sha256": "69f5316284a72a3739c4828f787eee404cd6e412847faad0b799039229a32955"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/magill/index.html",
+      "sha256": "229eab824683692da5857229c5a642e70241ddc7ea19c11d841147388ff1ae2b"
+    },
+    {
+      "file": "zh/service-areas/eastern-suburbs/norwood/index.html",
+      "sha256": "da37b494676ac8645bb9b5e944b3a6516842b4780fbd2fbb8d3fea83afa01e38"
+    },
+    {
+      "file": "zh/service-areas/index.html",
+      "sha256": "b5f2d9f7df9bc1f40129c2e08a210cfce91f5742b591ea2d741eb0d23023d3fc"
+    },
+    {
+      "file": "zh/service-areas/inner-south/goodwood/index.html",
+      "sha256": "d74a6906167f2dccef17183735111ea5ddb9b02fd5948aff8958d9bc773de913"
+    },
+    {
+      "file": "zh/service-areas/inner-south/index.html",
+      "sha256": "075b46fe0c5fbba4336ec4af28637f1c9a3f08f71e57b776deb6e96289ad748f"
+    },
+    {
+      "file": "zh/service-areas/inner-south/millswood/index.html",
+      "sha256": "af1c295f61b3803d23dd430381f28f4db318a365d6892c09599075543fd5a1de"
+    },
+    {
+      "file": "zh/service-areas/inner-south/parkside/index.html",
+      "sha256": "99d10e4f8e1bf2cea82ee2d4c541575af8db9841ad111b97af78a00c3e73f15f"
+    },
+    {
+      "file": "zh/service-areas/inner-south/unley/index.html",
+      "sha256": "3dabfcf8750dfcb63146d8fe9328f6d45d8834874f88874a247771ee7a75adf2"
+    },
+    {
+      "file": "zh/service-areas/inner-west/brompton/index.html",
+      "sha256": "0fdf4bbd895f47e9e448ff3836d135123ddbd8243342929bdd69f0e96b5a7489"
+    },
+    {
+      "file": "zh/service-areas/inner-west/index.html",
+      "sha256": "b65f289a0b09182c88c072ff055606e18e6dc84727bbcbb8e13baa9b2d50517d"
+    },
+    {
+      "file": "zh/service-areas/inner-west/mile-end/index.html",
+      "sha256": "bd58c30e90719e96fe820f942032539d67f07b9ea5b2049ab58b447c141daed9"
+    },
+    {
+      "file": "zh/service-areas/inner-west/thebarton/index.html",
+      "sha256": "ec54186666eaf5fd95fe9c34b11762678920c691a6c3397ae228e2a2fbf38d11"
+    },
+    {
+      "file": "zh/service-areas/inner-west/torrensville/index.html",
+      "sha256": "cf5527bcb00451112a415b248ee59a7892972f7268f20039f04e44e2979b86e6"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/campbelltown/index.html",
+      "sha256": "2d15282f7e0e7fb93df37443afe4b7664a0de957f26b08c4f74fccf5c7afbef3"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/golden-grove/index.html",
+      "sha256": "251f7da13818d6de9fc4c6dd44166c44fc1828699c6d1681a71584cf5a097b29"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/index.html",
+      "sha256": "21bafe944c77c0ef997682eb8e5375e9efd667b611addd0238d236df1c015bf9"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/modbury/index.html",
+      "sha256": "56e8d703561ea7dd133d85c6f0f3777134806a9cabc6f21bec040cb4e4fd9a12"
+    },
+    {
+      "file": "zh/service-areas/north-north-east/prospect/index.html",
+      "sha256": "459a5634b5bf0e2a76987d57e6b1896539fe3ab88ffcf1d9a617e0148a8fa521"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/brighton/index.html",
+      "sha256": "a693db410f02f695bf14699fa3d1960b23ae12e9df292397d6a8db7a8fc723e4"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/hallett-cove/index.html",
+      "sha256": "8e348b0282c338466876b2da110f948c9711345b605fba7122430aef35367f82"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/index.html",
+      "sha256": "3832a2b7265b7fcb9b41241c221a1efdce68e3b922b2074c43362618268bffa0"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/marion/index.html",
+      "sha256": "ab74f9f8d7ef37f4afd218a7bb1fd8888322ed98dc1a474bf2bbec53fbab6900"
+    },
+    {
+      "file": "zh/service-areas/southern-suburbs/morphett-vale/index.html",
+      "sha256": "96207d6404bb08b6811f6491a11cf7118e9b60454ab77f0749a759c6d7362d74"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/glenelg/index.html",
+      "sha256": "02edb8b412f2a9f3bb9ae6c1235eec0c38c5fdbead01fa943bbe3a86187a554b"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/henley-beach/index.html",
+      "sha256": "4d3de0389373c8dd5670388281d44f0b2d9ea00384a85d25dccefb9f597bf577"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/index.html",
+      "sha256": "98acc5359989dcde946b2cf20cd2d50675c32f9534bcd4a5858115eb5ddd19ae"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/semaphore/index.html",
+      "sha256": "b7dd3c1552d301c14417df852ba081f14905889546ec7a3ffbc9845dd83aba1a"
+    },
+    {
+      "file": "zh/service-areas/western-suburbs/west-beach/index.html",
+      "sha256": "640c1091ce30f866ad638d7f33959a05df7ba5ecf3c39d6824cdaa442be650e6"
+    },
+    {
+      "file": "zh/service-standards/index.html",
+      "sha256": "ff13e53e2451eb651e11292547b83f2b7450579d098fce3b907e9392d61c33ab"
+    },
+    {
+      "file": "zh/services/cabinet-drawer-repair/index.html",
+      "sha256": "dfc1b470fb8e00d7b2e7ffbf0a8adb82e8b2f5ce58a650b9dd2c8e1d4ad5c858"
+    },
+    {
+      "file": "zh/services/cleaning-removals-specialist-care/index.html",
+      "sha256": "aab866fca4c3e305d9ad8b5d2bf83d0099b282ef26a0dc2fedcf6ec26ae5405c"
+    },
+    {
+      "file": "zh/services/door-repair/index.html",
+      "sha256": "fd2eec2a43bbf0aa9f962a34e498798c1c1e95ecc3d4aabd5bc8b3b974e9db4d"
+    },
+    {
+      "file": "zh/services/doors-windows-screens/index.html",
+      "sha256": "77825b6d33feaac0b8caa5e55fe1a1cf752d3e546ccd483a4e86d222a4208453"
+    },
+    {
+      "file": "zh/services/fence-gate-repair/index.html",
+      "sha256": "1e61c604498ce08a1946ea68f23f5681984bb8ec94a5b7943fbc797f9aeb594d"
+    },
+    {
+      "file": "zh/services/flat-pack-assembly/index.html",
+      "sha256": "f07d6474164f98b5cc3741c643d3ed7f0aec0b80c08efd9123e4c83e9a906476"
+    },
+    {
+      "file": "zh/services/flyscreen-repair/index.html",
+      "sha256": "5fb2b9c1009830b7064aa6dcaccde5f757c312ea5c3347a14b9eb5636e2ce7a2"
+    },
+    {
+      "file": "zh/services/garden-landscape-care/index.html",
+      "sha256": "b96348a15cfcc572e8737360e8ed04c4e05078333c62ce70ceeae4e0ce25c356"
+    },
+    {
+      "file": "zh/services/gutter-cleaning/index.html",
+      "sha256": "bf6eeb796d630ffec1542295d646e002e6e0a939e20d77fb5194796b70d97bf2",
+      "route": "services/gutter-cleaning/",
+      "paragraphs": [
+        {
+          "section": 0,
+          "index": 1,
+          "text": "我们的 Prospect 排水沟杂物清理记录 展示了清除树叶和枝条的工作。我们会评估安全进出、天沟状况和商定清理范围。请从地面说明受影响一侧和大致楼高；渗漏或排水故障需要单独维修评估。"
+        },
+        {
+          "section": 1,
+          "index": 1,
+          "text": "请确认包含哪些排水沟段，以及清出的杂物如何处理。可根据落叶和实际堆积情况讨论重复清洁间隔，每次上门均直接安排。屋顶维修、入场设备和其他故障必须在评估后的工作范围中确认。"
+        },
+        {
+          "section": 2,
+          "index": 0,
+          "text": "落叶和可见杂物是咨询排水沟清理时的有用信息，但溢水可能有多种原因。MEL ONE 会评估通行及受影响的排水沟区域，再确认清理范围。请说明溢水位置、是否在降雨时发生，以及从地面可见的杂物或损坏。"
+        },
+        {
+          "section": 2,
+          "index": 1,
+          "text": "请告知建筑大致高度，以及狭窄侧通道、扩建部分或屋檐附近障碍物。这些信息有助于安排评估，但不能证明屋顶或排水沟可以安全到达。可开展的工作取决于通行条件和安装状况。"
+        },
+        {
+          "section": 3,
+          "index": 0,
+          "text": "请告知所在地区，并指出建筑受影响的一侧。已有的地面安全拍摄照片可供参考。不要为咨询而爬上屋顶或梯子检查。如果屋内正在漏水，请单独说明，以便按超出日常清理杂物的情况考虑需求。"
+        },
+        {
+          "section": 4,
+          "index": 0,
+          "text": "请在报价中确认能够安全接近的排水沟段、杂物处理，以及所包含的可接近出水口检查。疏通落水管、修补损坏接头、重新密封和屋顶维修不自动包含在排水沟清洁中。请单独报告溢流或漏水，便于评估适当的工作。"
+        },
+        {
+          "section": 4,
+          "index": 1,
+          "text": "Prospect 记录展示了排水沟杂物清理，记录的是该房产，不是您家溢水的原因。请询问清理后观察到的情况，以及哪些遗留问题需另行维修或安排合资格评估；清除落叶不等于防水保证。"
+        },
+        {
+          "section": 5,
+          "index": 0,
+          "text": "排水沟长度、建筑高度、安全到达方式、杂物及清运要求会影响工作。请根据地面观察说明附近结构和出入限制。确认是否包含可安全接近的出水口，以及损坏的排水沟或落水管配件如何另行处理。"
+        }
+      ],
+      "protectedCopy": {
+        "title": "排水沟清理 | MEL ONE",
+        "h1": "排水沟清理",
+        "meta": "排水沟清洁，针对落叶杂物、出口堵塞及溢水现象。MEL ONE 会确认安全通行、排水沟状况和约定清理范围。",
+        "headings": [
+          "落叶杂物、排水沟出口与雨水溢流",
+          "排水沟清洁通行条件、树木及杂物清除",
+          "排水沟杂物、状况和安全通行",
+          "从地面观察排水沟溢水",
+          "排水沟清洁、出水口和维修：商定范围",
+          "排水沟清理报价：通行、杂物和状况",
+          "排水沟清洁：维修答疑",
+          "申请维修评估与报价",
+          "相关维修照片记录",
+          "申请家居维修报价"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">跳至正文</a>",
+          "<a class=\"brand\" href=\"/zh/\" aria-label=\"MEL ONE 首页\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/zh/\">首页</a>",
+          "<a href=\"/zh/services/\" aria-current=\"page\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/guides/\">维护笔记</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a class=\"header-enquiry\" href=\"/zh/contact/\">联系我们 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/services/gutter-cleaning/\" lang=\"en-AU\" hreflang=\"en-AU\" aria-label=\"Switch to English\">English</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/gutter-cleaning/\">首页</a>",
+          "<a href=\"/zh/case-studies/prospect-gutter-cleaning/\">Prospect 排水沟杂物清理记录</a>",
+          "<a href=\"/zh/case-studies/prospect-gutter-cleaning/\">Prospect 排水沟清理实拍记录</a>",
+          "<a href=\"/zh/services/roof-gutter-exterior-care/\">分别列明屋顶、檐口板和外部维护问题</a>",
+          "<a href=\"/zh/contact/\">申请排水沟清洁评估</a>",
+          "<a href=\"/zh/service-standards/#quote-details\">书面报价需确认的内容</a>",
+          "<a href=\"/zh/guides/field-notes-roof-gutter-exterior-observations/\">地面观察排水沟及溢水清单</a>",
+          "<a href=\"/zh/news/gutter-overflow-and-outdoor-repairs-after-rain/\">天沟清洁后仍溢水：继续施工前记录什么</a>",
+          "<a class=\"text-link\" href=\"/zh/services/roof-gutter-exterior-care/\">屋顶、排水沟与外部维护</a>",
+          "<a class=\"text-link\" href=\"/zh/how-it-works/\">评估、批准和完工流程</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"work-image-link\" href=\"/zh/case-studies/prospect-gutter-cleaning/\" aria-label=\"查看 Prospect 排水沟清洁\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.avif 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.avif 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px\"><img data-image-layout=\"card-single\" src=\"/assets/images/cases/prospect-gutter-cleaning-04.png\" alt=\"Prospect 住宅清理后的屋顶排水沟\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/zh/case-studies/prospect-gutter-cleaning/\">Prospect 排水沟清洁</a>",
+          "<a class=\"text-link\" href=\"/zh/case-studies/prospect-gutter-cleaning/\">查看工作 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"button primary\" href=\"/zh/contact/\">申请评估和报价<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/zh/\">MEL ONE<span aria-hidden=\"true\">。</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google 评价</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a href=\"/zh/service-standards/\">服务标准</a>",
+          "<a href=\"/zh/news/\">资讯</a>",
+          "<a href=\"/zh/guides/\">指南</a>",
+          "<a href=\"/zh/faq/\">常见问题</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/zh/case-studies/feed.json\">案例数据（JSON）</a>",
+          "<a href=\"/zh/service-areas/feed.json\">区域数据（JSON）</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a href=\"/zh/contact/\">开始咨询 <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-image-layout=\"card-single\" src=\"/assets/images/cases/prospect-gutter-cleaning-04.png\" alt=\"Prospect 住宅清理后的屋顶排水沟\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/prospect-gutter-cleaning-04-480.webp 480w, /assets/images/responsive/prospect-gutter-cleaning-04-960.webp 960w, /assets/images/responsive/prospect-gutter-cleaning-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), 410px\">"
+        ],
+        "faq": [
+          "<details><summary>清理排水沟能解决所有溢水吗？</summary><p>若积聚杂物是原因，清理可能恢复排水；但溢水也可能涉及排水沟损坏、坡度或下游堵塞。MEL ONE 会区分清理工作与所需的单独维修或专业评估。</p></details>",
+          "<details><summary>应提供哪些通行信息？</summary><p>请说明建筑大致高度、狭窄通道、扩建部分和受影响排水沟附近障碍。约定工作前，会在现场确认安全通行条件。</p></details>",
+          "<details><summary>排水沟清理是否包含落水管出水口和维修？</summary><p>请在报价中确认包含的清洁和可接近出口检查。堵塞或损坏的落水管、漏水接头或屋顶缺陷可能需单独评估和施工；清除杂物并不等于屋顶维修。</p></details>",
+          "<details><summary>为什么清过天沟后仍然溢水？</summary><p>清树叶处理的是杂物，并非所有故障。请从地面记录溢水位置，以及出水口或落水管是否有明显异常。天沟对位、损坏接头和下游排水需要分别考虑。咨询时请区分清洁范围与后续维修评估。</p></details>",
+          "<details><summary>天沟防护装置会怎样影响清洁咨询？</summary><p>请说明是否安装天沟防护装置，以及哪些位置出现杂物堆积或溢水。防护装置的类型会影响作业进入方式和清洁方案。是否需要抬起或拆下防护装置、相关许可及包含的工作，都须在评估时确认。准备咨询时，请让防护装置和屋顶部件保持原位。</p></details>",
+          "<details><summary>住宅天沟清洁费用受哪些因素影响？</summary><p>天沟区段、建筑高度、安全作业条件、杂物堆积情况及防护装置都会影响评估后的工作。请向 MEL ONE 说明扩建部分、狭窄通道及反复溢水的位置。请核对书面报价中的清洁区域、杂物处理和单独维修项目；一个统一广告价无法说明每处房屋的实际情况。</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/\",\"name\":\"排水沟清理\",\"description\":\"排水沟清洁，针对落叶杂物、出口堵塞及溢水现象。MEL ONE 会确认安全通行、排水沟状况和约定清理范围。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/cases/prospect-gutter-cleaning-04.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/#breadcrumb\"},\"keywords\":[\"排水沟清理\",\"落叶杂物、排水沟出口与雨水溢流\",\"排水沟清洁通行条件、树木及杂物清除\",\"排水沟杂物、状况和安全通行\",\"从地面观察排水沟溢水\",\"排水沟清洁、出水口和维修：商定范围\",\"排水沟清理报价：通行、杂物和状况\",\"排水沟清洁：维修答疑\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/#service\"}},{\"@type\":\"Service\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/#service\",\"name\":\"排水沟清理\",\"description\":\"排水沟清洁，针对落叶杂物、出口堵塞及溢水现象。MEL ONE 会确认安全通行、排水沟状况和约定清理范围。\",\"provider\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/\",\"areaServed\":{\"@type\":\"City\",\"name\":\"阿德莱德\"},\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/#webpage\"},\"serviceType\":\"排水沟清理\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"清理排水沟能解决所有溢水吗？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"若积聚杂物是原因，清理可能恢复排水；但溢水也可能涉及排水沟损坏、坡度或下游堵塞。MEL ONE 会区分清理工作与所需的单独维修或专业评估。\"}},{\"@type\":\"Question\",\"name\":\"应提供哪些通行信息？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"请说明建筑大致高度、狭窄通道、扩建部分和受影响排水沟附近障碍。约定工作前，会在现场确认安全通行条件。\"}},{\"@type\":\"Question\",\"name\":\"排水沟清理是否包含落水管出水口和维修？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"请在报价中确认包含的清洁和可接近出口检查。堵塞或损坏的落水管、漏水接头或屋顶缺陷可能需单独评估和施工；清除杂物并不等于屋顶维修。\"}},{\"@type\":\"Question\",\"name\":\"为什么清过天沟后仍然溢水？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"清树叶处理的是杂物，并非所有故障。请从地面记录溢水位置，以及出水口或落水管是否有明显异常。天沟对位、损坏接头和下游排水需要分别考虑。咨询时请区分清洁范围与后续维修评估。\"}},{\"@type\":\"Question\",\"name\":\"天沟防护装置会怎样影响清洁咨询？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"请说明是否安装天沟防护装置，以及哪些位置出现杂物堆积或溢水。防护装置的类型会影响作业进入方式和清洁方案。是否需要抬起或拆下防护装置、相关许可及包含的工作，都须在评估时确认。准备咨询时，请让防护装置和屋顶部件保持原位。\"}},{\"@type\":\"Question\",\"name\":\"住宅天沟清洁费用受哪些因素影响？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"天沟区段、建筑高度、安全作业条件、杂物堆积情况及防护装置都会影响评估后的工作。请向 MEL ONE 说明扩建部分、狭窄通道及反复溢水的位置。请核对书面报价中的清洁区域、杂物处理和单独维修项目；一个统一广告价无法说明每处房屋的实际情况。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"排水沟清理\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/gutter-cleaning/\"}]}]}"
+        ]
+      },
+      "maskedHash": "9fa6b1bfbba65235421add848b33edde61ccd81b408e631dbb13890619c8f8d0"
+    },
+    {
+      "file": "zh/services/home-electrical-repairs/index.html",
+      "sha256": "c9bb6e751808411110c9e9b89de722072742fa09ccd57c054e94cdb9362b733f"
+    },
+    {
+      "file": "zh/services/home-repairs-renovation-support/index.html",
+      "sha256": "c60bd45ff149dfcd1569c9f883ffb3ed71bc5c5563cd1ffd7c1a18a4f4dd6c9c"
+    },
+    {
+      "file": "zh/services/index.html",
+      "sha256": "4b2f1fb3eb3ed08da67db427690fa55917db1d875f3c2698b45835fd9bc61766"
+    },
+    {
+      "file": "zh/services/interior-repairs-assembly/index.html",
+      "sha256": "dab03ad062fdcc9def818fffbe46d22c493d5713ed74bd4f5ae534257472c935"
+    },
+    {
+      "file": "zh/services/maintenance-planning-inspection-support/index.html",
+      "sha256": "6b3400f154643d6eedf0310d459d57aecfe0325d78283775045fda2ea2bfe43a"
+    },
+    {
+      "file": "zh/services/outdoor-structures-fences-pools/index.html",
+      "sha256": "26e442788f33fd6976284ddc4ee331b56a9b32b9b59b733d9a5a5c3f15c9ed0f",
+      "route": "services/outdoor-structures-fences-pools/",
+      "paragraphs": [
+        {
+          "section": 0,
+          "index": 1,
+          "text": "Stirling 露台和凉棚记录展示了局部木材工作的照片。MEL ONE 会评估反映的区域，并商定维修和饰面。大范围位移或老化可能需要专业评估，而不只是外观上的替换。"
+        },
+        {
+          "section": 1,
+          "index": 1,
+          "text": "Stirling、Mile End 和 North Adelaide 案例展示了局部木构件、围栏和院门维修。我们会评估受影响部件，并商定维修范围。新建结构工程和泳池屏障需要各自的合资格安排；普通木构件维修不等于合规认证。"
+        },
+        {
+          "section": 2,
+          "index": 0,
+          "text": "围栏板开裂、板块松动和院门拖地应分别描述。我们会评估受影响木材、可接近固定点、铰链和门闩活动。请说明院门是否需要抬起才能关闭，或在开启过程中卡住。"
+        },
+        {
+          "section": 2,
+          "index": 1,
+          "text": "评估有助于区分局部固定件或五金问题，与涉及支撑木材的老化。我们会说明约定区域所需维修及任何更换。"
+        },
+        {
+          "section": 3,
+          "index": 0,
+          "text": "木板开裂或老化时，请从安全位置指出其位置和周边区域。较宽视角有助于规划通行并定位相邻立柱或连接。避免使用看起来不稳的部分。"
+        },
+        {
+          "section": 3,
+          "index": 1,
+          "text": "MEL ONE 会跟进报修问题，评估可接近木材和固定件，并提出针对性方案。结构改动或较广范围位移，需要适当评估后才能约定工作范围。"
+        },
+        {
+          "section": 5,
+          "index": 0,
+          "text": "请告知宠物、楼梯、家具、共用边界和进入路线，并确认拟进行工作涉及的业主或邻居许可。报价应明确受影响区域及所含准备或收尾工作。"
+        },
+        {
+          "section": 5,
+          "index": 1,
+          "text": "完工时请与 MEL ONE 核对约定维修，并提出剩余问题。不要认为局部维修包含更换整道围栏或整座结构；包含的工作以报价为准。"
+        },
+        {
+          "section": 6,
+          "index": 0,
+          "text": "围栏板开裂、院门铰链磨损和露台木材腐朽，是不同的维修判断。描述时请包括受影响部件及相邻连接。是否局部更换，要结合支撑状况判断，不能只看表面木板。"
+        },
+        {
+          "section": 7,
+          "index": 0,
+          "text": "请指出损坏长度或部件、材料、通行条件和任何共用边界许可。报价应视情况分别列出拆除、替换木材、五金、收尾和废料处理。发现结构问题或需要扩大更换范围时，会先讨论，再加入工作。"
+        }
+      ],
+      "protectedCopy": {
+        "title": "露台、凉棚与户外维修 | MEL ONE",
+        "h1": "露台、凉棚与户外维修",
+        "meta": "露台、凉棚及户外维修，处理局部木材损坏、松动木板、围栏板和院门配件。MEL ONE 会评估受影响部分及支撑结构。",
+        "headings": [
+          "露台木板维修与局部木材更换",
+          "凉棚木材、围栏板及庭院门配件",
+          "围栏板和木院门维修",
+          "露台木板和凉棚木构件",
+          "户外配件与泳池区域范围",
+          "户外木材状况、通行和维修饰面",
+          "局部木材维修和较大范围结构问题",
+          "户外木材维修报价：材料及饰面",
+          "露台、凉棚与户外维修：维修答疑",
+          "露台、凉棚与户外维修：指南和维修示例",
+          "露台、凉棚及户外维修：任务及材料",
+          "露台、凉棚与户外维修：专业要求",
+          "申请维修评估与报价",
+          "露台、凉棚与户外维修：照片记录",
+          "门、橱柜及其他家居维修",
+          "申请家居维修报价"
+        ],
+        "links": [
+          "<a class=\"skip-link\" href=\"#main\">跳至正文</a>",
+          "<a class=\"brand\" href=\"/zh/\" aria-label=\"MEL ONE 首页\"><img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\"><span>MEL ONE</span></a>",
+          "<a href=\"/zh/\">首页</a>",
+          "<a href=\"/zh/services/\" aria-current=\"page\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/guides/\">维护笔记</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a class=\"header-enquiry\" href=\"/zh/contact/\">联系我们 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"language-switch\" data-language-switch=\"\" href=\"/services/outdoor-structures-fences-pools/\" lang=\"en-AU\" hreflang=\"en-AU\" aria-label=\"Switch to English\">English</a>",
+          "<a href=\"https://www.adelaidehandymanmelone.com.au/zh/\" data-breadcrumb-position=\"1\" data-breadcrumb-owner=\"/services/outdoor-structures-fences-pools/\">首页</a>",
+          "<a href=\"/zh/services/fence-gate-repair/\">木围栏、铰链和院门门闩维修</a>",
+          "<a href=\"/zh/guides/field-notes-garden-outdoor-seasonal-preparation/\">花园整理与户外木材</a>",
+          "<a href=\"/zh/service-standards/#quote-details\">书面报价需确认的内容</a>",
+          "<a href=\"/zh/guides/field-notes-garden-outdoor-seasonal-preparation/\">花园整理与户外木材</a>",
+          "<a href=\"/zh/guides/home-maintenance-walk-through-checklist/\">逐房间维护检查清单</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"work-image-link\" href=\"/zh/case-studies/mile-end-fence-repair/\" aria-label=\"查看 Mile End 木围栏维修\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/mile-end-fence-repair-04-480.avif 480w, /assets/images/responsive/mile-end-fence-repair-04-960.avif 960w, /assets/images/responsive/mile-end-fence-repair-04-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/mile-end-fence-repair-04.png\" alt=\"Mile End 住宅已完成的木围栏维修\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/mile-end-fence-repair-04-480.webp 480w, /assets/images/responsive/mile-end-fence-repair-04-960.webp 960w, /assets/images/responsive/mile-end-fence-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/zh/case-studies/mile-end-fence-repair/\">Mile End 木围栏维修</a>",
+          "<a class=\"text-link\" href=\"/zh/case-studies/mile-end-fence-repair/\">查看工作 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"work-image-link\" href=\"/zh/case-studies/modbury-timber-fence-repair-assessment/\" aria-label=\"查看 Modbury 木围栏维修评估\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.avif 480w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.avif 960w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg\" alt=\"Modbury 物业破损的木围栏板\" loading=\"lazy\" decoding=\"async\" width=\"1707\" height=\"1280\" srcset=\"/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.webp 480w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.webp 960w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/zh/case-studies/modbury-timber-fence-repair-assessment/\">Modbury 木围栏维修评估</a>",
+          "<a class=\"text-link\" href=\"/zh/case-studies/modbury-timber-fence-repair-assessment/\">查看工作 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"work-image-link\" href=\"/zh/case-studies/stirling-deck-pergola-timber-repair/\" aria-label=\"查看 Stirling 露台与凉棚木材维修\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.avif 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.avif 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\" alt=\"Stirling 完成后的木露台和凉棚区域\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/zh/case-studies/stirling-deck-pergola-timber-repair/\">Stirling 露台与凉棚木材维修</a>",
+          "<a class=\"text-link\" href=\"/zh/case-studies/stirling-deck-pergola-timber-repair/\">查看工作 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"work-image-link\" href=\"/zh/case-studies/north-adelaide-timber-gate-repair/\" aria-label=\"查看 North Adelaide 木质侧院门维修\"><figure class=\"intake-visual\"><picture><source type=\"image/avif\" srcset=\"/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.avif 480w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-960.avif 960w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.avif 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"><img data-image-layout=\"card-pair\" src=\"/assets/images/cases/north-adelaide-timber-gate-repair-03.png\" alt=\"North Adelaide 修复后关闭的木质侧门\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.webp 480w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-960.webp 960w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\"></picture></figure></a>",
+          "<a href=\"/zh/case-studies/north-adelaide-timber-gate-repair/\">North Adelaide 木质侧门维修</a>",
+          "<a class=\"text-link\" href=\"/zh/case-studies/north-adelaide-timber-gate-repair/\">查看工作 <span aria-hidden=\"true\">↗</span></a>",
+          "<a class=\"text-link\" href=\"/zh/services/fence-gate-repair/\">围栏与庭院门维修</a>",
+          "<a class=\"button primary\" href=\"/zh/contact/\">申请评估和报价<span aria-hidden=\"true\"> ↗</span></a>",
+          "<a class=\"button secondary\" href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a class=\"footer-brand\" href=\"/zh/\">MEL ONE<span aria-hidden=\"true\">。</span></a>",
+          "<a href=\"https://share.google/bnkU7OE83VYCSh44T\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path fill=\"#fbbc04\" d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9Z\"></path></svg><span>Google 评价</span></a>",
+          "<a href=\"https://www.instagram.com/melone.maintenance1/\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"#e1306c\" stroke-width=\"2.5\"></rect><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"#c77dff\" stroke-width=\"2.3\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.4\" fill=\"#ffbc49\"></circle></svg><span>Instagram</span></a>",
+          "<a href=\"https://www.youtube.com/@MelOneMaintenance\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"1\" y=\"4\" width=\"22\" height=\"16\" rx=\"5\" fill=\"#ff0033\"></rect><path d=\"m10 8 6 4-6 4Z\" fill=\"#fff\"></path></svg><span>YouTube</span></a>",
+          "<a href=\"https://www.tiktok.com/@melonemaintenance5\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#25f4ee\" transform=\"translate(-.7 .6)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fe2c55\" transform=\"translate(.7 -.4)\"></path><path d=\"M14 3h3c.4 2.5 1.8 4 4 4v3a8 8 0 0 1-4-1v8a5 5 0 1 1-5-5v3a2 2 0 1 0 2 2Z\" fill=\"#fff\"></path></svg><span>TikTok</span></a>",
+          "<a href=\"/zh/services/\">服务</a>",
+          "<a href=\"/zh/case-studies/\">施工案例</a>",
+          "<a href=\"/zh/how-it-works/\">服务流程</a>",
+          "<a href=\"/zh/service-areas/\">服务区域</a>",
+          "<a href=\"/zh/about/\">关于我们</a>",
+          "<a href=\"/zh/service-standards/\">服务标准</a>",
+          "<a href=\"/zh/news/\">资讯</a>",
+          "<a href=\"/zh/guides/\">指南</a>",
+          "<a href=\"/zh/faq/\">常见问题</a>",
+          "<a href=\"/zh/privacy/\">隐私政策</a>",
+          "<a href=\"tel:+61416614281\">0416 614 281</a>",
+          "<a href=\"mailto:admin@melonemaintenance.com.au\">admin@melonemaintenance.com.au</a>",
+          "<a href=\"/zh/case-studies/feed.json\">案例数据（JSON）</a>",
+          "<a href=\"/zh/service-areas/feed.json\">区域数据（JSON）</a>",
+          "<a href=\"tel:+61416614281\">致电 0416 614 281</a>",
+          "<a href=\"/zh/contact/\">开始咨询 <span aria-hidden=\"true\">↗</span></a>"
+        ],
+        "images": [
+          "<img src=\"/assets/mel-one-logo-authorized-224.webp\" alt=\"MEL ONE\" width=\"112\" height=\"64\">",
+          "<img data-image-layout=\"service-intro\" src=\"/assets/images/mel-one-outdoor-structures-fences.png\" alt=\"户外围栏与结构\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/mel-one-outdoor-structures-fences-480.webp 480w, /assets/images/responsive/mel-one-outdoor-structures-fences-960.webp 960w, /assets/images/responsive/mel-one-outdoor-structures-fences-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 320.00px), (max-width: 650px) min(calc(100vw - 40px), 320.00px), (max-width: 850px) min(calc(100vw - 40px), 373.33px), 320px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/mile-end-fence-repair-04.png\" alt=\"Mile End 住宅已完成的木围栏维修\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/mile-end-fence-repair-04-480.webp 480w, /assets/images/responsive/mile-end-fence-repair-04-960.webp 960w, /assets/images/responsive/mile-end-fence-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/modbury-timber-fence-repair-assessment-01.jpg\" alt=\"Modbury 物业破损的木围栏板\" loading=\"lazy\" decoding=\"async\" width=\"1707\" height=\"1280\" srcset=\"/assets/images/responsive/modbury-timber-fence-repair-assessment-01-480.webp 480w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-960.webp 960w, /assets/images/responsive/modbury-timber-fence-repair-assessment-01-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/stirling-deck-pergola-timber-repair-04.png\" alt=\"Stirling 完成后的木露台和凉棚区域\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/stirling-deck-pergola-timber-repair-04-480.webp 480w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-960.webp 960w, /assets/images/responsive/stirling-deck-pergola-timber-repair-04-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">",
+          "<img data-image-layout=\"card-pair\" src=\"/assets/images/cases/north-adelaide-timber-gate-repair-03.png\" alt=\"North Adelaide 修复后关闭的木质侧门\" loading=\"lazy\" decoding=\"async\" width=\"1448\" height=\"1086\" srcset=\"/assets/images/responsive/north-adelaide-timber-gate-repair-03-480.webp 480w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-960.webp 960w, /assets/images/responsive/north-adelaide-timber-gate-repair-03-1440.webp 1440w\" sizes=\"(max-width: 520px) min(calc(100vw - 36px), 410px), (max-width: 720px) min(calc(100vw - 40px), 410px), (max-width: 850px) min(calc(50vw - 32px), 410px), (max-width: 1100px) min(calc(50vw - 40px), 410px), (max-width: 1376px) min(calc(50vw - 60px), 410px), 410px\">"
+        ],
+        "faq": [
+          "<details><summary>局部露台维修能代替完整露台评估吗？</summary><p>不包括。局部维修针对约定的受损区域。如支承木材软化、松动或活动，MEL ONE 会在继续前讨论所需额外评估。更换一块板不等于认证整个露台，也不能确定隐蔽部件的状况。</p></details>",
+          "<details><summary>可以只评估一段损坏围栏吗？</summary><p>可以。请从安全位置展示受损部分和相邻支承。我们会评估区域，再确认适合局部维修还是进一步更换。</p></details>",
+          "<details><summary>露台咨询可以包含附近凉棚损坏吗？</summary><p>可以。请注明每个受影响区域。MEL ONE 会评估所述木材和连接，商定包含的维修项目及所需进一步评估。</p></details>",
+          "<details><summary>咨询拖地庭院门时应提供什么？</summary><p>请描述卡住位置、门闩是否扣合，以及是否需要抬门。安全拍摄的铰链、门闩和底部间隙照片有助于准备评估。</p></details>",
+          "<details><summary>清洁或涂油前可以先更换受损露台木板吗？</summary><p>首先需要评估木板及可接近的支撑。维修、表面准备和涂层属于不同项目。更大范围的腐朽或位移，可能需要在约定收尾方案前先作专业评估。</p></details>"
+        ],
+        "schema": [
+          "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"LocalBusiness\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\",\"name\":\"MEL ONE\",\"legalName\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD\",\"identifier\":{\"@type\":\"PropertyValue\",\"propertyID\":\"ABN\",\"value\":\"39666325408\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\",\"https://schema.org/Sunday\"],\"opens\":\"09:00\",\"closes\":\"21:00\"}],\"sameAs\":[\"https://www.instagram.com/melone.maintenance1/\",\"https://www.youtube.com/@MelOneMaintenance\",\"https://www.tiktok.com/@melonemaintenance5\"],\"description\":\"MEL ONE 在阿德莱德提供家居维修与家庭维护。请联系我们的团队安排现场评估，确认工作计划和书面报价。\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"logo\":\"https://www.adelaidehandymanmelone.com.au/assets/mel-one-logo-authorized-224.webp\",\"image\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-adelaide-service-area.png\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"telephone\":\"0416 614 281\",\"email\":\"admin@melonemaintenance.com.au\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"63 Pirie St\",\"addressLocality\":\"Adelaide\",\"addressRegion\":\"SA\",\"postalCode\":\"5000\",\"addressCountry\":\"AU\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/about/#webpage\"},\"disambiguatingDescription\":\"MEL ONE PROPERTY MAINTENANCE PTY LTD 设有独立团队，并在 63 Pirie St Adelaide SA 5000 拥有真实营业场所。到访办公室需预约；请致电或发邮件安排到访，或安排在您的房产进行评估。\"},{\"@type\":\"WebSite\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\",\"name\":\"MEL ONE\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/\",\"inLanguage\":\"zh-Hans\",\"publisher\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"subjectOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/schema-feed.json#feed\"}},{\"@type\":\"WebPage\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/#webpage\",\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/\",\"name\":\"露台、凉棚与户外维修\",\"description\":\"露台、凉棚及户外维修，处理局部木材损坏、松动木板、围栏板和院门配件。MEL ONE 会评估受影响部分及支撑结构。\",\"inLanguage\":\"zh-Hans\",\"isPartOf\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#website\"},\"about\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"primaryImageOfPage\":{\"@type\":\"ImageObject\",\"url\":\"https://www.adelaidehandymanmelone.com.au/assets/images/mel-one-outdoor-structures-fences.png\"},\"breadcrumb\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/#breadcrumb\"},\"keywords\":[\"露台、凉棚与户外维修\",\"凉棚木材维修\",\"木围栏维修\",\"家具组装\",\"花园整理\",\"围栏维修\",\"庭院门维修\",\"门维修\"],\"mainEntity\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/#service\"}},{\"@type\":\"Service\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/#service\",\"name\":\"露台、凉棚与户外维修\",\"description\":\"露台、凉棚及户外维修，处理局部木材损坏、松动木板、围栏板和院门配件。MEL ONE 会评估受影响部分及支撑结构。\",\"provider\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/#business\"},\"url\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/\",\"areaServed\":[{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide CBD 与 North Adelaide\"},{\"@type\":\"AdministrativeArea\",\"name\":\"东部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内南区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"内西区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"西部地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"北部和东北部\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Adelaide Hills 与山麓地区\"},{\"@type\":\"AdministrativeArea\",\"name\":\"南部郊区\"}],\"mainEntityOfPage\":{\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/#webpage\"},\"serviceType\":\"露台、凉棚与户外维修\"},{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"局部露台维修能代替完整露台评估吗？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"不包括。局部维修针对约定的受损区域。如支承木材软化、松动或活动，MEL ONE 会在继续前讨论所需额外评估。更换一块板不等于认证整个露台，也不能确定隐蔽部件的状况。\"}},{\"@type\":\"Question\",\"name\":\"可以只评估一段损坏围栏吗？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"可以。请从安全位置展示受损部分和相邻支承。我们会评估区域，再确认适合局部维修还是进一步更换。\"}},{\"@type\":\"Question\",\"name\":\"露台咨询可以包含附近凉棚损坏吗？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"可以。请注明每个受影响区域。MEL ONE 会评估所述木材和连接，商定包含的维修项目及所需进一步评估。\"}},{\"@type\":\"Question\",\"name\":\"咨询拖地庭院门时应提供什么？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"请描述卡住位置、门闩是否扣合，以及是否需要抬门。安全拍摄的铰链、门闩和底部间隙照片有助于准备评估。\"}},{\"@type\":\"Question\",\"name\":\"清洁或涂油前可以先更换受损露台木板吗？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"首先需要评估木板及可接近的支撑。维修、表面准备和涂层属于不同项目。更大范围的腐朽或位移，可能需要在约定收尾方案前先作专业评估。\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"首页\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"露台、凉棚与户外维修\",\"item\":\"https://www.adelaidehandymanmelone.com.au/zh/services/outdoor-structures-fences-pools/\"}]}]}"
+        ]
+      },
+      "maskedHash": "10c5bad9c6abfd1dd9200fa20d0a8250bb16ef5e7627fd00966e4f16d0ff9339"
+    },
+    {
+      "file": "zh/services/pressure-cleaning/index.html",
+      "sha256": "2b288ce2aef5b63c14d2d7622e6ea97592e1814bbd60524221a971872723e53a"
+    },
+    {
+      "file": "zh/services/roof-gutter-exterior-care/index.html",
+      "sha256": "ad883acefcaa2a6699b4510e7e6d3f5d67af6f33c8cb545f39c9a7994bb940c1"
+    },
+    {
+      "file": "zh/services/sliding-door-repair/index.html",
+      "sha256": "cd3e7d7ccb368c0456384e6c8d8bbd0258e9b71ce39f0354d8f2e19e212e3e34"
+    },
+    {
+      "file": "zh/services/wall-patching-repair/index.html",
+      "sha256": "2d0efbba48c144213b729824d234ae1c702859561f5334c60c15b56bcae52d85"
+    }
+  ]
+}

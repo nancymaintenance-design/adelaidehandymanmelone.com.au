@@ -4,10 +4,11 @@ import fs from 'node:fs';
 import {p2Snapshot,digest} from './helpers/p2-render-baseline.mjs';
 import {restoreUnleyPhotoOrder} from './helpers/unley-photo-order.mjs';
 import {followupFiles} from './helpers/p1-followup-baseline.mjs';
+import {seasonalFiles} from './helpers/seasonal-copy-baseline.mjs';
 const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/p2-20261022-baseline.json',import.meta.url),'utf8'));
 const read=file=>fs.readFileSync(new URL('../public/'+file,import.meta.url),'utf8');
-test('194 other pages stay identical; approved Unley and eight follow-up pages have narrower independent checks',()=>{
- let count=0;for(const old of baseline.pages)if(!old.slug&&!followupFiles.has(old.file)){assert.equal(digest(restoreUnleyPhotoOrder(read(old.file),old.file)),old.sha256,old.file);count++;}assert.equal(count,196);
+test('188 other pages retain the normalized prior baseline; later bodies have independent paragraph checks',()=>{
+ let count=0;for(const old of baseline.pages)if(!old.slug&&!followupFiles.has(old.file)&&!seasonalFiles.has(old.file)){assert.equal(digest(restoreUnleyPhotoOrder(read(old.file),old.file)),old.sha256,old.file);count++;}assert.equal(count,188);
 });
 for(const slug of ['cabinet-drawer-repair','flyscreen-repair','pressure-cleaning'])test(`${slug}: both languages shorten repeated body copy and retain FAQ, links, facts and layout`,()=>{
  for(const old of baseline.pages.filter(x=>x.slug===slug)){

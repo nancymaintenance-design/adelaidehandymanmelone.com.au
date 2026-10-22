@@ -47,5 +47,6 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   source = source.replace("import { applyP2CopyConcision } from './src/p2-copy-concision.mjs';", '').replace('applyP2CopyConcision(focusedServices);', '');
   // Actual eight follow-up pages have independent paragraph-only checks.
   source = source.replace("import { applyP1FollowupCopy } from './src/p1-followup-copy.mjs';", '').replace('applyP1FollowupCopy(content, focusedServices);', '');
+  source = source.replace("import { applySeasonalCopyConcision } from './src/seasonal-copy-concision.mjs';", '').replace('applySeasonalCopyConcision(content, focusedServices);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };
