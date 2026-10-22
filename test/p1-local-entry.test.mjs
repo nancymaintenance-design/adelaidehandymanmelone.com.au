@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {cabinetGardenFiles} from './helpers/cabinet-garden-baseline.mjs';
 import {frontAssemblyFiles} from './helpers/front-assembly-baseline.mjs';
 import {screenWardrobeFiles} from './helpers/screen-wardrobe-baseline.mjs';
 import assert from 'node:assert/strict';
@@ -35,9 +36,9 @@ test('six affected pages retain paired questions and visible FAQ matches JSON-LD
   assert.ok(d('[data-language-switch]').attr('href').includes(route));
  }
 });
-test('174 other pages retain the prior P1 contract; later bodies have separate released-baseline checks',()=>{
+test('170 other pages retain the prior P1 contract; later bodies have separate released-baseline checks',()=>{
  const affected=new Set(paths.flatMap(p=>[p+'index.html','zh/'+p+'index.html']));let count=0;
  const p2=new Set(['cabinet-drawer-repair','flyscreen-repair','pressure-cleaning'].flatMap(s=>[`services/${s}/index.html`,`zh/services/${s}/index.html`]));
- for(const p of baseline.pages)if(p2.has(p.file)||followupFiles.has(p.file)||seasonalFiles.has(p.file)||screenWardrobeFiles.has(p.file)||frontAssemblyFiles.has(p.file))continue;else if(!affected.has(p.file)){assert.equal(createHash('sha256').update(read(p.file).replaceAll('\r\n','\n')).digest('hex'),p.sha256,p.file);count++;}else assert.equal(p1BodyHash(read(p.file),p.file),p.maskedBodyHash,p.file);
- assert.equal(count,174);
+ for(const p of baseline.pages)if(cabinetGardenFiles.has(p.file)||p2.has(p.file)||followupFiles.has(p.file)||seasonalFiles.has(p.file)||screenWardrobeFiles.has(p.file)||frontAssemblyFiles.has(p.file))continue;else if(!affected.has(p.file)){assert.equal(createHash('sha256').update(read(p.file).replaceAll('\r\n','\n')).digest('hex'),p.sha256,p.file);count++;}else assert.equal(p1BodyHash(read(p.file),p.file),p.maskedBodyHash,p.file);
+ assert.equal(count,170);
 });

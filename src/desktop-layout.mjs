@@ -43,7 +43,7 @@ function wideTopic(html) {
 }
 
 function topicRows(html, route) {
-  const keepCasePreparation=/^\/case-studies\/(marion-wardrobe-sliding-door-repair|mile-end-fence-repair|north-adelaide-timber-gate-repair|prospect-gutter-cleaning|stirling-deck-pergola-timber-repair|henley-beach-sliding-screen-door-repair|stirling-flat-pack-wardrobe-assembly)\/$/.test(route);
+  const keepCasePreparation=/^\/case-studies\/(marion-wardrobe-sliding-door-repair|mile-end-fence-repair|north-adelaide-timber-gate-repair|prospect-gutter-cleaning|stirling-deck-pergola-timber-repair|henley-beach-sliding-screen-door-repair|stirling-flat-pack-wardrobe-assembly|modbury-garden-pruning-tidy-up)\/$/.test(route);
   const nodes=elements(html); let result='',cursor=0;
   for(let i=0;i<nodes.length;i++) {
     const a=nodes[i],b=nodes[i+1];

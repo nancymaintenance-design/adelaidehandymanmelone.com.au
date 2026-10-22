@@ -1,15 +1,18 @@
 import test from 'node:test';
+import {comparisonContextFiles,assertComparisonProtected} from './helpers/comparison-context-baseline.mjs';
+import {cabinetGardenFiles} from './helpers/cabinet-garden-baseline.mjs';
 import {frontAssemblyFiles} from './helpers/front-assembly-baseline.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {screenWardrobeDigest,screenWardrobeSnapshot,screenWardrobeParagraphs} from './helpers/screen-wardrobe-baseline.mjs';
 const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/screen-wardrobe-20261022-baseline.json',import.meta.url),'utf8'));
 const read=f=>fs.readFileSync(new URL('../public/'+f,import.meta.url),'utf8');
-test('202 other pages including both Adelaide CBD case pages remain byte-identical to released abd886d',()=>{
- let count=0;for(const old of baseline.pages)if(!old.route&&!frontAssemblyFiles.has(old.file)){assert.equal(screenWardrobeDigest(read(old.file)),old.sha256,old.file);count++;}assert.equal(count,202);
+test('198 other pages retain their baseline or a narrowly reviewed comparison paragraph; CBD remains unchanged to released abd886d',()=>{
+ let count=0;for(const old of baseline.pages)if(!old.route&&!cabinetGardenFiles.has(old.file)&&!frontAssemblyFiles.has(old.file)){if(comparisonContextFiles.has(old.file)){assertComparisonProtected(read(old.file),old.file);count++;continue;}assert.equal(screenWardrobeDigest(read(old.file)),old.sha256,old.file);count++;}assert.equal(count,198);
 });
 for(const route of Object.keys(screenWardrobeParagraphs))test(`${route}: concise EN/ZH paragraphs retain facts, photos, all links, headings, FAQ and layout`,()=>{
  for(const old of baseline.pages.filter(p=>p.route===route)){
+  if(comparisonContextFiles.has(old.file)){assertComparisonProtected(read(old.file),old.file);continue;}
   const now=screenWardrobeSnapshot(read(old.file),route);assert.deepEqual(now.protectedCopy,old.protectedCopy,old.file);
   const removed=old.file==='case-studies/stirling-flat-pack-wardrobe-assembly/index.html'?'flat pack assembly':old.file==='zh/case-studies/henley-beach-sliding-screen-door-repair/index.html'?'推拉门维修':null;
   const expected=old.derivedKeywords.map(list=>removed?[...list.filter(x=>x!==removed),old.protectedCopy.headings[2]]:list);

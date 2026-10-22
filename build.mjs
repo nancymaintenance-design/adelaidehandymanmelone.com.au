@@ -32,6 +32,8 @@ import { applyP1FollowupCopy } from './src/p1-followup-copy.mjs';
 import { applySeasonalCopyConcision } from './src/seasonal-copy-concision.mjs';
 import { applyScreenWardrobeConcision } from './src/screen-wardrobe-concision.mjs';
 import { applyFrontDoorAssemblyConcision } from './src/front-door-assembly-concision.mjs';
+import { applyCabinetGardenConcision } from './src/cabinet-garden-concision.mjs';
+import { applyCaseComparisonContext } from './src/case-comparison-context.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -63,6 +65,8 @@ applyP1FollowupCopy(content, focusedServices);
 applySeasonalCopyConcision(content, focusedServices);
 applyScreenWardrobeConcision(content);
 applyFrontDoorAssemblyConcision(content);
+applyCabinetGardenConcision(content);
+applyCaseComparisonContext(content);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';
