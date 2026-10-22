@@ -20,8 +20,12 @@ test('all 18 service edits preserve core H1 and keep reviewed symptoms in final 
     assert.equal(en('h1').text(), pilot ? pilot.h1 : original, route);
     // P2 explicitly authorises shortening these introductions. Keep the original
     // symptoms and scope limits independently checked, rather than requiring the
-    // superseded long paragraph verbatim. Other 15 services retain exact checks.
+    // superseded long paragraph verbatim. Other 14 services retain exact checks.
     const p2Symptoms={
+      'fence-gate-repair':[
+        [/broken palings/,/moving posts/,/wet ground beside a post/,/supports and connections/i,/wider replacement separately/,/leaning retaining walls/,/washout and pool-barrier faults/],
+        [/围栏竖板是否破损/,/立柱是否晃动/,/立柱旁是否持续潮湿/,/支撑与连接处须评估/,/较大范围更换分开比较/,/倾斜挡土墙/,/冲刷和泳池围栏故障/],
+      ],
       'cabinet-drawer-repair':[
         [/loose screw/,/swollen or crumbling/,/weakened board/,/drops or stops halfway/,/water-affected panels/],
         [/螺丝是否松动/,/膨胀或碎裂/,/受损的板材/,/抽屉下垂或拉到一半停住/,/哪些板材受过水/],

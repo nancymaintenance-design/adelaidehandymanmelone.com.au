@@ -28,6 +28,7 @@ import { applyPostRainContent } from './src/post-rain-content.mjs';
 import { applySemrushContent } from './src/semrush-content-refinement.mjs';
 import { applyP1LocalEntries } from './src/p1-local-entry.mjs';
 import { applyP2CopyConcision } from './src/p2-copy-concision.mjs';
+import { applyP1FollowupCopy } from './src/p1-followup-copy.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -55,6 +56,7 @@ applyPostRainContent(content, focusedServices);
 applySemrushContent(content, focusedServices);
 applyP1LocalEntries(content, localKeywordCopy);
 applyP2CopyConcision(focusedServices);
+applyP1FollowupCopy(content, focusedServices);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';

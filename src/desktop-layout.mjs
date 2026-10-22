@@ -42,7 +42,8 @@ function wideTopic(html) {
   return html.slice(0,start)+`<div class="desktop-topic-body"><div class="desktop-topic-unit">`+html.slice(start,split)+`</div><div class="desktop-topic-unit">`+html.slice(split,section.close)+`</div></div>`+html.slice(section.close);
 }
 
-function topicRows(html) {
+function topicRows(html, route) {
+  const keepCasePreparation=/^\/case-studies\/(marion-wardrobe-sliding-door-repair|mile-end-fence-repair|north-adelaide-timber-gate-repair)\/$/.test(route);
   const nodes=elements(html); let result='',cursor=0;
   for(let i=0;i<nodes.length;i++) {
     const a=nodes[i],b=nodes[i+1];
@@ -52,8 +53,8 @@ function topicRows(html) {
     const eligible = (n,s) => n?.tag==='section' && !/class="[^"]*faq-list/.test(s) && !classes(n).includes('guide-next');
     // Preserve the existing standalone ordinary-screen topic when copy shrinks;
     // its anchor and two internal columns are an established page boundary.
-    const standalone=n=>n&&/\bid="ordinary-screen-repairs"/.test(n.opening);
-    if(eligible(a,aHtml)&&eligible(b,bHtml)&&!standalone(a)&&!standalone(b)&&!/<h3\b/.test(aHtml+bHtml)&&Math.abs(textLength(aHtml)-textLength(bHtml))<=600) {
+    const standalone=(n,s)=>n&&(/\bid="ordinary-screen-repairs"/.test(n.opening)||(keepCasePreparation&&/<h2>[^<]*: Details for Another Property<\/h2>/.test(s)));
+    if(eligible(a,aHtml)&&eligible(b,bHtml)&&!standalone(a,aHtml)&&!standalone(b,bHtml)&&!/<h3\b/.test(aHtml+bHtml)&&Math.abs(textLength(aHtml)-textLength(bHtml))<=600) {
       result+=`<div class="desktop-topic-row">${aHtml}${html.slice(a.end,b.start)}${bHtml}</div>`;
       cursor=b.end;i++;
     } else {result+=eligible(a,aHtml)?wideTopic(aHtml):aHtml;cursor=a.end;}
@@ -97,7 +98,7 @@ export function composeDesktopLayout(html, route) {
       const opening=addition?n.opening.replace(/class="([^"]*)"/,`class="$1${addition}"`):n.opening;
       if(n.close!==undefined) {
         let inner=render(n.children,n.openEnd,n.close,count);
-        if(reading&&route!=='/privacy/') inner=topicRows(inner);
+        if(reading&&route!=='/privacy/') inner=topicRows(inner, route);
         if(classes(n).includes('compact-enquiry')) inner=inner.replace(/(<label\b[^>]*for="(?:name|email|phone|suburb)"[^>]*>[^]*?<\/label>)(<p class="field-error"[^>]*><\/p>)/g,'<div class="desktop-field">$1$2</div>');
         result+=opening+inner+html.slice(n.close,n.end);
       } else result+=opening;

@@ -5,6 +5,7 @@ import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {p1BodyHash} from './helpers/p1-render-baseline.mjs';
 import {restoreUnleyPhotoOrder} from './helpers/unley-photo-order.mjs';
+import {followupFiles} from './helpers/p1-followup-baseline.mjs';
 const paths=['case-studies/goodwood-wall-repair/','case-studies/modbury-timber-fence-repair-assessment/','service-areas/north-north-east/modbury/'];
 const read=file=>restoreUnleyPhotoOrder(fs.readFileSync(new URL('../public/'+file,import.meta.url),'utf8'),file);
 const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/p1-20261022-baseline.json',import.meta.url),'utf8'));
@@ -31,9 +32,9 @@ test('six affected pages retain paired questions and visible FAQ matches JSON-LD
   assert.ok(d('[data-language-switch]').attr('href').includes(route));
  }
 });
-test('198 other HTML pages stay identical; P1 bodies retain their narrow contract and six P2 bodies have separate released-baseline checks',()=>{
+test('190 other pages retain the prior P1 contract; approved follow-up and P2 bodies have separate released-baseline checks',()=>{
  const affected=new Set(paths.flatMap(p=>[p+'index.html','zh/'+p+'index.html']));let count=0;
  const p2=new Set(['cabinet-drawer-repair','flyscreen-repair','pressure-cleaning'].flatMap(s=>[`services/${s}/index.html`,`zh/services/${s}/index.html`]));
- for(const p of baseline.pages)if(p2.has(p.file))continue;else if(!affected.has(p.file)){assert.equal(createHash('sha256').update(read(p.file).replaceAll('\r\n','\n')).digest('hex'),p.sha256,p.file);count++;}else assert.equal(p1BodyHash(read(p.file),p.file),p.maskedBodyHash,p.file);
- assert.equal(count,198);
+ for(const p of baseline.pages)if(p2.has(p.file)||followupFiles.has(p.file))continue;else if(!affected.has(p.file)){assert.equal(createHash('sha256').update(read(p.file).replaceAll('\r\n','\n')).digest('hex'),p.sha256,p.file);count++;}else assert.equal(p1BodyHash(read(p.file),p.file),p.maskedBodyHash,p.file);
+ assert.equal(count,190);
 });

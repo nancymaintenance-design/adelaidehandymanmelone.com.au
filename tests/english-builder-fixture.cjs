@@ -45,5 +45,7 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Historical isolated fixtures predate the P2 paragraph-only edit. Real output
   // is compared with all 210 released pages in p2-copy-concision.test.mjs.
   source = source.replace("import { applyP2CopyConcision } from './src/p2-copy-concision.mjs';", '').replace('applyP2CopyConcision(focusedServices);', '');
+  // Actual eight follow-up pages have independent paragraph-only checks.
+  source = source.replace("import { applyP1FollowupCopy } from './src/p1-followup-copy.mjs';", '').replace('applyP1FollowupCopy(content, focusedServices);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };
