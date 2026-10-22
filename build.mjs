@@ -30,6 +30,7 @@ import { applyP1LocalEntries } from './src/p1-local-entry.mjs';
 import { applyP2CopyConcision } from './src/p2-copy-concision.mjs';
 import { applyP1FollowupCopy } from './src/p1-followup-copy.mjs';
 import { applySeasonalCopyConcision } from './src/seasonal-copy-concision.mjs';
+import { applyScreenWardrobeConcision } from './src/screen-wardrobe-concision.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -59,6 +60,7 @@ applyP1LocalEntries(content, localKeywordCopy);
 applyP2CopyConcision(focusedServices);
 applyP1FollowupCopy(content, focusedServices);
 applySeasonalCopyConcision(content, focusedServices);
+applyScreenWardrobeConcision(content);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';

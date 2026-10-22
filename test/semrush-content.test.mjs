@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {screenWardrobeFiles} from './helpers/screen-wardrobe-baseline.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -62,7 +63,7 @@ test('all 210 published-baseline titles, H1, metadata, links, images and non-FAQ
     // The later approved P1 entry/FAQ changes have a separate released-baseline
     // contract in p1-local-entry.test.mjs. Title/H1/meta/images/links remain above.
     // Six P2 bodies have a narrower paragraph-level released-baseline contract.
-    if(p1Entries.has(old.file)||p2Entries.has(old.file)||followupFiles.has(old.file)||seasonalFiles.has(old.file))continue;
+    if(p1Entries.has(old.file)||p2Entries.has(old.file)||followupFiles.has(old.file)||seasonalFiles.has(old.file)||screenWardrobeFiles.has(old.file))continue;
     if(!affected.has(old.file))assert.equal(dig($('body').toString()),old.bodyHash,old.file);
     else{const body=$('body').clone();body.find('.faq-list').text('REVIEWED_FAQ_GROUP');body.find('.article-date time').attr('datetime','REVIEW_DATE').text('REVIEW_DATE');assert.equal(dig(body.toString()),old.maskedBodyHash,old.file);}
   }
