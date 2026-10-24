@@ -6,6 +6,7 @@ import { applyLocalLabels } from './src/local-label-policy.mjs';
 import { enhanceMachineData } from './src/machine-readable.mjs';
 import { generateLlmsIndex } from './src/llms-index.mjs';
 import { composeHomeOffice } from './src/home-office.mjs';
+import { composeAdvisorContacts } from './src/advisor-contacts.mjs';
 import { applyServiceNavigation } from './src/service-navigation.mjs';
 import { applyPublicReferencePolicy } from './src/public-reference-policy.mjs';
 import { composeDesktopLayout } from './src/desktop-layout.mjs';
@@ -184,6 +185,7 @@ for (const asset of [
   'css/site.css', 'css/footer.css', 'css/home-office.css', 'css/service-navigation.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
   'icons/arrow-right.svg', 'icons/slash.svg', 'icons/bootstrap-icons-LICENSE.txt',
   'css/action-controls.css',
+  'css/advisor-contacts.css', 'images/advisors/ella.webp', 'images/advisors/felix.webp', 'images/advisors/riley.webp',
 ]) {
   const target = path.join(siteDir, 'assets', asset);
   fs.mkdirSync(path.dirname(target), { recursive: true });
@@ -631,6 +633,7 @@ console.log(`MEL ONE website: ${routes.length + 1} pages generated in ${siteDir}
 fs.appendFileSync(path.join(siteDir, 'llms.txt'), `\n## Machine-readable data\n\n- [Photographed case study data](${canonical('/case-studies/feed.json')}): Custom JSON catalogue of the same cases shown in HTML, with service, suburb and original image references.\n- [Service area data](${canonical('/service-areas/feed.json')}): Region hubs and suburb page URLs matching the live hierarchy.\n`);
 applyLocalLabels({ siteDir, routes });
 composeHomeOffice({ siteDir });
+composeAdvisorContacts({ siteDir });
 applyServiceNavigation({siteDir, routes, origin, services: published.services, focusedServices, caseStudies, guides: published.guides, news: published.news, serviceAreas: serviceAreas.map(area => ({...area,suburbs:areaSuburbs(area)}))});
 applyPublicReferencePolicy({siteDir, routes});
 renderBilingual({ siteDir, routes, origin, extract: process.argv.includes('--i18n-extract') });

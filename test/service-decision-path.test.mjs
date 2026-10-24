@@ -4,8 +4,8 @@ import fs from 'node:fs';
 import {load} from 'cheerio';
 import {serviceDecisionFiles,assertServiceDecisionProtected} from './helpers/service-decision-baseline.mjs';
 const page = route => load(fs.readFileSync('public'+route+'index.html','utf8'));
-test('the six-page later contract rejects unrelated changes instead of weakening historical fixtures',()=>{
-  assert.deepEqual([...serviceDecisionFiles].sort(),['index.html','services/doors-windows-screens/index.html','services/interior-repairs-assembly/index.html','zh/index.html','zh/services/doors-windows-screens/index.html','zh/services/interior-repairs-assembly/index.html'].sort());
+test('the scoped later contracts reject unrelated changes instead of weakening historical fixtures',()=>{
+  assert.deepEqual([...serviceDecisionFiles].sort(),['index.html','about/index.html','services/doors-windows-screens/index.html','services/interior-repairs-assembly/index.html','zh/index.html','zh/about/index.html','zh/services/doors-windows-screens/index.html','zh/services/interior-repairs-assembly/index.html'].sort());
   for(const file of serviceDecisionFiles){
     const html=fs.readFileSync('public/'+file,'utf8');assertServiceDecisionProtected(html,file);
     assert.throws(()=>assertServiceDecisionProtected(html.replace('tel:+61416614281','tel:+61000000000'),file),/exact reviewed/);

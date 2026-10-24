@@ -1,0 +1,29 @@
+/* Shared homepage/About contact cards. Existing page layout remains intact. */
+.advisor-section { padding: 80px 0; background: var(--obsidian); color: var(--limestone); }
+.advisor-section .section-heading { align-items: end; }
+.advisor-section .eyebrow { color: var(--crown-gold); }
+.advisor-section h2 { color: var(--limestone); }
+.advisor-intro { max-width: 680px; margin-top: 20px; line-height: 1.75; }
+body .advisor-section > .wrap > .section-heading > .text-link { --action-ink: var(--limestone); flex-shrink: 0; }
+.advisor-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.advisor-card { min-width: 0; border: 1px solid var(--line); background: var(--limestone); color: var(--obsidian); }
+.advisor-card > img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.advisor-card-body { padding: 26px 24px 28px; }
+.advisor-card .eyebrow { color: var(--muted); margin-bottom: 10px; }
+.advisor-card h3 { color: var(--obsidian); font-size: 36px; margin: 0 0 22px; }
+.advisor-contact { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; border-top: 1px solid var(--line); padding-top: 20px; }
+.advisor-contact > span { color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.advisor-contact > span:not(:first-child) { margin-top: 10px; }
+body .advisor-contact .text-link { display: flex; width: 100%; padding: 12px 14px; margin: 0; font-size: 14px; overflow-wrap: anywhere; }
+@media (max-width: 1050px) and (min-width: 721px) {
+  .advisor-grid { gap: 16px; }
+  .advisor-card-body { padding: 22px 16px; }
+  body .advisor-contact .text-link { font-size: 12px; }
+}
+@media (max-width: 720px) {
+  .advisor-section { padding: 52px 0; }
+  .advisor-section .section-heading { display: block; }
+  .advisor-section .section-heading > .text-link { margin-top: 24px; }
+  .advisor-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .advisor-card > img { max-height: 440px; object-position: center 28%; }
+}

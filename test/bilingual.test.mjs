@@ -67,7 +67,15 @@ test('Chinese pages preserve every section, FAQ, image, contact link and interna
     for (const doc of [en, zh]) {
       const phone = nodes(doc, n => attribute(n, 'href')?.startsWith('tel:'));
       assert.ok(phone.length > 0);
-      assert.ok(phone.every(n => attribute(n, 'href') === 'tel:+61416614281' && text(n).includes('0416 614 281')), route);
+      assert.ok(phone.every(n => {
+        let ancestor = n.parentNode;
+        while (ancestor && attribute(ancestor, 'id') !== 'advisors') ancestor = ancestor.parentNode;
+        const allowed = ancestor && ['/', '/about/'].includes(route)
+          ? { 'tel:+61416614281': '0416 614 281', 'tel:+61403202949': '0403 202 949', 'tel:+61482422607': '0482 422 607' }
+          : { 'tel:+61416614281': '0416 614 281' };
+        const number = allowed[attribute(n, 'href')];
+        return number && text(n).includes(number);
+      }), route);
       assert.ok(nodes(doc, n => attribute(n, 'href') === 'mailto:admin@melonemaintenance.com.au').length > 0, route);
     }
   }

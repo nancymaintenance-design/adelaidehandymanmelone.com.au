@@ -14,14 +14,18 @@ const cardCounts = new Map([
   ['/case-studies/', 20], ['/service-areas/', 8]
 ]);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
-// Two reviewed MIT Bootstrap UI icons are additions; no original photo or logo
-// is re-baselined. Any other new asset, missing original, or changed byte fails.
-const approvedActionIcons = {
+// Exact approved UI icons and adviser portraits are additions; no original
+// photo or logo is re-baselined. Other additions or changed bytes still fail.
+const approvedAdditionalImages = {
   'src/assets/icons/arrow-right.svg': 'edcfe1180dcc2afb750f1cb4b45524a5cdf6622a862b2e75320b4e4f057fc28c',
-  'src/assets/icons/slash.svg': '3c8a15d148c06af5356a20d5d301cc38fc5711737411d01d34e49b24d4e047c0'
+  'src/assets/icons/slash.svg': '3c8a15d148c06af5356a20d5d301cc38fc5711737411d01d34e49b24d4e047c0',
+  // User approved these three exact reference portraits on 24 October 2026.
+  'src/assets/images/advisors/ella.webp': '3b00d1381e799bedde5e5df8dd6412bd45190b84f362382cfb3e004d756779fb',
+  'src/assets/images/advisors/felix.webp': '673f67016757fbc614573c2db1190999aa4f7c15ea369ed9e7b4ec2c5ca675f4',
+  'src/assets/images/advisors/riley.webp': '830e489b45f4e766a8fc43ab3bb5dfccc01f436f35760455537e5ecff6225783'
 };
 function immutableImagesMatch(images, originals) {
-  const expected = { ...originals, ...approvedActionIcons };
+  const expected = { ...originals, ...approvedAdditionalImages };
   return Object.keys(images).length === Object.keys(expected).length &&
     Object.entries(expected).every(([file, hash]) => images[file] === hash);
 }

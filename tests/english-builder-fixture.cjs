@@ -14,6 +14,7 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   // Historical generator fixtures precede the homepage office composition.
   // Actual English/Chinese output is covered by test/home-office.test.mjs.
   source = source.replace("import { composeHomeOffice } from './src/home-office.mjs';", '').replace('composeHomeOffice({ siteDir });', '');
+  source = source.replace("import { composeAdvisorContacts } from './src/advisor-contacts.mjs';", '').replace('composeAdvisorContacts({ siteDir });', '');
   // The new machine-data stage consumes final bilingual pages. These legacy
   // fixtures intentionally have no Chinese output or installed parser packages;
   // test/machine-readable.test.mjs covers the real post-bilingual build instead.
