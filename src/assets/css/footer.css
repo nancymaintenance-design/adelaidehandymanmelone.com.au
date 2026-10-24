@@ -1,4 +1,5 @@
 @import url("/assets/css/action-controls.css");
+@import url("/assets/css/atelier.css");
 /* Footer-only amendment: keep the approved page layout stylesheet unchanged. */
 .site-footer .footer-grid > div:first-child > p {
   max-width: none;

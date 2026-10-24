@@ -1,0 +1,20 @@
+{
+  "before": {
+    "guides/index.html": "1aae5eb4ccfe327725c8a6463d9fa86110ff0f61d4704f5594a7075704c26e90",
+    "zh/guides/index.html": "950b7fb3fbfa8918b374da903d36553f783a94cf83363411dedd9eeb53216ee3",
+    "news/index.html": "f88faf2295cce3a079b8a356e32dfc69c566e9e73efaa7087c5b065db23cfc01",
+    "zh/news/index.html": "c0b902e079cd43b72e517a0bfd74e4cb3f12e3b2cc948d434b27df91b3384ccc",
+    "services/index.html": "21968bf49c1c063ab2492527afb4a8d9363856036078e4e036a31461526b9151",
+    "zh/services/index.html": "4b2f1fb3eb3ed08da67db427690fa55917db1d875f3c2698b45835fd9bc61766",
+    "case-studies/index.html": "5e75bb59ed8fa6ba601cbe4f8ab12758c86555e518ecb8df9d13f15cd215f6bf",
+    "zh/case-studies/index.html": "cc531a638cfbd9fa55da4788f76f6b79bb6cfe8ed07c5137e75054260e52452b",
+    "contact/index.html": "938e30e68fd79290553c680d9c2bbd24b2d21d0d3345d3c5375513adb37d8bff",
+    "zh/contact/index.html": "79d01170aeaf25e1f1de119a8e80febe9f3c90aae88993e2082f234957dd481e",
+    "faq/index.html": "afd45923067aa10ea9d77e85cf1980c0cef2c2bf2ca61badbe3ec0596bb66590",
+    "zh/faq/index.html": "e0068cdc58d04d5a91152415ad94413a24c721da3c444ed31b2b3392ad9d03a8",
+    "service-standards/index.html": "0762730c1b8908eea723d2b0f357fa2f87fb51197317cd9826aff2ab6ad585b7",
+    "zh/service-standards/index.html": "ff13e53e2451eb651e11292547b83f2b7450579d098fce3b907e9392d61c33ab",
+    "how-it-works/index.html": "2f92256eec3a78cab9bed4792c0472b13ae31d91a63c2e689c792f662af33f6e",
+    "zh/how-it-works/index.html": "890f07733116f10f8fa4dce0f8d2789b3963974d984c1cbf1e7bc7f4efc1af96"
+  }
+}

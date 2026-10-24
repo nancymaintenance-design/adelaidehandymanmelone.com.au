@@ -4,11 +4,13 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {parse} from 'parse5';
+import {restoreGuideDirectoryPhotos} from './helpers/guide-directory-photos.mjs';
+import {restoreTitleThemePhoto} from './helpers/title-theme-photos.mjs';
 const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/advisor-contacts-20261024.json',import.meta.url),'utf8'));
 const hash=s=>createHash('sha256').update(s.replaceAll('\r\n','\n')).digest('hex');
-test('only the four home/About pages add the contact section and its stylesheet; all other HTML stays unchanged',()=>{
+test('the four home/About contact sections and later guide photos preserve all prior HTML',()=>{
  for(const [file,oldHash] of Object.entries(baseline.before)){
-  let html=fs.readFileSync('public/'+file,'utf8');
+  let html=restoreGuideDirectoryPhotos(restoreTitleThemePhoto(fs.readFileSync('public/'+file,'utf8'),file),file);
   if(baseline.pages[file]){
    const nodes=[];const visit=n=>{nodes.push(n);for(const c of n.childNodes||[])visit(c)};visit(parse(html,{sourceCodeLocationInfo:true}));
    const additions=nodes.filter(n=>n.attrs?.some(a=>(a.name==='id'&&a.value==='advisors')||(n.tagName==='link'&&a.name==='href'&&a.value==='/assets/css/advisor-contacts.css')));

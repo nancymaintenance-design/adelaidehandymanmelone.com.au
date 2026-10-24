@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { addTitlePhoto } from './src/title-photos.mjs';
 /** MEL ONE local candidate. Public facts originate only in the approved content contract. */
 import fs from 'node:fs';
 import { renderBilingual } from './src/i18n/bilingual.mjs';
@@ -184,7 +185,7 @@ fs.rmSync(path.join(siteDir, 'assets'), { recursive: true, force: true });
 for (const asset of [
   'css/site.css', 'css/footer.css', 'css/home-office.css', 'css/service-navigation.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
   'icons/arrow-right.svg', 'icons/slash.svg', 'icons/bootstrap-icons-LICENSE.txt',
-  'css/action-controls.css',
+  'css/action-controls.css', 'css/atelier.css',
   'css/advisor-contacts.css', 'images/advisors/ella.webp', 'images/advisors/felix.webp', 'images/advisors/riley.webp',
 ]) {
   const target = path.join(siteDir, 'assets', asset);
@@ -238,6 +239,10 @@ function responsiveImages(html) {
     const desktopCap = Math.min(metadata.width, 240 * ratio).toFixed(2);
     const sizes = tag.includes('data-guide-photo')
       ? `(max-width: 650px) min(calc(100vw - 68px), ${Math.min(metadata.width, 240 * ratio).toFixed(2)}px), ${Math.min(metadata.width, 280 * ratio, 300).toFixed(2)}px`
+      : layout === 'title-theme'
+      ? '(max-width: 520px) calc(100vw - 36px), (max-width: 850px) calc(100vw - 40px), (max-width: 1100px) calc(50vw - 28px), (max-width: 1376px) calc(50vw - 48px), 640px'
+      : layout === 'guide-preview'
+      ? '(max-width: 380px) calc(100vw - 36px), (max-width: 650px) 112px, (max-width: 1100px) 132px, 180px'
       : layout === 'service-intro'
       ? `(max-width: 520px) min(calc(100vw - 36px), ${Math.min(metadata.width, 240 * ratio).toFixed(2)}px), (max-width: 650px) min(calc(100vw - 40px), ${Math.min(metadata.width, 240 * ratio).toFixed(2)}px), (max-width: 850px) min(calc(100vw - 40px), ${Math.min(metadata.width, 280 * ratio).toFixed(2)}px), 320px`
       : detail
@@ -318,8 +323,16 @@ const paragraphHtml = text => Array.isArray(text) ? text.map(part => typeof part
 const sectionHtml = (section, index, anchors = false) => `<section${anchors ? ` id="guide-section-${index + 1}"` : section.id ? ` id="${escapeHtml(section.id)}"` : ''}><h2>${escapeHtml(section.heading || section.title)}</h2>${(section.paragraphs || (section.body ? [section.body] : [])).map(text => `<p>${paragraphHtml(text)}</p>`).join('')}${section.items ? list(section.items) : ''}${readingLinks(section.links)}</section>`;
 const guideContents = sections => `<nav class="guide-contents" aria-label="On this guide"><h2>In this guide</h2><ul class="plain-list">${sections.map((section, index) => `<li><a href="#guide-section-${index + 1}">${escapeHtml(section.heading || section.title)}</a></li>`).join('')}<li><a href="#guide-questions">Common questions</a></li></ul></nav>`;
 const consolidatedGuideContents = sections => `<nav class="guide-contents" aria-label="On this guide"><h2>In this guide</h2><ul class="plain-list">${sections.map(s => `<li><a href="#${escapeHtml(s.id)}">${escapeHtml(s.heading)}</a></li>`).join('')}<li><a href="#guide-questions">Common questions</a></li></ul></nav>`;
+function guideDirectoryPhoto(record) {
+  // Reuse the photograph and approved alt already attributed inside this guide.
+  const revision = guideRevision(record, caseStudies, editorialUpdates);
+  if (!revision) return '';
+  const meta = imageManifest[revision.image.src];
+  if (!meta) throw new Error('Missing guide directory image metadata: ' + record.slug);
+  return `<div class="guide-preview-photo"><img data-image-layout="guide-preview" src="${escapeHtml(revision.image.src)}" alt="${escapeHtml(revision.image.alt)}" width="${meta.width}" height="${meta.height}" loading="lazy" decoding="async"></div>`;
+}
 function guideDirectory(records) {
-  return `<div class="guide-directory"><header class="page-intro wrap"><p class="eyebrow">Field notes</p><h1>${escapeHtml(keywordPageCopy['/guides/'].title)}</h1><p class="lede">Understand the repair, organise your observations and prepare the questions that matter before approving work.</p><nav class="guide-topic-nav" aria-label="Guide topics">${guideTopics.map(t => `<a href="#${t.id}">${escapeHtml(t.title)}</a>`).join('')}</nav></header><div class="wrap"><h2>Choose a practical repair guide</h2>${guideTopics.map(t => `<section class="guide-topic-group" id="${t.id}"><h2>${escapeHtml(t.title)}</h2><div class="guide-directory-list">${t.slugs.map(slug => records.find(g => g.slug === slug)).filter(Boolean).map(g => `<article class="note-card"><h3><a href="/guides/${g.slug}/">${escapeHtml(g.shortTitle || g.title)}</a></h3><p>${escapeHtml(g.description)}</p></article>`).join('')}</div></section>`).join('')}</div></div>`;
+  return `<div class="guide-directory"><header class="page-intro wrap"><p class="eyebrow">Field notes</p><h1>${escapeHtml(keywordPageCopy['/guides/'].title)}</h1><p class="lede">Understand the repair, organise your observations and prepare the questions that matter before approving work.</p><nav class="guide-topic-nav" aria-label="Guide topics">${guideTopics.map(t => `<a href="#${t.id}">${escapeHtml(t.title)}</a>`).join('')}</nav></header><div class="wrap"><h2>Choose a practical repair guide</h2>${guideTopics.map(t => `<section class="guide-topic-group" id="${t.id}"><h2>${escapeHtml(t.title)}</h2><div class="guide-directory-list">${t.slugs.map(slug => records.find(g => g.slug === slug)).filter(Boolean).map(g => `<article class="note-card">${guideDirectoryPhoto(g)}<h3><a href="/guides/${g.slug}/">${escapeHtml(g.shortTitle || g.title)}</a></h3><p>${escapeHtml(g.description)}</p></article>`).join('')}</div></section>`).join('')}</div></div>`;
 }
 function renderConsolidatedGuide(record, route) {
   const revision = guideRevision(record, caseStudies, editorialUpdates);
@@ -405,7 +418,7 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
   body = composeDesktopLayout(body, route);
   // Decorative textures and branding are not representative content images.
   const contentImageTag = [...body.matchAll(/<img\b[^>]*>/g)].map(match => match[0]).find(tag =>
-    !tag.includes('task-wall-texture') && !/\b(?:alt=""|aria-hidden="true")/.test(tag) && tag.match(/\bsrc="([^"]+)"/)?.[1] !== logo);
+    !tag.includes('task-wall-texture') && !tag.includes('data-image-layout="guide-preview"') && !/\b(?:alt=""|aria-hidden="true")/.test(tag) && tag.match(/\bsrc="([^"]+)"/)?.[1] !== logo);
   const contentImage = contentImageTag?.match(/\bsrc="([^"]+)"/)?.[1];
   const primaryImage = contentImage ? new URL(contentImage, origin).href : undefined;
   const socialImage = primaryImage || canonical(intakeAssets.areas);
@@ -431,7 +444,7 @@ function page({ route, title, description, body, schema = [], crumbs = [], noind
   const withSocialLinks = withFeedLinks
     .replace(footerDescription, `${footerDescription}${socialLinks}`)
     .replace('</head>', '<link rel="stylesheet" href="/assets/css/footer.css"></head>');
-  const finalHtml = responsiveImages(withSocialLinks.replace('</body>', `${mobileActions}</body>`));
+  const finalHtml = responsiveImages(addTitlePhoto(withSocialLinks.replace('</body>', `${mobileActions}</body>`), route, caseStudies, imageManifest, escapeHtml));
   validateSecurityPolicy(finalHtml, securityPolicy);
   fs.writeFileSync(destination, finalHtml);
   if (!noindex) routes.push({ route, title, description, ...(lastmod ? { lastmod } : {}) });
