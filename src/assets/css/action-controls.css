@@ -1,0 +1,151 @@
+/* chamfer-actions:start — selected visual direction, 2026-10-24.
+   Presentation only: preserve content, link destinations and accessible names.
+   Arrow: Bootstrap Icons 1.11.3 arrow-right, MIT, https://icons.getbootstrap.com/.
+   Public source and full licence retained in the matching local design report. */
+body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)) {
+  --action-ink: var(--obsidian);
+  --action-corner: var(--crown-gold);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 48px;
+  padding: 12px 20px;
+  border: 1.5px solid var(--action-ink);
+  border-radius: 0;
+  background: transparent;
+  color: var(--action-ink);
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.45;
+  text-align: left;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+  box-shadow: none;
+  transition: border-color .16s, color .16s, box-shadow .16s;
+}
+body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a))::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: -4px;
+  width: 21px;
+  border-top: 4px solid var(--action-corner);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+body :is(.button, :where(.text-link:has(> span[aria-hidden="true"])), .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a)) { padding-right: 56px; }
+body :is(.button, :where(.text-link:has(> span[aria-hidden="true"])), .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a)) > span[aria-hidden="true"] { display: none; }
+body :is(.button, :where(.text-link:has(> span[aria-hidden="true"])), .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a))::after {
+  content: '';
+  position: absolute;
+  right: 17px;
+  top: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  background-color: currentColor;
+  mask: url('/assets/icons/arrow-right.svg') center / contain no-repeat;
+  pointer-events: none;
+  transition: translate .16s;
+}
+body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)):hover {
+  background: transparent;
+  color: var(--action-ink);
+  border-color: var(--action-ink);
+  box-shadow: inset 0 -3px 0 var(--action-corner);
+  text-decoration: none;
+}
+body :is(.button, :where(.text-link:has(> span[aria-hidden="true"])), .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a)):hover::after { translate: 3px 0; }
+body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)):focus-visible {
+  background: transparent;
+  color: var(--action-ink);
+  outline: 2px solid var(--action-ink);
+  outline-offset: -6px;
+  box-shadow: inset 0 0 0 2px var(--action-corner);
+}
+body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)):active { translate: 0 1px; }
+body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)):disabled { opacity: .55; cursor: not-allowed; translate: none; box-shadow: none; }
+body :is(.hero-copy, .process-section, .task-card--1, .task-card--6, .task-card--8) :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)) { --action-ink: var(--limestone); }
+body .hero-copy .primary { --action-ink: var(--crown-gold); }
+body .repair-entry { margin-top: 14px; }
+body .contact-band :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)) { --action-corner: var(--obsidian); }
+body .primary-nav .header-enquiry { padding: 10px 44px 10px 14px; margin-left: 0; }
+body .primary-nav .header-enquiry::after { right: 12px; width: 18px; }
+body .service-shortcuts { margin-bottom: 28px; }
+body .service-shortcuts h3 { margin-bottom: 18px; }
+body .service-shortcuts > ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px 22px; }
+body .service-shortcuts li { min-width: 0; }
+body .service-shortcuts li a { display: flex; width: 100%; min-height: 70px; height: 100%; border-width: 2px; font-size: 18px; padding-left: 22px; padding-right: 84px; }
+body .service-shortcuts li a::after {
+  width: 54px; height: 36px; top: calc(50% - 18px); right: 16px;
+  mask-image: url('/assets/icons/arrow-right.svg'), url('/assets/icons/slash.svg');
+  mask-position: right center, left center;
+  mask-size: 22px 22px, 24px 36px;
+  mask-repeat: no-repeat;
+}
+body .service-shortcuts > p { margin-top: 20px; }
+body .region-links { gap: 12px 20px; }
+body .region-links a { width: 100%; min-height: 58px; }
+body .text-link + .text-link { margin-top: 10px; }
+body .section-heading > .text-link { flex-shrink: 0; max-width: 100%; }
+body .note-card > .text-link { margin-top: 18px; }
+body .company-record-grid .text-link { font-size: 13px; padding: 10px 42px 10px 10px; }
+body .company-record-grid .text-link::after { right: 12px; width: 17px; }
+body .answer-nav, body .guide-topic-nav { gap: 10px; }
+body .answer-nav a, body .guide-topic-nav a { padding: 10px 18px; }
+body .area-atlas .note-card .plain-list { grid-template-columns: minmax(0, 1fr); }
+body .area-atlas .note-card .text-link { width: 100%; font-size: 13px; }
+body .mobile-actions a { --action-ink: var(--limestone); color: var(--limestone); width: 100%; min-height: 48px; padding: 10px 36px 10px 12px; font-size: 13px; }
+body .mobile-actions a::after { right: 10px; width: 18px; }
+body .mobile-actions a:last-child { border-width: 2px; }
+body .contact-band .primary,
+body .contact-band .primary:hover,
+body .contact-band .primary:focus-visible,
+body .mobile-actions a:last-child,
+body .mobile-actions a:last-child:hover,
+body .mobile-actions a:last-child:focus-visible {
+  background: transparent;
+  color: var(--action-ink);
+}
+body .hero-copy .primary:hover { background: transparent; color: var(--crown-gold); }
+body .hero-copy .secondary:hover { background: transparent; color: var(--limestone); }
+body .menu-toggle { border: 1.5px solid var(--obsidian); border-radius: 0; background: transparent; min-height: 48px; padding: 10px 16px; font-weight: 650; }
+body .menu-toggle:hover, body .menu-toggle[aria-expanded="true"] { background: transparent; box-shadow: inset 0 -3px 0 var(--crown-gold); }
+body .faq-list summary:hover { text-decoration: underline; text-underline-offset: 5px; }
+@media (max-width: 1100px) and (min-width: 851px) {
+  body .service-shortcuts li a { font-size: 15px; padding-left: 16px; }
+  body .primary-nav { gap: 14px; }
+}
+@media (max-width: 850px) {
+  body .service-shortcuts > ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  body .primary-nav .header-enquiry { flex-basis: 100%; }
+  body .section-heading > .text-link { flex-shrink: 1; }
+}
+@media (max-width: 520px) {
+  body .service-shortcuts > ul { grid-template-columns: minmax(0, 1fr); }
+  body .service-shortcuts li a { min-height: 58px; font-size: 16px; padding-left: 18px; }
+  body .hero-copy .button { flex: 1 1 100%; min-height: 52px; font-size: 14px; padding: 12px 52px 12px 18px; }
+  body .task-card > .text-link { max-width: 100%; }
+  body .answer-nav a, body .guide-topic-nav a { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  /* Motion preference does not change button geometry. */
+  body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)), body :is(.button, :where(.text-link:has(> span[aria-hidden="true"])), .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a))::after { transition: none; translate: none; }
+  /* This fixed corner is a border detail, not motion. */
+  body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a))::before { transform: rotate(45deg) !important; }
+}
+@media (max-width: 360px) {
+  body .mobile-actions a { font-size: 12px; padding-inline: 10px; }
+  body .mobile-actions a::after { display: none; }
+}
+@media (forced-colors: active) {
+  body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)) { clip-path: none; border-color: ButtonText; color: LinkText; }
+  body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a))::before { display: none; }
+  body :is(.button, .text-link, .header-enquiry, :where(.mobile-actions a), :where(.service-shortcuts li a), :where(.region-links a), :where(.answer-nav a), :where(.guide-topic-nav a)):focus-visible { outline: 3px solid Highlight; outline-offset: -6px; }
+}
+/* chamfer-actions:end */

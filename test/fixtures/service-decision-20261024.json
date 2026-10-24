@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "reason": "Only homepage finder order/anchor and two existing parent-service FAQ/evidence links; cases and all other pages unchanged",
+  "pages": {
+    "index.html": {
+      "before": "5bd3369ab717f3d3c4c397b90b5a4ef2d387ae48acae06e6be2e803cf41d643c",
+      "after": "41eb339d182ed5b710511ab400019f3aa7efe98f20ffe418204df7cb7db78179"
+    },
+    "services/doors-windows-screens/index.html": {
+      "before": "7bdc7394fc478d63e4197b89abf2dc01c0b2e467023c603747d5dc6086542fdd",
+      "after": "63fb504fbffe0e1673cfcd3f557f58e7db5164a250ebdd36db3b071deab07519"
+    },
+    "services/interior-repairs-assembly/index.html": {
+      "before": "101d8e395896c95f98dee0825114d48078f94a25c48d1430081362dff4d4137f",
+      "after": "1ec2dbeb8f939db1dc231289470529c5a39b940cf88a31a521156c3ad6a31c9e"
+    },
+    "zh/index.html": {
+      "before": "cff05f5e68b664ad29d5da63ebccd1e86f846e945b1a243ed5c5d4412078427a",
+      "after": "333d10c1640125e50f1c0e3696cade0912a2b2a4a4bca16800aa85c613df80d6"
+    },
+    "zh/services/doors-windows-screens/index.html": {
+      "before": "77825b6d33feaac0b8caa5e55fe1a1cf752d3e546ccd483a4e86d222a4208453",
+      "after": "29b810769baa0bbe4165b684d9312d2a6a5443acc604d1bd03b6cac6ebdafabc"
+    },
+    "zh/services/interior-repairs-assembly/index.html": {
+      "before": "dab03ad062fdcc9def818fffbe46d22c493d5713ed74bd4f5ae534257472c935",
+      "after": "efb2c3e6feaa9177ed74d8db0f230189f7cdecc4a24841f1323bcf541ab25cf3"
+    }
+  }
+}

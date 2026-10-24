@@ -1,0 +1,2 @@
+# Preserve the reviewed upstream SVG byte hashes across Windows/Linux checkouts.
+*.svg text eol=lf

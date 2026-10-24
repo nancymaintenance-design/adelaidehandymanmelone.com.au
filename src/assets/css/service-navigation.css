@@ -4,7 +4,7 @@
 .breadcrumbs a, .breadcrumbs [aria-current] { overflow-wrap:anywhere; }
 .breadcrumbs a { display:inline-flex; align-items:center; min-height:44px; }
 .breadcrumbs .breadcrumb-separator { flex:none; }
-.service-shortcuts { margin-top:1.5rem; }
+.service-shortcuts { margin-top:1.5rem; scroll-margin-top:130px; }
 .service-shortcuts h3 { font-family:var(--body); font-size:1rem; margin:0 0 .5rem; }
 .service-shortcuts ul { display:flex; flex-wrap:wrap; gap:.3rem 1.5rem; list-style:none; padding:0; margin:0; }
 .service-shortcuts a { display:inline-flex; align-items:center; min-height:44px; }

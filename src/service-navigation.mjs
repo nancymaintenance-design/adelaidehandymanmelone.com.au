@@ -138,10 +138,12 @@ export function applyServiceNavigation(options) {
       const links=priorityServices.map(slug=>records.get(serviceRoute(slug)));
       // Within the existing service section: no new hero, full-width band or
       // repeated FAQ/area list. Each target has its stable customer-facing name.
-      const list=`<nav class="service-shortcuts" aria-label="Repair services"><h3>Find the repair you need</h3><ul>${links.map(item=>`<li><a href="${item.route}">${esc(item.label)}</a></li>`).join('')}</ul></nav>`;
-      const servicesLink=/<a class="text-link section-link" href="\/services\/"[^]*?<\/a>/;
-      if(!servicesLink.test(html))throw Error('Homepage service section boundary changed');
-      html=html.replace(servicesLink,'$&'+list);
+      const list=`<nav id="find-repair" class="service-shortcuts" aria-label="Repair services"><h3>Find the repair you need</h3><ul>${links.map(item=>`<li><a href="${item.route}">${esc(item.label)}</a></li>`).join('')}</ul><p>Several small jobs? <a href="/guides/field-notes-grouping-multiple-household-jobs/">Prepare a household repair list</a>.</p></nav>`;
+      const serviceCards=/<section class="task-wall"/;
+      const heroNote=/<p class="hero-footnote">/;
+      if(!serviceCards.test(html)||!heroNote.test(html))throw Error('Homepage repair entry boundary changed');
+      html=html.replace(serviceCards,list+'$&');
+      html=html.replace(heroNote,'<p class="repair-entry"><a class="text-link" href="#find-repair">Find the repair you need <span aria-hidden="true">↓</span></a></p>$&');
     }
     if(entry.type==='service'){
       const missing=[...records.values()].filter(child=>child.parent===entry.route&&!exposed.has(child.route));

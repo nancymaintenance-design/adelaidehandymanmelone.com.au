@@ -34,6 +34,7 @@ import { applyScreenWardrobeConcision } from './src/screen-wardrobe-concision.mj
 import { applyFrontDoorAssemblyConcision } from './src/front-door-assembly-concision.mjs';
 import { applyCabinetGardenConcision } from './src/cabinet-garden-concision.mjs';
 import { applyCaseComparisonContext } from './src/case-comparison-context.mjs';
+import { applyServiceDecisionPath } from './src/service-decision-path.mjs';
 import serviceCityPilot from './src/content-pack/service-city-pilot.json' with { type: 'json' };
 
 const projectDir = path.dirname(fileURLToPath(import.meta.url));
@@ -67,6 +68,7 @@ applyScreenWardrobeConcision(content);
 applyFrontDoorAssemblyConcision(content);
 applyCabinetGardenConcision(content);
 applyCaseComparisonContext(content);
+applyServiceDecisionPath(content);
 // Actual editorial review dates for this approved local batch only.
 for (const [route, copy] of Object.entries(serviceCityPilot)) pageRevisions[route] = copy.reviewDate;
 for (const slug of ['norwood-flyscreen-repair', 'burnside-driveway-pressure-cleaning']) pageRevisions[`/case-studies/${slug}/`] = '2026-10-22';
@@ -180,6 +182,8 @@ for (const name of fs.readdirSync(siteDir, { recursive: true })) {
 fs.rmSync(path.join(siteDir, 'assets'), { recursive: true, force: true });
 for (const asset of [
   'css/site.css', 'css/footer.css', 'css/home-office.css', 'css/service-navigation.css', 'js/site.js', 'mel-one-logo-authorized.png', 'mel-one-logo-authorized-224.webp',
+  'icons/arrow-right.svg', 'icons/slash.svg', 'icons/bootstrap-icons-LICENSE.txt',
+  'css/action-controls.css',
 ]) {
   const target = path.join(siteDir, 'assets', asset);
   fs.mkdirSync(path.dirname(target), { recursive: true });

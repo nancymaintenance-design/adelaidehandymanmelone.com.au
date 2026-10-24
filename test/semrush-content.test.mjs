@@ -1,3 +1,4 @@
+import {serviceDecisionFiles,assertServiceDecisionProtected} from './helpers/service-decision-baseline.mjs';
 import test from 'node:test';
 import {cabinetGardenFiles} from './helpers/cabinet-garden-baseline.mjs';
 import {frontAssemblyFiles} from './helpers/front-assembly-baseline.mjs';
@@ -55,7 +56,7 @@ test('all 210 published-baseline titles, H1, metadata, links, images and non-FAQ
   const dig=s=>createHash('sha256').update(s).digest('hex');
   const p1Entries=new Set(['case-studies/goodwood-wall-repair/index.html','case-studies/modbury-timber-fence-repair-assessment/index.html','service-areas/north-north-east/modbury/index.html'].flatMap(x=>[x,'zh/'+x]));
   const p2Entries=new Set(['cabinet-drawer-repair','flyscreen-repair','pressure-cleaning'].flatMap(x=>[`services/${x}/index.html`,`zh/services/${x}/index.html`]));
-  for(const old of baseline.pages){const $=read(old.file);
+  for(const old of baseline.pages){if(serviceDecisionFiles.has(old.file)){assertServiceDecisionProtected(fs.readFileSync(new URL('../public/'+old.file,import.meta.url),'utf8'),old.file);continue;}const $=read(old.file);
     assert.equal($('title').text(),old.title,old.file);assert.equal($('h1').text(),old.h1,old.file);assert.equal($('meta[name=description]').attr('content'),old.meta,old.file);
     const links=$('main a[href]').toArray().map(n=>$(n).attr('href'));
     if(p1Entries.has(old.file)){

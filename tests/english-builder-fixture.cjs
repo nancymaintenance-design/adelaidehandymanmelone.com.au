@@ -52,5 +52,7 @@ module.exports = function copyEnglishBuilder(root, fixture) {
   source = source.replace("import { applyFrontDoorAssemblyConcision } from './src/front-door-assembly-concision.mjs';", '').replace('applyFrontDoorAssemblyConcision(content);', '');
   source = source.replace("import { applyCabinetGardenConcision } from './src/cabinet-garden-concision.mjs';", '').replace('applyCabinetGardenConcision(content);', '');
   source = source.replace("import { applyCaseComparisonContext } from './src/case-comparison-context.mjs';", '').replace('applyCaseComparisonContext(content);', '');
+  // Historical fixtures predate the independently frozen six-page service-path review.
+  source = source.replace("import { applyServiceDecisionPath } from './src/service-decision-path.mjs';", '').replace('applyServiceDecisionPath(content);', '');
   fs.writeFileSync(path.join(fixture, 'build.mjs'), source);
 };

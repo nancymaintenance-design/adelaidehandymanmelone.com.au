@@ -14,6 +14,17 @@ const cardCounts = new Map([
   ['/case-studies/', 20], ['/service-areas/', 8]
 ]);
 const digest = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+// Two reviewed MIT Bootstrap UI icons are additions; no original photo or logo
+// is re-baselined. Any other new asset, missing original, or changed byte fails.
+const approvedActionIcons = {
+  'src/assets/icons/arrow-right.svg': 'edcfe1180dcc2afb750f1cb4b45524a5cdf6622a862b2e75320b4e4f057fc28c',
+  'src/assets/icons/slash.svg': '3c8a15d148c06af5356a20d5d301cc38fc5711737411d01d34e49b24d4e047c0'
+};
+function immutableImagesMatch(images, originals) {
+  const expected = { ...originals, ...approvedActionIcons };
+  return Object.keys(images).length === Object.keys(expected).length &&
+    Object.entries(expected).every(([file, hash]) => images[file] === hash);
+}
 function imageHashes() {
   const hashes = {};
   function visit(dir) {
@@ -79,7 +90,7 @@ async function run({ captureBaseline = false, phase = process.env.AUDIT_LAYOUT_P
     const baseline = JSON.parse(fs.readFileSync(baselineFile, 'utf8'));
     const failures = { media: [], grids: [], responsive: [], immutable: [], overflow: [] };
     if (routes.length !== 102 || JSON.stringify(h1) !== JSON.stringify(baseline.h1)) failures.immutable.push('Approved 102 H1 snapshot changed');
-    if (JSON.stringify(images) !== JSON.stringify(baseline.images)) failures.immutable.push('Original image bytes or inventory changed');
+    if (!immutableImagesMatch(images, baseline.images)) failures.immutable.push('Original image bytes or inventory changed');
     const metrics = [];
     const focusedRoutes = [...new Set([...mediaRoutes, ...cardCounts.keys(), '/services/roof-gutter-exterior-care/', '/services/home-electrical-repairs/', '/'])];
     for (const width of [1280, 1440, 1920, 850, 768, 390, 320]) {
@@ -134,7 +145,7 @@ async function run({ captureBaseline = false, phase = process.env.AUDIT_LAYOUT_P
     fs.rmSync(fixture, { recursive: true, force: true });
   }
 }
-module.exports = { run, mediaFailure, gridFailure };
+module.exports = { run, mediaFailure, gridFailure, immutableImagesMatch };
 if (require.main === module) run({ captureBaseline: process.argv.includes('--capture-baseline') }).then(result => {
   console.log(JSON.stringify({ ...result, metrics: undefined }, null, 2));
   if (result.failures && Object.values(result.failures).some(rows => rows.length)) process.exitCode = 1;
